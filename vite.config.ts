@@ -1,1 +1,46 @@
-aW1wb3J0IHBhdGggZnJvbSAicGF0aCIKaW1wb3J0IHJlYWN0IGZyb20gIkB2aXRlanMvcGx1Z2luLXJlYWN0IgppbXBvcnQgeyBkZWZpbmVDb25maWcgfSBmcm9tICJ2aXRlIgoKLy8gaHR0cHM6Ly92aXRlLmRldi9jb25maWcvCmV4cG9ydCBkZWZhdWx0IGRlZmluZUNvbmZpZyhhc3luYyAoeyBjb21tYW5kIH0pID0+IHsKICAvLyBpbnNwZWN0QXR0ciBzw7MgZW0gZGVzZW52b2x2aW1lbnRvIGxvY2FsIOKAlCBpbXBvcnQgZGluw6JtaWNvIGNvbSBmYWxsYmFjawogIC8vIHBhcmEgbyBidWlsZC9kZXBsb3kgbsOjbyBkZXBlbmRlciBkZSBwYWNvdGUgZm9yYSBkbyBucG0gcMO6YmxpY28KICBjb25zdCBkZXZQbHVnaW5zID0gY29tbWFuZCA9PT0gJ3NlcnZlJwogICAgPyBhd2FpdCBpbXBvcnQoJ2tpbWktcGx1Z2luLWluc3BlY3QtcmVhY3QnKQogICAgICAgIC50aGVuKChtKSA9PiBbbS5pbnNwZWN0QXR0cigpXSkKICAgICAgICAuY2F0Y2goKCkgPT4gW10pCiAgICA6IFtdOwoKICByZXR1cm4gewogIGJhc2U6ICcvJywKICBidWlsZDogewogICAgY29weVB1YmxpY0RpcjogZmFsc2UsCiAgICAvLyBDaHVuayBzZXBhcmFkbyBwYXJhIGFzIGxpYnMgUmVhY3Q6IG1lbGhvciBjYWNoZSBlIGNhcnJlZ2FtZW50byBwYXJhbGVsbwogICAgcm9sbHVwT3B0aW9uczogewogICAgICBvdXRwdXQ6IHsKICAgICAgICBtYW51YWxDaHVua3M6IHsKICAgICAgICAgIHZlbmRvcjogWydyZWFjdCcsICdyZWFjdC1kb20nLCAncmVhY3Qtcm91dGVyJ10sCiAgICAgICAgfSwKICAgICAgfSwKICAgIH0sCiAgfSwKICBwbHVnaW5zOiBbLi4uZGV2UGx1Z2lucywgcmVhY3QoKV0sCiAgc2VydmVyOiB7CiAgICBwb3J0OiAzMDAwLAogIH0sCiAgcmVzb2x2ZTogewogICAgYWxpYXM6IHsKICAgICAgIkAiOiBwYXRoLnJlc29sdmUoX19kaXJuYW1lLCAiLi9zcmMiKSwKICAgIH0sCiAgfSwKICB9Owp9KTsK
+import path from "path"
+import react from "@vitejs/plugin-react"
+import { defineConfig } from "vite"
+import type { PluginOption } from "vite"
+
+// https://vite.dev/config/
+export default defineConfig(async ({ command }) => {
+  // inspectAttr só em desenvolvimento local — import dinâmico com fallback
+  // para o build/deploy não depender de pacote fora do npm público.
+  // O nome vem de variável para o TypeScript não resolver o módulo em
+  // tempo de compilação (ele não existe no npm público).
+  let devPlugins: PluginOption[] = [];
+  if (command === 'serve') {
+    const inspectPkg = 'kimi-plugin-inspect-react';
+    try {
+      const mod: any = await import(/* @vite-ignore */ inspectPkg);
+      devPlugins = [mod.inspectAttr()];
+    } catch {
+      devPlugins = [];
+    }
+  }
+
+  return {
+  base: '/',
+  build: {
+    copyPublicDir: false,
+    // Chunk separado para as libs React: melhor cache e carregamento paralelo
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          vendor: ['react', 'react-dom', 'react-router'],
+        },
+      },
+    },
+  },
+  plugins: [...devPlugins, react()],
+  server: {
+    port: 3000,
+  },
+  resolve: {
+    alias: {
+      "@": path.resolve(__dirname, "./src"),
+    },
+  },
+  };
+});
