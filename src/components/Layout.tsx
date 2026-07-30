@@ -21,7 +21,9 @@ export function Reveal({ children, className = '' }: { children: ReactNode; clas
 
 function Logo({ dark }: { dark?: boolean }) {
   return (
-    <Link to="/" className="flex items-baseline gap-1" aria-label="TrancosoBA — Início">
+    <Link to="/" className="flex items-center gap-2.5 md:gap-3" aria-label="TrancosoBA — Início">
+      <img src={dark ? '/logo-igreja-branca.svg' : '/logo-igreja.svg'} alt="" width="1887" height="1383"
+        className="h-10 md:h-12 w-auto shrink-0" draggable={false} />
       <span className={`font-serif-e text-2xl md:text-3xl tracking-wide ${dark ? 'text-ivory' : 'text-green-e'}`}>
         Trancoso<span className="text-gold">BA</span>
       </span>
@@ -109,7 +111,10 @@ export function Footer() {
         <div className="grid gap-12 md:grid-cols-[1.2fr_1fr_1fr]">
           {/* Marca */}
           <div>
-            <span className="font-serif-e text-4xl md:text-5xl text-ivory">Trancoso<span className="text-gold">BA</span></span>
+            <div className="flex items-center gap-3">
+              <img src="/logo-igreja-branca.svg" alt="" width="1887" height="1383" className="h-12 md:h-14 w-auto shrink-0" draggable={false} />
+              <span className="font-serif-e text-4xl md:text-5xl text-ivory">Trancoso<span className="text-gold">BA</span></span>
+            </div>
             <p className="mt-4 font-serif-e italic text-xl text-ivory">{t.footer.tagline}</p>
           </div>
           {/* Navegação */}
