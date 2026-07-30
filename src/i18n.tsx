@@ -17,7 +17,8 @@ const dict = {
     },
     home: {
       introEyebrow: 'A TrancosoBA',
-      introTitle: 'Uma imobiliária com alma local.',
+      introTitleA: 'Uma imobiliária',
+      introTitleB: 'com alma local.',
       introText: 'Nascemos em Trancoso e conhecemos de perto tudo o que torna este lugar único. Selecionamos imóveis especiais e cuidamos de cada detalhe para oferecer experiências verdadeiramente personalizadas.',
       introCta: 'Conheça nossa história',
       featuredEyebrow: 'Curadoria',
@@ -147,7 +148,8 @@ const dict = {
     },
     home: {
       introEyebrow: 'TrancosoBA',
-      introTitle: 'An agency with a local soul.',
+      introTitleA: 'An agency',
+      introTitleB: 'with a local soul.',
       introText: 'We were born in Trancoso and know every street, every beach and every condominium. We select few houses — the best ones — and care for every stay as if our own family were arriving.',
       introCta: 'Our story',
       featuredEyebrow: 'Curation',
@@ -276,7 +278,8 @@ const dict = {
     },
     home: {
       introEyebrow: 'TrancosoBA',
-      introTitle: 'Una inmobiliaria con alma local.',
+      introTitleA: 'Una inmobiliaria',
+      introTitleB: 'con alma local.',
       introText: 'Nacimos en Trancoso y conocemos de cerca todo lo que hace único a este lugar. Seleccionamos propiedades especiales y cuidamos cada detalle para ofrecer experiencias verdaderamente personalizadas.',
       introCta: 'Conozca nuestra historia',
       featuredEyebrow: 'Curaduría',

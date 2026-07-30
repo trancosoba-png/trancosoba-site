@@ -101,9 +101,12 @@ export default function Home() {
       <section className="py-24 md:py-32">
         <div className="max-w-7xl mx-auto px-5 md:px-8">
           <Reveal className="max-w-3xl">
-            <h2 className="font-serif-e text-5xl md:text-7xl text-green-e leading-[1.1]">{t.home.introTitle}</h2>
-            <span className="block w-12 h-px bg-gold mt-8" />
-            <p className="mt-8 text-lg md:text-xl text-ink/70 leading-relaxed max-w-2xl">{t.home.introText}</p>
+            <h2 className="font-serif-e font-normal text-[44px] md:text-7xl leading-[1.12] tracking-[0.005em]">
+              <span className="block text-green-e">{t.home.introTitleA}</span>
+              <span className="block text-gold/90">{t.home.introTitleB}</span>
+            </h2>
+            <span className="block w-12 h-px bg-gold mt-9" />
+            <p className="mt-8 font-sans font-light text-lg md:text-xl text-ink/65 leading-[1.75] tracking-[0.01em] max-w-2xl">{t.home.introText}</p>
             <Link to="/nos" className="inline-flex items-center gap-2 mt-10 text-green-e tracking-[0.18em] uppercase text-sm border-b border-gold pb-1 hover:text-gold transition-colors">
               {t.home.introCta} <ArrowRight size={15} />
             </Link>
