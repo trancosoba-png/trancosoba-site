@@ -22,7 +22,7 @@ export default function CookieNotice() {
   };
 
   return (
-    <div className="fixed bottom-4 left-4 right-4 md:left-8 md:right-auto md:max-w-md z-[95] bg-green-deep text-ivory px-5 py-4 shadow-xl">
+    <div className="fixed bottom-4 left-4 right-4 md:left-8 md:right-auto md:max-w-md z-[80] bg-green-deep text-ivory px-5 py-4 shadow-xl">
       <p className="text-[13px] leading-relaxed text-ivory/85">
         {lang === 'pt'
           ? 'Usamos cookies para medir a audiência e melhorar sua experiência. Saiba mais na nossa '

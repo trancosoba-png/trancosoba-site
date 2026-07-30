@@ -27,6 +27,23 @@ export default function Imovel() {
   const total = p?.gallery.length ?? 0;
   const prev = useCallback(() => setActive(a => (a - 1 + total) % total), [total]);
   const next = useCallback(() => setActive(a => (a + 1) % total), [total]);
+  const stripRef = useRef<HTMLDivElement | null>(null);
+
+  // Pré-carrega a foto anterior e a próxima para troca instantânea
+  useEffect(() => {
+    if (!p || total < 2) return;
+    [1, -1, 2].forEach(d => {
+      const img = new Image();
+      img.src = p.gallery[(active + d + total) % total];
+    });
+  }, [active, p, total]);
+
+  // Mantém a miniatura atual visível na faixa do lightbox
+  useEffect(() => {
+    if (!open || !stripRef.current) return;
+    const el = stripRef.current.children[active] as HTMLElement | undefined;
+    el?.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
+  }, [active, open]);
 
   // Navegação por teclado + trava de scroll no lightbox
   useEffect(() => {
@@ -77,9 +94,17 @@ export default function Imovel() {
         <button type="button" onClick={() => { if ((window.history.state?.idx ?? 0) > 0) navigate(-1); else navigate('/casas'); }} className="inline-flex items-center gap-2 text-sm text-green-e/70 hover:text-gold transition-colors mb-6">
           <ArrowLeft size={15} /> {t.imovel.back}
         </button>
-        <div className="img-zoom overflow-hidden relative cursor-zoom-in select-none" onTouchStart={onTouchStart} onTouchEnd={onTouchEnd} onClick={() => setOpen(true)}>
+        <div className="img-zoom overflow-hidden relative cursor-zoom-in select-none group/gal" onTouchStart={onTouchStart} onTouchEnd={onTouchEnd} onClick={() => setOpen(true)}>
           <img src={p.gallery[active]} alt={`${txt(p.name, lang)} — ${t.imovel.gallery}`} fetchPriority="high" decoding="async" className="w-full aspect-[16/9] object-cover" draggable={false} />
           <span className="photo-shield" aria-hidden="true" />
+          <button type="button" onClick={(e) => { e.stopPropagation(); prev(); }} aria-label="Foto anterior"
+            className="absolute left-3 md:left-5 top-1/2 -translate-y-1/2 z-10 flex items-center justify-center w-11 h-11 md:w-12 md:h-12 rounded-full bg-green-deep/55 text-ivory backdrop-blur-sm transition-all hover:bg-gold hover:text-green-deep opacity-90 md:opacity-0 md:group-hover/gal:opacity-100">
+            <ChevronLeft size={26} />
+          </button>
+          <button type="button" onClick={(e) => { e.stopPropagation(); next(); }} aria-label="Próxima foto"
+            className="absolute right-3 md:right-5 top-1/2 -translate-y-1/2 z-10 flex items-center justify-center w-11 h-11 md:w-12 md:h-12 rounded-full bg-green-deep/55 text-ivory backdrop-blur-sm transition-all hover:bg-gold hover:text-green-deep opacity-90 md:opacity-0 md:group-hover/gal:opacity-100">
+            <ChevronRight size={26} />
+          </button>
           <span className="absolute bottom-3 right-3 bg-green-deep/70 text-ivory text-xs tracking-widest px-3 py-1.5 pointer-events-none">
             {active + 1} / {total}
           </span>
@@ -95,29 +120,48 @@ export default function Imovel() {
         </div>
       </section>
 
-      {/* Lightbox tela cheia */}
+      {/* Lightbox premium */}
       {open && (
         <div role="dialog" aria-modal="true" aria-label={`${txt(p.name, lang)} — ${t.imovel.gallery}`}
-          className="fixed inset-0 z-[90] bg-green-deep/95 backdrop-blur-sm flex items-center justify-center" onClick={() => setOpen(false)} onContextMenu={(e) => e.preventDefault()}>
-          <button onClick={() => setOpen(false)} aria-label="Fechar" className="absolute top-4 right-4 z-10 text-ivory/80 hover:text-gold transition-colors p-2">
-            <X size={30} />
+          className="fixed inset-0 z-[90] bg-green-deep/95 backdrop-blur-md flex flex-col" onClick={() => setOpen(false)} onContextMenu={(e) => e.preventDefault()}>
+          <button onClick={() => setOpen(false)} aria-label="Fechar"
+            className="absolute top-4 right-4 z-20 flex items-center justify-center w-12 h-12 rounded-full border border-ivory/25 bg-green-deep/60 text-ivory/90 backdrop-blur-sm transition-all hover:bg-gold hover:text-green-deep hover:border-gold">
+            <X size={24} />
           </button>
-          <span className="absolute top-5 left-5 text-ivory/70 text-sm tracking-[0.25em]">{active + 1} / {total}</span>
-          <button onClick={(e) => { e.stopPropagation(); prev(); }} aria-label="Anterior"
-            className="absolute left-2 md:left-6 z-10 text-ivory/70 hover:text-gold transition-colors p-2 md:p-3 bg-green-deep/40 rounded-full">
-            <ChevronLeft size={30} />
-          </button>
-          <div className="w-full h-full flex items-center justify-center px-2 md:px-20 py-16 select-none"
-            onClick={(e) => e.stopPropagation()} onTouchStart={onTouchStart} onTouchEnd={onTouchEnd}>
-            <span className="relative inline-block max-w-full max-h-full">
-              <img src={p.gallery[active]} alt={`${txt(p.name, lang)} — ${active + 1}`} className="max-w-full max-h-full object-contain" draggable={false} />
-              <span className="photo-shield" aria-hidden="true" />
-            </span>
+          <span className="absolute top-6 left-6 z-20 text-ivory/70 text-sm tracking-[0.25em]">{active + 1} / {total}</span>
+
+          {/* Área da imagem */}
+          <div className="relative flex-1 min-h-0 flex items-center justify-center px-16 md:px-28 pt-14 pb-4">
+            <button onClick={(e) => { e.stopPropagation(); prev(); }} aria-label="Foto anterior"
+              className="absolute left-3 md:left-8 top-1/2 -translate-y-1/2 z-10 flex items-center justify-center w-12 h-12 md:w-14 md:h-14 rounded-full border border-ivory/25 bg-green-deep/60 text-ivory backdrop-blur-sm transition-all hover:bg-gold hover:text-green-deep hover:border-gold hover:scale-105">
+              <ChevronLeft size={30} />
+            </button>
+            <div className="max-w-[min(1100px,100%)] max-h-full flex items-center justify-center select-none"
+              onClick={(e) => e.stopPropagation()} onTouchStart={onTouchStart} onTouchEnd={onTouchEnd}>
+              <span className="relative inline-block">
+                <img src={p.gallery[active]} alt={`${txt(p.name, lang)} — ${active + 1}`}
+                  className="max-w-full max-h-[calc(100vh-240px)] md:max-h-[calc(100vh-260px)] w-auto h-auto object-contain shadow-2xl" draggable={false} />
+                <span className="photo-shield" aria-hidden="true" />
+              </span>
+            </div>
+            <button onClick={(e) => { e.stopPropagation(); next(); }} aria-label="Próxima foto"
+              className="absolute right-3 md:right-8 top-1/2 -translate-y-1/2 z-10 flex items-center justify-center w-12 h-12 md:w-14 md:h-14 rounded-full border border-ivory/25 bg-green-deep/60 text-ivory backdrop-blur-sm transition-all hover:bg-gold hover:text-green-deep hover:border-gold hover:scale-105">
+              <ChevronRight size={30} />
+            </button>
           </div>
-          <button onClick={(e) => { e.stopPropagation(); next(); }} aria-label="Próxima"
-            className="absolute right-2 md:right-6 z-10 text-ivory/70 hover:text-gold transition-colors p-2 md:p-3 bg-green-deep/40 rounded-full">
-            <ChevronRight size={30} />
-          </button>
+
+          {/* Faixa de miniaturas */}
+          <div ref={stripRef} onClick={(e) => e.stopPropagation()}
+            className="shrink-0 flex gap-2 overflow-x-auto px-6 pb-5 pt-1 mx-auto max-w-full [scrollbar-width:thin]">
+            {p.gallery.map((g, i) => (
+              <button key={i} onClick={() => setActive(i)} aria-label={`${t.imovel.gallery} ${i + 1}`} aria-current={i === active}
+                className={`shrink-0 overflow-hidden border-2 transition-all ${i === active ? 'border-gold opacity-100 scale-[1.03]' : 'border-ivory/15 opacity-50 hover:opacity-90'}`}>
+                <img src={g.replace(/\.webp$/, '-thumb.webp')} alt="" loading="lazy" decoding="async" draggable={false}
+                  onError={(e) => { (e.currentTarget as HTMLImageElement).src = g; }}
+                  className="w-20 h-14 md:w-24 md:h-16 object-cover" />
+              </button>
+            ))}
+          </div>
         </div>
       )}
 

@@ -5,6 +5,13 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        ivory: '#f7f2e9',
+        'ivory-deep': '#efe7d8',
+        green: '#22392f',
+        'green-e': '#22392f',
+        'green-deep': '#182b23',
+        gold: '#b08d57',
+        ink: '#1c1c1a',
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
