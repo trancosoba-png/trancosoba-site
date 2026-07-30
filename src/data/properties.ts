@@ -1716,7 +1716,28 @@ const RICK: Property = {
   },
 };
 
-PROPERTIES.unshift(NAOCA, CASA71, CAJU, SANMARCO, CASA14, CASA09, BOSSA, TUA, IMBIRUCU, CASA42, CASA61, VILAS02, CASA80, ITAPO07, CASA96, CASA90, VILAS75, LIMOEIRO, BIRIBA, VILAMAR, BETTONI, PINI, AUREA, SAOJORGE, CAZA, ITAPO06, ITAPO04, ALEGRIA, PONTA, PG11, PG111, PG104, MANDACARU, PONTARB, FALESIA, RAIZES, PONTABARRA, FASANO10, FASANO16, FASANO17, VILAS26, GOLF58, FLORESTA, VILAS41, VILAS67, BOUTIQUE13, ARACUA, JACARANDA03, TEIU, GOLF25, PG50, CASAEDO, BALEIA, PG55, GOLF72, PITANGA, AFRICA, TEMPO07, TEMPO08, TEMPO06, BOSQUE, PATIO, PG32, PG45, LICURI, DIVINA, TRESMENINAS, PEROBA, MORENA, MOA, BRAGA, CUMARU, JACARANDA05, TB14, MACONDO, RICK);
+
+const COQUEIRAL7: Property = {
+  id: 'casa-coqueiral-7', code: 'TBA-276', name: { pt: 'Casa Coqueiral 7', en: 'Casa Coqueiral 7' },
+  purpose: ['aluguel'], location: 'Condomínio Coqueiral', suites: 6, guests: 18, baths: 6, area: '740 m²',
+  price: { pt: 'Sob consulta', en: 'Upon request' },
+  priceLow: { pt: 'Sob consulta', en: 'Upon request' },
+  reveillon: { pt: 'Sob consulta', en: 'Upon request' },
+  carnaval: { pt: 'Sob consulta', en: 'Upon request' },
+  image: '/img/coqueiral7/01.jpg',
+  gallery: ['/img/coqueiral7/01.webp','/img/coqueiral7/02.webp','/img/coqueiral7/03.webp','/img/coqueiral7/04.webp','/img/coqueiral7/05.webp','/img/coqueiral7/06.webp','/img/coqueiral7/07.webp','/img/coqueiral7/08.webp','/img/coqueiral7/09.webp','/img/coqueiral7/10.webp','/img/coqueiral7/11.webp','/img/coqueiral7/12.webp','/img/coqueiral7/13.webp','/img/coqueiral7/14.webp','/img/coqueiral7/15.webp','/img/coqueiral7/16.webp','/img/coqueiral7/17.webp','/img/coqueiral7/18.webp','/img/coqueiral7/19.webp'],
+  amenities: {
+    pt: ['6 suítes climatizadas', 'Piscina privativa', 'Área gourmet', 'Churrasqueira', 'Fogão industrial', 'Cervejeira e freezer', 'Sala de estar', 'Sala de jantar', 'Sala de TV climatizada', 'Cozinha completa e equipada', 'Lavabo', 'Wi-Fi', 'Condomínio fechado', 'Segurança 24 horas'],
+    en: ['6 air-conditioned suites', 'Private pool', 'Gourmet area', 'Barbecue', 'Industrial stove', 'Beer cooler and freezer', 'Living room', 'Dining room', 'Air-conditioned TV room', 'Fully equipped kitchen', 'Guest bathroom', 'Wi-Fi', 'Gated community', '24-hour security'],
+  },
+  description: {
+    pt: 'Localizada no Condomínio Coqueiral, a apenas 2,5 km do Quadrado e próxima às principais praias de Trancoso, a Casa Coqueiral 7 combina amplitude, conforto e privacidade em uma propriedade ideal para famílias e grupos de amigos.\n\nCom 740 m² de área construída em um terreno de 1.250 m², a casa conta com 6 suítes climatizadas e acomoda confortavelmente até 18 hóspedes. Os ambientes sociais são amplos e integrados, incluindo sala de estar, sala de jantar e sala de TV climatizada, além de uma cozinha completa e equipada para atender grupos durante toda a estadia.\n\nNa área externa, a propriedade oferece piscina privativa e uma espaçosa área gourmet equipada com churrasqueira, fogão industrial, cervejeira e freezer, criando o ambiente ideal para momentos de lazer e confraternização.',
+    en: 'Located in the Coqueiral gated community, just 2.5 km from the Quadrado and close to Trancoso\'s main beaches, Casa Coqueiral 7 combines spaciousness, comfort and privacy in a property ideal for families and groups of friends.\n\nWith 740 m² of built area on a 1,250 m² plot, the house has 6 air-conditioned suites and comfortably accommodates up to 18 guests. The social areas are wide and integrated, including living room, dining room and an air-conditioned TV room, plus a fully equipped kitchen ready to serve groups throughout the stay.\n\nOutside, the property offers a private pool and a spacious gourmet area equipped with barbecue, industrial stove, beer cooler and freezer, creating the perfect setting for leisure and celebration.',
+  },
+  notes: { pt: ['Valores e disponibilidade sujeitos à confirmação.'], en: ['Rates and availability subject to confirmation.'] },
+};
+
+PROPERTIES.unshift(COQUEIRAL7, NAOCA, CASA71, CAJU, SANMARCO, CASA14, CASA09, BOSSA, TUA, IMBIRUCU, CASA42, CASA61, VILAS02, CASA80, ITAPO07, CASA96, CASA90, VILAS75, LIMOEIRO, BIRIBA, VILAMAR, BETTONI, PINI, AUREA, SAOJORGE, CAZA, ITAPO06, ITAPO04, ALEGRIA, PONTA, PG11, PG111, PG104, MANDACARU, PONTARB, FALESIA, RAIZES, PONTABARRA, FASANO10, FASANO16, FASANO17, VILAS26, GOLF58, FLORESTA, VILAS41, VILAS67, BOUTIQUE13, ARACUA, JACARANDA03, TEIU, GOLF25, PG50, CASAEDO, BALEIA, PG55, GOLF72, PITANGA, AFRICA, TEMPO07, TEMPO08, TEMPO06, BOSQUE, PATIO, PG32, PG45, LICURI, DIVINA, TRESMENINAS, PEROBA, MORENA, MOA, BRAGA, CUMARU, JACARANDA05, TB14, MACONDO, RICK);
 
 export const WHATSAPP = '5573999141382';
 
