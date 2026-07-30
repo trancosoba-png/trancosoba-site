@@ -22,7 +22,7 @@ export function Reveal({ children, className = '' }: { children: ReactNode; clas
 function Logo({ dark }: { dark?: boolean }) {
   return (
     <Link to="/" className="flex items-center gap-2 md:gap-3" aria-label="TrancosoBA — Início">
-      <img src={dark ? '/logo-igreja-branca.svg' : '/logo-igreja.svg'} alt="" width="1926" height="1422"
+      <img src={dark ? '/logo-igreja-branca.svg' : '/logo-igreja.svg'} alt="" width="1910" height="1406"
         className="h-9 md:h-[60px] w-auto shrink-0" draggable={false} />
       <span className={`font-serif-e text-xl md:text-3xl tracking-wide ${dark ? 'text-ivory' : 'text-green-e'}`}>
         Trancoso<span className="text-gold">BA</span>
@@ -112,7 +112,7 @@ export function Footer() {
           {/* Marca */}
           <div>
             <div className="flex items-center gap-3">
-              <img src="/logo-igreja-branca.svg" alt="" width="1926" height="1422" className="h-14 md:h-[68px] w-auto shrink-0" draggable={false} />
+              <img src="/logo-igreja-branca.svg" alt="" width="1910" height="1406" className="h-14 md:h-[68px] w-auto shrink-0" draggable={false} />
               <span className="font-serif-e text-4xl md:text-5xl text-ivory">Trancoso<span className="text-gold">BA</span></span>
             </div>
             <p className="mt-4 font-serif-e italic text-xl text-ivory">{t.footer.tagline}</p>
