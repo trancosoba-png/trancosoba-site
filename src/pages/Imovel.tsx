@@ -1,7 +1,6 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
 import { Link, useParams, Navigate, useNavigate } from 'react-router';
 import { ArrowLeft, MessageCircle, BedDouble, Users, Bath, Maximize, X, ChevronLeft, ChevronRight, Share2, Check } from 'lucide-react';
-import { GolfMap } from '../components/GolfMap';
 import { GOLF_LOTS } from '../data/golflots';
 import { useLang, txt } from '../i18n';
 import { PROPERTIES, WHATSAPP } from '../data/properties';
@@ -184,25 +183,6 @@ export default function Imovel() {
               {txt(p.description, lang).split('\n\n').map((par, i) => <p key={i}>{par}</p>)}
             </div>
 
-            {p.location === 'Terravista Golf' && GOLF_LOTS[p.id] && (
-              <div className="mt-10">
-                <GolfMap lot={GOLF_LOTS[p.id]} lang={lang} />
-                <p className="text-ink/55 text-sm mt-3 italic">
-                  {t.imovel.mapLot} {GOLF_LOTS[p.id].lot} — Trancoso.
-                </p>
-              </div>
-            )}
-
-            {p.location === 'Terravista Vilas' && (
-              <div className="mt-10">
-                <img draggable={false} src="/img/lugares/terravista-vilas-mapa.jpg" alt="Mapa do condomínio Terravista Vilas"
-                  loading="lazy" decoding="async" className="w-full" />
-                <p className="text-ink/55 text-sm mt-3 italic">
-                  {lang === 'pt' ? 'Mapa do condomínio Terravista Vilas — Complexo Terravista, Trancoso.' : 'Terravista Vilas condominium map — Terravista Complex, Trancoso.'}
-                </p>
-              </div>
-            )}
-
             <h2 className="font-serif-e text-3xl text-green-e mt-14">{t.imovel.amenities}</h2>
             <ul className="grid sm:grid-cols-2 gap-x-8 gap-y-3 mt-5">
               {txt(p.amenities, lang).map(a => (
@@ -231,6 +211,17 @@ export default function Imovel() {
                 </ul>
               </>
             )}
+
+            <h2 className="font-serif-e text-3xl text-green-e mt-14">{t.imovel.locationTitle}</h2>
+            <p className="mt-5 text-ink/70 text-sm leading-relaxed">
+              {lang === 'pt'
+                ? `${p.location}, Trancoso — Bahia, Brasil.`
+                : `${p.location}, Trancoso — Bahia, Brazil.`}
+              {GOLF_LOTS[p.id]
+                ? (lang === 'pt' ? ` Lote ${GOLF_LOTS[p.id].lot}.` : ` Lot ${GOLF_LOTS[p.id].lot}.`)
+                : ''}
+              {p.locationDetail ? ` ${txt(p.locationDetail, lang)}` : ''}
+            </p>
           </Reveal>
         </div>
 

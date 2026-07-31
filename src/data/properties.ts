@@ -29,6 +29,8 @@ export interface Property {
   staff?: { pt: string[]; en: string[] };
   /** Informações operacionais (regras, taxas, staff descrito em texto) exibidas em "Informações". */
   notes?: { pt: string[]; en: string[] };
+  /** Detalhes de localização em texto (condomínio, rua, quadra, lote etc.) exibidos na seção "Localização". */
+  locationDetail?: { pt: string; en: string };
   /** Características usadas nas caixinhas do filtro "Mais filtros". Se ausente, são derivadas automaticamente. */
   features?: Feature[];
 }
