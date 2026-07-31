@@ -98,7 +98,7 @@ export default function Home() {
       </section>
 
       {/* 2. Apresentação */}
-      <section className="py-24 md:py-32">
+      <section className="pt-24 md:pt-32 pb-10 md:pb-14">
         <div className="max-w-7xl mx-auto px-5 md:px-8">
           <Reveal className="max-w-3xl">
             <h2 className="font-serif-e font-normal text-[44px] md:text-7xl leading-[1.12] tracking-[0.005em]">
@@ -110,9 +110,6 @@ export default function Home() {
             <Link to="/nos" className="inline-flex items-center gap-2 mt-10 text-green-e tracking-[0.18em] uppercase text-sm border-b border-gold pb-1 hover:text-gold transition-colors">
               {t.home.introCta} <ArrowRight size={15} />
             </Link>
-          </Reveal>
-          <Reveal className="img-zoom overflow-hidden mt-14">
-            <img draggable={false} src="/img/lugares/alma-local.jpg" alt="Quadrado de Trancoso" loading="lazy" decoding="async" className="w-full aspect-[16/9] object-cover" />
           </Reveal>
         </div>
       </section>
