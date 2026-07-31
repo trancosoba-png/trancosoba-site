@@ -17,58 +17,60 @@ function HeroSearch() {
   const [suites, setSuites] = useState('');
   const [more, setMore] = useState(false);
 
-  const field = "w-full flex items-center px-5 py-4 border-b border-black/10";
-  const select = "w-full bg-transparent text-base md:text-lg text-ink outline-none cursor-pointer appearance-none";
+  const field = "w-full flex items-center px-5 py-4 md:py-5 bg-black/45 backdrop-blur-sm border-b md:border-b-0 md:border-r border-ivory/15";
+  const select = "w-full bg-transparent text-base md:text-lg text-ivory outline-none cursor-pointer appearance-none [&>option]:text-ink";
+  const chevron = <ChevronDown size={18} className="text-ivory/60 shrink-0 pointer-events-none" />;
 
   return (
     <form
-      className="bg-ivory-95 shadow-2xl w-full max-w-md flex flex-col"
+      className="relative w-full flex flex-col md:flex-row md:items-stretch shadow-2xl"
       onSubmit={e => { e.preventDefault(); nav(`/casas?finalidade=${purpose}&local=${encodeURIComponent(location)}&hospedes=${guests}&suites=${suites}`); }}
     >
-      <label className={field}>
+      <label className={`${field} md:flex-1`}>
         <select value={purpose} onChange={e => setPurpose(e.target.value)} aria-label={t.hero.type} className={select}>
-          <option value="">{t.hero.rent} / {t.hero.sale}</option>
+          <option value="">{lang === 'pt' ? 'Selecionar' : 'Select'}</option>
           <option value="aluguel">{t.hero.rent}</option>
           <option value="venda">{t.hero.sale}</option>
         </select>
-        <ChevronDown size={18} className="text-ink/40 shrink-0 pointer-events-none" />
+        {chevron}
       </label>
-      <label className={field}>
+      <label className={`${field} md:flex-1`}>
         <select value={location} onChange={e => setLocation(e.target.value)} aria-label={t.hero.location} className={select}>
           <option value="">{lang === 'pt' ? 'Localização' : 'Location'}</option>
           {LOCATIONS.map(l => <option key={l} value={l}>{l}</option>)}
         </select>
-        <ChevronDown size={18} className="text-ink/40 shrink-0 pointer-events-none" />
+        {chevron}
       </label>
 
+      <button type="button" onClick={() => setMore(!more)}
+        className="w-full md:w-auto md:px-8 flex items-center justify-center gap-2 px-5 py-4 md:py-5 bg-black/45 backdrop-blur-sm border-b md:border-b-0 md:border-r border-ivory/15 text-base md:text-lg text-ivory/85 hover:text-ivory transition-colors whitespace-nowrap">
+        {more ? (lang === 'pt' ? 'Menos filtros' : 'Fewer filters') : (lang === 'pt' ? 'Mais filtros…' : 'More filters…')}
+        {chevron}
+      </button>
+
+      <button type="submit"
+        className="w-full md:w-auto md:px-14 bg-[#2e6b4f] text-ivory font-serif-e text-lg md:text-xl tracking-wide hover:bg-gold transition-colors py-4 md:py-5 whitespace-nowrap">
+        {lang === 'pt' ? 'Buscar' : 'Search'}
+      </button>
+
       {more && (
-        <>
-          <label className={field}>
+        <div className="w-full md:absolute md:left-0 md:top-full flex flex-col md:flex-row md:mt-px shadow-2xl">
+          <label className={`${field} md:flex-1`}>
             <select value={guests} onChange={e => setGuests(e.target.value)} aria-label={t.casas.guests} className={select}>
               <option value="">{lang === 'pt' ? 'Hóspedes' : 'Guests'}</option>
               {[6, 8, 10, 12].map(n => <option key={n} value={n}>{n}+</option>)}
             </select>
-            <ChevronDown size={18} className="text-ink/40 shrink-0 pointer-events-none" />
+            {chevron}
           </label>
-          <label className={field}>
+          <label className={`${field} md:flex-1 md:border-r-0`}>
             <select value={suites} onChange={e => setSuites(e.target.value)} aria-label={t.casas.suites} className={select}>
               <option value="">{lang === 'pt' ? 'Suítes' : 'Suites'}</option>
               {[3, 4, 5, 6, 7].map(n => <option key={n} value={n}>{n}+</option>)}
             </select>
-            <ChevronDown size={18} className="text-ink/40 shrink-0 pointer-events-none" />
+            {chevron}
           </label>
-        </>
+        </div>
       )}
-
-      <button type="button" onClick={() => setMore(!more)}
-        className="self-center py-3.5 text-sm text-ink/55 hover:text-gold transition-colors tracking-wide">
-        {more ? (lang === 'pt' ? 'Menos filtros' : 'Fewer filters') : (lang === 'pt' ? 'Mais filtros...' : 'More filters...')}
-      </button>
-
-      <button type="submit"
-        className="w-full bg-green-e text-ivory font-serif-e text-xl tracking-wide hover:bg-gold transition-colors py-5">
-        {lang === 'pt' ? 'Buscar' : 'Search'}
-      </button>
     </form>
   );
 }
@@ -92,7 +94,7 @@ export default function Home() {
         </video>
         <div className="absolute inset-0 bg-gradient-to-b from-green-deep/40 via-transparent to-green-deep/60" />
         <div className="relative flex-1" aria-hidden="true" />
-        <div className="relative px-5 pb-8 md:pb-12 w-full max-w-4xl mx-auto">
+        <div className="relative px-5 pb-8 md:pb-14 w-full max-w-6xl mx-auto">
           <HeroSearch />
         </div>
       </section>
