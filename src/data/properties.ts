@@ -1717,6 +1717,31 @@ const RICK: Property = {
 };
 
 
+const OITI: Property = {
+  id: 'casa-oiti', code: 'TBA-278', name: { pt: 'Casa Oiti', en: 'Casa Oiti' },
+  purpose: ['aluguel', 'venda'], location: 'Altos de Trancoso', suites: 5, guests: 11, baths: 6, area: '—',
+  price: { pt: 'R$ 7.000', en: 'R$ 7,000' },
+  priceLow: { pt: 'R$ 5.500', en: 'R$ 5,500' },
+  reveillon: { pt: 'R$ 270.000 (pacote 10 dias)', en: 'R$ 270,000 (10-night package)' },
+  carnaval: { pt: 'R$ 60.000 (pacote 5 dias)', en: 'R$ 60,000 (5-night package)' },
+  salePrice: { pt: 'R$ 13.500.000', en: 'R$ 13,500,000' },
+  image: '/img/oiti/01.jpg',
+  gallery: ['/img/oiti/01.webp','/img/oiti/02.webp','/img/oiti/03.webp','/img/oiti/04.webp','/img/oiti/05.webp','/img/oiti/06.webp','/img/oiti/07.webp','/img/oiti/08.webp','/img/oiti/09.webp','/img/oiti/10.webp','/img/oiti/11.webp','/img/oiti/12.webp','/img/oiti/13.webp','/img/oiti/14.webp','/img/oiti/15.webp','/img/oiti/16.webp','/img/oiti/17.webp','/img/oiti/18.webp','/img/oiti/19.webp','/img/oiti/20.webp','/img/oiti/21.webp','/img/oiti/22.webp','/img/oiti/23.webp','/img/oiti/24.webp','/img/oiti/25.webp','/img/oiti/26.webp','/img/oiti/27.webp','/img/oiti/28.webp','/img/oiti/29.webp','/img/oiti/30.webp','/img/oiti/31.webp','/img/oiti/32.webp','/img/oiti/33.webp','/img/oiti/34.webp','/img/oiti/35.webp','/img/oiti/36.webp','/img/oiti/37.webp'],
+  amenities: {
+    pt: ['5 suítes', 'Piscina', 'Hidromassagem', 'Ducha externa', 'Cozinha gourmet completa', 'Churrasqueira', 'Cervejeira', 'Adega', 'Lavabo', 'Espaço de massagem no jardim', 'Jardim tropical', 'Staff completo (cozinheira, ajudante, arrumadeira, jardineiro e piscineiro)'],
+    en: ['5 suites', 'Pool', 'Hot tub', 'Outdoor shower', 'Fully equipped gourmet kitchen', 'Barbecue', 'Beer cooler', 'Wine cellar', 'Guest bathroom', 'Garden massage space', 'Tropical garden', 'Full staff (cook, helper, housekeeper, gardener and pool keeper)'],
+  },
+  description: {
+    pt: 'Uma casa pensada para receber bem, onde cada detalhe valoriza o conforto e o tempo vivido. Localizada no condomínio Altos de Trancoso, a Casa Oiti tem cinco suítes e capacidade para até 11 pessoas, em ambientes que convidam a dias leves, entre encontros, descanso e boas refeições.\n\nA área social gira em torno de uma cozinha gourmet completa, equipada com churrasqueira, cervejeira e adega, perfeita para momentos que começam despretensiosos e se estendem ao redor da mesa.\n\nNa área externa, piscina, hidromassagem e ducha criam o cenário ideal para tardes ao ar livre, com apoio de um lavabo que traz praticidade ao dia a dia. Disponível também para venda: R$ 13.500.000.',
+    en: 'A house designed to welcome well, where every detail values comfort and time well spent. Located in the Altos de Trancoso community, Casa Oiti has five suites and accommodates up to 11 guests, in spaces that invite light days of gathering, rest and good meals.\n\nThe social area revolves around a fully equipped gourmet kitchen with barbecue, beer cooler and wine cellar, perfect for moments that start casually and extend around the table.\n\nOutside, the pool, hot tub and outdoor shower create the ideal setting for afternoons in the open air, supported by a guest bathroom that brings practicality to everyday life. Also available for sale: R$ 13,500,000.',
+  },
+  notes: {
+    pt: ['Diárias: alta temporada R$ 7.000; baixa temporada R$ 5.500.', 'Carnaval: R$ 60.000 (pacote de 5 dias). Réveillon: R$ 270.000 (pacote de 10 dias).', 'Staff incluso: 1 cozinheira, 1 ajudante, 1 arrumadeira, 1 jardineiro e 1 piscineiro.', 'A partir de 8 hóspedes é necessária a contratação de uma ajudante extra.', 'Valor de venda: R$ 13.500.000.', 'Valores e disponibilidade sujeitos à confirmação.'],
+    en: ['Daily rates: high season R$ 7,000; low season R$ 5,500.', 'Carnival: R$ 60,000 (5-day package). New Year\'s Eve: R$ 270,000 (10-day package).', 'Staff included: 1 cook, 1 helper, 1 housekeeper, 1 gardener and 1 pool keeper.', 'For 8+ guests, hiring an extra helper is required.', 'Sale price: R$ 13,500,000.', 'Rates and availability subject to confirmation.'],
+  },
+};
+
+
 const COQUEIRAL13: Property = {
   id: 'casa-coqueiral-13', code: 'TBA-277', name: { pt: 'Casa Coqueiral 13', en: 'Casa Coqueiral 13' },
   purpose: ['aluguel'], location: 'Condomínio Coqueiral', suites: 6, guests: 18, baths: 6, area: '—',
@@ -1761,7 +1786,7 @@ const COQUEIRAL7: Property = {
   notes: { pt: ['Valores e disponibilidade sujeitos à confirmação.'], en: ['Rates and availability subject to confirmation.'] },
 };
 
-PROPERTIES.unshift(COQUEIRAL13, COQUEIRAL7, NAOCA, CASA71, CAJU, SANMARCO, CASA14, CASA09, BOSSA, TUA, IMBIRUCU, CASA42, CASA61, VILAS02, CASA80, ITAPO07, CASA96, CASA90, VILAS75, LIMOEIRO, BIRIBA, VILAMAR, BETTONI, PINI, AUREA, SAOJORGE, CAZA, ITAPO06, ITAPO04, ALEGRIA, PONTA, PG11, PG111, PG104, MANDACARU, PONTARB, FALESIA, RAIZES, PONTABARRA, FASANO10, FASANO16, FASANO17, VILAS26, GOLF58, FLORESTA, VILAS41, VILAS67, BOUTIQUE13, ARACUA, JACARANDA03, TEIU, GOLF25, PG50, CASAEDO, BALEIA, PG55, GOLF72, PITANGA, AFRICA, TEMPO07, TEMPO08, TEMPO06, BOSQUE, PATIO, PG32, PG45, LICURI, DIVINA, TRESMENINAS, PEROBA, MORENA, MOA, BRAGA, CUMARU, JACARANDA05, TB14, MACONDO, RICK);
+PROPERTIES.unshift(OITI, COQUEIRAL13, COQUEIRAL7, NAOCA, CASA71, CAJU, SANMARCO, CASA14, CASA09, BOSSA, TUA, IMBIRUCU, CASA42, CASA61, VILAS02, CASA80, ITAPO07, CASA96, CASA90, VILAS75, LIMOEIRO, BIRIBA, VILAMAR, BETTONI, PINI, AUREA, SAOJORGE, CAZA, ITAPO06, ITAPO04, ALEGRIA, PONTA, PG11, PG111, PG104, MANDACARU, PONTARB, FALESIA, RAIZES, PONTABARRA, FASANO10, FASANO16, FASANO17, VILAS26, GOLF58, FLORESTA, VILAS41, VILAS67, BOUTIQUE13, ARACUA, JACARANDA03, TEIU, GOLF25, PG50, CASAEDO, BALEIA, PG55, GOLF72, PITANGA, AFRICA, TEMPO07, TEMPO08, TEMPO06, BOSQUE, PATIO, PG32, PG45, LICURI, DIVINA, TRESMENINAS, PEROBA, MORENA, MOA, BRAGA, CUMARU, JACARANDA05, TB14, MACONDO, RICK);
 
 export const WHATSAPP = '5573999141382';
 
