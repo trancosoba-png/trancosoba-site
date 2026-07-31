@@ -1717,6 +1717,32 @@ const RICK: Property = {
 };
 
 
+const IANDE: Property = {
+  id: 'villa-iande', code: 'TBA-280', name: { pt: 'Villa Iandê', en: 'Villa Iandê' },
+  purpose: ['aluguel'], location: 'João Vieira', suites: 5, guests: 10, baths: 6, area: '628 m²',
+  price: { pt: 'R$ 7.000', en: 'R$ 7,000' },
+  priceLow: { pt: 'R$ 6.500', en: 'R$ 6,500' },
+  reveillon: { pt: 'R$ 230.000 (pacote 10 dias)', en: 'R$ 230,000 (10-night package)' },
+  carnaval: { pt: 'R$ 55.000 (pacote 5 dias)', en: 'R$ 55,000 (5-night package)' },
+  image: '/img/iande/01.jpg',
+  gallery: ['/img/iande/01.webp','/img/iande/02.webp','/img/iande/03.webp','/img/iande/04.webp','/img/iande/05.webp','/img/iande/06.webp','/img/iande/07.webp','/img/iande/08.webp','/img/iande/09.webp','/img/iande/10.webp','/img/iande/11.webp','/img/iande/12.webp','/img/iande/13.webp','/img/iande/14.webp','/img/iande/15.webp','/img/iande/16.webp','/img/iande/17.webp','/img/iande/18.webp','/img/iande/19.webp','/img/iande/20.webp','/img/iande/21.webp','/img/iande/22.webp','/img/iande/23.webp','/img/iande/24.webp','/img/iande/25.webp','/img/iande/26.webp','/img/iande/27.webp','/img/iande/28.webp','/img/iande/29.webp','/img/iande/30.webp','/img/iande/31.webp','/img/iande/32.webp','/img/iande/33.webp','/img/iande/34.webp','/img/iande/35.webp','/img/iande/36.webp','/img/iande/37.webp','/img/iande/38.webp','/img/iande/39.webp','/img/iande/40.webp'],
+  featured: true,
+  amenities: {
+    pt: ['5 suítes climatizadas com cama king size, dossel e mosquiteiro', 'Piscina privativa com deck de madeira e espreguiçadeiras', 'Área social integrada: estar, jantar e bar', 'Cozinha gourmet com ilha e bancada em madeira', 'Sala de TV', 'Bangalô com varanda e rede', 'Ducha ao ar livre no jardim', 'Jardim tropical com paisagismo exuberante', 'Vista para a mata e vislumbre do mar', '628 m² de área', 'Fácil acesso ao Quadrado e às principais praias'],
+    en: ['5 air-conditioned suites with king-size bed, canopy and mosquito net', 'Private pool with wooden deck and sun loungers', 'Integrated social area: living, dining and bar', 'Gourmet kitchen with island and wooden countertop', 'TV room', 'Bungalow with veranda and hammock', 'Outdoor garden shower', 'Tropical garden with lush landscaping', 'Forest views and a glimpse of the sea', '628 m² of built area', 'Easy access to the Quadrado and the main beaches'],
+  },
+  description: {
+    pt: 'Cercada pela Mata Atlântica e integrada à paisagem de forma natural, a Villa Iandê reúne privacidade, conforto e uma arquitetura que traduz o estilo de Trancoso com elegância. Com 628 m², a casa foi projetada para valorizar a luz, a ventilação e a conexão com o verde. Grandes painéis de vidro, elementos em madeira e ambientes amplos criam uma atmosfera leve e acolhedora, com vista para a mata e um discreto vislumbre do mar entre as copas das árvores.\n\nA área social integra sala de estar, jantar e bar em um único espaço, ideal para reunir família e amigos. Na parte externa, piscina privativa, deck de madeira, espreguiçadeiras e jardim tropical completam a experiência.\n\nAs cinco suítes oferecem camas king size com dossel e mosquiteiro, mobiliário em madeira nobre e banheiros sofisticados. Cada ambiente foi pensado para unir o charme rústico de Trancoso ao conforto contemporâneo. Localizada na região de João Vieira, em Trancoso, oferece privacidade, tranquilidade e fácil acesso ao Quadrado e às principais praias.',
+    en: 'Surrounded by the Atlantic Forest and naturally integrated into the landscape, Villa Iandê combines privacy, comfort and an architecture that translates the Trancoso style with elegance. With 628 m², the house was designed to enhance light, ventilation and the connection with nature. Large glass panels, wooden elements and spacious rooms create a light and welcoming atmosphere, with views of the forest and a discreet glimpse of the sea between the treetops.\n\nThe social area integrates living room, dining room and bar in a single space, ideal for gathering family and friends. Outside, a private pool, wooden deck, sun loungers and tropical garden complete the experience.\n\nThe five suites offer king-size beds with canopy and mosquito net, noble wood furniture and sophisticated bathrooms. Each room was designed to unite the rustic charm of Trancoso with contemporary comfort. Located in the João Vieira region of Trancoso, it offers privacy, tranquility and easy access to the Quadrado and the main beaches.',
+  },
+  staff: { pt: ['1 cozinheira', '1 ajudante', '1 arrumadeira', '1 jardineiro / piscineiro'], en: ['1 cook', '1 assistant', '1 housekeeper', '1 gardener / pool keeper'] },
+  notes: {
+    pt: ['Diárias: alta temporada R$ 7.000; baixa temporada R$ 6.500.', 'Carnaval: R$ 55.000 (pacote de 5 dias). Réveillon: R$ 230.000 (pacote de 10 dias).', 'Os valores não incluem 10% de taxa de serviço.', '5 suítes climatizadas com cama king size, dossel e mosquiteiro. Capacidade para até 10 hóspedes.', 'Staff incluso: 1 cozinheira, 1 ajudante, 1 arrumadeira e 1 profissional responsável pelo jardim e piscina.', 'Valores e disponibilidade sujeitos à confirmação.'],
+    en: ['Daily rates: high season R$ 7,000; low season R$ 6,500.', 'Carnival: R$ 55,000 (5-night package). New Year\'s Eve: R$ 230,000 (10-night package).', 'Prices do not include a 10% service fee.', '5 air-conditioned suites with king-size bed, canopy and mosquito net. Capacity for up to 10 guests.', 'Staff included: 1 cook, 1 assistant, 1 housekeeper and 1 professional responsible for the garden and pool.', 'Prices and availability subject to confirmation.'],
+  },
+};
+
+
 const MAGIVI: Property = {
   id: 'vila-magivi', code: 'TBA-279', name: { pt: 'Vila Magivi', en: 'Vila Magivi' },
   purpose: ['aluguel'], location: 'Altos de Trancoso', suites: 6, guests: 15, baths: 7, area: '—',
@@ -1812,7 +1838,7 @@ const COQUEIRAL7: Property = {
   notes: { pt: ['Valores e disponibilidade sujeitos à confirmação.'], en: ['Rates and availability subject to confirmation.'] },
 };
 
-PROPERTIES.unshift(MAGIVI, OITI, COQUEIRAL13, COQUEIRAL7, NAOCA, CASA71, CAJU, SANMARCO, CASA14, CASA09, BOSSA, TUA, IMBIRUCU, CASA42, CASA61, VILAS02, CASA80, ITAPO07, CASA96, CASA90, VILAS75, LIMOEIRO, BIRIBA, VILAMAR, BETTONI, PINI, AUREA, SAOJORGE, CAZA, ITAPO06, ITAPO04, ALEGRIA, PONTA, PG11, PG111, PG104, MANDACARU, PONTARB, FALESIA, RAIZES, PONTABARRA, FASANO10, FASANO16, FASANO17, VILAS26, GOLF58, FLORESTA, VILAS41, VILAS67, BOUTIQUE13, ARACUA, JACARANDA03, TEIU, GOLF25, PG50, CASAEDO, BALEIA, PG55, GOLF72, PITANGA, AFRICA, TEMPO07, TEMPO08, TEMPO06, BOSQUE, PATIO, PG32, PG45, LICURI, DIVINA, TRESMENINAS, PEROBA, MORENA, MOA, BRAGA, CUMARU, JACARANDA05, TB14, MACONDO, RICK);
+PROPERTIES.unshift(IANDE, MAGIVI, OITI, COQUEIRAL13, COQUEIRAL7, NAOCA, CASA71, CAJU, SANMARCO, CASA14, CASA09, BOSSA, TUA, IMBIRUCU, CASA42, CASA61, VILAS02, CASA80, ITAPO07, CASA96, CASA90, VILAS75, LIMOEIRO, BIRIBA, VILAMAR, BETTONI, PINI, AUREA, SAOJORGE, CAZA, ITAPO06, ITAPO04, ALEGRIA, PONTA, PG11, PG111, PG104, MANDACARU, PONTARB, FALESIA, RAIZES, PONTABARRA, FASANO10, FASANO16, FASANO17, VILAS26, GOLF58, FLORESTA, VILAS41, VILAS67, BOUTIQUE13, ARACUA, JACARANDA03, TEIU, GOLF25, PG50, CASAEDO, BALEIA, PG55, GOLF72, PITANGA, AFRICA, TEMPO07, TEMPO08, TEMPO06, BOSQUE, PATIO, PG32, PG45, LICURI, DIVINA, TRESMENINAS, PEROBA, MORENA, MOA, BRAGA, CUMARU, JACARANDA05, TB14, MACONDO, RICK);
 
 export const WHATSAPP = '5573999141382';
 
