@@ -1717,6 +1717,32 @@ const RICK: Property = {
 };
 
 
+const MAGIVI: Property = {
+  id: 'vila-magivi', code: 'TBA-279', name: { pt: 'Vila Magivi', en: 'Vila Magivi' },
+  purpose: ['aluguel'], location: 'Altos de Trancoso', suites: 6, guests: 15, baths: 7, area: '—',
+  price: { pt: 'R$ 12.000', en: 'R$ 12,000' },
+  priceLow: { pt: 'R$ 10.000', en: 'R$ 10,000' },
+  reveillon: { pt: 'R$ 500.000 (pacote 10 dias)', en: 'R$ 500,000 (10-night package)' },
+  carnaval: { pt: 'R$ 120.000 (pacote 5 dias)', en: 'R$ 120,000 (5-night package)' },
+  image: '/img/magivi/01.jpg',
+  gallery: ['/img/magivi/01.webp','/img/magivi/02.webp','/img/magivi/03.webp','/img/magivi/04.webp','/img/magivi/05.webp','/img/magivi/06.webp','/img/magivi/07.webp','/img/magivi/08.webp','/img/magivi/09.webp','/img/magivi/10.webp','/img/magivi/11.webp','/img/magivi/12.webp','/img/magivi/13.webp','/img/magivi/14.webp','/img/magivi/15.webp','/img/magivi/16.webp','/img/magivi/17.webp','/img/magivi/18.webp','/img/magivi/19.webp','/img/magivi/20.webp','/img/magivi/21.webp','/img/magivi/22.webp','/img/magivi/23.webp','/img/magivi/24.webp','/img/magivi/25.webp','/img/magivi/26.webp','/img/magivi/27.webp','/img/magivi/28.webp','/img/magivi/29.webp','/img/magivi/30.webp','/img/magivi/31.webp','/img/magivi/32.webp','/img/magivi/33.webp','/img/magivi/34.webp','/img/magivi/35.webp','/img/magivi/36.webp','/img/magivi/37.webp','/img/magivi/38.webp','/img/magivi/39.webp','/img/magivi/40.webp','/img/magivi/41.webp'],
+  featured: true,
+  amenities: {
+    pt: ['6 suítes climatizadas (3 na casa principal + 3 em bangalôs independentes)', 'Piscina com amplo deck de madeira', 'Academia completa', 'Sauna', 'Redário', 'Espaço fire pit no jardim', 'Cozinha gourmet integrada', 'Adega e cervejeira', 'Churrasqueira', 'Área de jantar ao ar livre', 'Jardim tropical com paisagismo exuberante', 'Condomínio fechado com segurança', 'A poucos minutos do Quadrado e das praias'],
+    en: ['6 air-conditioned suites (3 in the main house + 3 in independent bungalows)', 'Pool with large wooden deck', 'Fully equipped gym', 'Sauna', 'Hammock area', 'Garden fire pit', 'Integrated gourmet kitchen', 'Wine cellar and beer cooler', 'Barbecue', 'Outdoor dining area', 'Tropical garden with lush landscaping', 'Gated community with security', 'Minutes from the Quadrado and the beaches'],
+  },
+  description: {
+    pt: 'Em um dos endereços mais exclusivos de Trancoso, a Vila Magivi combina arquitetura contemporânea, elegância e integração com a natureza em uma experiência de hospedagem única. Projetada para receber famílias e grupos com conforto absoluto, a propriedade oferece ambientes amplos, sofisticados e acolhedores, onde cada detalhe foi pensado para proporcionar dias inesquecíveis.\n\nCom capacidade para até 15 hóspedes, a casa dispõe de 6 suítes climatizadas distribuídas entre a residência principal e três bangalôs independentes, garantindo privacidade e comodidade. Os interiores assinados por Ricardo Kurpan e Ivisson Barros, aliados ao projeto arquitetônico do escritório Vida de Vila, valorizam materiais naturais, iluminação e o estilo leve que traduz a essência de Trancoso.\n\nA área social integra os espaços de convivência de forma elegante, criando o cenário ideal para reunir família e amigos. Os ambientes amplos e climatizados convidam a momentos de descanso, boa gastronomia e experiências compartilhadas em meio ao paisagismo tropical. A propriedade conta ainda com academia completa e sauna.',
+    en: 'At one of the most exclusive addresses in Trancoso, Vila Magivi combines contemporary architecture, elegance and integration with nature in a unique hospitality experience. Designed to welcome families and groups in absolute comfort, the property offers spacious, sophisticated and welcoming environments, where every detail was thought out to provide unforgettable days.\n\nWith capacity for up to 15 guests, the house has 6 air-conditioned suites spread between the main residence and three independent bungalows, ensuring privacy and comfort. The interiors signed by Ricardo Kurpan and Ivisson Barros, together with the architectural project by Vida de Vila studio, value natural materials, lighting and the light style that translates the essence of Trancoso.\n\nThe social area integrates the living spaces elegantly, creating the ideal setting to gather family and friends. The spacious, air-conditioned rooms invite moments of rest, fine dining and shared experiences amid tropical landscaping. The property also features a fully equipped gym and a sauna.',
+  },
+  staff: { pt: ['1 cozinheira', '1 auxiliar de cozinha', '2 camareiras', '1 piscineiro / jardineiro'], en: ['1 cook', '1 kitchen assistant', '2 housekeepers', '1 pool keeper / gardener'] },
+  notes: {
+    pt: ['Diárias: alta temporada R$ 12.000; baixa temporada R$ 10.000.', 'Carnaval: R$ 120.000 (pacote de 5 dias). Réveillon: R$ 500.000 (pacote de 10 dias).', 'Casa principal: 3 suítes com cama king, cama de solteiro, closet, banheiro amplo, escrivaninha, secador de cabelo e ar-condicionado.', 'Bangalôs: 3 suítes com cama king, TV, closet, banheiro, escrivaninha, secador de cabelo e ar-condicionado.', 'Staff incluso: 1 cozinheira, 1 auxiliar de cozinha, 2 camareiras e 1 piscineiro/jardineiro.', 'Localizada no Condomínio Altos de Trancoso, a poucos minutos do Quadrado e das principais praias.', 'Valores e disponibilidade sujeitos à confirmação.'],
+    en: ['Daily rates: high season R$ 12,000; low season R$ 10,000.', 'Carnival: R$ 120,000 (5-night package). New Year\'s Eve: R$ 500,000 (10-night package).', 'Main house: 3 suites with king bed, single bed, walk-in closet, spacious bathroom, desk, hair dryer and air conditioning.', 'Bungalows: 3 suites with king bed, TV, walk-in closet, bathroom, desk, hair dryer and air conditioning.', 'Staff included: 1 cook, 1 kitchen assistant, 2 housekeepers and 1 pool keeper/gardener.', 'Located in the Altos de Trancoso gated community, minutes from the Quadrado and the main beaches.', 'Prices and availability subject to confirmation.'],
+  },
+};
+
+
 const OITI: Property = {
   id: 'casa-oiti', code: 'TBA-278', name: { pt: 'Casa Oiti', en: 'Casa Oiti' },
   purpose: ['aluguel', 'venda'], location: 'Altos de Trancoso', suites: 5, guests: 11, baths: 6, area: '—',
@@ -1786,7 +1812,7 @@ const COQUEIRAL7: Property = {
   notes: { pt: ['Valores e disponibilidade sujeitos à confirmação.'], en: ['Rates and availability subject to confirmation.'] },
 };
 
-PROPERTIES.unshift(OITI, COQUEIRAL13, COQUEIRAL7, NAOCA, CASA71, CAJU, SANMARCO, CASA14, CASA09, BOSSA, TUA, IMBIRUCU, CASA42, CASA61, VILAS02, CASA80, ITAPO07, CASA96, CASA90, VILAS75, LIMOEIRO, BIRIBA, VILAMAR, BETTONI, PINI, AUREA, SAOJORGE, CAZA, ITAPO06, ITAPO04, ALEGRIA, PONTA, PG11, PG111, PG104, MANDACARU, PONTARB, FALESIA, RAIZES, PONTABARRA, FASANO10, FASANO16, FASANO17, VILAS26, GOLF58, FLORESTA, VILAS41, VILAS67, BOUTIQUE13, ARACUA, JACARANDA03, TEIU, GOLF25, PG50, CASAEDO, BALEIA, PG55, GOLF72, PITANGA, AFRICA, TEMPO07, TEMPO08, TEMPO06, BOSQUE, PATIO, PG32, PG45, LICURI, DIVINA, TRESMENINAS, PEROBA, MORENA, MOA, BRAGA, CUMARU, JACARANDA05, TB14, MACONDO, RICK);
+PROPERTIES.unshift(MAGIVI, OITI, COQUEIRAL13, COQUEIRAL7, NAOCA, CASA71, CAJU, SANMARCO, CASA14, CASA09, BOSSA, TUA, IMBIRUCU, CASA42, CASA61, VILAS02, CASA80, ITAPO07, CASA96, CASA90, VILAS75, LIMOEIRO, BIRIBA, VILAMAR, BETTONI, PINI, AUREA, SAOJORGE, CAZA, ITAPO06, ITAPO04, ALEGRIA, PONTA, PG11, PG111, PG104, MANDACARU, PONTARB, FALESIA, RAIZES, PONTABARRA, FASANO10, FASANO16, FASANO17, VILAS26, GOLF58, FLORESTA, VILAS41, VILAS67, BOUTIQUE13, ARACUA, JACARANDA03, TEIU, GOLF25, PG50, CASAEDO, BALEIA, PG55, GOLF72, PITANGA, AFRICA, TEMPO07, TEMPO08, TEMPO06, BOSQUE, PATIO, PG32, PG45, LICURI, DIVINA, TRESMENINAS, PEROBA, MORENA, MOA, BRAGA, CUMARU, JACARANDA05, TB14, MACONDO, RICK);
 
 export const WHATSAPP = '5573999141382';
 
