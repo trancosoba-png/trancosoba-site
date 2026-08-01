@@ -31,11 +31,13 @@ const DROP_NOTE = /loca[cç][aã]o m[ií]nima|minimum stay|estadia m[ií]nima|no
 export const SUITE_PAR = /configura[cç][aã]o das su[ií]tes|suite layout|distribui[cç][aã]o das su[ií]tes/i;
 
 
-// Configuração das suítes da Casa Sol, agrupada por ala/bangalô.
-// Usada apenas na variante de teste (Casa Sol).
+// Configuração das suítes por casa, agrupada por ala/bangalô/andar.
+// Conteúdo de cada casa extraído do próprio cadastro — nunca copiado de outra.
 type SuiteGroup = { title: string; master?: string; suites?: [string, string][] };
-const SUITES_CASA_SOL: Record<'pt' | 'en', SuiteGroup[]> = {
-  pt: [
+type HouseSuites = { groups: SuiteGroup[]; footer?: string };
+const SUITES_BY_ID: Record<string, Record<'pt' | 'en', HouseSuites>> = {
+  'casa-sol': {
+  pt: { groups: [
     {
       title: 'Suíte Máster',
       master: '01 cama de casal king, sala de massagem, sala de estar, closet e banheiro com banheira.',
@@ -61,8 +63,8 @@ const SUITES_CASA_SOL: Record<'pt' | 'en', SuiteGroup[]> = {
         ['Suíte 08', '01 cama de casal king.'],
       ],
     },
-  ],
-  en: [
+  ] },
+  en: { groups: [
     {
       title: 'Master Suite',
       master: '01 king bed, massage room, living room, walk-in closet and bathroom with bathtub.',
@@ -88,7 +90,76 @@ const SUITES_CASA_SOL: Record<'pt' | 'en', SuiteGroup[]> = {
         ['Suite 08', '01 king bed.'],
       ],
     },
-  ],
+  ] },
+  },
+  'casa-lua': {
+  pt: {
+    groups: [
+      {
+        title: 'Piso Superior',
+        suites: [['Suíte Máster', '1 cama de casal king size, mosquiteiro, ar-condicionado, frigobar, cofre, secador de cabelo, banheira, espaço para massagem e vista para o mar.']],
+      },
+      {
+        title: 'Piso Térreo',
+        suites: [
+          ['Suíte 02', '1 cama de casal king size, mosquiteiro, TV, ar-condicionado, ventilador de teto, cofre, secador de cabelo e vista para o jardim.'],
+          ['Suíte 03', '1 cama de casal king size, mosquiteiro, 1 sofá-cama, ar-condicionado, cofre, secador de cabelo, minicozinha integrada e varanda com rede.'],
+          ['Suíte 04', '1 cama de casal king size, mosquiteiro, 1 sofá-cama, ar-condicionado, cofre, secador de cabelo, minicozinha integrada e varanda com rede.'],
+          ['Suíte 05', '1 cama de casal king size, mosquiteiro, ar-condicionado, cofre, banheira, secador de cabelo e varanda com vista para o jardim.'],
+        ],
+      },
+    ],
+    footer: 'Capacidade para até 12 hóspedes, com 5 camas king size e 2 sofás-cama.',
+  },
+  en: {
+    groups: [
+      {
+        title: 'Upper Floor',
+        suites: [['Master Suite', '1 king-size bed, mosquito net, air conditioning, minibar, safe, hairdryer, bathtub, massage space and ocean view.']],
+      },
+      {
+        title: 'Ground Floor',
+        suites: [
+          ['Suite 02', '1 king-size bed, mosquito net, TV, air conditioning, ceiling fan, safe, hairdryer and garden view.'],
+          ['Suite 03', '1 king-size bed, mosquito net, 1 sofa bed, air conditioning, safe, hairdryer, integrated kitchenette and balcony with hammock.'],
+          ['Suite 04', '1 king-size bed, mosquito net, 1 sofa bed, air conditioning, safe, hairdryer, integrated kitchenette and balcony with hammock.'],
+          ['Suite 05', '1 king-size bed, mosquito net, air conditioning, safe, bathtub, hairdryer and balcony with garden view.'],
+        ],
+      },
+    ],
+    footer: 'Capacity for up to 12 guests, with 5 king-size beds and 2 sofa beds.',
+  },
+  },
+  'casa-joao-vieira-12': {
+  pt: {
+    groups: [
+      {
+        title: '',
+        suites: [
+          ['Suíte 01', 'Cama king size.'],
+          ['Suíte 02', 'Cama queen size.'],
+          ['Suíte 03', 'Duas camas de solteiro conversíveis em king size.'],
+          ['Suíte 04 (bangalô de madeira)', 'Cama queen size.'],
+        ],
+      },
+    ],
+    footer: 'Capacidade para até 8 hóspedes.',
+  },
+  en: {
+    groups: [
+      {
+        title: '',
+        suites: [
+          ['Suite 01', 'King-size bed.'],
+          ['Suite 02', 'Queen-size bed.'],
+          ['Suite 03', 'Two twin beds convertible into a king.'],
+          ['Suite 04 (wooden bungalow)', 'Queen-size bed.'],
+        ],
+      },
+    ],
+    footer: 'Capacity for up to 8 guests.',
+  },
+  },
 };
 
 function Item({ title, open, onToggle, emph = false, children }: { title: string; open: boolean; onToggle: () => void; emph?: boolean; children: ReactNode }) {
@@ -124,7 +195,9 @@ function Item({ title, open, onToggle, emph = false, children }: { title: string
 
 export default function Especificacoes({ p }: { p: Property }) {
   const { t, lang } = useLang();
-  const emph = p.id === 'casa-sol';
+  // Novo padrão (aprovado na Casa Sol) — piloto com 5 casas; demais seguem no formato antigo.
+  const EMPH_IDS = ['casa-sol', 'casa-lua', 'casa-joao-vieira-12', 'villa-iande', 'casa-naoca', 'casa-71'];
+  const emph = EMPH_IDS.includes(p.id);
   const l = LABELS[lang === 'pt' ? 'pt' : 'en'];
   const [openIdx, setOpenIdx] = useState<number | null>(null);
   const toggle = (i: number) => setOpenIdx(cur => (cur === i ? null : i));
@@ -138,6 +211,7 @@ export default function Especificacoes({ p }: { p: Property }) {
     (lang === 'pt'
       ? `${p.suites} suítes · até ${p.guests} hóspedes · ${p.baths} banheiros.`
       : `${p.suites} suites · up to ${p.guests} guests · ${p.baths} bathrooms.`);
+  const suitesData = emph ? SUITES_BY_ID[p.id]?.[lang === 'pt' ? 'pt' : 'en'] : undefined;
 
   const staffList = p.staff ? txt(p.staff, lang) : [...t.imovel.includedList];
 
@@ -175,24 +249,33 @@ export default function Especificacoes({ p }: { p: Property }) {
         </Item>
         <Item title={l.suites} open={openIdx === 1} onToggle={() => toggle(1)} emph={emph}>
           {emph ? (
-            <div className="space-y-6 pt-1">
-              {SUITES_CASA_SOL[lang === 'pt' ? 'pt' : 'en'].map((g, i) => (
-                <div key={i}>
-                  <h4 className="font-serif-e text-base md:text-lg font-semibold text-ink">{g.title}</h4>
-                  {g.master ? (
-                    <p className="mt-1.5 text-sm leading-relaxed text-ink/90">{g.master}</p>
-                  ) : (
-                    <div className="mt-1.5 space-y-1.5">
-                      {g.suites!.map(([nome, desc], j) => (
-                        <p key={j} className="text-sm leading-relaxed text-ink/90">
-                          <strong className="font-semibold text-ink">{nome}:</strong> {desc}
-                        </p>
-                      ))}
-                    </div>
-                  )}
-                </div>
-              ))}
-            </div>
+            suitesData ? (
+              <div className="space-y-6 pt-1">
+                {suitesData.groups.map((g, i) => (
+                  <div key={i}>
+                    {g.title && (
+                      <h4 className="font-serif-e text-base md:text-lg font-semibold text-ink">{g.title}</h4>
+                    )}
+                    {g.master ? (
+                      <p className="mt-1.5 text-sm leading-relaxed text-ink/90">{g.master}</p>
+                    ) : (
+                      <div className="mt-1.5 space-y-1.5">
+                        {g.suites!.map(([nome, desc], j) => (
+                          <p key={j} className="text-sm leading-relaxed text-ink/90">
+                            <strong className="font-semibold text-ink">{nome}:</strong> {desc}
+                          </p>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+                ))}
+                {suitesData.footer && (
+                  <p className="text-sm leading-relaxed text-ink/90 pt-1">{suitesData.footer}</p>
+                )}
+              </div>
+            ) : (
+              <p className="text-sm leading-relaxed text-ink/90 pt-1">{suitesText}</p>
+            )
           ) : (
             <p className="text-ink text-sm leading-relaxed">{suitesText}</p>
           )}
