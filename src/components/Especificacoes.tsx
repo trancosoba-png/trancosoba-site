@@ -93,11 +93,11 @@ export default function Especificacoes({ p }: { p: Property }) {
         <span className="text-[#b08d57] text-sm leading-none">❁</span>
         <span className="h-px w-16 bg-[#b08d57]/70" />
       </div>
-      <div className="space-y-3 md:w-[72%] mx-auto">
+      <div className="space-y-3 md:w-[64%] mx-auto">
         <Item title={l.amenities} open={openIdx === 0} onToggle={() => toggle(0)}>
           <ul className="grid sm:grid-cols-2 gap-x-8 gap-y-2.5">
             {amenitiesList.map((a, i) => (
-              <li key={i} className="flex items-start gap-3 text-sm text-ink/85 leading-relaxed">
+              <li key={i} className="flex items-start gap-3 text-sm text-ink leading-relaxed">
                 <span className="w-1.5 h-1.5 bg-gold rounded-full shrink-0 mt-1.5" />
                 {a}
               </li>
@@ -105,12 +105,12 @@ export default function Especificacoes({ p }: { p: Property }) {
           </ul>
         </Item>
         <Item title={l.suites} open={openIdx === 1} onToggle={() => toggle(1)}>
-          <p className="text-ink/85 text-sm leading-relaxed">{suitesText}</p>
+          <p className="text-ink text-sm leading-relaxed">{suitesText}</p>
         </Item>
         <Item title={l.staff} open={openIdx === 2} onToggle={() => toggle(2)}>
           <ul className="grid sm:grid-cols-2 gap-x-8 gap-y-2.5">
             {staffList.map((s, i) => (
-              <li key={i} className="flex items-start gap-3 text-sm text-ink/85 leading-relaxed">
+              <li key={i} className="flex items-start gap-3 text-sm text-ink leading-relaxed">
                 <span className="w-1.5 h-1.5 bg-green-e rounded-full shrink-0 mt-1.5" />
                 {s}
               </li>
@@ -118,7 +118,7 @@ export default function Especificacoes({ p }: { p: Property }) {
           </ul>
         </Item>
         <Item title={l.location} open={openIdx === 3} onToggle={() => toggle(3)}>
-          <p className="text-ink/85 text-sm leading-relaxed">
+          <p className="text-ink text-sm leading-relaxed">
             {locationText}
             {lot ? ` ${lot.lot}.` : ''}
             {p.locationDetail ? ` ${txt(p.locationDetail, lang)}.` : ''}
