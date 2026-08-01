@@ -30,6 +30,22 @@ const DROP_NOTE = /loca[cç][aã]o m[ií]nima|minimum stay|estadia m[ií]nima|no
 // "Suítes e Quartos" e sai da descrição para não duplicar.
 export const SUITE_PAR = /configura[cç][aã]o das su[ií]tes|suite layout|distribui[cç][aã]o das su[ií]tes/i;
 
+
+// Divide o parágrafo de configuração das suítes em itens com título próprio
+// (ex.: "Suíte Master" + descrição). Usado apenas na variante de teste (Casa Sol).
+function parseSuites(text: string): { title: string; body: string }[] {
+  const clean = text.replace(/^[^:]*:\s*/, '');
+  return clean
+    .split(/;\s*/)
+    .map((entry) => entry.trim())
+    .filter(Boolean)
+    .map((entry) => {
+      const m = entry.match(/^(.*?)(?:\s+com\s+|\s+with\s+)(.*)$/s);
+      if (!m) return { title: '', body: entry };
+      return { title: m[1].trim(), body: entry.slice(m[1].length).trim() };
+    });
+}
+
 function Item({ title, open, onToggle, emph = false, children }: { title: string; open: boolean; onToggle: () => void; emph?: boolean; children: ReactNode }) {
   return (
     <div className={`border ${emph ? 'border-[#b08d57]/60' : 'border-[#b08d57]/35'}`}>
@@ -54,7 +70,7 @@ function Item({ title, open, onToggle, emph = false, children }: { title: string
         className={`grid transition-all duration-[225ms] ease-in-out ${open ? 'grid-rows-[1fr] opacity-100' : 'grid-rows-[0fr] opacity-0'}`}
       >
         <div className="overflow-hidden">
-          <div className="px-6 md:px-8 pb-5">{children}</div>
+          <div className={`px-6 md:px-8 ${emph ? 'pb-7' : 'pb-5'}`}>{children}</div>
         </div>
       </div>
     </div>
@@ -92,12 +108,16 @@ export default function Especificacoes({ p }: { p: Property }) {
   return (
     <section className="mt-12" aria-label={l.title}>
       <h2 className="font-serif-e text-3xl md:text-4xl text-green-e text-center">{l.title}</h2>
-      <div className="flex items-center justify-center gap-4 mt-4 mb-8" aria-hidden="true">
-        <span className="h-px w-16 bg-[#b08d57]/70" />
-        <span className="text-[#b08d57] text-sm leading-none">❁</span>
-        <span className="h-px w-16 bg-[#b08d57]/70" />
-      </div>
-      <div className="space-y-3 md:w-[64%] mx-auto">
+      {emph ? (
+        <div className="mt-2 mb-9" aria-hidden="true" />
+      ) : (
+        <div className="flex items-center justify-center gap-4 mt-4 mb-8" aria-hidden="true">
+          <span className="h-px w-16 bg-[#b08d57]/70" />
+          <span className="text-[#b08d57] text-sm leading-none">❁</span>
+          <span className="h-px w-16 bg-[#b08d57]/70" />
+        </div>
+      )}
+      <div className={`space-y-3 mx-auto ${emph ? 'md:w-[84%]' : 'md:w-[64%]'}`}>
         <Item title={l.amenities} open={openIdx === 0} onToggle={() => toggle(0)} emph={emph}>
           <ul className="grid sm:grid-cols-2 gap-x-8 gap-y-2.5">
             {amenitiesList.map((a, i) => (
@@ -109,7 +129,20 @@ export default function Especificacoes({ p }: { p: Property }) {
           </ul>
         </Item>
         <Item title={l.suites} open={openIdx === 1} onToggle={() => toggle(1)} emph={emph}>
-          <p className="text-ink text-sm leading-relaxed">{suitesText}</p>
+          {emph ? (
+            <dl className="space-y-5 pt-1">
+              {parseSuites(suitesText).map((s, i) => (
+                <div key={i} className={i > 0 ? 'pt-5 border-t border-[#b08d57]/20' : ''}>
+                  {s.title && (
+                    <dt className="font-serif-e text-base md:text-lg font-semibold text-ink mb-1.5">{s.title}</dt>
+                  )}
+                  <dd className="text-ink/85 text-sm leading-relaxed">{s.body}</dd>
+                </div>
+              ))}
+            </dl>
+          ) : (
+            <p className="text-ink text-sm leading-relaxed">{suitesText}</p>
+          )}
         </Item>
         <Item title={l.staff} open={openIdx === 2} onToggle={() => toggle(2)} emph={emph}>
           <ul className="grid sm:grid-cols-2 gap-x-8 gap-y-2.5">
@@ -127,7 +160,7 @@ export default function Especificacoes({ p }: { p: Property }) {
             {lot ? ` ${lot.lot}.` : ''}
             {p.locationDetail ? ` ${txt(p.locationDetail, lang)}.` : ''}
           </p>
-          {mapUrl && (
+          {mapUrl && !emph && (
             <a
               href={mapUrl}
               target="_blank"
