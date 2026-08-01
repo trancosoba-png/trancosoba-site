@@ -410,6 +410,52 @@ const SUITES_BY_ID: Record<string, Record<'pt' | 'en', HouseSuites>> = {
     ],
   },
   },
+  'aldeia-itapororoca-casa-11': {
+  pt: {
+    groups: [
+      {
+        title: 'Piso Superior',
+        suites: [
+          ['Suíte Master', '1 cama king-size, mosquiteiro, closet, ar-condicionado, TV, banheira e secador de cabelo.'],
+          ['Suíte 02', '1 cama king-size, mosquiteiro, ar-condicionado e secador de cabelo.'],
+          ['Suíte 03', '2 camas de solteiro conversíveis em cama de casal, mosquiteiro e ar-condicionado.'],
+          ['Suíte 04', '2 camas de solteiro conversíveis em cama de casal, mosquiteiro e ar-condicionado.'],
+        ],
+      },
+      {
+        title: 'Piso Térreo',
+        suites: [
+          ['Suíte 05', '2 camas de solteiro conversíveis em cama de casal, 1 sofá-cama, mosquiteiro e ar-condicionado.'],
+          ['Suíte 06', '1 cama king-size, 1 sofá-cama de solteiro com bicama, mosquiteiro, closet e ar-condicionado.'],
+          ['Suíte 07', '1 cama king-size, mosquiteiro, ar-condicionado e banheira.'],
+        ],
+      },
+    ],
+    footer: 'Capacidade para até 14 hóspedes.',
+  },
+  en: {
+    groups: [
+      {
+        title: 'Upper Floor',
+        suites: [
+          ['Master Suite', '1 king-size bed, mosquito net, walk-in closet, air conditioning, TV, bathtub and hairdryer.'],
+          ['Suite 02', '1 king-size bed, mosquito net, air conditioning and hairdryer.'],
+          ['Suite 03', '2 twin beds convertible into a double, mosquito net and air conditioning.'],
+          ['Suite 04', '2 twin beds convertible into a double, mosquito net and air conditioning.'],
+        ],
+      },
+      {
+        title: 'Ground Floor',
+        suites: [
+          ['Suite 05', '2 twin beds convertible into a double, 1 sofa bed, mosquito net and air conditioning.'],
+          ['Suite 06', '1 king-size bed, 1 twin sofa bed with trundle, mosquito net, walk-in closet and air conditioning.'],
+          ['Suite 07', '1 king-size bed, mosquito net, air conditioning and bathtub.'],
+        ],
+      },
+    ],
+    footer: 'Capacity for up to 14 guests.',
+  },
+  },
 };
 
 function Item({ title, open, onToggle, emph = false, children }: { title: string; open: boolean; onToggle: () => void; emph?: boolean; children: ReactNode }) {
