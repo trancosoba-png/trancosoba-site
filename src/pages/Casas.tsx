@@ -1,7 +1,8 @@
 import { useMemo, useState } from 'react';
 import { useSearchParams } from 'react-router';
 import { useLang } from '../i18n';
-import { PROPERTIES, LOCATIONS, dailyPrice, type Feature } from '../data/properties';
+import { PROPERTIES, dailyPrice, type Feature } from '../data/properties';
+import { FILTER_LOCATIONS, canonicalLocation } from '../data/locations';
 import { PageHero, Reveal } from '../components/Layout';
 import PropertyCard from '../components/PropertyCard';
 
@@ -11,7 +12,7 @@ export default function Casas() {
   const { t, lang } = useLang();
   const [params] = useSearchParams();
   const [purpose, setPurpose] = useState<PurposeFilter>((params.get('finalidade') as PurposeFilter) ?? '');
-  const [location, setLocation] = useState(params.get('local') ?? '');
+  const [location, setLocation] = useState(canonicalLocation(params.get('local') ?? ''));
   const [suites, setSuites] = useState(params.get('suites') ?? '');
   const [guests, setGuests] = useState(params.get('hospedes') ?? '');
   const [priceMin, setPriceMin] = useState('');
@@ -23,7 +24,7 @@ export default function Casas() {
 
   const results = useMemo(() => PROPERTIES.filter(p => {
     if (purpose && !p.purpose.includes(purpose) && !(purpose === 'venda' && p.salePrice)) return false;
-    if (location && p.location !== location) return false;
+    if (location && canonicalLocation(p.location) !== location) return false;
     if (suites && p.suites < Number(suites)) return false;
     if (guests && p.guests < Number(guests)) return false;
     const dp = dailyPrice(p);
@@ -70,7 +71,7 @@ export default function Casas() {
                 <span className="eyebrow text-green-e/60">{t.hero.location}</span>
                 <select value={location} onChange={e => setLocation(e.target.value)} className={sel}>
                   <option value="">{t.hero.all}</option>
-                  {LOCATIONS.map(l => <option key={l}>{l}</option>)}
+                  {FILTER_LOCATIONS.map(l => <option key={l}>{l}</option>)}
                 </select>
               </label>
               <label className="flex flex-col gap-1.5">
