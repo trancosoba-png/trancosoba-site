@@ -31,20 +31,65 @@ const DROP_NOTE = /loca[cç][aã]o m[ií]nima|minimum stay|estadia m[ií]nima|no
 export const SUITE_PAR = /configura[cç][aã]o das su[ií]tes|suite layout|distribui[cç][aã]o das su[ií]tes/i;
 
 
-// Divide o parágrafo de configuração das suítes em itens com título próprio
-// (ex.: "Suíte Master" + descrição). Usado apenas na variante de teste (Casa Sol).
-function parseSuites(text: string): { title: string; body: string }[] {
-  const clean = text.replace(/^[^:]*:\s*/, '');
-  return clean
-    .split(/;\s*/)
-    .map((entry) => entry.trim())
-    .filter(Boolean)
-    .map((entry) => {
-      const m = entry.match(/^(.*?)(?:\s+com\s+|\s+with\s+)(.*)$/s);
-      if (!m) return { title: '', body: entry };
-      return { title: m[1].trim(), body: entry.slice(m[1].length).trim() };
-    });
-}
+// Configuração das suítes da Casa Sol, agrupada por ala/bangalô.
+// Usada apenas na variante de teste (Casa Sol).
+type SuiteGroup = { title: string; master?: string; suites?: [string, string][] };
+const SUITES_CASA_SOL: Record<'pt' | 'en', SuiteGroup[]> = {
+  pt: [
+    {
+      title: 'Suíte Máster',
+      master: '01 cama de casal king, sala de massagem, sala de estar, closet e banheiro com banheira.',
+    },
+    {
+      title: 'Ala Azul',
+      suites: [['Suíte 01', '01 cama de casal king e um sofá cama de solteiro.']],
+    },
+    {
+      title: 'Bangalô 01',
+      suites: [
+        ['Suíte 02', '01 cama de casal king, saleta com 01 sofá cama e uma mini copa.'],
+        ['Suíte 03', '01 cama de casal king.'],
+        ['Suíte 04', '02 camas de solteiro e duas bicamas. (conexão com a suíte 03).'],
+      ],
+    },
+    {
+      title: 'Bangalô 02',
+      suites: [
+        ['Suíte 05', '01 cama de casal king.'],
+        ['Suíte 06', '02 camas de viúvo.'],
+        ['Suíte 07', '02 camas de viúvo.'],
+        ['Suíte 08', '01 cama de casal king.'],
+      ],
+    },
+  ],
+  en: [
+    {
+      title: 'Master Suite',
+      master: '01 king bed, massage room, living room, walk-in closet and bathroom with bathtub.',
+    },
+    {
+      title: 'Blue Wing',
+      suites: [['Suite 01', '01 king bed and one twin sofa bed.']],
+    },
+    {
+      title: 'Bungalow 01',
+      suites: [
+        ['Suite 02', '01 king bed, sitting area with 01 sofa bed and a mini kitchenette.'],
+        ['Suite 03', '01 king bed.'],
+        ['Suite 04', '02 twin beds and two bunk beds (connected to suite 03).'],
+      ],
+    },
+    {
+      title: 'Bungalow 02',
+      suites: [
+        ['Suite 05', '01 king bed.'],
+        ['Suite 06', '02 wide twin beds.'],
+        ['Suite 07', '02 wide twin beds.'],
+        ['Suite 08', '01 king bed.'],
+      ],
+    },
+  ],
+};
 
 function Item({ title, open, onToggle, emph = false, children }: { title: string; open: boolean; onToggle: () => void; emph?: boolean; children: ReactNode }) {
   return (
@@ -130,17 +175,23 @@ export default function Especificacoes({ p }: { p: Property }) {
         </Item>
         <Item title={l.suites} open={openIdx === 1} onToggle={() => toggle(1)} emph={emph}>
           {emph ? (
-            <div className="space-y-3 pt-1">
-              {parseSuites(suitesText).map((s, i) =>
-                s.title ? (
-                  <p key={i} className="text-sm leading-relaxed text-ink/90">
-                    <strong className="font-semibold text-ink">{s.title}:</strong>{' '}
-                    {s.body.replace(/^com\s+/i, '').replace(/^with\s+/i, '').replace(/^./, (c) => c.toUpperCase())}
-                  </p>
-                ) : (
-                  <p key={i} className="text-sm leading-relaxed text-ink/90 pt-1">{s.body}</p>
-                )
-              )}
+            <div className="space-y-6 pt-1">
+              {SUITES_CASA_SOL[lang === 'pt' ? 'pt' : 'en'].map((g, i) => (
+                <div key={i}>
+                  <h4 className="font-serif-e text-base md:text-lg font-semibold text-ink">{g.title}</h4>
+                  {g.master ? (
+                    <p className="mt-1.5 text-sm leading-relaxed text-ink/90">{g.master}</p>
+                  ) : (
+                    <div className="mt-1.5 space-y-1.5">
+                      {g.suites!.map(([nome, desc], j) => (
+                        <p key={j} className="text-sm leading-relaxed text-ink/90">
+                          <strong className="font-semibold text-ink">{nome}:</strong> {desc}
+                        </p>
+                      ))}
+                    </div>
+                  )}
+                </div>
+              ))}
             </div>
           ) : (
             <p className="text-ink text-sm leading-relaxed">{suitesText}</p>
