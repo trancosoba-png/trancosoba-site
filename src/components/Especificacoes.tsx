@@ -53,15 +53,15 @@ function Item({ title, open, onToggle, emph = false, children }: { title: string
         type="button"
         onClick={onToggle}
         aria-expanded={open}
-        className={`w-full flex items-center justify-between gap-6 px-6 md:px-8 text-left transition-colors hover:bg-[#b08d57]/5 ${emph ? 'py-5 md:py-6' : 'py-3 md:py-4'}`}
+        className={`w-full flex items-center justify-between gap-6 px-6 md:px-7 text-left transition-colors hover:bg-[#b08d57]/5 ${emph ? 'py-4' : 'py-3 md:py-4'}`}
       >
         <span className={emph
-          ? 'font-serif-e text-xl md:text-[1.3rem] font-semibold tracking-wide text-ink'
+          ? 'font-serif-e text-lg md:text-[1.15rem] font-semibold tracking-wide text-ink'
           : 'font-serif-e text-lg md:text-xl font-normal tracking-wide text-green-e'
         }>{title}</span>
         <span
           aria-hidden="true"
-          className={`shrink-0 flex items-center leading-none transition-transform duration-200 ${open ? 'rotate-180' : ''} ${emph ? 'text-ink text-sm' : 'text-green-e/60 text-[10px]'}`}
+          className={`shrink-0 flex items-center leading-none transition-transform duration-200 ${open ? 'rotate-180' : ''} ${emph ? 'text-ink text-xs' : 'text-green-e/60 text-[10px]'}`}
         >
           ▼
         </span>
@@ -70,7 +70,7 @@ function Item({ title, open, onToggle, emph = false, children }: { title: string
         className={`grid transition-all duration-[225ms] ease-in-out ${open ? 'grid-rows-[1fr] opacity-100' : 'grid-rows-[0fr] opacity-0'}`}
       >
         <div className="overflow-hidden">
-          <div className={`px-6 md:px-8 ${emph ? 'pb-7' : 'pb-5'}`}>{children}</div>
+          <div className={`px-6 md:px-7 ${emph ? 'pb-6' : 'pb-5'}`}>{children}</div>
         </div>
       </div>
     </div>
@@ -117,7 +117,7 @@ export default function Especificacoes({ p }: { p: Property }) {
           <span className="h-px w-16 bg-[#b08d57]/70" />
         </div>
       )}
-      <div className={`space-y-3 mx-auto ${emph ? 'md:w-[84%]' : 'md:w-[64%]'}`}>
+      <div className={`mx-auto ${emph ? 'space-y-4 md:max-w-[800px]' : 'space-y-3 md:w-[64%]'}`}>
         <Item title={l.amenities} open={openIdx === 0} onToggle={() => toggle(0)} emph={emph}>
           <ul className="grid sm:grid-cols-2 gap-x-8 gap-y-2.5">
             {amenitiesList.map((a, i) => (
@@ -130,16 +130,18 @@ export default function Especificacoes({ p }: { p: Property }) {
         </Item>
         <Item title={l.suites} open={openIdx === 1} onToggle={() => toggle(1)} emph={emph}>
           {emph ? (
-            <dl className="space-y-5 pt-1">
-              {parseSuites(suitesText).map((s, i) => (
-                <div key={i} className={i > 0 ? 'pt-5 border-t border-[#b08d57]/20' : ''}>
-                  {s.title && (
-                    <dt className="font-serif-e text-base md:text-lg font-semibold text-ink mb-1.5">{s.title}</dt>
-                  )}
-                  <dd className="text-ink/85 text-sm leading-relaxed">{s.body}</dd>
-                </div>
-              ))}
-            </dl>
+            <div className="space-y-3 pt-1">
+              {parseSuites(suitesText).map((s, i) =>
+                s.title ? (
+                  <p key={i} className="text-sm leading-relaxed text-ink/90">
+                    <strong className="font-semibold text-ink">{s.title}:</strong>{' '}
+                    {s.body.replace(/^com\s+/i, '').replace(/^with\s+/i, '').replace(/^./, (c) => c.toUpperCase())}
+                  </p>
+                ) : (
+                  <p key={i} className="text-sm leading-relaxed text-ink/90 pt-1">{s.body}</p>
+                )
+              )}
+            </div>
           ) : (
             <p className="text-ink text-sm leading-relaxed">{suitesText}</p>
           )}
