@@ -32,17 +32,17 @@ export const SUITE_PAR = /configura[cç][aã]o das su[ií]tes|suite layout|distr
 
 function Item({ title, open, onToggle, children }: { title: string; open: boolean; onToggle: () => void; children: ReactNode }) {
   return (
-    <div className="border border-[#b08d57]/60">
+    <div className="border border-[#b08d57]/35">
       <button
         type="button"
         onClick={onToggle}
         aria-expanded={open}
-        className="w-full flex items-center justify-between gap-6 px-6 md:px-10 py-6 md:py-7 text-left transition-colors hover:bg-[#b08d57]/5"
+        className="w-full flex items-center justify-between gap-6 px-6 md:px-8 py-4 md:py-5 text-left transition-colors hover:bg-[#b08d57]/5"
       >
-        <span className="font-serif-e text-xl md:text-2xl text-green-e">{title}</span>
+        <span className="font-serif-e text-lg md:text-xl font-normal tracking-wide text-green-e/90">{title}</span>
         <span
           aria-hidden="true"
-          className={`shrink-0 text-green-e/80 text-sm transition-transform duration-300 ${open ? 'rotate-180' : ''}`}
+          className={`shrink-0 text-green-e/60 text-[10px] transition-transform duration-300 ${open ? 'rotate-180' : ''}`}
         >
           ▼
         </span>
@@ -51,7 +51,7 @@ function Item({ title, open, onToggle, children }: { title: string; open: boolea
         className={`grid transition-all duration-500 ease-in-out ${open ? 'grid-rows-[1fr] opacity-100' : 'grid-rows-[0fr] opacity-0'}`}
       >
         <div className="overflow-hidden">
-          <div className="px-6 md:px-10 pb-7">{children}</div>
+          <div className="px-6 md:px-8 pb-5">{children}</div>
         </div>
       </div>
     </div>
@@ -93,7 +93,7 @@ export default function Especificacoes({ p }: { p: Property }) {
         <span className="text-[#b08d57] text-sm leading-none">❁</span>
         <span className="h-px w-16 bg-[#b08d57]/70" />
       </div>
-      <div className="space-y-4">
+      <div className="space-y-3 max-w-3xl mx-auto">
         <Item title={l.amenities} open={openIdx === 0} onToggle={() => toggle(0)}>
           <ul className="grid sm:grid-cols-2 gap-x-8 gap-y-2.5">
             {amenitiesList.map((a, i) => (
