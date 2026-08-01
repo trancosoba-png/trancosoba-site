@@ -2,7 +2,8 @@ import { useMemo, useState } from 'react';
 import { Link, useNavigate } from 'react-router';
 import { ArrowRight, MessageCircle, ChevronDown } from 'lucide-react';
 import { useLang } from '../i18n';
-import { PROPERTIES, LOCATIONS, WHATSAPP } from '../data/properties';
+import { PROPERTIES, WHATSAPP } from '../data/properties';
+import { FILTER_LOCATIONS } from '../data/locations';
 import { imgSources } from '../data/imgset';
 import { trackWhatsApp } from '../data/analytics';
 import { Reveal } from '../components/Layout';
@@ -37,7 +38,7 @@ function HeroSearch() {
       <label className={`${field} md:flex-1`}>
         <select value={location} onChange={e => setLocation(e.target.value)} aria-label={t.hero.location} className={select}>
           <option value="">{lang === 'pt' ? 'Localização' : 'Location'}</option>
-          {LOCATIONS.map(l => <option key={l} value={l}>{l}</option>)}
+          {FILTER_LOCATIONS.map(l => <option key={l} value={l}>{l}</option>)}
         </select>
         {chevron}
       </label>
