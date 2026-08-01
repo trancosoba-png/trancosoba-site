@@ -160,6 +160,256 @@ const SUITES_BY_ID: Record<string, Record<'pt' | 'en', HouseSuites>> = {
     footer: 'Capacity for up to 8 guests.',
   },
   },
+  'terravista-golf-casa-42': {
+  pt: {
+    groups: [
+      {
+        title: '',
+        suites: [
+          ['Suítes 01 e 02', '2 camas de solteiro cada.'],
+          ['Suítes 03 e 04', '1 cama de casal cada.'],
+          ['Suítes 05 e 06 (Master)', '1 cama de casal, TV e varanda.'],
+          ['Suíte 07', '1 cama de casal, TV e varanda.'],
+        ],
+      },
+    ],
+    footer: 'Todas com ar-condicionado e secador de cabelo.',
+  },
+  en: {
+    groups: [
+      {
+        title: '',
+        suites: [
+          ['Suites 01 and 02', '2 single beds each.'],
+          ['Suites 03 and 04', '1 double bed each.'],
+          ['Suites 05 and 06 (Master)', '1 double bed, TV and veranda.'],
+          ['Suite 07', '1 double bed, TV and veranda.'],
+        ],
+      },
+    ],
+    footer: 'All with air conditioning and hairdryer.',
+  },
+  },
+  'terravista-golf-casa-61': {
+  pt: {
+    groups: [
+      {
+        title: '',
+        suites: [
+          ['Suítes 01, 03 e 05', '2 camas de solteiro conversíveis em cama de casal.'],
+          ['Suítes 02, 04 e 06', 'Cama king size.'],
+        ],
+      },
+    ],
+    footer: 'Todas com mosquiteiro, armários, ar-condicionado e secador de cabelo.',
+  },
+  en: {
+    groups: [
+      {
+        title: '',
+        suites: [
+          ['Suites 01, 03 and 05', '2 single beds convertible into a double bed.'],
+          ['Suites 02, 04 and 06', 'King-size bed.'],
+        ],
+      },
+    ],
+    footer: 'All with mosquito net, wardrobes, air conditioning and hairdryer.',
+  },
+  },
+  'terravista-vilas-casa-02': {
+  pt: {
+    groups: [
+      {
+        title: '',
+        suites: [
+          ['Suíte 01', 'Cama king size, armário, TV e varanda.'],
+          ['Suíte 02', 'Duas camas de solteiro conversíveis em cama de casal, armário, TV e varanda.'],
+          ['Suíte 03', 'Cama king size.'],
+        ],
+      },
+    ],
+    footer: 'Todas com ar-condicionado e secador de cabelo.',
+  },
+  en: {
+    groups: [
+      {
+        title: '',
+        suites: [
+          ['Suite 01', 'King-size bed, wardrobe, TV and veranda.'],
+          ['Suite 02', 'Two single beds convertible into a double bed, wardrobe, TV and veranda.'],
+          ['Suite 03', 'King-size bed.'],
+        ],
+      },
+    ],
+    footer: 'All with air conditioning and hairdryer.',
+  },
+  },
+  'terravista-golf-casa-80': {
+  pt: {
+    groups: [
+      {
+        title: 'Piso Térreo',
+        suites: [
+          ['Suíte 01 (Master)', 'Cama king, mosquiteiro, ar-condicionado, cofre e secador.'],
+          ['Suítes 02 e 03', '2 camas de solteiro conversíveis em casal cada.'],
+        ],
+      },
+      {
+        title: 'Piso Inferior',
+        suites: [
+          ['Suíte 04 (Master)', 'Cama king, mosquiteiro, ar-condicionado, cofre e secador.'],
+          ['Suítes 05 e 06', '2 camas de solteiro conversíveis em casal cada.'],
+        ],
+      },
+    ],
+  },
+  en: {
+    groups: [
+      {
+        title: 'Ground Floor',
+        suites: [
+          ['Suite 01 (Master)', 'King bed, mosquito net, air conditioning, safe and hairdryer.'],
+          ['Suites 02 and 03', '2 single beds convertible into a double each.'],
+        ],
+      },
+      {
+        title: 'Lower Floor',
+        suites: [
+          ['Suite 04 (Master)', 'King bed, mosquito net, air conditioning, safe and hairdryer.'],
+          ['Suites 05 and 06', '2 single beds convertible into a double each.'],
+        ],
+      },
+    ],
+  },
+  },
+  'terravista-vilas-75': {
+  pt: {
+    groups: [
+      {
+        title: '',
+        suites: [
+          ['Suíte Master 01', '2 camas king, closet e varanda com vista para o mar.'],
+          ['Suíte 02', 'Cama super king, closet e varanda com vista para o jardim.'],
+          ['Suítes 03 e 05', 'Cama king, closet e varanda com vista para o mar.'],
+          ['Suítes 04 e 06', '2 camas de solteiro reversíveis em super king, closet e varanda com vista para o mar.'],
+        ],
+      },
+    ],
+    footer: 'Todas com mosquiteiro e ar-condicionado.',
+  },
+  en: {
+    groups: [
+      {
+        title: '',
+        suites: [
+          ['Master Suite 01', '2 king beds, walk-in closet and veranda with ocean view.'],
+          ['Suite 02', 'Super king bed, closet and veranda with garden view.'],
+          ['Suites 03 and 05', 'King bed, closet and veranda with ocean view.'],
+          ['Suites 04 and 06', '2 single beds convertible into a super king, closet and veranda with ocean view.'],
+        ],
+      },
+    ],
+    footer: 'All with mosquito net and air conditioning.',
+  },
+  },
+  'casa-sao-jorge-altos-do-segredo': {
+  pt: {
+    groups: [
+      {
+        title: '',
+        suites: [
+          ['Suíte Master', 'Cama king-size, varanda privativa, closet, banheiro com chuveiro duplo e máquina de café.'],
+          ['Suíte 02', 'Cama king-size.'],
+          ['Suíte 03', 'Cama king-size (conversível em 2 solteiro) e sofá-cama.'],
+          ['Suíte 04', 'Cama king-size (conversível em 2 solteiro), sofá-cama e entrada independente.'],
+          ['Suíte 05', 'Cama de casal (conversível em 2 solteiro) e entrada independente.'],
+        ],
+      },
+    ],
+  },
+  en: {
+    groups: [
+      {
+        title: '',
+        suites: [
+          ['Master Suite', 'King-size bed, private veranda, walk-in closet, bathroom with double shower and coffee machine.'],
+          ['Suite 02', 'King-size bed.'],
+          ['Suite 03', 'King-size bed (convertible into 2 singles) and sofa bed.'],
+          ['Suite 04', 'King-size bed (convertible into 2 singles), sofa bed and independent entrance.'],
+          ['Suite 05', 'Double bed (convertible into 2 singles) and independent entrance.'],
+        ],
+      },
+    ],
+  },
+  },
+  'casa-caza-altos-de-trancoso': {
+  pt: {
+    groups: [
+      {
+        title: '',
+        suites: [
+          ['Suítes 01, 02 e 03', 'Cama king-size, closet, cofre, ar-condicionado e mosquiteiro.'],
+          ['Suíte 04', 'Duas camas de solteiro reversíveis para king-size, closet, cofre, ar-condicionado e mosquiteiro.'],
+          ['Suíte 05', 'Duas camas de solteiro reversíveis para king-size, cofre, ar-condicionado e mosquiteiro.'],
+        ],
+      },
+    ],
+  },
+  en: {
+    groups: [
+      {
+        title: '',
+        suites: [
+          ['Suites 01, 02 and 03', 'King-size bed, walk-in closet, safe, air conditioning and mosquito net.'],
+          ['Suite 04', 'Two single beds convertible to king-size, walk-in closet, safe, air conditioning and mosquito net.'],
+          ['Suite 05', 'Two single beds convertible to king-size, safe, air conditioning and mosquito net.'],
+        ],
+      },
+    ],
+  },
+  },
+  'casa-macondo': {
+  pt: {
+    groups: [
+      {
+        title: 'Casa Principal (piso superior)',
+        suites: [
+          ['Suíte Master 01', 'Cama king size.'],
+          ['Suíte 02', '2 camas de viúva (reversíveis para casal).'],
+          ['Suíte 03', '2 camas de viúva.'],
+        ],
+      },
+      {
+        title: 'Bangalôs Externos',
+        suites: [
+          ['Suíte 04', '2 camas de viúva.'],
+          ['Suíte 05', 'Cama king size.'],
+          ['Suítes 06 e 07', 'Cama king size (conjugáveis entre si).'],
+        ],
+      },
+    ],
+  },
+  en: {
+    groups: [
+      {
+        title: 'Main House (upper floor)',
+        suites: [
+          ['Master Suite 01', 'King-size bed.'],
+          ['Suite 02', '2 wide twin beds (convertible into a double).'],
+          ['Suite 03', '2 wide twin beds.'],
+        ],
+      },
+      {
+        title: 'External Bungalows',
+        suites: [
+          ['Suite 04', '2 wide twin beds.'],
+          ['Suite 05', 'King-size bed.'],
+          ['Suites 06 and 07', 'King-size bed (connectable).'],
+        ],
+      },
+    ],
+  },
+  },
 };
 
 function Item({ title, open, onToggle, emph = false, children }: { title: string; open: boolean; onToggle: () => void; emph?: boolean; children: ReactNode }) {
@@ -195,9 +445,8 @@ function Item({ title, open, onToggle, emph = false, children }: { title: string
 
 export default function Especificacoes({ p }: { p: Property }) {
   const { t, lang } = useLang();
-  // Novo padrão (aprovado na Casa Sol) — piloto com 5 casas; demais seguem no formato antigo.
-  const EMPH_IDS = ['casa-sol', 'casa-lua', 'casa-joao-vieira-12', 'villa-iande', 'casa-naoca', 'casa-71'];
-  const emph = EMPH_IDS.includes(p.id);
+  // Novo padrão de Especificações aprovado — aplicado a todas as casas.
+  const emph = true;
   const l = LABELS[lang === 'pt' ? 'pt' : 'en'];
   const [openIdx, setOpenIdx] = useState<number | null>(null);
   const toggle = (i: number) => setOpenIdx(cur => (cur === i ? null : i));
