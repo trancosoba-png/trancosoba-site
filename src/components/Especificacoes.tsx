@@ -30,19 +30,22 @@ const DROP_NOTE = /loca[cç][aã]o m[ií]nima|minimum stay|estadia m[ií]nima|no
 // "Suítes e Quartos" e sai da descrição para não duplicar.
 export const SUITE_PAR = /configura[cç][aã]o das su[ií]tes|suite layout|distribui[cç][aã]o das su[ií]tes/i;
 
-function Item({ title, open, onToggle, children }: { title: string; open: boolean; onToggle: () => void; children: ReactNode }) {
+function Item({ title, open, onToggle, emph = false, children }: { title: string; open: boolean; onToggle: () => void; emph?: boolean; children: ReactNode }) {
   return (
-    <div className="border border-[#b08d57]/35">
+    <div className={`border ${emph ? 'border-[#b08d57]/60' : 'border-[#b08d57]/35'}`}>
       <button
         type="button"
         onClick={onToggle}
         aria-expanded={open}
-        className="w-full flex items-center justify-between gap-6 px-6 md:px-8 py-3 md:py-4 text-left transition-colors hover:bg-[#b08d57]/5"
+        className={`w-full flex items-center justify-between gap-6 px-6 md:px-8 text-left transition-colors hover:bg-[#b08d57]/5 ${emph ? 'py-5 md:py-6' : 'py-3 md:py-4'}`}
       >
-        <span className="font-serif-e text-lg md:text-xl font-normal tracking-wide text-green-e">{title}</span>
+        <span className={emph
+          ? 'font-serif-e text-xl md:text-[1.3rem] font-semibold tracking-wide text-ink'
+          : 'font-serif-e text-lg md:text-xl font-normal tracking-wide text-green-e'
+        }>{title}</span>
         <span
           aria-hidden="true"
-          className={`shrink-0 flex items-center leading-none text-green-e/60 text-[10px] transition-transform duration-200 ${open ? 'rotate-180' : ''}`}
+          className={`shrink-0 flex items-center leading-none transition-transform duration-200 ${open ? 'rotate-180' : ''} ${emph ? 'text-ink text-sm' : 'text-green-e/60 text-[10px]'}`}
         >
           ▼
         </span>
@@ -60,6 +63,7 @@ function Item({ title, open, onToggle, children }: { title: string; open: boolea
 
 export default function Especificacoes({ p }: { p: Property }) {
   const { t, lang } = useLang();
+  const emph = p.id === 'casa-sol';
   const l = LABELS[lang === 'pt' ? 'pt' : 'en'];
   const [openIdx, setOpenIdx] = useState<number | null>(null);
   const toggle = (i: number) => setOpenIdx(cur => (cur === i ? null : i));
@@ -94,7 +98,7 @@ export default function Especificacoes({ p }: { p: Property }) {
         <span className="h-px w-16 bg-[#b08d57]/70" />
       </div>
       <div className="space-y-3 md:w-[64%] mx-auto">
-        <Item title={l.amenities} open={openIdx === 0} onToggle={() => toggle(0)}>
+        <Item title={l.amenities} open={openIdx === 0} onToggle={() => toggle(0)} emph={emph}>
           <ul className="grid sm:grid-cols-2 gap-x-8 gap-y-2.5">
             {amenitiesList.map((a, i) => (
               <li key={i} className="flex items-start gap-3 text-sm text-ink leading-relaxed">
@@ -104,10 +108,10 @@ export default function Especificacoes({ p }: { p: Property }) {
             ))}
           </ul>
         </Item>
-        <Item title={l.suites} open={openIdx === 1} onToggle={() => toggle(1)}>
+        <Item title={l.suites} open={openIdx === 1} onToggle={() => toggle(1)} emph={emph}>
           <p className="text-ink text-sm leading-relaxed">{suitesText}</p>
         </Item>
-        <Item title={l.staff} open={openIdx === 2} onToggle={() => toggle(2)}>
+        <Item title={l.staff} open={openIdx === 2} onToggle={() => toggle(2)} emph={emph}>
           <ul className="grid sm:grid-cols-2 gap-x-8 gap-y-2.5">
             {staffList.map((s, i) => (
               <li key={i} className="flex items-start gap-3 text-sm text-ink leading-relaxed">
@@ -117,7 +121,7 @@ export default function Especificacoes({ p }: { p: Property }) {
             ))}
           </ul>
         </Item>
-        <Item title={l.location} open={openIdx === 3} onToggle={() => toggle(3)}>
+        <Item title={l.location} open={openIdx === 3} onToggle={() => toggle(3)} emph={emph}>
           <p className="text-ink text-sm leading-relaxed">
             {locationText}
             {lot ? ` ${lot.lot}.` : ''}
