@@ -8,6 +8,7 @@ import { usd } from '../data/price';
 import { trackWhatsApp } from '../data/analytics';
 import { Reveal } from '../components/Layout';
 import HeartButton from '../components/HeartButton';
+import Especificacoes, { SUITE_PAR } from '../components/Especificacoes';
 
 export default function Imovel() {
   const { id } = useParams();
@@ -15,6 +16,7 @@ export default function Imovel() {
   const navigate = useNavigate();
   const [copied, setCopied] = useState(false);
   const p = PROPERTIES.find(x => x.id === id);
+  const isSpecsV2 = p?.id === 'casa-joao-vieira-12';
   const [active, setActive] = useState(() => {
     if (!p) return 0;
     const i = p.gallery.indexOf(p.image);
@@ -180,48 +182,54 @@ export default function Imovel() {
               ))}
             </div>
             <div className="mt-8 text-ink/75 leading-relaxed text-lg font-serif-e space-y-5">
-              {txt(p.description, lang).split('\n\n').map((par, i) => <p key={i}>{par}</p>)}
+              {txt(p.description, lang).split('\n\n').filter(par => !isSpecsV2 || !SUITE_PAR.test(par)).map((par, i) => <p key={i}>{par}</p>)}
             </div>
 
-            <h2 className="font-serif-e text-3xl text-green-e mt-14">{t.imovel.amenities}</h2>
-            <ul className="grid sm:grid-cols-2 gap-x-8 gap-y-3 mt-5">
-              {txt(p.amenities, lang).map(a => (
-                <li key={a} className="text-ink/70 text-sm flex items-center gap-3">
-                  <span className="w-1.5 h-1.5 bg-gold rounded-full shrink-0" /> {a}
-                </li>
-              ))}
-            </ul>
-
-            <h2 className="font-serif-e text-3xl text-green-e mt-14 uppercase">{t.imovel.included}</h2>
-            <ul className="grid sm:grid-cols-2 gap-x-8 gap-y-3 mt-5">
-              {(p.staff ? txt(p.staff, lang) : t.imovel.includedList).map(a => (
-                <li key={a} className="text-ink/70 text-sm flex items-center gap-3">
-                  <span className="w-1.5 h-1.5 bg-green-e rounded-full shrink-0" /> {a}
-                </li>
-              ))}
-            </ul>
-
-            {p.notes && (
+            {isSpecsV2 ? (
+              <Especificacoes p={p} />
+            ) : (
               <>
-                <h2 className="font-serif-e text-xl text-green-e/80 mt-12 uppercase tracking-wide">{t.imovel.notes}</h2>
-                <ul className="mt-4 space-y-2">
-                  {txt(p.notes, lang).map(n => (
-                    <li key={n} className="text-ink/55 text-[13px] leading-relaxed">{n}</li>
+                <h2 className="font-serif-e text-3xl text-green-e mt-14">{t.imovel.amenities}</h2>
+                <ul className="grid sm:grid-cols-2 gap-x-8 gap-y-3 mt-5">
+                  {txt(p.amenities, lang).map(a => (
+                    <li key={a} className="text-ink/70 text-sm flex items-center gap-3">
+                      <span className="w-1.5 h-1.5 bg-gold rounded-full shrink-0" /> {a}
+                    </li>
                   ))}
                 </ul>
+
+                <h2 className="font-serif-e text-3xl text-green-e mt-14 uppercase">{t.imovel.included}</h2>
+                <ul className="grid sm:grid-cols-2 gap-x-8 gap-y-3 mt-5">
+                  {(p.staff ? txt(p.staff, lang) : t.imovel.includedList).map(a => (
+                    <li key={a} className="text-ink/70 text-sm flex items-center gap-3">
+                      <span className="w-1.5 h-1.5 bg-green-e rounded-full shrink-0" /> {a}
+                    </li>
+                  ))}
+                </ul>
+
+                {p.notes && (
+                  <>
+                    <h2 className="font-serif-e text-xl text-green-e/80 mt-12 uppercase tracking-wide">{t.imovel.notes}</h2>
+                    <ul className="mt-4 space-y-2">
+                      {txt(p.notes, lang).map(n => (
+                        <li key={n} className="text-ink/55 text-[13px] leading-relaxed">{n}</li>
+                      ))}
+                    </ul>
+                  </>
+                )}
+
+                <h2 className="font-serif-e text-3xl text-green-e mt-14">{t.imovel.locationTitle}</h2>
+                <p className="mt-5 text-ink/70 text-sm leading-relaxed">
+                  {lang === 'pt'
+                    ? `${p.location}, Trancoso — Bahia, Brasil.`
+                    : `${p.location}, Trancoso — Bahia, Brazil.`}
+                  {GOLF_LOTS[p.id]
+                    ? (lang === 'pt' ? ` Lote ${GOLF_LOTS[p.id].lot}.` : ` Lot ${GOLF_LOTS[p.id].lot}.`)
+                    : ''}
+                  {p.locationDetail ? ` ${txt(p.locationDetail, lang)}` : ''}
+                </p>
               </>
             )}
-
-            <h2 className="font-serif-e text-3xl text-green-e mt-14">{t.imovel.locationTitle}</h2>
-            <p className="mt-5 text-ink/70 text-sm leading-relaxed">
-              {lang === 'pt'
-                ? `${p.location}, Trancoso — Bahia, Brasil.`
-                : `${p.location}, Trancoso — Bahia, Brazil.`}
-              {GOLF_LOTS[p.id]
-                ? (lang === 'pt' ? ` Lote ${GOLF_LOTS[p.id].lot}.` : ` Lot ${GOLF_LOTS[p.id].lot}.`)
-                : ''}
-              {p.locationDetail ? ` ${txt(p.locationDetail, lang)}` : ''}
-            </p>
           </Reveal>
         </div>
 
