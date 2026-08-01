@@ -456,6 +456,50 @@ const SUITES_BY_ID: Record<string, Record<'pt' | 'en', HouseSuites>> = {
     footer: 'Capacity for up to 14 guests.',
   },
   },
+  'casa-aroeira-itapororoca': {
+  pt: {
+    groups: [
+      {
+        title: 'Piso Superior',
+        suites: [
+          ['Suíte 01 (Master)', '1 cama de casal king size, ar-condicionado, mosquiteiro, closet, secador de cabelo e varanda com vista para o mar.'],
+          ['Suíte 02', '1 cama de casal king size, ar-condicionado, mosquiteiro, closet, secador de cabelo e varanda com vista para o mar.'],
+        ],
+      },
+      {
+        title: 'Piso Térreo',
+        suites: [
+          ['Suíte 03', '2 camas de solteiro, ar-condicionado, mosquiteiro, closet, secador de cabelo e vista para o jardim.'],
+          ['Suíte 04', '1 cama de casal king size, ar-condicionado, closet, secador de cabelo e vista para o jardim.'],
+          ['Suíte 05', '2 camas de solteiro, ar-condicionado, closet, secador de cabelo e vista para o jardim.'],
+          ['Suíte 06', '1 cama de casal king size, ar-condicionado, mosquiteiro, closet, secador de cabelo e vista para o jardim.'],
+        ],
+      },
+    ],
+    footer: 'Capacidade para até 12 hóspedes.',
+  },
+  en: {
+    groups: [
+      {
+        title: 'Upper Floor',
+        suites: [
+          ['Suite 01 (Master)', '1 king-size bed, air conditioning, mosquito net, walk-in closet, hairdryer and veranda with ocean view.'],
+          ['Suite 02', '1 king-size bed, air conditioning, mosquito net, walk-in closet, hairdryer and veranda with ocean view.'],
+        ],
+      },
+      {
+        title: 'Ground Floor',
+        suites: [
+          ['Suite 03', '2 twin beds, air conditioning, mosquito net, closet, hairdryer and garden view.'],
+          ['Suite 04', '1 king-size bed, air conditioning, closet, hairdryer and garden view.'],
+          ['Suite 05', '2 twin beds, air conditioning, closet, hairdryer and garden view.'],
+          ['Suite 06', '1 king-size bed, air conditioning, mosquito net, closet, hairdryer and garden view.'],
+        ],
+      },
+    ],
+    footer: 'Capacity for up to 12 guests.',
+  },
+  },
 };
 
 function Item({ title, open, onToggle, emph = false, children }: { title: string; open: boolean; onToggle: () => void; emph?: boolean; children: ReactNode }) {
