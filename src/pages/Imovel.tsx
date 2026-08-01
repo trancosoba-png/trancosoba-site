@@ -181,7 +181,7 @@ export default function Imovel() {
                 </div>
               ))}
             </div>
-            <div className="mt-8 text-ink/75 leading-relaxed text-lg font-serif-e space-y-5">
+            <div className={`mt-8 ${isSpecsV2 ? 'text-ink/90' : 'text-ink/75'} leading-relaxed text-lg font-serif-e space-y-5`}>
               {txt(p.description, lang).split('\n\n').filter(par => !isSpecsV2 || !SUITE_PAR.test(par)).map((par, i) => <p key={i}>{par}</p>)}
             </div>
 
