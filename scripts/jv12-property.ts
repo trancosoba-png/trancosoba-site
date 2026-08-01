@@ -1,0 +1,30 @@
+const CASAJV12: Property = {
+  id: 'casa-joao-vieira-12', code: 'TBA-281', name: { pt: 'Casa João Vieira 12', en: 'Casa João Vieira 12' },
+  purpose: ['aluguel'], location: 'João Vieira', suites: 4, guests: 8, baths: 4, area: '—',
+  price: { pt: 'R$ 3.250 / diária', en: 'R$ 3,250 / night' },
+  priceLow: { pt: 'R$ 2.600 / diária', en: 'R$ 2,600 / night' },
+  carnaval: { pt: 'R$ 30.000', en: 'R$ 30,000' },
+  reveillon: { pt: 'R$ 120.000', en: 'R$ 120,000' },
+  image: '/img/joaovieira12/01.jpg',
+  gallery: ['/img/joaovieira12/01.webp','/img/joaovieira12/02.webp','/img/joaovieira12/03.webp','/img/joaovieira12/04.webp','/img/joaovieira12/05.webp','/img/joaovieira12/06.webp','/img/joaovieira12/07.webp','/img/joaovieira12/08.webp','/img/joaovieira12/09.webp','/img/joaovieira12/10.webp','/img/joaovieira12/11.webp','/img/joaovieira12/12.webp','/img/joaovieira12/13.webp','/img/joaovieira12/14.webp','/img/joaovieira12/15.webp','/img/joaovieira12/16.webp','/img/joaovieira12/17.webp','/img/joaovieira12/18.webp','/img/joaovieira12/19.webp','/img/joaovieira12/20.webp','/img/joaovieira12/21.webp','/img/joaovieira12/22.webp','/img/joaovieira12/23.webp','/img/joaovieira12/24.webp','/img/joaovieira12/25.webp','/img/joaovieira12/26.webp','/img/joaovieira12/27.webp','/img/joaovieira12/28.webp','/img/joaovieira12/29.webp','/img/joaovieira12/30.webp','/img/joaovieira12/31.webp','/img/joaovieira12/32.webp','/img/joaovieira12/33.webp','/img/joaovieira12/34.webp','/img/joaovieira12/35.webp','/img/joaovieira12/36.webp'], featured: false,
+  amenities: {
+    pt: ['Piscina com deck e espreguiçadeiras', 'Cozinha gourmet azul com bar', 'Área gourmet integrada à piscina', 'Sala de estar com balanço', 'Mesa de jantar ampla', 'Bangalô de madeira independente', 'Ducha externa no jardim', 'Jardim tropical com rede', 'Ar-condicionado nas suítes', 'Mosquiteiros', 'Wi-Fi', 'Roupa de cama, mesa e banho'],
+    en: ['Pool with deck and sun loungers', 'Blue gourmet kitchen with bar', 'Gourmet area integrated with the pool', 'Living room with swing', 'Large dining table', 'Independent wooden bungalow', 'Outdoor garden shower', 'Tropical garden with hammock', 'Air conditioning in the suites', 'Mosquito nets', 'Wi-Fi', 'Bed, table and bath linen'],
+  },
+  description: {
+    pt: 'Localizada no charmoso condomínio João Vieira, a cerca de 10 minutos a pé do Quadrado, a Casa João Vieira 12 traduz a essência de Trancoso em uma arquitetura acolhedora assinada pelo arquiteto Benedetto Fernando Moreira. A decoração combina referências brasileiras e tunisianas, criando ambientes únicos, elegantes e cheios de personalidade.\n\nA casa principal abriga três suítes climatizadas, enquanto um bangalô de madeira independente no jardim oferece a quarta suíte, garantindo privacidade extra aos hóspedes. A icônica cozinha azul com bar se abre para a área gourmet e a piscina, formando o coração social da propriedade — cercada por jardim tropical, deck com espreguiçadeiras e uma agradável ducha externa.\n\nConfiguração das suítes: Suíte 01 com cama king size; Suíte 02 com cama queen size; Suíte 03 com duas camas de solteiro conversíveis em king size; Suíte 04 (bangalô de madeira) com cama queen size. Capacidade para até 8 hóspedes.',
+    en: 'Located in the charming João Vieira condominium, about a 10-minute walk from the Quadrado, Casa João Vieira 12 translates the essence of Trancoso into welcoming architecture signed by architect Benedetto Fernando Moreira. The décor combines Brazilian and Tunisian references, creating unique, elegant spaces full of personality.\n\nThe main house holds three air-conditioned suites, while an independent wooden bungalow in the garden offers the fourth suite, ensuring extra privacy for guests. The iconic blue kitchen with bar opens onto the gourmet area and the pool, forming the social heart of the property — surrounded by tropical garden, a deck with sun loungers and a pleasant outdoor shower.\n\nSuite layout: Suite 01 with king-size bed; Suite 02 with queen-size bed; Suite 03 with two twin beds convertible into a king; Suite 04 (wooden bungalow) with queen-size bed. Capacity for up to 8 guests.',
+  },
+  staff: {
+    pt: ['Baixa temporada: 1 arrumadeira e 1 jardineiro/piscineiro', 'Alta temporada: 1 arrumadeira, 1 jardineiro/piscineiro, 1 cozinheira e 1 auxiliar'],
+    en: ['Low season: 1 housekeeper and 1 gardener/pool keeper', 'High season: 1 housekeeper, 1 gardener/pool keeper, 1 cook and 1 assistant'],
+  },
+  notes: {
+    pt: ['Locação mínima de 4 diárias.', 'Pet mediante consulta prévia.', 'Carnaval: pacote R$ 30.000. Réveillon: pacote R$ 120.000.', 'A cerca de 10 minutos a pé do Quadrado.', 'Taxa de serviço: 10%.'],
+    en: ['Minimum stay of 4 nights.', 'Pets upon prior request.', 'Carnival: R$ 30,000 package. New Year\'s Eve: R$ 120,000 package.', 'About a 10-minute walk from the Quadrado.', 'Service fee: 10%.'],
+  },
+  locationDetail: {
+    pt: 'Condomínio João Vieira, Trancoso — a cerca de 10 minutos a pé do Quadrado Histórico.',
+    en: 'João Vieira Condominium, Trancoso — about a 10-minute walk from the Historic Quadrado.',
+  },
+};
