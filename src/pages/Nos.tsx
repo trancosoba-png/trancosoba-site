@@ -43,7 +43,7 @@ export default function Nos() {
           {/* pull-quote editorial */}
           <div className="my-12 md:my-14 text-center">
             <span className="block w-14 h-px bg-[#b08d57]/70 mx-auto mb-6" aria-hidden="true" />
-            <p className="font-serif-e text-3xl md:text-4xl text-green-e leading-snug">Foi assim que nasceu a TrancosoBA.</p>
+            <p className="font-serif-e text-[1.75rem] md:text-[2.1rem] text-green-e leading-snug">Foi assim que nasceu a TrancosoBA.</p>
             <span className="block w-14 h-px bg-[#b08d57]/70 mx-auto mt-6" aria-hidden="true" />
           </div>
 
