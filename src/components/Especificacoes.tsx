@@ -37,18 +37,18 @@ function Item({ title, open, onToggle, children }: { title: string; open: boolea
         type="button"
         onClick={onToggle}
         aria-expanded={open}
-        className="w-full flex items-center justify-between gap-6 px-6 md:px-8 py-4 md:py-5 text-left transition-colors hover:bg-[#b08d57]/5"
+        className="w-full flex items-center justify-between gap-6 px-6 md:px-8 py-3 md:py-4 text-left transition-colors hover:bg-[#b08d57]/5"
       >
-        <span className="font-serif-e text-lg md:text-xl font-normal tracking-wide text-green-e/90">{title}</span>
+        <span className="font-serif-e text-lg md:text-xl font-normal tracking-wide text-green-e">{title}</span>
         <span
           aria-hidden="true"
-          className={`shrink-0 text-green-e/60 text-[10px] transition-transform duration-300 ${open ? 'rotate-180' : ''}`}
+          className={`shrink-0 flex items-center leading-none text-green-e/60 text-[10px] transition-transform duration-200 ${open ? 'rotate-180' : ''}`}
         >
           ▼
         </span>
       </button>
       <div
-        className={`grid transition-all duration-500 ease-in-out ${open ? 'grid-rows-[1fr] opacity-100' : 'grid-rows-[0fr] opacity-0'}`}
+        className={`grid transition-all duration-[225ms] ease-in-out ${open ? 'grid-rows-[1fr] opacity-100' : 'grid-rows-[0fr] opacity-0'}`}
       >
         <div className="overflow-hidden">
           <div className="px-6 md:px-8 pb-5">{children}</div>
@@ -86,7 +86,7 @@ export default function Especificacoes({ p }: { p: Property }) {
     : null;
 
   return (
-    <section className="mt-14" aria-label={l.title}>
+    <section className="mt-12 -mb-8 lg:mb-0" aria-label={l.title}>
       <h2 className="font-serif-e text-3xl md:text-4xl text-green-e text-center">{l.title}</h2>
       <div className="flex items-center justify-center gap-4 mt-4 mb-8" aria-hidden="true">
         <span className="h-px w-16 bg-[#b08d57]/70" />
