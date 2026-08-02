@@ -654,6 +654,48 @@ const SUITES_BY_ID: Record<string, Record<'pt' | 'en', HouseSuites>> = {
     footer: 'Capacity for up to 13 guests.',
   },
   },
+  'casa-selva-altos-de-patimirim': {
+  pt: {
+    groups: [
+      {
+        title: 'Piso Superior',
+        master: 'Suíte Master: 1 cama de casal king size, ar-condicionado, TV, secador de cabelo, closet e varanda com vista para o mar.',
+      },
+      {
+        title: 'Piso Térreo',
+        suites: [
+          ['Suíte 02', '1 cama de casal king size, ar-condicionado, secador de cabelo, closet e varanda.'],
+          ['Suíte 03', '2 camas de solteiro que podem ser convertidas em 1 cama de casal, ar-condicionado, secador de cabelo, closet e varanda.'],
+          ['Suíte 04', '1 cama de casal king size, ar-condicionado, secador de cabelo, closet e varanda.'],
+          ['Suíte 05', '1 cama de casal king size, ar-condicionado, secador de cabelo, closet e varanda.'],
+          ['Suíte 06', '3 camas de solteiro, ar-condicionado, secador de cabelo, closet e varanda.'],
+          ['Suíte 07', '1 cama de casal king size, ar-condicionado, secador de cabelo, closet e varanda.'],
+        ],
+      },
+    ],
+    footer: 'Capacidade para até 15 hóspedes.',
+  },
+  en: {
+    groups: [
+      {
+        title: 'Upper Floor',
+        master: 'Master Suite: 1 king-size double bed, air conditioning, TV, hairdryer, walk-in closet and veranda overlooking the sea.',
+      },
+      {
+        title: 'Ground Floor',
+        suites: [
+          ['Suite 02', '1 king-size double bed, air conditioning, hairdryer, walk-in closet and veranda.'],
+          ['Suite 03', '2 twin beds that can be converted into 1 double bed, air conditioning, hairdryer, walk-in closet and veranda.'],
+          ['Suite 04', '1 king-size double bed, air conditioning, hairdryer, walk-in closet and veranda.'],
+          ['Suite 05', '1 king-size double bed, air conditioning, hairdryer, walk-in closet and veranda.'],
+          ['Suite 06', '3 twin beds, air conditioning, hairdryer, walk-in closet and veranda.'],
+          ['Suite 07', '1 king-size double bed, air conditioning, hairdryer, walk-in closet and veranda.'],
+        ],
+      },
+    ],
+    footer: 'Capacity for up to 15 guests.',
+  },
+  },
   'casa-da-ponta-03': {
   pt: {
     groups: [
