@@ -534,6 +534,44 @@ const SUITES_BY_ID: Record<string, Record<'pt' | 'en', HouseSuites>> = {
     footer: 'Capacity for up to 13 guests.',
   },
   },
+  'casa-casadei-altos-de-trancoso': {
+  pt: {
+    groups: [
+      {
+        title: '',
+        master: 'Suíte Master: 1 cama king, varanda privativa e spa.',
+      },
+      {
+        title: '',
+        suites: [
+          ['Suíte Piscina', '1 cama queen + 1 cama de solteiro.'],
+          ['Suíte Varanda 01', '1 cama queen + 1 cama de solteiro.'],
+          ['Suíte Varanda 02', '2 camas de solteiro unidas + 1 cama de solteiro.'],
+          ['Suíte Superior', '1 cama king com varanda.'],
+        ],
+      },
+    ],
+    footer: 'Capacidade para até 13 hóspedes.',
+  },
+  en: {
+    groups: [
+      {
+        title: '',
+        master: 'Master Suite: 1 king bed, private veranda and spa.',
+      },
+      {
+        title: '',
+        suites: [
+          ['Pool Suite', '1 queen bed + 1 twin bed.'],
+          ['Veranda Suite 01', '1 queen bed + 1 twin bed.'],
+          ['Veranda Suite 02', '2 twin beds pushed together + 1 twin bed.'],
+          ['Upper Suite', '1 king bed with veranda.'],
+        ],
+      },
+    ],
+    footer: 'Capacity for up to 13 guests.',
+  },
+  },
 };
 
 function Item({ title, open, onToggle, emph = false, children }: { title: string; open: boolean; onToggle: () => void; emph?: boolean; children: ReactNode }) {

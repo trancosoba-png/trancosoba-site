@@ -1,0 +1,30 @@
+const CASADEI: Property = {
+  id: 'casa-casadei-altos-de-trancoso', code: 'TBA-288', name: { pt: 'Casa Casadei — Altos de Trancoso', en: 'Casa Casadei — Altos de Trancoso' },
+  purpose: ['aluguel'], location: 'Altos de Trancoso', suites: 5, guests: 13, baths: 5, area: '—',
+  price: { pt: 'R$ 6.500 / diária', en: 'R$ 6,500 / night' },
+  priceLow: { pt: 'R$ 4.500 / diária', en: 'R$ 4,500 / night' },
+  carnaval: { pt: 'R$ 45.000 / pacote', en: 'R$ 45,000 / package' },
+  reveillon: { pt: 'R$ 230.000 / pacote', en: 'R$ 230,000 / package' },
+  image: '/img/casadei/01.jpg',
+  gallery: ['/img/casadei/01.webp','/img/casadei/02.webp','/img/casadei/03.webp','/img/casadei/04.webp','/img/casadei/05.webp','/img/casadei/06.webp','/img/casadei/07.webp','/img/casadei/08.webp','/img/casadei/09.webp','/img/casadei/10.webp','/img/casadei/11.webp','/img/casadei/12.webp','/img/casadei/13.webp','/img/casadei/14.webp','/img/casadei/15.webp','/img/casadei/16.webp','/img/casadei/17.webp','/img/casadei/18.webp','/img/casadei/19.webp','/img/casadei/20.webp','/img/casadei/21.webp','/img/casadei/22.webp','/img/casadei/23.webp','/img/casadei/24.webp','/img/casadei/25.webp','/img/casadei/26.webp','/img/casadei/27.webp','/img/casadei/28.webp','/img/casadei/29.webp','/img/casadei/30.webp','/img/casadei/31.webp','/img/casadei/32.webp','/img/casadei/33.webp','/img/casadei/34.webp','/img/casadei/35.webp','/img/casadei/36.webp','/img/casadei/37.webp','/img/casadei/38.webp','/img/casadei/39.webp','/img/casadei/40.webp','/img/casadei/41.webp','/img/casadei/42.webp','/img/casadei/43.webp','/img/casadei/44.webp','/img/casadei/45.webp','/img/casadei/46.webp','/img/casadei/47.webp','/img/casadei/48.webp','/img/casadei/49.webp'], featured: false,
+  amenities: {
+    pt: ['Condomínio fechado sobre as falésias', 'Piscina com hidromassagem', 'Spa', 'Cozinha gourmet', 'Churrasqueira', 'Forno de pizza', 'Fogão e forno a lenha', 'Internet Wi-Fi', 'TV a cabo', 'Ar-condicionado', 'Lava-louças', 'Máquina de lavar', 'Secadora', 'Cervejeira', 'Freezer', 'Frigobar', 'Jardim', 'Gerador', 'Energia fotovoltaica'],
+    en: ['Gated community on the cliffs', 'Pool with jacuzzi', 'Spa', 'Gourmet kitchen', 'Barbecue', 'Pizza oven', 'Wood-burning stove and oven', 'Wi-Fi internet', 'Cable TV', 'Air conditioning', 'Dishwasher', 'Washing machine', 'Dryer', 'Beer fridge', 'Freezer', 'Minibar', 'Garden', 'Generator', 'Photovoltaic energy'],
+  },
+  description: {
+    pt: 'Localizada no Condomínio Altos de Trancoso, a Casa Casadei está em uma área de bosque preservado sobre as falésias, a menos de cinco minutos da Praia dos Nativos e próxima ao Quadrado. A residência combina elegância, conforto e integração com a natureza.\n\nA casa conta com piscina com hidromassagem, spa, cozinha gourmet, churrasqueira, forno de pizza e fogão e forno a lenha — estrutura completa para receber bem em qualquer estação.\n\nCom cinco suítes e capacidade para 13 hóspedes, oferece staff dedicado para uma experiência exclusiva em Trancoso.',
+    en: 'Located in the Altos de Trancoso community, Casa Casadei sits in a preserved grove on the cliffs, less than five minutes from Praia dos Nativos and close to the Quadrado. The residence combines elegance, comfort and integration with nature.\n\nThe house features a pool with jacuzzi, spa, gourmet kitchen, barbecue, pizza oven and wood-burning stove and oven — a complete structure for entertaining in any season.\n\nWith five suites and capacity for 13 guests, it offers dedicated staff for an exclusive experience in Trancoso.',
+  },
+  staff: {
+    pt: ['Jardineiro, piscineiro, cozinheira e camareira (para até 8 hóspedes). Acima disso, terceira auxiliar opcional.'],
+    en: ['Gardener, pool attendant, cook and housekeeper (for up to 8 guests). Above that, an optional third assistant.'],
+  },
+  notes: {
+    pt: ['Julho e feriados: diária de R$ 5.000.', 'Semana das Crianças: R$ 35.000.', 'Pagamento: 50% na assinatura do contrato e 50% no check-in.'],
+    en: ['July and holidays: nightly rate of R$ 5,000.', 'Children\'s Week: R$ 35,000.', 'Payment: 50% upon contract signing and 50% at check-in.'],
+  },
+  locationDetail: {
+    pt: 'Condomínio Altos de Trancoso — bosque preservado sobre as falésias, a menos de 5 minutos da Praia dos Nativos e próximo ao Quadrado.',
+    en: 'Altos de Trancoso community — preserved grove on the cliffs, less than 5 minutes from Praia dos Nativos and close to the Quadrado.',
+  },
+};
