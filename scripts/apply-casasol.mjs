@@ -14,14 +14,7 @@ if (!src.includes('casa-sol')) {
   const snippet = readFileSync(snippetPath, 'utf8');
   if (!src.includes('PROPERTIES.unshift(')) throw new Error('apply-casasol: PROPERTIES.unshift não encontrado');
   src = src.replace('PROPERTIES.unshift(', snippet + '\nPROPERTIES.unshift(');
-  const alvos = [
-    'PROPERTIES.unshift(CASALUA, CASAJV12, IANDE,',
-    'PROPERTIES.unshift(CASAJV12, IANDE,',
-    'PROPERTIES.unshift(IANDE,',
-  ];
-  const alvo = alvos.find((a) => src.includes(a));
-  if (!alvo) throw new Error('apply-casasol: lista PROPERTIES.unshift não reconhecida');
-  src = src.replace(alvo, alvo.replace('PROPERTIES.unshift(', 'PROPERTIES.unshift(CASASOL, '));
+  src = src.replace('PROPERTIES.unshift(', 'PROPERTIES.unshift(CASASOL, ');
   if (!src.includes('CASASOL,')) throw new Error('apply-casasol: falha ao registrar CASASOL');
   writeFileSync(propsPath, src);
   console.log('apply-casasol: imóvel Casa Sol cadastrado em properties.ts');
