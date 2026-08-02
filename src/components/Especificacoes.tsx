@@ -534,6 +534,32 @@ const SUITES_BY_ID: Record<string, Record<'pt' | 'en', HouseSuites>> = {
     footer: 'Capacity for up to 13 guests.',
   },
   },
+  'casa-coqueiral-5': {
+  pt: {
+    groups: [
+      {
+        title: '',
+        suites: [
+          ['Suítes 01 a 04', '2 camas de solteiro convertíveis em 1 cama king size (com pillow top), 1 cama auxiliar elevada e ar-condicionado.'],
+          ['Quarto Superior', '1 cama king size e ar-condicionado. Utiliza o banheiro localizado no pavimento inferior, ao lado da sala de TV.'],
+        ],
+      },
+    ],
+    footer: 'Capacidade para 10 a 14 hóspedes (5 quartos, sendo 4 suítes).',
+  },
+  en: {
+    groups: [
+      {
+        title: '',
+        suites: [
+          ['Suites 01 to 04', '2 twin beds convertible into 1 king-size bed (with pillow top), 1 raised extra bed and air conditioning.'],
+          ['Upper Bedroom', '1 king-size bed and air conditioning. Uses the bathroom located on the lower floor, next to the TV room.'],
+        ],
+      },
+    ],
+    footer: 'Capacity for 10 to 14 guests (5 bedrooms, 4 of which are suites).',
+  },
+  },
   'casa-casadei-altos-de-trancoso': {
   pt: {
     groups: [
