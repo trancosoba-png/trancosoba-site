@@ -14,15 +14,7 @@ if (!src.includes('vilas-altos-de-trancoso-casa-16')) {
   const snippet = readFileSync(snippetPath, 'utf8');
   if (!src.includes('PROPERTIES.unshift(')) throw new Error('apply-vilas16: PROPERTIES.unshift não encontrado');
   src = src.replace('PROPERTIES.unshift(', snippet + '\nPROPERTIES.unshift(');
-  const alvos = [
-    'PROPERTIES.unshift(SELVA, PONTA03, NOA, COQUEIRAL5, CASADEI, MUXARABI, CASILLA, AROEIRA, CASA11ALDEIA, CASASOL, CASALUA, CASAJV12, IANDE,',
-    'PROPERTIES.unshift(PONTA03, NOA, COQUEIRAL5, CASADEI, MUXARABI, CASILLA, AROEIRA, CASA11ALDEIA, CASASOL, CASALUA, CASAJV12, IANDE,',
-    'PROPERTIES.unshift(NOA, COQUEIRAL5, CASADEI, MUXARABI, CASILLA, AROEIRA, CASA11ALDEIA, CASASOL, CASALUA, CASAJV12, IANDE,',
-    'PROPERTIES.unshift(IANDE,',
-  ];
-  const alvo = alvos.find((a) => src.includes(a));
-  if (!alvo) throw new Error('apply-vilas16: lista PROPERTIES.unshift não reconhecida');
-  src = src.replace(alvo, alvo.replace('PROPERTIES.unshift(', 'PROPERTIES.unshift(VILAS16, '));
+  src = src.replace('PROPERTIES.unshift(', 'PROPERTIES.unshift(VILAS16, ');
   if (!src.includes('VILAS16,')) throw new Error('apply-vilas16: falha ao registrar VILAS16');
   writeFileSync(propsPath, src);
   console.log('apply-vilas16: imóvel Casa 16 cadastrado em properties.ts');
