@@ -540,24 +540,30 @@ const SUITES_BY_ID: Record<string, Record<'pt' | 'en', HouseSuites>> = {
       {
         title: '',
         suites: [
-          ['Suítes 01 a 04', '2 camas de solteiro convertíveis em 1 cama king size (com pillow top), 1 cama auxiliar elevada e ar-condicionado.'],
-          ['Quarto Superior', '1 cama king size e ar-condicionado. Utiliza o banheiro localizado no pavimento inferior, ao lado da sala de TV.'],
+          ['Suíte 01', '1 cama de casal extragrande, 1 cama de solteiro, ar-condicionado e banheiro privativo.'],
+          ['Suíte 02', '1 cama de casal extragrande, 1 cama de solteiro, ar-condicionado e banheiro privativo.'],
+          ['Suíte 03', '1 cama de casal extragrande, 1 cama de solteiro, ar-condicionado e banheiro privativo.'],
+          ['Suíte 04', '1 cama de casal extragrande, 1 cama de solteiro, ar-condicionado e banheiro privativo.'],
+          ['Suíte 05', '1 cama de casal extragrande, ar-condicionado e banheiro privativo.'],
         ],
       },
     ],
-    footer: 'Capacidade para 10 a 14 hóspedes (5 quartos, sendo 4 suítes).',
+    footer: 'Capacidade para até 14 hóspedes.',
   },
   en: {
     groups: [
       {
         title: '',
         suites: [
-          ['Suites 01 to 04', '2 twin beds convertible into 1 king-size bed (with pillow top), 1 raised extra bed and air conditioning.'],
-          ['Upper Bedroom', '1 king-size bed and air conditioning. Uses the bathroom located on the lower floor, next to the TV room.'],
+          ['Suite 01', '1 extra-large double bed, 1 twin bed, air conditioning and private bathroom.'],
+          ['Suite 02', '1 extra-large double bed, 1 twin bed, air conditioning and private bathroom.'],
+          ['Suite 03', '1 extra-large double bed, 1 twin bed, air conditioning and private bathroom.'],
+          ['Suite 04', '1 extra-large double bed, 1 twin bed, air conditioning and private bathroom.'],
+          ['Suite 05', '1 extra-large double bed, air conditioning and private bathroom.'],
         ],
       },
     ],
-    footer: 'Capacity for 10 to 14 guests (5 bedrooms, 4 of which are suites).',
+    footer: 'Capacity for up to 14 guests.',
   },
   },
   'casa-noa-altos-de-trancoso': {
