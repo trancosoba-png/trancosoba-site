@@ -654,6 +654,34 @@ const SUITES_BY_ID: Record<string, Record<'pt' | 'en', HouseSuites>> = {
     footer: 'Capacity for up to 13 guests.',
   },
   },
+  'vilas-altos-de-trancoso-casa-16': {
+  pt: {
+    groups: [
+      {
+        title: 'Piso Superior',
+        suites: [
+          ['Suíte 01', '1 cama king size, ar-condicionado, secador de cabelo e TV.'],
+          ['Suíte 02', '2 camas de solteiro, conversíveis em 1 cama king size, 1 sofá-cama, ar-condicionado, secador de cabelo e TV.'],
+          ['Suíte 03', '2 camas de solteiro, conversíveis em 1 cama king size, 1 sofá-cama, ar-condicionado, secador de cabelo e TV.'],
+        ],
+      },
+    ],
+    footer: 'Capacidade para até 6 hóspedes.',
+  },
+  en: {
+    groups: [
+      {
+        title: 'Upper Floor',
+        suites: [
+          ['Suite 01', '1 king-size bed, air conditioning, hairdryer and TV.'],
+          ['Suite 02', '2 twin beds, convertible into 1 king-size bed, 1 sofa bed, air conditioning, hairdryer and TV.'],
+          ['Suite 03', '2 twin beds, convertible into 1 king-size bed, 1 sofa bed, air conditioning, hairdryer and TV.'],
+        ],
+      },
+    ],
+    footer: 'Capacity for up to 6 guests.',
+  },
+  },
   'casa-selva-altos-de-patimirim': {
   pt: {
     groups: [
