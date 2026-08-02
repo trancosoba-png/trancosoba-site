@@ -36,6 +36,42 @@ export const SUITE_PAR = /configura[cç][aã]o das su[ií]tes|suite layout|distr
 type SuiteGroup = { title: string; master?: string; suites?: [string, string][] };
 type HouseSuites = { groups: SuiteGroup[]; footer?: string };
 const SUITES_BY_ID: Record<string, Record<'pt' | 'en', HouseSuites>> = {
+  'casa-maion-altos-de-trancoso': {
+  pt: {
+    groups: [
+      {
+        title: 'Suíte Master',
+        master: '01 cama queen size, ar-condicionado, mosquiteiro, closet, duas pias, duas duchas, jardim externo e deck com varanda e rede.',
+      },
+      {
+        title: 'Suítes',
+        suites: [
+          ['Suíte 2', '01 cama de casal, ar-condicionado, mosquiteiro e deck com varanda e rede.'],
+          ['Suíte 3', '02 camas box de solteiro, ar-condicionado, mosquiteiro e deck com varanda e rede.'],
+          ['Suíte 4', '02 camas box de solteiro, ar-condicionado, mosquiteiro e deck com varanda e rede.'],
+        ],
+      },
+    ],
+    footer: 'Capacidade para até 8 hóspedes.',
+  },
+  en: {
+    groups: [
+      {
+        title: 'Master Suite',
+        master: '01 queen-size bed, air conditioning, mosquito net, walk-in closet, double sinks, double showers, external garden and deck with veranda and hammock.',
+      },
+      {
+        title: 'Suites',
+        suites: [
+          ['Suite 2', '01 double bed, air conditioning, mosquito net and deck with veranda and hammock.'],
+          ['Suite 3', '02 twin box beds, air conditioning, mosquito net and deck with veranda and hammock.'],
+          ['Suite 4', '02 twin box beds, air conditioning, mosquito net and deck with veranda and hammock.'],
+        ],
+      },
+    ],
+    footer: 'Capacity for up to 8 guests.',
+  },
+  },
   'casa-dadinho-rio-da-barra': {
   pt: {
     groups: [
