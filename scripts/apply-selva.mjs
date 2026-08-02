@@ -14,15 +14,7 @@ if (!src.includes('casa-selva-altos-de-patimirim')) {
   const snippet = readFileSync(snippetPath, 'utf8');
   if (!src.includes('PROPERTIES.unshift(')) throw new Error('apply-selva: PROPERTIES.unshift não encontrado');
   src = src.replace('PROPERTIES.unshift(', snippet + '\nPROPERTIES.unshift(');
-  const alvos = [
-    'PROPERTIES.unshift(PONTA03, NOA, COQUEIRAL5, CASADEI, MUXARABI, CASILLA, AROEIRA, CASA11ALDEIA, CASASOL, CASALUA, CASAJV12, IANDE,',
-    'PROPERTIES.unshift(NOA, COQUEIRAL5, CASADEI, MUXARABI, CASILLA, AROEIRA, CASA11ALDEIA, CASASOL, CASALUA, CASAJV12, IANDE,',
-    'PROPERTIES.unshift(COQUEIRAL5, CASADEI, MUXARABI, CASILLA, AROEIRA, CASA11ALDEIA, CASASOL, CASALUA, CASAJV12, IANDE,',
-    'PROPERTIES.unshift(IANDE,',
-  ];
-  const alvo = alvos.find((a) => src.includes(a));
-  if (!alvo) throw new Error('apply-selva: lista PROPERTIES.unshift não reconhecida');
-  src = src.replace(alvo, alvo.replace('PROPERTIES.unshift(', 'PROPERTIES.unshift(SELVA, '));
+  src = src.replace('PROPERTIES.unshift(', 'PROPERTIES.unshift(SELVA, ');
   if (!src.includes('SELVA,')) throw new Error('apply-selva: falha ao registrar SELVA');
   writeFileSync(propsPath, src);
   console.log('apply-selva: imóvel Casa Selva cadastrado em properties.ts');
