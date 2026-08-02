@@ -604,6 +604,56 @@ const SUITES_BY_ID: Record<string, Record<'pt' | 'en', HouseSuites>> = {
     footer: 'Capacity for up to 6 guests.',
   },
   },
+  'casa-do-bosque': {
+  pt: {
+    groups: [
+      {
+        title: 'Casa Principal — Piso Superior',
+        master: 'Suíte Master: 1 cama de casal king size, mosquiteiro, closet, cofre, ventilador de teto e ar-condicionado.',
+      },
+      {
+        title: '',
+        suites: [
+          ['Suíte 02', '1 cama de casal king size, 1 cama de solteiro, mosquiteiro, closet, cofre e ar-condicionado.'],
+          ['Suíte 03', '1 cama de casal king size, mosquiteiro, closet, cofre e ar-condicionado.'],
+          ['Suíte 04', '1 cama de casal king size, mosquiteiro, closet, cofre e ar-condicionado.'],
+        ],
+      },
+      {
+        title: 'Bangalôs Externos',
+        suites: [
+          ['Suíte 05', '1 cama de casal king size, mosquiteiro, closet, cofre, banheira e ar-condicionado.'],
+          ['Suíte 06', '1 cama de casal king size, mosquiteiro, closet, cofre, banheira e ar-condicionado.'],
+        ],
+      },
+    ],
+    footer: 'Capacidade para até 13 hóspedes.',
+  },
+  en: {
+    groups: [
+      {
+        title: 'Main House — Upper Floor',
+        master: 'Master Suite: 1 king-size double bed, mosquito net, walk-in closet, safe, ceiling fan and air conditioning.',
+      },
+      {
+        title: '',
+        suites: [
+          ['Suite 02', '1 king-size double bed, 1 twin bed, mosquito net, walk-in closet, safe and air conditioning.'],
+          ['Suite 03', '1 king-size double bed, mosquito net, walk-in closet, safe and air conditioning.'],
+          ['Suite 04', '1 king-size double bed, mosquito net, walk-in closet, safe and air conditioning.'],
+        ],
+      },
+      {
+        title: 'External Bungalows',
+        suites: [
+          ['Suite 05', '1 king-size double bed, mosquito net, walk-in closet, safe, bathtub and air conditioning.'],
+          ['Suite 06', '1 king-size double bed, mosquito net, walk-in closet, safe, bathtub and air conditioning.'],
+        ],
+      },
+    ],
+    footer: 'Capacity for up to 13 guests.',
+  },
+  },
   'casa-da-ponta-03': {
   pt: {
     groups: [
