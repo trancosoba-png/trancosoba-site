@@ -16,13 +16,7 @@ if (!src.includes('casa-lua')) {
   const snippet = readFileSync(snippetPath, 'utf8');
   if (!src.includes('PROPERTIES.unshift(')) throw new Error('apply-casalua: PROPERTIES.unshift não encontrado');
   src = src.replace('PROPERTIES.unshift(', snippet + '\nPROPERTIES.unshift(');
-  if (src.includes('PROPERTIES.unshift(CASAJV12, IANDE,')) {
-    src = src.replace('PROPERTIES.unshift(CASAJV12, IANDE,', 'PROPERTIES.unshift(CASALUA, CASAJV12, IANDE,');
-  } else if (src.includes('PROPERTIES.unshift(IANDE,')) {
-    src = src.replace('PROPERTIES.unshift(IANDE,', 'PROPERTIES.unshift(CASALUA, IANDE,');
-  } else {
-    throw new Error('apply-casalua: lista PROPERTIES.unshift não reconhecida');
-  }
+  src = src.replace('PROPERTIES.unshift(', 'PROPERTIES.unshift(CASALUA, ');
   if (!src.includes('CASALUA,')) throw new Error('apply-casalua: falha ao registrar CASALUA');
   writeFileSync(propsPath, src);
   console.log('apply-casalua: imóvel Casa Lua cadastrado em properties.ts');
