@@ -14,17 +14,7 @@ if (!src.includes('casilla-del-mare-altos-de-trancoso')) {
   const snippet = readFileSync(snippetPath, 'utf8');
   if (!src.includes('PROPERTIES.unshift(')) throw new Error('apply-casilla: PROPERTIES.unshift não encontrado');
   src = src.replace('PROPERTIES.unshift(', snippet + '\nPROPERTIES.unshift(');
-  const alvos = [
-    'PROPERTIES.unshift(AROEIRA, CASA11ALDEIA, CASASOL, CASALUA, CASAJV12, IANDE,',
-    'PROPERTIES.unshift(CASA11ALDEIA, CASASOL, CASALUA, CASAJV12, IANDE,',
-    'PROPERTIES.unshift(CASASOL, CASALUA, CASAJV12, IANDE,',
-    'PROPERTIES.unshift(CASALUA, CASAJV12, IANDE,',
-    'PROPERTIES.unshift(CASAJV12, IANDE,',
-    'PROPERTIES.unshift(IANDE,',
-  ];
-  const alvo = alvos.find((a) => src.includes(a));
-  if (!alvo) throw new Error('apply-casilla: lista PROPERTIES.unshift não reconhecida');
-  src = src.replace(alvo, alvo.replace('PROPERTIES.unshift(', 'PROPERTIES.unshift(CASILLA, '));
+  src = src.replace('PROPERTIES.unshift(', 'PROPERTIES.unshift(CASILLA, ');
   if (!src.includes('CASILLA,')) throw new Error('apply-casilla: falha ao registrar CASILLA');
   writeFileSync(propsPath, src);
   console.log('apply-casilla: imóvel Casilla del Mare cadastrado em properties.ts');
