@@ -14,21 +14,7 @@ if (!src.includes('casa-noa-altos-de-trancoso')) {
   const snippet = readFileSync(snippetPath, 'utf8');
   if (!src.includes('PROPERTIES.unshift(')) throw new Error('apply-noa: PROPERTIES.unshift não encontrado');
   src = src.replace('PROPERTIES.unshift(', snippet + '\nPROPERTIES.unshift(');
-  const alvos = [
-    'PROPERTIES.unshift(COQUEIRAL5, CASADEI, MUXARABI, CASILLA, AROEIRA, CASA11ALDEIA, CASASOL, CASALUA, CASAJV12, IANDE,',
-    'PROPERTIES.unshift(CASADEI, MUXARABI, CASILLA, AROEIRA, CASA11ALDEIA, CASASOL, CASALUA, CASAJV12, IANDE,',
-    'PROPERTIES.unshift(MUXARABI, CASILLA, AROEIRA, CASA11ALDEIA, CASASOL, CASALUA, CASAJV12, IANDE,',
-    'PROPERTIES.unshift(CASILLA, AROEIRA, CASA11ALDEIA, CASASOL, CASALUA, CASAJV12, IANDE,',
-    'PROPERTIES.unshift(AROEIRA, CASA11ALDEIA, CASASOL, CASALUA, CASAJV12, IANDE,',
-    'PROPERTIES.unshift(CASA11ALDEIA, CASASOL, CASALUA, CASAJV12, IANDE,',
-    'PROPERTIES.unshift(CASASOL, CASALUA, CASAJV12, IANDE,',
-    'PROPERTIES.unshift(CASALUA, CASAJV12, IANDE,',
-    'PROPERTIES.unshift(CASAJV12, IANDE,',
-    'PROPERTIES.unshift(IANDE,',
-  ];
-  const alvo = alvos.find((a) => src.includes(a));
-  if (!alvo) throw new Error('apply-noa: lista PROPERTIES.unshift não reconhecida');
-  src = src.replace(alvo, alvo.replace('PROPERTIES.unshift(', 'PROPERTIES.unshift(NOA, '));
+  src = src.replace('PROPERTIES.unshift(', 'PROPERTIES.unshift(NOA, ');
   if (!src.includes('NOA,')) throw new Error('apply-noa: falha ao registrar NOA');
   writeFileSync(propsPath, src);
   console.log('apply-noa: imóvel Casa Noa cadastrado em properties.ts');
