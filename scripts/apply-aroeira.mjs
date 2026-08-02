@@ -14,16 +14,7 @@ if (!src.includes('casa-aroeira-itapororoca')) {
   const snippet = readFileSync(snippetPath, 'utf8');
   if (!src.includes('PROPERTIES.unshift(')) throw new Error('apply-aroeira: PROPERTIES.unshift não encontrado');
   src = src.replace('PROPERTIES.unshift(', snippet + '\nPROPERTIES.unshift(');
-  const alvos = [
-    'PROPERTIES.unshift(CASA11ALDEIA, CASASOL, CASALUA, CASAJV12, IANDE,',
-    'PROPERTIES.unshift(CASASOL, CASALUA, CASAJV12, IANDE,',
-    'PROPERTIES.unshift(CASALUA, CASAJV12, IANDE,',
-    'PROPERTIES.unshift(CASAJV12, IANDE,',
-    'PROPERTIES.unshift(IANDE,',
-  ];
-  const alvo = alvos.find((a) => src.includes(a));
-  if (!alvo) throw new Error('apply-aroeira: lista PROPERTIES.unshift não reconhecida');
-  src = src.replace(alvo, alvo.replace('PROPERTIES.unshift(', 'PROPERTIES.unshift(AROEIRA, '));
+  src = src.replace('PROPERTIES.unshift(', 'PROPERTIES.unshift(AROEIRA, ');
   if (!src.includes('AROEIRA,')) throw new Error('apply-aroeira: falha ao registrar AROEIRA');
   writeFileSync(propsPath, src);
   console.log('apply-aroeira: imóvel Casa Aroeira cadastrado em properties.ts');
