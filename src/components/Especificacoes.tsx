@@ -604,6 +604,70 @@ const SUITES_BY_ID: Record<string, Record<'pt' | 'en', HouseSuites>> = {
     footer: 'Capacity for up to 6 guests.',
   },
   },
+  'casa-da-ponta-03': {
+  pt: {
+    groups: [
+      {
+        title: 'Bangalô Praia',
+        suites: [
+          ['Suíte 01', '1 cama king size, ar-condicionado, closet, mosquiteiro, secador de cabelo, deck com espreguiçadeira, rede de descanso e vista para o jardim de vegetação nativa e para o mar.'],
+        ],
+      },
+      {
+        title: 'Bangalô Jardim',
+        suites: [
+          ['Suíte 02', '2 camas de solteiro, conversíveis em 1 cama king size, ar-condicionado, closet, mosquiteiro, secador de cabelo, varanda e integração com o jardim de vegetação nativa.'],
+        ],
+      },
+      {
+        title: 'Bloco Master',
+        suites: [
+          ['Suíte 03', '1 cama king size, ar-condicionado, closet, mosquiteiro, secador de cabelo e varanda com vista para a vegetação nativa.'],
+          ['Suíte 04', '2 camas de viúva, ar-condicionado, closet, mosquiteiro, secador de cabelo e varanda com vista para o jardim de vegetação nativa.'],
+        ],
+      },
+      {
+        title: 'Piso Superior',
+        suites: [
+          ['Suíte 05', '1 cama king size, ar-condicionado, closet, mosquiteiro, ventilador e varanda com vista para o jardim de vegetação nativa.'],
+          ['Suíte 06', '2 camas de solteiro, conversíveis em 1 cama king size, ar-condicionado, closet, mosquiteiro e varanda com vista para o jardim de vegetação nativa.'],
+        ],
+      },
+    ],
+    footer: 'Capacidade para até 12 hóspedes.',
+  },
+  en: {
+    groups: [
+      {
+        title: 'Beach Bungalow',
+        suites: [
+          ['Suite 01', '1 king-size bed, air conditioning, walk-in closet, mosquito net, hairdryer, deck with sun lounger, hammock and views of the native vegetation garden and the sea.'],
+        ],
+      },
+      {
+        title: 'Garden Bungalow',
+        suites: [
+          ['Suite 02', '2 twin beds, convertible into 1 king-size bed, air conditioning, walk-in closet, mosquito net, hairdryer, veranda and integration with the native vegetation garden.'],
+        ],
+      },
+      {
+        title: 'Master Wing',
+        suites: [
+          ['Suite 03', '1 king-size bed, air conditioning, walk-in closet, mosquito net, hairdryer and veranda overlooking the native vegetation.'],
+          ['Suite 04', '2 wide twin beds, air conditioning, walk-in closet, mosquito net, hairdryer and veranda overlooking the native vegetation garden.'],
+        ],
+      },
+      {
+        title: 'Upper Floor',
+        suites: [
+          ['Suite 05', '1 king-size bed, air conditioning, walk-in closet, mosquito net, ceiling fan and veranda overlooking the native vegetation garden.'],
+          ['Suite 06', '2 twin beds, convertible into 1 king-size bed, air conditioning, walk-in closet, mosquito net and veranda overlooking the native vegetation garden.'],
+        ],
+      },
+    ],
+    footer: 'Capacity for up to 12 guests.',
+  },
+  },
   'casa-casadei-altos-de-trancoso': {
   pt: {
     groups: [
