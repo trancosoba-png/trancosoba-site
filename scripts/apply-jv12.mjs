@@ -15,8 +15,8 @@ if (!src.includes('casa-joao-vieira-12')) {
   const snippet = readFileSync(snippetPath, 'utf8');
   if (!src.includes('PROPERTIES.unshift(')) throw new Error('apply-jv12: PROPERTIES.unshift não encontrado');
   src = src.replace('PROPERTIES.unshift(', snippet + '\nPROPERTIES.unshift(');
-  src = src.replace('PROPERTIES.unshift(IANDE,', 'PROPERTIES.unshift(CASAJV12, IANDE,');
-  if (!src.includes('CASAJV12, IANDE')) throw new Error('apply-jv12: falha ao registrar CASAJV12');
+  src = src.replace('PROPERTIES.unshift(', 'PROPERTIES.unshift(CASAJV12, ');
+  if (!src.includes('PROPERTIES.unshift(CASAJV12,')) throw new Error('apply-jv12: falha ao registrar CASAJV12');
   writeFileSync(propsPath, src);
   console.log('apply-jv12: imóvel Casa João Vieira 12 cadastrado em properties.ts');
 } else {
