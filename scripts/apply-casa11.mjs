@@ -14,15 +14,7 @@ if (!src.includes('aldeia-itapororoca-casa-11')) {
   const snippet = readFileSync(snippetPath, 'utf8');
   if (!src.includes('PROPERTIES.unshift(')) throw new Error('apply-casa11: PROPERTIES.unshift não encontrado');
   src = src.replace('PROPERTIES.unshift(', snippet + '\nPROPERTIES.unshift(');
-  const alvos = [
-    'PROPERTIES.unshift(CASASOL, CASALUA, CASAJV12, IANDE,',
-    'PROPERTIES.unshift(CASALUA, CASAJV12, IANDE,',
-    'PROPERTIES.unshift(CASAJV12, IANDE,',
-    'PROPERTIES.unshift(IANDE,',
-  ];
-  const alvo = alvos.find((a) => src.includes(a));
-  if (!alvo) throw new Error('apply-casa11: lista PROPERTIES.unshift não reconhecida');
-  src = src.replace(alvo, alvo.replace('PROPERTIES.unshift(', 'PROPERTIES.unshift(CASA11ALDEIA, '));
+  src = src.replace('PROPERTIES.unshift(', 'PROPERTIES.unshift(CASA11ALDEIA, ');
   if (!src.includes('CASA11ALDEIA,')) throw new Error('apply-casa11: falha ao registrar CASA11ALDEIA');
   writeFileSync(propsPath, src);
   console.log('apply-casa11: imóvel Casa 11 Aldeia Itapororoca cadastrado em properties.ts');
