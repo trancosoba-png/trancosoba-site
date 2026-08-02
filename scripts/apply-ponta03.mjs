@@ -14,15 +14,7 @@ if (!src.includes('casa-da-ponta-03')) {
   const snippet = readFileSync(snippetPath, 'utf8');
   if (!src.includes('PROPERTIES.unshift(')) throw new Error('apply-ponta03: PROPERTIES.unshift não encontrado');
   src = src.replace('PROPERTIES.unshift(', snippet + '\nPROPERTIES.unshift(');
-  const alvos = [
-    'PROPERTIES.unshift(NOA, COQUEIRAL5, CASADEI, MUXARABI, CASILLA, AROEIRA, CASA11ALDEIA, CASASOL, CASALUA, CASAJV12, IANDE,',
-    'PROPERTIES.unshift(COQUEIRAL5, CASADEI, MUXARABI, CASILLA, AROEIRA, CASA11ALDEIA, CASASOL, CASALUA, CASAJV12, IANDE,',
-    'PROPERTIES.unshift(CASADEI, MUXARABI, CASILLA, AROEIRA, CASA11ALDEIA, CASASOL, CASALUA, CASAJV12, IANDE,',
-    'PROPERTIES.unshift(IANDE,',
-  ];
-  const alvo = alvos.find((a) => src.includes(a));
-  if (!alvo) throw new Error('apply-ponta03: lista PROPERTIES.unshift não reconhecida');
-  src = src.replace(alvo, alvo.replace('PROPERTIES.unshift(', 'PROPERTIES.unshift(PONTA03, '));
+  src = src.replace('PROPERTIES.unshift(', 'PROPERTIES.unshift(PONTA03, ');
   if (!src.includes('PONTA03,')) throw new Error('apply-ponta03: falha ao registrar PONTA03');
   writeFileSync(propsPath, src);
   console.log('apply-ponta03: imóvel Casa da Ponta 03 cadastrado em properties.ts');
