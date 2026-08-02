@@ -500,6 +500,40 @@ const SUITES_BY_ID: Record<string, Record<'pt' | 'en', HouseSuites>> = {
     footer: 'Capacity for up to 12 guests.',
   },
   },
+  'casa-muxarabi-altos-de-trancoso': {
+  pt: {
+    groups: [
+      {
+        title: '',
+        master: 'Suíte Master: 1 cama king, closet, banheira, TV, ar-condicionado e secador de cabelo.',
+      },
+      {
+        title: '',
+        suites: [
+          ['Suítes 02 a 05', '2 camas de solteiro reversíveis para casal, ar-condicionado e secador de cabelo.'],
+          ['Suíte 06', '3 camas de solteiro, ar-condicionado e secador de cabelo.'],
+        ],
+      },
+    ],
+    footer: 'Capacidade para até 13 hóspedes.',
+  },
+  en: {
+    groups: [
+      {
+        title: '',
+        master: 'Master Suite: 1 king bed, walk-in closet, bathtub, TV, air conditioning and hairdryer.',
+      },
+      {
+        title: '',
+        suites: [
+          ['Suites 02 to 05', '2 twin beds convertible into a double, air conditioning and hairdryer.'],
+          ['Suite 06', '3 twin beds, air conditioning and hairdryer.'],
+        ],
+      },
+    ],
+    footer: 'Capacity for up to 13 guests.',
+  },
+  },
 };
 
 function Item({ title, open, onToggle, emph = false, children }: { title: string; open: boolean; onToggle: () => void; emph?: boolean; children: ReactNode }) {
