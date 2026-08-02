@@ -36,6 +36,48 @@ export const SUITE_PAR = /configura[cç][aã]o das su[ií]tes|suite layout|distr
 type SuiteGroup = { title: string; master?: string; suites?: [string, string][] };
 type HouseSuites = { groups: SuiteGroup[]; footer?: string };
 const SUITES_BY_ID: Record<string, Record<'pt' | 'en', HouseSuites>> = {
+  'casa-dadinho-rio-da-barra': {
+  pt: {
+    groups: [
+      {
+        title: 'Suíte Master I',
+        master: '01 cama de casal, aproximadamente 36 m², banheiro privativo, ar-condicionado, enxoval completo e secador de cabelo.',
+      },
+      {
+        title: 'Suíte Master II',
+        master: '01 cama de casal, aproximadamente 36 m², banheiro privativo, ar-condicionado, enxoval completo e secador de cabelo.',
+      },
+      {
+        title: 'Suítes',
+        suites: [
+          ['Suíte III', '02 camas de solteiro, aproximadamente 18 m², banheiro privativo, ar-condicionado, enxoval completo e secador de cabelo.'],
+          ['Suíte IV', '02 camas de solteiro, aproximadamente 18 m², banheiro privativo, ar-condicionado, enxoval completo e secador de cabelo.'],
+        ],
+      },
+    ],
+    footer: 'Capacidade para até 8 hóspedes.',
+  },
+  en: {
+    groups: [
+      {
+        title: 'Master Suite I',
+        master: '01 double bed, approximately 36 m², private bathroom, air conditioning, complete bed and bath linen and hairdryer.',
+      },
+      {
+        title: 'Master Suite II',
+        master: '01 double bed, approximately 36 m², private bathroom, air conditioning, complete bed and bath linen and hairdryer.',
+      },
+      {
+        title: 'Suites',
+        suites: [
+          ['Suite III', '02 twin beds, approximately 18 m², private bathroom, air conditioning, complete bed and bath linen and hairdryer.'],
+          ['Suite IV', '02 twin beds, approximately 18 m², private bathroom, air conditioning, complete bed and bath linen and hairdryer.'],
+        ],
+      },
+    ],
+    footer: 'Capacity for up to 8 guests.',
+  },
+  },
   'casa-sol': {
   pt: { groups: [
     {
