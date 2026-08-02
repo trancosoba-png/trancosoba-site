@@ -560,6 +560,44 @@ const SUITES_BY_ID: Record<string, Record<'pt' | 'en', HouseSuites>> = {
     footer: 'Capacity for 10 to 14 guests (5 bedrooms, 4 of which are suites).',
   },
   },
+  'casa-noa-altos-de-trancoso': {
+  pt: {
+    groups: [
+      {
+        title: 'Residência Principal',
+        suites: [
+          ['Suíte 01 (piso superior)', '1 cama king, mosquiteiro, secador de cabelo e ar-condicionado.'],
+          ['Suíte 02 (piso térreo)', '2 camas de solteiro conversíveis em cama king, secador de cabelo e ar-condicionado.'],
+        ],
+      },
+      {
+        title: 'Bangalô Independente',
+        suites: [
+          ['Suíte 03', '1 cama king, mosquiteiro, frigobar, varanda para o jardim, secador de cabelo e ar-condicionado.'],
+        ],
+      },
+    ],
+    footer: 'Capacidade para até 6 hóspedes.',
+  },
+  en: {
+    groups: [
+      {
+        title: 'Main Residence',
+        suites: [
+          ['Suite 01 (upper floor)', '1 king bed, mosquito net, hairdryer and air conditioning.'],
+          ['Suite 02 (ground floor)', '2 twin beds convertible into a king bed, hairdryer and air conditioning.'],
+        ],
+      },
+      {
+        title: 'Independent Bungalow',
+        suites: [
+          ['Suite 03', '1 king bed, mosquito net, minibar, veranda overlooking the garden, hairdryer and air conditioning.'],
+        ],
+      },
+    ],
+    footer: 'Capacity for up to 6 guests.',
+  },
+  },
   'casa-casadei-altos-de-trancoso': {
   pt: {
     groups: [
