@@ -36,6 +36,36 @@ export const SUITE_PAR = /configura[cç][aã]o das su[ií]tes|suite layout|distr
 type SuiteGroup = { title: string; master?: string; suites?: [string, string][] };
 type HouseSuites = { groups: SuiteGroup[]; footer?: string };
 const SUITES_BY_ID: Record<string, Record<'pt' | 'en', HouseSuites>> = {
+  'casa-almescla-altos-de-trancoso': {
+  pt: {
+    groups: [
+      {
+        title: '',
+        suites: [
+          ['Suíte Master', '1 cama king size.'],
+          ['Suíte 02', '1 cama queen size, conversível em 2 camas de solteiro.'],
+          ['Suíte 03', '1 cama queen size.'],
+          ['Suíte 04', '1 cama queen size.'],
+        ],
+      },
+    ],
+    footer: 'Capacidade para até 8 hóspedes.',
+  },
+  en: {
+    groups: [
+      {
+        title: '',
+        suites: [
+          ['Master Suite', '1 king-size bed.'],
+          ['Suite 02', '1 queen-size bed, convertible into 2 twin beds.'],
+          ['Suite 03', '1 queen-size bed.'],
+          ['Suite 04', '1 queen-size bed.'],
+        ],
+      },
+    ],
+    footer: 'Capacity for up to 8 guests.',
+  },
+  },
   'casa-casamar-altos-de-trancoso': {
   pt: {
     groups: [

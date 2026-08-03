@@ -2015,6 +2015,34 @@ const CASAMAR: Property = {
   },
 };
 
+const ALMESCLA: Property = {
+  id: 'casa-almescla-altos-de-trancoso', code: 'TBA-301', name: { pt: 'Casa Almescla', en: 'Casa Almescla' },
+  purpose: ['aluguel'], location: 'Altos de Trancoso', suites: 4, guests: 8, baths: 4, area: '—',
+  price: { pt: 'R$ 4.000 / diária', en: 'R$ 4,000 / night' },
+  priceLow: { pt: 'R$ 3.400 / diária', en: 'R$ 3,400 / night' },
+  carnaval: { pt: 'R$ 40.000 (pacote especial)', en: 'R$ 40,000 (special package)' },
+  reveillon: { pt: 'R$ 170.000 (pacote especial)', en: 'R$ 170,000 (special package)' },
+  image: '/img/almescla/01.jpg',
+  gallery: ['/img/almescla/01.webp','/img/almescla/02.webp','/img/almescla/03.webp','/img/almescla/04.webp','/img/almescla/05.webp','/img/almescla/06.webp','/img/almescla/07.webp','/img/almescla/08.webp','/img/almescla/09.webp','/img/almescla/10.webp','/img/almescla/11.webp','/img/almescla/12.webp','/img/almescla/13.webp','/img/almescla/14.webp','/img/almescla/15.webp','/img/almescla/16.webp','/img/almescla/17.webp','/img/almescla/18.webp','/img/almescla/19.webp','/img/almescla/20.webp','/img/almescla/21.webp','/img/almescla/22.webp','/img/almescla/23.webp','/img/almescla/24.webp','/img/almescla/25.webp','/img/almescla/26.webp','/img/almescla/27.webp','/img/almescla/28.webp','/img/almescla/29.webp'], featured: false,
+  amenities: {
+    pt: ['Piscina revestida com pedras de seixo', 'Espaço gourmet com churrasqueira', 'Sala de estar', 'Sala de jantar', 'Sala de TV', 'Cozinha equipada', 'Lavabo', 'Ar-condicionado', 'Ventiladores de teto', 'Mosquiteiros', 'Internet Wi-Fi', 'TV', 'TV a cabo', 'Sky', 'Netflix', 'Som ambiente', 'Sistema de som', 'Espreguiçadeiras', 'Toalhas de piscina', 'Toalhas de praia', 'Roupas de cama, mesa e banho', 'Secador de cabelo', 'Freezer', 'Lavanderia', 'Ambiente adequado para famílias', 'Estacionamento', 'Poço artesiano', 'Extintor', 'Condomínio com segurança'],
+    en: ['Pool finished with pebble stones', 'Gourmet area with barbecue', 'Living room', 'Dining room', 'TV room', 'Equipped kitchen', 'Guest bathroom', 'Air conditioning', 'Ceiling fans', 'Mosquito nets', 'Wi-Fi internet', 'TV', 'Cable TV', 'Sky', 'Netflix', 'Ambient sound', 'Sound system', 'Sun loungers', 'Pool towels', 'Beach towels', 'Bed, table and bath linen', 'Hair dryer', 'Freezer', 'Laundry', 'Family-friendly environment', 'Parking', 'Artesian well', 'Fire extinguisher', 'Gated community with security'],
+  },
+  staff: {
+    pt: ['1 camareira'],
+    en: ['1 housekeeper'],
+  },
+  description: {
+    pt: 'A Casa Almescla, assinada pela arquiteta Cris Nogueira, revela uma interpretação elegante e acolhedora da arquitetura de Trancoso. Inserida em um terreno amplamente arborizado no Condomínio Altos de Trancoso, a residência se integra com naturalidade ao jardim tropical e oferece uma atmosfera de privacidade, tranquilidade e bem-estar.\n\nO projeto combina linhas simples, referências coloniais e materiais de demolição, criando ambientes cheios de identidade. A luz natural, a ventilação cruzada e a conexão fluida entre as áreas internas e externas reforçam a sensação de leveza presente em toda a propriedade.\n\nNo centro da casa, a piscina revestida com pedras de seixo funciona como ponto de encontro e elemento principal da composição. Ao seu redor estão os ambientes sociais, as áreas de descanso e os espaços destinados à convivência, todos voltados para o jardim e para a piscina.\n\nA área social oferece sala de estar, sala de jantar, sala de TV, cozinha equipada e espaço gourmet com churrasqueira. Com quatro suítes e capacidade para até oito hóspedes, a Casa Almescla proporciona uma experiência exclusiva no sul da Bahia, a poucos minutos do Quadrado Histórico e das praias dos Nativos e dos Coqueiros.',
+    en: 'Casa Almescla, designed by architect Cris Nogueira, reveals an elegant and welcoming interpretation of Trancoso\'s architecture. Set on a widely wooded plot in the Altos de Trancoso Condominium, the residence blends naturally into the tropical garden and offers an atmosphere of privacy, tranquility and well-being.\n\nThe project combines simple lines, colonial references and reclaimed materials, creating spaces full of identity. Natural light, cross ventilation and the fluid connection between indoor and outdoor areas reinforce the feeling of lightness present throughout the property.\n\nAt the center of the house, the pool finished with pebble stones works as a meeting point and the main element of the composition. Around it are the social areas, rest areas and spaces for gathering, all facing the garden and the pool.\n\nThe social area offers a living room, dining room, TV room, equipped kitchen and gourmet area with barbecue. With four suites and capacity for up to eight guests, Casa Almescla provides an exclusive experience in southern Bahia, just a few minutes from the Historic Quadrado and the Nativos and Coqueiros beaches.',
+  },
+  notes: { pt: ['Capacidade máxima para 8 hóspedes.', 'Projeto assinado pela arquiteta Cris Nogueira.', 'Valores de Réveillon e Carnaval correspondem a pacotes especiais.', 'Tarifas, disponibilidade, período mínimo e condições da reserva estão sujeitos a confirmação.'], en: ['Maximum capacity for 8 guests.', 'Project designed by architect Cris Nogueira.', 'New Year\'s and Carnival rates correspond to special packages.', 'Rates, availability, minimum stay and booking conditions are subject to confirmation.'] },
+  locationDetail: {
+    pt: 'Condomínio Altos de Trancoso, em uma região privilegiada e cercada pela natureza, com acesso conveniente ao Quadrado Histórico e às praias dos Nativos e dos Coqueiros.',
+    en: 'Altos de Trancoso Condominium, in a privileged region surrounded by nature, with convenient access to the Historic Quadrado and the Nativos and Coqueiros beaches.',
+  },
+};
+
 const MIA: Property = {
   id: 'casa-mia-altos-de-trancoso', code: 'TBA-297', name: { pt: 'Casa Mia', en: 'Casa Mia' },
   purpose: ['aluguel'], location: 'Altos de Trancoso', suites: 5, guests: 10, baths: 5, area: '—',
@@ -2043,7 +2071,7 @@ const MIA: Property = {
   },
 };
 
-PROPERTIES.unshift(CASAMAR, GEIGER, COQUEIRAL01, MIA, COQUEIRAL25, MAION, DADINHO, IANDE, MAGIVI, OITI, COQUEIRAL13, COQUEIRAL7, NAOCA, CASA71, CAJU, SANMARCO, CASA14, CASA09, BOSSA, TUA, IMBIRUCU, CASA42, CASA61, VILAS02, CASA80, ITAPO07, CASA96, CASA90, VILAS75, LIMOEIRO, BIRIBA, VILAMAR, BETTONI, PINI, AUREA, SAOJORGE, CAZA, ITAPO06, ITAPO04, ALEGRIA, PONTA, PG11, PG111, PG104, MANDACARU, PONTARB, FALESIA, RAIZES, PONTABARRA, FASANO10, FASANO16, FASANO17, VILAS26, GOLF58, FLORESTA, VILAS41, VILAS67, BOUTIQUE13, ARACUA, JACARANDA03, TEIU, GOLF25, PG50, CASAEDO, BALEIA, PG55, GOLF72, PITANGA, AFRICA, TEMPO07, TEMPO08, TEMPO06, BOSQUE, PATIO, PG32, PG45, LICURI, DIVINA, TRESMENINAS, PEROBA, MORENA, MOA, BRAGA, CUMARU, JACARANDA05, TB14, MACONDO, RICK);
+PROPERTIES.unshift(ALMESCLA, CASAMAR, GEIGER, COQUEIRAL01, MIA, COQUEIRAL25, MAION, DADINHO, IANDE, MAGIVI, OITI, COQUEIRAL13, COQUEIRAL7, NAOCA, CASA71, CAJU, SANMARCO, CASA14, CASA09, BOSSA, TUA, IMBIRUCU, CASA42, CASA61, VILAS02, CASA80, ITAPO07, CASA96, CASA90, VILAS75, LIMOEIRO, BIRIBA, VILAMAR, BETTONI, PINI, AUREA, SAOJORGE, CAZA, ITAPO06, ITAPO04, ALEGRIA, PONTA, PG11, PG111, PG104, MANDACARU, PONTARB, FALESIA, RAIZES, PONTABARRA, FASANO10, FASANO16, FASANO17, VILAS26, GOLF58, FLORESTA, VILAS41, VILAS67, BOUTIQUE13, ARACUA, JACARANDA03, TEIU, GOLF25, PG50, CASAEDO, BALEIA, PG55, GOLF72, PITANGA, AFRICA, TEMPO07, TEMPO08, TEMPO06, BOSQUE, PATIO, PG32, PG45, LICURI, DIVINA, TRESMENINAS, PEROBA, MORENA, MOA, BRAGA, CUMARU, JACARANDA05, TB14, MACONDO, RICK);
 
 export const WHATSAPP = '5573999141382';
 
