@@ -1931,6 +1931,34 @@ const COQUEIRAL25: Property = {
   },
 };
 
+const COQUEIRAL01: Property = {
+  id: 'casa-coqueiral-01', code: 'TBA-298', name: { pt: 'Casa Coqueiral 1', en: 'Casa Coqueiral 1' },
+  purpose: ['aluguel'], location: 'Condomínio Coqueiral', suites: 5, guests: 15, baths: 6, area: '—',
+  price: { pt: 'R$ 6.500 / diária', en: 'R$ 6,500 / night' },
+  priceLow: { pt: 'R$ 4.800 / diária', en: 'R$ 4,800 / night' },
+  carnaval: { pt: 'Sob consulta', en: 'Upon request' },
+  reveillon: { pt: 'R$ 230.000 (pacote de 10 noites)', en: 'R$ 230,000 (10-night package)' },
+  image: '/img/coqueiral01/01.jpg',
+  gallery: ['/img/coqueiral01/01.webp','/img/coqueiral01/02.webp','/img/coqueiral01/03.webp','/img/coqueiral01/04.webp','/img/coqueiral01/05.webp','/img/coqueiral01/06.webp','/img/coqueiral01/07.webp','/img/coqueiral01/08.webp','/img/coqueiral01/09.webp','/img/coqueiral01/10.webp','/img/coqueiral01/11.webp','/img/coqueiral01/12.webp','/img/coqueiral01/13.webp','/img/coqueiral01/14.webp','/img/coqueiral01/15.webp','/img/coqueiral01/16.webp','/img/coqueiral01/17.webp','/img/coqueiral01/18.webp','/img/coqueiral01/19.webp','/img/coqueiral01/20.webp','/img/coqueiral01/21.webp','/img/coqueiral01/22.webp','/img/coqueiral01/23.webp','/img/coqueiral01/24.webp','/img/coqueiral01/25.webp','/img/coqueiral01/26.webp','/img/coqueiral01/27.webp','/img/coqueiral01/28.webp','/img/coqueiral01/29.webp','/img/coqueiral01/30.webp','/img/coqueiral01/31.webp','/img/coqueiral01/32.webp','/img/coqueiral01/33.webp','/img/coqueiral01/34.webp','/img/coqueiral01/35.webp','/img/coqueiral01/36.webp','/img/coqueiral01/37.webp','/img/coqueiral01/38.webp','/img/coqueiral01/39.webp','/img/coqueiral01/40.webp'], featured: false,
+  amenities: {
+    pt: ['Ar-condicionado', 'Piscina aquecida com borda infinita', 'Jacuzzi / hidromassagem', 'Academia completa', 'Sala de TV climatizada', 'Cozinha totalmente equipada', 'Área gourmet integrada', 'Churrasqueira', 'Internet Wi-Fi', 'Sistema de som', 'Lavadora e secadora', 'Roupas de cama e banho', 'Equipamentos de praia', 'Estacionamento privativo', 'Segurança 24 horas no condomínio'],
+    en: ['Air conditioning', 'Heated infinity-edge pool', 'Jacuzzi / hot tub', 'Fully equipped gym', 'Air-conditioned TV room', 'Fully equipped kitchen', 'Integrated gourmet area', 'Barbecue', 'Wi-Fi internet', 'Sound system', 'Washer and dryer', 'Bed and bath linen', 'Beach equipment', 'Private parking', '24-hour security in the condominium'],
+  },
+  staff: {
+    pt: ['Cozinheira', 'Camareira', 'No pacote de Réveillon: auxiliares e barman'],
+    en: ['Cook', 'Housekeeper', 'New Year\'s package: assistants and bartender'],
+  },
+  description: {
+    pt: 'Localizada no Condomínio Coqueiral, esta residência reúne conforto, privacidade e excelente estrutura para famílias e grupos de amigos que desejam aproveitar Trancoso com tranquilidade. Com arquitetura ampla e ambientes integrados, a casa oferece espaços generosos para convivência e lazer, mantendo o charme característico da região.\n\nSão 5 suítes espaçosas, todas climatizadas e cuidadosamente decoradas, acomodando até 15 hóspedes com muito conforto. A área externa é o grande destaque, com piscina aquecida de borda infinita, terraço, jardins e área gourmet integrada à sala climatizada, ideal para almoços e jantares em grupo.\n\nPara completar a experiência, a propriedade conta com academia equipada, cozinha completa, Wi-Fi, sistema de som e toda a infraestrutura necessária para uma estadia inesquecível.',
+    en: 'Located in the Coqueiral Condominium, this residence combines comfort, privacy and an excellent structure for families and groups of friends who want to enjoy Trancoso with tranquility. With spacious architecture and integrated environments, the house offers generous spaces for gathering and leisure, keeping the region\'s characteristic charm.\n\nThere are 5 spacious suites, all air-conditioned and carefully decorated, accommodating up to 15 guests in great comfort. The outdoor area is the highlight, with a heated infinity-edge pool, terrace, gardens and a gourmet area integrated into the air-conditioned living room, ideal for group lunches and dinners.\n\nTo complete the experience, the property features an equipped gym, full kitchen, Wi-Fi, sound system and all the infrastructure needed for an unforgettable stay.',
+  },
+  notes: { pt: ['Capacidade para até 15 hóspedes.', 'Baixa temporada: mínimo de 4 noites.', 'Alta temporada: mínimo de 5 noites.', 'Valores sujeitos a alteração e disponibilidade.'], en: ['Capacity for up to 15 guests.', 'Low season: 4-night minimum stay.', 'High season: 5-night minimum stay.', 'Rates subject to change and availability.'] },
+  locationDetail: {
+    pt: 'Condomínio Coqueiral, Trancoso – Bahia. A aproximadamente 3 km do Quadrado e das praias de Trancoso, oferecendo fácil acesso aos principais pontos da vila sem abrir mão da tranquilidade.',
+    en: 'Coqueiral Condominium, Trancoso – Bahia. Approximately 3 km from the Quadrado and Trancoso beaches, offering easy access to the village\'s main spots without giving up tranquility.',
+  },
+};
+
 const MIA: Property = {
   id: 'casa-mia-altos-de-trancoso', code: 'TBA-297', name: { pt: 'Casa Mia', en: 'Casa Mia' },
   purpose: ['aluguel'], location: 'Altos de Trancoso', suites: 5, guests: 10, baths: 5, area: '—',
@@ -1959,7 +1987,7 @@ const MIA: Property = {
   },
 };
 
-PROPERTIES.unshift(MIA, COQUEIRAL25, MAION, DADINHO, IANDE, MAGIVI, OITI, COQUEIRAL13, COQUEIRAL7, NAOCA, CASA71, CAJU, SANMARCO, CASA14, CASA09, BOSSA, TUA, IMBIRUCU, CASA42, CASA61, VILAS02, CASA80, ITAPO07, CASA96, CASA90, VILAS75, LIMOEIRO, BIRIBA, VILAMAR, BETTONI, PINI, AUREA, SAOJORGE, CAZA, ITAPO06, ITAPO04, ALEGRIA, PONTA, PG11, PG111, PG104, MANDACARU, PONTARB, FALESIA, RAIZES, PONTABARRA, FASANO10, FASANO16, FASANO17, VILAS26, GOLF58, FLORESTA, VILAS41, VILAS67, BOUTIQUE13, ARACUA, JACARANDA03, TEIU, GOLF25, PG50, CASAEDO, BALEIA, PG55, GOLF72, PITANGA, AFRICA, TEMPO07, TEMPO08, TEMPO06, BOSQUE, PATIO, PG32, PG45, LICURI, DIVINA, TRESMENINAS, PEROBA, MORENA, MOA, BRAGA, CUMARU, JACARANDA05, TB14, MACONDO, RICK);
+PROPERTIES.unshift(COQUEIRAL01, MIA, COQUEIRAL25, MAION, DADINHO, IANDE, MAGIVI, OITI, COQUEIRAL13, COQUEIRAL7, NAOCA, CASA71, CAJU, SANMARCO, CASA14, CASA09, BOSSA, TUA, IMBIRUCU, CASA42, CASA61, VILAS02, CASA80, ITAPO07, CASA96, CASA90, VILAS75, LIMOEIRO, BIRIBA, VILAMAR, BETTONI, PINI, AUREA, SAOJORGE, CAZA, ITAPO06, ITAPO04, ALEGRIA, PONTA, PG11, PG111, PG104, MANDACARU, PONTARB, FALESIA, RAIZES, PONTABARRA, FASANO10, FASANO16, FASANO17, VILAS26, GOLF58, FLORESTA, VILAS41, VILAS67, BOUTIQUE13, ARACUA, JACARANDA03, TEIU, GOLF25, PG50, CASAEDO, BALEIA, PG55, GOLF72, PITANGA, AFRICA, TEMPO07, TEMPO08, TEMPO06, BOSQUE, PATIO, PG32, PG45, LICURI, DIVINA, TRESMENINAS, PEROBA, MORENA, MOA, BRAGA, CUMARU, JACARANDA05, TB14, MACONDO, RICK);
 
 export const WHATSAPP = '5573999141382';
 
