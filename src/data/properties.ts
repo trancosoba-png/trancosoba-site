@@ -1959,6 +1959,34 @@ const COQUEIRAL01: Property = {
   },
 };
 
+const GEIGER: Property = {
+  id: 'vila-geiger-itapororoca', code: 'TBA-299', name: { pt: 'Vila Geiger', en: 'Vila Geiger' },
+  purpose: ['aluguel'], location: 'Praia de Itapororoca', suites: 6, guests: 12, baths: 6, area: '—',
+  price: { pt: 'R$ 22.500 / diária', en: 'R$ 22,500 / night' },
+  priceLow: { pt: 'R$ 22.500 / diária', en: 'R$ 22,500 / night' },
+  carnaval: { pt: 'R$ 22.500 / diária', en: 'R$ 22,500 / night' },
+  reveillon: { pt: 'Sob consulta', en: 'Upon request' },
+  image: '/img/geiger/01.jpg',
+  gallery: ['/img/geiger/01.webp','/img/geiger/02.webp','/img/geiger/03.webp','/img/geiger/04.webp','/img/geiger/05.webp','/img/geiger/06.webp','/img/geiger/07.webp','/img/geiger/08.webp','/img/geiger/09.webp','/img/geiger/10.webp','/img/geiger/11.webp','/img/geiger/12.webp','/img/geiger/13.webp','/img/geiger/14.webp','/img/geiger/15.webp','/img/geiger/16.webp','/img/geiger/17.webp','/img/geiger/18.webp','/img/geiger/19.webp','/img/geiger/20.webp','/img/geiger/21.webp','/img/geiger/22.webp','/img/geiger/23.webp','/img/geiger/24.webp','/img/geiger/25.webp','/img/geiger/26.webp','/img/geiger/27.webp','/img/geiger/28.webp','/img/geiger/29.webp'], featured: false,
+  amenities: {
+    pt: ['Casa pé na areia em condomínio fechado', 'Seis suítes climatizadas', 'Closets e cofres nas suítes', 'Mosquiteiros', 'Áreas integradas à natureza', 'Proximidade ao Quadrado de Trancoso', 'Acesso rápido à praia e a um rio de águas tranquilas', 'Varandas com vista para o jardim', 'Mesas de escritório em suítes selecionadas', 'Secadores de cabelo', 'Privacidade e segurança'],
+    en: ['Beachfront house in a gated community', 'Six air-conditioned suites', 'Walk-in closets and safes in the suites', 'Mosquito nets', 'Spaces integrated with nature', 'Close to Trancoso\'s Quadrado', 'Quick access to the beach and a calm-water river', 'Verandas overlooking the garden', 'Desk tables in selected suites', 'Hair dryers', 'Privacy and security'],
+  },
+  staff: {
+    pt: ['1 arrumadeira', '1 cozinheira', '1 copeiro', 'Camareiras com atendimento até as 17h30', 'Cozinha em funcionamento até as 20h'],
+    en: ['1 housekeeper', '1 cook', '1 kitchen assistant', 'Housekeeping service until 5:30 pm', 'Kitchen service until 8 pm'],
+  },
+  description: {
+    pt: 'De frente para o mar e cercada pela Mata Atlântica, a Vila Geiger oferece uma experiência de hospedagem marcada pela privacidade, pelo conforto e por uma conexão genuína com a natureza de Trancoso.\n\nA poucos passos da areia e também de um rio de águas tranquilas, a casa é ideal para quem deseja dormir e acordar ao som das ondas. Este trecho de Itapororoca é conhecido por sua beleza preservada, atmosfera reservada e piscinas naturais que transformam a paisagem durante a maré baixa.\n\nCom seis suítes, incluindo dois bangalôs externos, a propriedade acomoda confortavelmente até 12 hóspedes. Os ambientes foram pensados para proporcionar dias leves entre o mar, o jardim e as áreas de convivência, sem abrir mão da comodidade de estar a poucos minutos do Quadrado de Trancoso.',
+    en: 'Facing the sea and surrounded by the Atlantic Forest, Vila Geiger offers a lodging experience marked by privacy, comfort and a genuine connection with the nature of Trancoso.\n\nA few steps from the sand and also from a calm-water river, the house is ideal for those who wish to fall asleep and wake up to the sound of the waves. This stretch of Itapororoca is known for its preserved beauty, reserved atmosphere and natural pools that transform the landscape at low tide.\n\nWith six suites, including two external bungalows, the property comfortably accommodates up to 12 guests. The spaces were designed to provide light days between the sea, the garden and the living areas, without giving up the convenience of being just a few minutes from Trancoso\'s Quadrado.',
+  },
+  notes: { pt: ['Capacidade para até 12 hóspedes.', 'Natal e Réveillon sujeitos à consulta de disponibilidade.', 'Valores e disponibilidade sujeitos à confirmação.'], en: ['Capacity for up to 12 guests.', 'Christmas and New Year\'s subject to availability inquiry.', 'Rates and availability subject to confirmation.'] },
+  locationDetail: {
+    pt: 'Localizada no Condomínio de Itapororoca, em um dos trechos mais bonitos e preservados do litoral de Trancoso. A propriedade oferece acesso direto à praia, privacidade e contato intenso com a natureza, além de estar a poucos minutos de carro do Quadrado.',
+    en: 'Located in the Itapororoca Condominium, in one of the most beautiful and preserved stretches of the Trancoso coastline. The property offers direct beach access, privacy and intense contact with nature, and is just a few minutes\' drive from the Quadrado.',
+  },
+};
+
 const MIA: Property = {
   id: 'casa-mia-altos-de-trancoso', code: 'TBA-297', name: { pt: 'Casa Mia', en: 'Casa Mia' },
   purpose: ['aluguel'], location: 'Altos de Trancoso', suites: 5, guests: 10, baths: 5, area: '—',
@@ -1987,7 +2015,7 @@ const MIA: Property = {
   },
 };
 
-PROPERTIES.unshift(COQUEIRAL01, MIA, COQUEIRAL25, MAION, DADINHO, IANDE, MAGIVI, OITI, COQUEIRAL13, COQUEIRAL7, NAOCA, CASA71, CAJU, SANMARCO, CASA14, CASA09, BOSSA, TUA, IMBIRUCU, CASA42, CASA61, VILAS02, CASA80, ITAPO07, CASA96, CASA90, VILAS75, LIMOEIRO, BIRIBA, VILAMAR, BETTONI, PINI, AUREA, SAOJORGE, CAZA, ITAPO06, ITAPO04, ALEGRIA, PONTA, PG11, PG111, PG104, MANDACARU, PONTARB, FALESIA, RAIZES, PONTABARRA, FASANO10, FASANO16, FASANO17, VILAS26, GOLF58, FLORESTA, VILAS41, VILAS67, BOUTIQUE13, ARACUA, JACARANDA03, TEIU, GOLF25, PG50, CASAEDO, BALEIA, PG55, GOLF72, PITANGA, AFRICA, TEMPO07, TEMPO08, TEMPO06, BOSQUE, PATIO, PG32, PG45, LICURI, DIVINA, TRESMENINAS, PEROBA, MORENA, MOA, BRAGA, CUMARU, JACARANDA05, TB14, MACONDO, RICK);
+PROPERTIES.unshift(GEIGER, COQUEIRAL01, MIA, COQUEIRAL25, MAION, DADINHO, IANDE, MAGIVI, OITI, COQUEIRAL13, COQUEIRAL7, NAOCA, CASA71, CAJU, SANMARCO, CASA14, CASA09, BOSSA, TUA, IMBIRUCU, CASA42, CASA61, VILAS02, CASA80, ITAPO07, CASA96, CASA90, VILAS75, LIMOEIRO, BIRIBA, VILAMAR, BETTONI, PINI, AUREA, SAOJORGE, CAZA, ITAPO06, ITAPO04, ALEGRIA, PONTA, PG11, PG111, PG104, MANDACARU, PONTARB, FALESIA, RAIZES, PONTABARRA, FASANO10, FASANO16, FASANO17, VILAS26, GOLF58, FLORESTA, VILAS41, VILAS67, BOUTIQUE13, ARACUA, JACARANDA03, TEIU, GOLF25, PG50, CASAEDO, BALEIA, PG55, GOLF72, PITANGA, AFRICA, TEMPO07, TEMPO08, TEMPO06, BOSQUE, PATIO, PG32, PG45, LICURI, DIVINA, TRESMENINAS, PEROBA, MORENA, MOA, BRAGA, CUMARU, JACARANDA05, TB14, MACONDO, RICK);
 
 export const WHATSAPP = '5573999141382';
 

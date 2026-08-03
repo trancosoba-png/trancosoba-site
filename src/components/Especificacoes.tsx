@@ -36,6 +36,50 @@ export const SUITE_PAR = /configura[cç][aã]o das su[ií]tes|suite layout|distr
 type SuiteGroup = { title: string; master?: string; suites?: [string, string][] };
 type HouseSuites = { groups: SuiteGroup[]; footer?: string };
 const SUITES_BY_ID: Record<string, Record<'pt' | 'en', HouseSuites>> = {
+  'vila-geiger-itapororoca': {
+  pt: {
+    groups: [
+      {
+        title: 'Casa principal',
+        suites: [
+          ['Suíte 01', '1 cama king size, poltrona, ar-condicionado, mesa de escritório, closet, cofre, secador de cabelo e varanda com vista para o jardim.'],
+          ['Suíte 02', '1 cama king size, poltrona, ar-condicionado, mesa de escritório, closet, cofre, secador de cabelo e varanda com vista para o jardim.'],
+          ['Suíte 03', '2 camas de solteiro tipo viúva, poltrona, ar-condicionado, closet, guarda-roupa, mosquiteiro, cofre e secador de cabelo.'],
+          ['Suíte 04', '2 camas de solteiro, 1 berço, mosquiteiro, ar-condicionado, guarda-roupa, cofre, secador de cabelo e varanda.'],
+        ],
+      },
+      {
+        title: 'Bangalôs externos',
+        suites: [
+          ['Suíte 05', '1 cama king size, ar-condicionado, mosquiteiro, closet e secador de cabelo.'],
+          ['Suíte 06', '1 cama king size, ar-condicionado, mosquiteiro, closet e secador de cabelo.'],
+        ],
+      },
+    ],
+    footer: 'Capacidade para até 12 hóspedes.',
+  },
+  en: {
+    groups: [
+      {
+        title: 'Main house',
+        suites: [
+          ['Suite 01', '1 king-size bed, armchair, air conditioning, desk, walk-in closet, safe, hair dryer and veranda overlooking the garden.'],
+          ['Suite 02', '1 king-size bed, armchair, air conditioning, desk, walk-in closet, safe, hair dryer and veranda overlooking the garden.'],
+          ['Suite 03', '2 large twin beds, armchair, air conditioning, walk-in closet, wardrobe, mosquito net, safe and hair dryer.'],
+          ['Suite 04', '2 twin beds, 1 crib, mosquito net, air conditioning, wardrobe, safe, hair dryer and veranda.'],
+        ],
+      },
+      {
+        title: 'External bungalows',
+        suites: [
+          ['Suite 05', '1 king-size bed, air conditioning, mosquito net, walk-in closet and hair dryer.'],
+          ['Suite 06', '1 king-size bed, air conditioning, mosquito net, walk-in closet and hair dryer.'],
+        ],
+      },
+    ],
+    footer: 'Capacity for up to 12 guests.',
+  },
+  },
   'casa-mia-altos-de-trancoso': {
   pt: {
     groups: [
