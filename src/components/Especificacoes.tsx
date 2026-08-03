@@ -36,6 +36,34 @@ export const SUITE_PAR = /configura[cç][aã]o das su[ií]tes|suite layout|distr
 type SuiteGroup = { title: string; master?: string; suites?: [string, string][] };
 type HouseSuites = { groups: SuiteGroup[]; footer?: string };
 const SUITES_BY_ID: Record<string, Record<'pt' | 'en', HouseSuites>> = {
+  'casa-maria-rio-verde': {
+  pt: {
+    groups: [
+      {
+        title: '',
+        suites: [
+          ['Suíte 01 (piso superior)', '1 cama king size, armário, secador de cabelo e ar-condicionado.'],
+          ['Suíte 02 (piso térreo)', '1 cama king size, armário, secador de cabelo e ar-condicionado.'],
+          ['Suíte 03 (piso térreo)', '1 cama king size, armário, secador de cabelo e ar-condicionado.'],
+        ],
+      },
+    ],
+    footer: 'Capacidade para até 6 hóspedes.',
+  },
+  en: {
+    groups: [
+      {
+        title: '',
+        suites: [
+          ['Suite 01 (upper floor)', '1 king-size bed, wardrobe, hair dryer and air conditioning.'],
+          ['Suite 02 (ground floor)', '1 king-size bed, wardrobe, hair dryer and air conditioning.'],
+          ['Suite 03 (ground floor)', '1 king-size bed, wardrobe, hair dryer and air conditioning.'],
+        ],
+      },
+    ],
+    footer: 'Capacity for up to 6 guests.',
+  },
+  },
   'casa-almescla-altos-de-trancoso': {
   pt: {
     groups: [
