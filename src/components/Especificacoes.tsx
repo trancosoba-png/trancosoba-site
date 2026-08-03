@@ -36,6 +36,45 @@ export const SUITE_PAR = /configura[cç][aã]o das su[ií]tes|suite layout|distr
 type SuiteGroup = { title: string; master?: string; suites?: [string, string][] };
 type HouseSuites = { groups: SuiteGroup[]; footer?: string };
 const SUITES_BY_ID: Record<string, Record<'pt' | 'en', HouseSuites>> = {
+  'casa-mia-altos-de-trancoso': {
+  pt: {
+    groups: [
+      {
+        title: 'Suíte Master',
+        master: '01 cama king size, ar-condicionado, frigobar e secador de cabelo.',
+      },
+      {
+        title: 'Suítes',
+        suites: [
+          ['Suíte 2', '01 cama king size, ar-condicionado e secador de cabelo.'],
+          ['Suíte 3', '01 cama king size, ar-condicionado e secador de cabelo.'],
+          ['Suíte 4', '01 cama queen size, ar-condicionado e secador de cabelo.'],
+          ['Suíte 5', '02 camas de solteiro, ar-condicionado e secador de cabelo.'],
+        ],
+      },
+    ],
+    footer: 'Capacidade para até 10 hóspedes.',
+  },
+  en: {
+    groups: [
+      {
+        title: 'Master Suite',
+        master: '01 king-size bed, air conditioning, minibar and hairdryer.',
+      },
+      {
+        title: 'Suites',
+        suites: [
+          ['Suite 2', '01 king-size bed, air conditioning and hairdryer.'],
+          ['Suite 3', '01 king-size bed, air conditioning and hairdryer.'],
+          ['Suite 4', '01 queen-size bed, air conditioning and hairdryer.'],
+          ['Suite 5', '02 twin beds, air conditioning and hairdryer.'],
+        ],
+      },
+    ],
+    footer: 'Capacity for up to 10 guests.',
+  },
+},
+
   'casa-coqueiral-25': {
   pt: {
     groups: [
