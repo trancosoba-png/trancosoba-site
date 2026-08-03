@@ -36,6 +36,48 @@ export const SUITE_PAR = /configura[cç][aã]o das su[ií]tes|suite layout|distr
 type SuiteGroup = { title: string; master?: string; suites?: [string, string][] };
 type HouseSuites = { groups: SuiteGroup[]; footer?: string };
 const SUITES_BY_ID: Record<string, Record<'pt' | 'en', HouseSuites>> = {
+  'casa-coqueiral-25': {
+  pt: {
+    groups: [
+      {
+        title: 'Pavimento Superior',
+        suites: [
+          ['Suíte 1', 'Cama queen-size, ar-condicionado, televisão, closet, varanda privativa e banheira de hidromassagem.'],
+          ['Suíte 2', 'Cama queen-size, ar-condicionado, televisão, closet, varanda privativa e banheira de hidromassagem.'],
+        ],
+      },
+      {
+        title: 'Pavimento Térreo',
+        suites: [
+          ['Suíte 3', 'Uma cama queen-size e duas camas auxiliares de solteiro, com possibilidade de configuração em até quatro camas de solteiro, ar-condicionado, armários e varanda com ducha privativa.'],
+          ['Suíte 4', 'Uma cama queen-size e duas camas auxiliares de solteiro, com possibilidade de configuração em até quatro camas de solteiro, ar-condicionado, armários, entrada independente e varanda com ducha privativa.'],
+          ['Suíte 5', 'Uma cama queen-size e duas camas auxiliares de solteiro, com possibilidade de configuração em até quatro camas de solteiro, ar-condicionado, armários, entrada independente e varanda com ducha privativa.'],
+        ],
+      },
+    ],
+    footer: 'Capacidade máxima para 16 hóspedes.',
+  },
+  en: {
+    groups: [
+      {
+        title: 'Upper Floor',
+        suites: [
+          ['Suite 1', 'Queen-size bed, air conditioning, television, walk-in closet, private veranda and hot tub.'],
+          ['Suite 2', 'Queen-size bed, air conditioning, television, walk-in closet, private veranda and hot tub.'],
+        ],
+      },
+      {
+        title: 'Ground Floor',
+        suites: [
+          ['Suite 3', 'One queen-size bed and two single auxiliary beds, with the possibility of configuration into up to four single beds, air conditioning, wardrobes and veranda with private shower.'],
+          ['Suite 4', 'One queen-size bed and two single auxiliary beds, with the possibility of configuration into up to four single beds, air conditioning, wardrobes, independent entrance and veranda with private shower.'],
+          ['Suite 5', 'One queen-size bed and two single auxiliary beds, with the possibility of configuration into up to four single beds, air conditioning, wardrobes, independent entrance and veranda with private shower.'],
+        ],
+      },
+    ],
+    footer: 'Maximum capacity for 16 guests.',
+  },
+  },
   'casa-maion-altos-de-trancoso': {
   pt: {
     groups: [
