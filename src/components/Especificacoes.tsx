@@ -36,6 +36,64 @@ export const SUITE_PAR = /configura[cç][aã]o das su[ií]tes|suite layout|distr
 type SuiteGroup = { title: string; master?: string; suites?: [string, string][] };
 type HouseSuites = { groups: SuiteGroup[]; footer?: string };
 const SUITES_BY_ID: Record<string, Record<'pt' | 'en', HouseSuites>> = {
+  'casa-04-jacaranda': {
+    pt: {
+      groups: [
+        { title: '', suites: [
+          ['Suíte 01', '1 cama king + 2 camas auxiliares'],
+          ['Suíte 02', '1 cama king + 2 camas auxiliares'],
+          ['Suíte 03', '1 cama king + 2 camas auxiliares'],
+          ['Suíte 04', '1 cama king + 2 camas auxiliares'],
+          ['Suíte 05', '1 cama king + 2 camas auxiliares'],
+          ['Suíte 06', '1 cama king + 2 camas auxiliares'],
+          ['Suíte 07', '1 cama de casal + 1 cama auxiliar'],
+        ] },
+      ],
+      footer: 'Capacidade para até 21 hóspedes.',
+    },
+    en: {
+      groups: [
+        { title: '', suites: [
+          ['Suite 01', '1 king bed + 2 extra beds'],
+          ['Suite 02', '1 king bed + 2 extra beds'],
+          ['Suite 03', '1 king bed + 2 extra beds'],
+          ['Suite 04', '1 king bed + 2 extra beds'],
+          ['Suite 05', '1 king bed + 2 extra beds'],
+          ['Suite 06', '1 king bed + 2 extra beds'],
+          ['Suite 07', '1 double bed + 1 extra bed'],
+        ] },
+      ],
+      footer: 'Capacity for up to 21 guests.',
+    },
+  },
+  'casa-coqueiral-14': {
+    pt: {
+      groups: [
+        { title: '', suites: [
+          ['Suíte 01', 'Climatizada'],
+          ['Suíte 02', 'Climatizada'],
+          ['Suíte 03', 'Climatizada'],
+          ['Suíte 04', 'Climatizada'],
+          ['Suíte 05', 'Climatizada'],
+          ['Suíte 06', 'Climatizada'],
+        ] },
+      ],
+      footer: 'Capacidade para até 18 hóspedes.',
+    },
+    en: {
+      groups: [
+        { title: '', suites: [
+          ['Suite 01', 'Air-conditioned'],
+          ['Suite 02', 'Air-conditioned'],
+          ['Suite 03', 'Air-conditioned'],
+          ['Suite 04', 'Air-conditioned'],
+          ['Suite 05', 'Air-conditioned'],
+          ['Suite 06', 'Air-conditioned'],
+        ] },
+      ],
+      footer: 'Capacity for up to 18 guests.',
+    },
+  },
   'casa-coqueiral-02': {
     pt: {
       groups: [

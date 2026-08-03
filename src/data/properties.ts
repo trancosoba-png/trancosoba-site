@@ -2099,6 +2099,62 @@ const COQUEIRAL02: Property = {
   },
 };
 
+const JACARANDA04: Property = {
+  id: 'casa-04-jacaranda', code: 'TBA-304', name: { pt: 'Casa 04 — Condomínio Jacarandá', en: 'Casa 04 — Jacarandá Condominium' },
+  purpose: ['aluguel'], location: 'Condomínio Jacarandá', suites: 7, guests: 21, baths: 7, area: '—',
+  price: { pt: 'R$ 7.500 / diária', en: 'R$ 7,500 / night' },
+  priceLow: { pt: 'R$ 5.880 / diária', en: 'R$ 5,880 / night' },
+  carnaval: { pt: 'Sob consulta', en: 'Upon request' },
+  reveillon: { pt: 'Sob consulta', en: 'Upon request' },
+  image: '/img/jacaranda-04/01.jpg',
+  gallery: ['/img/jacaranda-04/01.webp','/img/jacaranda-04/02.webp','/img/jacaranda-04/03.webp','/img/jacaranda-04/04.webp','/img/jacaranda-04/05.webp','/img/jacaranda-04/06.webp','/img/jacaranda-04/07.webp','/img/jacaranda-04/08.webp','/img/jacaranda-04/09.webp','/img/jacaranda-04/10.webp','/img/jacaranda-04/11.webp','/img/jacaranda-04/12.webp','/img/jacaranda-04/13.webp','/img/jacaranda-04/14.webp','/img/jacaranda-04/15.webp','/img/jacaranda-04/16.webp','/img/jacaranda-04/17.webp','/img/jacaranda-04/18.webp','/img/jacaranda-04/19.webp','/img/jacaranda-04/20.webp','/img/jacaranda-04/21.webp','/img/jacaranda-04/22.webp','/img/jacaranda-04/23.webp','/img/jacaranda-04/24.webp','/img/jacaranda-04/25.webp','/img/jacaranda-04/26.webp','/img/jacaranda-04/27.webp','/img/jacaranda-04/28.webp'], featured: false,
+  amenities: {
+    pt: ['Piscina privativa', 'Hidromassagem para até 12 pessoas', 'Espaço gourmet completo com churrasqueira e forno de pizza', 'Redário', 'Cozinha completa equipada', 'Salas de estar e TV integradas', 'Wi-Fi de alta velocidade', 'Estacionamento para 4 veículos', 'Suítes climatizadas'],
+    en: ['Private pool', 'Hot tub for up to 12 people', 'Full gourmet area with barbecue and pizza oven', 'Hammock area', 'Fully equipped kitchen', 'Integrated living and TV rooms', 'High-speed Wi-Fi', 'Parking for 4 vehicles', 'Air-conditioned suites'],
+  },
+  staff: {
+    pt: ['1 cozinheira', '2 camareiras', 'Jardineiro/piscineiro', 'Serviço diário incluso'],
+    en: ['1 cook', '2 housekeepers', 'Gardener/pool attendant', 'Daily service included'],
+  },
+  description: {
+    pt: 'A Casa 04, no Condomínio Jacarandá, combina elegância, conforto e localização privilegiada em Trancoso. Situada a apenas 5 minutos do Quadrado e cerca de 8 minutos das praias, oferece a tranquilidade de um condomínio fechado com toda a praticidade para aproveitar os principais atrativos da região.\n\nProjetada para receber famílias e grupos de amigos, a residência acomoda até 21 hóspedes em 7 suítes climatizadas. Os ambientes internos seguem um conceito aberto, com salas de estar e TV integradas à cozinha completa, valorizando iluminação natural, amplitude e uma decoração contemporânea que mistura o charme rústico de Trancoso com peças assinadas por artistas e arquitetos da região.\n\nNa área externa, a experiência continua com uma agradável varanda voltada para a piscina, espaço gourmet completo com churrasqueira e forno de pizza, hidromassagem para até 12 pessoas, redário e diversos ambientes para confraternizações ao ar livre.',
+    en: 'Casa 04, in the Jacarandá Condominium, combines elegance, comfort and a privileged location in Trancoso. Situated just 5 minutes from the Quadrado and about 8 minutes from the beaches, it offers the tranquility of a gated community with all the convenience to enjoy the region\'s main attractions.\n\nDesigned to host families and groups of friends, the residence accommodates up to 21 guests in 7 air-conditioned suites. The interiors follow an open concept, with living and TV rooms integrated into the full kitchen, valuing natural light, spaciousness and a contemporary decoration that mixes Trancoso\'s rustic charm with pieces signed by local artists and architects.\n\nOutside, the experience continues with a pleasant veranda facing the pool, a complete gourmet area with barbecue and pizza oven, a hot tub for up to 12 people, a hammock area and several spaces for outdoor gatherings.',
+  },
+  notes: { pt: ['Capacidade para até 21 hóspedes.', 'Valores sujeitos a alteração sem aviso prévio. Consulte disponibilidade, pacotes para feriados e custos para utilização do clube do condomínio.'], en: ['Capacity for up to 21 guests.', 'Rates subject to change without prior notice. Check availability, holiday packages and costs for using the condominium club.'] },
+  locationDetail: {
+    pt: 'Condomínio Jacarandá, Trancoso. A apenas 5 minutos do Quadrado e cerca de 8 minutos das praias.',
+    en: 'Jacarandá Condominium, Trancoso. Just 5 minutes from the Quadrado and about 8 minutes from the beaches.',
+  },
+};
+
+const COQUEIRAL14: Property = {
+  id: 'casa-coqueiral-14', code: 'TBA-305', name: { pt: 'Casa Coqueiral 14', en: 'Casa Coqueiral 14' },
+  purpose: ['aluguel'], location: 'Condomínio Coqueiral', suites: 6, guests: 18, baths: 6, area: '550 m²',
+  price: { pt: 'R$ 5.950 / diária', en: 'R$ 5,950 / night' },
+  priceLow: { pt: 'R$ 3.900 / diária', en: 'R$ 3,900 / night' },
+  carnaval: { pt: 'Sob consulta', en: 'Upon request' },
+  reveillon: { pt: 'R$ 170.000', en: 'R$ 170,000' },
+  image: '/img/coqueiral14/01.jpg',
+  gallery: ['/img/coqueiral14/01.webp','/img/coqueiral14/02.webp','/img/coqueiral14/03.webp','/img/coqueiral14/04.webp','/img/coqueiral14/05.webp','/img/coqueiral14/06.webp','/img/coqueiral14/07.webp','/img/coqueiral14/08.webp','/img/coqueiral14/09.webp','/img/coqueiral14/10.webp','/img/coqueiral14/11.webp','/img/coqueiral14/12.webp','/img/coqueiral14/13.webp','/img/coqueiral14/14.webp','/img/coqueiral14/15.webp','/img/coqueiral14/16.webp','/img/coqueiral14/17.webp','/img/coqueiral14/18.webp','/img/coqueiral14/19.webp','/img/coqueiral14/20.webp','/img/coqueiral14/21.webp','/img/coqueiral14/22.webp','/img/coqueiral14/23.webp','/img/coqueiral14/24.webp','/img/coqueiral14/25.webp','/img/coqueiral14/26.webp','/img/coqueiral14/27.webp','/img/coqueiral14/28.webp','/img/coqueiral14/29.webp','/img/coqueiral14/30.webp','/img/coqueiral14/31.webp','/img/coqueiral14/32.webp'], featured: false,
+  amenities: {
+    pt: ['Ar-condicionado', 'Piscina privativa de borda infinita iluminada em LED', 'Espaço gourmet com churrasqueira', 'Cozinha completa', 'Wi-Fi', 'Sistema de som', 'TV por assinatura', 'Lavadora e secadora', 'Estacionamento privativo', 'Pet friendly', 'Roupas de cama e banho', 'Ducha externa', 'Varanda com redes e redário'],
+    en: ['Air conditioning', 'Private infinity-edge pool with LED lighting', 'Gourmet area with barbecue', 'Full kitchen', 'Wi-Fi', 'Sound system', 'Cable TV', 'Washer and dryer', 'Private parking', 'Pet friendly', 'Bed and bath linen', 'Outdoor shower', 'Veranda with hammocks and hammock area'],
+  },
+  staff: {
+    pt: ['Serviço de limpeza diário incluso', 'Cozinheira disponível sob consulta (valor adicional)'],
+    en: ['Daily cleaning service included', 'Cook available upon request (additional cost)'],
+  },
+  description: {
+    pt: 'A Casa Coqueiral 14 reúne sofisticação, conforto e a essência de Trancoso em um projeto contemporâneo cercado pela natureza. Localizada no Condomínio Coqueiral, está a poucos minutos do Quadrado e das praias, oferecendo segurança, privacidade e fácil acesso aos principais atrativos da região.\n\nCom 550 m² de área construída em um terreno de 1.000 m², acomoda até 18 hóspedes em 6 suítes climatizadas. Os ambientes amplos e integrados valorizam a iluminação natural e proporcionam uma experiência acolhedora para famílias e grupos de amigos.\n\nA área externa é o grande destaque, com piscina privativa de borda infinita iluminada em LED, cercada pela mata nativa, além de espaço gourmet com churrasqueira, terraço, varanda com redes e um agradável redário para momentos de descanso.',
+    en: 'Casa Coqueiral 14 brings together sophistication, comfort and the essence of Trancoso in a contemporary project surrounded by nature. Located in the Coqueiral Condominium, it is a few minutes from the Quadrado and the beaches, offering security, privacy and easy access to the region\'s main attractions.\n\nWith 550 m² of built area on a 1,000 m² plot, it accommodates up to 18 guests in 6 air-conditioned suites. The spacious and integrated environments value natural lighting and provide a welcoming experience for families and groups of friends.\n\nThe outdoor area is the highlight, with a private infinity-edge pool lit by LED, surrounded by native forest, as well as a gourmet area with barbecue, terrace, veranda with hammocks and a pleasant hammock area for moments of rest.',
+  },
+  notes: { pt: ['Capacidade para até 18 hóspedes.', 'Valores sujeitos a alteração sem aviso prévio. Consulte disponibilidade e condições para feriados e datas especiais.'], en: ['Capacity for up to 18 guests.', 'Rates subject to change without prior notice. Check availability and conditions for holidays and special dates.'] },
+  locationDetail: {
+    pt: 'Condomínio Coqueiral, Trancoso. A poucos minutos do Quadrado e das praias.',
+    en: 'Coqueiral Condominium, Trancoso. A few minutes from the Quadrado and the beaches.',
+  },
+};
+
 const MIA: Property = {
   id: 'casa-mia-altos-de-trancoso', code: 'TBA-297', name: { pt: 'Casa Mia', en: 'Casa Mia' },
   purpose: ['aluguel'], location: 'Altos de Trancoso', suites: 5, guests: 10, baths: 5, area: '—',
@@ -2127,7 +2183,7 @@ const MIA: Property = {
   },
 };
 
-PROPERTIES.unshift(COQUEIRAL02, CASAMARIA, ALMESCLA, CASAMAR, GEIGER, COQUEIRAL01, MIA, COQUEIRAL25, MAION, DADINHO, IANDE, MAGIVI, OITI, COQUEIRAL13, COQUEIRAL7, NAOCA, CASA71, CAJU, SANMARCO, CASA14, CASA09, BOSSA, TUA, IMBIRUCU, CASA42, CASA61, VILAS02, CASA80, ITAPO07, CASA96, CASA90, VILAS75, LIMOEIRO, BIRIBA, VILAMAR, BETTONI, PINI, AUREA, SAOJORGE, CAZA, ITAPO06, ITAPO04, ALEGRIA, PONTA, PG11, PG111, PG104, MANDACARU, PONTARB, FALESIA, RAIZES, PONTABARRA, FASANO10, FASANO16, FASANO17, VILAS26, GOLF58, FLORESTA, VILAS41, VILAS67, BOUTIQUE13, ARACUA, JACARANDA03, TEIU, GOLF25, PG50, CASAEDO, BALEIA, PG55, GOLF72, PITANGA, AFRICA, TEMPO07, TEMPO08, TEMPO06, BOSQUE, PATIO, PG32, PG45, LICURI, DIVINA, TRESMENINAS, PEROBA, MORENA, MOA, BRAGA, CUMARU, JACARANDA05, TB14, MACONDO, RICK);
+PROPERTIES.unshift(JACARANDA04, COQUEIRAL14, COQUEIRAL02, CASAMARIA, ALMESCLA, CASAMAR, GEIGER, COQUEIRAL01, MIA, COQUEIRAL25, MAION, DADINHO, IANDE, MAGIVI, OITI, COQUEIRAL13, COQUEIRAL7, NAOCA, CASA71, CAJU, SANMARCO, CASA14, CASA09, BOSSA, TUA, IMBIRUCU, CASA42, CASA61, VILAS02, CASA80, ITAPO07, CASA96, CASA90, VILAS75, LIMOEIRO, BIRIBA, VILAMAR, BETTONI, PINI, AUREA, SAOJORGE, CAZA, ITAPO06, ITAPO04, ALEGRIA, PONTA, PG11, PG111, PG104, MANDACARU, PONTARB, FALESIA, RAIZES, PONTABARRA, FASANO10, FASANO16, FASANO17, VILAS26, GOLF58, FLORESTA, VILAS41, VILAS67, BOUTIQUE13, ARACUA, JACARANDA03, TEIU, GOLF25, PG50, CASAEDO, BALEIA, PG55, GOLF72, PITANGA, AFRICA, TEMPO07, TEMPO08, TEMPO06, BOSQUE, PATIO, PG32, PG45, LICURI, DIVINA, TRESMENINAS, PEROBA, MORENA, MOA, BRAGA, CUMARU, JACARANDA05, TB14, MACONDO, RICK);
 
 export const WHATSAPP = '5573999141382';
 
