@@ -1987,6 +1987,34 @@ const GEIGER: Property = {
   },
 };
 
+const CASAMAR: Property = {
+  id: 'casa-casamar-altos-de-trancoso', code: 'TBA-300', name: { pt: 'Casa Casamar', en: 'Casa Casamar' },
+  purpose: ['aluguel'], location: 'Altos de Trancoso', suites: 4, guests: 8, baths: 4, area: '360 m²',
+  price: { pt: 'R$ 5.800 / diária', en: 'R$ 5,800 / night' },
+  priceLow: { pt: 'R$ 4.800 / diária', en: 'R$ 4,800 / night' },
+  carnaval: { pt: 'R$ 55.000 (pacote especial)', en: 'R$ 55,000 (special package)' },
+  reveillon: { pt: 'R$ 190.000 (pacote especial)', en: 'R$ 190,000 (special package)' },
+  image: '/img/casamar/01.jpg',
+  gallery: ['/img/casamar/01.webp','/img/casamar/02.webp','/img/casamar/03.webp','/img/casamar/04.webp','/img/casamar/05.webp','/img/casamar/06.webp','/img/casamar/07.webp','/img/casamar/08.webp','/img/casamar/09.webp','/img/casamar/10.webp','/img/casamar/11.webp','/img/casamar/12.webp','/img/casamar/13.webp','/img/casamar/14.webp','/img/casamar/15.webp','/img/casamar/16.webp','/img/casamar/17.webp','/img/casamar/18.webp','/img/casamar/19.webp','/img/casamar/20.webp','/img/casamar/21.webp','/img/casamar/22.webp','/img/casamar/23.webp','/img/casamar/24.webp','/img/casamar/25.webp','/img/casamar/26.webp','/img/casamar/27.webp','/img/casamar/28.webp','/img/casamar/29.webp','/img/casamar/30.webp','/img/casamar/31.webp','/img/casamar/32.webp','/img/casamar/33.webp'], featured: false,
+  amenities: {
+    pt: ['Piscina privativa', 'Espaço gourmet', 'Churrasqueira', 'Adega de vinhos', 'Cervejeira', 'Cozinha equipada', 'Sala de estar', 'Sala de jantar', 'Sala de massagem', 'Lavabo', 'Ar-condicionado', 'Cofres nas suítes', 'Mosquiteiros', 'TV', 'Netflix', 'Internet Wi-Fi', 'Som ambiente', 'Conexão de som para iPod', 'Frigobar', 'Freezer', 'Espreguiçadeiras e ombrelone', 'Toalhas de piscina', 'Toalhas de praia', 'Roupas de cama, mesa e banho', 'Secador de cabelo', 'Lavanderia', 'Kids friendly', 'Estacionamento', 'Poço artesiano', 'Extintor'],
+    en: ['Private pool', 'Gourmet area', 'Barbecue', 'Wine cellar', 'Beer fridge', 'Equipped kitchen', 'Living room', 'Dining room', 'Massage room', 'Guest bathroom', 'Air conditioning', 'Safes in the suites', 'Mosquito nets', 'TV', 'Netflix', 'Wi-Fi internet', 'Ambient sound', 'iPod sound connection', 'Minibar', 'Freezer', 'Sun loungers and parasol', 'Pool towels', 'Beach towels', 'Bed, table and bath linen', 'Hair dryer', 'Laundry', 'Kids friendly', 'Parking', 'Artesian well', 'Fire extinguisher'],
+  },
+  staff: {
+    pt: ['1 arrumadeira', '1 auxiliar de cozinha', '1 cozinheira'],
+    en: ['1 housekeeper', '1 kitchen assistant', '1 cook'],
+  },
+  description: {
+    pt: 'A Casa Casamar, localizada no Condomínio Altos de Trancoso, é um projeto autoral cuidadosamente desenvolvido para oferecer uma experiência singular de hospedagem. Cada detalhe foi pensado de forma integrada, desde a concepção dos ambientes até o desenho dos revestimentos, portas, esquadrias, mobiliário e acessórios.\n\nO resultado é uma residência única, onde arquitetura, decoração e paisagismo dialogam com equilíbrio. Os espaços apresentam uma estética contemporânea, acolhedora e elegante, valorizando materiais naturais e a atmosfera inconfundível de Trancoso.\n\nOs banheiros se destacam pela amplitude e sofisticação, criando ambientes voltados ao bem-estar e à comodidade. Nas suítes, conforto e privacidade são prioridades: todas contam com TV, armários espaçosos, cortinas blackout e roupas de cama de alta qualidade, proporcionando noites tranquilas e restauradoras.',
+    en: 'Casa Casamar, located in the Altos de Trancoso Condominium, is an authorial project carefully developed to offer a singular lodging experience. Every detail was conceived in an integrated way, from the design of the spaces to the design of the finishes, doors, window frames, furniture and accessories.\n\nThe result is a unique residence, where architecture, decoration and landscaping dialogue in balance. The spaces present a contemporary, welcoming and elegant aesthetic, valuing natural materials and the unmistakable atmosphere of Trancoso.\n\nThe bathrooms stand out for their spaciousness and sophistication, creating environments dedicated to well-being and comfort. In the suites, comfort and privacy are priorities: all feature TV, spacious closets, blackout curtains and high-quality bed linen, providing quiet and restorative nights.',
+  },
+  notes: { pt: ['Capacidade para até 8 hóspedes.', 'Locação mínima: 3 noites.', 'Não é permitida a hospedagem de pets.', 'Projeto autoral: arquitetura e decoração Juliana Nicolay; paisagismo Gabriel Bitencourt.', 'Valores de Réveillon e Carnaval correspondem a pacotes especiais e podem estar sujeitos a período mínimo de hospedagem e condições específicas de reserva.', 'Tarifas e disponibilidade sujeitas a confirmação.'], en: ['Capacity for up to 8 guests.', 'Minimum stay: 3 nights.', 'Pets are not allowed.', 'Authorial project: architecture and decoration by Juliana Nicolay; landscaping by Gabriel Bitencourt.', 'New Year\'s and Carnival rates correspond to special packages and may be subject to minimum stay and specific booking conditions.', 'Rates and availability subject to confirmation.'] },
+  locationDetail: {
+    pt: 'Condomínio Altos de Trancoso, Trancoso – Bahia.',
+    en: 'Altos de Trancoso Condominium, Trancoso – Bahia.',
+  },
+};
+
 const MIA: Property = {
   id: 'casa-mia-altos-de-trancoso', code: 'TBA-297', name: { pt: 'Casa Mia', en: 'Casa Mia' },
   purpose: ['aluguel'], location: 'Altos de Trancoso', suites: 5, guests: 10, baths: 5, area: '—',
@@ -2015,7 +2043,7 @@ const MIA: Property = {
   },
 };
 
-PROPERTIES.unshift(GEIGER, COQUEIRAL01, MIA, COQUEIRAL25, MAION, DADINHO, IANDE, MAGIVI, OITI, COQUEIRAL13, COQUEIRAL7, NAOCA, CASA71, CAJU, SANMARCO, CASA14, CASA09, BOSSA, TUA, IMBIRUCU, CASA42, CASA61, VILAS02, CASA80, ITAPO07, CASA96, CASA90, VILAS75, LIMOEIRO, BIRIBA, VILAMAR, BETTONI, PINI, AUREA, SAOJORGE, CAZA, ITAPO06, ITAPO04, ALEGRIA, PONTA, PG11, PG111, PG104, MANDACARU, PONTARB, FALESIA, RAIZES, PONTABARRA, FASANO10, FASANO16, FASANO17, VILAS26, GOLF58, FLORESTA, VILAS41, VILAS67, BOUTIQUE13, ARACUA, JACARANDA03, TEIU, GOLF25, PG50, CASAEDO, BALEIA, PG55, GOLF72, PITANGA, AFRICA, TEMPO07, TEMPO08, TEMPO06, BOSQUE, PATIO, PG32, PG45, LICURI, DIVINA, TRESMENINAS, PEROBA, MORENA, MOA, BRAGA, CUMARU, JACARANDA05, TB14, MACONDO, RICK);
+PROPERTIES.unshift(CASAMAR, GEIGER, COQUEIRAL01, MIA, COQUEIRAL25, MAION, DADINHO, IANDE, MAGIVI, OITI, COQUEIRAL13, COQUEIRAL7, NAOCA, CASA71, CAJU, SANMARCO, CASA14, CASA09, BOSSA, TUA, IMBIRUCU, CASA42, CASA61, VILAS02, CASA80, ITAPO07, CASA96, CASA90, VILAS75, LIMOEIRO, BIRIBA, VILAMAR, BETTONI, PINI, AUREA, SAOJORGE, CAZA, ITAPO06, ITAPO04, ALEGRIA, PONTA, PG11, PG111, PG104, MANDACARU, PONTARB, FALESIA, RAIZES, PONTABARRA, FASANO10, FASANO16, FASANO17, VILAS26, GOLF58, FLORESTA, VILAS41, VILAS67, BOUTIQUE13, ARACUA, JACARANDA03, TEIU, GOLF25, PG50, CASAEDO, BALEIA, PG55, GOLF72, PITANGA, AFRICA, TEMPO07, TEMPO08, TEMPO06, BOSQUE, PATIO, PG32, PG45, LICURI, DIVINA, TRESMENINAS, PEROBA, MORENA, MOA, BRAGA, CUMARU, JACARANDA05, TB14, MACONDO, RICK);
 
 export const WHATSAPP = '5573999141382';
 

@@ -36,6 +36,46 @@ export const SUITE_PAR = /configura[cç][aã]o das su[ií]tes|suite layout|distr
 type SuiteGroup = { title: string; master?: string; suites?: [string, string][] };
 type HouseSuites = { groups: SuiteGroup[]; footer?: string };
 const SUITES_BY_ID: Record<string, Record<'pt' | 'en', HouseSuites>> = {
+  'casa-casamar-altos-de-trancoso': {
+  pt: {
+    groups: [
+      {
+        title: 'Casa principal',
+        suites: [
+          ['Suíte 01 – Master (piso superior)', '1 cama king size, ar-condicionado, secador de cabelo e TV.'],
+          ['Suíte 02 (piso térreo)', '2 camas de solteiro, que podem ser convertidas em 1 cama king size, ar-condicionado, secador de cabelo e TV.'],
+          ['Suíte 03 (piso térreo)', '2 camas de solteiro, que podem ser convertidas em 1 cama super king size, ar-condicionado, secador de cabelo, TV e varanda voltada para o jardim.'],
+        ],
+      },
+      {
+        title: 'Bangalô externo',
+        suites: [
+          ['Suíte 04', '2 camas de solteiro, que podem ser convertidas em 1 cama queen size, ar-condicionado, secador de cabelo, TV e jardim privativo.'],
+        ],
+      },
+    ],
+    footer: 'Capacidade para até 8 hóspedes.',
+  },
+  en: {
+    groups: [
+      {
+        title: 'Main house',
+        suites: [
+          ['Suite 01 – Master (upper floor)', '1 king-size bed, air conditioning, hair dryer and TV.'],
+          ['Suite 02 (ground floor)', '2 twin beds, convertible into 1 king-size bed, air conditioning, hair dryer and TV.'],
+          ['Suite 03 (ground floor)', '2 twin beds, convertible into 1 super king-size bed, air conditioning, hair dryer, TV and veranda facing the garden.'],
+        ],
+      },
+      {
+        title: 'External bungalow',
+        suites: [
+          ['Suite 04', '2 twin beds, convertible into 1 queen-size bed, air conditioning, hair dryer, TV and private garden.'],
+        ],
+      },
+    ],
+    footer: 'Capacity for up to 8 guests.',
+  },
+  },
   'vila-geiger-itapororoca': {
   pt: {
     groups: [
