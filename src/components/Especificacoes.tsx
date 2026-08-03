@@ -36,6 +36,36 @@ export const SUITE_PAR = /configura[cç][aã]o das su[ií]tes|suite layout|distr
 type SuiteGroup = { title: string; master?: string; suites?: [string, string][] };
 type HouseSuites = { groups: SuiteGroup[]; footer?: string };
 const SUITES_BY_ID: Record<string, Record<'pt' | 'en', HouseSuites>> = {
+  'casa-coqueiral-02': {
+    pt: {
+      groups: [
+        { title: '', suites: [
+          ['Suíte 01', '1 cama de casal'],
+          ['Suíte 02', '1 cama de casal'],
+          ['Suíte 03', '1 cama de casal'],
+          ['Suíte 04', '1 cama de casal'],
+          ['Suíte 05', '1 cama de casal'],
+          ['Suíte 06', '1 cama de casal'],
+          ['Suíte 07', '1 cama de casal'],
+        ] },
+      ],
+      footer: 'Capacidade para até 14 hóspedes.',
+    },
+    en: {
+      groups: [
+        { title: '', suites: [
+          ['Suite 01', '1 double bed'],
+          ['Suite 02', '1 double bed'],
+          ['Suite 03', '1 double bed'],
+          ['Suite 04', '1 double bed'],
+          ['Suite 05', '1 double bed'],
+          ['Suite 06', '1 double bed'],
+          ['Suite 07', '1 double bed'],
+        ] },
+      ],
+      footer: 'Capacity for up to 14 guests.',
+    },
+  },
   'casa-maria-rio-verde': {
   pt: {
     groups: [
