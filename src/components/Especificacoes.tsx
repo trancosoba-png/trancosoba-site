@@ -36,6 +36,64 @@ export const SUITE_PAR = /configura[cç][aã]o das su[ií]tes|suite layout|distr
 type SuiteGroup = { title: string; master?: string; suites?: [string, string][] };
 type HouseSuites = { groups: SuiteGroup[]; footer?: string };
 const SUITES_BY_ID: Record<string, Record<'pt' | 'en', HouseSuites>> = {
+  'casa-terral-rio-da-barra': {
+    pt: {
+      groups: [
+        { title: '', suites: [
+          ['Suíte Master', 'Climatizada · banheiro privativo'],
+          ['Suíte Jardim', 'Climatizada · banheiro privativo'],
+          ['Suíte 01', 'Climatizada · banheiro privativo'],
+          ['Suíte 02', 'Climatizada · banheiro privativo'],
+        ] },
+      ],
+      footer: 'Capacidade para até 8 hóspedes. Dois lavabos na área social.',
+    },
+    en: {
+      groups: [
+        { title: '', suites: [
+          ['Master Suite', 'Air-conditioned · private bathroom'],
+          ['Garden Suite', 'Air-conditioned · private bathroom'],
+          ['Suite 01', 'Air-conditioned · private bathroom'],
+          ['Suite 02', 'Air-conditioned · private bathroom'],
+        ] },
+      ],
+      footer: 'Capacity for up to 8 guests. Two guest bathrooms in the social area.',
+    },
+  },
+  'casa-01-aldeia-itapororoca': {
+    pt: {
+      groups: [
+        { title: 'Piso Superior', suites: [
+          ['Suíte Master', '2 camas box de casal'],
+          ['Suíte 02', '1 cama queen-size'],
+          ['Suíte 03', '2 camas de solteiro com bicamas'],
+          ['Suíte 04', '2 camas de solteiro'],
+        ] },
+        { title: 'Piso Térreo', suites: [
+          ['Suíte 05', '1 cama de casal'],
+          ['Suíte 06', '1 cama queen-size'],
+          ['Suíte 07', '2 camas de solteiro com bicamas · conjugada com a Suíte 06'],
+        ] },
+      ],
+      footer: 'Capacidade para até 16 hóspedes.',
+    },
+    en: {
+      groups: [
+        { title: 'Upper Floor', suites: [
+          ['Master Suite', '2 double box beds'],
+          ['Suite 02', '1 queen-size bed'],
+          ['Suite 03', '2 single beds with trundle beds'],
+          ['Suite 04', '2 single beds'],
+        ] },
+        { title: 'Ground Floor', suites: [
+          ['Suite 05', '1 double bed'],
+          ['Suite 06', '1 queen-size bed'],
+          ['Suite 07', '2 single beds with trundle beds · connected to Suite 06'],
+        ] },
+      ],
+      footer: 'Capacity for up to 16 guests.',
+    },
+  },
   'casa-atena-joao-vieira': {
     pt: {
       groups: [

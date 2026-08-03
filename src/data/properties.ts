@@ -2155,6 +2155,61 @@ const COQUEIRAL14: Property = {
   },
 };
 
+const TERRAL: Property = {
+  id: 'casa-terral-rio-da-barra', code: 'TBA-307', name: { pt: 'Casa Terral', en: 'Casa Terral' },
+  purpose: ['aluguel'], location: 'Rio da Barra', suites: 4, guests: 8, baths: 6, area: '500 m²',
+  price: { pt: 'R$ 7.000 / diária', en: 'R$ 7,000 / night' },
+  priceLow: { pt: 'R$ 6.000 / diária', en: 'R$ 6,000 / night' },
+  carnaval: { pt: 'R$ 60.000 (pacote de 5 diárias)', en: 'R$ 60,000 (5-night package)' },
+  reveillon: { pt: 'R$ 300.000', en: 'R$ 300,000' },
+  image: '/img/terral/01.jpg',
+  gallery: ['/img/terral/01.webp','/img/terral/02.webp','/img/terral/03.webp','/img/terral/04.webp','/img/terral/05.webp','/img/terral/06.webp','/img/terral/07.webp','/img/terral/08.webp','/img/terral/09.webp','/img/terral/10.webp','/img/terral/11.webp','/img/terral/12.webp','/img/terral/13.webp','/img/terral/14.webp','/img/terral/15.webp','/img/terral/16.webp','/img/terral/17.webp','/img/terral/18.webp','/img/terral/19.webp','/img/terral/20.webp','/img/terral/21.webp','/img/terral/22.webp','/img/terral/23.webp','/img/terral/24.webp','/img/terral/25.webp','/img/terral/26.webp','/img/terral/27.webp','/img/terral/28.webp','/img/terral/29.webp','/img/terral/30.webp','/img/terral/31.webp'], featured: false,
+  amenities: {
+    pt: ['4 suítes com ar-condicionado', '2 lavabos', 'Varanda gourmet', 'Sala de estar', 'Sala de jantar', 'Sala de TV', 'Cozinha equipada', 'Escritório', 'Deck', 'Piscina de 16 x 3,5 m', 'Churrasqueira', 'Fogueira', 'Estacionamento coberto', 'Lavanderia', 'Roupas de cama, mesa e banho', 'Caixa de som', 'Toalhas de piscina', 'Mosquiteiros', 'TV'],
+    en: ['4 air-conditioned suites', '2 guest bathrooms', 'Gourmet veranda', 'Living room', 'Dining room', 'TV room', 'Equipped kitchen', 'Office', 'Deck', '16 x 3.5 m pool', 'Barbecue', 'Fire pit', 'Covered parking', 'Laundry', 'Bed, table and bath linen', 'Speaker', 'Pool towels', 'Mosquito nets', 'TV'],
+  },
+  staff: {
+    pt: ['Cozinheira', 'Auxiliar de cozinha', 'Camareira', 'Serviços gerais', 'Vigia noturno', 'Piscineiro / Jardineiro'],
+    en: ['Cook', 'Kitchen assistant', 'Housekeeper', 'General services', 'Night watchman', 'Pool attendant / Gardener'],
+  },
+  description: {
+    pt: 'Localizada no Condomínio Fazenda Rio da Barra, a Casa Terral proporciona uma experiência única de hospedagem em meio à natureza, cercada pelo encontro entre o mar, o Rio da Barra e a Mata Atlântica. Inserida em uma fazenda com seringal, plantação de cacau e agricultura sintrópica, a propriedade convida os hóspedes a viverem dias de tranquilidade, privacidade e conexão com a paisagem natural de Trancoso.\n\nA casa ocupa aproximadamente 500 m² de área construída e foi projetada com madeira de demolição e materiais regionais, inspirando-se na arquitetura colonial com um toque rústico e elegante. Os ambientes amplos e acolhedores valorizam a integração entre os espaços internos e externos, aproveitando a vista para o vale e para o mar.\n\nSão 4 suítes climatizadas, todas com banheiro privativo, além de dois lavabos, salas de estar, jantar e TV, escritório, cozinha totalmente equipada, varanda gourmet e uma piscina de 16 x 3,5 metros. A localização privilegiada permite passeios de barco pelo Rio da Barra, acesso a trilhas ecológicas e diversas atividades ao ar livre. A propriedade ainda oferece serviço privativo de transporte até a Praia do Rio da Barra, com apoio de praia no Pedro Grande.',
+    en: 'Located in the Fazenda Rio da Barra Condominium, Casa Terral provides a unique lodging experience amid nature, surrounded by the meeting of the sea, the Rio da Barra and the Atlantic Forest. Set within a farm with rubber trees, cocoa plantations and syntropic agriculture, the property invites guests to enjoy days of tranquility, privacy and connection with Trancoso\'s natural landscape.\n\nThe house occupies approximately 500 m² of built area and was designed with reclaimed wood and regional materials, inspired by colonial architecture with a rustic and elegant touch. The spacious and welcoming environments value the integration between indoor and outdoor spaces, enjoying views of the valley and the sea.\n\nThere are 4 air-conditioned suites, all with private bathrooms, plus two guest bathrooms, living, dining and TV rooms, an office, a fully equipped kitchen, a gourmet veranda and a 16 x 3.5 meter pool. The privileged location allows boat trips along the Rio da Barra, access to ecological trails and various outdoor activities. The property also offers private transportation to Rio da Barra Beach, with beach support at Pedro Grande.',
+  },
+  notes: { pt: ['Capacidade para até 8 hóspedes.', 'Serviço privativo de transporte até a Praia do Rio da Barra, com apoio de praia no Pedro Grande.'], en: ['Capacity for up to 8 guests.', 'Private transportation service to Rio da Barra Beach, with beach support at Pedro Grande.'] },
+  locationDetail: {
+    pt: 'Condomínio Fazenda Rio da Barra, Trancoso – Bahia. Aproximadamente 5 minutos de carro da Praia do Rio da Barra e 15 minutos do Quadrado. Residência com vista para o mar e serviço privativo de transporte para a praia com apoio de praia no Pedro Grande.',
+    en: 'Fazenda Rio da Barra Condominium, Trancoso – Bahia. Approximately 5 minutes by car from Rio da Barra Beach and 15 minutes from the Quadrado. Residence with sea views and private transportation service to the beach with beach support at Pedro Grande.',
+  },
+  features: ['condominio', 'piscina', 'vista-mar'],
+};
+
+const ITAPO01: Property = {
+  id: 'casa-01-aldeia-itapororoca', code: 'TBA-308', name: { pt: 'Casa 01 — Aldeia Itapororoca', en: 'Casa 01 — Aldeia Itapororoca' },
+  purpose: ['aluguel'], location: 'Aldeia Itapororoca', suites: 7, guests: 16, baths: 8, area: '2.200 m²',
+  price: { pt: 'Sob consulta', en: 'Upon request' },
+  image: '/img/aldeia-01/01.jpg',
+  gallery: ['/img/aldeia-01/01.webp','/img/aldeia-01/02.webp','/img/aldeia-01/03.webp','/img/aldeia-01/04.webp','/img/aldeia-01/05.webp','/img/aldeia-01/06.webp','/img/aldeia-01/07.webp','/img/aldeia-01/08.webp','/img/aldeia-01/09.webp','/img/aldeia-01/10.webp','/img/aldeia-01/11.webp','/img/aldeia-01/12.webp','/img/aldeia-01/13.webp','/img/aldeia-01/14.webp','/img/aldeia-01/15.webp','/img/aldeia-01/16.webp','/img/aldeia-01/17.webp','/img/aldeia-01/18.webp','/img/aldeia-01/19.webp','/img/aldeia-01/20.webp','/img/aldeia-01/21.webp','/img/aldeia-01/22.webp','/img/aldeia-01/23.webp','/img/aldeia-01/24.webp','/img/aldeia-01/25.webp','/img/aldeia-01/26.webp','/img/aldeia-01/27.webp','/img/aldeia-01/28.webp','/img/aldeia-01/29.webp','/img/aldeia-01/30.webp','/img/aldeia-01/31.webp','/img/aldeia-01/32.webp','/img/aldeia-01/33.webp','/img/aldeia-01/34.webp'], featured: false,
+  amenities: {
+    pt: ['Pé na areia', 'Apoio de praia', 'Piscina privativa', 'Piscina do condomínio', 'Espaço gourmet', 'Churrasqueira', 'Cozinha equipada', 'Sala de estar', 'Sala de jantar', 'Mesa de sinuca', 'Ar-condicionado', 'Ventiladores de teto', 'Mosquiteiros', 'Internet Wi-Fi', 'TV a cabo', 'Gerador', 'Poço artesiano', 'Lavanderia', 'Freezer', 'Lavabo', 'Estacionamento', 'Carrinho de golfe', 'Espreguiçadeiras e ombrelone', 'Roupas de cama, mesa e banho', 'Toalhas de praia'],
+    en: ['Beachfront', 'Beach support', 'Private pool', 'Condominium pool', 'Gourmet area', 'Barbecue', 'Equipped kitchen', 'Living room', 'Dining room', 'Pool table', 'Air conditioning', 'Ceiling fans', 'Mosquito nets', 'Wi-Fi internet', 'Cable TV', 'Generator', 'Artesian well', 'Laundry', 'Freezer', 'Guest bathroom', 'Parking', 'Golf cart', 'Sun loungers and beach umbrella', 'Bed, table and bath linen', 'Beach towels'],
+  },
+  staff: {
+    pt: ['1 arrumadeira', '1 cozinheira', '1 auxiliar de cozinha', '1 jardineiro/piscineiro', 'Equipe disponível durante a hospedagem; condições de serviço, horários e eventuais custos devem ser confirmados no momento da reserva'],
+    en: ['1 housekeeper', '1 cook', '1 kitchen assistant', '1 gardener/pool attendant', 'Staff available during the stay; service conditions, hours and any costs must be confirmed at booking'],
+  },
+  description: {
+    pt: 'A Casa 01 da Aldeia de Itapororoca é um refúgio de charme e bom gosto, localizado em uma das praias mais bonitas de Trancoso. Inserida em um condomínio exclusivo e com acesso direto ao mar, a propriedade combina conforto, privacidade e uma atmosfera acolhedora para famílias e grupos de amigos.\n\nSeguindo o estilo arquitetônico típico da região, conhecido como rústico-chic, a casa valoriza o uso de madeira e vidro em uma composição leve e elegante. Os ambientes internos e externos se conectam de forma natural, permitindo que a paisagem tropical faça parte da experiência de hospedagem.\n\nO jardim exuberante, o azul da piscina e a decoração cuidadosamente escolhida criam um cenário convidativo para descansar e aproveitar os dias em Trancoso. A ampla área social oferece espaços para convivência, lazer e refeições, além de apoio de praia e estrutura completa para uma estadia confortável.\n\nCom sete suítes, incluindo uma suíte master com duas camas, a casa acomoda até 16 hóspedes. É uma excelente escolha para quem deseja estar pé na areia sem abrir mão da comodidade e da segurança de um condomínio fechado.',
+    en: 'Casa 01 at Aldeia de Itapororoca is a charming and tasteful retreat, located on one of the most beautiful beaches in Trancoso. Set in an exclusive condominium with direct access to the sea, the property combines comfort, privacy and a welcoming atmosphere for families and groups of friends.\n\nFollowing the typical architectural style of the region, known as rustic-chic, the house values the use of wood and glass in a light and elegant composition. Indoor and outdoor environments connect naturally, allowing the tropical landscape to be part of the lodging experience.\n\nThe lush garden, the blue of the pool and the carefully chosen decor create an inviting setting to relax and enjoy the days in Trancoso. The large social area offers spaces for gathering, leisure and meals, as well as beach support and complete infrastructure for a comfortable stay.\n\nWith seven suites, including a master suite with two beds, the house accommodates up to 16 guests. It is an excellent choice for those who want to be beachfront without giving up the comfort and security of a gated condominium.',
+  },
+  notes: { pt: ['Capacidade para até 16 hóspedes, distribuídos em 10 camas.', 'Não é permitida a hospedagem de pets.'], en: ['Capacity for up to 16 guests in 10 beds.', 'Pets are not allowed.'] },
+  locationDetail: {
+    pt: 'Condomínio Aldeia de Itapororoca, Trancoso — pé na areia, em uma das praias mais bonitas da região. Aproximadamente 15 minutos de carro do Quadrado, com a comodidade, a privacidade e a segurança de um condomínio fechado.',
+    en: 'Aldeia de Itapororoca Condominium, Trancoso — beachfront, on one of the most beautiful beaches in the region. Approximately 15 minutes by car from the Quadrado, with the convenience, privacy and security of a gated condominium.',
+  },
+  features: ['pe-na-areia', 'condominio', 'piscina'],
+};
+
 const ATENA: Property = {
   id: 'casa-atena-joao-vieira', code: 'TBA-306', name: { pt: 'Casa Atena', en: 'Casa Atena' },
   purpose: ['aluguel'], location: 'João Vieira', suites: 5, guests: 12, baths: 9, area: '580 m²',
@@ -2211,7 +2266,7 @@ const MIA: Property = {
   },
 };
 
-PROPERTIES.unshift(ATENA, JACARANDA04, COQUEIRAL14, COQUEIRAL02, CASAMARIA, ALMESCLA, CASAMAR, GEIGER, COQUEIRAL01, MIA, COQUEIRAL25, MAION, DADINHO, IANDE, MAGIVI, OITI, COQUEIRAL13, COQUEIRAL7, NAOCA, CASA71, CAJU, SANMARCO, CASA14, CASA09, BOSSA, TUA, IMBIRUCU, CASA42, CASA61, VILAS02, CASA80, ITAPO07, CASA96, CASA90, VILAS75, LIMOEIRO, BIRIBA, VILAMAR, BETTONI, PINI, AUREA, SAOJORGE, CAZA, ITAPO06, ITAPO04, ALEGRIA, PONTA, PG11, PG111, PG104, MANDACARU, PONTARB, FALESIA, RAIZES, PONTABARRA, FASANO10, FASANO16, FASANO17, VILAS26, GOLF58, FLORESTA, VILAS41, VILAS67, BOUTIQUE13, ARACUA, JACARANDA03, TEIU, GOLF25, PG50, CASAEDO, BALEIA, PG55, GOLF72, PITANGA, AFRICA, TEMPO07, TEMPO08, TEMPO06, BOSQUE, PATIO, PG32, PG45, LICURI, DIVINA, TRESMENINAS, PEROBA, MORENA, MOA, BRAGA, CUMARU, JACARANDA05, TB14, MACONDO, RICK);
+PROPERTIES.unshift(TERRAL, ITAPO01, ATENA, JACARANDA04, COQUEIRAL14, COQUEIRAL02, CASAMARIA, ALMESCLA, CASAMAR, GEIGER, COQUEIRAL01, MIA, COQUEIRAL25, MAION, DADINHO, IANDE, MAGIVI, OITI, COQUEIRAL13, COQUEIRAL7, NAOCA, CASA71, CAJU, SANMARCO, CASA14, CASA09, BOSSA, TUA, IMBIRUCU, CASA42, CASA61, VILAS02, CASA80, ITAPO07, CASA96, CASA90, VILAS75, LIMOEIRO, BIRIBA, VILAMAR, BETTONI, PINI, AUREA, SAOJORGE, CAZA, ITAPO06, ITAPO04, ALEGRIA, PONTA, PG11, PG111, PG104, MANDACARU, PONTARB, FALESIA, RAIZES, PONTABARRA, FASANO10, FASANO16, FASANO17, VILAS26, GOLF58, FLORESTA, VILAS41, VILAS67, BOUTIQUE13, ARACUA, JACARANDA03, TEIU, GOLF25, PG50, CASAEDO, BALEIA, PG55, GOLF72, PITANGA, AFRICA, TEMPO07, TEMPO08, TEMPO06, BOSQUE, PATIO, PG32, PG45, LICURI, DIVINA, TRESMENINAS, PEROBA, MORENA, MOA, BRAGA, CUMARU, JACARANDA05, TB14, MACONDO, RICK);
 
 export const WHATSAPP = '5573999141382';
 
