@@ -36,6 +36,32 @@ export const SUITE_PAR = /configura[cç][aã]o das su[ií]tes|suite layout|distr
 type SuiteGroup = { title: string; master?: string; suites?: [string, string][] };
 type HouseSuites = { groups: SuiteGroup[]; footer?: string };
 const SUITES_BY_ID: Record<string, Record<'pt' | 'en', HouseSuites>> = {
+  'casa-atena-joao-vieira': {
+    pt: {
+      groups: [
+        { title: '', suites: [
+          ['Suíte Master', '1 cama king size · vista panorâmica para o Vale de Trancoso'],
+          ['Suíte 02', '1 cama king size'],
+          ['Suíte 03', '1 cama king size'],
+          ['Suíte 04', '1 cama king size'],
+          ['Suíte 05', '1 cama king size'],
+        ] },
+      ],
+      footer: 'Capacidade para até 12 hóspedes. Quarto de apoio para staff com banheiro e 2 camas de solteiro.',
+    },
+    en: {
+      groups: [
+        { title: '', suites: [
+          ['Master Suite', '1 king size bed · panoramic view of the Trancoso Valley'],
+          ['Suite 02', '1 king size bed'],
+          ['Suite 03', '1 king size bed'],
+          ['Suite 04', '1 king size bed'],
+          ['Suite 05', '1 king size bed'],
+        ] },
+      ],
+      footer: 'Capacity for up to 12 guests. Staff support room with bathroom and 2 single beds.',
+    },
+  },
   'casa-04-jacaranda': {
     pt: {
       groups: [
