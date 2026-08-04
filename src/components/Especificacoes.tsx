@@ -36,6 +36,32 @@ export const SUITE_PAR = /configura[cç][aã]o das su[ií]tes|suite layout|distr
 type SuiteGroup = { title: string; master?: string; suites?: [string, string][] };
 type HouseSuites = { groups: SuiteGroup[]; footer?: string };
 const SUITES_BY_ID: Record<string, Record<'pt' | 'en', HouseSuites>> = {
+  'casa-v7-altos-de-trancoso': {
+    pt: {
+      groups: [
+        { title: 'Loft Bambu', suites: [
+          ['Suíte', 'Climatizada · closet · banheiro privativo · capacidade para 2 hóspedes'],
+        ] },
+        { title: 'Casa Madeira', suites: [
+          ['Quarto 01', 'Closet · banheiro compartilhado com jardim e deck'],
+          ['Quarto 02', 'Closet · banheiro compartilhado com jardim e deck'],
+        ] },
+      ],
+      footer: 'Capacidade máxima para 6 hóspedes. 2 banheiros e 1 lavabo.',
+    },
+    en: {
+      groups: [
+        { title: 'Bamboo Loft', suites: [
+          ['Suite', 'Air-conditioned · walk-in closet · private bathroom · capacity for 2 guests'],
+        ] },
+        { title: 'Wood House', suites: [
+          ['Bedroom 01', 'Walk-in closet · shared bathroom with garden and deck'],
+          ['Bedroom 02', 'Walk-in closet · shared bathroom with garden and deck'],
+        ] },
+      ],
+      footer: 'Maximum capacity of 6 guests. 2 bathrooms and 1 guest bathroom.',
+    },
+  },
   'casa-coqueiral-22': {
     pt: {
       groups: [

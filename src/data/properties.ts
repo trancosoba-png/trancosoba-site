@@ -2410,6 +2410,38 @@ const SANTARITA: Property = {
   features: ['pe-na-areia', 'piscina'],
 };
 
+const V7: Property = {
+  id: 'casa-v7-altos-de-trancoso', code: 'TBA-320', name: { pt: 'Casa V7', en: 'Casa V7' },
+  purpose: ['aluguel'], location: 'Altos de Trancoso', suites: 3, guests: 6, baths: 2, area: '168 m²',
+  price: { pt: 'R$ 3.100 / diária', en: 'R$ 3,100 / night' },
+  priceLow: { pt: 'R$ 2.500 / diária', en: 'R$ 2,500 / night' },
+  carnaval: { pt: 'R$ 25.000 (pacote sob confirmação)', en: 'R$ 25,000 (package upon confirmation)' },
+  reveillon: { pt: 'R$ 120.000 (pacote sob confirmação)', en: 'R$ 120,000 (package upon confirmation)' },
+  image: '/img/v7/01.jpg',
+  gallery: ['/img/v7/01.webp','/img/v7/02.webp','/img/v7/03.webp','/img/v7/04.webp','/img/v7/05.webp','/img/v7/06.webp','/img/v7/07.webp','/img/v7/08.webp','/img/v7/09.webp','/img/v7/10.webp','/img/v7/11.webp','/img/v7/12.webp','/img/v7/13.webp','/img/v7/14.webp','/img/v7/15.webp','/img/v7/16.webp','/img/v7/17.webp','/img/v7/18.webp','/img/v7/19.webp','/img/v7/20.webp','/img/v7/21.webp','/img/v7/22.webp','/img/v7/23.webp','/img/v7/24.webp','/img/v7/25.webp','/img/v7/26.webp','/img/v7/27.webp','/img/v7/28.webp'], featured: false,
+  amenities: {
+    pt: ['Duas estruturas independentes: Loft Bambu e Casa Madeira', 'Arquitetura de baixo impacto, com bambu, barro e madeira de demolição', 'Sistemas sustentáveis de captação de chuva, reaproveitamento de resíduos orgânicos e tratamento por evapotranspiração', 'Ofurô', 'Ducha externa', 'Varandas abertas para o jardim', 'Redário e espreguiçadeiras', 'Ar-condicionado', 'Wi-Fi', 'TV a cabo', 'Sistema de som surround', 'Cozinha equipada', 'Lavanderia', 'Lavabo', 'Apoio de praia no Almar Trancoso, sujeito a disponibilidade', 'Bicicletas sustentáveis, conforme disponibilidade', 'Condomínio fechado'],
+    en: ['Two independent structures: Bamboo Loft and Wood House', 'Low-impact architecture, with bamboo, clay and reclaimed wood', 'Sustainable systems for rainwater harvesting, organic waste reuse and evapotranspiration treatment', 'Ofuro tub', 'Outdoor shower', 'Verandas open to the garden', 'Hammock area and sun loungers', 'Air conditioning', 'Wi-Fi', 'Cable TV', 'Surround sound system', 'Equipped kitchen', 'Laundry', 'Guest bathroom', 'Beach support at Almar Trancoso, subject to availability', 'Sustainable bicycles, subject to availability', 'Gated condominium'],
+  },
+  staff: {
+    pt: ['1 cozinheira/arrumadeira', '1 profissional de serviços gerais'],
+    en: ['1 cook/housekeeper', '1 general services professional'],
+  },
+  description: {
+    pt: 'A Casa V7 apresenta uma proposta contemporânea de hospedagem em Trancoso, unindo arquitetura de baixo impacto, conforto e uma relação cuidadosa com o ambiente ao redor. Localizada no Condomínio Altos de Trancoso, a propriedade foi concebida para oferecer uma experiência leve, silenciosa e conectada à natureza.\n\nO projeto utiliza materiais como bambu, barro e madeira de demolição, combinados a soluções que valorizam a ventilação natural, o aproveitamento da luz solar e o uso consciente da água. A casa incorpora sistemas sustentáveis de captação de chuva, reaproveitamento de resíduos orgânicos e tratamento por evapotranspiração, reduzindo impactos sem abrir mão do bem-estar.\n\nDistribuída em duas estruturas independentes, a propriedade permite acomodar diferentes perfis de hóspedes com privacidade. O Loft Bambu recebe um casal em uma suíte completa, enquanto a Casa Madeira oferece dois quartos e capacidade para mais quatro pessoas.\n\nOs ambientes foram planejados para uma rotina tranquila, com varandas abertas para o jardim, redário, ofurô, ducha externa e áreas de convivência integradas. A experiência é complementada por serviços de apoio, café da manhã com produtos artesanais e acesso à estrutura de praia parceira, conforme disponibilidade e condições da reserva.',
+    en: 'Casa V7 presents a contemporary lodging proposal in Trancoso, combining low-impact architecture, comfort and a careful relationship with the surrounding environment. Located in the Altos de Trancoso Condominium, the property was designed to offer a light, quiet experience connected to nature.\n\nThe project uses materials such as bamboo, clay and reclaimed wood, combined with solutions that value natural ventilation, sunlight use and conscious water use. The house incorporates sustainable systems for rainwater harvesting, organic waste reuse and evapotranspiration treatment, reducing impacts without giving up well-being.\n\nDistributed in two independent structures, the property allows accommodating different guest profiles with privacy. The Bamboo Loft welcomes a couple in a complete suite, while the Wood House offers two bedrooms and capacity for four more people.\n\nThe environments were planned for a calm routine, with verandas open to the garden, hammock area, ofuro tub, outdoor shower and integrated social areas. The experience is complemented by support services, breakfast with artisanal products and access to a partner beach structure, according to availability and reservation conditions.',
+  },
+  notes: {
+    pt: ['Capacidade máxima de 6 hóspedes.', 'Tarifas específicas para feriados e para o Loft Bambu individual, sob consulta.', 'O café da manhã com produtos artesanais, a limpeza, o apoio de cozinha, o cuidado do jardim, as colheitas da horta e o ofurô fitoterápico podem estar incluídos conforme a modalidade contratada.'],
+    en: ['Maximum capacity of 6 guests.', 'Specific rates for holidays and for the individual Bamboo Loft, upon request.', 'Breakfast with artisanal products, cleaning, kitchen support, garden care, vegetable garden harvests and the phytotherapeutic ofuro may be included according to the contracted modality.'],
+  },
+  locationDetail: {
+    pt: 'Condomínio Altos de Trancoso, Trancoso – Bahia. Lote 07, Quadra 07. Região cercada pela Mata Atlântica e próxima ao litoral, com segurança, privacidade e fácil acesso aos principais pontos de Trancoso',
+    en: 'Altos de Trancoso Condominium, Trancoso – Bahia. Lot 07, Block 07. Region surrounded by the Atlantic Forest and close to the coast, with security, privacy and easy access to the main spots of Trancoso',
+  },
+  features: ['condominio'],
+};
+
 const MARTINI: Property = {
   id: 'villa-martini-itapororoca', code: 'TBA-319', name: { pt: 'Villa Martini', en: 'Villa Martini' },
   purpose: ['aluguel', 'venda'], location: 'Itapororoca', suites: 7, guests: 14, baths: 7, area: '700 m²',
@@ -2611,7 +2643,7 @@ const MIA: Property = {
   },
 };
 
-PROPERTIES.unshift(MARTINI, SANTARITA, PATIMIRIM, DAJU, BUENO, BONITA, AREIA, COQUEIRAL22, SUBLIME, ESTRELA, VISTANATIVOS, TERRAL, ITAPO01, ATENA, JACARANDA04, COQUEIRAL14, COQUEIRAL02, CASAMARIA, ALMESCLA, CASAMAR, GEIGER, COQUEIRAL01, MIA, COQUEIRAL25, MAION, DADINHO, IANDE, MAGIVI, OITI, COQUEIRAL13, COQUEIRAL7, NAOCA, CASA71, CAJU, SANMARCO, CASA14, CASA09, BOSSA, TUA, IMBIRUCU, CASA42, CASA61, VILAS02, CASA80, ITAPO07, CASA96, CASA90, VILAS75, LIMOEIRO, BIRIBA, VILAMAR, BETTONI, PINI, AUREA, SAOJORGE, CAZA, ITAPO06, ITAPO04, ALEGRIA, PONTA, PG11, PG111, PG104, MANDACARU, PONTARB, FALESIA, RAIZES, PONTABARRA, FASANO10, FASANO16, FASANO17, VILAS26, GOLF58, FLORESTA, VILAS41, VILAS67, BOUTIQUE13, ARACUA, JACARANDA03, TEIU, GOLF25, PG50, CASAEDO, BALEIA, PG55, GOLF72, PITANGA, AFRICA, TEMPO07, TEMPO08, TEMPO06, BOSQUE, PATIO, PG32, PG45, LICURI, DIVINA, TRESMENINAS, PEROBA, MORENA, MOA, BRAGA, CUMARU, JACARANDA05, TB14, MACONDO, RICK);
+PROPERTIES.unshift(V7, MARTINI, SANTARITA, PATIMIRIM, DAJU, BUENO, BONITA, AREIA, COQUEIRAL22, SUBLIME, ESTRELA, VISTANATIVOS, TERRAL, ITAPO01, ATENA, JACARANDA04, COQUEIRAL14, COQUEIRAL02, CASAMARIA, ALMESCLA, CASAMAR, GEIGER, COQUEIRAL01, MIA, COQUEIRAL25, MAION, DADINHO, IANDE, MAGIVI, OITI, COQUEIRAL13, COQUEIRAL7, NAOCA, CASA71, CAJU, SANMARCO, CASA14, CASA09, BOSSA, TUA, IMBIRUCU, CASA42, CASA61, VILAS02, CASA80, ITAPO07, CASA96, CASA90, VILAS75, LIMOEIRO, BIRIBA, VILAMAR, BETTONI, PINI, AUREA, SAOJORGE, CAZA, ITAPO06, ITAPO04, ALEGRIA, PONTA, PG11, PG111, PG104, MANDACARU, PONTARB, FALESIA, RAIZES, PONTABARRA, FASANO10, FASANO16, FASANO17, VILAS26, GOLF58, FLORESTA, VILAS41, VILAS67, BOUTIQUE13, ARACUA, JACARANDA03, TEIU, GOLF25, PG50, CASAEDO, BALEIA, PG55, GOLF72, PITANGA, AFRICA, TEMPO07, TEMPO08, TEMPO06, BOSQUE, PATIO, PG32, PG45, LICURI, DIVINA, TRESMENINAS, PEROBA, MORENA, MOA, BRAGA, CUMARU, JACARANDA05, TB14, MACONDO, RICK);
 
 export const WHATSAPP = '5573999141382';
 
