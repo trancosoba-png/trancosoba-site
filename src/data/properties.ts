@@ -2184,6 +2184,264 @@ const ESTRELA: Property = {
   features: ['piscina', 'vista-mar'],
 };
 
+const COQUEIRAL22: Property = {
+  id: 'casa-coqueiral-22', code: 'TBA-312', name: { pt: 'Casa Coqueiral 22', en: 'Casa Coqueiral 22' },
+  purpose: ['aluguel'], location: 'Condomínio Coqueiral', suites: 4, guests: 12, baths: 5, area: '300 m²',
+  price: { pt: 'R$ 3.500 / diária', en: 'R$ 3,500 / night' },
+  priceLow: { pt: 'R$ 2.000 / diária', en: 'R$ 2,000 / night' },
+  carnaval: { pt: 'Sob consulta', en: 'Upon request' },
+  reveillon: { pt: 'R$ 150.000 (pacote sob consulta)', en: 'R$ 150,000 (package upon request)' },
+  image: '/img/coqueiral22/01.jpg',
+  gallery: ['/img/coqueiral22/01.webp','/img/coqueiral22/02.webp','/img/coqueiral22/03.webp','/img/coqueiral22/04.webp','/img/coqueiral22/05.webp','/img/coqueiral22/06.webp','/img/coqueiral22/07.webp','/img/coqueiral22/08.webp','/img/coqueiral22/09.webp','/img/coqueiral22/10.webp','/img/coqueiral22/11.webp','/img/coqueiral22/12.webp','/img/coqueiral22/13.webp','/img/coqueiral22/14.webp','/img/coqueiral22/15.webp','/img/coqueiral22/16.webp','/img/coqueiral22/17.webp','/img/coqueiral22/18.webp'], featured: false,
+  amenities: {
+    pt: ['Sala de estar climatizada com sofás e poltronas', 'Sala de jantar com mesa para 12 pessoas', 'Sala de TV com sofá retrátil, TV de 65 polegadas, Netflix e SKY', 'Cozinha gourmet completa com ilha, cooktop, cristaleira e eletrodomésticos', 'Piscina privativa de aproximadamente 150 m² com lounge interno', 'Espaço gourmet com churrasqueira', 'Jardim tropical e varandas', 'Wi-Fi de alta velocidade com 4 roteadores', 'Hidromassagem', 'Lavabo, lavanderia, despensa e rouparia', 'Garagem coberta para 2 veículos', 'Segurança 24 horas'],
+    en: ['Air-conditioned living room with sofas and armchairs', 'Dining room with table for 12 people', 'TV room with retractable sofa, 65-inch TV, Netflix and SKY', 'Gourmet kitchen with island, cooktop, glassware cabinet and appliances', 'Private pool of approximately 150 m² with internal lounge', 'Gourmet area with barbecue', 'Tropical garden and verandas', 'High-speed Wi-Fi with 4 routers', 'Hot tub', 'Guest bathroom, laundry, pantry and linen room', 'Covered garage for 2 vehicles', '24-hour security'],
+  },
+  staff: {
+    pt: ['2 camareiras, com serviço diário das 8h às 16h'],
+    en: ['2 housekeepers, with daily service from 8 am to 4 pm'],
+  },
+  description: {
+    pt: 'Localizada no Condomínio Coqueiral, em Trancoso, a Casa Coqueiral 22 combina arquitetura contemporânea, conforto e integração com a natureza em uma residência projetada para receber famílias e grupos de amigos com privacidade.\n\nAssinada pelo arquiteto Sallum, a casa apresenta ambientes amplos, muita iluminação natural e uma decoração clean, marcada por materiais elegantes e espaços conectados de forma harmoniosa ao jardim tropical.\n\nAs quatro suítes foram planejadas para oferecer conforto em todos os detalhes. A configuração acomoda até 12 hóspedes e reúne camas King Size, camas adicionais de solteiro, climatização, varandas e banheiros espaçosos.\n\nO grande destaque da propriedade é a piscina privativa de aproximadamente 150 m², com lounge interno e integração direta ao espaço gourmet. Ao redor, o jardim tropical, a churrasqueira e os ambientes de convivência criam um cenário ideal para dias de descanso e lazer.\n\nA área social reúne sala de estar climatizada, sala de jantar para 12 pessoas, sala de TV e cozinha gourmet totalmente equipada. A residência conta ainda com lavabo, lavanderia, despensa, rouparia e garagem coberta para dois veículos.',
+    en: 'Located in Condomínio Coqueiral, in Trancoso, Casa Coqueiral 22 combines contemporary architecture, comfort and integration with nature in a residence designed to welcome families and groups of friends with privacy.\n\nDesigned by architect Sallum, the house features spacious rooms, abundant natural light and a clean decoration, marked by elegant materials and spaces harmoniously connected to the tropical garden.\n\nThe four suites were planned to offer comfort in every detail. The layout accommodates up to 12 guests and includes King Size beds, additional single beds, air conditioning, verandas and spacious bathrooms.\n\nThe highlight of the property is the private pool of approximately 150 m², with an internal lounge and direct integration with the gourmet area. Around it, the tropical garden, the barbecue and the social areas create an ideal setting for days of rest and leisure.\n\nThe social area includes an air-conditioned living room, a dining room for 12 people, a TV room and a fully equipped gourmet kitchen. The residence also has a guest bathroom, laundry, pantry, linen room and a covered garage for two vehicles.',
+  },
+  notes: {
+    pt: ['Capacidade para até 12 hóspedes em 4 suítes climatizadas.', 'Serviços, horários e condições do staff estão sujeitos à confirmação no momento da reserva.'],
+    en: ['Capacity for up to 12 guests in 4 air-conditioned suites.', 'Staff services, schedules and conditions are subject to confirmation at the time of booking.'],
+  },
+  locationDetail: {
+    pt: 'Condomínio Coqueiral, Trancoso – Bahia. Aproximadamente 2,3 km do Quadrado Histórico e 2,6 km da Praia dos Nativos, com acesso fácil às praias, restaurantes, lojas e principais atrações de Trancoso',
+    en: 'Condomínio Coqueiral, Trancoso – Bahia. Approximately 2.3 km from the Historic Quadrado and 2.6 km from Praia dos Nativos, with easy access to beaches, restaurants, shops and the main attractions of Trancoso',
+  },
+  features: ['piscina'],
+};
+
+const AREIA: Property = {
+  id: 'casa-areia-altos-de-trancoso', code: 'TBA-313', name: { pt: 'Casa Areia', en: 'Casa Areia' },
+  purpose: ['aluguel'], location: 'Altos de Trancoso', suites: 5, guests: 10, baths: 5, area: '—',
+  price: { pt: 'R$ 20.000 / diária', en: 'R$ 20,000 / night' },
+  priceLow: { pt: 'R$ 15.000 / diária', en: 'R$ 15,000 / night' },
+  carnaval: { pt: 'R$ 125.000 (pacote de 5 dias)', en: 'R$ 125,000 (5-day package)' },
+  reveillon: { pt: 'R$ 500.000 (pacote de 10 dias)', en: 'R$ 500,000 (10-day package)' },
+  image: '/img/areia/01.jpg',
+  gallery: ['/img/areia/01.webp','/img/areia/02.webp','/img/areia/03.webp','/img/areia/04.webp','/img/areia/05.webp','/img/areia/06.webp','/img/areia/07.webp','/img/areia/08.webp','/img/areia/09.webp','/img/areia/10.webp','/img/areia/11.webp','/img/areia/12.webp','/img/areia/13.webp','/img/areia/14.webp','/img/areia/15.webp','/img/areia/16.webp','/img/areia/17.webp','/img/areia/18.webp','/img/areia/19.webp','/img/areia/20.webp','/img/areia/21.webp','/img/areia/22.webp','/img/areia/23.webp','/img/areia/24.webp','/img/areia/25.webp','/img/areia/26.webp','/img/areia/27.webp','/img/areia/28.webp','/img/areia/29.webp'], featured: false,
+  amenities: {
+    pt: ['Piscina privativa integrada ao jardim florido', 'Espaço para refeições na falésia, com vista para o mar', 'Área gourmet', 'Dois blocos independentes: área social e bloco de suítes', 'Pé-direito de aproximadamente 5 metros na área social', 'Mobiliário assinado por designers brasileiros', 'Máquina de gelo', 'Poço artesiano', 'Espreguiçadeiras e ombrelones', 'TV a cabo', 'Ar-condicionado nas suítes', 'Wi-Fi', 'Closets', 'Gerador'],
+    en: ['Private pool integrated into the flowered garden', 'Dining space on the cliff, with sea views', 'Gourmet area', 'Two independent blocks: social area and suites block', 'Ceiling height of approximately 5 meters in the social area', 'Furniture signed by Brazilian designers', 'Ice machine', 'Artesian well', 'Sun loungers and umbrellas', 'Cable TV', 'Air conditioning in the suites', 'Wi-Fi', 'Walk-in closets', 'Generator'],
+  },
+  staff: {
+    pt: ['Caseiro', 'Camareira', 'Cozinheira', 'Ajudante de camareira', 'Ajudante de cozinha', 'Jardineiro'],
+    en: ['Caretaker', 'Housekeeper', 'Cook', 'Housekeeping assistant', 'Kitchen assistant', 'Gardener'],
+  },
+  description: {
+    pt: 'Localizada no exclusivo Condomínio Altos de Trancoso, no alto da falésia, a Casa Areia desfruta de uma vista privilegiada para o mar e, do outro lado do terreno, de uma ampla e preservada área verde.\n\nA propriedade é resultado de um projeto arquitetônico sofisticado, marcado pela simplicidade de suas formas, pela integração com a natureza e pelo aproveitamento excepcional de sua localização. Sua arquitetura combina elementos rústicos e contemporâneos, criando ambientes elegantes, acolhedores e perfeitamente conectados à paisagem de Trancoso.\n\nReconhecida por seu projeto singular, a Casa Areia já foi destaque em diferentes publicações especializadas em arquitetura e decoração. Suas amplas aberturas favorecem a entrada de luz natural, a ventilação constante e a agradável brisa do mar, permitindo que a paisagem e os sons da natureza façam parte da experiência dentro da casa.\n\nA residência está distribuída em dois blocos independentes. O primeiro, com pé-direito de aproximadamente cinco metros, concentra a área social, composta por hall de entrada, sala de jantar, living e cozinha. O segundo bloco abriga as cinco suítes, voltadas para a área verde e cercadas pela tranquilidade do jardim.\n\nTodos os ambientes foram cuidadosamente planejados, com mobiliário assinado por diferentes designers brasileiros e uma decoração que valoriza materiais naturais, peças de design e a identidade arquitetônica de Trancoso.\n\nNa área externa, uma magnífica piscina se integra ao jardim florido e aos espaços de descanso. A casa conta ainda com área gourmet e um ambiente especial para refeições na falésia, acompanhado por uma ampla e inesquecível vista para o mar.',
+    en: 'Located in the exclusive Altos de Trancoso condominium, on top of the cliff, Casa Areia enjoys a privileged view of the sea and, on the other side of the plot, of a wide and preserved green area.\n\nThe property is the result of a sophisticated architectural project, marked by the simplicity of its forms, by the integration with nature and by the exceptional use of its location. Its architecture combines rustic and contemporary elements, creating elegant, welcoming environments perfectly connected to the landscape of Trancoso.\n\nRecognized for its singular design, Casa Areia has been featured in several publications specialized in architecture and decoration. Its wide openings favor the entry of natural light, constant ventilation and the pleasant sea breeze, allowing the landscape and the sounds of nature to be part of the experience inside the house.\n\nThe residence is distributed in two independent blocks. The first, with a ceiling height of approximately five meters, concentrates the social area, composed of entrance hall, dining room, living room and kitchen. The second block houses the five suites, facing the green area and surrounded by the tranquility of the garden.\n\nAll environments were carefully planned, with furniture signed by different Brazilian designers and a decoration that values natural materials, design pieces and the architectural identity of Trancoso.\n\nOutside, a magnificent pool integrates with the flowered garden and rest areas. The house also has a gourmet area and a special space for meals on the cliff, accompanied by a wide and unforgettable view of the sea.',
+  },
+  notes: {
+    pt: ['Capacidade para até 10 hóspedes em 5 suítes climatizadas.', 'As camas de solteiro podem ser configuradas como cama King Size por meio de cover bed, mediante solicitação prévia.'],
+    en: ['Capacity for up to 10 guests in 5 air-conditioned suites.', 'Single beds can be configured as a King Size bed using a cover bed, upon prior request.'],
+  },
+  locationDetail: {
+    pt: 'Condomínio Altos de Trancoso, Trancoso – Bahia. No alto da falésia, com vista para o mar e para uma extensa área verde',
+    en: 'Altos de Trancoso Condominium, Trancoso – Bahia. On top of the cliff, overlooking the sea and an extensive green area',
+  },
+  features: ['piscina', 'vista-mar'],
+};
+
+const BONITA: Property = {
+  id: 'casa-bonita-altos-de-itapororoca', code: 'TBA-314', name: { pt: 'Casa Bonita', en: 'Casa Bonita' },
+  purpose: ['aluguel'], location: 'Altos de Itapororoca', suites: 6, guests: 12, baths: 6, area: '600 m²',
+  price: { pt: 'Sob consulta', en: 'Upon request' },
+  carnaval: { pt: 'Sob consulta', en: 'Upon request' },
+  reveillon: { pt: 'Sob consulta', en: 'Upon request' },
+  image: '/img/bonita/01.jpg',
+  gallery: ['/img/bonita/01.webp','/img/bonita/02.webp','/img/bonita/03.webp','/img/bonita/04.webp','/img/bonita/05.webp','/img/bonita/06.webp','/img/bonita/07.webp','/img/bonita/08.webp','/img/bonita/09.webp','/img/bonita/10.webp','/img/bonita/11.webp','/img/bonita/12.webp','/img/bonita/13.webp','/img/bonita/14.webp','/img/bonita/15.webp','/img/bonita/16.webp','/img/bonita/17.webp','/img/bonita/18.webp','/img/bonita/19.webp','/img/bonita/20.webp','/img/bonita/21.webp','/img/bonita/22.webp','/img/bonita/23.webp'], featured: false,
+  amenities: {
+    pt: ['6 suítes climatizadas com banheiro privativo', 'Piscina com duas raias de 18 metros', 'Vista exuberante para o mar e total privacidade', 'Amplo jardim', 'Escritório com biblioteca', 'Ampla varanda', 'Duas cozinhas equipadas', 'Sala de estar, sala de jantar e sala de TV', 'Churrasqueira, mesas de apoio e frigobar na área externa', 'Wi-Fi', 'TV a cabo', 'Roupas de cama, mesa e banho', 'Som para MP3', 'Estacionamento'],
+    en: ['6 air-conditioned suites with private bathroom', 'Pool with two 18-meter lanes', 'Lush sea view and total privacy', 'Large garden', 'Office with library', 'Wide veranda', 'Two equipped kitchens', 'Living room, dining room and TV room', 'Barbecue, side tables and minibar in the outdoor area', 'Wi-Fi', 'Cable TV', 'Bed, table and bath linens', 'MP3 sound system', 'Parking'],
+  },
+  staff: {
+    pt: ['Cozinheira', 'Arrumadeira', 'Piscineiro / Jardineiro', 'Concierge', 'Portaria 24 horas'],
+    en: ['Cook', 'Housekeeper', 'Pool attendant / Gardener', 'Concierge', '24-hour gatehouse'],
+  },
+  description: {
+    pt: 'Localizada no Condomínio Altos de Itapororoca, a Casa Bonita é um refúgio cercado pela natureza, com uma vista exuberante para o mar e total privacidade. Com cerca de 600 m² de área construída e um amplo jardim, a residência oferece uma atmosfera tranquila, perfeita para quem deseja relaxar em um dos cenários mais exclusivos de Trancoso.\n\nA casa dispõe de 6 suítes climatizadas, todas com banheiro privativo, escritório com biblioteca, ampla varanda, duas cozinhas equipadas e uma impressionante piscina com duas raias de 18 metros. A área externa também conta com churrasqueira, mesas de apoio e frigobar, proporcionando momentos inesquecíveis para famílias e grupos de amigos.',
+    en: 'Located in the Altos de Itapororoca Condominium, Casa Bonita is a refuge surrounded by nature, with a lush sea view and total privacy. With about 600 m² of built area and a large garden, the residence offers a tranquil atmosphere, perfect for those who wish to relax in one of the most exclusive settings in Trancoso.\n\nThe house has 6 air-conditioned suites, all with private bathrooms, an office with library, a wide veranda, two equipped kitchens and an impressive pool with two 18-meter lanes. The outdoor area also has a barbecue, side tables and a minibar, providing unforgettable moments for families and groups of friends.',
+  },
+  notes: {
+    pt: ['Casa com vista para o mar no Condomínio Altos de Itapororoca.', 'Tarifas sob consulta para todos os períodos.'],
+    en: ['House with sea view in the Altos de Itapororoca Condominium.', 'Rates upon request for all periods.'],
+  },
+  locationDetail: {
+    pt: 'Condomínio Altos de Itapororoca, Trancoso – Bahia. Casa com vista para o mar',
+    en: 'Altos de Itapororoca Condominium, Trancoso – Bahia. House with sea view',
+  },
+  features: ['piscina', 'vista-mar'],
+};
+
+const BUENO: Property = {
+  id: 'casa-bueno-altos-de-itapororoca', code: 'TBA-315', name: { pt: 'Casa Bueno', en: 'Casa Bueno' },
+  purpose: ['aluguel'], location: 'Altos de Itapororoca', suites: 5, guests: 10, baths: 5, area: '5.500 m²',
+  price: { pt: 'R$ 9.500 / diária', en: 'R$ 9,500 / night' },
+  priceLow: { pt: 'R$ 7.500 / diária', en: 'R$ 7,500 / night' },
+  carnaval: { pt: 'R$ 60.000 (pacote de 5 diárias) — disponível para 2027', en: 'R$ 60,000 (5-night package) — available for 2027' },
+  reveillon: { pt: 'R$ 280.000 (pacote de 10 diárias) — indisponível', en: 'R$ 280,000 (10-night package) — unavailable' },
+  seasonHigh: { pt: 'Janeiro, fevereiro, março, dezembro e feriados', en: 'January, February, March, December and holidays' },
+  seasonLow: { pt: 'Abril a novembro', en: 'April to November' },
+  image: '/img/bueno/01.jpg',
+  gallery: ['/img/bueno/01.webp','/img/bueno/02.webp','/img/bueno/03.webp','/img/bueno/04.webp','/img/bueno/05.webp','/img/bueno/06.webp','/img/bueno/07.webp','/img/bueno/08.webp','/img/bueno/09.webp','/img/bueno/10.webp','/img/bueno/11.webp','/img/bueno/12.webp','/img/bueno/13.webp','/img/bueno/14.webp','/img/bueno/15.webp','/img/bueno/16.webp','/img/bueno/17.webp','/img/bueno/18.webp','/img/bueno/19.webp','/img/bueno/20.webp'], featured: false,
+  amenities: {
+    pt: ['5 suítes climatizadas', 'Vista encantadora para o mar', 'Ampla área externa com piscina', 'Sala de estar', 'Varanda', 'Cozinha equipada', 'Wi-Fi', 'TV a cabo', 'Roupas de cama, mesa e banho', 'Estacionamento'],
+    en: ['5 air-conditioned suites', 'Lovely sea view', 'Large outdoor area with pool', 'Living room', 'Veranda', 'Equipped kitchen', 'Wi-Fi', 'Cable TV', 'Bed, table and bath linens', 'Parking'],
+  },
+  staff: {
+    pt: ['Cozinheira', 'Camareira', 'Piscineiro / Jardineiro'],
+    en: ['Cook', 'Housekeeper', 'Pool attendant / Gardener'],
+  },
+  description: {
+    pt: 'Cercada pela tropicalidade de Trancoso e com uma vista encantadora para o mar, a Casa Bueno combina aconchego, charme e uma conexão especial com a natureza. Localizada nos Altos de Itapororoca, a residência oferece uma atmosfera tranquila e acolhedora, ideal para famílias e grupos que desejam aproveitar dias de descanso com conforto e privacidade.\n\nA propriedade conta com cinco suítes climatizadas, ambientes sociais convidativos e uma ampla área externa, perfeita para manhãs de sol, tardes relaxantes à beira da piscina e jantares especiais. A decoração valoriza a essência do vilarejo, reunindo elementos naturais e detalhes que traduzem o estilo característico de Trancoso.\n\nCom aproximadamente 5.500 m² de área total e a praia a cerca de oito minutos de caminhada, a Casa Bueno proporciona uma experiência marcada pela tranquilidade, pela beleza da paisagem e pela proximidade com o mar.',
+    en: 'Surrounded by the tropical atmosphere of Trancoso and with a lovely sea view, Casa Bueno combines coziness, charm and a special connection with nature. Located in Altos de Itapororoca, the residence offers a tranquil and welcoming atmosphere, ideal for families and groups who want to enjoy days of rest with comfort and privacy.\n\nThe property has five air-conditioned suites, inviting social areas and a large outdoor area, perfect for sunny mornings, relaxing afternoons by the pool and special dinners. The decoration values the essence of the village, bringing together natural elements and details that translate the characteristic style of Trancoso.\n\nWith approximately 5,500 m² of total area and the beach about an eight-minute walk away, Casa Bueno provides an experience marked by tranquility, the beauty of the landscape and the proximity to the sea.',
+  },
+  notes: {
+    pt: ['Aproximadamente 8 minutos a pé da praia.'],
+    en: ['Approximately 8 minutes walk from the beach.'],
+  },
+  locationDetail: {
+    pt: 'Altos de Itapororoca, Trancoso – Bahia. Vista para o mar, a aproximadamente oito minutos de caminhada da praia',
+    en: 'Altos de Itapororoca, Trancoso – Bahia. Sea view, approximately eight minutes walk from the beach',
+  },
+  features: ['piscina', 'vista-mar'],
+};
+
+const DAJU: Property = {
+  id: 'casa-da-ju-itapororoca', code: 'TBA-316', name: { pt: 'Casa da Ju', en: 'Casa da Ju' },
+  purpose: ['aluguel'], location: 'Itapororoca', suites: 4, guests: 8, baths: 4, area: '6.000 m²',
+  price: { pt: 'Sob consulta', en: 'Upon request' },
+  carnaval: { pt: 'Sob consulta', en: 'Upon request' },
+  reveillon: { pt: 'Sob consulta', en: 'Upon request' },
+  image: '/img/daju/01.jpg',
+  gallery: ['/img/daju/01.webp','/img/daju/02.webp','/img/daju/03.webp','/img/daju/04.webp','/img/daju/05.webp','/img/daju/06.webp','/img/daju/07.webp','/img/daju/08.webp','/img/daju/09.webp','/img/daju/10.webp','/img/daju/11.webp','/img/daju/12.webp','/img/daju/13.webp','/img/daju/14.webp','/img/daju/15.webp','/img/daju/16.webp','/img/daju/17.webp','/img/daju/18.webp','/img/daju/19.webp','/img/daju/20.webp','/img/daju/21.webp','/img/daju/22.webp','/img/daju/23.webp','/img/daju/24.webp','/img/daju/25.webp','/img/daju/26.webp','/img/daju/27.webp'], featured: false,
+  amenities: {
+    pt: ['4 suítes climatizadas', 'Piscina de areia com raia de 12 metros e pequenas prainhas', 'Acesso direto à praia por trilha em meio à vegetação nativa', 'Terreno de aproximadamente 6.000 m² cercado pela Mata Atlântica', 'Ampla varanda com lounges, espaço fitness e mesa para refeições', 'Sala de estar, sala de jantar e sala de TV', 'Escritório e biblioteca', 'Cozinha interna e cozinha externa', 'Suíte térrea com deck privativo, também usada para massagens, yoga ou brinquedoteca', 'Apoio de praia', 'Lavanderia', 'Wi-Fi', 'TV a cabo', 'Roupas de cama, mesa e banho', 'Som para MP3', 'Estacionamento'],
+    en: ['4 air-conditioned suites', 'Sand pool with 12-meter lane and small shallow areas', 'Direct beach access through a trail amid native vegetation', 'Plot of approximately 6,000 m² surrounded by Atlantic Forest', 'Wide veranda with lounges, fitness area and dining table', 'Living room, dining room and TV room', 'Office and library', 'Indoor and outdoor kitchens', 'Ground-floor suite with private deck, also used for massages, yoga or as a playroom', 'Beach support', 'Laundry', 'Wi-Fi', 'Cable TV', 'Bed, table and bath linens', 'MP3 sound system', 'Parking'],
+  },
+  staff: {
+    pt: ['Arrumadeira', 'Cozinheira', 'Piscineiro / Jardineiro', 'Portaria 24 horas'],
+    en: ['Housekeeper', 'Cook', 'Pool attendant / Gardener', '24-hour gatehouse'],
+  },
+  description: {
+    pt: 'Localizada no Condomínio Itapororoca, um dos endereços mais exclusivos de Trancoso, a Casa da Ju está implantada em um terreno de aproximadamente 6.000 m², cercado pela Mata Atlântica e com acesso direto à praia por uma charmosa trilha em meio à vegetação nativa.\n\nO grande destaque da propriedade é a perfeita integração entre natureza, conforto e privacidade. O jardim gramado envolve a piscina de areia com raia de 12 metros e pequenas prainhas, criando um ambiente ideal para relaxar.\n\nA casa acomoda até 8 hóspedes em 4 suítes climatizadas. No piso superior encontram-se três suítes, todas com banheira, closet e ventilador de teto, além de sala de TV, escritório e biblioteca. No térreo, uma quarta suíte com deck privativo também pode ser utilizada como espaço para massagens, yoga ou brinquedoteca.\n\nA ampla área social integra sala de estar, sala de jantar, sala de TV e uma agradável varanda com lounges, espaço fitness e mesa para refeições, totalmente voltada para o jardim e a piscina.',
+    en: 'Located in the Itapororoca Condominium, one of the most exclusive addresses in Trancoso, Casa da Ju is set on a plot of approximately 6,000 m², surrounded by the Atlantic Forest and with direct beach access through a charming trail amid native vegetation.\n\nThe highlight of the property is the perfect integration between nature, comfort and privacy. The lawn garden surrounds the sand pool with a 12-meter lane and small shallow areas, creating an ideal environment to relax.\n\nThe house accommodates up to 8 guests in 4 air-conditioned suites. Upstairs there are three suites, all with bathtub, walk-in closet and ceiling fan, as well as a TV room, office and library. On the ground floor, a fourth suite with a private deck can also be used as a space for massages, yoga or as a playroom.\n\nThe large social area integrates living room, dining room, TV room and a pleasant veranda with lounges, fitness area and dining table, fully facing the garden and the pool.',
+  },
+  notes: {
+    pt: ['Capacidade para até 8 hóspedes em 4 suítes climatizadas.', 'Os valores poderão ser atualizados conforme o período e a disponibilidade.'],
+    en: ['Capacity for up to 8 guests in 4 air-conditioned suites.', 'Rates may be updated according to the period and availability.'],
+  },
+  locationDetail: {
+    pt: 'Casa pé na areia no Condomínio Itapororoca, Trancoso – Bahia, em área cercada pela Mata Atlântica e com acesso exclusivo à praia',
+    en: 'Beachfront house in the Itapororoca Condominium, Trancoso – Bahia, in an area surrounded by the Atlantic Forest with exclusive beach access',
+  },
+  features: ['pe-na-areia', 'piscina'],
+};
+
+const PATIMIRIM: Property = {
+  id: 'villa-patimirim-itapororoca', code: 'TBA-317', name: { pt: 'Villa Patimirim', en: 'Villa Patimirim' },
+  purpose: ['aluguel'], location: 'Itapororoca', suites: 10, guests: 20, baths: 10, area: '—',
+  price: { pt: 'R$ 65.000 / diária', en: 'R$ 65,000 / night' },
+  priceLow: { pt: 'R$ 65.000 / diária', en: 'R$ 65,000 / night' },
+  carnaval: { pt: 'Sob consulta', en: 'Upon request' },
+  reveillon: { pt: 'Sob consulta', en: 'Upon request' },
+  image: '/img/patimirim/01.jpg',
+  gallery: ['/img/patimirim/01.webp','/img/patimirim/02.webp','/img/patimirim/03.webp','/img/patimirim/04.webp','/img/patimirim/05.webp','/img/patimirim/06.webp','/img/patimirim/07.webp','/img/patimirim/08.webp','/img/patimirim/09.webp','/img/patimirim/10.webp','/img/patimirim/11.webp','/img/patimirim/12.webp','/img/patimirim/13.webp','/img/patimirim/14.webp','/img/patimirim/15.webp','/img/patimirim/16.webp','/img/patimirim/17.webp','/img/patimirim/18.webp','/img/patimirim/19.webp','/img/patimirim/20.webp','/img/patimirim/21.webp','/img/patimirim/22.webp','/img/patimirim/23.webp','/img/patimirim/24.webp','/img/patimirim/25.webp','/img/patimirim/26.webp','/img/patimirim/27.webp','/img/patimirim/28.webp','/img/patimirim/29.webp','/img/patimirim/30.webp','/img/patimirim/31.webp'], featured: false,
+  amenities: {
+    pt: ['Casa de frente para o mar, a poucos passos da areia', 'Dez suítes climatizadas, entre casa principal e bangalôs', 'Amplo jardim com árvores nativas', 'Piscina', 'Espaço gourmet com churrasqueira', 'Apoio de praia', '4 caiaques para uso dos hóspedes', 'Adega de vinhos', 'Sala de ginástica', 'Sala de estar e sala de jantar', 'Máquina de gelo e freezer', 'Mosquiteiros', 'Gerador e poço artesiano', 'Internet Wi-Fi', 'TV a cabo / Sky', 'Sistema de som', 'Toalhas de praia e roupas de cama, mesa e banho', 'Estacionamento'],
+    en: ['Beachfront house, a few steps from the sand', 'Ten air-conditioned suites, between main house and bungalows', 'Large garden with native trees', 'Pool', 'Gourmet area with barbecue', 'Beach support', '4 kayaks for guests use', 'Wine cellar', 'Gym room', 'Living room and dining room', 'Ice machine and freezer', 'Mosquito nets', 'Generator and artesian well', 'Wi-Fi internet', 'Cable TV / Sky', 'Sound system', 'Beach towels and bed, table and bath linens', 'Parking'],
+  },
+  staff: {
+    pt: ['2 arrumadeiras', '1 cozinheira', '1 auxiliar de cozinha', '2 copeiros'],
+    en: ['2 housekeepers', '1 cook', '1 kitchen assistant', '2 butlers'],
+  },
+  description: {
+    pt: 'A Villa Patimirim é uma propriedade de frente para o mar, localizada em Itapororoca, uma das praias mais bonitas e preservadas de Trancoso. Com dez suítes e capacidade para até 20 hóspedes, oferece uma experiência de hospedagem marcada por privacidade, conforto e contato direto com a natureza.\n\nA arquitetura segue o estilo rústico-chic característico da região, com ambientes amplos, estruturas em madeira e vidro e uma integração harmoniosa entre os espaços internos e externos. A decoração reúne peças de artistas locais e referências à cultura baiana, criando uma atmosfera sofisticada e acolhedora.\n\nNa área externa, um amplo jardim com árvores nativas envolve a piscina, o espaço gourmet e diferentes áreas de descanso. A poucos passos da areia, a casa conta ainda com apoio de praia e quatro caiaques para uso dos hóspedes.\n\nA propriedade pode ser combinada com uma residência anexa, totalizando 14 suítes, mediante consulta de disponibilidade e condições específicas.',
+    en: 'Villa Patimirim is a beachfront property located in Itapororoca, one of the most beautiful and preserved beaches in Trancoso. With ten suites and capacity for up to 20 guests, it offers a lodging experience marked by privacy, comfort and direct contact with nature.\n\nThe architecture follows the rustic-chic style characteristic of the region, with spacious rooms, wood and glass structures and a harmonious integration between indoor and outdoor spaces. The decoration brings together pieces by local artists and references to Bahian culture, creating a sophisticated and welcoming atmosphere.\n\nOutside, a large garden with native trees surrounds the pool, the gourmet area and different rest areas. A few steps from the sand, the house also has beach support and four kayaks for guests use.\n\nThe property can be combined with an annex residence, totaling 14 suites, upon consultation of availability and specific conditions.',
+  },
+  notes: {
+    pt: ['Capacidade para até 20 hóspedes em 10 suítes climatizadas.', 'Camareiras com atendimento até as 17h30; cozinha em funcionamento até as 20h.', 'O coordenador da equipe reside na propriedade e pode auxiliar em questões operacionais.', 'A composição da equipe e os horários podem ser ajustados conforme a ocupação da casa e o perfil do grupo.'],
+    en: ['Capacity for up to 20 guests in 10 air-conditioned suites.', 'Housekeepers available until 5:30 pm; kitchen operating until 8 pm.', 'The team coordinator lives on the property and can assist with operational matters.', 'Team composition and schedules can be adjusted according to house occupancy and group profile.'],
+  },
+  locationDetail: {
+    pt: 'Condomínio de Itapororoca, na Estrada do Rio Verde, Trancoso – Bahia. Acesso direto à praia, segurança, privacidade e fácil deslocamento de carro até o Quadrado',
+    en: 'Itapororoca Condominium, on Estrada do Rio Verde, Trancoso – Bahia. Direct beach access, security, privacy and easy drive to the Quadrado',
+  },
+  features: ['pe-na-areia', 'piscina', 'vista-mar'],
+};
+
+const SANTARITA: Property = {
+  id: 'casa-santa-rita-itaquena', code: 'TBA-318', name: { pt: 'Casa Santa Rita', en: 'Casa Santa Rita' },
+  purpose: ['aluguel'], location: 'Praia de Itaquena', suites: 10, guests: 20, baths: 9, area: '12.000 m²',
+  price: { pt: 'R$ 35.000 / diária', en: 'R$ 35,000 / night' },
+  priceLow: { pt: 'R$ 25.000 / diária', en: 'R$ 25,000 / night' },
+  carnaval: { pt: 'R$ 200.000 (pacote de 5 diárias) — disponível para 2027', en: 'R$ 200,000 (5-night package) — available for 2027' },
+  reveillon: { pt: 'R$ 1.100.000 (pacote de 10 diárias) — indisponível', en: 'R$ 1,100,000 (10-night package) — unavailable' },
+  seasonHigh: { pt: 'Dezembro, janeiro, fevereiro, março, julho e feriados', en: 'December, January, February, March, July and holidays' },
+  seasonLow: { pt: 'Abril a novembro', en: 'April to November' },
+  image: '/img/santarita/01.jpg',
+  gallery: ['/img/santarita/01.webp','/img/santarita/02.webp','/img/santarita/03.webp','/img/santarita/04.webp','/img/santarita/05.webp','/img/santarita/06.webp','/img/santarita/07.webp','/img/santarita/08.webp','/img/santarita/09.webp','/img/santarita/10.webp','/img/santarita/11.webp','/img/santarita/12.webp','/img/santarita/13.webp','/img/santarita/14.webp','/img/santarita/15.webp','/img/santarita/16.webp','/img/santarita/17.webp','/img/santarita/18.webp','/img/santarita/19.webp','/img/santarita/20.webp'], featured: false,
+  amenities: {
+    pt: ['Casa em frente ao mar, na Praia de Itaquena', 'Terreno de aproximadamente 12.000 m² com amplos jardins', 'Acesso direto à praia', '10 suítes climatizadas', 'Piscina aquecida', 'Academia, sauna e sala de massagem', 'Apoio de praia completo e bar de praia', 'Área gourmet com churrasqueira', 'Hidromassagem', 'Adega de vinhos e cervejeira', 'Máquina de gelo', 'Sala de estar, sala de jantar e sala de TV', 'Cozinha equipada', 'Deck e jardim', 'Lavanderia', 'Caixa de som e TV Sky', 'Roupas de cama, mesa e banho e toalhas de piscina', 'Estacionamento'],
+    en: ['Beachfront house on Itaquena Beach', 'Plot of approximately 12,000 m² with large gardens', 'Direct beach access', '10 air-conditioned suites', 'Heated pool', 'Gym, sauna and massage room', 'Full beach support and beach bar', 'Gourmet area with barbecue', 'Hot tub', 'Wine cellar and beer cooler', 'Ice machine', 'Living room, dining room and TV room', 'Equipped kitchen', 'Deck and garden', 'Laundry', 'Sound system and Sky TV', 'Bed, table and bath linens and pool towels', 'Parking'],
+  },
+  staff: {
+    pt: ['Cozinheira', '2 arrumadeiras', 'Auxiliar de cozinha', 'Copeiro', 'Piscineiro / Jardineiro'],
+    en: ['Cook', '2 housekeepers', 'Kitchen assistant', 'Butler', 'Pool attendant / Gardener'],
+  },
+  description: {
+    pt: 'Em frente ao mar, na exclusiva Praia de Itaquena, a Casa Santa Rita oferece uma experiência única de hospedagem em meio à natureza preservada de Trancoso.\n\nImplantada em um terreno de aproximadamente 12.000 m², a propriedade proporciona total privacidade, amplos jardins e acesso direto à praia. Com arquitetura integrada ao cenário natural, a casa acomoda confortavelmente até 20 hóspedes em 10 suítes climatizadas.\n\nA estrutura de lazer inclui piscina aquecida, academia, sauna, sala de massagem, apoio de praia completo, bar de praia, espaços de convivência e área gourmet, criando o ambiente ideal para famílias e grupos que buscam conforto, exclusividade e serviços de alto padrão.\n\nLocalizada a cerca de 3,5 km do Quadrado de Trancoso, a casa combina isolamento, tranquilidade e fácil acesso aos principais atrativos da região.',
+    en: 'Beachfront, on the exclusive Itaquena Beach, Casa Santa Rita offers a unique lodging experience amid the preserved nature of Trancoso.\n\nSet on a plot of approximately 12,000 m², the property provides total privacy, large gardens and direct beach access. With architecture integrated into the natural setting, the house comfortably accommodates up to 20 guests in 10 air-conditioned suites.\n\nThe leisure structure includes a heated pool, gym, sauna, massage room, full beach support, beach bar, social spaces and a gourmet area, creating the ideal environment for families and groups seeking comfort, exclusivity and high-standard services.\n\nLocated about 3.5 km from the Quadrado of Trancoso, the house combines isolation, tranquility and easy access to the main attractions of the region.',
+  },
+  notes: {
+    pt: ['Capacidade para até 20 hóspedes em 10 suítes climatizadas; 9 banheiros e 1 lavabo.'],
+    en: ['Capacity for up to 20 guests in 10 air-conditioned suites; 9 bathrooms and 1 guest bathroom.'],
+  },
+  locationDetail: {
+    pt: 'Casa pé na areia na Praia de Itaquena, Trancoso – Bahia. Aproximadamente 3,5 km do Quadrado, cerca de 20 minutos do centro histórico e 35 minutos do Aeroporto Terravista',
+    en: 'Beachfront house on Itaquena Beach, Trancoso – Bahia. Approximately 3.5 km from the Quadrado, about 20 minutes from the historic center and 35 minutes from Terravista Airport',
+  },
+  features: ['pe-na-areia', 'piscina'],
+};
+
+const MARTINI: Property = {
+  id: 'villa-martini-itapororoca', code: 'TBA-319', name: { pt: 'Villa Martini', en: 'Villa Martini' },
+  purpose: ['aluguel', 'venda'], location: 'Itapororoca', suites: 7, guests: 14, baths: 7, area: '700 m²',
+  price: { pt: 'Sob consulta', en: 'Upon request' },
+  carnaval: { pt: 'Sob consulta', en: 'Upon request' },
+  reveillon: { pt: 'Sob consulta', en: 'Upon request' },
+  salePrice: { pt: 'R$ 50.000.000', en: 'R$ 50,000,000' },
+  image: '/img/martini/01.jpg',
+  gallery: ['/img/martini/01.webp','/img/martini/02.webp','/img/martini/03.webp','/img/martini/04.webp','/img/martini/05.webp','/img/martini/06.webp','/img/martini/07.webp','/img/martini/08.webp','/img/martini/09.webp','/img/martini/10.webp','/img/martini/11.webp','/img/martini/12.webp','/img/martini/13.webp','/img/martini/14.webp','/img/martini/15.webp','/img/martini/16.webp','/img/martini/17.webp','/img/martini/18.webp','/img/martini/19.webp','/img/martini/20.webp','/img/martini/21.webp','/img/martini/22.webp','/img/martini/23.webp','/img/martini/24.webp','/img/martini/25.webp','/img/martini/26.webp'], featured: false,
+  amenities: {
+    pt: ['Casa totalmente pé na areia, de frente para o mar', 'Aproximadamente 700 m² de área construída em terreno de 5.000 m²', '7 suítes climatizadas', 'Suíte master com varanda e vista para o mar', 'Piscina e hidromassagem', 'Área gourmet com churrasqueira e forno', 'Apoio de praia completo, com cadeiras de praia e ducha', 'Sala de estar, sala de jantar e sala de TV', 'Cozinha equipada com fogão industrial', 'Cervejeira e geladeiras', 'Jardim', 'TV e Wi-Fi', 'Roupas de cama, mesa e banho', 'Estacionamento'],
+    en: ['Fully beachfront house, facing the sea', 'Approximately 700 m² of built area on a 5,000 m² plot', '7 air-conditioned suites', 'Master suite with veranda and sea view', 'Pool and hot tub', 'Gourmet area with barbecue and oven', 'Full beach support, with beach chairs and shower', 'Living room, dining room and TV room', 'Equipped kitchen with industrial stove', 'Beer cooler and refrigerators', 'Garden', 'TV and Wi-Fi', 'Bed, table and bath linens', 'Parking'],
+  },
+  staff: {
+    pt: ['Staff completo diariamente'],
+    en: ['Full staff daily'],
+  },
+  description: {
+    pt: 'Localizada em frente ao mar, na exclusiva Praia de Itapororoca, a Villa Martini é um verdadeiro refúgio para quem busca privacidade, conforto e uma conexão única com a natureza. Totalmente pé na areia, a propriedade proporciona uma experiência marcada pelo som das ondas, pela brisa do oceano e por uma vista deslumbrante do litoral de Trancoso.\n\nCom aproximadamente 700 m² de área construída em um terreno de 5.000 m², a casa reúne ambientes amplos e elegantes, projetados para receber famílias e grupos com total conforto. São 7 suítes climatizadas, incluindo uma suíte master com varanda e vista para o mar, além de salas de estar, jantar e TV, cozinha equipada, área gourmet, jardim, piscina, hidromassagem e completo apoio de praia.\n\nMais do que uma hospedagem, a Villa Martini oferece uma experiência exclusiva em um dos cenários mais privilegiados do sul da Bahia.',
+    en: 'Located in front of the sea, on the exclusive Itapororoca Beach, Villa Martini is a true refuge for those seeking privacy, comfort and a unique connection with nature. Fully beachfront, the property provides an experience marked by the sound of the waves, the ocean breeze and a stunning view of the Trancoso coastline.\n\nWith approximately 700 m² of built area on a 5,000 m² plot, the house brings together spacious and elegant environments, designed to welcome families and groups with total comfort. There are 7 air-conditioned suites, including a master suite with veranda and sea view, as well as living, dining and TV rooms, equipped kitchen, gourmet area, garden, pool, hot tub and full beach support.\n\nMore than a stay, Villa Martini offers an exclusive experience in one of the most privileged settings in southern Bahia.',
+  },
+  notes: {
+    pt: ['Valores de locação sob consulta para todos os períodos.'],
+    en: ['Rental rates upon request for all periods.'],
+  },
+  locationDetail: {
+    pt: 'Condomínio Itapororoca, Trancoso – Bahia. Casa totalmente pé na areia, com vista permanente para o mar',
+    en: 'Itapororoca Condominium, Trancoso – Bahia. Fully beachfront house, with permanent sea view',
+  },
+  features: ['pe-na-areia', 'piscina', 'vista-mar'],
+};
+
 const SUBLIME: Property = {
   id: 'casa-sublime-praia-dos-nativos', code: 'TBA-311', name: { pt: 'Casa Sublime', en: 'Casa Sublime' },
   purpose: ['aluguel'], location: 'Praia dos Nativos', suites: 7, guests: 16, baths: 8, area: '1.200 m²',
@@ -2353,7 +2611,7 @@ const MIA: Property = {
   },
 };
 
-PROPERTIES.unshift(SUBLIME, ESTRELA, VISTANATIVOS, TERRAL, ITAPO01, ATENA, JACARANDA04, COQUEIRAL14, COQUEIRAL02, CASAMARIA, ALMESCLA, CASAMAR, GEIGER, COQUEIRAL01, MIA, COQUEIRAL25, MAION, DADINHO, IANDE, MAGIVI, OITI, COQUEIRAL13, COQUEIRAL7, NAOCA, CASA71, CAJU, SANMARCO, CASA14, CASA09, BOSSA, TUA, IMBIRUCU, CASA42, CASA61, VILAS02, CASA80, ITAPO07, CASA96, CASA90, VILAS75, LIMOEIRO, BIRIBA, VILAMAR, BETTONI, PINI, AUREA, SAOJORGE, CAZA, ITAPO06, ITAPO04, ALEGRIA, PONTA, PG11, PG111, PG104, MANDACARU, PONTARB, FALESIA, RAIZES, PONTABARRA, FASANO10, FASANO16, FASANO17, VILAS26, GOLF58, FLORESTA, VILAS41, VILAS67, BOUTIQUE13, ARACUA, JACARANDA03, TEIU, GOLF25, PG50, CASAEDO, BALEIA, PG55, GOLF72, PITANGA, AFRICA, TEMPO07, TEMPO08, TEMPO06, BOSQUE, PATIO, PG32, PG45, LICURI, DIVINA, TRESMENINAS, PEROBA, MORENA, MOA, BRAGA, CUMARU, JACARANDA05, TB14, MACONDO, RICK);
+PROPERTIES.unshift(MARTINI, SANTARITA, PATIMIRIM, DAJU, BUENO, BONITA, AREIA, COQUEIRAL22, SUBLIME, ESTRELA, VISTANATIVOS, TERRAL, ITAPO01, ATENA, JACARANDA04, COQUEIRAL14, COQUEIRAL02, CASAMARIA, ALMESCLA, CASAMAR, GEIGER, COQUEIRAL01, MIA, COQUEIRAL25, MAION, DADINHO, IANDE, MAGIVI, OITI, COQUEIRAL13, COQUEIRAL7, NAOCA, CASA71, CAJU, SANMARCO, CASA14, CASA09, BOSSA, TUA, IMBIRUCU, CASA42, CASA61, VILAS02, CASA80, ITAPO07, CASA96, CASA90, VILAS75, LIMOEIRO, BIRIBA, VILAMAR, BETTONI, PINI, AUREA, SAOJORGE, CAZA, ITAPO06, ITAPO04, ALEGRIA, PONTA, PG11, PG111, PG104, MANDACARU, PONTARB, FALESIA, RAIZES, PONTABARRA, FASANO10, FASANO16, FASANO17, VILAS26, GOLF58, FLORESTA, VILAS41, VILAS67, BOUTIQUE13, ARACUA, JACARANDA03, TEIU, GOLF25, PG50, CASAEDO, BALEIA, PG55, GOLF72, PITANGA, AFRICA, TEMPO07, TEMPO08, TEMPO06, BOSQUE, PATIO, PG32, PG45, LICURI, DIVINA, TRESMENINAS, PEROBA, MORENA, MOA, BRAGA, CUMARU, JACARANDA05, TB14, MACONDO, RICK);
 
 export const WHATSAPP = '5573999141382';
 

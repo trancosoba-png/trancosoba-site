@@ -36,6 +36,260 @@ export const SUITE_PAR = /configura[cç][aã]o das su[ií]tes|suite layout|distr
 type SuiteGroup = { title: string; master?: string; suites?: [string, string][] };
 type HouseSuites = { groups: SuiteGroup[]; footer?: string };
 const SUITES_BY_ID: Record<string, Record<'pt' | 'en', HouseSuites>> = {
+  'casa-coqueiral-22': {
+    pt: {
+      groups: [
+        { title: 'Piso Superior', suites: [
+          ['Suíte Master', '1 cama King Size + 1 cama de solteiro · TV 65" · ar-condicionado · ventilador de teto · varanda privativa · closet com penteadeira · banheiro com hidromassagem dupla, 2 duchas e 2 pias'],
+          ['Suíte 02', '1 cama King Size + 1 cama de solteiro · ar-condicionado · ventilador de teto · varanda privativa · closet · banheiro com 2 duchas e 2 pias'],
+          ['Suíte 03', '1 cama King Size + 1 cama de solteiro · ar-condicionado · ventilador de teto · varanda privativa · closet · banheiro com 2 duchas e 2 pias'],
+        ] },
+        { title: 'Piso Térreo', suites: [
+          ['Suíte 04', '1 cama King Size + 1 cama de solteiro · ar-condicionado · varanda com rede · banheiro com 2 duchas e 2 pias'],
+        ] }
+      ],
+      footer: 'Capacidade para até 12 hóspedes.',
+    },
+    en: {
+      groups: [
+        { title: 'Upper Floor', suites: [
+          ['Master Suite', '1 King Size bed + 1 single bed · 65" TV · air conditioning · ceiling fan · private veranda · closet with dressing table · bathroom with double hot tub, 2 showers and 2 sinks'],
+          ['Suite 02', '1 King Size bed + 1 single bed · air conditioning · ceiling fan · private veranda · closet · bathroom with 2 showers and 2 sinks'],
+          ['Suite 03', '1 King Size bed + 1 single bed · air conditioning · ceiling fan · private veranda · closet · bathroom with 2 showers and 2 sinks'],
+        ] },
+        { title: 'Ground Floor', suites: [
+          ['Suite 04', '1 King Size bed + 1 single bed · air conditioning · veranda with hammock · bathroom with 2 showers and 2 sinks'],
+        ] }
+      ],
+      footer: 'Capacity for up to 12 guests.',
+    },
+  },
+  'casa-areia-altos-de-trancoso': {
+    pt: {
+      groups: [
+        { title: '', suites: [
+          ['Suíte Master', '1 cama King Size · mosquiteiro · closet · TV · ar-condicionado · varanda com vista para o mar'],
+          ['Suíte 02', '2 camas de solteiro conversíveis em casal · closet · TV · ar-condicionado'],
+          ['Suíte 03', '2 camas de solteiro conversíveis em casal · closet · ar-condicionado'],
+          ['Suíte 04', '2 camas de solteiro conversíveis em casal · closet · ar-condicionado'],
+          ['Suíte 05', '2 camas de solteiro conversíveis em casal · closet · ar-condicionado'],
+        ] }
+      ],
+      footer: 'Capacidade para até 10 hóspedes. Camas de solteiro configuráveis como King Size mediante solicitação prévia.',
+    },
+    en: {
+      groups: [
+        { title: '', suites: [
+          ['Master Suite', '1 King Size bed · mosquito net · walk-in closet · TV · air conditioning · veranda with sea view'],
+          ['Suite 02', '2 single beds convertible to double · walk-in closet · TV · air conditioning'],
+          ['Suite 03', '2 single beds convertible to double · walk-in closet · air conditioning'],
+          ['Suite 04', '2 single beds convertible to double · walk-in closet · air conditioning'],
+          ['Suite 05', '2 single beds convertible to double · walk-in closet · air conditioning'],
+        ] }
+      ],
+      footer: 'Capacity for up to 10 guests. Single beds configurable as King Size upon prior request.',
+    },
+  },
+  'casa-bonita-altos-de-itapororoca': {
+    pt: {
+      groups: [
+        { title: '', suites: [
+          ['Suíte 01', 'Climatizada · banheiro privativo'],
+          ['Suíte 02', 'Climatizada · banheiro privativo'],
+          ['Suíte 03', 'Climatizada · banheiro privativo'],
+          ['Suíte 04', 'Climatizada · banheiro privativo'],
+          ['Suíte 05', 'Climatizada · banheiro privativo'],
+          ['Suíte 06', 'Climatizada · banheiro privativo'],
+        ] }
+      ],
+      footer: 'Capacidade para até 12 hóspedes.',
+    },
+    en: {
+      groups: [
+        { title: '', suites: [
+          ['Suite 01', 'Air-conditioned · private bathroom'],
+          ['Suite 02', 'Air-conditioned · private bathroom'],
+          ['Suite 03', 'Air-conditioned · private bathroom'],
+          ['Suite 04', 'Air-conditioned · private bathroom'],
+          ['Suite 05', 'Air-conditioned · private bathroom'],
+          ['Suite 06', 'Air-conditioned · private bathroom'],
+        ] }
+      ],
+      footer: 'Capacity for up to 12 guests.',
+    },
+  },
+  'casa-bueno-altos-de-itapororoca': {
+    pt: {
+      groups: [
+        { title: '', suites: [
+          ['Suíte 01', 'Climatizada'],
+          ['Suíte 02', 'Climatizada'],
+          ['Suíte 03', 'Climatizada'],
+          ['Suíte 04', 'Climatizada'],
+          ['Suíte 05', 'Climatizada'],
+        ] }
+      ],
+      footer: 'Capacidade para até 10 hóspedes.',
+    },
+    en: {
+      groups: [
+        { title: '', suites: [
+          ['Suite 01', 'Air-conditioned'],
+          ['Suite 02', 'Air-conditioned'],
+          ['Suite 03', 'Air-conditioned'],
+          ['Suite 04', 'Air-conditioned'],
+          ['Suite 05', 'Air-conditioned'],
+        ] }
+      ],
+      footer: 'Capacity for up to 10 guests.',
+    },
+  },
+  'casa-da-ju-itapororoca': {
+    pt: {
+      groups: [
+        { title: 'Piso Superior', suites: [
+          ['Suíte 01', 'Climatizada · banheira · closet · ventilador de teto'],
+          ['Suíte 02', 'Climatizada · banheira · closet · ventilador de teto'],
+          ['Suíte 03', 'Climatizada · banheira · closet · ventilador de teto'],
+        ] },
+        { title: 'Piso Térreo', suites: [
+          ['Suíte 04', 'Climatizada · deck privativo · também utilizada para massagens, yoga ou brinquedoteca'],
+        ] }
+      ],
+      footer: 'Capacidade para até 8 hóspedes.',
+    },
+    en: {
+      groups: [
+        { title: 'Upper Floor', suites: [
+          ['Suite 01', 'Air-conditioned · bathtub · walk-in closet · ceiling fan'],
+          ['Suite 02', 'Air-conditioned · bathtub · walk-in closet · ceiling fan'],
+          ['Suite 03', 'Air-conditioned · bathtub · walk-in closet · ceiling fan'],
+        ] },
+        { title: 'Ground Floor', suites: [
+          ['Suite 04', 'Air-conditioned · private deck · also used for massages, yoga or as a playroom'],
+        ] }
+      ],
+      footer: 'Capacity for up to 8 guests.',
+    },
+  },
+  'villa-patimirim-itapororoca': {
+    pt: {
+      groups: [
+        { title: 'Casa Principal — Piso Superior', suites: [
+          ['Suíte 01 Master', '1 cama king size · poltrona · ar-condicionado · mosquiteiro · mesa de escritório · closet · cofre · secador de cabelo · varanda com vista para o jardim'],
+          ['Suíte 03', '1 cama king size · poltrona · ar-condicionado · mosquiteiro · mesa de escritório · closet · cofre · secador de cabelo · varanda com vista para o jardim e o mar'],
+        ] },
+        { title: 'Casa Principal — Piso Térreo', suites: [
+          ['Suíte 02', '1 cama king size · poltrona · ar-condicionado · mosquiteiro · mesa de escritório · closet · cofre · secador de cabelo · varanda com vista para o jardim'],
+          ['Suíte 04', '1 cama king size · poltrona · ar-condicionado · mosquiteiro · mesa de escritório · closet · cofre · secador de cabelo · varanda com vista para o jardim'],
+        ] },
+        { title: 'Bangalô Amarelo', suites: [
+          ['Suíte 05', '1 cama de casal · poltrona · ar-condicionado · mosquiteiro · mesa de escritório · closet · cofre · secador de cabelo · varanda com vista para o jardim'],
+          ['Suíte 06', '1 cama de casal · poltrona · ar-condicionado · mosquiteiro · mesa de escritório · closet · cofre · secador de cabelo · varanda com vista para o jardim'],
+        ] },
+        { title: 'Bangalô Verde', suites: [
+          ['Suíte 07', '1 cama king size · poltrona · ar-condicionado · mosquiteiro · mesa de escritório · closet · cofre · secador de cabelo · varanda com vista para o jardim'],
+          ['Suíte 08', '2 camas de solteiro tipo viúva · ar-condicionado · mosquiteiro · mesa de escritório · closet · cofre · secador de cabelo · varanda com vista para o jardim'],
+        ] },
+        { title: 'Bangalô Rosa', suites: [
+          ['Suíte 09', '1 cama king size · poltrona · ar-condicionado · mosquiteiro · mesa de escritório · closet · cofre · secador de cabelo · varanda com vista para o jardim'],
+          ['Suíte 10', '2 camas de solteiro tipo viúva · poltrona · ar-condicionado · mosquiteiro · mesa de escritório · closet · cofre · secador de cabelo · varanda com vista para o jardim'],
+        ] }
+      ],
+      footer: 'Capacidade para até 20 hóspedes. Configuração com 14 suítes disponível mediante consulta.',
+    },
+    en: {
+      groups: [
+        { title: 'Main House — Upper Floor', suites: [
+          ['Suite 01 Master', '1 king size bed · armchair · air conditioning · mosquito net · desk · walk-in closet · safe · hairdryer · veranda with garden view'],
+          ['Suite 03', '1 king size bed · armchair · air conditioning · mosquito net · desk · walk-in closet · safe · hairdryer · veranda with garden view and the sea'],
+        ] },
+        { title: 'Main House — Ground Floor', suites: [
+          ['Suite 02', '1 king size bed · armchair · air conditioning · mosquito net · desk · walk-in closet · safe · hairdryer · veranda with garden view'],
+          ['Suite 04', '1 king size bed · armchair · air conditioning · mosquito net · desk · walk-in closet · safe · hairdryer · veranda with garden view'],
+        ] },
+        { title: 'Yellow Bungalow', suites: [
+          ['Suite 05', '1 double bed · armchair · air conditioning · mosquito net · desk · walk-in closet · safe · hairdryer · veranda with garden view'],
+          ['Suite 06', '1 double bed · armchair · air conditioning · mosquito net · desk · walk-in closet · safe · hairdryer · veranda with garden view'],
+        ] },
+        { title: 'Green Bungalow', suites: [
+          ['Suite 07', '1 king size bed · armchair · air conditioning · mosquito net · desk · walk-in closet · safe · hairdryer · veranda with garden view'],
+          ['Suite 08', '2 wide single beds · air conditioning · mosquito net · desk · walk-in closet · safe · hairdryer · veranda with garden view'],
+        ] },
+        { title: 'Pink Bungalow', suites: [
+          ['Suite 09', '1 king size bed · armchair · air conditioning · mosquito net · desk · walk-in closet · safe · hairdryer · veranda with garden view'],
+          ['Suite 10', '2 wide single beds · armchair · air conditioning · mosquito net · desk · walk-in closet · safe · hairdryer · veranda with garden view'],
+        ] }
+      ],
+      footer: 'Capacity for up to 20 guests. 14-suite configuration available upon request.',
+    },
+  },
+  'casa-santa-rita-itaquena': {
+    pt: {
+      groups: [
+        { title: '', suites: [
+          ['Suíte 01', 'Climatizada'],
+          ['Suíte 02', 'Climatizada'],
+          ['Suíte 03', 'Climatizada'],
+          ['Suíte 04', 'Climatizada'],
+          ['Suíte 05', 'Climatizada'],
+          ['Suíte 06', 'Climatizada'],
+          ['Suíte 07', 'Climatizada'],
+          ['Suíte 08', 'Climatizada'],
+          ['Suíte 09', 'Climatizada'],
+          ['Suíte 10', 'Climatizada'],
+        ] }
+      ],
+      footer: 'Capacidade para até 20 hóspedes. 9 banheiros e 1 lavabo.',
+    },
+    en: {
+      groups: [
+        { title: '', suites: [
+          ['Suite 01', 'Air-conditioned'],
+          ['Suite 02', 'Air-conditioned'],
+          ['Suite 03', 'Air-conditioned'],
+          ['Suite 04', 'Air-conditioned'],
+          ['Suite 05', 'Air-conditioned'],
+          ['Suite 06', 'Air-conditioned'],
+          ['Suite 07', 'Air-conditioned'],
+          ['Suite 08', 'Air-conditioned'],
+          ['Suite 09', 'Air-conditioned'],
+          ['Suite 10', 'Air-conditioned'],
+        ] }
+      ],
+      footer: 'Capacity for up to 20 guests. 9 bathrooms and 1 guest bathroom.',
+    },
+  },
+  'villa-martini-itapororoca': {
+    pt: {
+      groups: [
+        { title: '', suites: [
+          ['Suíte Master', 'Climatizada · varanda com vista para o mar'],
+          ['Suíte 02', 'Climatizada'],
+          ['Suíte 03', 'Climatizada'],
+          ['Suíte 04', 'Climatizada'],
+          ['Suíte 05', 'Climatizada'],
+          ['Suíte 06', 'Climatizada'],
+          ['Suíte 07', 'Climatizada'],
+        ] }
+      ],
+      footer: 'Capacidade para até 14 hóspedes.',
+    },
+    en: {
+      groups: [
+        { title: '', suites: [
+          ['Master Suite', 'Air-conditioned · veranda with sea view'],
+          ['Suite 02', 'Air-conditioned'],
+          ['Suite 03', 'Air-conditioned'],
+          ['Suite 04', 'Air-conditioned'],
+          ['Suite 05', 'Air-conditioned'],
+          ['Suite 06', 'Air-conditioned'],
+          ['Suite 07', 'Air-conditioned'],
+        ] }
+      ],
+      footer: 'Capacity for up to 14 guests.',
+    },
+  },
   'casa-estrela-praia-dos-nativos': {
     pt: {
       groups: [
