@@ -36,6 +36,32 @@ export const SUITE_PAR = /configura[cç][aã]o das su[ií]tes|suite layout|distr
 type SuiteGroup = { title: string; master?: string; suites?: [string, string][] };
 type HouseSuites = { groups: SuiteGroup[]; footer?: string };
 const SUITES_BY_ID: Record<string, Record<'pt' | 'en', HouseSuites>> = {
+  'casa-vista-nativos': {
+    pt: {
+      groups: [
+        { title: '', suites: [
+          ['Suíte 01', 'Climatizada · banheiro privativo'],
+          ['Suíte 02', 'Climatizada · banheiro privativo'],
+          ['Suíte 03', 'Climatizada · banheiro privativo'],
+          ['Suíte 04', 'Climatizada · banheiro privativo'],
+          ['Suíte 05', 'Climatizada · banheiro privativo'],
+        ] },
+      ],
+      footer: 'Capacidade para até 13 hóspedes.',
+    },
+    en: {
+      groups: [
+        { title: '', suites: [
+          ['Suite 01', 'Air-conditioned · private bathroom'],
+          ['Suite 02', 'Air-conditioned · private bathroom'],
+          ['Suite 03', 'Air-conditioned · private bathroom'],
+          ['Suite 04', 'Air-conditioned · private bathroom'],
+          ['Suite 05', 'Air-conditioned · private bathroom'],
+        ] },
+      ],
+      footer: 'Capacity for up to 13 guests.',
+    },
+  },
   'casa-terral-rio-da-barra': {
     pt: {
       groups: [

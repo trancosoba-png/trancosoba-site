@@ -2155,6 +2155,35 @@ const COQUEIRAL14: Property = {
   },
 };
 
+const VISTANATIVOS: Property = {
+  id: 'casa-vista-nativos', code: 'TBA-309', name: { pt: 'Casa Vista Nativos', en: 'Casa Vista Nativos' },
+  purpose: ['aluguel'], location: 'Praia dos Nativos', suites: 5, guests: 13, baths: 5, area: '300 m²',
+  price: { pt: 'R$ 5.500 / diária', en: 'R$ 5,500 / night' },
+  priceLow: { pt: 'R$ 4.000 / diária', en: 'R$ 4,000 / night' },
+  carnaval: { pt: 'Sob consulta', en: 'Upon request' },
+  reveillon: { pt: 'R$ 290.000 (pacote de 10 noites)', en: 'R$ 290,000 (10-night package)' },
+  image: '/img/vista-nativos/01.jpg',
+  gallery: ['/img/vista-nativos/01.webp','/img/vista-nativos/02.webp','/img/vista-nativos/03.webp','/img/vista-nativos/04.webp','/img/vista-nativos/05.webp','/img/vista-nativos/06.webp','/img/vista-nativos/07.webp','/img/vista-nativos/08.webp','/img/vista-nativos/09.webp','/img/vista-nativos/10.webp','/img/vista-nativos/11.webp','/img/vista-nativos/12.webp','/img/vista-nativos/13.webp','/img/vista-nativos/14.webp','/img/vista-nativos/15.webp','/img/vista-nativos/16.webp','/img/vista-nativos/17.webp','/img/vista-nativos/18.webp','/img/vista-nativos/19.webp','/img/vista-nativos/20.webp','/img/vista-nativos/21.webp','/img/vista-nativos/22.webp','/img/vista-nativos/23.webp','/img/vista-nativos/24.webp','/img/vista-nativos/25.webp','/img/vista-nativos/26.webp','/img/vista-nativos/27.webp','/img/vista-nativos/28.webp','/img/vista-nativos/29.webp','/img/vista-nativos/30.webp','/img/vista-nativos/31.webp','/img/vista-nativos/32.webp','/img/vista-nativos/33.webp','/img/vista-nativos/34.webp','/img/vista-nativos/35.webp'], featured: false,
+  amenities: {
+    pt: ['Ar-condicionado', 'Acesso próximo à praia', 'Churrasqueira', 'Cozinha completa', 'Cozinheira', 'Ducha externa', 'Equipamentos de praia', 'Estacionamento privativo', 'Iluminação externa', 'Hidromassagem', 'Piscina privativa', 'Roupas de cama e banho', 'Serviço de limpeza', 'Terraço ou varanda', 'Varanda com rede', 'Vista para o mar', 'Wi-Fi gratuito'],
+    en: ['Air conditioning', 'Easy beach access', 'Barbecue', 'Full kitchen', 'Cook', 'Outdoor shower', 'Beach equipment', 'Private parking', 'Outdoor lighting', 'Hot tub', 'Private pool', 'Bed and bath linen', 'Cleaning service', 'Terrace or veranda', 'Veranda with hammock', 'Sea view', 'Free Wi-Fi'],
+  },
+  staff: {
+    pt: ['Cozinheira', 'Serviço de limpeza'],
+    en: ['Cook', 'Cleaning service'],
+  },
+  description: {
+    pt: 'A poucos passos da Praia dos Nativos, a Casa Vista Nativos traduz o estilo de vida de Trancoso em uma propriedade acolhedora, reservada e integrada à paisagem. A localização, a menos de 200 metros do mar, permite aproveitar a praia com praticidade, sem abrir mão da privacidade e do conforto de uma residência exclusiva.\n\nCom arquitetura inspirada no rústico-chique característico da região, a casa combina madeira, fibras naturais, ambientes arejados e uma decoração leve, criando uma atmosfera elegante e descontraída. As áreas internas se conectam ao terraço, ao jardim e à piscina, favorecendo a convivência e o contato permanente com a natureza.\n\nA propriedade acomoda confortavelmente até 13 hóspedes em cinco suítes climatizadas. A estrutura inclui cozinha completa, área gourmet com churrasqueira, piscina privativa, hidromassagem, varandas com redes e ambientes de descanso voltados para o mar. É uma excelente escolha para famílias e grupos que desejam viver dias tranquilos em uma das praias mais desejadas de Trancoso.',
+    en: 'A few steps from Praia dos Nativos, Casa Vista Nativos translates the Trancoso lifestyle into a welcoming, private property integrated into the landscape. The location, less than 200 meters from the sea, allows guests to enjoy the beach with ease, without giving up the privacy and comfort of an exclusive residence.\n\nWith architecture inspired by the rustic-chic style characteristic of the region, the house combines wood, natural fibers, airy environments and light décor, creating an elegant and relaxed atmosphere. The indoor areas connect to the terrace, garden and pool, encouraging togetherness and permanent contact with nature.\n\nThe property comfortably accommodates up to 13 guests in five air-conditioned suites. The structure includes a full kitchen, gourmet area with barbecue, private pool, hot tub, verandas with hammocks and rest areas facing the sea. It is an excellent choice for families and groups who wish to enjoy peaceful days on one of the most desirable beaches in Trancoso.',
+  },
+  notes: { pt: ['Capacidade para até 13 hóspedes em 5 suítes climatizadas.', 'Equipamentos e apoio de praia disponíveis.'], en: ['Capacity for up to 13 guests in 5 air-conditioned suites.', 'Beach equipment and beach support available.'] },
+  locationDetail: {
+    pt: 'Praia dos Nativos, Trancoso – Bahia. A menos de 200 metros do mar. Quadrado, restaurantes e principais pontos do vilarejo a poucos minutos de carro.',
+    en: 'Praia dos Nativos, Trancoso – Bahia. Less than 200 meters from the sea. Quadrado, restaurants and the village\'s main spots a few minutes away by car.',
+  },
+  features: ['piscina', 'vista-mar'],
+};
+
 const TERRAL: Property = {
   id: 'casa-terral-rio-da-barra', code: 'TBA-307', name: { pt: 'Casa Terral', en: 'Casa Terral' },
   purpose: ['aluguel'], location: 'Rio da Barra', suites: 4, guests: 8, baths: 6, area: '500 m²',
@@ -2266,7 +2295,7 @@ const MIA: Property = {
   },
 };
 
-PROPERTIES.unshift(TERRAL, ITAPO01, ATENA, JACARANDA04, COQUEIRAL14, COQUEIRAL02, CASAMARIA, ALMESCLA, CASAMAR, GEIGER, COQUEIRAL01, MIA, COQUEIRAL25, MAION, DADINHO, IANDE, MAGIVI, OITI, COQUEIRAL13, COQUEIRAL7, NAOCA, CASA71, CAJU, SANMARCO, CASA14, CASA09, BOSSA, TUA, IMBIRUCU, CASA42, CASA61, VILAS02, CASA80, ITAPO07, CASA96, CASA90, VILAS75, LIMOEIRO, BIRIBA, VILAMAR, BETTONI, PINI, AUREA, SAOJORGE, CAZA, ITAPO06, ITAPO04, ALEGRIA, PONTA, PG11, PG111, PG104, MANDACARU, PONTARB, FALESIA, RAIZES, PONTABARRA, FASANO10, FASANO16, FASANO17, VILAS26, GOLF58, FLORESTA, VILAS41, VILAS67, BOUTIQUE13, ARACUA, JACARANDA03, TEIU, GOLF25, PG50, CASAEDO, BALEIA, PG55, GOLF72, PITANGA, AFRICA, TEMPO07, TEMPO08, TEMPO06, BOSQUE, PATIO, PG32, PG45, LICURI, DIVINA, TRESMENINAS, PEROBA, MORENA, MOA, BRAGA, CUMARU, JACARANDA05, TB14, MACONDO, RICK);
+PROPERTIES.unshift(VISTANATIVOS, TERRAL, ITAPO01, ATENA, JACARANDA04, COQUEIRAL14, COQUEIRAL02, CASAMARIA, ALMESCLA, CASAMAR, GEIGER, COQUEIRAL01, MIA, COQUEIRAL25, MAION, DADINHO, IANDE, MAGIVI, OITI, COQUEIRAL13, COQUEIRAL7, NAOCA, CASA71, CAJU, SANMARCO, CASA14, CASA09, BOSSA, TUA, IMBIRUCU, CASA42, CASA61, VILAS02, CASA80, ITAPO07, CASA96, CASA90, VILAS75, LIMOEIRO, BIRIBA, VILAMAR, BETTONI, PINI, AUREA, SAOJORGE, CAZA, ITAPO06, ITAPO04, ALEGRIA, PONTA, PG11, PG111, PG104, MANDACARU, PONTARB, FALESIA, RAIZES, PONTABARRA, FASANO10, FASANO16, FASANO17, VILAS26, GOLF58, FLORESTA, VILAS41, VILAS67, BOUTIQUE13, ARACUA, JACARANDA03, TEIU, GOLF25, PG50, CASAEDO, BALEIA, PG55, GOLF72, PITANGA, AFRICA, TEMPO07, TEMPO08, TEMPO06, BOSQUE, PATIO, PG32, PG45, LICURI, DIVINA, TRESMENINAS, PEROBA, MORENA, MOA, BRAGA, CUMARU, JACARANDA05, TB14, MACONDO, RICK);
 
 export const WHATSAPP = '5573999141382';
 
