@@ -36,6 +36,34 @@ export const SUITE_PAR = /configura[cç][aã]o das su[ií]tes|suite layout|distr
 type SuiteGroup = { title: string; master?: string; suites?: [string, string][] };
 type HouseSuites = { groups: SuiteGroup[]; footer?: string };
 const SUITES_BY_ID: Record<string, Record<'pt' | 'en', HouseSuites>> = {
+  'casa-coqueiral-24': {
+    pt: {
+      groups: [
+        { title: 'Suítes', suites: [
+          ['Suíte Principal', 'Mais de 50 m² · cama de casal · closet · banheiro amplo integrado a jardim privativo'],
+          ['Suíte Superior', 'Cama de casal · vista para a mata e para a área de lazer · quarto anexo, ideal para famílias'],
+          ['Suíte Inferior', 'Cama de casal · banheiro espaçoso · duchas duplas · metais e louças em acabamento cobre'],
+        ] },
+        { title: 'Quarto Adicional', suites: [
+          ['Quarto', '2 camas de casal · ideal para crianças, adolescentes ou hóspedes adicionais'],
+        ] },
+      ],
+      footer: 'Capacidade para até 8 hóspedes.',
+    },
+    en: {
+      groups: [
+        { title: 'Suites', suites: [
+          ['Master Suite', 'Over 50 m² · double bed · walk-in closet · large bathroom integrated into a private garden'],
+          ['Upper Suite', 'Double bed · views of the forest and the leisure area · adjoining bedroom, ideal for families'],
+          ['Lower Suite', 'Double bed · spacious bathroom · double showers · copper-finish fixtures and fittings'],
+        ] },
+        { title: 'Additional Bedroom', suites: [
+          ['Bedroom', '2 double beds · ideal for children, teenagers or additional guests'],
+        ] },
+      ],
+      footer: 'Capacity for up to 8 guests.',
+    },
+  },
   'casa-v7-altos-de-trancoso': {
     pt: {
       groups: [

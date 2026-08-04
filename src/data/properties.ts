@@ -2410,6 +2410,33 @@ const SANTARITA: Property = {
   features: ['pe-na-areia', 'piscina'],
 };
 
+const C24: Property = {
+  id: 'casa-coqueiral-24', code: 'TBA-321', name: { pt: 'Casa 24 Coqueiral', en: 'Casa 24 Coqueiral' },
+  purpose: ['aluguel'], location: 'Condomínio Coqueiral', suites: 3, guests: 8, baths: 4, area: '500 m²',
+  price: { pt: 'R$ 2.900 / diária', en: 'R$ 2,900 / night' },
+  priceLow: { pt: 'R$ 2.900 / diária', en: 'R$ 2,900 / night' },
+  carnaval: { pt: 'Sob consulta', en: 'Upon request' },
+  reveillon: { pt: 'Sob consulta', en: 'Upon request' },
+  image: '/img/coqueiral24/01.jpg',
+  gallery: ['/img/coqueiral24/01.webp','/img/coqueiral24/02.webp','/img/coqueiral24/03.webp','/img/coqueiral24/04.webp','/img/coqueiral24/05.webp','/img/coqueiral24/06.webp','/img/coqueiral24/07.webp','/img/coqueiral24/08.webp','/img/coqueiral24/09.webp','/img/coqueiral24/10.webp','/img/coqueiral24/11.webp','/img/coqueiral24/12.webp','/img/coqueiral24/13.webp','/img/coqueiral24/14.webp','/img/coqueiral24/15.webp','/img/coqueiral24/16.webp','/img/coqueiral24/17.webp','/img/coqueiral24/18.webp','/img/coqueiral24/19.webp','/img/coqueiral24/20.webp','/img/coqueiral24/21.webp','/img/coqueiral24/22.webp','/img/coqueiral24/23.webp','/img/coqueiral24/24.webp','/img/coqueiral24/25.webp','/img/coqueiral24/26.webp','/img/coqueiral24/27.webp','/img/coqueiral24/28.webp','/img/coqueiral24/29.webp','/img/coqueiral24/30.webp','/img/coqueiral24/31.webp','/img/coqueiral24/32.webp','/img/coqueiral24/33.webp','/img/coqueiral24/34.webp','/img/coqueiral24/35.webp','/img/coqueiral24/36.webp'], featured: false,
+  amenities: {
+    pt: ['Sala de estar ampla e totalmente envidraçada', 'Piscina privativa', 'Cozinha externa', 'Salão de convivência', 'Lounge externo amplo', 'Banheiros internos e externos', 'Jardim integrado aos ambientes', 'Suíte principal com mais de 50 m², closet e jardim privativo', 'Suíte superior com vista para a mata e quarto anexo', 'Suíte inferior com duchas duplas e metais em cobre', 'Quarto adicional com 2 camas de casal', 'Decoração com obras de artistas locais e materiais naturais', 'Condomínio fechado a 2,5 km do Quadrado'],
+    en: ['Spacious fully glazed living room', 'Private pool', 'Outdoor kitchen', 'Gathering hall', 'Large outdoor lounge', 'Indoor and outdoor bathrooms', 'Garden integrated into the spaces', 'Master suite with over 50 m², walk-in closet and private garden', 'Upper suite with forest views and adjoining bedroom', 'Lower suite with double showers and copper fixtures', 'Additional bedroom with 2 double beds', 'Decor with works by local artists and natural materials', 'Gated condominium 2.5 km from the Quadrado'],
+  },
+  staff: {
+    pt: ['Cozinheira', 'Camareira', 'Jardineiro', 'Piscineiro'],
+    en: ['Cook', 'Housekeeper', 'Gardener', 'Pool attendant'],
+  },
+  description: {
+    pt: 'Localizada no Condomínio Coqueiral, a aproximadamente 2,5 km do Quadrado Histórico, a Casa 24 Coqueiral é uma propriedade ampla, acolhedora e cercada pela natureza. Com cerca de 500 m² de área construída, foi planejada para oferecer conforto, liberdade e integração entre os ambientes internos e externos.\n\nA arquitetura privilegia espaços generosos, muita luz natural e uma relação constante com o jardim. A decoração combina obras de artistas locais, peças garimpadas em diferentes lugares e materiais naturais, criando uma atmosfera autêntica, alegre e cheia de personalidade.\n\nA casa dispõe de três suítes e um quarto adicional com duas camas de casal. A suíte principal, com mais de 50 m², conta com closet e um amplo banheiro integrado a um jardim privativo. A suíte superior oferece vista para a mata e para a área de lazer, além de um quarto anexo, ideal para famílias que desejam permanecer próximas com mais privacidade. A suíte inferior, a mais recente da propriedade, possui banheiro espaçoso, duchas duplas e metais em cobre.\n\nNa casa principal, a sala de estar totalmente envidraçada permite contemplar o verde durante todo o dia. Já a área de lazer reúne piscina, cozinha externa, salão de convivência e um lounge amplo, formando o cenário perfeito para refeições, descanso e momentos em grupo.\n\nCom staff incluído e uma localização estratégica em Trancoso, a Casa 24 Coqueiral é uma ótima escolha para famílias e grupos de amigos que valorizam conforto, natureza e uma experiência de hospedagem com personalidade.',
+    en: 'Located in the Coqueiral Condominium, approximately 2.5 km from the Historic Quadrado, Casa 24 Coqueiral is a spacious, welcoming property surrounded by nature. With about 500 m² of built area, it was designed to offer comfort, freedom and integration between indoor and outdoor spaces.\n\nThe architecture favors generous spaces, abundant natural light and a constant relationship with the garden. The decor combines works by local artists, pieces gathered from different places and natural materials, creating an authentic, joyful atmosphere full of personality.\n\nThe house has three suites and an additional bedroom with two double beds. The master suite, with over 50 m², features a walk-in closet and a large bathroom integrated into a private garden. The upper suite offers views of the forest and the leisure area, plus an adjoining bedroom, ideal for families who wish to stay close with more privacy. The lower suite, the newest in the property, has a spacious bathroom, double showers and copper fixtures.\n\nIn the main house, the fully glazed living room allows guests to contemplate the greenery throughout the day. The leisure area brings together a pool, outdoor kitchen, gathering hall and a large lounge, forming the perfect setting for meals, rest and group moments.\n\nWith staff included and a strategic location in Trancoso, Casa 24 Coqueiral is a great choice for families and groups of friends who value comfort, nature and a lodging experience with personality.',
+  },
+  locationDetail: {
+    pt: 'Condomínio Coqueiral, Trancoso — aproximadamente 2,5 km do Quadrado Histórico, com fácil acesso às praias, restaurantes e principais pontos da vila.',
+    en: 'Coqueiral Condominium, Trancoso — approximately 2.5 km from the Historic Quadrado, with easy access to beaches, restaurants and the main spots in the village.',
+  },
+  features: ['piscina', 'condominio'],
+};
 const V7: Property = {
   id: 'casa-v7-altos-de-trancoso', code: 'TBA-320', name: { pt: 'Casa V7', en: 'Casa V7' },
   purpose: ['aluguel'], location: 'Altos de Trancoso', suites: 3, guests: 6, baths: 2, area: '168 m²',
@@ -2643,7 +2670,7 @@ const MIA: Property = {
   },
 };
 
-PROPERTIES.unshift(V7, MARTINI, SANTARITA, PATIMIRIM, DAJU, BUENO, BONITA, AREIA, COQUEIRAL22, SUBLIME, ESTRELA, VISTANATIVOS, TERRAL, ITAPO01, ATENA, JACARANDA04, COQUEIRAL14, COQUEIRAL02, CASAMARIA, ALMESCLA, CASAMAR, GEIGER, COQUEIRAL01, MIA, COQUEIRAL25, MAION, DADINHO, IANDE, MAGIVI, OITI, COQUEIRAL13, COQUEIRAL7, NAOCA, CASA71, CAJU, SANMARCO, CASA14, CASA09, BOSSA, TUA, IMBIRUCU, CASA42, CASA61, VILAS02, CASA80, ITAPO07, CASA96, CASA90, VILAS75, LIMOEIRO, BIRIBA, VILAMAR, BETTONI, PINI, AUREA, SAOJORGE, CAZA, ITAPO06, ITAPO04, ALEGRIA, PONTA, PG11, PG111, PG104, MANDACARU, PONTARB, FALESIA, RAIZES, PONTABARRA, FASANO10, FASANO16, FASANO17, VILAS26, GOLF58, FLORESTA, VILAS41, VILAS67, BOUTIQUE13, ARACUA, JACARANDA03, TEIU, GOLF25, PG50, CASAEDO, BALEIA, PG55, GOLF72, PITANGA, AFRICA, TEMPO07, TEMPO08, TEMPO06, BOSQUE, PATIO, PG32, PG45, LICURI, DIVINA, TRESMENINAS, PEROBA, MORENA, MOA, BRAGA, CUMARU, JACARANDA05, TB14, MACONDO, RICK);
+PROPERTIES.unshift(C24, V7, MARTINI, SANTARITA, PATIMIRIM, DAJU, BUENO, BONITA, AREIA, COQUEIRAL22, SUBLIME, ESTRELA, VISTANATIVOS, TERRAL, ITAPO01, ATENA, JACARANDA04, COQUEIRAL14, COQUEIRAL02, CASAMARIA, ALMESCLA, CASAMAR, GEIGER, COQUEIRAL01, MIA, COQUEIRAL25, MAION, DADINHO, IANDE, MAGIVI, OITI, COQUEIRAL13, COQUEIRAL7, NAOCA, CASA71, CAJU, SANMARCO, CASA14, CASA09, BOSSA, TUA, IMBIRUCU, CASA42, CASA61, VILAS02, CASA80, ITAPO07, CASA96, CASA90, VILAS75, LIMOEIRO, BIRIBA, VILAMAR, BETTONI, PINI, AUREA, SAOJORGE, CAZA, ITAPO06, ITAPO04, ALEGRIA, PONTA, PG11, PG111, PG104, MANDACARU, PONTARB, FALESIA, RAIZES, PONTABARRA, FASANO10, FASANO16, FASANO17, VILAS26, GOLF58, FLORESTA, VILAS41, VILAS67, BOUTIQUE13, ARACUA, JACARANDA03, TEIU, GOLF25, PG50, CASAEDO, BALEIA, PG55, GOLF72, PITANGA, AFRICA, TEMPO07, TEMPO08, TEMPO06, BOSQUE, PATIO, PG32, PG45, LICURI, DIVINA, TRESMENINAS, PEROBA, MORENA, MOA, BRAGA, CUMARU, JACARANDA05, TB14, MACONDO, RICK);
 
 export const WHATSAPP = '5573999141382';
 
