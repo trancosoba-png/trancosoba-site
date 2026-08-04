@@ -36,6 +36,72 @@ export const SUITE_PAR = /configura[cç][aã]o das su[ií]tes|suite layout|distr
 type SuiteGroup = { title: string; master?: string; suites?: [string, string][] };
 type HouseSuites = { groups: SuiteGroup[]; footer?: string };
 const SUITES_BY_ID: Record<string, Record<'pt' | 'en', HouseSuites>> = {
+  'casa-estrela-praia-dos-nativos': {
+    pt: {
+      groups: [
+        { title: 'Casa Principal', suites: [
+          ['Suíte Master', '1 cama king-size · mosquiteiro · TV · ar-condicionado · varanda · banheiro com banheira'],
+        ] },
+        { title: 'Casa 2', suites: [
+          ['Suíte 02', '1 cama de casal · mosquiteiro · ventilador · TV · ar-condicionado'],
+          ['Suíte 03', '1 cama de casal e 2 camas de solteiro · ventilador · ar-condicionado'],
+          ['Suíte 04', '1 cama de casal · mosquiteiro · ventilador · ar-condicionado'],
+        ] },
+        { title: 'Casa 3', suites: [
+          ['Suíte 05', '1 cama king-size · TV · ar-condicionado · varanda'],
+          ['Quarto 06', '1 cama de casal · berço · ar-condicionado'],
+        ] },
+      ],
+      footer: 'Capacidade para até 16 hóspedes.',
+    },
+    en: {
+      groups: [
+        { title: 'Main House', suites: [
+          ['Master Suite', '1 king-size bed · mosquito net · TV · air conditioning · veranda · bathroom with bathtub'],
+        ] },
+        { title: 'House 2', suites: [
+          ['Suite 02', '1 double bed · mosquito net · fan · TV · air conditioning'],
+          ['Suite 03', '1 double bed and 2 single beds · fan · air conditioning'],
+          ['Suite 04', '1 double bed · mosquito net · fan · air conditioning'],
+        ] },
+        { title: 'House 3', suites: [
+          ['Suite 05', '1 king-size bed · TV · air conditioning · veranda'],
+          ['Bedroom 06', '1 double bed · crib · air conditioning'],
+        ] },
+      ],
+      footer: 'Capacity for up to 16 guests.',
+    },
+  },
+  'casa-sublime-praia-dos-nativos': {
+    pt: {
+      groups: [
+        { title: '', suites: [
+          ['Suíte Master · 150 m²', '1 cama king-size · mosquiteiro · ar-condicionado · amplo closet · sofá-cama · escritório · banheiro com duas cubas e dois chuveiros · deck de frente para o mar e passarela de contemplação'],
+          ['Suíte 01 · Casa Cristal · 150 m²', '1 cama king-size · mosquiteiro · ar-condicionado · closet · escrivaninha · banheiro com duas cubas e dois chuveiros · terraço voltado para o mar'],
+          ['Suíte 02 · Casa Ametista · 90 m²', '1 cama king-size · mosquiteiro · ar-condicionado · sofá-cama de casal · sala de apoio · banheiro integrado a jardim privativo · deck com rede'],
+          ['Suíte 03 · Casa Nirvana · 90 m²', '1 cama king-size · mosquiteiro · ar-condicionado · sofá · escrivaninha · terraço-deck com sofá e rede · vista para o mar'],
+          ['Suíte 04 · Casa Lua · 60 m²', '4 camas de solteiro (duas podem ser configuradas como 1 cama king-size) · ar-condicionado · sofá · banheiro integrado a jardim'],
+          ['Suíte 05 · Casa Sol · 90 m²', '1 cama king-size · mosquiteiro · ar-condicionado · sofá-cama de solteiro · closet · banheiro com duas cubas e dois chuveiros · terraço-deck com vista para o mar'],
+          ['Suíte 06 · Casa Mata · 90 m²', '1 cama king-size · mosquiteiro · ar-condicionado · sofá-cama de casal · banheiro integrado ao jardim · deck e rede'],
+        ] },
+      ],
+      footer: 'Capacidade para até 16 hóspedes. Até 20 pessoas mediante consulta e aprovação prévia.',
+    },
+    en: {
+      groups: [
+        { title: '', suites: [
+          ['Master Suite · 150 m²', '1 king-size bed · mosquito net · air conditioning · large closet · sofa bed · office · bathroom with two sinks and two showers · seafront deck and contemplation walkway'],
+          ['Suite 01 · Casa Cristal · 150 m²', '1 king-size bed · mosquito net · air conditioning · closet · desk · bathroom with two sinks and two showers · terrace facing the sea'],
+          ['Suite 02 · Casa Ametista · 90 m²', '1 king-size bed · mosquito net · air conditioning · double sofa bed · support room · bathroom integrated into a private garden · deck with hammock'],
+          ['Suite 03 · Casa Nirvana · 90 m²', '1 king-size bed · mosquito net · air conditioning · sofa · desk · large terrace-deck with sofa and hammock · sea view'],
+          ['Suite 04 · Casa Lua · 60 m²', '4 single beds (two can be configured as 1 king-size bed) · air conditioning · sofa · bathroom integrated into a garden'],
+          ['Suite 05 · Casa Sol · 90 m²', '1 king-size bed · mosquito net · air conditioning · single sofa bed · closet · bathroom with two sinks and two showers · terrace-deck with sea view'],
+          ['Suite 06 · Casa Mata · 90 m²', '1 king-size bed · mosquito net · air conditioning · double sofa bed · bathroom integrated into the garden · deck and hammock'],
+        ] },
+      ],
+      footer: 'Capacity for up to 16 guests. Up to 20 people upon consultation and prior approval.',
+    },
+  },
   'casa-vista-nativos': {
     pt: {
       groups: [

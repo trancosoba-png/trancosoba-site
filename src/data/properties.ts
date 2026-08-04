@@ -2155,6 +2155,64 @@ const COQUEIRAL14: Property = {
   },
 };
 
+const ESTRELA: Property = {
+  id: 'casa-estrela-praia-dos-nativos', code: 'TBA-310', name: { pt: 'Casa Estrela', en: 'Casa Estrela' },
+  purpose: ['aluguel'], location: 'Praia dos Nativos', suites: 5, guests: 16, baths: 7, area: '—',
+  price: { pt: 'R$ 25.300 / diária', en: 'R$ 25,300 / night' },
+  priceLow: { pt: 'R$ 21.450 / diária', en: 'R$ 21,450 / night' },
+  carnaval: { pt: 'Sob consulta', en: 'Upon request' },
+  reveillon: { pt: 'Sob consulta', en: 'Upon request' },
+  image: '/img/estrela/01.jpg',
+  gallery: ['/img/estrela/01.webp','/img/estrela/02.webp','/img/estrela/03.webp','/img/estrela/04.webp','/img/estrela/05.webp','/img/estrela/06.webp','/img/estrela/07.webp','/img/estrela/08.webp','/img/estrela/09.webp','/img/estrela/10.webp','/img/estrela/11.webp','/img/estrela/12.webp','/img/estrela/13.webp','/img/estrela/14.webp','/img/estrela/15.webp','/img/estrela/16.webp','/img/estrela/17.webp','/img/estrela/18.webp','/img/estrela/19.webp','/img/estrela/20.webp','/img/estrela/21.webp','/img/estrela/22.webp','/img/estrela/23.webp','/img/estrela/24.webp','/img/estrela/25.webp','/img/estrela/26.webp','/img/estrela/27.webp','/img/estrela/28.webp','/img/estrela/29.webp','/img/estrela/30.webp','/img/estrela/31.webp','/img/estrela/32.webp','/img/estrela/33.webp','/img/estrela/34.webp','/img/estrela/35.webp'], featured: false,
+  amenities: {
+    pt: ['Três construções independentes integradas ao jardim', 'Piscina privativa cercada pela vegetação', 'Salas de estar, televisão e jantar', 'Cozinha principal totalmente equipada', 'Segunda cozinha na Casa 2', 'Rooftop com vista para o mar', 'Mesa e aparelhos de jantar para até 16 pessoas', 'Jardins tropicais', 'A poucos passos do mar', 'Ar-condicionado', 'Mosquiteiros', 'TV'],
+    en: ['Three independent buildings integrated into the garden', 'Private pool surrounded by vegetation', 'Living, TV and dining rooms', 'Fully equipped main kitchen', 'Second kitchen in House 2', 'Rooftop with sea view', 'Dining table and tableware for up to 16 people', 'Tropical gardens', 'A few steps from the sea', 'Air conditioning', 'Mosquito nets', 'TV'],
+  },
+  staff: {
+    pt: ['2 arrumadeiras', '1 cozinheira', '1 auxiliar de cozinha', '1 copeiro', '1 barman', '1 segurança', '1 caseiro', '1 gerente'],
+    en: ['2 housekeepers', '1 cook', '1 kitchen assistant', '1 butler\'s assistant', '1 bartender', '1 security guard', '1 caretaker', '1 manager'],
+  },
+  description: {
+    pt: 'A Casa Estrela está localizada na Praia dos Nativos, em Trancoso, e oferece uma combinação especial de conforto, privacidade e contato direto com a natureza. Inserida em um terreno amplamente arborizado, a propriedade reúne jardins tropicais, piscina privativa e três construções independentes, criando diferentes ambientes para descanso e convivência.\n\nA arquitetura e a decoração valorizam referências da cultura baiana, com cores vibrantes, materiais naturais e detalhes artesanais que se harmonizam com a vegetação presente em toda a propriedade. A distribuição dos espaços permite acomodar famílias e grupos com tranquilidade, preservando a privacidade entre as diferentes alas da casa.\n\nA casa principal concentra os ambientes sociais, com salas de estar, televisão e jantar, além de cozinha totalmente equipada. As outras construções abrigam suítes e quartos confortáveis, uma segunda cozinha, espaços de televisão e um rooftop com vista para o mar.\n\nCom capacidade para até 16 hóspedes, staff completo e ambientes preparados para diferentes momentos do dia, a Casa Estrela proporciona uma estadia acolhedora e prática em uma das regiões mais desejadas de Trancoso.',
+    en: 'Casa Estrela is located on Praia dos Nativos, in Trancoso, and offers a special combination of comfort, privacy and direct contact with nature. Set on a widely wooded plot, the property brings together tropical gardens, a private pool and three independent buildings, creating different environments for rest and conviviality.\n\nThe architecture and décor value references to Bahian culture, with vibrant colors, natural materials and handcrafted details that harmonize with the vegetation present throughout the property. The layout of the spaces allows families and groups to be accommodated with tranquility, preserving privacy between the different wings of the house.\n\nThe main house concentrates the social areas, with living, television and dining rooms, in addition to a fully equipped kitchen. The other buildings house comfortable suites and bedrooms, a second kitchen, television spaces and a rooftop with sea views.\n\nWith capacity for up to 16 guests, full staff and environments prepared for different moments of the day, Casa Estrela provides a welcoming and practical stay in one of the most desirable regions of Trancoso.',
+  },
+  notes: { pt: ['Capacidade máxima de 16 hóspedes.', 'A composição e os horários da equipe devem ser confirmados no momento da reserva.'], en: ['Maximum capacity of 16 guests.', 'Staff composition and schedules must be confirmed at the time of booking.'] },
+  locationDetail: {
+    pt: 'Praia dos Nativos, Trancoso – Bahia. Propriedade a poucos passos do mar.',
+    en: 'Praia dos Nativos, Trancoso – Bahia. Property a few steps from the sea.',
+  },
+  features: ['piscina', 'vista-mar'],
+};
+
+const SUBLIME: Property = {
+  id: 'casa-sublime-praia-dos-nativos', code: 'TBA-311', name: { pt: 'Casa Sublime', en: 'Casa Sublime' },
+  purpose: ['aluguel'], location: 'Praia dos Nativos', suites: 7, guests: 16, baths: 8, area: '1.200 m²',
+  price: { pt: 'R$ 46.000 / diária', en: 'R$ 46,000 / night' },
+  priceLow: { pt: 'R$ 34.500 / diária', en: 'R$ 34,500 / night' },
+  carnaval: { pt: 'R$ 181.500 (pacote de 5 dias)', en: 'R$ 181,500 (5-day package)' },
+  reveillon: { pt: 'Sob consulta', en: 'Upon request' },
+  image: '/img/sublime/01.jpg',
+  gallery: ['/img/sublime/01.webp','/img/sublime/02.webp','/img/sublime/03.webp','/img/sublime/04.webp','/img/sublime/05.webp','/img/sublime/06.webp','/img/sublime/07.webp','/img/sublime/08.webp','/img/sublime/09.webp','/img/sublime/10.webp','/img/sublime/11.webp','/img/sublime/12.webp','/img/sublime/13.webp','/img/sublime/14.webp','/img/sublime/15.webp','/img/sublime/16.webp','/img/sublime/17.webp','/img/sublime/18.webp','/img/sublime/19.webp','/img/sublime/20.webp','/img/sublime/21.webp','/img/sublime/22.webp','/img/sublime/23.webp','/img/sublime/24.webp','/img/sublime/25.webp','/img/sublime/26.webp','/img/sublime/27.webp','/img/sublime/28.webp','/img/sublime/29.webp','/img/sublime/30.webp','/img/sublime/31.webp','/img/sublime/32.webp','/img/sublime/33.webp','/img/sublime/34.webp','/img/sublime/35.webp'], featured: false,
+  amenities: {
+    pt: ['Casa pé na areia na Praia dos Nativos', '125 metros de frente para uma faixa de praia reservada', 'Mais de 36.000 m² de mata nativa', 'Sete suítes amplas', 'Vista para o mar, piscina, jardins e mata', 'Bar e estrutura de apoio à beira-mar', 'Cozinha profissional e forno a lenha', 'Sala de entretenimento de aproximadamente 80 m², com TV e mesas de jogos', 'Espaço rústico de ginástica', 'Piscina cercada por jardins', 'Terraços, decks e áreas de descanso voltados para o mar', 'Acesso direto à praia'],
+    en: ['Beachfront house on Praia dos Nativos', '125 meters of frontage on a private stretch of beach', 'Over 36,000 m² of native forest', 'Seven spacious suites', 'Views of the sea, pool, gardens and forest', 'Beachfront bar and support structure', 'Professional kitchen and wood-fired oven', 'Entertainment room of approximately 80 m², with TV and game tables', 'Rustic gym space', 'Pool surrounded by gardens', 'Terraces, decks and rest areas facing the sea', 'Direct beach access'],
+  },
+  staff: {
+    pt: ['1 cozinheira', '2 ajudantes de cozinha', '2 arrumadeiras', '1 jardineiro/piscineiro'],
+    en: ['1 cook', '2 kitchen helpers', '2 housekeepers', '1 gardener/pool attendant'],
+  },
+  description: {
+    pt: 'A Casa Sublime ocupa uma posição verdadeiramente singular na Praia dos Nativos. Com aproximadamente 125 metros de frente para uma faixa de praia reservada e inserida em uma propriedade com mais de 36.000 m² de mata nativa, oferece uma combinação rara de privacidade, amplitude e contato direto com a natureza.\n\nProjetada para receber famílias e grupos com conforto, a residência reúne sete suítes espaçosas, distribuídas entre jardins, decks e áreas de contemplação. Os ambientes foram pensados para aproveitar a luz natural, a brisa do mar e as diferentes paisagens da propriedade, criando uma atmosfera serena e profundamente conectada ao entorno.\n\nA área social se estende entre a piscina, os jardins e a praia, com espaços destinados ao convívio, às refeições e ao descanso. A casa também dispõe de estrutura completa de cozinha, bar à beira-mar, sala de entretenimento e ambiente de ginástica, garantindo praticidade e bem-estar durante toda a estadia.\n\nCom capacidade confortável para até 16 hóspedes, a propriedade pode receber até 20 pessoas em configurações específicas, mediante consulta e aprovação prévia.',
+    en: 'Casa Sublime occupies a truly unique position on Praia dos Nativos. With approximately 125 meters of frontage on a private stretch of beach and set within a property of more than 36,000 m² of native forest, it offers a rare combination of privacy, spaciousness and direct contact with nature.\n\nDesigned to receive families and groups in comfort, the residence brings together seven spacious suites, distributed among gardens, decks and contemplation areas. The environments were designed to enjoy natural light, the sea breeze and the different landscapes of the property, creating a serene atmosphere deeply connected to the surroundings.\n\nThe social area extends between the pool, the gardens and the beach, with spaces dedicated to conviviality, meals and rest. The house also has a complete kitchen structure, beachfront bar, entertainment room and gym area, ensuring practicality and well-being throughout the stay.\n\nWith comfortable capacity for up to 16 guests, the property can receive up to 20 people in specific configurations, upon consultation and prior approval.',
+  },
+  notes: { pt: ['Capacidade padrão de até 16 hóspedes. Acomodação de até 20 pessoas sujeita à configuração dos quartos, disponibilidade e aprovação prévia.', 'Estadia mínima, caução, taxa de serviço e demais condições comerciais são informadas de acordo com o período solicitado.'], en: ['Standard capacity of up to 16 guests. Accommodation of up to 20 people subject to room configuration, availability and prior approval.', 'Minimum stay, security deposit, service fee and other commercial conditions are informed according to the requested period.'] },
+  locationDetail: {
+    pt: 'Praia dos Nativos, Trancoso – Bahia. Casa pé na areia, com 125 metros de frente para uma faixa de praia reservada e mais de 36.000 m² de mata nativa.',
+    en: 'Praia dos Nativos, Trancoso – Bahia. Beachfront house, with 125 meters of frontage on a private stretch of beach and over 36,000 m² of native forest.',
+  },
+  features: ['pe-na-areia', 'piscina', 'vista-mar'],
+};
+
 const VISTANATIVOS: Property = {
   id: 'casa-vista-nativos', code: 'TBA-309', name: { pt: 'Casa Vista Nativos', en: 'Casa Vista Nativos' },
   purpose: ['aluguel'], location: 'Praia dos Nativos', suites: 5, guests: 13, baths: 5, area: '300 m²',
@@ -2295,7 +2353,7 @@ const MIA: Property = {
   },
 };
 
-PROPERTIES.unshift(VISTANATIVOS, TERRAL, ITAPO01, ATENA, JACARANDA04, COQUEIRAL14, COQUEIRAL02, CASAMARIA, ALMESCLA, CASAMAR, GEIGER, COQUEIRAL01, MIA, COQUEIRAL25, MAION, DADINHO, IANDE, MAGIVI, OITI, COQUEIRAL13, COQUEIRAL7, NAOCA, CASA71, CAJU, SANMARCO, CASA14, CASA09, BOSSA, TUA, IMBIRUCU, CASA42, CASA61, VILAS02, CASA80, ITAPO07, CASA96, CASA90, VILAS75, LIMOEIRO, BIRIBA, VILAMAR, BETTONI, PINI, AUREA, SAOJORGE, CAZA, ITAPO06, ITAPO04, ALEGRIA, PONTA, PG11, PG111, PG104, MANDACARU, PONTARB, FALESIA, RAIZES, PONTABARRA, FASANO10, FASANO16, FASANO17, VILAS26, GOLF58, FLORESTA, VILAS41, VILAS67, BOUTIQUE13, ARACUA, JACARANDA03, TEIU, GOLF25, PG50, CASAEDO, BALEIA, PG55, GOLF72, PITANGA, AFRICA, TEMPO07, TEMPO08, TEMPO06, BOSQUE, PATIO, PG32, PG45, LICURI, DIVINA, TRESMENINAS, PEROBA, MORENA, MOA, BRAGA, CUMARU, JACARANDA05, TB14, MACONDO, RICK);
+PROPERTIES.unshift(SUBLIME, ESTRELA, VISTANATIVOS, TERRAL, ITAPO01, ATENA, JACARANDA04, COQUEIRAL14, COQUEIRAL02, CASAMARIA, ALMESCLA, CASAMAR, GEIGER, COQUEIRAL01, MIA, COQUEIRAL25, MAION, DADINHO, IANDE, MAGIVI, OITI, COQUEIRAL13, COQUEIRAL7, NAOCA, CASA71, CAJU, SANMARCO, CASA14, CASA09, BOSSA, TUA, IMBIRUCU, CASA42, CASA61, VILAS02, CASA80, ITAPO07, CASA96, CASA90, VILAS75, LIMOEIRO, BIRIBA, VILAMAR, BETTONI, PINI, AUREA, SAOJORGE, CAZA, ITAPO06, ITAPO04, ALEGRIA, PONTA, PG11, PG111, PG104, MANDACARU, PONTARB, FALESIA, RAIZES, PONTABARRA, FASANO10, FASANO16, FASANO17, VILAS26, GOLF58, FLORESTA, VILAS41, VILAS67, BOUTIQUE13, ARACUA, JACARANDA03, TEIU, GOLF25, PG50, CASAEDO, BALEIA, PG55, GOLF72, PITANGA, AFRICA, TEMPO07, TEMPO08, TEMPO06, BOSQUE, PATIO, PG32, PG45, LICURI, DIVINA, TRESMENINAS, PEROBA, MORENA, MOA, BRAGA, CUMARU, JACARANDA05, TB14, MACONDO, RICK);
 
 export const WHATSAPP = '5573999141382';
 
