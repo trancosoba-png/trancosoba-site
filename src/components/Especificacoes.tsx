@@ -36,6 +36,32 @@ export const SUITE_PAR = /configura[cç][aã]o das su[ií]tes|suite layout|distr
 type SuiteGroup = { title: string; master?: string; suites?: [string, string][] };
 type HouseSuites = { groups: SuiteGroup[]; footer?: string };
 const SUITES_BY_ID: Record<string, Record<'pt' | 'en', HouseSuites>> = {
+  'casa-coqueiral-21': {
+    pt: {
+      groups: [
+        { title: 'Quartos', suites: [
+          ['Quarto 01', '1 cama de casal · ar-condicionado · TV · banheiro privativo · secador de cabelo'],
+          ['Quarto 02', '1 cama de casal · ar-condicionado · TV · banheiro privativo · secador de cabelo'],
+          ['Quarto 03', '1 cama de casal · ar-condicionado · TV · banheiro privativo · secador de cabelo'],
+          ['Quarto 04', '1 cama de casal grande · ar-condicionado · TV · banheiro privativo · secador de cabelo'],
+          ['Quarto 05', '1 cama de casal · ar-condicionado · TV · banheiro privativo · secador de cabelo'],
+        ] },
+      ],
+      footer: 'Capacidade para até 12 hóspedes, com 1 sofá-cama adicional. 6 banheiros.',
+    },
+    en: {
+      groups: [
+        { title: 'Bedrooms', suites: [
+          ['Bedroom 01', '1 double bed · air conditioning · TV · private bathroom · hairdryer'],
+          ['Bedroom 02', '1 double bed · air conditioning · TV · private bathroom · hairdryer'],
+          ['Bedroom 03', '1 double bed · air conditioning · TV · private bathroom · hairdryer'],
+          ['Bedroom 04', '1 large double bed · air conditioning · TV · private bathroom · hairdryer'],
+          ['Bedroom 05', '1 double bed · air conditioning · TV · private bathroom · hairdryer'],
+        ] },
+      ],
+      footer: 'Capacity for up to 12 guests, with 1 additional sofa bed. 6 bathrooms.',
+    },
+  },
   'casa-coqueiral-24': {
     pt: {
       groups: [
