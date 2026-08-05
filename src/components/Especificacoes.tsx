@@ -36,6 +36,38 @@ export const SUITE_PAR = /configura[cç][aã]o das su[ií]tes|suite layout|distr
 type SuiteGroup = { title: string; master?: string; suites?: [string, string][] };
 type HouseSuites = { groups: SuiteGroup[]; footer?: string };
 const SUITES_BY_ID: Record<string, Record<'pt' | 'en', HouseSuites>> = {
+  'casa-14-joao-vieira': {
+    pt: {
+      groups: [
+        {
+          title: 'Suítes',
+          suites: [
+            ['Suíte 01', '1 cama King Size · Ar-condicionado · Banheiro privativo'],
+            ['Suíte 02', '1 cama King Size · Ar-condicionado · Banheiro privativo'],
+            ['Suíte 03', '1 cama Queen Size · Ar-condicionado · Banheiro privativo'],
+            ['Suíte 04', '1 cama Queen Size · Ar-condicionado · Banheiro privativo'],
+            ['Suíte 05', '2 camas de solteiro · Ar-condicionado · Banheiro privativo'],
+          ],
+        },
+      ],
+      footer: 'Capacidade para até 10 hóspedes. 5 banheiros privativos e 1 banheiro de apoio à piscina.',
+    },
+    en: {
+      groups: [
+        {
+          title: 'Suites',
+          suites: [
+            ['Suite 01', '1 King Size bed · Air conditioning · Private bathroom'],
+            ['Suite 02', '1 King Size bed · Air conditioning · Private bathroom'],
+            ['Suite 03', '1 Queen Size bed · Air conditioning · Private bathroom'],
+            ['Suite 04', '1 Queen Size bed · Air conditioning · Private bathroom'],
+            ['Suite 05', '2 twin beds · Air conditioning · Private bathroom'],
+          ],
+        },
+      ],
+      footer: 'Accommodates up to 10 guests. 5 private bathrooms and 1 pool support bathroom.',
+    },
+  },
   'casa-13-joao-vieira': {
     pt: {
       groups: [
