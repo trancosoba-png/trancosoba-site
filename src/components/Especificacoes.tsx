@@ -36,6 +36,84 @@ export const SUITE_PAR = /configura[cç][aã]o das su[ií]tes|suite layout|distr
 type SuiteGroup = { title: string; master?: string; suites?: [string, string][] };
 type HouseSuites = { groups: SuiteGroup[]; footer?: string };
 const SUITES_BY_ID: Record<string, Record<'pt' | 'en', HouseSuites>> = {
+  'casa-13-joao-vieira': {
+    pt: {
+      groups: [
+        {
+          title: 'Casa Principal',
+          suites: [
+            { name: 'Suíte 01', details: '1 cama King Size · Ar-condicionado · Mosquiteiro · Secador de cabelo' },
+            { name: 'Suíte 02', details: '2 camas de solteiro (conversíveis em 1 King Size) · Ar-condicionado · Mosquiteiro · Secador de cabelo' },
+            { name: 'Suíte 03', details: '1 cama Queen Size · Ar-condicionado · Secador de cabelo' },
+          ],
+        },
+        {
+          title: 'Chalé Externo',
+          suites: [
+            { name: 'Suíte 04', details: '1 cama King Size · Sofá-cama · Ar-condicionado · Mosquiteiro · Secador de cabelo' },
+          ],
+        },
+      ],
+      footer: 'Capacidade para até 8 hóspedes. 4 banheiros e lavabo.',
+    },
+    en: {
+      groups: [
+        {
+          title: 'Main House',
+          suites: [
+            { name: 'Suite 01', details: '1 King Size bed · Air conditioning · Mosquito net · Hair dryer' },
+            { name: 'Suite 02', details: '2 twin beds (convertible into 1 King Size) · Air conditioning · Mosquito net · Hair dryer' },
+            { name: 'Suite 03', details: '1 Queen Size bed · Air conditioning · Hair dryer' },
+          ],
+        },
+        {
+          title: 'External Bungalow',
+          suites: [
+            { name: 'Suite 04', details: '1 King Size bed · Sofa bed · Air conditioning · Mosquito net · Hair dryer' },
+          ],
+        },
+      ],
+      footer: 'Accommodates up to 8 guests. 4 bathrooms and a powder room.',
+    },
+  },
+  'casa-coqueiral-20': {
+    pt: {
+      groups: [
+        { title: 'Suítes Internas', suites: [
+          ['Suíte Master', 'Cama de casal · banheira de hidromassagem · ar-condicionado · banheiro privativo'],
+          ['Suíte 02', '1 cama de casal · ar-condicionado'],
+          ['Suíte 03', '1 cama de casal · ar-condicionado'],
+          ['Suíte 04', '1 cama de casal · ar-condicionado'],
+          ['Suíte 05', '2 camas de solteiro · ar-condicionado'],
+          ['Suíte 06', '2 camas de solteiro · ar-condicionado'],
+          ['Suíte 07', '3 camas de solteiro · ar-condicionado'],
+        ] },
+        { title: 'Suítes Externas', suites: [
+          ['Suíte 08', '1 cama de casal · ar-condicionado'],
+          ['Suíte 09', '2 camas de solteiro · ar-condicionado'],
+        ] },
+      ],
+      footer: 'Capacidade para até 21 hóspedes. 10 banheiros e 3 lavabos.',
+    },
+    en: {
+      groups: [
+        { title: 'Internal Suites', suites: [
+          ['Master Suite', 'Double bed · jacuzzi tub · air conditioning · private bathroom'],
+          ['Suite 02', '1 double bed · air conditioning'],
+          ['Suite 03', '1 double bed · air conditioning'],
+          ['Suite 04', '1 double bed · air conditioning'],
+          ['Suite 05', '2 single beds · air conditioning'],
+          ['Suite 06', '2 single beds · air conditioning'],
+          ['Suite 07', '3 single beds · air conditioning'],
+        ] },
+        { title: 'External Suites', suites: [
+          ['Suite 08', '1 double bed · air conditioning'],
+          ['Suite 09', '2 single beds · air conditioning'],
+        ] },
+      ],
+      footer: 'Capacity for up to 21 guests. 10 bathrooms and 3 guest bathrooms.',
+    },
+  },
   'casa-coqueiral-21': {
     pt: {
       groups: [

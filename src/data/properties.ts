@@ -2410,6 +2410,66 @@ const SANTARITA: Property = {
   features: ['pe-na-areia', 'piscina'],
 };
 
+const JV13: Property = {
+  id: 'casa-13-joao-vieira',
+  code: 'TBA-324',
+  name: { pt: 'Casa 13 João Vieira', en: 'Casa 13 João Vieira' },
+  purpose: ['aluguel'],
+  location: 'João Vieira',
+  suites: 4,
+  guests: 8,
+  baths: 4,
+  area: '400 m²',
+  price: 'Sob consulta',
+  priceLow: 'Sob consulta',
+  carnaval: 'Sob consulta',
+  reveillon: 'Sob consulta',
+  image: '/img/joaovieira13/01.jpg',
+  gallery: ['/img/joaovieira13/01.webp', '/img/joaovieira13/02.webp', '/img/joaovieira13/03.webp', '/img/joaovieira13/04.webp', '/img/joaovieira13/05.webp', '/img/joaovieira13/06.webp', '/img/joaovieira13/07.webp', '/img/joaovieira13/08.webp', '/img/joaovieira13/09.webp', '/img/joaovieira13/10.webp', '/img/joaovieira13/11.webp', '/img/joaovieira13/12.webp', '/img/joaovieira13/13.webp', '/img/joaovieira13/14.webp', '/img/joaovieira13/15.webp', '/img/joaovieira13/16.webp', '/img/joaovieira13/17.webp', '/img/joaovieira13/18.webp', '/img/joaovieira13/19.webp', '/img/joaovieira13/20.webp', '/img/joaovieira13/21.webp', '/img/joaovieira13/22.webp', '/img/joaovieira13/23.webp', '/img/joaovieira13/24.webp', '/img/joaovieira13/25.webp', '/img/joaovieira13/26.webp', '/img/joaovieira13/27.webp', '/img/joaovieira13/28.webp', '/img/joaovieira13/29.webp', '/img/joaovieira13/30.webp', '/img/joaovieira13/31.webp', '/img/joaovieira13/32.webp', '/img/joaovieira13/33.webp', '/img/joaovieira13/34.webp'],
+  amenities: {
+    pt: ['Ar-condicionado', 'Mosquiteiros', 'Adega de vinhos', 'Ofurô', 'Churrasqueira', 'Piscina privativa', 'Cozinha equipada', 'Poço artesiano', 'Espaço gourmet', 'Roupas de cama, mesa e banho', 'Espreguiçadeiras e ombrelone', 'Sala de estar', 'Estacionamento', 'Sala de jantar', 'Freezer', 'Secadores de cabelo', 'Wi-Fi', 'Som ambiente', 'Lavabo', 'Toalhas de praia', 'Lavanderia', 'Ventiladores', 'Máquina de gelo'],
+    en: ['Air conditioning', 'Mosquito nets', 'Wine cellar', 'Ofuro tub', 'Barbecue', 'Private pool', 'Equipped kitchen', 'Artesian well', 'Gourmet space', 'Bed, table and bath linens', 'Loungers and parasol', 'Living room', 'Parking', 'Dining room', 'Freezer', 'Hair dryers', 'Wi-Fi', 'Ambient sound system', 'Powder room', 'Beach towels', 'Laundry', 'Ceiling fans', 'Ice maker'],
+  },
+  staff: ['1 arrumadeira', '1 cozinheira', '1 jardineiro/piscineiro'],
+  description: {
+    pt: 'Em uma das áreas residenciais mais agradáveis de Trancoso, a Casa 13 João Vieira combina arquitetura, arte e natureza em uma proposta acolhedora e cheia de personalidade. A localização permite chegar rapidamente ao Quadrado Histórico, mantendo a tranquilidade de um bairro cercado por vegetação.\n\nO projeto valoriza a linguagem rústico-chique característica da vila, com estruturas em madeira e vidro que aproximam os ambientes do jardim tropical. A decoração reúne obras e peças de artistas brasileiros, mobiliário em madeira e elementos naturais escolhidos com cuidado, criando espaços elegantes sem perder a leveza de uma casa de praia.\n\nA propriedade acomoda até oito hóspedes em quatro suítes. Três delas estão na casa principal e a quarta ocupa um chalé independente, uma distribuição que oferece conforto para famílias e grupos de amigos, além de mais privacidade para quem prefere uma acomodação separada.\n\nNa área externa, a piscina privativa se integra ao deck de madeira, às redes, às espreguiçadeiras e ao espaço gourmet. Rodeado pelo jardim, esse conjunto se torna o principal ambiente de convivência da casa, ideal para refeições ao ar livre e dias tranquilos em Trancoso.\n\nCom arquitetura assinada pelo escritório Vida de Vila e paisagismo de Juliana Favarato, a Casa 13 João Vieira traduz uma forma autêntica de viver Trancoso, reunindo conforto, bom gosto e contato constante com a natureza.',
+    en: 'In one of the most pleasant residential areas of Trancoso, Casa 13 João Vieira combines architecture, art and nature in a welcoming proposal full of personality. The location allows quick access to the Historic Quadrado, while keeping the tranquility of a neighborhood surrounded by vegetation.\n\nThe project values the rustic-chic language characteristic of the village, with wood and glass structures that bring the spaces closer to the tropical garden. The décor brings together works and pieces by Brazilian artists, wooden furniture and carefully chosen natural elements, creating elegant spaces without losing the lightness of a beach house.\n\nThe property accommodates up to eight guests in four suites. Three of them are in the main house and the fourth occupies an independent bungalow, a layout that offers comfort for families and groups of friends, as well as more privacy for those who prefer separate accommodation.\n\nOutside, the private pool integrates with the wooden deck, hammocks, loungers and the gourmet space. Surrounded by the garden, this becomes the main gathering area of the house, ideal for outdoor meals and peaceful days in Trancoso.\n\nWith architecture by Vida de Vila and landscaping by Juliana Favarato, Casa 13 João Vieira translates an authentic way of living Trancoso, bringing together comfort, good taste and constant contact with nature.',
+  },
+  locationDetail: {
+    pt: 'Bairro residencial João Vieira, próxima ao Quadrado Histórico, com fácil acesso às praias, restaurantes e lojas da vila.',
+    en: 'Residential João Vieira neighborhood, close to the Historic Quadrado, with easy access to the village beaches, restaurants and shops.',
+  },
+  notes: ['A configuração das camas deverá ser solicitada previamente.'],
+  features: ['piscina'],
+};
+
+const C20: Property = {
+  id: 'casa-coqueiral-20', code: 'TBA-323', name: { pt: 'Casa Coqueiral 20', en: 'Casa Coqueiral 20' },
+  purpose: ['aluguel'], location: 'Condomínio Coqueiral', suites: 9, guests: 21, baths: 10, area: '620 m²',
+  price: { pt: 'R$ 6.000 / diária', en: 'R$ 6,000 / night' },
+  priceLow: { pt: 'R$ 4.000 / diária', en: 'R$ 4,000 / night' },
+  carnaval: { pt: 'Sob consulta', en: 'Upon request' },
+  reveillon: { pt: 'R$ 210.000 (pacote)', en: 'R$ 210,000 (package)' },
+  image: '/img/coqueiral20/01.jpg',
+  gallery: ['/img/coqueiral20/01.webp','/img/coqueiral20/02.webp','/img/coqueiral20/03.webp','/img/coqueiral20/04.webp','/img/coqueiral20/05.webp','/img/coqueiral20/06.webp','/img/coqueiral20/07.webp','/img/coqueiral20/08.webp','/img/coqueiral20/09.webp','/img/coqueiral20/10.webp','/img/coqueiral20/11.webp','/img/coqueiral20/12.webp','/img/coqueiral20/13.webp','/img/coqueiral20/14.webp','/img/coqueiral20/15.webp','/img/coqueiral20/16.webp','/img/coqueiral20/17.webp','/img/coqueiral20/18.webp','/img/coqueiral20/19.webp','/img/coqueiral20/20.webp','/img/coqueiral20/21.webp','/img/coqueiral20/22.webp','/img/coqueiral20/23.webp','/img/coqueiral20/24.webp','/img/coqueiral20/25.webp','/img/coqueiral20/26.webp','/img/coqueiral20/27.webp','/img/coqueiral20/28.webp','/img/coqueiral20/29.webp','/img/coqueiral20/30.webp','/img/coqueiral20/31.webp','/img/coqueiral20/32.webp','/img/coqueiral20/33.webp','/img/coqueiral20/34.webp','/img/coqueiral20/35.webp','/img/coqueiral20/36.webp'], featured: false,
+  amenities: {
+    pt: ['Piscina privativa com hidromassagem integrada', 'Espaço gourmet com churrasqueira', 'Sala de estar com TV de 80 polegadas', 'Sala de jantar com mesa para até 20 pessoas', 'Cozinha completa', 'Suíte master com banheira de hidromassagem', 'Ar-condicionado nas suítes', 'Varandas com redes', 'Jardim com ducha externa', 'Área de lazer para crianças', 'Lavanderia equipada com lavadora e secadora', 'Wi-Fi', 'TV a cabo', 'Roupas de cama e banho', 'Estacionamento privativo', 'Condomínio fechado com segurança 24 horas'],
+    en: ['Private pool with integrated jacuzzi', 'Gourmet space with barbecue', 'Living room with 80-inch TV', 'Dining room with table for up to 20 people', 'Full kitchen', 'Master suite with jacuzzi tub', 'Air conditioning in the suites', 'Verandas with hammocks', 'Garden with outdoor shower', 'Leisure area for children', 'Laundry room with washer and dryer', 'Wi-Fi', 'Cable TV', 'Bed and bath linens', 'Private parking', 'Gated condominium with 24-hour security'],
+  },
+  staff: {
+    pt: ['Camareira', 'Serviço de limpeza', 'Manutenção da piscina', 'Manutenção do jardim'],
+    en: ['Housekeeper', 'Cleaning service', 'Pool maintenance', 'Garden maintenance'],
+  },
+  description: {
+    pt: 'Localizada no Condomínio Coqueiral, a Casa Coqueiral 20 é uma propriedade ampla e confortável, ideal para receber famílias numerosas e grupos de amigos em Trancoso. Implantada em um terreno de aproximadamente 1.000 m², a residência oferece espaços generosos, boa integração entre as áreas internas e externas e estrutura completa para estadias em grupo.\n\nCom nove suítes e capacidade para até 21 hóspedes, a casa foi planejada para proporcionar praticidade, privacidade e conforto. Sete suítes estão distribuídas na área interna da residência e duas ficam em estruturas externas, permitindo uma acomodação mais flexível entre adultos, crianças e diferentes núcleos familiares.\n\nA área social reúne sala de estar com TV de 80 polegadas, sala de jantar com mesa para até 20 pessoas e cozinha completa. Na área externa, a piscina com hidromassagem integrada se conecta ao jardim e ao espaço gourmet com churrasqueira, criando um ambiente agradável para refeições, descanso e momentos de convivência.\n\nA propriedade dispõe ainda de lavanderia equipada, estacionamento privativo, varanda com redes e espaços de lazer voltados para crianças. Com segurança 24 horas e acesso facilitado aos principais pontos de Trancoso, a Casa Coqueiral 20 combina amplitude, funcionalidade e uma atmosfera tranquila para aproveitar a vila com conforto.',
+    en: 'Located in the Coqueiral Condominium, Casa Coqueiral 20 is a spacious and comfortable property, ideal for hosting large families and groups of friends in Trancoso. Set on a plot of approximately 1,000 m², the residence offers generous spaces, good integration between indoor and outdoor areas and complete structure for group stays.\n\nWith nine suites and capacity for up to 21 guests, the house was planned to provide practicality, privacy and comfort. Seven suites are distributed in the main residence and two are in external structures, allowing more flexible accommodation among adults, children and different family groups.\n\nThe social area brings together a living room with an 80-inch TV, a dining room with a table for up to 20 people and a full kitchen. Outdoors, the pool with integrated jacuzzi connects to the garden and the gourmet space with barbecue, creating a pleasant setting for meals, rest and gathering moments.\n\nThe property also features an equipped laundry room, private parking, a veranda with hammocks and leisure spaces for children. With 24-hour security and easy access to the main spots in Trancoso, Casa Coqueiral 20 combines spaciousness, functionality and a peaceful atmosphere to enjoy the village in comfort.',
+  },
+  locationDetail: {
+    pt: 'Condomínio Coqueiral, Trancoso — condomínio fechado com segurança 24 horas, a aproximadamente 7 minutos de mercados, farmácias, restaurantes e praias, com fácil acesso ao Quadrado Histórico.',
+    en: 'Coqueiral Condominium, Trancoso — gated condominium with 24-hour security, approximately 7 minutes from markets, pharmacies, restaurants and beaches, with easy access to the Historic Quadrado.',
+  },
+  features: ['piscina', 'condominio'],
+};
 const C21: Property = {
   id: 'casa-coqueiral-21', code: 'TBA-322', name: { pt: 'Casa Coqueiral 21', en: 'Casa Coqueiral 21' },
   purpose: ['aluguel'], location: 'Condomínio Coqueiral', suites: 5, guests: 12, baths: 6, area: '—',
@@ -2697,7 +2757,7 @@ const MIA: Property = {
   },
 };
 
-PROPERTIES.unshift(C21, C24, V7, MARTINI, SANTARITA, PATIMIRIM, DAJU, BUENO, BONITA, AREIA, COQUEIRAL22, SUBLIME, ESTRELA, VISTANATIVOS, TERRAL, ITAPO01, ATENA, JACARANDA04, COQUEIRAL14, COQUEIRAL02, CASAMARIA, ALMESCLA, CASAMAR, GEIGER, COQUEIRAL01, MIA, COQUEIRAL25, MAION, DADINHO, IANDE, MAGIVI, OITI, COQUEIRAL13, COQUEIRAL7, NAOCA, CASA71, CAJU, SANMARCO, CASA14, CASA09, BOSSA, TUA, IMBIRUCU, CASA42, CASA61, VILAS02, CASA80, ITAPO07, CASA96, CASA90, VILAS75, LIMOEIRO, BIRIBA, VILAMAR, BETTONI, PINI, AUREA, SAOJORGE, CAZA, ITAPO06, ITAPO04, ALEGRIA, PONTA, PG11, PG111, PG104, MANDACARU, PONTARB, FALESIA, RAIZES, PONTABARRA, FASANO10, FASANO16, FASANO17, VILAS26, GOLF58, FLORESTA, VILAS41, VILAS67, BOUTIQUE13, ARACUA, JACARANDA03, TEIU, GOLF25, PG50, CASAEDO, BALEIA, PG55, GOLF72, PITANGA, AFRICA, TEMPO07, TEMPO08, TEMPO06, BOSQUE, PATIO, PG32, PG45, LICURI, DIVINA, TRESMENINAS, PEROBA, MORENA, MOA, BRAGA, CUMARU, JACARANDA05, TB14, MACONDO, RICK);
+PROPERTIES.unshift(JV13, C20, C21, C24, V7, MARTINI, SANTARITA, PATIMIRIM, DAJU, BUENO, BONITA, AREIA, COQUEIRAL22, SUBLIME, ESTRELA, VISTANATIVOS, TERRAL, ITAPO01, ATENA, JACARANDA04, COQUEIRAL14, COQUEIRAL02, CASAMARIA, ALMESCLA, CASAMAR, GEIGER, COQUEIRAL01, MIA, COQUEIRAL25, MAION, DADINHO, IANDE, MAGIVI, OITI, COQUEIRAL13, COQUEIRAL7, NAOCA, CASA71, CAJU, SANMARCO, CASA14, CASA09, BOSSA, TUA, IMBIRUCU, CASA42, CASA61, VILAS02, CASA80, ITAPO07, CASA96, CASA90, VILAS75, LIMOEIRO, BIRIBA, VILAMAR, BETTONI, PINI, AUREA, SAOJORGE, CAZA, ITAPO06, ITAPO04, ALEGRIA, PONTA, PG11, PG111, PG104, MANDACARU, PONTARB, FALESIA, RAIZES, PONTABARRA, FASANO10, FASANO16, FASANO17, VILAS26, GOLF58, FLORESTA, VILAS41, VILAS67, BOUTIQUE13, ARACUA, JACARANDA03, TEIU, GOLF25, PG50, CASAEDO, BALEIA, PG55, GOLF72, PITANGA, AFRICA, TEMPO07, TEMPO08, TEMPO06, BOSQUE, PATIO, PG32, PG45, LICURI, DIVINA, TRESMENINAS, PEROBA, MORENA, MOA, BRAGA, CUMARU, JACARANDA05, TB14, MACONDO, RICK);
 
 export const WHATSAPP = '5573999141382';
 
