@@ -42,15 +42,15 @@ const SUITES_BY_ID: Record<string, Record<'pt' | 'en', HouseSuites>> = {
         {
           title: 'Casa Principal',
           suites: [
-            { name: 'Suíte 01', details: '1 cama King Size · Ar-condicionado · Mosquiteiro · Secador de cabelo' },
-            { name: 'Suíte 02', details: '2 camas de solteiro (conversíveis em 1 King Size) · Ar-condicionado · Mosquiteiro · Secador de cabelo' },
-            { name: 'Suíte 03', details: '1 cama Queen Size · Ar-condicionado · Secador de cabelo' },
+            ['Suíte 01', '1 cama King Size · Ar-condicionado · Mosquiteiro · Secador de cabelo'],
+            ['Suíte 02', '2 camas de solteiro (conversíveis em 1 King Size) · Ar-condicionado · Mosquiteiro · Secador de cabelo'],
+            ['Suíte 03', '1 cama Queen Size · Ar-condicionado · Secador de cabelo'],
           ],
         },
         {
           title: 'Chalé Externo',
           suites: [
-            { name: 'Suíte 04', details: '1 cama King Size · Sofá-cama · Ar-condicionado · Mosquiteiro · Secador de cabelo' },
+            ['Suíte 04', '1 cama King Size · Sofá-cama · Ar-condicionado · Mosquiteiro · Secador de cabelo'],
           ],
         },
       ],
@@ -61,15 +61,15 @@ const SUITES_BY_ID: Record<string, Record<'pt' | 'en', HouseSuites>> = {
         {
           title: 'Main House',
           suites: [
-            { name: 'Suite 01', details: '1 King Size bed · Air conditioning · Mosquito net · Hair dryer' },
-            { name: 'Suite 02', details: '2 twin beds (convertible into 1 King Size) · Air conditioning · Mosquito net · Hair dryer' },
-            { name: 'Suite 03', details: '1 Queen Size bed · Air conditioning · Hair dryer' },
+            ['Suite 01', '1 King Size bed · Air conditioning · Mosquito net · Hair dryer'],
+            ['Suite 02', '2 twin beds (convertible into 1 King Size) · Air conditioning · Mosquito net · Hair dryer'],
+            ['Suite 03', '1 Queen Size bed · Air conditioning · Hair dryer'],
           ],
         },
         {
           title: 'External Bungalow',
           suites: [
-            { name: 'Suite 04', details: '1 King Size bed · Sofa bed · Air conditioning · Mosquito net · Hair dryer' },
+            ['Suite 04', '1 King Size bed · Sofa bed · Air conditioning · Mosquito net · Hair dryer'],
           ],
         },
       ],

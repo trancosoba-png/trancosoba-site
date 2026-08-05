@@ -2420,17 +2420,20 @@ const JV13: Property = {
   guests: 8,
   baths: 4,
   area: '400 m²',
-  price: 'Sob consulta',
-  priceLow: 'Sob consulta',
-  carnaval: 'Sob consulta',
-  reveillon: 'Sob consulta',
+  price: { pt: 'Sob consulta', en: 'Upon request' },
+  priceLow: { pt: 'Sob consulta', en: 'Upon request' },
+  carnaval: { pt: 'Sob consulta', en: 'Upon request' },
+  reveillon: { pt: 'Sob consulta', en: 'Upon request' },
   image: '/img/joaovieira13/01.jpg',
   gallery: ['/img/joaovieira13/01.webp', '/img/joaovieira13/02.webp', '/img/joaovieira13/03.webp', '/img/joaovieira13/04.webp', '/img/joaovieira13/05.webp', '/img/joaovieira13/06.webp', '/img/joaovieira13/07.webp', '/img/joaovieira13/08.webp', '/img/joaovieira13/09.webp', '/img/joaovieira13/10.webp', '/img/joaovieira13/11.webp', '/img/joaovieira13/12.webp', '/img/joaovieira13/13.webp', '/img/joaovieira13/14.webp', '/img/joaovieira13/15.webp', '/img/joaovieira13/16.webp', '/img/joaovieira13/17.webp', '/img/joaovieira13/18.webp', '/img/joaovieira13/19.webp', '/img/joaovieira13/20.webp', '/img/joaovieira13/21.webp', '/img/joaovieira13/22.webp', '/img/joaovieira13/23.webp', '/img/joaovieira13/24.webp', '/img/joaovieira13/25.webp', '/img/joaovieira13/26.webp', '/img/joaovieira13/27.webp', '/img/joaovieira13/28.webp', '/img/joaovieira13/29.webp', '/img/joaovieira13/30.webp', '/img/joaovieira13/31.webp', '/img/joaovieira13/32.webp', '/img/joaovieira13/33.webp', '/img/joaovieira13/34.webp'],
   amenities: {
     pt: ['Ar-condicionado', 'Mosquiteiros', 'Adega de vinhos', 'Ofurô', 'Churrasqueira', 'Piscina privativa', 'Cozinha equipada', 'Poço artesiano', 'Espaço gourmet', 'Roupas de cama, mesa e banho', 'Espreguiçadeiras e ombrelone', 'Sala de estar', 'Estacionamento', 'Sala de jantar', 'Freezer', 'Secadores de cabelo', 'Wi-Fi', 'Som ambiente', 'Lavabo', 'Toalhas de praia', 'Lavanderia', 'Ventiladores', 'Máquina de gelo'],
     en: ['Air conditioning', 'Mosquito nets', 'Wine cellar', 'Ofuro tub', 'Barbecue', 'Private pool', 'Equipped kitchen', 'Artesian well', 'Gourmet space', 'Bed, table and bath linens', 'Loungers and parasol', 'Living room', 'Parking', 'Dining room', 'Freezer', 'Hair dryers', 'Wi-Fi', 'Ambient sound system', 'Powder room', 'Beach towels', 'Laundry', 'Ceiling fans', 'Ice maker'],
   },
-  staff: ['1 arrumadeira', '1 cozinheira', '1 jardineiro/piscineiro'],
+  staff: {
+    pt: ['1 arrumadeira', '1 cozinheira', '1 jardineiro/piscineiro'],
+    en: ['1 housekeeper', '1 cook', '1 gardener/pool attendant'],
+  },
   description: {
     pt: 'Em uma das áreas residenciais mais agradáveis de Trancoso, a Casa 13 João Vieira combina arquitetura, arte e natureza em uma proposta acolhedora e cheia de personalidade. A localização permite chegar rapidamente ao Quadrado Histórico, mantendo a tranquilidade de um bairro cercado por vegetação.\n\nO projeto valoriza a linguagem rústico-chique característica da vila, com estruturas em madeira e vidro que aproximam os ambientes do jardim tropical. A decoração reúne obras e peças de artistas brasileiros, mobiliário em madeira e elementos naturais escolhidos com cuidado, criando espaços elegantes sem perder a leveza de uma casa de praia.\n\nA propriedade acomoda até oito hóspedes em quatro suítes. Três delas estão na casa principal e a quarta ocupa um chalé independente, uma distribuição que oferece conforto para famílias e grupos de amigos, além de mais privacidade para quem prefere uma acomodação separada.\n\nNa área externa, a piscina privativa se integra ao deck de madeira, às redes, às espreguiçadeiras e ao espaço gourmet. Rodeado pelo jardim, esse conjunto se torna o principal ambiente de convivência da casa, ideal para refeições ao ar livre e dias tranquilos em Trancoso.\n\nCom arquitetura assinada pelo escritório Vida de Vila e paisagismo de Juliana Favarato, a Casa 13 João Vieira traduz uma forma autêntica de viver Trancoso, reunindo conforto, bom gosto e contato constante com a natureza.',
     en: 'In one of the most pleasant residential areas of Trancoso, Casa 13 João Vieira combines architecture, art and nature in a welcoming proposal full of personality. The location allows quick access to the Historic Quadrado, while keeping the tranquility of a neighborhood surrounded by vegetation.\n\nThe project values the rustic-chic language characteristic of the village, with wood and glass structures that bring the spaces closer to the tropical garden. The décor brings together works and pieces by Brazilian artists, wooden furniture and carefully chosen natural elements, creating elegant spaces without losing the lightness of a beach house.\n\nThe property accommodates up to eight guests in four suites. Three of them are in the main house and the fourth occupies an independent bungalow, a layout that offers comfort for families and groups of friends, as well as more privacy for those who prefer separate accommodation.\n\nOutside, the private pool integrates with the wooden deck, hammocks, loungers and the gourmet space. Surrounded by the garden, this becomes the main gathering area of the house, ideal for outdoor meals and peaceful days in Trancoso.\n\nWith architecture by Vida de Vila and landscaping by Juliana Favarato, Casa 13 João Vieira translates an authentic way of living Trancoso, bringing together comfort, good taste and constant contact with nature.',
@@ -2439,7 +2442,10 @@ const JV13: Property = {
     pt: 'Bairro residencial João Vieira, próxima ao Quadrado Histórico, com fácil acesso às praias, restaurantes e lojas da vila.',
     en: 'Residential João Vieira neighborhood, close to the Historic Quadrado, with easy access to the village beaches, restaurants and shops.',
   },
-  notes: ['A configuração das camas deverá ser solicitada previamente.'],
+  notes: {
+    pt: ['A configuração das camas deverá ser solicitada previamente.'],
+    en: ['Bed configuration must be requested in advance.'],
+  },
   features: ['piscina'],
 };
 
