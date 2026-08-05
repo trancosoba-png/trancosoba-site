@@ -179,7 +179,7 @@ export default function Imovel() {
                 </div>
               ))}
             </div>
-            <div className={`mt-8 ${p.id === 'casa-coqueiral-02' ? 'text-[#404040]' : 'text-ink/90'} leading-relaxed text-lg font-serif-e space-y-5`}>
+            <div className={`mt-8 ${p.id === 'casa-coqueiral-02' ? 'text-[#404040] font-medium' : 'text-ink/90'} leading-relaxed text-lg font-serif-e space-y-5`}>
               {txt(p.description, lang).split('\n\n').filter(par => !SUITE_PAR.test(par)).map((par, i) => <p key={i}>{par}</p>)}
             </div>
 
