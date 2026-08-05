@@ -2410,6 +2410,38 @@ const SANTARITA: Property = {
   features: ['pe-na-areia', 'piscina'],
 };
 
+const TRAMA: Property = {
+  id: 'casa-trama-altos-de-trancoso',
+  code: 'TBA-330',
+  name: { pt: 'Casa Trama', en: 'Casa Trama' },
+  purpose: ['aluguel'],
+  location: 'Altos de Trancoso',
+  suites: 6,
+  guests: 13,
+  baths: 7,
+  area: '600 m²',
+  price: { pt: 'Sob consulta', en: 'Upon request' },
+  image: '/img/casatrama/01.jpg',
+  gallery: ['/img/casatrama/01.webp','/img/casatrama/02.webp','/img/casatrama/03.webp','/img/casatrama/04.webp','/img/casatrama/05.webp','/img/casatrama/06.webp','/img/casatrama/07.webp','/img/casatrama/08.webp','/img/casatrama/09.webp','/img/casatrama/10.webp','/img/casatrama/11.webp','/img/casatrama/12.webp','/img/casatrama/13.webp','/img/casatrama/14.webp','/img/casatrama/15.webp','/img/casatrama/16.webp','/img/casatrama/17.webp'],
+  amenities: {
+    pt: ['Piscina privativa', 'Jacuzzi', 'Sauna', 'Espaço gourmet', 'Churrasqueira', 'Cozinha equipada', 'Adega de vinhos', 'Cervejeira', 'Máquina de lavar-louça', 'Lavanderia', 'Sala de estar', 'Sala de jantar', 'Sala de TV', 'TV a cabo', 'Sky', 'Sistema de som', 'Wi-Fi', 'Gerador', 'Ar-condicionado', 'Mosquiteiros', 'Estacionamento', 'Espreguiçadeiras e ombrelone', 'Roupas de cama, mesa e banho', 'Toalhas de piscina e praia'],
+    en: ['Private pool', 'Jacuzzi', 'Sauna', 'Gourmet area', 'Barbecue grill', 'Equipped kitchen', 'Wine cellar', 'Beer cooler', 'Dishwasher', 'Laundry room', 'Living room', 'Dining room', 'TV room', 'Cable TV', 'Sky', 'Sound system', 'Wi-Fi', 'Generator', 'Air conditioning', 'Mosquito nets', 'Parking', 'Sun loungers and parasol', 'Bed, table and bath linens', 'Pool and beach towels']
+  },
+  staff: {
+    pt: ['1 arrumadeira', '1 cozinheira', '1 auxiliar de cozinha'],
+    en: ['1 housekeeper', '1 cook', '1 kitchen assistant']
+  },
+  description: {
+    pt: 'Localizada no Condomínio Altos de Trancoso, a Casa Trama é uma residência de arquitetura marcante, criada para acolher com conforto, leveza e total integração com a paisagem. O projeto, assinado pela arquiteta Beatriz Henriques, valoriza a construção local e traduz a essência de Trancoso em uma linguagem elegante e contemporânea.' + '\n\n' + 'Implantada em formato de L, a casa organiza seus ambientes de forma fluida, criando uma relação constante entre interior e exterior. Madeira, pedra, fibras naturais e elementos em bambu aparecem de maneira equilibrada, enquanto as amplas aberturas favorecem a luz natural, a ventilação cruzada e a presença do jardim em todos os espaços.' + '\n\n' + 'A propriedade dispõe de seis suítes e acomoda até 13 hóspedes. Os quartos foram planejados para oferecer privacidade e conforto, com closets, ar-condicionado e vistas para o jardim ou para a área da piscina.' + '\n\n' + 'Na área social, sala de estar, sala de jantar, sala de TV e cozinha equipada se conectam ao espaço gourmet e às áreas externas. Piscina, jacuzzi, sauna e diferentes ambientes de convivência completam a experiência, tornando a casa ideal para famílias e grupos de amigos.' + '\n\n' + 'Publicada em veículos de arquitetura e decoração como Casa Vogue Brasil e Casa Claudia, a Casa Trama combina sofisticação discreta, materiais naturais e uma atmosfera que parece pertencer ao lugar desde sempre.',
+    en: 'Located in the Altos de Trancoso gated community, Casa Trama is a residence of striking architecture, created to welcome with comfort, lightness and total integration with the landscape. The project, designed by architect Beatriz Henriques, values local construction and translates the essence of Trancoso into an elegant and contemporary language.' + '\n\n' + 'Implanted in an L shape, the house organizes its spaces fluidly, creating a constant relationship between interior and exterior. Wood, stone, natural fibers and bamboo elements appear in a balanced way, while the wide openings favor natural light, cross ventilation and the presence of the garden in every space.' + '\n\n' + 'The property has six suites and accommodates up to 13 guests. The bedrooms were planned to offer privacy and comfort, with walk-in closets, air conditioning and views of the garden or the pool area.' + '\n\n' + 'In the social area, the living room, dining room, TV room and equipped kitchen connect to the gourmet space and the outdoor areas. Pool, jacuzzi, sauna and different gathering spaces complete the experience, making the house ideal for families and groups of friends.' + '\n\n' + 'Published in architecture and decoration media such as Casa Vogue Brasil and Casa Claudia, Casa Trama combines discreet sophistication, natural materials and an atmosphere that seems to have always belonged to this place.'
+  },
+  locationDetail: {
+    pt: 'Condomínio Altos de Trancoso, em Trancoso, Bahia. Aproximadamente 10 minutos do Quadrado Histórico e 15 minutos das praias. Região residencial com privacidade, segurança e fácil acesso aos principais pontos da vila.',
+    en: 'Altos de Trancoso gated community, in Trancoso, Bahia. Approximately 10 minutes from the historic Quadrado and 15 minutes from the beaches. A residential area with privacy, security and easy access to the main spots of the village.'
+  },
+  features: ['piscina', 'condominio']
+};
+
 const TIZZI: Property = {
   id: 'casa-tizzi-altos-de-trancoso',
   code: 'TBA-329',
@@ -2947,7 +2979,7 @@ const MIA: Property = {
   },
 };
 
-PROPERTIES.unshift(TIZZI, LILI, C23, JV15, JV14, JV13, C20, C21, C24, V7, MARTINI, SANTARITA, PATIMIRIM, DAJU, BUENO, BONITA, AREIA, COQUEIRAL22, SUBLIME, ESTRELA, VISTANATIVOS, TERRAL, ITAPO01, ATENA, JACARANDA04, COQUEIRAL14, COQUEIRAL02, CASAMARIA, ALMESCLA, CASAMAR, GEIGER, COQUEIRAL01, MIA, COQUEIRAL25, MAION, DADINHO, IANDE, MAGIVI, OITI, COQUEIRAL13, COQUEIRAL7, NAOCA, CASA71, CAJU, SANMARCO, CASA14, CASA09, BOSSA, TUA, IMBIRUCU, CASA42, CASA61, VILAS02, CASA80, ITAPO07, CASA96, CASA90, VILAS75, LIMOEIRO, BIRIBA, VILAMAR, BETTONI, PINI, AUREA, SAOJORGE, CAZA, ITAPO06, ITAPO04, ALEGRIA, PONTA, PG11, PG111, PG104, MANDACARU, PONTARB, FALESIA, RAIZES, PONTABARRA, FASANO10, FASANO16, FASANO17, VILAS26, GOLF58, FLORESTA, VILAS41, VILAS67, BOUTIQUE13, ARACUA, JACARANDA03, TEIU, GOLF25, PG50, CASAEDO, BALEIA, PG55, GOLF72, PITANGA, AFRICA, TEMPO07, TEMPO08, TEMPO06, BOSQUE, PATIO, PG32, PG45, LICURI, DIVINA, TRESMENINAS, PEROBA, MORENA, MOA, BRAGA, CUMARU, JACARANDA05, TB14, MACONDO, RICK);
+PROPERTIES.unshift(TRAMA, TIZZI, LILI, C23, JV15, JV14, JV13, C20, C21, C24, V7, MARTINI, SANTARITA, PATIMIRIM, DAJU, BUENO, BONITA, AREIA, COQUEIRAL22, SUBLIME, ESTRELA, VISTANATIVOS, TERRAL, ITAPO01, ATENA, JACARANDA04, COQUEIRAL14, COQUEIRAL02, CASAMARIA, ALMESCLA, CASAMAR, GEIGER, COQUEIRAL01, MIA, COQUEIRAL25, MAION, DADINHO, IANDE, MAGIVI, OITI, COQUEIRAL13, COQUEIRAL7, NAOCA, CASA71, CAJU, SANMARCO, CASA14, CASA09, BOSSA, TUA, IMBIRUCU, CASA42, CASA61, VILAS02, CASA80, ITAPO07, CASA96, CASA90, VILAS75, LIMOEIRO, BIRIBA, VILAMAR, BETTONI, PINI, AUREA, SAOJORGE, CAZA, ITAPO06, ITAPO04, ALEGRIA, PONTA, PG11, PG111, PG104, MANDACARU, PONTARB, FALESIA, RAIZES, PONTABARRA, FASANO10, FASANO16, FASANO17, VILAS26, GOLF58, FLORESTA, VILAS41, VILAS67, BOUTIQUE13, ARACUA, JACARANDA03, TEIU, GOLF25, PG50, CASAEDO, BALEIA, PG55, GOLF72, PITANGA, AFRICA, TEMPO07, TEMPO08, TEMPO06, BOSQUE, PATIO, PG32, PG45, LICURI, DIVINA, TRESMENINAS, PEROBA, MORENA, MOA, BRAGA, CUMARU, JACARANDA05, TB14, MACONDO, RICK);
 
 export const WHATSAPP = '5573999141382';
 

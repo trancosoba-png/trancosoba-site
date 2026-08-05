@@ -36,6 +36,40 @@ export const SUITE_PAR = /configura[cç][aã]o das su[ií]tes|suite layout|distr
 type SuiteGroup = { title: string; master?: string; suites?: [string, string][] };
 type HouseSuites = { groups: SuiteGroup[]; footer?: string };
 const SUITES_BY_ID: Record<string, Record<'pt' | 'en', HouseSuites>> = {
+  'casa-trama-altos-de-trancoso': {
+    pt: {
+      groups: [
+        {
+          title: 'Suítes',
+          suites: [
+            ['Suíte 01', '3 camas de solteiro, sendo 2 conversíveis em 1 cama Super King Size · Ar-condicionado · Closet · Vista para o jardim'],
+            ['Suíte 02', '2 camas de solteiro, conversíveis em 1 cama Super King Size · Ar-condicionado · Closet · Vista para a área da piscina'],
+            ['Suíte 03', '1 cama King Size · Ar-condicionado · Closet · Vista para a área da piscina'],
+            ['Suíte 04', '2 camas de solteiro, conversíveis em 1 cama Super King Size · Ar-condicionado · Closet · Vista para a área da piscina'],
+            ['Suíte 05', '1 cama King Size · Ar-condicionado · Closet · Vista para a área da piscina'],
+            ['Suíte 06', '1 cama King Size · Ar-condicionado · Closet · Vista para a área da piscina'],
+          ],
+        },
+      ],
+      footer: 'Capacidade para até 13 hóspedes. 7 banheiros.',
+    },
+    en: {
+      groups: [
+        {
+          title: 'Suites',
+          suites: [
+            ['Suite 01', '3 single beds, 2 of which convertible into 1 Super King Size bed · Air conditioning · Walk-in closet · Garden view'],
+            ['Suite 02', '2 single beds, convertible into 1 Super King Size bed · Air conditioning · Walk-in closet · Pool area view'],
+            ['Suite 03', '1 King Size bed · Air conditioning · Walk-in closet · Pool area view'],
+            ['Suite 04', '2 single beds, convertible into 1 Super King Size bed · Air conditioning · Walk-in closet · Pool area view'],
+            ['Suite 05', '1 King Size bed · Air conditioning · Walk-in closet · Pool area view'],
+            ['Suite 06', '1 King Size bed · Air conditioning · Walk-in closet · Pool area view'],
+          ],
+        },
+      ],
+      footer: 'Accommodates up to 13 guests. 7 bathrooms.',
+    },
+  },
   'casa-15-joao-vieira': {
     pt: {
       groups: [
