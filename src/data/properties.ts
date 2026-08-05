@@ -2421,6 +2421,7 @@ const TRAMA: Property = {
   baths: 7,
   area: '600 m²',
   price: { pt: 'Sob consulta', en: 'Upon request' },
+  reveillon: { pt: 'R$ 450.000', en: 'R$ 450,000' },
   image: '/img/casatrama/01.jpg',
   gallery: ['/img/casatrama/01.webp','/img/casatrama/02.webp','/img/casatrama/03.webp','/img/casatrama/04.webp','/img/casatrama/05.webp','/img/casatrama/06.webp','/img/casatrama/07.webp','/img/casatrama/08.webp','/img/casatrama/09.webp','/img/casatrama/10.webp','/img/casatrama/11.webp','/img/casatrama/12.webp','/img/casatrama/13.webp','/img/casatrama/14.webp','/img/casatrama/15.webp','/img/casatrama/16.webp','/img/casatrama/17.webp'],
   amenities: {
