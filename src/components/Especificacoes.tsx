@@ -36,6 +36,48 @@ export const SUITE_PAR = /configura[cç][aã]o das su[ií]tes|suite layout|distr
 type SuiteGroup = { title: string; master?: string; suites?: [string, string][] };
 type HouseSuites = { groups: SuiteGroup[]; footer?: string };
 const SUITES_BY_ID: Record<string, Record<'pt' | 'en', HouseSuites>> = {
+  'casa-15-joao-vieira': {
+    pt: {
+      groups: [
+        {
+          title: 'Chalés Independentes',
+          suites: [
+            ['Chalé 01', '1 cama Queen Size · Banheiro privativo · Ambiente independente'],
+            ['Chalé 02', '1 cama Queen Size · Banheiro privativo · Ambiente independente'],
+            ['Chalé 03', '1 cama Queen Size · Banheiro privativo · Ambiente independente'],
+          ],
+        },
+        {
+          title: 'Casa Principal',
+          suites: [
+            ['Quarto 04', 'Quarto infantil com beliche · Ideal para crianças ou adolescentes'],
+            ['Quarto 05', '1 cama Queen Size · Banheiro compartilhado com o quarto infantil'],
+          ],
+        },
+      ],
+      footer: 'Capacidade para até 14 hóspedes. 4 banheiros completos e 1 lavabo.',
+    },
+    en: {
+      groups: [
+        {
+          title: 'Independent Bungalows',
+          suites: [
+            ['Bungalow 01', '1 Queen Size bed · Private bathroom · Independent space'],
+            ['Bungalow 02', '1 Queen Size bed · Private bathroom · Independent space'],
+            ['Bungalow 03', '1 Queen Size bed · Private bathroom · Independent space'],
+          ],
+        },
+        {
+          title: 'Main House',
+          suites: [
+            ['Bedroom 04', 'Kids bedroom with bunk bed · Ideal for children or teenagers'],
+            ['Bedroom 05', '1 Queen Size bed · Bathroom shared with the kids bedroom'],
+          ],
+        },
+      ],
+      footer: 'Accommodates up to 14 guests. 4 full bathrooms and 1 powder room.',
+    },
+  },
   'casa-14-joao-vieira': {
     pt: {
       groups: [

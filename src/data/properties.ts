@@ -2410,6 +2410,45 @@ const SANTARITA: Property = {
   features: ['pe-na-areia', 'piscina'],
 };
 
+const JV15: Property = {
+  id: 'casa-15-joao-vieira',
+  code: 'TBA-326',
+  name: { pt: 'Casa 15 João Vieira', en: 'Casa 15 João Vieira' },
+  purpose: ['aluguel'],
+  location: 'João Vieira',
+  suites: 5,
+  guests: 14,
+  baths: 5,
+  area: '500 m²',
+  price: { pt: 'R$ 3.500 / diária', en: 'R$ 3,500 / night' },
+  priceLow: { pt: 'R$ 2.500 / diária', en: 'R$ 2,500 / night' },
+  carnaval: { pt: 'R$ 60.000', en: 'R$ 60,000' },
+  reveillon: { pt: 'R$ 150.000', en: 'R$ 150,000' },
+  image: '/img/joaovieira15/01.jpg',
+  gallery: ['/img/joaovieira15/01.webp', '/img/joaovieira15/02.webp', '/img/joaovieira15/03.webp', '/img/joaovieira15/04.webp', '/img/joaovieira15/05.webp', '/img/joaovieira15/06.webp', '/img/joaovieira15/07.webp', '/img/joaovieira15/08.webp', '/img/joaovieira15/09.webp', '/img/joaovieira15/10.webp', '/img/joaovieira15/11.webp', '/img/joaovieira15/12.webp', '/img/joaovieira15/13.webp', '/img/joaovieira15/14.webp', '/img/joaovieira15/15.webp', '/img/joaovieira15/16.webp', '/img/joaovieira15/17.webp', '/img/joaovieira15/18.webp', '/img/joaovieira15/19.webp', '/img/joaovieira15/20.webp', '/img/joaovieira15/21.webp', '/img/joaovieira15/22.webp', '/img/joaovieira15/23.webp', '/img/joaovieira15/24.webp', '/img/joaovieira15/25.webp', '/img/joaovieira15/26.webp', '/img/joaovieira15/27.webp', '/img/joaovieira15/28.webp'],
+  amenities: {
+    pt: ['2 salas de estar', 'Sala de jantar', 'Cozinha principal', 'Cozinha de apoio', 'Piscina orgânica revestida em pedra', 'Sistema de tratamento por luz ultravioleta', 'Jardins tropicais', 'Espaço para yoga', 'Churrasqueira', 'Áreas de convivência e descanso ao ar livre'],
+    en: ['2 living rooms', 'Dining room', 'Main kitchen', 'Support kitchen', 'Organic stone-lined pool', 'UV light water treatment system', 'Tropical gardens', 'Yoga space', 'Barbecue', 'Outdoor gathering and resting areas'],
+  },
+  staff: {
+    pt: ['1 camareira'],
+    en: ['1 housekeeper'],
+  },
+  description: {
+    pt: 'Localizada no tranquilo bairro residencial João Vieira, a Casa 15 João Vieira é uma propriedade ampla, acolhedora e cercada por jardins tropicais. A aproximadamente dez minutos de caminhada do Quadrado Histórico, oferece fácil acesso ao centro de Trancoso sem abrir mão de privacidade e tranquilidade.\n\nCom arquitetura rústico-chique, a casa combina materiais naturais, mobiliário em madeira e uma seleção cuidadosa de arte brasileira. Os ambientes foram pensados para proporcionar conforto e integração com a natureza, criando uma atmosfera leve e autêntica.\n\nA propriedade está distribuída entre a casa principal e três chalés independentes, acomodando confortavelmente famílias e grupos de amigos. Ao todo, são cinco quartos, sete camas e capacidade para até 14 hóspedes.\n\nA área externa é um dos grandes destaques da casa. Cercada por vegetação tropical, a piscina orgânica revestida em pedra possui sistema de tratamento por luz ultravioleta e se integra aos diferentes espaços de descanso e convivência do jardim.\n\nA casa conta ainda com duas salas de estar, espaço dedicado para yoga, churrasqueira e duas cozinhas, sendo uma principal e outra de apoio, oferecendo praticidade durante toda a hospedagem.',
+    en: 'Located in the quiet residential João Vieira neighborhood, Casa 15 João Vieira is a spacious, welcoming property surrounded by tropical gardens. About a ten-minute walk from the Historic Quadrado, it offers easy access to the center of Trancoso without giving up privacy and tranquility.\n\nWith rustic-chic architecture, the house combines natural materials, wooden furniture and a careful selection of Brazilian art. The spaces were designed to provide comfort and integration with nature, creating a light and authentic atmosphere.\n\nThe property is spread between the main house and three independent bungalows, comfortably accommodating families and groups of friends. In total, there are five bedrooms, seven beds and capacity for up to 14 guests.\n\nThe outdoor area is one of the highlights of the house. Surrounded by tropical vegetation, the organic stone-lined pool has an ultraviolet light treatment system and integrates with the different resting and gathering spaces in the garden.\n\nThe house also offers two living rooms, a dedicated yoga space, a barbecue and two kitchens — one main and one support — providing practicality throughout the stay.',
+  },
+  locationDetail: {
+    pt: 'Bairro João Vieira, Trancoso. Aproximadamente 10 minutos de caminhada do Quadrado Histórico, com fácil acesso às praias, restaurantes, lojas e principais pontos da vila.',
+    en: 'João Vieira neighborhood, Trancoso. About a 10-minute walk from the Historic Quadrado, with easy access to beaches, restaurants, shops and the main spots of the village.',
+  },
+  notes: {
+    pt: ['A configuração completa das camas deverá ser confirmada no momento da reserva.'],
+    en: ['The full bed configuration must be confirmed at the time of booking.'],
+  },
+  features: ['piscina'],
+};
+
 const JV14: Property = {
   id: 'casa-14-joao-vieira',
   code: 'TBA-325',
@@ -2802,7 +2841,7 @@ const MIA: Property = {
   },
 };
 
-PROPERTIES.unshift(JV14, JV13, C20, C21, C24, V7, MARTINI, SANTARITA, PATIMIRIM, DAJU, BUENO, BONITA, AREIA, COQUEIRAL22, SUBLIME, ESTRELA, VISTANATIVOS, TERRAL, ITAPO01, ATENA, JACARANDA04, COQUEIRAL14, COQUEIRAL02, CASAMARIA, ALMESCLA, CASAMAR, GEIGER, COQUEIRAL01, MIA, COQUEIRAL25, MAION, DADINHO, IANDE, MAGIVI, OITI, COQUEIRAL13, COQUEIRAL7, NAOCA, CASA71, CAJU, SANMARCO, CASA14, CASA09, BOSSA, TUA, IMBIRUCU, CASA42, CASA61, VILAS02, CASA80, ITAPO07, CASA96, CASA90, VILAS75, LIMOEIRO, BIRIBA, VILAMAR, BETTONI, PINI, AUREA, SAOJORGE, CAZA, ITAPO06, ITAPO04, ALEGRIA, PONTA, PG11, PG111, PG104, MANDACARU, PONTARB, FALESIA, RAIZES, PONTABARRA, FASANO10, FASANO16, FASANO17, VILAS26, GOLF58, FLORESTA, VILAS41, VILAS67, BOUTIQUE13, ARACUA, JACARANDA03, TEIU, GOLF25, PG50, CASAEDO, BALEIA, PG55, GOLF72, PITANGA, AFRICA, TEMPO07, TEMPO08, TEMPO06, BOSQUE, PATIO, PG32, PG45, LICURI, DIVINA, TRESMENINAS, PEROBA, MORENA, MOA, BRAGA, CUMARU, JACARANDA05, TB14, MACONDO, RICK);
+PROPERTIES.unshift(JV15, JV14, JV13, C20, C21, C24, V7, MARTINI, SANTARITA, PATIMIRIM, DAJU, BUENO, BONITA, AREIA, COQUEIRAL22, SUBLIME, ESTRELA, VISTANATIVOS, TERRAL, ITAPO01, ATENA, JACARANDA04, COQUEIRAL14, COQUEIRAL02, CASAMARIA, ALMESCLA, CASAMAR, GEIGER, COQUEIRAL01, MIA, COQUEIRAL25, MAION, DADINHO, IANDE, MAGIVI, OITI, COQUEIRAL13, COQUEIRAL7, NAOCA, CASA71, CAJU, SANMARCO, CASA14, CASA09, BOSSA, TUA, IMBIRUCU, CASA42, CASA61, VILAS02, CASA80, ITAPO07, CASA96, CASA90, VILAS75, LIMOEIRO, BIRIBA, VILAMAR, BETTONI, PINI, AUREA, SAOJORGE, CAZA, ITAPO06, ITAPO04, ALEGRIA, PONTA, PG11, PG111, PG104, MANDACARU, PONTARB, FALESIA, RAIZES, PONTABARRA, FASANO10, FASANO16, FASANO17, VILAS26, GOLF58, FLORESTA, VILAS41, VILAS67, BOUTIQUE13, ARACUA, JACARANDA03, TEIU, GOLF25, PG50, CASAEDO, BALEIA, PG55, GOLF72, PITANGA, AFRICA, TEMPO07, TEMPO08, TEMPO06, BOSQUE, PATIO, PG32, PG45, LICURI, DIVINA, TRESMENINAS, PEROBA, MORENA, MOA, BRAGA, CUMARU, JACARANDA05, TB14, MACONDO, RICK);
 
 export const WHATSAPP = '5573999141382';
 
