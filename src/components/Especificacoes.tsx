@@ -2003,6 +2003,9 @@ function Item({ title, open, onToggle, emph = false, children }: { title: string
 }
 
 export default function Especificacoes({ p }: { p: Property }) {
+  // Teste de legibilidade (Casa Coqueiral 2): cinza mais fechado nos textos
+  const cBody = p.id === 'casa-coqueiral-02' ? 'text-[#404040]' : 'text-ink';
+  const cBody90 = p.id === 'casa-coqueiral-02' ? 'text-[#404040]' : 'text-ink/90';
   const { t, lang } = useLang();
   // Novo padrão de Especificações aprovado — aplicado a todas as casas.
   const emph = true;
@@ -2048,7 +2051,7 @@ export default function Especificacoes({ p }: { p: Property }) {
         <Item title={l.amenities} open={openIdx === 0} onToggle={() => toggle(0)} emph={emph}>
           <ul className="grid sm:grid-cols-2 gap-x-8 gap-y-2.5">
             {amenitiesList.map((a, i) => (
-              <li key={i} className="flex items-start gap-3 text-sm text-ink leading-relaxed">
+              <li key={i} className={`flex items-start gap-3 text-sm ${cBody} leading-relaxed`}>
                 <span className="w-1.5 h-1.5 bg-gold rounded-full shrink-0 mt-1.5" />
                 {a}
               </li>
@@ -2065,11 +2068,11 @@ export default function Especificacoes({ p }: { p: Property }) {
                       <h4 className="font-serif-e text-base md:text-lg font-semibold text-ink">{g.title}</h4>
                     )}
                     {g.master ? (
-                      <p className="mt-1.5 text-sm leading-relaxed text-ink/90">{g.master}</p>
+                      <p className={`mt-1.5 text-sm leading-relaxed ${cBody90}`}>{g.master}</p>
                     ) : (
                       <div className="mt-1.5 space-y-1.5">
                         {g.suites!.map(([nome, desc], j) => (
-                          <p key={j} className="text-sm leading-relaxed text-ink/90">
+                          <p key={j} className={`text-sm leading-relaxed ${cBody90}`}>
                             <strong className="font-semibold text-ink">{nome}:</strong> {desc}
                           </p>
                         ))}
@@ -2078,20 +2081,20 @@ export default function Especificacoes({ p }: { p: Property }) {
                   </div>
                 ))}
                 {suitesData.footer && (
-                  <p className="text-sm leading-relaxed text-ink/90 pt-1">{suitesData.footer}</p>
+                  <p className={`text-sm leading-relaxed ${cBody90} pt-1`}>{suitesData.footer}</p>
                 )}
               </div>
             ) : (
-              <p className="text-sm leading-relaxed text-ink/90 pt-1">{suitesText}</p>
+              <p className={`text-sm leading-relaxed ${cBody90} pt-1`}>{suitesText}</p>
             )
           ) : (
-            <p className="text-ink text-sm leading-relaxed">{suitesText}</p>
+            <p className={`${cBody} text-sm leading-relaxed`}>{suitesText}</p>
           )}
         </Item>
         <Item title={l.staff} open={openIdx === 2} onToggle={() => toggle(2)} emph={emph}>
           <ul className="grid sm:grid-cols-2 gap-x-8 gap-y-2.5">
             {staffList.map((s, i) => (
-              <li key={i} className="flex items-start gap-3 text-sm text-ink leading-relaxed">
+              <li key={i} className={`flex items-start gap-3 text-sm ${cBody} leading-relaxed`}>
                 <span className="w-1.5 h-1.5 bg-green-e rounded-full shrink-0 mt-1.5" />
                 {s}
               </li>
@@ -2099,7 +2102,7 @@ export default function Especificacoes({ p }: { p: Property }) {
           </ul>
         </Item>
         <Item title={l.location} open={openIdx === 3} onToggle={() => toggle(3)} emph={emph}>
-          <p className="text-ink text-sm leading-relaxed">
+          <p className={`${cBody} text-sm leading-relaxed`}>
             {locationText}
             {lot ? ` ${lot.lot}.` : ''}
             {p.locationDetail ? ` ${txt(p.locationDetail, lang)}.` : ''}
