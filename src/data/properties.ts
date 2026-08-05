@@ -2410,6 +2410,37 @@ const SANTARITA: Property = {
   features: ['pe-na-areia', 'piscina'],
 };
 
+const TIZZI: Property = {
+  id: 'casa-tizzi-altos-de-trancoso',
+  code: 'TBA-329',
+  name: { pt: 'Casa Tizzi', en: 'Casa Tizzi' },
+  purpose: ['aluguel'],
+  location: 'Altos de Trancoso',
+  suites: 3,
+  guests: 6,
+  baths: 3,
+  area: '500 m²',
+  price: { pt: 'R$ 3.800 / diária', en: 'R$ 3,800 / night' },
+  priceLow: { pt: 'R$ 3.200 / diária', en: 'R$ 3,200 / night' },
+  carnaval: { pt: 'R$ 30.000 (pacote de 5 dias)', en: 'R$ 30,000 (5-day package)' },
+  reveillon: { pt: 'R$ 150.000 (pacote de 10 dias)', en: 'R$ 150,000 (10-day package)' },
+  image: '/img/casatizzi/01.jpg',
+  gallery: ['/img/casatizzi/01.webp','/img/casatizzi/02.webp','/img/casatizzi/03.webp','/img/casatizzi/04.webp','/img/casatizzi/05.webp','/img/casatizzi/06.webp','/img/casatizzi/07.webp','/img/casatizzi/08.webp','/img/casatizzi/09.webp','/img/casatizzi/10.webp','/img/casatizzi/11.webp','/img/casatizzi/12.webp','/img/casatizzi/13.webp','/img/casatizzi/14.webp','/img/casatizzi/15.webp','/img/casatizzi/16.webp','/img/casatizzi/17.webp','/img/casatizzi/18.webp','/img/casatizzi/19.webp','/img/casatizzi/20.webp','/img/casatizzi/21.webp','/img/casatizzi/22.webp','/img/casatizzi/23.webp','/img/casatizzi/24.webp','/img/casatizzi/25.webp','/img/casatizzi/26.webp','/img/casatizzi/27.webp','/img/casatizzi/28.webp','/img/casatizzi/29.webp','/img/casatizzi/30.webp','/img/casatizzi/31.webp','/img/casatizzi/32.webp','/img/casatizzi/33.webp','/img/casatizzi/34.webp'],
+  amenities: {
+    pt: ['Cozinha gourmet completa', 'Piscina privativa', 'Bar junto à piscina', 'Área externa para confraternizações', 'Ambientes amplos e integrados', 'Condomínio fechado com segurança'],
+    en: ['Full gourmet kitchen', 'Private pool', 'Bar by the pool', 'Outdoor area for gatherings', 'Spacious integrated living areas', 'Gated community with security']
+  },
+  staff: {
+    pt: ['1 cozinheira', '1 arrumadeira'],
+    en: ['1 cook', '1 housekeeper']
+  },
+  description: {
+    pt: 'Localizada em um dos condomínios mais desejados de Trancoso, a Casa Tizzi combina arquitetura contemporânea, conforto e integração entre os ambientes. O projeto, assinado pela arquiteta Bia Bittencourt e executado por Ricardo Salem, foi pensado para proporcionar uma estadia tranquila, elegante e acolhedora.' + '\n\n' + 'Implantada em um terreno de aproximadamente 2.700 m², com cerca de 500 m² de área construída, a residência oferece espaços amplos e bem distribuídos, ideais para receber famílias ou pequenos grupos com privacidade e conforto.' + '\n\n' + 'A casa dispõe de 3 suítes, áreas sociais integradas e uma atmosfera que valoriza a convivência. A cozinha gourmet se conecta aos espaços de lazer, criando um ambiente convidativo para refeições especiais, encontros e momentos de descanso.' + '\n\n' + 'Na área externa, a piscina, o bar e os espaços de convivência formam um cenário agradável para aproveitar os dias em Trancoso, com segurança e total privacidade dentro do condomínio.',
+    en: 'Located in one of the most desired gated communities in Trancoso, Casa Tizzi combines contemporary architecture, comfort and integration between spaces. The project, designed by architect Bia Bittencourt and built by Ricardo Salem, was conceived to provide a calm, elegant and welcoming stay.' + '\n\n' + 'Set on a plot of approximately 2,700 m², with about 500 m² of built area, the residence offers spacious and well-distributed spaces, ideal for hosting families or small groups with privacy and comfort.' + '\n\n' + 'The house has 3 suites, integrated social areas and an atmosphere that values togetherness. The gourmet kitchen connects to the leisure spaces, creating an inviting setting for special meals, gatherings and moments of rest.' + '\n\n' + 'Outside, the pool, the bar and the lounge areas form a pleasant setting to enjoy the days in Trancoso, with security and total privacy inside the community.'
+  },
+  features: ['piscina', 'condominio']
+};
+
 const LILI: Property = {
   id: 'casa-lili-altos-de-trancoso',
   code: 'TBA-328',
@@ -2916,7 +2947,7 @@ const MIA: Property = {
   },
 };
 
-PROPERTIES.unshift(LILI, C23, JV15, JV14, JV13, C20, C21, C24, V7, MARTINI, SANTARITA, PATIMIRIM, DAJU, BUENO, BONITA, AREIA, COQUEIRAL22, SUBLIME, ESTRELA, VISTANATIVOS, TERRAL, ITAPO01, ATENA, JACARANDA04, COQUEIRAL14, COQUEIRAL02, CASAMARIA, ALMESCLA, CASAMAR, GEIGER, COQUEIRAL01, MIA, COQUEIRAL25, MAION, DADINHO, IANDE, MAGIVI, OITI, COQUEIRAL13, COQUEIRAL7, NAOCA, CASA71, CAJU, SANMARCO, CASA14, CASA09, BOSSA, TUA, IMBIRUCU, CASA42, CASA61, VILAS02, CASA80, ITAPO07, CASA96, CASA90, VILAS75, LIMOEIRO, BIRIBA, VILAMAR, BETTONI, PINI, AUREA, SAOJORGE, CAZA, ITAPO06, ITAPO04, ALEGRIA, PONTA, PG11, PG111, PG104, MANDACARU, PONTARB, FALESIA, RAIZES, PONTABARRA, FASANO10, FASANO16, FASANO17, VILAS26, GOLF58, FLORESTA, VILAS41, VILAS67, BOUTIQUE13, ARACUA, JACARANDA03, TEIU, GOLF25, PG50, CASAEDO, BALEIA, PG55, GOLF72, PITANGA, AFRICA, TEMPO07, TEMPO08, TEMPO06, BOSQUE, PATIO, PG32, PG45, LICURI, DIVINA, TRESMENINAS, PEROBA, MORENA, MOA, BRAGA, CUMARU, JACARANDA05, TB14, MACONDO, RICK);
+PROPERTIES.unshift(TIZZI, LILI, C23, JV15, JV14, JV13, C20, C21, C24, V7, MARTINI, SANTARITA, PATIMIRIM, DAJU, BUENO, BONITA, AREIA, COQUEIRAL22, SUBLIME, ESTRELA, VISTANATIVOS, TERRAL, ITAPO01, ATENA, JACARANDA04, COQUEIRAL14, COQUEIRAL02, CASAMARIA, ALMESCLA, CASAMAR, GEIGER, COQUEIRAL01, MIA, COQUEIRAL25, MAION, DADINHO, IANDE, MAGIVI, OITI, COQUEIRAL13, COQUEIRAL7, NAOCA, CASA71, CAJU, SANMARCO, CASA14, CASA09, BOSSA, TUA, IMBIRUCU, CASA42, CASA61, VILAS02, CASA80, ITAPO07, CASA96, CASA90, VILAS75, LIMOEIRO, BIRIBA, VILAMAR, BETTONI, PINI, AUREA, SAOJORGE, CAZA, ITAPO06, ITAPO04, ALEGRIA, PONTA, PG11, PG111, PG104, MANDACARU, PONTARB, FALESIA, RAIZES, PONTABARRA, FASANO10, FASANO16, FASANO17, VILAS26, GOLF58, FLORESTA, VILAS41, VILAS67, BOUTIQUE13, ARACUA, JACARANDA03, TEIU, GOLF25, PG50, CASAEDO, BALEIA, PG55, GOLF72, PITANGA, AFRICA, TEMPO07, TEMPO08, TEMPO06, BOSQUE, PATIO, PG32, PG45, LICURI, DIVINA, TRESMENINAS, PEROBA, MORENA, MOA, BRAGA, CUMARU, JACARANDA05, TB14, MACONDO, RICK);
 
 export const WHATSAPP = '5573999141382';
 
