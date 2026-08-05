@@ -2410,6 +2410,42 @@ const SANTARITA: Property = {
   features: ['pe-na-areia', 'piscina'],
 };
 
+const LILI: Property = {
+  id: 'casa-lili-altos-de-trancoso',
+  code: 'TBA-328',
+  name: { pt: 'Casa Lili', en: 'Casa Lili' },
+  purpose: ['aluguel', 'venda'],
+  location: 'Altos de Trancoso',
+  suites: 4,
+  guests: 8,
+  baths: 4,
+  area: '—',
+  price: { pt: 'R$ 4.900 / diária', en: 'R$ 4,900 / night' },
+  priceLow: { pt: 'R$ 3.000 / diária', en: 'R$ 3,000 / night' },
+  carnaval: { pt: 'R$ 45.000 (pacote de 5 diárias)', en: 'R$ 45,000 (5-night package)' },
+  reveillon: { pt: 'R$ 150.000 (pacote de 10 diárias)', en: 'R$ 150,000 (10-night package)' },
+  salePrice: { pt: 'R$ 5.500.000', en: 'R$ 5,500,000' },
+  image: '/img/casalili/01.jpg',
+  gallery: ['/img/casalili/01.webp', '/img/casalili/02.webp', '/img/casalili/03.webp', '/img/casalili/04.webp', '/img/casalili/05.webp', '/img/casalili/06.webp', '/img/casalili/07.webp', '/img/casalili/08.webp', '/img/casalili/09.webp', '/img/casalili/10.webp', '/img/casalili/11.webp', '/img/casalili/12.webp', '/img/casalili/13.webp', '/img/casalili/14.webp', '/img/casalili/15.webp', '/img/casalili/16.webp', '/img/casalili/17.webp', '/img/casalili/18.webp', '/img/casalili/19.webp', '/img/casalili/20.webp', '/img/casalili/21.webp', '/img/casalili/22.webp', '/img/casalili/23.webp', '/img/casalili/24.webp'],
+  amenities: {
+    pt: ['Sala de estar', 'Sala de jantar', 'Cozinha equipada', 'Área gourmet', 'Piscina privativa', 'Deck', 'Varanda', 'Jardim', 'Duas salas com TV', 'SKY', 'Netflix', 'Wi-Fi', 'Churrasqueira', 'Forno de pizza', 'Máquina de gelo', 'Poço artesiano', 'Roupas de cama, mesa e banho', 'Condomínio com segurança'],
+    en: ['Living room', 'Dining room', 'Equipped kitchen', 'Gourmet area', 'Private pool', 'Deck', 'Veranda', 'Garden', 'Two TV rooms', 'SKY TV', 'Netflix', 'Wi-Fi', 'Barbecue', 'Pizza oven', 'Ice maker', 'Artesian well', 'Bed, table and bath linens', 'Gated community with security'],
+  },
+  staff: {
+    pt: ['Camareira', 'Cozinheira', 'Jardineiro', 'Serviço de concierge'],
+    en: ['Housekeeper', 'Cook', 'Gardener', 'Concierge service'],
+  },
+  description: {
+    pt: 'Localizada no Condomínio Altos de Trancoso, a Casa Lili é uma residência ampla e acolhedora, pensada para receber famílias e grupos de amigos com conforto, privacidade e praticidade.\n\nOs ambientes generosos, a decoração cuidadosamente escolhida e a integração entre as áreas internas e externas criam uma atmosfera leve e convidativa. A sala de estar, a sala de jantar e a varanda se conectam ao jardim, permitindo que a natureza faça parte da experiência em todos os momentos.\n\nA propriedade dispõe de quatro suítes climatizadas e acomoda até oito hóspedes. A área externa reúne piscina privativa, deck, jardim e espaço gourmet, formando o cenário ideal para refeições demoradas, encontros entre amigos e dias tranquilos em Trancoso.\n\nA localização é outro destaque: a casa está a poucos minutos de caminhada do Quadrado Histórico e da Praia dos Coqueiros, oferecendo fácil acesso aos principais pontos da vila sem abrir mão da tranquilidade de um condomínio fechado.',
+    en: 'Located in Condomínio Altos de Trancoso, Casa Lili is a spacious and welcoming residence, designed to host families and groups of friends with comfort, privacy and practicality.\n\nThe generous spaces, the carefully chosen décor and the integration between indoor and outdoor areas create a light and inviting atmosphere. The living room, dining room and veranda connect to the garden, allowing nature to be part of the experience at all times.\n\nThe property has four air-conditioned suites and accommodates up to eight guests. The outdoor area brings together a private pool, deck, garden and gourmet space, forming the ideal setting for long meals, gatherings with friends and peaceful days in Trancoso.\n\nThe location is another highlight: the house is just a few minutes on foot from the Historic Quadrado and Coqueiros Beach, offering easy access to the main spots of the village without giving up the tranquility of a gated community.',
+  },
+  locationDetail: {
+    pt: 'Condomínio Altos de Trancoso. Aproximadamente 10 minutos de caminhada do Quadrado Histórico e 800 metros da Praia dos Coqueiros, com fácil acesso a restaurantes, lojas e praias da região.',
+    en: 'Condomínio Altos de Trancoso. About a 10-minute walk from the Historic Quadrado and 800 meters from Coqueiros Beach, with easy access to restaurants, shops and beaches in the region.',
+  },
+  features: ['piscina', 'condominio'],
+};
+
 const C23: Property = {
   id: 'casa-coqueiral-23',
   code: 'TBA-327',
@@ -2880,7 +2916,7 @@ const MIA: Property = {
   },
 };
 
-PROPERTIES.unshift(C23, JV15, JV14, JV13, C20, C21, C24, V7, MARTINI, SANTARITA, PATIMIRIM, DAJU, BUENO, BONITA, AREIA, COQUEIRAL22, SUBLIME, ESTRELA, VISTANATIVOS, TERRAL, ITAPO01, ATENA, JACARANDA04, COQUEIRAL14, COQUEIRAL02, CASAMARIA, ALMESCLA, CASAMAR, GEIGER, COQUEIRAL01, MIA, COQUEIRAL25, MAION, DADINHO, IANDE, MAGIVI, OITI, COQUEIRAL13, COQUEIRAL7, NAOCA, CASA71, CAJU, SANMARCO, CASA14, CASA09, BOSSA, TUA, IMBIRUCU, CASA42, CASA61, VILAS02, CASA80, ITAPO07, CASA96, CASA90, VILAS75, LIMOEIRO, BIRIBA, VILAMAR, BETTONI, PINI, AUREA, SAOJORGE, CAZA, ITAPO06, ITAPO04, ALEGRIA, PONTA, PG11, PG111, PG104, MANDACARU, PONTARB, FALESIA, RAIZES, PONTABARRA, FASANO10, FASANO16, FASANO17, VILAS26, GOLF58, FLORESTA, VILAS41, VILAS67, BOUTIQUE13, ARACUA, JACARANDA03, TEIU, GOLF25, PG50, CASAEDO, BALEIA, PG55, GOLF72, PITANGA, AFRICA, TEMPO07, TEMPO08, TEMPO06, BOSQUE, PATIO, PG32, PG45, LICURI, DIVINA, TRESMENINAS, PEROBA, MORENA, MOA, BRAGA, CUMARU, JACARANDA05, TB14, MACONDO, RICK);
+PROPERTIES.unshift(LILI, C23, JV15, JV14, JV13, C20, C21, C24, V7, MARTINI, SANTARITA, PATIMIRIM, DAJU, BUENO, BONITA, AREIA, COQUEIRAL22, SUBLIME, ESTRELA, VISTANATIVOS, TERRAL, ITAPO01, ATENA, JACARANDA04, COQUEIRAL14, COQUEIRAL02, CASAMARIA, ALMESCLA, CASAMAR, GEIGER, COQUEIRAL01, MIA, COQUEIRAL25, MAION, DADINHO, IANDE, MAGIVI, OITI, COQUEIRAL13, COQUEIRAL7, NAOCA, CASA71, CAJU, SANMARCO, CASA14, CASA09, BOSSA, TUA, IMBIRUCU, CASA42, CASA61, VILAS02, CASA80, ITAPO07, CASA96, CASA90, VILAS75, LIMOEIRO, BIRIBA, VILAMAR, BETTONI, PINI, AUREA, SAOJORGE, CAZA, ITAPO06, ITAPO04, ALEGRIA, PONTA, PG11, PG111, PG104, MANDACARU, PONTARB, FALESIA, RAIZES, PONTABARRA, FASANO10, FASANO16, FASANO17, VILAS26, GOLF58, FLORESTA, VILAS41, VILAS67, BOUTIQUE13, ARACUA, JACARANDA03, TEIU, GOLF25, PG50, CASAEDO, BALEIA, PG55, GOLF72, PITANGA, AFRICA, TEMPO07, TEMPO08, TEMPO06, BOSQUE, PATIO, PG32, PG45, LICURI, DIVINA, TRESMENINAS, PEROBA, MORENA, MOA, BRAGA, CUMARU, JACARANDA05, TB14, MACONDO, RICK);
 
 export const WHATSAPP = '5573999141382';
 
