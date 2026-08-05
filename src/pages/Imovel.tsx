@@ -87,7 +87,7 @@ export default function Imovel() {
   ];
 
   return (
-    <div className="pt-16 md:pt-20" style={p.id === 'casa-coqueiral-02' ? { backgroundColor: '#EFE7D8', minHeight: '100vh' } : undefined}>
+    <div className="pt-16 md:pt-20" style={p.id === 'casa-coqueiral-02' ? { backgroundColor: '#F7F3EC', minHeight: '100vh' } : undefined}>
       {/* Galeria protagonista */}
       <section className="max-w-7xl mx-auto px-5 md:px-8 pt-8" onContextMenu={(e) => e.preventDefault()}>
         <button type="button" onClick={() => { if ((window.history.state?.idx ?? 0) > 0) navigate(-1); else navigate('/casas'); }} className="inline-flex items-center gap-2 text-sm text-green-e/70 hover:text-gold transition-colors mb-6">
