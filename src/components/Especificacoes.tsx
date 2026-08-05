@@ -2003,9 +2003,9 @@ function Item({ title, open, onToggle, emph = false, children }: { title: string
 }
 
 export default function Especificacoes({ p }: { p: Property }) {
-  // Teste de legibilidade (Casa Coqueiral 2): cinza mais fechado nos textos
-  const cBody = p.id === 'casa-coqueiral-02' ? 'text-[#404040]' : 'text-ink';
-  const cBody90 = p.id === 'casa-coqueiral-02' ? 'text-[#404040]' : 'text-ink/90';
+  // Cinza fechado nos textos para melhor legibilidade
+  const cBody = 'text-[#404040]';
+  const cBody90 = 'text-[#404040]';
   const { t, lang } = useLang();
   // Novo padrão de Especificações aprovado — aplicado a todas as casas.
   const emph = true;
