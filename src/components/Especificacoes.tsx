@@ -36,6 +36,38 @@ export const SUITE_PAR = /configura[cç][aã]o das su[ií]tes|suite layout|distr
 type SuiteGroup = { title: string; master?: string; suites?: [string, string][] };
 type HouseSuites = { groups: SuiteGroup[]; footer?: string };
 const SUITES_BY_ID: Record<string, Record<'pt' | 'en', HouseSuites>> = {
+  'terravista-boutique-casa-10': {
+    pt: { groups: [{ title: 'Suítes', suites: [
+      ['Suíte 01', '1 cama king size · Mosquiteiro · Closet · Ar-condicionado'],
+      ['Suíte 02', '1 cama de casal configurável como 2 camas de solteiro + 1 cama de solteiro · Mosquiteiro · Closet · Ar-condicionado'],
+      ['Suíte 03', '1 cama de casal configurável como 2 camas de solteiro + 1 cama de solteiro · Mosquiteiro · Ar-condicionado'],
+      ['Suíte 04', '1 cama king size · Mosquiteiro · Closet · Frigobar · Ar-condicionado'],
+      ['Suíte 05', '1 cama king size · Mosquiteiro · Closet · Frigobar · Ar-condicionado'],
+    ] }], footer: 'Capacidade para até 12 hóspedes. 5 banheiros.' },
+    en: { groups: [{ title: 'Suites', suites: [
+      ['Suite 01', '1 king size bed · Mosquito net · Walk-in closet · Air conditioning'],
+      ['Suite 02', '1 double bed configurable as 2 single beds + 1 single bed · Mosquito net · Walk-in closet · Air conditioning'],
+      ['Suite 03', '1 double bed configurable as 2 single beds + 1 single bed · Mosquito net · Air conditioning'],
+      ['Suite 04', '1 king size bed · Mosquito net · Walk-in closet · Minibar · Air conditioning'],
+      ['Suite 05', '1 king size bed · Mosquito net · Walk-in closet · Minibar · Air conditioning'],
+    ] }], footer: 'Capacity for up to 12 guests. 5 bathrooms.' },
+  },
+  'casa-mangaba-altos-de-trancoso': {
+    pt: { groups: [{ title: 'Suítes', suites: [
+      ['Suíte Master', '1 cama king size · Mosquiteiro · Sofá · Closet · Ar-condicionado · Secador de cabelo · Deck com vista para o mar'],
+      ['Suíte 02', '1 cama king size · Mosquiteiro · Ar-condicionado · Secador de cabelo · Deck com vista para o mar'],
+      ['Suíte 03', '1 cama king size · Mosquiteiro · Ar-condicionado · Secador de cabelo'],
+      ['Suíte 04', '1 cama king size · Mosquiteiro · Ar-condicionado · Secador de cabelo'],
+      ['Suíte 05', '1 cama king size · Mosquiteiro · Ar-condicionado · Secador de cabelo'],
+    ] }], footer: 'Capacidade para até 10 hóspedes. 6 banheiros.' },
+    en: { groups: [{ title: 'Suites', suites: [
+      ['Master Suite', '1 king size bed · Mosquito net · Sofa · Walk-in closet · Air conditioning · Hair dryer · Deck with sea view'],
+      ['Suite 02', '1 king size bed · Mosquito net · Air conditioning · Hair dryer · Deck with sea view'],
+      ['Suite 03', '1 king size bed · Mosquito net · Air conditioning · Hair dryer'],
+      ['Suite 04', '1 king size bed · Mosquito net · Air conditioning · Hair dryer'],
+      ['Suite 05', '1 king size bed · Mosquito net · Air conditioning · Hair dryer'],
+    ] }], footer: 'Capacity for up to 10 guests. 6 bathrooms.' },
+  },
   'terravista-golf-casa-21': {
     pt: {
       groups: [
