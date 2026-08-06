@@ -36,6 +36,32 @@ export const SUITE_PAR = /configura[cç][aã]o das su[ií]tes|suite layout|distr
 type SuiteGroup = { title: string; master?: string; suites?: [string, string][] };
 type HouseSuites = { groups: SuiteGroup[]; footer?: string };
 const SUITES_BY_ID: Record<string, Record<'pt' | 'en', HouseSuites>> = {
+  'terravista-golf-casa-62': {
+    pt: { groups: [
+      { title: 'Piso T\u00e9rreo', suites: [
+        ['Su\u00edte Master', '1 cama king size \u00b7 Ar-condicionado \u00b7 Mosquiteiro \u00b7 Closet \u00b7 Hidromassagem \u00b7 Secador de cabelo'],
+        ['Su\u00edte 02', '1 cama king size \u00b7 Ar-condicionado \u00b7 Mosquiteiro \u00b7 Hidromassagem \u00b7 Secador de cabelo'],
+      ] },
+      { title: 'Piso Inferior', suites: [
+        ['Su\u00edte 03', '2 camas de vi\u00fava \u00b7 Ar-condicionado \u00b7 Mosquiteiro \u00b7 Secador de cabelo'],
+        ['Su\u00edte 04', '2 camas de solteiro convers\u00edveis em 1 cama de casal \u00b7 Ar-condicionado \u00b7 Mosquiteiro \u00b7 Secador de cabelo'],
+        ['Su\u00edte 05', '2 camas de solteiro convers\u00edveis em 1 cama de casal \u00b7 Ar-condicionado \u00b7 Mosquiteiro \u00b7 Secador de cabelo'],
+        ['Su\u00edte 06', '2 camas de solteiro convers\u00edveis em 1 cama de casal \u00b7 Ar-condicionado \u00b7 Mosquiteiro \u00b7 Secador de cabelo'],
+      ] },
+    ], footer: 'A casa acomoda at\u00e9 12 h\u00f3spedes. 6 banheiros.' },
+    en: { groups: [
+      { title: 'Ground Floor', suites: [
+        ['Master Suite', '1 king size bed \u00b7 Air conditioning \u00b7 Mosquito net \u00b7 Walk-in closet \u00b7 Hot tub \u00b7 Hair dryer'],
+        ['Suite 02', '1 king size bed \u00b7 Air conditioning \u00b7 Mosquito net \u00b7 Hot tub \u00b7 Hair dryer'],
+      ] },
+      { title: 'Lower Floor', suites: [
+        ['Suite 03', '2 twin XL beds \u00b7 Air conditioning \u00b7 Mosquito net \u00b7 Hair dryer'],
+        ['Suite 04', '2 single beds convertible into 1 double bed \u00b7 Air conditioning \u00b7 Mosquito net \u00b7 Hair dryer'],
+        ['Suite 05', '2 single beds convertible into 1 double bed \u00b7 Air conditioning \u00b7 Mosquito net \u00b7 Hair dryer'],
+        ['Suite 06', '2 single beds convertible into 1 double bed \u00b7 Air conditioning \u00b7 Mosquito net \u00b7 Hair dryer'],
+      ] },
+    ], footer: 'The house accommodates up to 12 guests. 6 bathrooms.' },
+  },
   'casa-okun-quadrado': {
     pt: { groups: [{ title: 'Su\u00edtes', suites: [
       ['Su\u00edte 01', '1 cama queen \u00b7 Ar-condicionado'],
