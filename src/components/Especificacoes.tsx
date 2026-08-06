@@ -36,112 +36,174 @@ export const SUITE_PAR = /configura[cç][aã]o das su[ií]tes|suite layout|distr
 type SuiteGroup = { title: string; master?: string; suites?: [string, string][] };
 type HouseSuites = { groups: SuiteGroup[]; footer?: string };
 const SUITES_BY_ID: Record<string, Record<'pt' | 'en', HouseSuites>> = {
-  'casa-trama-altos-de-trancoso': {
+  'terravista-golf-casa-21': {
+    pt: {
+      groups: [
+        {
+          title: 'Suítes e Quartos',
+          suites: [
+            ['Suíte Master', '1 cama king size · Ar-condicionado · Mosquiteiro · Jacuzzi · Varanda'],
+            ['Suíte 02', '2 camas de solteiro, conversíveis em cama de casal · Ar-condicionado'],
+            ['Suíte 03', '2 camas de solteiro, conversíveis em cama de casal · Ar-condicionado'],
+            ['Suíte 04', '1 cama king size · Ar-condicionado · Mosquiteiro · Varanda'],
+            ['Suíte 05', '1 cama king size · Ar-condicionado · Mosquiteiro'],
+            ['Quarto 06', '1 cama queen size · Ar-condicionado · Mosquiteiro'],
+          ],
+        },
+      ],
+      footer: 'Capacidade para até 12 hóspedes. 7 banheiros.',
+    },
+    en: {
+      groups: [
+        {
+          title: 'Suites and Bedrooms',
+          suites: [
+            ['Master Suite', '1 king-size bed · Air conditioning · Mosquito net · Jacuzzi · Veranda'],
+            ['Suite 02', '2 single beds, convertible into a double bed · Air conditioning'],
+            ['Suite 03', '2 single beds, convertible into a double bed · Air conditioning'],
+            ['Suite 04', '1 king-size bed · Air conditioning · Mosquito net · Veranda'],
+            ['Suite 05', '1 king-size bed · Air conditioning · Mosquito net'],
+            ['Bedroom 06', '1 queen-size bed · Air conditioning · Mosquito net'],
+          ],
+        },
+      ],
+      footer: 'Capacity for up to 12 guests. 7 bathrooms.',
+    },
+  },
+  'terravista-golf-casa-19': {
     pt: {
       groups: [
         {
           title: 'Suítes',
           suites: [
-            ['Suíte 01', '3 camas de solteiro, sendo 2 conversíveis em 1 cama Super King Size · Ar-condicionado · Closet · Vista para o jardim'],
-            ['Suíte 02', '2 camas de solteiro, conversíveis em 1 cama Super King Size · Ar-condicionado · Closet · Vista para a área da piscina'],
-            ['Suíte 03', '1 cama King Size · Ar-condicionado · Closet · Vista para a área da piscina'],
-            ['Suíte 04', '2 camas de solteiro, conversíveis em 1 cama Super King Size · Ar-condicionado · Closet · Vista para a área da piscina'],
-            ['Suíte 05', '1 cama King Size · Ar-condicionado · Closet · Vista para a área da piscina'],
-            ['Suíte 06', '1 cama King Size · Ar-condicionado · Closet · Vista para a área da piscina'],
+            ['Suíte 01', '1 cama king size'],
+            ['Suíte 02', '1 cama king size'],
+            ['Suíte 03', '1 cama king size'],
+            ['Suíte 04', '1 cama king size'],
+            ['Suíte 05', '2 camas de solteiro, conversíveis em cama king'],
+            ['Suíte 06', '2 camas de solteiro, conversíveis em cama king'],
           ],
         },
       ],
-      footer: 'Capacidade para até 13 hóspedes. 7 banheiros.',
+      footer: 'Capacidade para até 12 hóspedes (até 15 mediante solicitação). 8 banheiros.',
     },
     en: {
       groups: [
         {
           title: 'Suites',
           suites: [
-            ['Suite 01', '3 single beds, 2 of which convertible into 1 Super King Size bed · Air conditioning · Walk-in closet · Garden view'],
-            ['Suite 02', '2 single beds, convertible into 1 Super King Size bed · Air conditioning · Walk-in closet · Pool area view'],
-            ['Suite 03', '1 King Size bed · Air conditioning · Walk-in closet · Pool area view'],
-            ['Suite 04', '2 single beds, convertible into 1 Super King Size bed · Air conditioning · Walk-in closet · Pool area view'],
-            ['Suite 05', '1 King Size bed · Air conditioning · Walk-in closet · Pool area view'],
-            ['Suite 06', '1 King Size bed · Air conditioning · Walk-in closet · Pool area view'],
+            ['Suite 01', '1 king-size bed'],
+            ['Suite 02', '1 king-size bed'],
+            ['Suite 03', '1 king-size bed'],
+            ['Suite 04', '1 king-size bed'],
+            ['Suite 05', '2 single beds, convertible into a king bed'],
+            ['Suite 06', '2 single beds, convertible into a king bed'],
           ],
         },
       ],
-      footer: 'Accommodates up to 13 guests. 7 bathrooms.',
+      footer: 'Capacity for up to 12 guests (up to 15 upon request). 8 bathrooms.',
     },
   },
-  'casa-15-joao-vieira': {
+  'terravista-golf-casa-33': {
     pt: {
       groups: [
         {
-          title: 'Chalés Independentes',
+          title: 'Piso Superior',
           suites: [
-            ['Chalé 01', '1 cama Queen Size · Banheiro privativo · Ambiente independente'],
-            ['Chalé 02', '1 cama Queen Size · Banheiro privativo · Ambiente independente'],
-            ['Chalé 03', '1 cama Queen Size · Banheiro privativo · Ambiente independente'],
+            ['Suíte Master', '1 cama king size · Mosquiteiro · Closet · Cofre · Espaço para massagem · Hidromassagem · Frigobar · TV · Secador de cabelo · Ar-condicionado · Varanda com vista para a piscina e o campo de golfe'],
           ],
         },
         {
-          title: 'Casa Principal',
+          title: 'Piso Térreo',
           suites: [
-            ['Quarto 04', 'Quarto infantil com beliche · Ideal para crianças ou adolescentes'],
-            ['Quarto 05', '1 cama Queen Size · Banheiro compartilhado com o quarto infantil'],
+            ['Suíte 02', '1 cama queen · Mosquiteiro · Closet · Cofre · TV · Secador de cabelo · Ar-condicionado'],
+            ['Suíte 03', '1 cama queen · Mosquiteiro · Closet · Cofre · TV · Secador de cabelo · Ar-condicionado'],
+            ['Suíte 04', '1 cama queen · Mosquiteiro · Closet · Cofre · TV · Secador de cabelo · Ar-condicionado'],
+            ['Suíte 05', '1 cama queen · Mosquiteiro · Closet · Cofre · TV · Secador de cabelo · Ar-condicionado'],
+          ],
+        },
+        {
+          title: 'Piso Inferior',
+          suites: [
+            ['Suíte 06', '1 cama queen e 3 camas de solteiro · Mosquiteiro · Sofá · Closet · Cofre · TV · Ar-condicionado'],
           ],
         },
       ],
-      footer: 'Capacidade para até 14 hóspedes. 4 banheiros completos e 1 lavabo.',
+      footer: 'A casa acomoda até 15 pessoas. 6 banheiros.',
     },
     en: {
       groups: [
         {
-          title: 'Independent Bungalows',
+          title: 'Upper Floor',
           suites: [
-            ['Bungalow 01', '1 Queen Size bed · Private bathroom · Independent space'],
-            ['Bungalow 02', '1 Queen Size bed · Private bathroom · Independent space'],
-            ['Bungalow 03', '1 Queen Size bed · Private bathroom · Independent space'],
+            ['Master Suite', '1 king-size bed · Mosquito net · Walk-in closet · Safe · Massage area · Hot tub · Minibar · TV · Hairdryer · Air conditioning · Veranda overlooking the pool and golf course'],
           ],
         },
         {
-          title: 'Main House',
+          title: 'Ground Floor',
           suites: [
-            ['Bedroom 04', 'Kids bedroom with bunk bed · Ideal for children or teenagers'],
-            ['Bedroom 05', '1 Queen Size bed · Bathroom shared with the kids bedroom'],
+            ['Suite 02', '1 queen bed · Mosquito net · Walk-in closet · Safe · TV · Hairdryer · Air conditioning'],
+            ['Suite 03', '1 queen bed · Mosquito net · Walk-in closet · Safe · TV · Hairdryer · Air conditioning'],
+            ['Suite 04', '1 queen bed · Mosquito net · Walk-in closet · Safe · TV · Hairdryer · Air conditioning'],
+            ['Suite 05', '1 queen bed · Mosquito net · Walk-in closet · Safe · TV · Hairdryer · Air conditioning'],
+          ],
+        },
+        {
+          title: 'Lower Floor',
+          suites: [
+            ['Suite 06', '1 queen bed and 3 single beds · Mosquito net · Sofa · Walk-in closet · Safe · TV · Air conditioning'],
           ],
         },
       ],
-      footer: 'Accommodates up to 14 guests. 4 full bathrooms and 1 powder room.',
+      footer: 'The house accommodates up to 15 people. 6 bathrooms.',
     },
   },
-  'casa-14-joao-vieira': {
+  'terravista-golf-casa-37': {
     pt: {
       groups: [
         {
           title: 'Suítes',
           suites: [
-            ['Suíte 01', '1 cama King Size · Ar-condicionado · Banheiro privativo'],
-            ['Suíte 02', '1 cama King Size · Ar-condicionado · Banheiro privativo'],
-            ['Suíte 03', '1 cama Queen Size · Ar-condicionado · Banheiro privativo'],
-            ['Suíte 04', '1 cama Queen Size · Ar-condicionado · Banheiro privativo'],
-            ['Suíte 05', '2 camas de solteiro · Ar-condicionado · Banheiro privativo'],
+            ['Suíte 01', '2 camas viúva · Mosquiteiro · Armário · Secador de cabelo · Ar-condicionado'],
+            ['Suíte 02', '1 cama king size · Mosquiteiro · Armário · Secador de cabelo · Ar-condicionado'],
+            ['Suíte 03', '1 cama queen size · Mosquiteiro · Armário · Secador de cabelo · Ar-condicionado'],
+            ['Suíte 04', '1 cama queen size · Mosquiteiro · Closet · Secador de cabelo · Ar-condicionado · Chuveiro externo'],
+            ['Suíte 05', '1 cama king size · Mosquiteiro · Closet · Secador de cabelo · Ar-condicionado · Chuveiro externo'],
+            ['Suíte 06', '1 cama king size · Mosquiteiro · Closet · Secador de cabelo · Ar-condicionado · Chuveiro externo'],
+          ],
+        },
+        {
+          title: 'Quartos de Apoio',
+          suites: [
+            ['Quarto de Apoio 01', '2 camas de solteiro · Ar-condicionado'],
+            ['Quarto de Apoio 02', '2 camas de solteiro · Ar-condicionado'],
           ],
         },
       ],
-      footer: 'Capacidade para até 10 hóspedes. 5 banheiros privativos e 1 banheiro de apoio à piscina.',
+      footer: 'Capacidade para até 16 hóspedes. 7 banheiros.',
     },
     en: {
       groups: [
         {
           title: 'Suites',
           suites: [
-            ['Suite 01', '1 King Size bed · Air conditioning · Private bathroom'],
-            ['Suite 02', '1 King Size bed · Air conditioning · Private bathroom'],
-            ['Suite 03', '1 Queen Size bed · Air conditioning · Private bathroom'],
-            ['Suite 04', '1 Queen Size bed · Air conditioning · Private bathroom'],
-            ['Suite 05', '2 twin beds · Air conditioning · Private bathroom'],
+            ['Suite 01', '2 wide single beds · Mosquito net · Wardrobe · Hairdryer · Air conditioning'],
+            ['Suite 02', '1 king-size bed · Mosquito net · Wardrobe · Hairdryer · Air conditioning'],
+            ['Suite 03', '1 queen-size bed · Mosquito net · Wardrobe · Hairdryer · Air conditioning'],
+            ['Suite 04', '1 queen-size bed · Mosquito net · Walk-in closet · Hairdryer · Air conditioning · Outdoor shower'],
+            ['Suite 05', '1 king-size bed · Mosquito net · Walk-in closet · Hairdryer · Air conditioning · Outdoor shower'],
+            ['Suite 06', '1 king-size bed · Mosquito net · Walk-in closet · Hairdryer · Air conditioning · Outdoor shower'],
+          ],
+        },
+        {
+          title: 'Support Bedrooms',
+          suites: [
+            ['Support Bedroom 01', '2 single beds · Air conditioning'],
+            ['Support Bedroom 02', '2 single beds · Air conditioning'],
           ],
         },
       ],
-      footer: 'Accommodates up to 10 guests. 5 private bathrooms and 1 pool support bathroom.',
+      footer: 'Capacity for up to 16 guests. 7 bathrooms.',
     },
   },
   'casa-13-joao-vieira': {
@@ -2003,9 +2065,6 @@ function Item({ title, open, onToggle, emph = false, children }: { title: string
 }
 
 export default function Especificacoes({ p }: { p: Property }) {
-  // Cinza fechado nos textos para melhor legibilidade
-  const cBody = 'text-[#404040]';
-  const cBody90 = 'text-[#404040]';
   const { t, lang } = useLang();
   // Novo padrão de Especificações aprovado — aplicado a todas as casas.
   const emph = true;
@@ -2051,7 +2110,7 @@ export default function Especificacoes({ p }: { p: Property }) {
         <Item title={l.amenities} open={openIdx === 0} onToggle={() => toggle(0)} emph={emph}>
           <ul className="grid sm:grid-cols-2 gap-x-8 gap-y-2.5">
             {amenitiesList.map((a, i) => (
-              <li key={i} className={`flex items-start gap-3 text-sm ${cBody} leading-relaxed`}>
+              <li key={i} className="flex items-start gap-3 text-sm text-ink leading-relaxed">
                 <span className="w-1.5 h-1.5 bg-gold rounded-full shrink-0 mt-1.5" />
                 {a}
               </li>
@@ -2068,11 +2127,11 @@ export default function Especificacoes({ p }: { p: Property }) {
                       <h4 className="font-serif-e text-base md:text-lg font-semibold text-ink">{g.title}</h4>
                     )}
                     {g.master ? (
-                      <p className={`mt-1.5 text-sm leading-relaxed ${cBody90}`}>{g.master}</p>
+                      <p className="mt-1.5 text-sm leading-relaxed text-ink/90">{g.master}</p>
                     ) : (
                       <div className="mt-1.5 space-y-1.5">
                         {g.suites!.map(([nome, desc], j) => (
-                          <p key={j} className={`text-sm leading-relaxed ${cBody90}`}>
+                          <p key={j} className="text-sm leading-relaxed text-ink/90">
                             <strong className="font-semibold text-ink">{nome}:</strong> {desc}
                           </p>
                         ))}
@@ -2081,20 +2140,20 @@ export default function Especificacoes({ p }: { p: Property }) {
                   </div>
                 ))}
                 {suitesData.footer && (
-                  <p className={`text-sm leading-relaxed ${cBody90} pt-1`}>{suitesData.footer}</p>
+                  <p className="text-sm leading-relaxed text-ink/90 pt-1">{suitesData.footer}</p>
                 )}
               </div>
             ) : (
-              <p className={`text-sm leading-relaxed ${cBody90} pt-1`}>{suitesText}</p>
+              <p className="text-sm leading-relaxed text-ink/90 pt-1">{suitesText}</p>
             )
           ) : (
-            <p className={`${cBody} text-sm leading-relaxed`}>{suitesText}</p>
+            <p className="text-ink text-sm leading-relaxed">{suitesText}</p>
           )}
         </Item>
         <Item title={l.staff} open={openIdx === 2} onToggle={() => toggle(2)} emph={emph}>
           <ul className="grid sm:grid-cols-2 gap-x-8 gap-y-2.5">
             {staffList.map((s, i) => (
-              <li key={i} className={`flex items-start gap-3 text-sm ${cBody} leading-relaxed`}>
+              <li key={i} className="flex items-start gap-3 text-sm text-ink leading-relaxed">
                 <span className="w-1.5 h-1.5 bg-green-e rounded-full shrink-0 mt-1.5" />
                 {s}
               </li>
@@ -2102,7 +2161,7 @@ export default function Especificacoes({ p }: { p: Property }) {
           </ul>
         </Item>
         <Item title={l.location} open={openIdx === 3} onToggle={() => toggle(3)} emph={emph}>
-          <p className={`${cBody} text-sm leading-relaxed`}>
+          <p className="text-ink text-sm leading-relaxed">
             {locationText}
             {lot ? ` ${lot.lot}.` : ''}
             {p.locationDetail ? ` ${txt(p.locationDetail, lang)}.` : ''}
