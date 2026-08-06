@@ -4,7 +4,6 @@ import { ArrowRight, MessageCircle, ChevronDown } from 'lucide-react';
 import { useLang } from '../i18n';
 import { PROPERTIES, WHATSAPP } from '../data/properties';
 import { FILTER_LOCATIONS } from '../data/locations';
-import { imgSources } from '../data/imgset';
 import { trackWhatsApp } from '../data/analytics';
 import { Reveal } from '../components/Layout';
 import PropertyCard from '../components/PropertyCard';
@@ -84,13 +83,8 @@ export default function Home() {
     <>
       {/* 1. Hero */}
       <section className="relative h-screen min-h-[640px] flex flex-col">
-        <picture>
-          <source type="image/webp" srcSet={imgSources('/img/hero.jpg').webpSrcSet} sizes="100vw" />
-          <img draggable={false} src="/img/hero.jpg" alt="Praias, falésias e natureza de Trancoso" fetchPriority="high"
-            className="absolute inset-0 w-full h-full object-cover lg:hidden" />
-        </picture>
         <video autoPlay muted loop playsInline poster="/img/hero.jpg" aria-label="Praias, falésias e natureza de Trancoso"
-          className="absolute inset-0 w-full h-full object-cover hidden lg:block">
+          className="absolute inset-0 w-full h-full object-cover">
           <source src="/img/hero.mp4" type="video/mp4" />
         </video>
         <div className="absolute inset-0 bg-gradient-to-b from-green-deep/40 via-transparent to-green-deep/60" />
