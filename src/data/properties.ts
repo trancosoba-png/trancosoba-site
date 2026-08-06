@@ -3143,7 +3143,29 @@ const MANGABA: Property = {
   notes: { pt: ['Locação mínima de 3 diárias. Pets não são permitidos.', 'Taxa de serviço: acréscimo de 10% sobre o valor da hospedagem.'], en: ['Minimum rental of 3 nights. Pets are not allowed.', 'Service fee: 10% added to the accommodation price.'] },
 };
 
-PROPERTIES.unshift(TVB10, MANGABA, GOLF21, GOLF19, GOLF33, GOLF37, GOLF27, TRAMA, TIZZI, LILI, C23, JV15, JV14, JV13, C20, C21, C24, V7, MARTINI, SANTARITA, PATIMIRIM, DAJU, BUENO, BONITA, AREIA, COQUEIRAL22, SUBLIME, ESTRELA, VISTANATIVOS, TERRAL, ITAPO01, ATENA, JACARANDA04, COQUEIRAL14, COQUEIRAL02, CASAMARIA, ALMESCLA, CASAMAR, GEIGER, COQUEIRAL01, MIA, COQUEIRAL25, MAION, DADINHO, IANDE, MAGIVI, OITI, COQUEIRAL13, COQUEIRAL7, NAOCA, CASA71, CAJU, SANMARCO, CASA14, CASA09, BOSSA, TUA, IMBIRUCU, CASA42, CASA61, VILAS02, CASA80, ITAPO07, CASA96, CASA90, VILAS75, LIMOEIRO, BIRIBA, VILAMAR, BETTONI, PINI, AUREA, SAOJORGE, CAZA, ITAPO06, ITAPO04, ALEGRIA, PONTA, PG11, PG111, PG104, MANDACARU, PONTARB, FALESIA, RAIZES, PONTABARRA, FASANO10, FASANO16, FASANO17, VILAS26, GOLF58, FLORESTA, VILAS41, VILAS67, BOUTIQUE13, ARACUA, JACARANDA03, TEIU, GOLF25, PG50, CASAEDO, BALEIA, PG55, GOLF72, PITANGA, AFRICA, TEMPO07, TEMPO08, TEMPO06, BOSQUE, PATIO, PG32, PG45, LICURI, DIVINA, TRESMENINAS, PEROBA, MORENA, MOA, BRAGA, CUMARU, JACARANDA05, TB14, MACONDO, RICK);
+const OKUN: Property = {
+  id: 'casa-okun-quadrado', code: 'TBA-338', name: { pt: 'Casa \u00d2kun', en: 'Casa \u00d2kun' },
+  purpose: ['aluguel'], location: 'Quadrado', suites: 2, guests: 4, baths: 2, area: '\u2014',
+  price: { pt: 'R$ 2.500 / di\u00e1ria', en: 'R$ 2,500 / night' },
+  priceLow: { pt: 'R$ 2.000 / di\u00e1ria', en: 'R$ 2,000 / night' },
+  carnaval: { pt: 'Sob consulta', en: 'Upon request' },
+  reveillon: { pt: 'R$ 100.000', en: 'R$ 100,000' },
+  image: '/img/okun/01.jpg',
+  gallery: ['/img/okun/01.webp','/img/okun/02.webp','/img/okun/03.webp','/img/okun/04.webp','/img/okun/05.webp','/img/okun/06.webp','/img/okun/07.webp','/img/okun/08.webp','/img/okun/09.webp','/img/okun/10.webp','/img/okun/11.webp','/img/okun/12.webp','/img/okun/13.webp','/img/okun/14.webp','/img/okun/15.webp','/img/okun/16.webp','/img/okun/17.webp','/img/okun/18.webp','/img/okun/19.webp','/img/okun/20.webp','/img/okun/21.webp','/img/okun/22.webp','/img/okun/23.webp'], featured: false,
+  amenities: {
+    pt: ['Piscina', 'Jardim tropical com pergolado', '\u00c1rea gourmet externa', 'Sala de TV', 'Cozinha equipada', 'Ar-condicionado', 'Internet Wi-Fi', 'Smart TV', 'Roupas de cama e banho', 'Estacionamento privativo', 'A 5 minutos a p\u00e9 do Quadrado'],
+    en: ['Swimming pool', 'Tropical garden with pergola', 'Outdoor gourmet area', 'TV room', 'Equipped kitchen', 'Air conditioning', 'Wi-Fi internet', 'Smart TV', 'Bed and bath linens', 'Private parking', '5 minutes on foot from the Quadrado'],
+  },
+  staff: { pt: ['Camareira'], en: ['Housekeeper'] },
+  features: ['quadrado', 'piscina'],
+  locationDetail: { pt: 'No centro de Trancoso, a aproximadamente 5 minutos de caminhada do Quadrado, com f\u00e1cil acesso aos restaurantes, bares e ao charme do vilarejo.', en: 'In the center of Trancoso, approximately 5 minutes on foot from the Quadrado, with easy access to the restaurants, bars and the charm of the village.' },
+  description: {
+    pt: 'Localizada no centro de Trancoso, a aproximadamente cinco minutos de caminhada do Quadrado, a Casa \u00d2kun \u00e9 ideal para quem deseja aproveitar os restaurantes, bares e todo o charme do vilarejo com praticidade.\n\nCom ambientes elegantes e acolhedores, a casa oferece conforto e privacidade para at\u00e9 quatro pessoas, em duas su\u00edtes com cama queen. A \u00e1rea social re\u00fane sala de TV e cozinha equipada, integradas aos espa\u00e7os externos.\n\nNo jardim tropical, a piscina e o pergolado criam um ref\u00fagio tranquilo para os dias de descanso, a poucos passos da vida animada do Quadrado. A casa conta ainda com estacionamento privativo.',
+    en: 'Located in the center of Trancoso, approximately five minutes on foot from the Quadrado, Casa \u00d2kun is ideal for those who want to enjoy the restaurants, bars and all the charm of the village with convenience.\n\nWith elegant and welcoming spaces, the house offers comfort and privacy for up to four people, in two suites with queen beds. The social area includes a TV room and an equipped kitchen, integrated with the outdoor spaces.\n\nIn the tropical garden, the pool and pergola create a peaceful retreat for days of rest, just a few steps from the lively Quadrado. The house also has private parking.',
+  },
+  notes: { pt: ['Valores e disponibilidade sujeitos a confirma\u00e7\u00e3o.'], en: ['Prices and availability subject to confirmation.'] },
+};
+PROPERTIES.unshift(OKUN, TVB10, MANGABA, GOLF21, GOLF19, GOLF33, GOLF37, GOLF27, TRAMA, TIZZI, LILI, C23, JV15, JV14, JV13, C20, C21, C24, V7, MARTINI, SANTARITA, PATIMIRIM, DAJU, BUENO, BONITA, AREIA, COQUEIRAL22, SUBLIME, ESTRELA, VISTANATIVOS, TERRAL, ITAPO01, ATENA, JACARANDA04, COQUEIRAL14, COQUEIRAL02, CASAMARIA, ALMESCLA, CASAMAR, GEIGER, COQUEIRAL01, MIA, COQUEIRAL25, MAION, DADINHO, IANDE, MAGIVI, OITI, COQUEIRAL13, COQUEIRAL7, NAOCA, CASA71, CAJU, SANMARCO, CASA14, CASA09, BOSSA, TUA, IMBIRUCU, CASA42, CASA61, VILAS02, CASA80, ITAPO07, CASA96, CASA90, VILAS75, LIMOEIRO, BIRIBA, VILAMAR, BETTONI, PINI, AUREA, SAOJORGE, CAZA, ITAPO06, ITAPO04, ALEGRIA, PONTA, PG11, PG111, PG104, MANDACARU, PONTARB, FALESIA, RAIZES, PONTABARRA, FASANO10, FASANO16, FASANO17, VILAS26, GOLF58, FLORESTA, VILAS41, VILAS67, BOUTIQUE13, ARACUA, JACARANDA03, TEIU, GOLF25, PG50, CASAEDO, BALEIA, PG55, GOLF72, PITANGA, AFRICA, TEMPO07, TEMPO08, TEMPO06, BOSQUE, PATIO, PG32, PG45, LICURI, DIVINA, TRESMENINAS, PEROBA, MORENA, MOA, BRAGA, CUMARU, JACARANDA05, TB14, MACONDO, RICK);
 
 export const WHATSAPP = '5573999141382';
 

@@ -36,6 +36,16 @@ export const SUITE_PAR = /configura[cç][aã]o das su[ií]tes|suite layout|distr
 type SuiteGroup = { title: string; master?: string; suites?: [string, string][] };
 type HouseSuites = { groups: SuiteGroup[]; footer?: string };
 const SUITES_BY_ID: Record<string, Record<'pt' | 'en', HouseSuites>> = {
+  'casa-okun-quadrado': {
+    pt: { groups: [{ title: 'Su\u00edtes', suites: [
+      ['Su\u00edte 01', '1 cama queen \u00b7 Ar-condicionado'],
+      ['Su\u00edte 02', '1 cama queen \u00b7 Ar-condicionado'],
+    ] }], footer: 'A casa acomoda at\u00e9 4 pessoas.' },
+    en: { groups: [{ title: 'Suites', suites: [
+      ['Suite 01', '1 queen bed \u00b7 Air conditioning'],
+      ['Suite 02', '1 queen bed \u00b7 Air conditioning'],
+    ] }], footer: 'The house accommodates up to 4 guests.' },
+  },
   'terravista-boutique-casa-10': {
     pt: { groups: [{ title: 'Suítes', suites: [
       ['Suíte 01', '1 cama king size · Mosquiteiro · Closet · Ar-condicionado'],
