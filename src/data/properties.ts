@@ -1254,7 +1254,7 @@ const AFRICA: Property = {
 
 const TEMPO07: Property = {
   id: 'casa-tempo-07', code: 'TBA-257', name: { pt: 'Casa Tempo 07', en: 'Casa Tempo 07' },
-  purpose: ['aluguel'], location: 'Quadrado', suites: 2, guests: 4, baths: 2, area: 'Sob consulta',
+  purpose: ['aluguel'], location: 'Centro', suites: 2, guests: 4, baths: 2, area: 'Sob consulta',
   price: { pt: 'R$ 2.200 / diária', en: 'R$ 2,200 / night' },
   priceLow: { pt: 'R$ 1.650 / diária', en: 'R$ 1,650 / night' },
   carnaval: { pt: 'R$ 16.500', en: 'R$ 16,500' },
@@ -3187,7 +3187,214 @@ const GOLF62: Property = {
   },
   notes: { pt: ['Loca\u00e7\u00e3o m\u00ednima de 3 di\u00e1rias.', 'Valores de Carnaval e R\u00e9veillon correspondem a pacotes; per\u00edodo, disponibilidade e condi\u00e7\u00f5es confirmados no momento da reserva.', 'O preparo de alimentos e bebidas, compras e demais consumos s\u00e3o cobrados \u00e0 parte.'], en: ['Minimum rental of 3 nights.', 'Carnival and New Year\u2019s Eve rates correspond to packages; period, availability and conditions confirmed at booking.', 'Food and beverage preparation, groceries and other consumption are charged separately.'] },
 };
-PROPERTIES.unshift(OKUN, GOLF62, TVB10, MANGABA, GOLF21, GOLF19, GOLF33, GOLF37, GOLF27, TRAMA, TIZZI, LILI, C23, JV15, JV14, JV13, C20, C21, C24, V7, MARTINI, SANTARITA, PATIMIRIM, DAJU, BUENO, BONITA, AREIA, COQUEIRAL22, SUBLIME, ESTRELA, VISTANATIVOS, TERRAL, ITAPO01, ATENA, JACARANDA04, COQUEIRAL14, COQUEIRAL02, CASAMARIA, ALMESCLA, CASAMAR, GEIGER, COQUEIRAL01, MIA, COQUEIRAL25, MAION, DADINHO, IANDE, MAGIVI, OITI, COQUEIRAL13, COQUEIRAL7, NAOCA, CASA71, CAJU, SANMARCO, CASA14, CASA09, BOSSA, TUA, IMBIRUCU, CASA42, CASA61, VILAS02, CASA80, ITAPO07, CASA96, CASA90, VILAS75, LIMOEIRO, BIRIBA, VILAMAR, BETTONI, PINI, AUREA, SAOJORGE, CAZA, ITAPO06, ITAPO04, ALEGRIA, PONTA, PG11, PG111, PG104, MANDACARU, PONTARB, FALESIA, RAIZES, PONTABARRA, FASANO10, FASANO16, FASANO17, VILAS26, GOLF58, FLORESTA, VILAS41, VILAS67, BOUTIQUE13, ARACUA, JACARANDA03, TEIU, GOLF25, PG50, CASAEDO, BALEIA, PG55, GOLF72, PITANGA, AFRICA, TEMPO07, TEMPO08, TEMPO06, BOSQUE, PATIO, PG32, PG45, LICURI, DIVINA, TRESMENINAS, PEROBA, MORENA, MOA, BRAGA, CUMARU, JACARANDA05, TB14, MACONDO, RICK);
+const DUE: Property = {
+  id: 'casa-due-altos-de-trancoso', code: 'TBA-340', name: { pt: 'Casa Due — Altos de Trancoso', en: 'Casa Due — Altos de Trancoso' },
+  purpose: ['aluguel', 'venda'], location: 'Altos de Trancoso', suites: 6, guests: 12, baths: 6, area: '—',
+  price: { pt: 'R$ 9.000 / diária', en: 'R$ 9,000 / night' },
+  carnaval: { pt: 'Sob consulta', en: 'Upon request' },
+  reveillon: { pt: 'R$ 260.000 (pacote de 10 noites)', en: 'R$ 260,000 (10-night package)' },
+  salePrice: { pt: 'R$ 15.000.000', en: 'R$ 15,000,000' },
+  image: '/img/due/01.jpg',
+  gallery: ['/img/due/01.webp','/img/due/02.webp','/img/due/03.webp','/img/due/04.webp','/img/due/05.webp','/img/due/06.webp','/img/due/07.webp','/img/due/08.webp','/img/due/09.webp','/img/due/10.webp','/img/due/11.webp','/img/due/12.webp','/img/due/13.webp','/img/due/14.webp','/img/due/15.webp','/img/due/16.webp','/img/due/17.webp','/img/due/18.webp','/img/due/19.webp','/img/due/20.webp','/img/due/21.webp','/img/due/22.webp','/img/due/23.webp'], featured: false,
+  amenities: {
+    pt: ['Piscina privativa', 'Deck e varanda', 'Jardim', 'Área gourmet', 'Churrasqueira', 'Cervejeira', 'Ar-condicionado', 'Internet Wi-Fi', 'TV', 'Som ambiente', 'Roupas de cama e banho', 'Toalhas de piscina', 'Estacionamento'],
+    en: ['Private pool', 'Deck and veranda', 'Garden', 'Gourmet area', 'Barbecue', 'Beer cooler', 'Air conditioning', 'Wi-Fi internet', 'TV', 'Ambient sound', 'Bed and bath linens', 'Pool towels', 'Parking'],
+  },
+  staff: { pt: ['Camareira', 'Cozinheira'], en: ['Housekeeper', 'Cook'] },
+  features: ['condominio', 'piscina'],
+  locationDetail: { pt: 'No Condomínio Altos de Trancoso — 8 minutos a pé do Quadrado e 10 minutos da Praia dos Coqueiros.', en: 'In the Altos de Trancoso Condominium — 8 minutes on foot from the Quadrado and 10 minutes from Praia dos Coqueiros.' },
+  description: {
+    pt: 'Localizada no Condomínio Altos de Trancoso, a Casa Due fica a apenas oito minutos a pé do Quadrado e dez minutos da Praia dos Coqueiros, combinando a privacidade do condomínio com a conveniência de estar perto de tudo.\n\nSão seis suítes distribuídas entre a casa principal — com quatro suítes — e dois bangalôs independentes, acomodando até doze hóspedes com conforto. A área social reúne ambientes integrados, varanda e uma cozinha bem equipada.\n\nNa área externa, a piscina, o deck, o jardim e a área gourmet com churrasqueira formam o centro de convivência da casa. Camareira e cozinheira estão incluídas na locação. A propriedade também está disponível para venda.',
+    en: 'Located in the Altos de Trancoso Condominium, Casa Due is just eight minutes on foot from the Quadrado and ten minutes from Praia dos Coqueiros, combining the privacy of the condominium with the convenience of being close to everything.\n\nThere are six suites distributed between the main house — with four suites — and two independent bungalows, accommodating up to twelve guests in comfort. The social area brings together integrated spaces, a veranda and a well-equipped kitchen.\n\nOutside, the pool, deck, garden and gourmet area with barbecue form the heart of the house. Housekeeper and cook are included in the rental. The property is also available for sale.',
+  },
+  notes: { pt: ['Diária única de R$ 9.000 na baixa e na alta temporada.', 'Camareira e cozinheira incluídas na locação.'], en: ['Single rate of R$ 9,000 per night in low and high season.', 'Housekeeper and cook included in the rental.'] },
+};
+
+const AZUL: Property = {
+  id: 'casa-azul-centro', code: 'TBA-341', name: { pt: 'Casa Azul — Centro', en: 'Casa Azul — Centro' },
+  purpose: ['aluguel'], location: 'Centro', suites: 4, guests: 8, baths: 4, area: '—',
+  price: { pt: 'R$ 2.500 / diária', en: 'R$ 2,500 / night' },
+  carnaval: { pt: 'Sob consulta', en: 'Upon request' },
+  reveillon: { pt: 'R$ 90.000 (pacote)', en: 'R$ 90,000 (package)' },
+  image: '/img/azul/01.jpg',
+  gallery: ['/img/azul/01.webp','/img/azul/02.webp','/img/azul/03.webp','/img/azul/04.webp','/img/azul/05.webp','/img/azul/06.webp','/img/azul/07.webp','/img/azul/08.webp','/img/azul/09.webp','/img/azul/10.webp','/img/azul/11.webp','/img/azul/12.webp','/img/azul/13.webp','/img/azul/14.webp','/img/azul/15.webp','/img/azul/16.webp','/img/azul/17.webp','/img/azul/18.webp','/img/azul/19.webp','/img/azul/20.webp','/img/azul/21.webp','/img/azul/22.webp','/img/azul/23.webp','/img/azul/24.webp','/img/azul/25.webp','/img/azul/26.webp','/img/azul/27.webp','/img/azul/28.webp','/img/azul/29.webp'], featured: false,
+  amenities: {
+    pt: ['Piscina', 'Jardim', 'Churrasqueira', 'Cozinha equipada', 'Sala de convivência', 'Internet Wi-Fi', 'TV', 'Espaço de trabalho', 'Enxoval completo'],
+    en: ['Swimming pool', 'Garden', 'Barbecue', 'Equipped kitchen', 'Living room', 'Wi-Fi internet', 'TV', 'Workspace', 'Full linens'],
+  },
+  staff: { pt: ['Limpeza e arrumação em dias alternados'], en: ['Cleaning and tidying on alternate days'] },
+  features: ['piscina'],
+  locationDetail: { pt: 'No centro de Trancoso, na Rua Castro Alves, com fácil acesso a pé ao Quadrado, restaurantes e comércio do vilarejo.', en: 'In the center of Trancoso, on Rua Castro Alves, with easy walking access to the Quadrado, restaurants and village shops.' },
+  description: {
+    pt: 'Situada na Rua Castro Alves, no centro de Trancoso, a Casa Azul é uma opção acolhedora e prática para quem quer viver o vilarejo a pé, com fácil acesso ao Quadrado, aos restaurantes e ao comércio local.\n\nA casa dispõe de quatro quartos e quatro banheiros, acomodando até oito hóspedes: um quarto com quatro camas de solteiro, um com duas camas de solteiro, um com cama de casal e um com uma cama de solteiro.\n\nA área externa com piscina, jardim e churrasqueira, somada à cozinha equipada e à sala de convivência, cria um ambiente descontraído para dias em família ou entre amigos. O serviço de limpeza e arrumação acontece em dias alternados.',
+    en: 'Set on Rua Castro Alves, in the center of Trancoso, Casa Azul is a welcoming and practical option for those who want to experience the village on foot, with easy access to the Quadrado, restaurants and local shops.\n\nThe house has four bedrooms and four bathrooms, accommodating up to eight guests: one bedroom with four single beds, one with two single beds, one with a double bed and one with a single bed.\n\nThe outdoor area with pool, garden and barbecue, together with the equipped kitchen and living room, creates a relaxed atmosphere for days with family or friends. Cleaning and tidying service takes place on alternate days.',
+  },
+  notes: { pt: ['Diária única de R$ 2.500 na baixa e na alta temporada.', 'Limpeza e arrumação em dias alternados.'], en: ['Single rate of R$ 2,500 per night in low and high season.', 'Cleaning and tidying on alternate days.'] },
+};
+
+const FER: Property = {
+  id: 'casa-do-fer-altos-de-trancoso', code: 'TBA-342', name: { pt: 'Casa do Fer — Altos de Trancoso', en: 'Casa do Fer — Altos de Trancoso' },
+  purpose: ['aluguel', 'venda'], location: 'Altos de Trancoso', suites: 7, guests: 14, baths: 7, area: '700 m² · terreno 1.180 m²',
+  price: { pt: 'R$ 8.000 / diária', en: 'R$ 8,000 / night' },
+  carnaval: { pt: 'R$ 75.000 (pacote de 5 noites)', en: 'R$ 75,000 (5-night package)' },
+  reveillon: { pt: 'R$ 350.000 (pacote de 10 noites)', en: 'R$ 350,000 (10-night package)' },
+  salePrice: { pt: 'R$ 12.500.000', en: 'R$ 12,500,000' },
+  image: '/img/fer/01.jpg',
+  gallery: ['/img/fer/01.webp','/img/fer/02.webp','/img/fer/03.webp','/img/fer/04.webp','/img/fer/05.webp','/img/fer/06.webp','/img/fer/07.webp','/img/fer/08.webp','/img/fer/09.webp','/img/fer/10.webp','/img/fer/11.webp','/img/fer/12.webp','/img/fer/13.webp','/img/fer/14.webp','/img/fer/15.webp','/img/fer/16.webp','/img/fer/17.webp','/img/fer/18.webp','/img/fer/19.webp','/img/fer/20.webp','/img/fer/21.webp','/img/fer/22.webp'], featured: false,
+  amenities: {
+    pt: ['Quadra de beach tennis', 'Piscina privativa', 'Deck', 'Área gourmet', 'Churrasqueira', 'TV a cabo', 'Internet Wi-Fi', 'Área de serviço', 'Estacionamento para 2 carros'],
+    en: ['Beach tennis court', 'Private pool', 'Deck', 'Gourmet area', 'Barbecue', 'Cable TV', 'Wi-Fi internet', 'Service area', 'Parking for 2 cars'],
+  },
+  staff: { pt: ['Cozinheira', 'Auxiliar de cozinha', 'Arrumadeiras', 'Jardineiro/piscineiro'], en: ['Cook', 'Kitchen assistant', 'Housekeepers', 'Gardener/pool attendant'] },
+  features: ['condominio', 'piscina'],
+  locationDetail: { pt: 'No Condomínio Altos de Trancoso — 14 minutos a pé do Quadrado e 9 minutos da Praia dos Coqueiros.', en: 'In the Altos de Trancoso Condominium — 14 minutes on foot from the Quadrado and 9 minutes from Praia dos Coqueiros.' },
+  description: {
+    pt: 'Com 700 m² de área construída em um terreno de 1.180 m² no Condomínio Altos de Trancoso, a Casa do Fer recebe até quatorze hóspedes em sete suítes, a cerca de quatorze minutos a pé do Quadrado e nove minutos da Praia dos Coqueiros.\n\nA área externa é um dos destaques da propriedade: quadra de beach tennis, piscina, deck e área gourmet com churrasqueira garantem lazer e convivência sem sair de casa.\n\nA equipe completa — cozinheira, auxiliar de cozinha, arrumadeiras e jardineiro/piscineiro — está incluída na locação, oferecendo praticidade durante toda a estadia. A propriedade também está disponível para venda.',
+    en: 'With 700 m² of built area on a 1,180 m² plot in the Altos de Trancoso Condominium, Casa do Fer welcomes up to fourteen guests in seven suites, about fourteen minutes on foot from the Quadrado and nine minutes from Praia dos Coqueiros.\n\nThe outdoor area is one of the highlights of the property: beach tennis court, pool, deck and gourmet area with barbecue guarantee leisure and togetherness without leaving home.\n\nThe full team — cook, kitchen assistant, housekeepers and gardener/pool attendant — is included in the rental, offering convenience throughout the stay. The property is also available for sale.',
+  },
+  notes: { pt: ['Diária única de R$ 8.000 na baixa e na alta temporada.', 'Equipe de staff completa incluída na locação.'], en: ['Single rate of R$ 8,000 per night in low and high season.', 'Full staff team included in the rental.'] },
+};
+
+const ECO03: Property = {
+  id: 'condominio-eco-casa-03', code: 'TBA-343', name: { pt: 'Condomínio Eco — Casa 03', en: 'Condomínio Eco — Casa 03' },
+  purpose: ['aluguel'], location: 'Condomínio Eco', suites: 4, guests: 8, baths: 5, area: '364 m² · terreno 1.000 m²',
+  price: { pt: 'R$ 3.800 / diária', en: 'R$ 3,800 / night' },
+  priceLow: { pt: 'R$ 3.300 / diária', en: 'R$ 3,300 / night' },
+  carnaval: { pt: 'R$ 30.000 (pacote de 5 noites)', en: 'R$ 30,000 (5-night package)' },
+  reveillon: { pt: 'R$ 135.000 (pacote de 7 noites)', en: 'R$ 135,000 (7-night package)' },
+  image: '/img/eco03/01.jpg',
+  gallery: ['/img/eco03/01.webp','/img/eco03/02.webp','/img/eco03/03.webp','/img/eco03/04.webp','/img/eco03/05.webp','/img/eco03/06.webp','/img/eco03/07.webp','/img/eco03/08.webp','/img/eco03/09.webp','/img/eco03/10.webp','/img/eco03/11.webp','/img/eco03/12.webp','/img/eco03/13.webp','/img/eco03/14.webp','/img/eco03/15.webp','/img/eco03/16.webp','/img/eco03/17.webp','/img/eco03/18.webp','/img/eco03/19.webp','/img/eco03/20.webp','/img/eco03/21.webp','/img/eco03/22.webp','/img/eco03/23.webp','/img/eco03/24.webp','/img/eco03/25.webp','/img/eco03/26.webp'], featured: false,
+  amenities: {
+    pt: ['Piscina privativa', 'Ducha externa', 'Lava-louças', 'Máquina de gelo', 'Nespresso', 'TV a cabo', 'Máquina de lavar', 'Som ambiente', 'Internet Wi-Fi', 'Ar-condicionado'],
+    en: ['Private pool', 'Outdoor shower', 'Dishwasher', 'Ice maker', 'Nespresso', 'Cable TV', 'Washing machine', 'Ambient sound', 'Wi-Fi internet', 'Air conditioning'],
+  },
+  features: ['condominio', 'piscina'],
+  locationDetail: { pt: 'No Condomínio Trancoso Eco Residence, na Estrada dos Macacos — 1,5 km do Quadrado e 3 km da Praia dos Nativos (5 minutos de carro).', en: 'In the Trancoso Eco Residence Condominium, on Estrada dos Macacos — 1.5 km from the Quadrado and 3 km from Praia dos Nativos (5 minutes by car).' },
+  description: {
+    pt: 'Localizada no Condomínio Trancoso Eco Residence, na Estrada dos Macacos, a Casa 03 fica a apenas 1,5 km do Quadrado e 3 km da Praia dos Nativos — cerca de cinco minutos de carro.\n\nCom 364 m² de área construída em um terreno de 1.000 m², a casa acomoda até oito hóspedes em quatro suítes, com cinco banheiros. Os ambientes sociais são amplos e integrados à área externa.\n\nA piscina, o deck e o jardim formam um conjunto acolhedor para os dias de descanso, e a casa conta com comodidades como lava-louças, máquina de gelo, Nespresso, ducha externa, TV a cabo e som ambiente.',
+    en: 'Located in the Trancoso Eco Residence Condominium, on Estrada dos Macacos, Casa 03 is just 1.5 km from the Quadrado and 3 km from Praia dos Nativos — about five minutes by car.\n\nWith 364 m² of built area on a 1,000 m² plot, the house accommodates up to eight guests in four suites, with five bathrooms. The social areas are spacious and integrated with the outdoors.\n\nThe pool, deck and garden form a welcoming set for days of rest, and the house offers amenities such as dishwasher, ice maker, Nespresso, outdoor shower, cable TV and ambient sound.',
+  },
+  notes: { pt: ['Réveillon: pacote de 7 noites. Carnaval: pacote de 5 noites.'], en: ['New Year’s: 7-night package. Carnival: 5-night package.'] },
+};
+
+const ECO04: Property = {
+  id: 'condominio-eco-casa-04', code: 'TBA-344', name: { pt: 'Condomínio Eco — Casa 04', en: 'Condomínio Eco — Casa 04' },
+  purpose: ['aluguel'], location: 'Condomínio Eco', suites: 6, guests: 12, baths: 6, area: '—',
+  price: { pt: 'R$ 8.000 / diária', en: 'R$ 8,000 / night' },
+  priceLow: { pt: 'R$ 6.500 / diária', en: 'R$ 6,500 / night' },
+  carnaval: { pt: 'R$ 60.000 (pacote)', en: 'R$ 60,000 (package)' },
+  reveillon: { pt: 'R$ 170.000 (pacote)', en: 'R$ 170,000 (package)' },
+  image: '/img/eco04/01.jpg',
+  gallery: ['/img/eco04/01.webp','/img/eco04/02.webp','/img/eco04/03.webp','/img/eco04/04.webp','/img/eco04/05.webp','/img/eco04/06.webp','/img/eco04/07.webp','/img/eco04/08.webp','/img/eco04/09.webp','/img/eco04/10.webp','/img/eco04/11.webp','/img/eco04/12.webp','/img/eco04/13.webp','/img/eco04/14.webp','/img/eco04/15.webp','/img/eco04/16.webp','/img/eco04/17.webp','/img/eco04/18.webp','/img/eco04/19.webp','/img/eco04/20.webp','/img/eco04/21.webp','/img/eco04/22.webp','/img/eco04/23.webp','/img/eco04/24.webp','/img/eco04/25.webp','/img/eco04/26.webp','/img/eco04/27.webp','/img/eco04/28.webp','/img/eco04/29.webp','/img/eco04/30.webp'], featured: false,
+  amenities: {
+    pt: ['Piscina privativa', 'Quadra de beach tennis', 'Gerador', 'Mosquiteiros', 'Smart TV', 'Equipamentos de praia', 'Internet Wi-Fi', 'Ar-condicionado'],
+    en: ['Private pool', 'Beach tennis court', 'Generator', 'Mosquito nets', 'Smart TV', 'Beach equipment', 'Wi-Fi internet', 'Air conditioning'],
+  },
+  staff: { pt: ['Arrumadeira', 'Piscineiro', 'Jardineiro'], en: ['Housekeeper', 'Pool attendant', 'Gardener'] },
+  features: ['condominio', 'piscina'],
+  locationDetail: { pt: 'No Condomínio Trancoso Eco Residence, na Estrada dos Macacos — 2 km do Quadrado e 3 km da Praia dos Nativos.', en: 'In the Trancoso Eco Residence Condominium, on Estrada dos Macacos — 2 km from the Quadrado and 3 km from Praia dos Nativos.' },
+  description: {
+    pt: 'Situada no Condomínio Trancoso Eco Residence, a Casa 04 fica a cerca de dois quilômetros do Quadrado e três quilômetros da Praia dos Nativos, unindo tranquilidade e acesso rápido ao centrinho e às praias.\n\nSão seis suítes para até doze hóspedes, com ambientes sociais integrados à área externa, onde a piscina, o jardim e a quadra de beach tennis criam um completo espaço de lazer.\n\nA casa conta com gerador, mosquiteiros, Smart TV e equipamentos de praia, além de equipe com arrumadeira, piscineiro e jardineiro incluída na locação.',
+    en: 'Set in the Trancoso Eco Residence Condominium, Casa 04 is about two kilometers from the Quadrado and three kilometers from Praia dos Nativos, combining tranquility with quick access to the village center and beaches.\n\nThere are six suites for up to twelve guests, with social areas integrated with the outdoors, where the pool, garden and beach tennis court create a complete leisure space.\n\nThe house has a generator, mosquito nets, Smart TV and beach equipment, plus a team with housekeeper, pool attendant and gardener included in the rental.',
+  },
+  notes: { pt: ['Carnaval e Réveillon sob formato de pacote.'], en: ['Carnival and New Year’s Eve offered as packages.'] },
+};
+
+const VISTA: Property = {
+  id: 'casa-vista-caraiva', code: 'TBA-345', name: { pt: 'Casa Vista — Caraíva', en: 'Casa Vista — Caraíva' },
+  purpose: ['aluguel'], location: 'Caraíva', suites: 7, guests: 18, baths: 8, area: '1.000 m² · terreno 84.000 m²',
+  price: { pt: 'R$ 12.000 / diária', en: 'R$ 12,000 / night' },
+  priceLow: { pt: 'R$ 8.000 / diária', en: 'R$ 8,000 / night' },
+  carnaval: { pt: 'Sob consulta', en: 'Upon request' },
+  reveillon: { pt: 'Sob consulta', en: 'Upon request' },
+  image: '/img/vista/01.jpg',
+  gallery: ['/img/vista/01.webp','/img/vista/02.webp','/img/vista/03.webp','/img/vista/04.webp','/img/vista/05.webp','/img/vista/06.webp','/img/vista/07.webp','/img/vista/08.webp','/img/vista/09.webp','/img/vista/10.webp','/img/vista/11.webp','/img/vista/12.webp','/img/vista/13.webp','/img/vista/14.webp','/img/vista/15.webp','/img/vista/16.webp','/img/vista/17.webp','/img/vista/18.webp','/img/vista/19.webp','/img/vista/20.webp','/img/vista/21.webp','/img/vista/22.webp','/img/vista/23.webp','/img/vista/24.webp','/img/vista/25.webp','/img/vista/26.webp','/img/vista/27.webp','/img/vista/28.webp','/img/vista/29.webp','/img/vista/30.webp','/img/vista/31.webp'], featured: false,
+  amenities: {
+    pt: ['Piscina privativa', 'Jacuzzi aquecida', 'Sauna', 'Quadra de areia', 'Píer privativo com barco e barqueiro', 'Adega', 'Cervejeira', '2 geladeiras', 'Lavadora e secadora', 'Gerador', 'Vista para o rio e para o mar', 'Pet friendly (mediante consulta)'],
+    en: ['Private pool', 'Heated jacuzzi', 'Sauna', 'Sand court', 'Private pier with boat and boatman', 'Wine cellar', 'Beer cooler', '2 refrigerators', 'Washer and dryer', 'Generator', 'River and sea views', 'Pet friendly (upon request)'],
+  },
+  staff: { pt: ['Cozinheira', 'Camareira', 'Caseiro 24h', 'Piscineiro', 'Barqueiro'], en: ['Cook', 'Housekeeper', '24h caretaker', 'Pool attendant', 'Boatman'] },
+  features: ['piscina', 'vista-mar'],
+  locationDetail: { pt: 'No Jambreiro, em Caraíva — às margens do Rio Caraíva, com píer privativo; a praia fica a cerca de 6 minutos de barco. Casa fora de condomínio.', en: 'In Jambreiro, Caraíva — on the banks of the Caraíva River, with a private pier; the beach is about 6 minutes away by boat. House outside a condominium.' },
+  description: {
+    pt: 'Recém-construída em 2024, a Casa Vista está às margens do Rio Caraíva, no Jambreiro, em um terreno de 84.000 m² com cerca de 1.000 m² de área construída. Do píer privativo, com barco e barqueiro à disposição, chega-se à praia em aproximadamente seis minutos.\n\nA casa acomoda até dezoito hóspedes em sete suítes — oito quartos no total — com oito banheiros. A suíte master conta com cama king, closet, varanda e dois chuveiros; as demais suítes oferecem camas king ou duas camas queen.\n\nPiscina, jacuzzi aquecida, sauna, quadra de areia e uma ampla área gourmet completam a estrutura de lazer, com vista para o rio e para o mar. A equipe inclui cozinheira, camareira, caseiro 24 horas, piscineiro e barqueiro.',
+    en: 'Newly built in 2024, Casa Vista sits on the banks of the Caraíva River, in Jambreiro, on an 84,000 m² plot with about 1,000 m² of built area. From the private pier, with boat and boatman available, the beach is reached in approximately six minutes.\n\nThe house accommodates up to eighteen guests in seven suites — eight bedrooms in total — with eight bathrooms. The master suite features a king bed, closet, veranda and two showers; the other suites offer king beds or two queen beds.\n\nPool, heated jacuzzi, sauna, sand court and a large gourmet area complete the leisure structure, with views of the river and the sea. The team includes cook, housekeeper, 24-hour caretaker, pool attendant and boatman.',
+  },
+  notes: { pt: ['Taxa de serviço de 10% sobre o valor da hospedagem.', 'Carnaval e Réveillon sob consulta.', 'Pet friendly mediante consulta.'], en: ['Service fee of 10% on the accommodation price.', 'Carnival and New Year’s Eve upon request.', 'Pet friendly upon request.'] },
+};
+
+const GOLF95: Property = {
+  id: 'terravista-golf-casa-95', code: 'TBA-346', name: { pt: 'Terravista Golf — Casa 95', en: 'Terravista Golf — Casa 95' },
+  purpose: ['aluguel'], location: 'Terravista Golf', suites: 8, guests: 16, baths: 9, area: '1.200 m² · terreno 1.900 m²',
+  price: { pt: 'R$ 25.000 / diária', en: 'R$ 25,000 / night' },
+  priceLow: { pt: 'R$ 18.000 / diária', en: 'R$ 18,000 / night' },
+  seasonHigh: { pt: 'Dezembro a fevereiro, julho e feriados', en: 'December to February, July and holidays' },
+  seasonLow: { pt: 'Março a novembro (exceto julho)', en: 'March to November (except July)' },
+  carnaval: { pt: 'R$ 200.000 (pacote de 5 diárias)', en: 'R$ 200,000 (5-night package)' },
+  reveillon: { pt: 'R$ 750.000 (pacote de 10 noites)', en: 'R$ 750,000 (10-night package)' },
+  image: '/img/golf95/01.jpg',
+  gallery: ['/img/golf95/01.webp','/img/golf95/02.webp','/img/golf95/03.webp','/img/golf95/04.webp','/img/golf95/05.webp','/img/golf95/06.webp','/img/golf95/07.webp','/img/golf95/08.webp','/img/golf95/09.webp','/img/golf95/10.webp','/img/golf95/11.webp','/img/golf95/12.webp','/img/golf95/13.webp','/img/golf95/14.webp','/img/golf95/15.webp','/img/golf95/16.webp','/img/golf95/17.webp','/img/golf95/18.webp','/img/golf95/19.webp','/img/golf95/20.webp','/img/golf95/21.webp','/img/golf95/22.webp','/img/golf95/23.webp','/img/golf95/24.webp','/img/golf95/25.webp','/img/golf95/26.webp','/img/golf95/27.webp','/img/golf95/28.webp','/img/golf95/29.webp','/img/golf95/30.webp','/img/golf95/31.webp','/img/golf95/32.webp'], featured: false,
+  amenities: {
+    pt: ['Piscina privativa', 'Sauna', 'Adega', 'Quadra de beach tennis', 'Carrinho de golfe', 'Gerador', 'Apoio de praia (cadeiras, ombrelones e cooler)', 'Elevador panorâmico', 'Kit bebê', 'Internet Wi-Fi', 'Ar-condicionado'],
+    en: ['Private pool', 'Sauna', 'Wine cellar', 'Beach tennis court', 'Golf cart', 'Generator', 'Beach support (chairs, parasols and cooler)', 'Panoramic elevator', 'Baby kit', 'Wi-Fi internet', 'Air conditioning'],
+  },
+  staff: { pt: ['2 arrumadeiras', '1 cozinheira', '1 auxiliar de cozinha', '1 caseiro'], en: ['2 housekeepers', '1 cook', '1 kitchen assistant', '1 caretaker'] },
+  features: ['condominio', 'piscina'],
+  locationDetail: { pt: 'No Condomínio Terravista Golf, com vista para o campo de golfe, em Trancoso — Bahia.', en: 'In the Terravista Golf Condominium, overlooking the golf course, in Trancoso — Bahia.' },
+  description: {
+    pt: 'Assinada por Caio Bandeira e Luis Carlos Orsini, com decoração de Maisa Pimenta, a Casa 95 é uma das propriedades mais imponentes do Condomínio Terravista Golf, com 1.200 m² de área construída em um terreno de 1.900 m² de frente para o campo de golfe.\n\nSão oito suítes para até dezesseis hóspedes: duas no térreo com cama queen, closet, frigobar e TV; quatro no pavimento superior com duas camas de solteiro convertíveis e varanda com vista para o golfe; e duas em bangalô com cama de casal.\n\nA estrutura inclui piscina, sauna, adega, quadra de beach tennis, carrinho de golfe, elevador panorâmico e gerador, além de apoio de praia com cadeiras, ombrelones e cooler. A equipe conta com duas arrumadeiras, cozinheira, auxiliar de cozinha e caseiro.',
+    en: 'Designed by Caio Bandeira and Luis Carlos Orsini, with decoration by Maisa Pimenta, Casa 95 is one of the most imposing properties in the Terravista Golf Condominium, with 1,200 m² of built area on a 1,900 m² plot facing the golf course.\n\nThere are eight suites for up to sixteen guests: two on the ground floor with queen bed, closet, minibar and TV; four on the upper floor with two convertible single beds and a veranda overlooking the golf course; and two in a bungalow with a double bed.\n\nThe structure includes pool, sauna, wine cellar, beach tennis court, golf cart, panoramic elevator and generator, plus beach support with chairs, parasols and cooler. The team includes two housekeepers, cook, kitchen assistant and caretaker.',
+  },
+  notes: { pt: ['Locação mínima de 3 noites.', 'Taxa de serviço de 5% sobre o valor da hospedagem.', 'Diária alta: dezembro a fevereiro, julho e feriados. Diária baixa: março a novembro (exceto julho).'], en: ['Minimum rental of 3 nights.', 'Service fee of 5% on the accommodation price.', 'High season: December to February, July and holidays. Low season: March to November (except July).'] },
+};
+
+const VILA13: Property = {
+  id: 'terravista-vilas-casa-13', code: 'TBA-347', name: { pt: 'Terravista Vilas — Casa 13', en: 'Terravista Vilas — Casa 13' },
+  purpose: ['aluguel'], location: 'Terravista Vilas', suites: 4, guests: 8, baths: 5, area: '300 m²',
+  price: { pt: 'R$ 4.500 / diária', en: 'R$ 4,500 / night' },
+  priceLow: { pt: 'R$ 3.800 / diária', en: 'R$ 3,800 / night' },
+  carnaval: { pt: 'R$ 40.000 (pacote de 5 diárias) ou R$ 48.000 (7 diárias)', en: 'R$ 40,000 (5-night package) or R$ 48,000 (7 nights)' },
+  reveillon: { pt: 'R$ 190.000 (pacote de 10 noites)', en: 'R$ 190,000 (10-night package)' },
+  image: '/img/vila13/01.jpg',
+  gallery: ['/img/vila13/01.webp','/img/vila13/02.webp','/img/vila13/03.webp','/img/vila13/04.webp','/img/vila13/05.webp','/img/vila13/06.webp','/img/vila13/07.webp','/img/vila13/08.webp','/img/vila13/09.webp','/img/vila13/10.webp','/img/vila13/11.webp','/img/vila13/12.webp','/img/vila13/13.webp','/img/vila13/14.webp','/img/vila13/15.webp','/img/vila13/16.webp','/img/vila13/17.webp','/img/vila13/18.webp','/img/vila13/19.webp','/img/vila13/20.webp','/img/vila13/21.webp','/img/vila13/22.webp'], featured: false,
+  amenities: {
+    pt: ['Piscina com prainha', 'Deck', 'Área gourmet', 'Churrasqueira', 'Cervejeira', 'Máquina de gelo', 'Lavadora e secadora', 'Apoio de praia nas Tartarugas', 'Academia e playground do condomínio', 'Piscina do condomínio', 'Segurança 24h'],
+    en: ['Pool with shallow area', 'Deck', 'Gourmet area', 'Barbecue', 'Beer cooler', 'Ice maker', 'Washer and dryer', 'Beach support at Tartarugas', 'Condominium gym and playground', 'Condominium pool', '24h security'],
+  },
+  staff: { pt: ['Camareira'], en: ['Housekeeper'] },
+  features: ['condominio', 'piscina'],
+  locationDetail: { pt: 'No Condomínio Terravista Vilas, com acesso à estrutura do Terravista, em Trancoso — Bahia.', en: 'In the Terravista Vilas Condominium, with access to the Terravista structure, in Trancoso — Bahia.' },
+  description: {
+    pt: 'Localizada no Condomínio Terravista Vilas, a Casa 13 tem cerca de 300 m² e acomoda até oito hóspedes em quatro suítes, com cinco banheiros.\n\nA área externa reúne piscina com prainha, deck e área gourmet com churrasqueira, cervejeira e máquina de gelo — um convite permanente à convivência.\n\nOs hóspedes têm acesso à estrutura do Terravista, com apoio de praia nas Tartarugas, academia, playground, piscina do condomínio e segurança 24 horas. O serviço de camareira está incluído na locação.',
+    en: 'Located in the Terravista Vilas Condominium, Casa 13 has about 300 m² and accommodates up to eight guests in four suites, with five bathrooms.\n\nThe outdoor area brings together a pool with a shallow area, deck and gourmet area with barbecue, beer cooler and ice maker — a permanent invitation to togetherness.\n\nGuests have access to the Terravista structure, with beach support at Tartarugas, gym, playground, condominium pool and 24-hour security. Housekeeper service is included in the rental.',
+  },
+  notes: { pt: ['Carnaval: R$ 40.000 (5 diárias) ou R$ 48.000 (7 diárias).'], en: ['Carnival: R$ 40,000 (5 nights) or R$ 48,000 (7 nights).'] },
+};
+
+const COQ06: Property = {
+  id: 'coqueiral-casa-06', code: 'TBA-348', name: { pt: 'Coqueiral — Casa 06', en: 'Coqueiral — Casa 06' },
+  purpose: ['aluguel'], location: 'Cond. Coqueiral', suites: 7, guests: 20, baths: 7, area: '—',
+  price: { pt: 'R$ 4.500 / diária', en: 'R$ 4,500 / night' },
+  priceLow: { pt: 'R$ 3.400 / diária', en: 'R$ 3,400 / night' },
+  carnaval: { pt: 'R$ 50.000 (pacote)', en: 'R$ 50,000 (package)' },
+  reveillon: { pt: 'R$ 170.000 (pacote)', en: 'R$ 170,000 (package)' },
+  image: '/img/coq06/01.jpg',
+  gallery: ['/img/coq06/01.webp','/img/coq06/02.webp','/img/coq06/03.webp','/img/coq06/04.webp','/img/coq06/05.webp','/img/coq06/06.webp','/img/coq06/07.webp','/img/coq06/08.webp','/img/coq06/09.webp','/img/coq06/10.webp','/img/coq06/11.webp','/img/coq06/12.webp','/img/coq06/13.webp','/img/coq06/14.webp','/img/coq06/15.webp','/img/coq06/16.webp','/img/coq06/17.webp','/img/coq06/18.webp','/img/coq06/19.webp','/img/coq06/20.webp','/img/coq06/21.webp','/img/coq06/22.webp','/img/coq06/23.webp'], featured: false,
+  amenities: {
+    pt: ['Piscina privativa', 'Área gourmet com bar e churrasqueira', 'Área de jogos', 'Telão', 'Jardim amplo'],
+    en: ['Private pool', 'Gourmet area with bar and barbecue', 'Games area', 'Big screen', 'Large garden'],
+  },
+  staff: { pt: ['Serviço de limpeza incluso (camareira adicional sob consulta)'], en: ['Cleaning service included (additional housekeeper upon request)'] },
+  features: ['condominio', 'piscina'],
+  locationDetail: { pt: 'No Condomínio Coqueiral, em Trancoso — Bahia.', en: 'In the Coqueiral Condominium, in Trancoso — Bahia.' },
+  description: {
+    pt: 'Situada no Condomínio Coqueiral, a Casa 06 acomoda até vinte hóspedes em sete suítes, sendo uma opção generosa para grupos grandes e famílias.\n\nA área de lazer é o coração da casa: piscina, área gourmet com bar e churrasqueira, espaço de jogos com telão e um jardim amplo criam o cenário ideal para dias de convivência.\n\nO serviço de limpeza está incluso na locação, com possibilidade de camareira adicional sob consulta.',
+    en: 'Set in the Coqueiral Condominium, Casa 06 accommodates up to twenty guests in seven suites, a generous option for large groups and families.\n\nThe leisure area is the heart of the house: pool, gourmet area with bar and barbecue, games space with a big screen and a large garden create the ideal setting for days of togetherness.\n\nCleaning service is included in the rental, with the possibility of an additional housekeeper upon request.',
+  },
+  notes: { pt: ['Carnaval e Réveillon sob formato de pacote.'], en: ['Carnival and New Year’s Eve offered as packages.'] },
+};
+
+PROPERTIES.unshift(DUE, AZUL, FER, ECO03, ECO04, VISTA, GOLF95, VILA13, COQ06, OKUN, GOLF62, TVB10, MANGABA, GOLF21, GOLF19, GOLF33, GOLF37, GOLF27, TRAMA, TIZZI, LILI, C23, JV15, JV14, JV13, C20, C21, C24, V7, MARTINI, SANTARITA, PATIMIRIM, DAJU, BUENO, BONITA, AREIA, COQUEIRAL22, SUBLIME, ESTRELA, VISTANATIVOS, TERRAL, ITAPO01, ATENA, JACARANDA04, COQUEIRAL14, COQUEIRAL02, CASAMARIA, ALMESCLA, CASAMAR, GEIGER, COQUEIRAL01, MIA, COQUEIRAL25, MAION, DADINHO, IANDE, MAGIVI, OITI, COQUEIRAL13, COQUEIRAL7, NAOCA, CASA71, CAJU, SANMARCO, CASA14, CASA09, BOSSA, TUA, IMBIRUCU, CASA42, CASA61, VILAS02, CASA80, ITAPO07, CASA96, CASA90, VILAS75, LIMOEIRO, BIRIBA, VILAMAR, BETTONI, PINI, AUREA, SAOJORGE, CAZA, ITAPO06, ITAPO04, ALEGRIA, PONTA, PG11, PG111, PG104, MANDACARU, PONTARB, FALESIA, RAIZES, PONTABARRA, FASANO10, FASANO16, FASANO17, VILAS26, GOLF58, FLORESTA, VILAS41, VILAS67, BOUTIQUE13, ARACUA, JACARANDA03, TEIU, GOLF25, PG50, CASAEDO, BALEIA, PG55, GOLF72, PITANGA, AFRICA, TEMPO07, TEMPO08, TEMPO06, BOSQUE, PATIO, PG32, PG45, LICURI, DIVINA, TRESMENINAS, PEROBA, MORENA, MOA, BRAGA, CUMARU, JACARANDA05, TB14, MACONDO, RICK);
 
 export const WHATSAPP = '5573999141382';
 

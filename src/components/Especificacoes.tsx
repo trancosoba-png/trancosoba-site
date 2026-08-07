@@ -36,6 +36,108 @@ export const SUITE_PAR = /configura[cç][aã]o das su[ií]tes|suite layout|distr
 type SuiteGroup = { title: string; master?: string; suites?: [string, string][] };
 type HouseSuites = { groups: SuiteGroup[]; footer?: string };
 const SUITES_BY_ID: Record<string, Record<'pt' | 'en', HouseSuites>> = {
+  'casa-due-altos-de-trancoso': {
+    pt: { groups: [
+      { title: 'Casa Principal', suites: [
+        ['Suíte 01', 'Casa principal'],
+        ['Suíte 02', 'Casa principal'],
+        ['Suíte 03', 'Casa principal'],
+        ['Suíte 04', 'Casa principal'],
+      ] },
+      { title: 'Bangalôs', suites: [
+        ['Suíte 05', 'Bangalô independente'],
+        ['Suíte 06', 'Bangalô independente'],
+      ] },
+    ], footer: 'A casa acomoda até 12 hóspedes. 6 banheiros + lavabo.' },
+    en: { groups: [
+      { title: 'Main House', suites: [
+        ['Suite 01', 'Main house'],
+        ['Suite 02', 'Main house'],
+        ['Suite 03', 'Main house'],
+        ['Suite 04', 'Main house'],
+      ] },
+      { title: 'Bungalows', suites: [
+        ['Suite 05', 'Independent bungalow'],
+        ['Suite 06', 'Independent bungalow'],
+      ] },
+    ], footer: 'The house accommodates up to 12 guests. 6 bathrooms + guest toilet.' },
+  },
+  'casa-azul-centro': {
+    pt: { groups: [
+      { title: 'Quartos', suites: [
+        ['Quarto 01', '4 camas de solteiro'],
+        ['Quarto 02', '2 camas de solteiro'],
+        ['Quarto 03', '1 cama de casal'],
+        ['Quarto 04', '1 cama de solteiro'],
+      ] },
+    ], footer: 'A casa acomoda até 8 hóspedes. 4 banheiros.' },
+    en: { groups: [
+      { title: 'Bedrooms', suites: [
+        ['Bedroom 01', '4 single beds'],
+        ['Bedroom 02', '2 single beds'],
+        ['Bedroom 03', '1 double bed'],
+        ['Bedroom 04', '1 single bed'],
+      ] },
+    ], footer: 'The house accommodates up to 8 guests. 4 bathrooms.' },
+  },
+  'casa-vista-caraiva': {
+    pt: { groups: [
+      { title: 'Suítes', suites: [
+        ['Suíte 01', '1 cama king'],
+        ['Suíte 02', '1 cama king'],
+        ['Suíte 03', '1 cama king'],
+        ['Suíte 04', '1 cama king'],
+        ['Suíte Master', '1 cama king · Closet · Varanda · 2 chuveiros'],
+        ['Suíte 06', '2 camas queen'],
+        ['Suíte 07', '2 camas queen'],
+      ] },
+    ], footer: '7 suítes (8 quartos) para até 18 hóspedes. 8 banheiros.' },
+    en: { groups: [
+      { title: 'Suites', suites: [
+        ['Suite 01', '1 king bed'],
+        ['Suite 02', '1 king bed'],
+        ['Suite 03', '1 king bed'],
+        ['Suite 04', '1 king bed'],
+        ['Master Suite', '1 king bed · Walk-in closet · Veranda · 2 showers'],
+        ['Suite 06', '2 queen beds'],
+        ['Suite 07', '2 queen beds'],
+      ] },
+    ], footer: '7 suites (8 bedrooms) for up to 18 guests. 8 bathrooms.' },
+  },
+  'terravista-golf-casa-95': {
+    pt: { groups: [
+      { title: 'Térreo', suites: [
+        ['Suíte 01', '1 cama queen · Closet · Frigobar · TV'],
+        ['Suíte 02', '1 cama queen · Closet · Frigobar · TV'],
+      ] },
+      { title: 'Pavimento Superior', suites: [
+        ['Suíte 03', '2 camas de solteiro convertíveis · Varanda com vista para o golfe'],
+        ['Suíte 04', '2 camas de solteiro convertíveis · Varanda com vista para o golfe'],
+        ['Suíte 05', '2 camas de solteiro convertíveis · Varanda com vista para o golfe'],
+        ['Suíte 06', '2 camas de solteiro convertíveis · Varanda com vista para o golfe'],
+      ] },
+      { title: 'Bangalô', suites: [
+        ['Suíte 07', '1 cama de casal'],
+        ['Suíte 08', '1 cama de casal'],
+      ] },
+    ], footer: 'A casa acomoda até 16 hóspedes. 9 banheiros · 14 camas.' },
+    en: { groups: [
+      { title: 'Ground Floor', suites: [
+        ['Suite 01', '1 queen bed · Walk-in closet · Minibar · TV'],
+        ['Suite 02', '1 queen bed · Walk-in closet · Minibar · TV'],
+      ] },
+      { title: 'Upper Floor', suites: [
+        ['Suite 03', '2 convertible single beds · Veranda overlooking the golf course'],
+        ['Suite 04', '2 convertible single beds · Veranda overlooking the golf course'],
+        ['Suite 05', '2 convertible single beds · Veranda overlooking the golf course'],
+        ['Suite 06', '2 convertible single beds · Veranda overlooking the golf course'],
+      ] },
+      { title: 'Bungalow', suites: [
+        ['Suite 07', '1 double bed'],
+        ['Suite 08', '1 double bed'],
+      ] },
+    ], footer: 'The house accommodates up to 16 guests. 9 bathrooms · 14 beds.' },
+  },
   'terravista-golf-casa-62': {
     pt: { groups: [
       { title: 'Piso T\u00e9rreo', suites: [
