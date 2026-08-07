@@ -3394,7 +3394,37 @@ const COQ06: Property = {
   notes: { pt: ['Carnaval e Réveillon sob formato de pacote.'], en: ['Carnival and New Year’s Eve offered as packages.'] },
 };
 
-PROPERTIES.unshift(DUE, AZUL, FER, ECO03, ECO04, VISTA, GOLF95, VILA13, COQ06, OKUN, GOLF62, TVB10, MANGABA, GOLF21, GOLF19, GOLF33, GOLF37, GOLF27, TRAMA, TIZZI, LILI, C23, JV15, JV14, JV13, C20, C21, C24, V7, MARTINI, SANTARITA, PATIMIRIM, DAJU, BUENO, BONITA, AREIA, COQUEIRAL22, SUBLIME, ESTRELA, VISTANATIVOS, TERRAL, ITAPO01, ATENA, JACARANDA04, COQUEIRAL14, COQUEIRAL02, CASAMARIA, ALMESCLA, CASAMAR, GEIGER, COQUEIRAL01, MIA, COQUEIRAL25, MAION, DADINHO, IANDE, MAGIVI, OITI, COQUEIRAL13, COQUEIRAL7, NAOCA, CASA71, CAJU, SANMARCO, CASA14, CASA09, BOSSA, TUA, IMBIRUCU, CASA42, CASA61, VILAS02, CASA80, ITAPO07, CASA96, CASA90, VILAS75, LIMOEIRO, BIRIBA, VILAMAR, BETTONI, PINI, AUREA, SAOJORGE, CAZA, ITAPO06, ITAPO04, ALEGRIA, PONTA, PG11, PG111, PG104, MANDACARU, PONTARB, FALESIA, RAIZES, PONTABARRA, FASANO10, FASANO16, FASANO17, VILAS26, GOLF58, FLORESTA, VILAS41, VILAS67, BOUTIQUE13, ARACUA, JACARANDA03, TEIU, GOLF25, PG50, CASAEDO, BALEIA, PG55, GOLF72, PITANGA, AFRICA, TEMPO07, TEMPO08, TEMPO06, BOSQUE, PATIO, PG32, PG45, LICURI, DIVINA, TRESMENINAS, PEROBA, MORENA, MOA, BRAGA, CUMARU, JACARANDA05, TB14, MACONDO, RICK);
+const ALTAR: Property = {
+  id: 'casa-altar-altos-de-trancoso', code: 'TBA-349', name: { pt: 'Casa Altar', en: 'Casa Altar' },
+  purpose: ['aluguel'], location: 'Altos de Trancoso', suites: 3, guests: 7, baths: 4, area: '—',
+  price: { pt: 'R$ 7.150 / diária', en: 'R$ 7,150 / night' },
+  priceLow: { pt: 'R$ 5.600 / diária', en: 'R$ 5,600 / night' },
+  carnaval: { pt: 'R$ 50.000 (pacote de 5 diárias)', en: 'R$ 50,000 (5-night package)' },
+  reveillon: { pt: 'R$ 275.000 (pacote de 10 diárias)', en: 'R$ 275,000 (10-night package)' },
+  seasonHigh: { pt: 'Dezembro, janeiro e feriados', en: 'December, January and holidays' },
+  seasonLow: { pt: 'Março, abril, maio, junho, agosto, setembro, outubro e novembro', en: 'March, April, May, June, August, September, October and November' },
+  image: '/img/altar/01.jpg',
+  gallery: ['/img/altar/01.webp','/img/altar/02.webp','/img/altar/03.webp','/img/altar/04.webp','/img/altar/05.webp','/img/altar/06.webp','/img/altar/07.webp','/img/altar/08.webp','/img/altar/09.webp','/img/altar/10.webp','/img/altar/11.webp','/img/altar/12.webp','/img/altar/13.webp','/img/altar/14.webp','/img/altar/15.webp','/img/altar/16.webp','/img/altar/17.webp','/img/altar/18.webp','/img/altar/19.webp','/img/altar/20.webp','/img/altar/21.webp'], featured: false,
+  amenities: {
+    pt: ['3 suítes (2 com cama king size e 1 com três camas de solteiro)', 'Cozinha central integrada, coração da casa', 'Piscina ampla em meio à natureza', 'Ar-condicionado', 'Internet Wi-Fi', 'Cozinha completa', 'Churrasqueira', 'Cafeteira', 'Fogão a gás, forno, geladeira, freezer e micro-ondas', 'Máquina de lavar', 'Ferro de passar', 'Jogos de piscina', 'Roupas de cama', 'Enxoval de louça', 'Secador de cabelo', 'Água quente'],
+    en: ['3 suites (2 with king-size bed and 1 with three single beds)', 'Integrated central kitchen, the heart of the house', 'Large pool surrounded by nature', 'Air conditioning', 'Wi-Fi', 'Full kitchen', 'Barbecue', 'Coffee maker', 'Gas stove, oven, refrigerator, freezer and microwave', 'Washing machine', 'Iron', 'Pool toys', 'Bed linen', 'Dishware', 'Hair dryer', 'Hot water'],
+  },
+  staff: {
+    pt: ['1 cozinheira', '2 arrumadeiras'],
+    en: ['1 cook', '2 housekeepers'],
+  },
+  description: {
+    pt: 'Hospede-se na Casa Altar, um verdadeiro santuário de conforto, integração e bem-estar, onde arquitetura e convivência se encontram em perfeita harmonia. Inspirada na cruz de São Bento, a casa foi concebida como um refúgio acolhedor, ideal para momentos especiais.\n\nSão 3 suítes confortáveis — 2 com cama king size e 1 com três camas de solteiro, ideal para famílias ou grupos. O grande destaque da casa é sua cozinha central, projetada como o coração da residência, promovendo encontros, experiências gastronômicas e momentos inesquecíveis em um ambiente acolhedor e integrado.\n\nNa área externa, uma piscina ampla e convidativa completa o cenário de relaxamento, harmonia e conexão com a natureza. A Casa Altar oferece uma atmosfera única, onde design, espiritualidade e conforto se unem para criar uma estadia verdadeiramente especial.',
+    en: 'Stay at Casa Altar, a true sanctuary of comfort, integration and well-being, where architecture and togetherness meet in perfect harmony. Inspired by the cross of Saint Benedict, the house was designed as a welcoming retreat, ideal for special moments.\n\nThere are 3 comfortable suites — 2 with a king-size bed and 1 with three single beds, ideal for families or groups. The highlight of the house is its central kitchen, designed as the heart of the residence, encouraging gatherings, gastronomic experiences and unforgettable moments in a warm, integrated environment.\n\nOutside, a large and inviting pool completes the setting of relaxation, harmony and connection with nature. Casa Altar offers a unique atmosphere, where design, spirituality and comfort come together to create a truly special stay.',
+  },
+  locationDetail: {
+    pt: 'Altos de Trancoso, Trancoso – Bahia.',
+    en: 'Altos de Trancoso, Trancoso – Bahia.',
+  },
+  features: ['piscina'],
+};
+
+PROPERTIES.unshift(ALTAR, DUE, AZUL, FER, ECO03, ECO04, VISTA, GOLF95, VILA13, COQ06, OKUN, GOLF62, TVB10, MANGABA, GOLF21, GOLF19, GOLF33, GOLF37, GOLF27, TRAMA, TIZZI, LILI, C23, JV15, JV14, JV13, C20, C21, C24, V7, MARTINI, SANTARITA, PATIMIRIM, DAJU, BUENO, BONITA, AREIA, COQUEIRAL22, SUBLIME, ESTRELA, VISTANATIVOS, TERRAL, ITAPO01, ATENA, JACARANDA04, COQUEIRAL14, COQUEIRAL02, CASAMARIA, ALMESCLA, CASAMAR, GEIGER, COQUEIRAL01, MIA, COQUEIRAL25, MAION, DADINHO, IANDE, MAGIVI, OITI, COQUEIRAL13, COQUEIRAL7, NAOCA, CASA71, CAJU, SANMARCO, CASA14, CASA09, BOSSA, TUA, IMBIRUCU, CASA42, CASA61, VILAS02, CASA80, ITAPO07, CASA96, CASA90, VILAS75, LIMOEIRO, BIRIBA, VILAMAR, BETTONI, PINI, AUREA, SAOJORGE, CAZA, ITAPO06, ITAPO04, ALEGRIA, PONTA, PG11, PG111, PG104, MANDACARU, PONTARB, FALESIA, RAIZES, PONTABARRA, FASANO10, FASANO16, FASANO17, VILAS26, GOLF58, FLORESTA, VILAS41, VILAS67, BOUTIQUE13, ARACUA, JACARANDA03, TEIU, GOLF25, PG50, CASAEDO, BALEIA, PG55, GOLF72, PITANGA, AFRICA, TEMPO07, TEMPO08, TEMPO06, BOSQUE, PATIO, PG32, PG45, LICURI, DIVINA, TRESMENINAS, PEROBA, MORENA, MOA, BRAGA, CUMARU, JACARANDA05, TB14, MACONDO, RICK);
 
 export const WHATSAPP = '5573999141382';
 
