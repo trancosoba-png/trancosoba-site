@@ -1254,7 +1254,7 @@ const AFRICA: Property = {
 
 const TEMPO07: Property = {
   id: 'casa-tempo-07', code: 'TBA-257', name: { pt: 'Casa Tempo 07', en: 'Casa Tempo 07' },
-  purpose: ['aluguel'], location: 'Centro', suites: 2, guests: 4, baths: 2, area: 'Sob consulta',
+  purpose: ['aluguel'], location: 'Quadrado', suites: 2, guests: 4, baths: 2, area: 'Sob consulta',
   price: { pt: 'R$ 2.200 / diária', en: 'R$ 2,200 / night' },
   priceLow: { pt: 'R$ 1.650 / diária', en: 'R$ 1,650 / night' },
   carnaval: { pt: 'R$ 16.500', en: 'R$ 16,500' },
@@ -3145,7 +3145,7 @@ const MANGABA: Property = {
 
 const OKUN: Property = {
   id: 'casa-okun-quadrado', code: 'TBA-338', name: { pt: 'Casa \u00d2kun', en: 'Casa \u00d2kun' },
-  purpose: ['aluguel'], location: 'Quadrado', suites: 2, guests: 4, baths: 2, area: '\u2014',
+  purpose: ['aluguel'], location: 'Centro', suites: 2, guests: 4, baths: 2, area: '\u2014',
   price: { pt: 'R$ 2.500 / di\u00e1ria', en: 'R$ 2,500 / night' },
   priceLow: { pt: 'R$ 2.000 / di\u00e1ria', en: 'R$ 2,000 / night' },
   carnaval: { pt: 'Sob consulta', en: 'Upon request' },
