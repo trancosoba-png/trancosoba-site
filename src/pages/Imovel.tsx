@@ -129,35 +129,35 @@ export default function Imovel() {
           </button>
           <span className="absolute top-6 left-6 z-20 text-ivory/70 text-sm tracking-[0.25em]">{active + 1} / {total}</span>
 
-          {/* Área da imagem */}
-          <div className="relative flex-1 min-h-0 flex items-center justify-center px-16 md:px-28 pt-14 pb-4">
+          {/* Área da imagem — a foto ocupa o máximo da tela respeitando sua proporção original */}
+          <div className="relative flex-1 min-h-0 flex items-center justify-center px-1 md:px-4 pt-11 pb-1">
             <button onClick={(e) => { e.stopPropagation(); prev(); }} aria-label="Foto anterior"
-              className="absolute left-3 md:left-8 top-1/2 -translate-y-1/2 z-10 flex items-center justify-center w-12 h-12 md:w-14 md:h-14 rounded-full border border-ivory/25 bg-green-deep/60 text-ivory backdrop-blur-sm transition-all hover:bg-gold hover:text-green-deep hover:border-gold hover:scale-105">
+              className="absolute left-2 md:left-4 top-1/2 -translate-y-1/2 z-10 flex items-center justify-center w-11 h-11 md:w-14 md:h-14 rounded-full border border-ivory/25 bg-green-deep/60 text-ivory backdrop-blur-sm transition-all hover:bg-gold hover:text-green-deep hover:border-gold hover:scale-105">
               <ChevronLeft size={30} />
             </button>
-            <div className="max-w-[min(1100px,100%)] max-h-full flex items-center justify-center select-none"
+            <div className="w-full h-full flex items-center justify-center select-none"
               onClick={(e) => e.stopPropagation()} onTouchStart={onTouchStart} onTouchEnd={onTouchEnd}>
-              <span className="relative inline-block">
+              <span className="relative inline-block max-w-full max-h-full">
                 <img src={p.gallery[active]} alt={`${txt(p.name, lang)} — ${active + 1}`}
-                  className="max-w-full max-h-[calc(100vh-240px)] md:max-h-[calc(100vh-260px)] w-auto h-auto object-contain shadow-2xl" draggable={false} />
+                  className="max-w-full max-h-full w-auto h-auto object-contain shadow-2xl" draggable={false} />
                 <span className="photo-shield" aria-hidden="true" />
               </span>
             </div>
             <button onClick={(e) => { e.stopPropagation(); next(); }} aria-label="Próxima foto"
-              className="absolute right-3 md:right-8 top-1/2 -translate-y-1/2 z-10 flex items-center justify-center w-12 h-12 md:w-14 md:h-14 rounded-full border border-ivory/25 bg-green-deep/60 text-ivory backdrop-blur-sm transition-all hover:bg-gold hover:text-green-deep hover:border-gold hover:scale-105">
+              className="absolute right-2 md:right-4 top-1/2 -translate-y-1/2 z-10 flex items-center justify-center w-11 h-11 md:w-14 md:h-14 rounded-full border border-ivory/25 bg-green-deep/60 text-ivory backdrop-blur-sm transition-all hover:bg-gold hover:text-green-deep hover:border-gold hover:scale-105">
               <ChevronRight size={30} />
             </button>
           </div>
 
           {/* Faixa de miniaturas */}
           <div ref={stripRef} onClick={(e) => e.stopPropagation()}
-            className="shrink-0 flex gap-2 overflow-x-auto px-6 pb-5 pt-1 mx-auto max-w-full [scrollbar-width:thin]">
+            className="shrink-0 flex gap-1.5 md:gap-2 overflow-x-auto px-4 md:px-6 pb-3 md:pb-5 pt-1 mx-auto max-w-full [scrollbar-width:thin]">
             {p.gallery.map((g, i) => (
               <button key={i} onClick={() => setActive(i)} aria-label={`${t.imovel.gallery} ${i + 1}`} aria-current={i === active}
                 className={`shrink-0 overflow-hidden border-2 transition-all ${i === active ? 'border-gold opacity-100 scale-[1.03]' : 'border-ivory/15 opacity-50 hover:opacity-90'}`}>
                 <img src={g.replace(/\.webp$/, '-thumb.webp')} alt="" loading="lazy" decoding="async" draggable={false}
                   onError={(e) => { (e.currentTarget as HTMLImageElement).src = g; }}
-                  className="w-20 h-14 md:w-24 md:h-16 object-cover" />
+                  className="w-16 h-11 md:w-24 md:h-16 object-cover" />
               </button>
             ))}
           </div>
