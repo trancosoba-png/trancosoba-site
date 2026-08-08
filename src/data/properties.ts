@@ -3278,6 +3278,28 @@ const ECO01: Property = {
   notes: { pt: ['Carnaval e Réveillon sob formato de pacote.', 'Valores sujeitos a alteração sem aviso prévio.'], en: ['Carnival and New Year’s Eve offered as packages.', 'Rates subject to change without notice.'] },
 };
 
+const COLINA: Property = {
+  id: 'colina-casa-01', code: 'TBA-351', name: { pt: 'Colina — Casa 01', en: 'Colina — Casa 01' },
+  purpose: ['aluguel'], location: 'Colina', suites: 5, guests: 12, baths: 5.5, area: '—',
+  price: { pt: 'Sob consulta', en: 'Upon request' },
+  priceLow: { pt: 'Sob consulta', en: 'Upon request' },
+  carnaval: { pt: 'Sob consulta', en: 'Upon request' },
+  reveillon: { pt: 'Sob consulta', en: 'Upon request' },
+  image: '/img/colina/01.jpg',
+  gallery: ['/img/colina/01.webp','/img/colina/02.webp','/img/colina/03.webp','/img/colina/04.webp','/img/colina/05.webp','/img/colina/06.webp','/img/colina/07.webp','/img/colina/08.webp','/img/colina/09.webp','/img/colina/10.webp','/img/colina/11.webp','/img/colina/12.webp','/img/colina/13.webp','/img/colina/14.webp','/img/colina/15.webp','/img/colina/16.webp','/img/colina/17.webp','/img/colina/18.webp','/img/colina/19.webp','/img/colina/20.webp','/img/colina/21.webp','/img/colina/22.webp','/img/colina/23.webp','/img/colina/24.webp','/img/colina/25.webp','/img/colina/26.webp','/img/colina/27.webp','/img/colina/28.webp','/img/colina/29.webp','/img/colina/30.webp','/img/colina/31.webp','/img/colina/32.webp','/img/colina/33.webp','/img/colina/34.webp','/img/colina/35.webp','/img/colina/36.webp','/img/colina/37.webp','/img/colina/38.webp','/img/colina/39.webp','/img/colina/40.webp','/img/colina/41.webp','/img/colina/42.webp','/img/colina/43.webp','/img/colina/44.webp'], featured: false,
+  amenities: {
+    pt: ['Piscina privativa', 'Ampla varanda', 'Ambientes integrados', 'Cozinha equipada', 'Sala de estar', 'TV', 'Wi-Fi', 'Espaço de trabalho', 'Estacionamento gratuito no local', 'Ambientes com ampla entrada de luz natural'],
+    en: ['Private pool', 'Large veranda', 'Integrated living spaces', 'Equipped kitchen', 'Living room', 'TV', 'Wi-Fi', 'Workspace', 'Free on-site parking', 'Spaces with abundant natural light'],
+  },
+  features: ['piscina'],
+  locationDetail: { pt: 'No bairro residencial da Colina, em Trancoso — Bahia. Região tranquila e de perfil familiar.', en: 'In the residential Colina neighborhood, in Trancoso — Bahia. A quiet, family-friendly area.' },
+  description: {
+    pt: 'Localizada em uma região residencial tranquila de Trancoso, a casa oferece uma atmosfera reservada, acolhedora e ideal para famílias e grupos que buscam conforto e privacidade durante a estadia.\n\nA arquitetura privilegia a integração dos ambientes, a entrada de luz natural e a conexão com as áreas externas. A piscina se integra à área social da casa, enquanto a ampla varanda cria um espaço agradável para momentos de descanso e convivência.\n\nCom capacidade para até doze hóspedes, a residência conta com cinco quartos, sete camas, cinco banheiros e um lavabo, ambientes amplos e uma proposta que combina conforto, simplicidade elegante e o estilo descontraído de Trancoso.',
+    en: 'Located in a quiet residential area of Trancoso, the house offers a private, welcoming atmosphere, ideal for families and groups seeking comfort and privacy during their stay.\n\nThe architecture favors integrated spaces, abundant natural light and a connection with the outdoor areas. The pool flows into the house\u2019s social area, while the large veranda creates a pleasant space for rest and togetherness.\n\nAccommodating up to twelve guests, the residence has five bedrooms, seven beds, five bathrooms and a powder room, with spacious rooms and a proposal that combines comfort, elegant simplicity and Trancoso\u2019s laid-back style.',
+  },
+  notes: { pt: ['Tarifas sob consulta para todos os períodos (baixa e alta temporada, Carnaval e Réveillon).'], en: ['Rates upon request for all periods (low and high season, Carnival and New Year’s Eve).'] },
+};
+
 const ECO03: Property = {
   id: 'condominio-eco-casa-03', code: 'TBA-343', name: { pt: 'Condomínio Eco — Casa 03', en: 'Condomínio Eco — Casa 03' },
   purpose: ['aluguel'], location: 'Condomínio Eco', suites: 4, guests: 8, baths: 5, area: '364 m² · terreno 1.000 m²',
@@ -3447,7 +3469,7 @@ const ALTAR: Property = {
   features: ['piscina'],
 };
 
-PROPERTIES.unshift(ALTAR, DUE, AZUL, FER, ECO01, ECO03, ECO04, VISTA, GOLF95, VILA13, COQ06, OKUN, GOLF62, TVB10, MANGABA, GOLF21, GOLF19, GOLF33, GOLF37, GOLF27, TRAMA, TIZZI, LILI, C23, JV15, JV14, JV13, C20, C21, C24, V7, MARTINI, SANTARITA, PATIMIRIM, DAJU, BUENO, BONITA, AREIA, COQUEIRAL22, SUBLIME, ESTRELA, VISTANATIVOS, TERRAL, ITAPO01, ATENA, JACARANDA04, COQUEIRAL14, COQUEIRAL02, CASAMARIA, ALMESCLA, CASAMAR, GEIGER, COQUEIRAL01, MIA, COQUEIRAL25, MAION, DADINHO, IANDE, MAGIVI, OITI, COQUEIRAL13, COQUEIRAL7, NAOCA, CASA71, CAJU, SANMARCO, CASA14, CASA09, BOSSA, TUA, IMBIRUCU, CASA42, CASA61, VILAS02, CASA80, ITAPO07, CASA96, CASA90, VILAS75, LIMOEIRO, BIRIBA, VILAMAR, BETTONI, PINI, AUREA, SAOJORGE, CAZA, ITAPO06, ITAPO04, ALEGRIA, PONTA, PG11, PG111, PG104, MANDACARU, PONTARB, FALESIA, RAIZES, PONTABARRA, FASANO10, FASANO16, FASANO17, VILAS26, GOLF58, FLORESTA, VILAS41, VILAS67, BOUTIQUE13, ARACUA, JACARANDA03, TEIU, GOLF25, PG50, CASAEDO, BALEIA, PG55, GOLF72, PITANGA, AFRICA, TEMPO07, TEMPO08, TEMPO06, BOSQUE, PATIO, PG32, PG45, LICURI, DIVINA, TRESMENINAS, PEROBA, MORENA, MOA, BRAGA, CUMARU, JACARANDA05, TB14, MACONDO, RICK);
+PROPERTIES.unshift(ALTAR, DUE, AZUL, FER, COLINA, ECO01, ECO03, ECO04, VISTA, GOLF95, VILA13, COQ06, OKUN, GOLF62, TVB10, MANGABA, GOLF21, GOLF19, GOLF33, GOLF37, GOLF27, TRAMA, TIZZI, LILI, C23, JV15, JV14, JV13, C20, C21, C24, V7, MARTINI, SANTARITA, PATIMIRIM, DAJU, BUENO, BONITA, AREIA, COQUEIRAL22, SUBLIME, ESTRELA, VISTANATIVOS, TERRAL, ITAPO01, ATENA, JACARANDA04, COQUEIRAL14, COQUEIRAL02, CASAMARIA, ALMESCLA, CASAMAR, GEIGER, COQUEIRAL01, MIA, COQUEIRAL25, MAION, DADINHO, IANDE, MAGIVI, OITI, COQUEIRAL13, COQUEIRAL7, NAOCA, CASA71, CAJU, SANMARCO, CASA14, CASA09, BOSSA, TUA, IMBIRUCU, CASA42, CASA61, VILAS02, CASA80, ITAPO07, CASA96, CASA90, VILAS75, LIMOEIRO, BIRIBA, VILAMAR, BETTONI, PINI, AUREA, SAOJORGE, CAZA, ITAPO06, ITAPO04, ALEGRIA, PONTA, PG11, PG111, PG104, MANDACARU, PONTARB, FALESIA, RAIZES, PONTABARRA, FASANO10, FASANO16, FASANO17, VILAS26, GOLF58, FLORESTA, VILAS41, VILAS67, BOUTIQUE13, ARACUA, JACARANDA03, TEIU, GOLF25, PG50, CASAEDO, BALEIA, PG55, GOLF72, PITANGA, AFRICA, TEMPO07, TEMPO08, TEMPO06, BOSQUE, PATIO, PG32, PG45, LICURI, DIVINA, TRESMENINAS, PEROBA, MORENA, MOA, BRAGA, CUMARU, JACARANDA05, TB14, MACONDO, RICK);
 
 export const WHATSAPP = '5573999141382';
 
