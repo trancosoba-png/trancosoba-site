@@ -3371,6 +3371,28 @@ const COQ08: Property = {
   notes: { pt: ['Suíte 01 (térreo): 3 camas de solteiro, com opção de 1 cama de casal e 1 de solteiro; banheiro com lavabo externo e duas cubas.', 'Suíte 02 (térreo): 1 cama queen e 1 cama de solteiro; varanda voltada para a mata com rede.', 'Suíte 03 (superior master): 1 cama queen e 1 cama de solteiro; closet, banheiro com dois chuveiros e duas cubas e varanda voltada para a mata.', 'Suíte 04 (superior): 3 camas de solteiro, com opção de 1 cama de casal e 1 de solteiro.', 'Suíte 05 (superior master): 1 cama queen e 1 cama de solteiro; varanda frontal e banheiro com dois chuveiros, sendo um deles externo.'], en: ['Suite 01 (ground floor): 3 twin beds, optional 1 double + 1 twin; bathroom with external vanity and double sinks.', 'Suite 02 (ground floor): 1 queen bed and 1 twin bed; veranda facing the forest with hammock.', 'Suite 03 (upper master): 1 queen bed and 1 twin bed; walk-in closet, bathroom with two showers and double sinks and veranda facing the forest.', 'Suite 04 (upper): 3 twin beds, optional 1 double + 1 twin.', 'Suite 05 (upper master): 1 queen bed and 1 twin bed; front veranda and bathroom with two showers, one of them outdoor.'] },
 };
 
+const HELENA: Property = {
+  id: 'casa-helena-rio-da-barra', code: 'TBA-355', name: { pt: 'Casa Helena — Rio da Barra', en: 'Casa Helena — Rio da Barra' },
+  purpose: ['aluguel'], location: 'Rio da Barra', suites: 4, guests: 10, baths: 4, area: '—',
+  price: { pt: 'R$ 6.000 / diária', en: 'R$ 6,000 / night' },
+  priceLow: { pt: 'R$ 5.000 / diária', en: 'R$ 5,000 / night' },
+  carnaval: { pt: 'Sob consulta', en: 'Upon request' },
+  reveillon: { pt: 'R$ 150.000 (pacote)', en: 'R$ 150,000 (package)' },
+  image: '/img/helena/01.jpg',
+  gallery: ['/img/helena/01.webp','/img/helena/02.webp','/img/helena/03.webp','/img/helena/04.webp','/img/helena/05.webp','/img/helena/06.webp','/img/helena/07.webp','/img/helena/08.webp','/img/helena/09.webp','/img/helena/10.webp','/img/helena/11.webp','/img/helena/12.webp','/img/helena/13.webp','/img/helena/14.webp','/img/helena/15.webp','/img/helena/16.webp','/img/helena/17.webp','/img/helena/18.webp','/img/helena/19.webp','/img/helena/20.webp','/img/helena/21.webp','/img/helena/22.webp','/img/helena/23.webp','/img/helena/24.webp','/img/helena/25.webp','/img/helena/26.webp','/img/helena/27.webp','/img/helena/28.webp','/img/helena/29.webp','/img/helena/30.webp','/img/helena/31.webp','/img/helena/32.webp','/img/helena/33.webp','/img/helena/34.webp','/img/helena/35.webp','/img/helena/36.webp','/img/helena/37.webp','/img/helena/38.webp','/img/helena/39.webp','/img/helena/40.webp','/img/helena/41.webp','/img/helena/42.webp','/img/helena/43.webp','/img/helena/44.webp','/img/helena/45.webp','/img/helena/46.webp','/img/helena/47.webp'], featured: false,
+  amenities: {
+    pt: ['Piscina privativa', 'Área gourmet', 'Churrasqueira', 'Cozinha completa com vista para o mar', 'Ar-condicionado', 'Wi-Fi', 'Estacionamento', 'Áreas de convivência integradas', 'Vista para o mar', 'Aproximadamente 120 m da praia'],
+    en: ['Private pool', 'Gourmet area', 'Barbecue', 'Full kitchen with ocean view', 'Air conditioning', 'Wi-Fi', 'Parking', 'Integrated living areas', 'Ocean view', 'Approximately 120 m from the beach'],
+  },
+  features: ['piscina', 'vista-mar'],
+  locationDetail: { pt: 'Rio da Barra, Trancoso — Bahia, a aproximadamente 120 metros da Praia do Rio da Barra.', en: 'Rio da Barra, Trancoso — Bahia, approximately 120 meters from Rio da Barra Beach.' },
+  description: {
+    pt: 'A poucos passos da Praia do Rio da Barra, a Casa Helena reúne conforto, privacidade e uma localização privilegiada em uma das regiões mais bonitas de Trancoso.\n\nA residência possui ambientes integrados e uma agradável área externa com piscina privativa, cercada pelo verde. A área gourmet com churrasqueira se conecta aos espaços de convivência e cria um ambiente ideal para reunir família e amigos durante a estadia.\n\nA casa conta com 4 suítes climatizadas e acomoda confortavelmente até 10 hóspedes. A cozinha é completa e possui vista para o mar, trazendo ainda mais charme à experiência.\n\nLocalizada a aproximadamente 120 metros da praia, a Casa Helena é uma excelente escolha para quem deseja aproveitar Trancoso com tranquilidade e ter o mar a poucos minutos de caminhada.',
+    en: 'Just a few steps from Rio da Barra Beach, Casa Helena brings together comfort, privacy and a privileged location in one of the most beautiful regions of Trancoso.\n\nThe residence features integrated environments and a pleasant outdoor area with a private pool, surrounded by greenery. The gourmet area with a barbecue connects to the living spaces and creates an ideal setting for gathering family and friends during the stay.\n\nThe house has 4 air-conditioned suites and comfortably accommodates up to 10 guests. The kitchen is complete and has an ocean view, adding even more charm to the experience.\n\nLocated approximately 120 meters from the beach, Casa Helena is an excellent choice for those who want to enjoy Trancoso with tranquility and have the sea just a few minutes walk away.',
+  },
+  notes: { pt: ['Carnaval sob consulta.'], en: ['Carnival upon request.'] },
+};
+
 const ECO03: Property = {
   id: 'condominio-eco-casa-03', code: 'TBA-343', name: { pt: 'Condomínio Eco — Casa 03', en: 'Condomínio Eco — Casa 03' },
   purpose: ['aluguel'], location: 'Condomínio Eco', suites: 4, guests: 8, baths: 5, area: '364 m² · terreno 1.000 m²',
@@ -3540,7 +3562,10 @@ const ALTAR: Property = {
   features: ['piscina'],
 };
 
-PROPERTIES.unshift(ALTAR, DUE, AZUL, FER, COLINA3, COLINA2, COLINA, ECO01, ECO03, ECO04, VISTA, GOLF95, VILA13, COQUEIRAL01, OKUN, GOLF62, TVB10, MANGABA, GOLF21, GOLF19, GOLF33, GOLF37, GOLF27, TRAMA, TIZZI, LILI, COQUEIRAL02, JV15, JV14, JV13, PEROBA, COQ06, COQUEIRAL7, COQ08, V7, MARTINI, SANTARITA, PATIMIRIM, DAJU, BUENO, BONITA, AREIA, COQUEIRAL13, SUBLIME, ESTRELA, VISTANATIVOS, TERRAL, ITAPO01, ATENA, JACARANDA04, COQUEIRAL14, C20, CASAMARIA, ALMESCLA, CASAMAR, GEIGER, C21, MIA, COQUEIRAL22, MAION, DADINHO, IANDE, MAGIVI, OITI, C23, C24, NAOCA, CASA71, CAJU, SANMARCO, CASA14, CASA09, BOSSA, TUA, IMBIRUCU, CASA42, CASA61, VILAS02, CASA80, ITAPO07, CASA96, CASA90, VILAS75, LIMOEIRO, BIRIBA, VILAMAR, BETTONI, PINI, AUREA, SAOJORGE, CAZA, ITAPO06, ITAPO04, ALEGRIA, PONTA, PG11, PG111, PG104, MANDACARU, PONTARB, FALESIA, RAIZES, PONTABARRA, FASANO10, FASANO16, FASANO17, VILAS26, GOLF58, FLORESTA, VILAS41, VILAS67, BOUTIQUE13, ARACUA, JACARANDA03, TEIU, GOLF25, PG50, CASAEDO, BALEIA, PG55, GOLF72, PITANGA, AFRICA, TEMPO07, TEMPO08, TEMPO06, BOSQUE, PATIO, PG32, PG45, LICURI, DIVINA, TRESMENINAS, COQUEIRAL25, MORENA, MOA, BRAGA, CUMARU, JACARANDA05, TB14, MACONDO, RICK);;;
+PROPERTIES.unshift(HELENA, ALTAR, DUE, AZUL, FER, COLINA3, COLINA2, COLINA, ECO01, ECO03, ECO04, VISTA, GOLF95, VILA13, COQUEIRAL01, OKUN, GOLF62, TVB10, MANGABA, GOLF21, GOLF19, GOLF33, GOLF37, GOLF27, TRAMA, TIZZI, LILI, COQUEIRAL02, JV15, JV14, JV13, PEROBA, COQ06, COQUEIRAL7, COQ08, V7, MARTINI, SANTARITA, PATIMIRIM, DAJU, BUENO, BONITA, AREIA, COQUEIRAL13, SUBLIME, ESTRELA, VISTANATIVOS, TERRAL, ITAPO01, ATENA, JACARANDA04, COQUEIRAL14, C20, CASAMARIA, ALMESCLA, CASAMAR, GEIGER, C21, MIA, COQUEIRAL22, MAION, DADINHO, IANDE, MAGIVI, OITI, C23, C24, NAOCA, CASA71, CAJU, SANMARCO, CASA14, CASA09, BOSSA, TUA, IMBIRUCU, CASA42, CASA61, VILAS02, CASA80, ITAPO07, CASA96, CASA90, VILAS75, LIMOEIRO, BIRIBA, VILAMAR, BETTONI, PINI, AUREA, SAOJORGE, CAZA, ITAPO06, ITAPO04, ALEGRIA, PONTA, PG11, PG111, PG104, MANDACARU, PONTARB, FALESIA, RAIZES, PONTABARRA, FASANO10, FASANO16, FASANO17, VILAS26, GOLF58, FLORESTA, VILAS41, VILAS67, BOUTIQUE13, ARACUA, JACARANDA03, TEIU, GOLF25, PG50, CASAEDO, BALEIA, PG55, GOLF72, PITANGA, AFRICA, TEMPO07, TEMPO08, TEMPO06, BOSQUE, PATIO, PG32, PG45, LICURI, DIVINA, TRESMENINAS, COQUEIRAL25, MORENA, MOA, BRAGA, CUMARU, JACARANDA05, TB14, MACONDO, RICK);
+
+// Todas as casas em ordem alfabética (nome em português).
+PROPERTIES.sort((a, b) => a.name.pt.localeCompare(b.name.pt, 'pt-BR'));
 
 export const WHATSAPP = '5573999141382';
 
