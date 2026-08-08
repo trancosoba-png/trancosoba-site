@@ -1508,7 +1508,7 @@ const TRESMENINAS: Property = {
 };
 
 const PEROBA: Property = {
-  id: 'casa-peroba', code: 'TBA-267', name: { pt: 'Casa Peroba', en: 'Casa Peroba' },
+  id: 'casa-peroba', code: 'TBA-267', name: { pt: 'Casa Coqueiral 03', en: 'Casa Coqueiral 03' },
   purpose: ['aluguel'], location: 'Condomínio Coqueiral', suites: 5, guests: 14, baths: 6, area: 'Sob consulta',
   price: { pt: 'R$ 3.200 / diária', en: 'R$ 3,200 / night' },
   priceLow: { pt: 'R$ 2.500 / diária', en: 'R$ 2,500 / night' },
@@ -1580,7 +1580,7 @@ const MOA: Property = {
 };
 
 const BRAGA: Property = {
-  id: 'casa-braga', code: 'TBA-270', name: { pt: 'Casa Braga', en: 'Casa Braga' },
+  id: 'casa-braga', code: 'TBA-270', name: { pt: 'Casa Coqueiral 26', en: 'Casa Coqueiral 26' },
   purpose: ['aluguel', 'venda'], location: 'Condomínio Coqueiral', suites: 4, guests: 12, baths: 5, area: '250 m²',
   price: { pt: 'R$ 2.600 / diária', en: 'R$ 2,600 / night' },
   priceLow: { pt: 'R$ 2.100 / diária', en: 'R$ 2,100 / night' },
@@ -3345,6 +3345,32 @@ const COLINA3: Property = {
   notes: { pt: ['Carnaval sob consulta.'], en: ['Carnival upon request.'] },
 };
 
+const COQ08: Property = {
+  id: 'casa-coqueiral-08', code: 'TBA-354', name: { pt: 'Casa Coqueiral 08', en: 'Casa Coqueiral 08' },
+  purpose: ['aluguel'], location: 'Condomínio Coqueiral', suites: 5, guests: 15, baths: 5.5, area: '—',
+  price: { pt: 'R$ 3.500 / diária', en: 'R$ 3,500 / night' },
+  priceLow: { pt: 'R$ 2.400 / diária', en: 'R$ 2,400 / night' },
+  carnaval: { pt: 'R$ 40.000 (pacote de 5 diárias)', en: 'R$ 40,000 (5-night package)' },
+  reveillon: { pt: 'R$ 110.000 (pacote de 10 diárias)', en: 'R$ 110,000 (10-night package)' },
+  image: '/img/coq08/01.jpg',
+  gallery: ['/img/coq08/01.webp','/img/coq08/02.webp','/img/coq08/03.webp','/img/coq08/04.webp','/img/coq08/05.webp','/img/coq08/06.webp','/img/coq08/07.webp','/img/coq08/08.webp','/img/coq08/09.webp','/img/coq08/10.webp','/img/coq08/11.webp','/img/coq08/12.webp','/img/coq08/13.webp','/img/coq08/14.webp','/img/coq08/15.webp','/img/coq08/16.webp','/img/coq08/17.webp','/img/coq08/18.webp','/img/coq08/19.webp','/img/coq08/20.webp','/img/coq08/21.webp','/img/coq08/22.webp','/img/coq08/23.webp','/img/coq08/24.webp','/img/coq08/25.webp','/img/coq08/26.webp','/img/coq08/27.webp','/img/coq08/28.webp','/img/coq08/29.webp','/img/coq08/30.webp','/img/coq08/31.webp','/img/coq08/32.webp','/img/coq08/33.webp','/img/coq08/34.webp','/img/coq08/35.webp','/img/coq08/36.webp','/img/coq08/37.webp','/img/coq08/38.webp','/img/coq08/39.webp','/img/coq08/40.webp'], featured: false,
+  amenities: {
+    pt: ['Piscina privativa', 'Jacuzzi aquecida', 'Espaço gourmet', 'Redário', 'Living interno e externo', 'Sala de TV', 'Cozinha equipada e integrada', 'Mesa de jantar para 10 lugares', 'Lavabo', 'Varandas', 'Jardim', 'Ar-condicionado', 'Banho ao ar livre'],
+    en: ['Private pool', 'Heated jacuzzi', 'Gourmet area', 'Hammock area', 'Indoor and outdoor living rooms', 'TV room', 'Equipped integrated kitchen', 'Dining table for 10', 'Guest bathroom', 'Verandas', 'Garden', 'Air conditioning', 'Outdoor bathing'],
+  },
+  staff: {
+    pt: ['Camareira', 'Limpeza da casa', 'Limpeza da piscina', 'Cozinheira opcional'],
+    en: ['Housekeeper', 'House cleaning', 'Pool cleaning', 'Optional cook'],
+  },
+  features: ['piscina'],
+  locationDetail: { pt: 'Condomínio Coqueiral, Trancoso — Bahia, a aproximadamente 10 minutos do Quadrado, em uma região residencial tranquila e cercada pela mata.', en: 'Coqueiral Condominium, Trancoso — Bahia, approximately 10 minutes from the Quadrado, in a quiet residential area surrounded by the forest.' },
+  description: {
+    pt: 'Localizada em uma área tranquila do Condomínio Coqueiral, a Casa Coqueiral 08 combina conforto, amplitude e integração com a natureza em uma residência pensada para receber famílias e grupos com muita comodidade.\n\nO projeto valoriza o conceito aberto, conectando de forma harmoniosa os ambientes internos e externos. Os espaços de convivência são amplos e acolhedores, com living interno e externo, sala de TV, cozinha integrada e uma área gourmet completa voltada para momentos de lazer e convivência.\n\nNa área externa, a piscina se integra ao deck e ao jardim, enquanto o redário cria um espaço especialmente agradável para descansar. A casa conta ainda com jacuzzi aquecida e experiências de banho ao ar livre, cercadas pela vegetação de Trancoso.\n\nCom capacidade para até 15 hóspedes, a residência dispõe de 5 amplas suítes climatizadas, distribuídas entre o térreo e o piso superior. A configuração dos quartos permite diferentes composições de camas, tornando a casa versátil para famílias e grupos.',
+    en: 'Located in a quiet area of the Coqueiral Condominium, Casa Coqueiral 08 combines comfort, spaciousness and integration with nature in a residence designed to welcome families and groups with great convenience.\n\nThe project values the open concept, harmoniously connecting indoor and outdoor environments. The living spaces are ample and welcoming, with indoor and outdoor living rooms, a TV room, an integrated kitchen and a complete gourmet area designed for leisure and togetherness.\n\nOutside, the pool flows into the deck and garden, while the hammock area creates an especially pleasant space to rest. The house also features a heated jacuzzi and outdoor bathing experiences surrounded by the vegetation of Trancoso.\n\nWith capacity for up to 15 guests, the residence offers 5 spacious air-conditioned suites distributed between the ground floor and the upper floor. The room configuration allows different bed arrangements, making the house versatile for families and groups.',
+  },
+  notes: { pt: ['Suíte 01 (térreo): 3 camas de solteiro, com opção de 1 cama de casal e 1 de solteiro; banheiro com lavabo externo e duas cubas.', 'Suíte 02 (térreo): 1 cama queen e 1 cama de solteiro; varanda voltada para a mata com rede.', 'Suíte 03 (superior master): 1 cama queen e 1 cama de solteiro; closet, banheiro com dois chuveiros e duas cubas e varanda voltada para a mata.', 'Suíte 04 (superior): 3 camas de solteiro, com opção de 1 cama de casal e 1 de solteiro.', 'Suíte 05 (superior master): 1 cama queen e 1 cama de solteiro; varanda frontal e banheiro com dois chuveiros, sendo um deles externo.'], en: ['Suite 01 (ground floor): 3 twin beds, optional 1 double + 1 twin; bathroom with external vanity and double sinks.', 'Suite 02 (ground floor): 1 queen bed and 1 twin bed; veranda facing the forest with hammock.', 'Suite 03 (upper master): 1 queen bed and 1 twin bed; walk-in closet, bathroom with two showers and double sinks and veranda facing the forest.', 'Suite 04 (upper): 3 twin beds, optional 1 double + 1 twin.', 'Suite 05 (upper master): 1 queen bed and 1 twin bed; front veranda and bathroom with two showers, one of them outdoor.'] },
+};
+
 const ECO03: Property = {
   id: 'condominio-eco-casa-03', code: 'TBA-343', name: { pt: 'Condomínio Eco — Casa 03', en: 'Condomínio Eco — Casa 03' },
   purpose: ['aluguel'], location: 'Condomínio Eco', suites: 4, guests: 8, baths: 5, area: '364 m² · terreno 1.000 m²',
@@ -3514,7 +3540,7 @@ const ALTAR: Property = {
   features: ['piscina'],
 };
 
-PROPERTIES.unshift(ALTAR, DUE, AZUL, FER, COLINA3, COLINA2, COLINA, ECO01, ECO03, ECO04, VISTA, GOLF95, VILA13, COQUEIRAL01, OKUN, GOLF62, TVB10, MANGABA, GOLF21, GOLF19, GOLF33, GOLF37, GOLF27, TRAMA, TIZZI, LILI, COQUEIRAL02, JV15, JV14, JV13, COQ06, COQUEIRAL7, COQUEIRAL13, V7, MARTINI, SANTARITA, PATIMIRIM, DAJU, BUENO, BONITA, AREIA, COQUEIRAL14, SUBLIME, ESTRELA, VISTANATIVOS, TERRAL, ITAPO01, ATENA, JACARANDA04, C20, C21, CASAMARIA, ALMESCLA, CASAMAR, GEIGER, COQUEIRAL22, MIA, C23, MAION, DADINHO, IANDE, MAGIVI, OITI, C24, COQUEIRAL25, NAOCA, CASA71, CAJU, SANMARCO, CASA14, CASA09, BOSSA, TUA, IMBIRUCU, CASA42, CASA61, VILAS02, CASA80, ITAPO07, CASA96, CASA90, VILAS75, LIMOEIRO, BIRIBA, VILAMAR, BETTONI, PINI, AUREA, SAOJORGE, CAZA, ITAPO06, ITAPO04, ALEGRIA, PONTA, PG11, PG111, PG104, MANDACARU, PONTARB, FALESIA, RAIZES, PONTABARRA, FASANO10, FASANO16, FASANO17, VILAS26, GOLF58, FLORESTA, VILAS41, VILAS67, BOUTIQUE13, ARACUA, JACARANDA03, TEIU, GOLF25, PG50, CASAEDO, BALEIA, PG55, GOLF72, PITANGA, AFRICA, TEMPO07, TEMPO08, TEMPO06, BOSQUE, PATIO, PG32, PG45, LICURI, DIVINA, TRESMENINAS, BRAGA, MORENA, MOA, PEROBA, CUMARU, JACARANDA05, TB14, MACONDO, RICK);;
+PROPERTIES.unshift(ALTAR, DUE, AZUL, FER, COLINA3, COLINA2, COLINA, ECO01, ECO03, ECO04, VISTA, GOLF95, VILA13, COQUEIRAL01, OKUN, GOLF62, TVB10, MANGABA, GOLF21, GOLF19, GOLF33, GOLF37, GOLF27, TRAMA, TIZZI, LILI, COQUEIRAL02, JV15, JV14, JV13, PEROBA, COQ06, COQUEIRAL7, COQ08, V7, MARTINI, SANTARITA, PATIMIRIM, DAJU, BUENO, BONITA, AREIA, COQUEIRAL13, SUBLIME, ESTRELA, VISTANATIVOS, TERRAL, ITAPO01, ATENA, JACARANDA04, COQUEIRAL14, C20, CASAMARIA, ALMESCLA, CASAMAR, GEIGER, C21, MIA, COQUEIRAL22, MAION, DADINHO, IANDE, MAGIVI, OITI, C23, C24, NAOCA, CASA71, CAJU, SANMARCO, CASA14, CASA09, BOSSA, TUA, IMBIRUCU, CASA42, CASA61, VILAS02, CASA80, ITAPO07, CASA96, CASA90, VILAS75, LIMOEIRO, BIRIBA, VILAMAR, BETTONI, PINI, AUREA, SAOJORGE, CAZA, ITAPO06, ITAPO04, ALEGRIA, PONTA, PG11, PG111, PG104, MANDACARU, PONTARB, FALESIA, RAIZES, PONTABARRA, FASANO10, FASANO16, FASANO17, VILAS26, GOLF58, FLORESTA, VILAS41, VILAS67, BOUTIQUE13, ARACUA, JACARANDA03, TEIU, GOLF25, PG50, CASAEDO, BALEIA, PG55, GOLF72, PITANGA, AFRICA, TEMPO07, TEMPO08, TEMPO06, BOSQUE, PATIO, PG32, PG45, LICURI, DIVINA, TRESMENINAS, COQUEIRAL25, MORENA, MOA, BRAGA, CUMARU, JACARANDA05, TB14, MACONDO, RICK);;;
 
 export const WHATSAPP = '5573999141382';
 

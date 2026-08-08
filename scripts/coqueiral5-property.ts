@@ -1,5 +1,5 @@
 const COQUEIRAL5: Property = {
-  id: 'casa-coqueiral-5', code: 'TBA-289', name: { pt: 'Casa Coqueiral 5 — Condomínio Coqueiral', en: 'Casa Coqueiral 5 — Coqueiral Community' },
+  id: 'casa-coqueiral-5', code: 'TBA-289', name: { pt: 'Casa Coqueiral 5', en: 'Casa Coqueiral 5' },
   purpose: ['aluguel'], location: 'Condomínio Coqueiral', suites: 5, guests: 14, baths: 5, area: '—',
   price: { pt: 'R$ 3.800 / diária', en: 'R$ 3,800 / night' },
   priceLow: { pt: 'R$ 2.800 / diária', en: 'R$ 2,800 / night' },
