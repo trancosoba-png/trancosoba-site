@@ -3300,6 +3300,29 @@ const COLINA: Property = {
   notes: { pt: ['Tarifas sob consulta para todos os períodos (baixa e alta temporada, Carnaval e Réveillon).'], en: ['Rates upon request for all periods (low and high season, Carnival and New Year’s Eve).'] },
 };
 
+const COLINA2: Property = {
+  id: 'colina-casa-02', code: 'TBA-352', name: { pt: 'Colina — Casa 02', en: 'Colina — Casa 02' },
+  purpose: ['aluguel'], location: 'Colina', suites: 4, guests: 10, baths: 5, area: '—',
+  price: { pt: 'R$ 3.000 / diária', en: 'R$ 3,000 / night' },
+  priceLow: { pt: 'R$ 2.500 / diária', en: 'R$ 2,500 / night' },
+  carnaval: { pt: 'R$ 35.000 (pacote)', en: 'R$ 35,000 (package)' },
+  reveillon: { pt: 'R$ 150.000 (mínimo de 7 diárias)', en: 'R$ 150,000 (minimum 7 nights)' },
+  image: '/img/colina2/01.jpg',
+  gallery: ['/img/colina2/01.webp','/img/colina2/02.webp','/img/colina2/03.webp','/img/colina2/04.webp','/img/colina2/05.webp','/img/colina2/06.webp','/img/colina2/07.webp','/img/colina2/08.webp','/img/colina2/09.webp','/img/colina2/10.webp','/img/colina2/11.webp','/img/colina2/12.webp','/img/colina2/13.webp','/img/colina2/14.webp','/img/colina2/15.webp','/img/colina2/16.webp','/img/colina2/17.webp','/img/colina2/18.webp','/img/colina2/19.webp','/img/colina2/20.webp','/img/colina2/21.webp','/img/colina2/22.webp','/img/colina2/23.webp','/img/colina2/24.webp','/img/colina2/25.webp','/img/colina2/26.webp','/img/colina2/27.webp','/img/colina2/28.webp','/img/colina2/29.webp','/img/colina2/30.webp','/img/colina2/31.webp'], featured: false,
+  amenities: {
+    pt: ['Piscina privativa de 9 metros', 'Área gourmet', 'Churrasqueira', 'Fogão a lenha', 'Forno de pizza', 'Geladeira para cervejas', 'Cozinha equipada', 'Varanda', 'Jardim', 'Ar-condicionado', 'Wi-Fi', 'Mosquiteiros', 'Roupas de cama, mesa e banho', 'Toalhas de piscina'],
+    en: ['9-meter private pool', 'Gourmet area', 'Barbecue', 'Wood-fired stove', 'Pizza oven', 'Beer fridge', 'Equipped kitchen', 'Veranda', 'Garden', 'Air conditioning', 'Wi-Fi', 'Mosquito nets', 'Bed, table and bath linens', 'Pool towels'],
+  },
+  staff: { pt: ['Cozinheira', 'Camareira', 'Piscineiro'], en: ['Cook', 'Housekeeper', 'Pool attendant'] },
+  features: ['piscina'],
+  locationDetail: { pt: 'Na Colina, em Trancoso — Bahia. Região residencial tranquila e familiar.', en: 'In Colina, Trancoso — Bahia. A quiet, family-friendly residential area.' },
+  description: {
+    pt: 'Localizada em uma área residencial tranquila de Trancoso, a Casa Bela é uma residência acolhedora, cercada pelo verde e pensada para proporcionar privacidade e conforto durante a estadia.\n\nA casa possui ambientes amplos e agradáveis, com espaços de convivência que se conectam à área externa. A varanda e o jardim envolvem a piscina privativa de 9 metros, criando um ambiente ideal para aproveitar os dias de Trancoso com tranquilidade.\n\nUm dos destaques é a área gourmet, equipada com churrasqueira, fogão a lenha e forno de pizza, proporcionando um espaço completo para reunir família e amigos.\n\nA Casa Bela acomoda até dez hóspedes e dispõe de quatro suítes, além de um quarto adicional com banheiro ao lado. Os ambientes são climatizados e a residência conta com estrutura completa para uma estadia confortável.\n\nDurante a hospedagem, a casa dispõe ainda de staff para auxiliar na rotina dos hóspedes, com cozinheira, camareira e piscineiro.',
+    en: 'Located in a quiet residential area of Trancoso, Casa Bela is a welcoming residence surrounded by greenery, designed to provide privacy and comfort throughout your stay.\n\nThe house offers spacious, pleasant environments, with living areas that connect to the outdoors. The veranda and garden surround the 9-meter private pool, creating an ideal setting to enjoy Trancoso\u2019s days in tranquility.\n\nOne of the highlights is the gourmet area, equipped with a barbecue, wood-fired stove and pizza oven, providing a complete space to gather family and friends.\n\nCasa Bela accommodates up to ten guests and features four suites, plus an additional bedroom with a bathroom next door. All rooms are air-conditioned and the residence offers a complete structure for a comfortable stay.\n\nDuring the stay, the house also provides staff to assist with the guests\u2019 routine, including a cook, a housekeeper and a pool attendant.',
+  },
+  notes: { pt: ['Réveillon: mínimo de 7 diárias.', 'Caução: R$ 5.000.'], en: ['New Year’s Eve: minimum 7 nights.', 'Security deposit: R$ 5,000.'] },
+};
+
 const ECO03: Property = {
   id: 'condominio-eco-casa-03', code: 'TBA-343', name: { pt: 'Condomínio Eco — Casa 03', en: 'Condomínio Eco — Casa 03' },
   purpose: ['aluguel'], location: 'Condomínio Eco', suites: 4, guests: 8, baths: 5, area: '364 m² · terreno 1.000 m²',
@@ -3469,7 +3492,7 @@ const ALTAR: Property = {
   features: ['piscina'],
 };
 
-PROPERTIES.unshift(ALTAR, DUE, AZUL, FER, COLINA, ECO01, ECO03, ECO04, VISTA, GOLF95, VILA13, COQ06, OKUN, GOLF62, TVB10, MANGABA, GOLF21, GOLF19, GOLF33, GOLF37, GOLF27, TRAMA, TIZZI, LILI, C23, JV15, JV14, JV13, C20, C21, C24, V7, MARTINI, SANTARITA, PATIMIRIM, DAJU, BUENO, BONITA, AREIA, COQUEIRAL22, SUBLIME, ESTRELA, VISTANATIVOS, TERRAL, ITAPO01, ATENA, JACARANDA04, COQUEIRAL14, COQUEIRAL02, CASAMARIA, ALMESCLA, CASAMAR, GEIGER, COQUEIRAL01, MIA, COQUEIRAL25, MAION, DADINHO, IANDE, MAGIVI, OITI, COQUEIRAL13, COQUEIRAL7, NAOCA, CASA71, CAJU, SANMARCO, CASA14, CASA09, BOSSA, TUA, IMBIRUCU, CASA42, CASA61, VILAS02, CASA80, ITAPO07, CASA96, CASA90, VILAS75, LIMOEIRO, BIRIBA, VILAMAR, BETTONI, PINI, AUREA, SAOJORGE, CAZA, ITAPO06, ITAPO04, ALEGRIA, PONTA, PG11, PG111, PG104, MANDACARU, PONTARB, FALESIA, RAIZES, PONTABARRA, FASANO10, FASANO16, FASANO17, VILAS26, GOLF58, FLORESTA, VILAS41, VILAS67, BOUTIQUE13, ARACUA, JACARANDA03, TEIU, GOLF25, PG50, CASAEDO, BALEIA, PG55, GOLF72, PITANGA, AFRICA, TEMPO07, TEMPO08, TEMPO06, BOSQUE, PATIO, PG32, PG45, LICURI, DIVINA, TRESMENINAS, PEROBA, MORENA, MOA, BRAGA, CUMARU, JACARANDA05, TB14, MACONDO, RICK);
+PROPERTIES.unshift(ALTAR, DUE, AZUL, FER, COLINA2, COLINA, ECO01, ECO03, ECO04, VISTA, GOLF95, VILA13, COQ06, OKUN, GOLF62, TVB10, MANGABA, GOLF21, GOLF19, GOLF33, GOLF37, GOLF27, TRAMA, TIZZI, LILI, C23, JV15, JV14, JV13, C20, C21, C24, V7, MARTINI, SANTARITA, PATIMIRIM, DAJU, BUENO, BONITA, AREIA, COQUEIRAL22, SUBLIME, ESTRELA, VISTANATIVOS, TERRAL, ITAPO01, ATENA, JACARANDA04, COQUEIRAL14, COQUEIRAL02, CASAMARIA, ALMESCLA, CASAMAR, GEIGER, COQUEIRAL01, MIA, COQUEIRAL25, MAION, DADINHO, IANDE, MAGIVI, OITI, COQUEIRAL13, COQUEIRAL7, NAOCA, CASA71, CAJU, SANMARCO, CASA14, CASA09, BOSSA, TUA, IMBIRUCU, CASA42, CASA61, VILAS02, CASA80, ITAPO07, CASA96, CASA90, VILAS75, LIMOEIRO, BIRIBA, VILAMAR, BETTONI, PINI, AUREA, SAOJORGE, CAZA, ITAPO06, ITAPO04, ALEGRIA, PONTA, PG11, PG111, PG104, MANDACARU, PONTARB, FALESIA, RAIZES, PONTABARRA, FASANO10, FASANO16, FASANO17, VILAS26, GOLF58, FLORESTA, VILAS41, VILAS67, BOUTIQUE13, ARACUA, JACARANDA03, TEIU, GOLF25, PG50, CASAEDO, BALEIA, PG55, GOLF72, PITANGA, AFRICA, TEMPO07, TEMPO08, TEMPO06, BOSQUE, PATIO, PG32, PG45, LICURI, DIVINA, TRESMENINAS, PEROBA, MORENA, MOA, BRAGA, CUMARU, JACARANDA05, TB14, MACONDO, RICK);
 
 export const WHATSAPP = '5573999141382';
 
