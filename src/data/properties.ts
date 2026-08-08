@@ -3195,7 +3195,7 @@ const DUE: Property = {
   reveillon: { pt: 'R$ 260.000 (pacote de 10 noites)', en: 'R$ 260,000 (10-night package)' },
   salePrice: { pt: 'R$ 15.000.000', en: 'R$ 15,000,000' },
   image: '/img/due/01.jpg',
-  gallery: ['/img/due/01.webp','/img/due/02.webp','/img/due/03.webp','/img/due/04.webp','/img/due/05.webp','/img/due/06.webp','/img/due/07.webp','/img/due/08.webp','/img/due/09.webp','/img/due/10.webp','/img/due/11.webp','/img/due/12.webp','/img/due/13.webp','/img/due/14.webp','/img/due/15.webp','/img/due/16.webp','/img/due/17.webp','/img/due/18.webp','/img/due/19.webp','/img/due/20.webp','/img/due/21.webp','/img/due/22.webp','/img/due/23.webp'], featured: false,
+  gallery: ['/img/due/01.webp','/img/due/02.webp','/img/due/03.webp','/img/due/04.webp','/img/due/05.webp','/img/due/06.webp','/img/due/07.webp','/img/due/08.webp','/img/due/09.webp','/img/due/10.webp','/img/due/11.webp','/img/due/12.webp','/img/due/13.webp','/img/due/14.webp','/img/due/15.webp','/img/due/16.webp','/img/due/17.webp','/img/due/18.webp','/img/due/19.webp','/img/due/20.webp','/img/due/21.webp'], featured: false,
   amenities: {
     pt: ['Piscina privativa', 'Deck e varanda', 'Jardim', 'Área gourmet', 'Churrasqueira', 'Cervejeira', 'Ar-condicionado', 'Internet Wi-Fi', 'TV', 'Som ambiente', 'Roupas de cama e banho', 'Toalhas de piscina', 'Estacionamento'],
     en: ['Private pool', 'Deck and veranda', 'Garden', 'Gourmet area', 'Barbecue', 'Beer cooler', 'Air conditioning', 'Wi-Fi internet', 'TV', 'Ambient sound', 'Bed and bath linens', 'Pool towels', 'Parking'],
