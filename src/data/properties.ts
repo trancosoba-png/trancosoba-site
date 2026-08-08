@@ -3323,6 +3323,28 @@ const COLINA2: Property = {
   notes: { pt: ['Réveillon: mínimo de 7 diárias.', 'Caução: R$ 5.000.'], en: ['New Year’s Eve: minimum 7 nights.', 'Security deposit: R$ 5,000.'] },
 };
 
+const COLINA3: Property = {
+  id: 'colina-casa-03', code: 'TBA-353', name: { pt: 'Colina — Casa 03', en: 'Colina — Casa 03' },
+  purpose: ['aluguel'], location: 'Colina', suites: 3, guests: 7, baths: 3, area: '—',
+  price: { pt: 'R$ 2.500 / diária', en: 'R$ 2,500 / night' },
+  priceLow: { pt: 'R$ 1.500 / diária', en: 'R$ 1,500 / night' },
+  carnaval: { pt: 'Sob consulta', en: 'Upon request' },
+  reveillon: { pt: 'R$ 85.000 (pacote)', en: 'R$ 85,000 (package)' },
+  image: '/img/colina3/01.jpg',
+  gallery: ['/img/colina3/01.webp','/img/colina3/02.webp','/img/colina3/03.webp','/img/colina3/04.webp','/img/colina3/05.webp','/img/colina3/06.webp','/img/colina3/07.webp','/img/colina3/08.webp','/img/colina3/09.webp','/img/colina3/10.webp','/img/colina3/11.webp','/img/colina3/12.webp','/img/colina3/13.webp','/img/colina3/14.webp','/img/colina3/15.webp','/img/colina3/16.webp','/img/colina3/17.webp','/img/colina3/18.webp','/img/colina3/19.webp','/img/colina3/20.webp','/img/colina3/21.webp','/img/colina3/22.webp','/img/colina3/23.webp','/img/colina3/24.webp','/img/colina3/25.webp','/img/colina3/26.webp','/img/colina3/27.webp','/img/colina3/28.webp','/img/colina3/29.webp','/img/colina3/30.webp','/img/colina3/31.webp','/img/colina3/32.webp','/img/colina3/33.webp','/img/colina3/34.webp','/img/colina3/35.webp'], featured: false,
+  amenities: {
+    pt: ['Piscina privativa de pedra natural', 'Cozinha aberta e totalmente equipada', 'Sala de estar', 'Varanda', 'Terraço', 'Jardim', 'Ar-condicionado', 'Wi-Fi', 'Máquina de lavar', 'Estacionamento gratuito no local'],
+    en: ['Natural stone private pool', 'Open fully equipped kitchen', 'Living room', 'Veranda', 'Terrace', 'Garden', 'Air conditioning', 'Wi-Fi', 'Washing machine', 'Free on-site parking'],
+  },
+  features: ['piscina'],
+  locationDetail: { pt: 'Na Colina, em Trancoso — Bahia, a menos de 5 minutos do Quadrado.', en: 'In Colina, Trancoso — Bahia, less than 5 minutes from the Quadrado.' },
+  description: {
+    pt: 'Com uma atmosfera rústica e elegante, a Casa 03 combina o charme característico de Trancoso com ambientes acolhedores e uma forte integração com a natureza.\n\nA arquitetura valoriza o uso da madeira e de materiais naturais, criando espaços cheios de personalidade. Na área externa, a piscina privativa de pedra natural se integra ao jardim e aos ambientes de convivência, proporcionando um cenário agradável para descansar e aproveitar os dias em Trancoso.\n\nA casa acomoda até sete hóspedes em três suítes independentes, oferecendo conforto e privacidade. A cozinha aberta e totalmente equipada complementa a área social e reforça a proposta descontraída da residência.\n\nLocalizada em uma região residencial tranquila da Colina e a poucos minutos do Quadrado, é uma excelente opção para quem deseja estar próximo ao centro histórico de Trancoso sem abrir mão de sossego e privacidade.',
+    en: 'With a rustic and elegant atmosphere, Casa 03 combines Trancoso\u2019s characteristic charm with welcoming environments and a strong connection with nature.\n\nThe architecture values the use of wood and natural materials, creating spaces full of personality. Outside, the natural stone private pool flows into the garden and living areas, providing a pleasant setting to relax and enjoy the days in Trancoso.\n\nThe house accommodates up to seven guests in three independent suites, offering comfort and privacy. The open, fully equipped kitchen complements the social area and reinforces the residence\u2019s laid-back proposal.\n\nLocated in a quiet residential area of Colina, just minutes from the Quadrado, it is an excellent option for those who want to be close to Trancoso\u2019s historic center without giving up peace and privacy.',
+  },
+  notes: { pt: ['Carnaval sob consulta.'], en: ['Carnival upon request.'] },
+};
+
 const ECO03: Property = {
   id: 'condominio-eco-casa-03', code: 'TBA-343', name: { pt: 'Condomínio Eco — Casa 03', en: 'Condomínio Eco — Casa 03' },
   purpose: ['aluguel'], location: 'Condomínio Eco', suites: 4, guests: 8, baths: 5, area: '364 m² · terreno 1.000 m²',
@@ -3492,7 +3514,7 @@ const ALTAR: Property = {
   features: ['piscina'],
 };
 
-PROPERTIES.unshift(ALTAR, DUE, AZUL, FER, COLINA2, COLINA, ECO01, ECO03, ECO04, VISTA, GOLF95, VILA13, COQ06, OKUN, GOLF62, TVB10, MANGABA, GOLF21, GOLF19, GOLF33, GOLF37, GOLF27, TRAMA, TIZZI, LILI, C23, JV15, JV14, JV13, C20, C21, C24, V7, MARTINI, SANTARITA, PATIMIRIM, DAJU, BUENO, BONITA, AREIA, COQUEIRAL22, SUBLIME, ESTRELA, VISTANATIVOS, TERRAL, ITAPO01, ATENA, JACARANDA04, COQUEIRAL14, COQUEIRAL02, CASAMARIA, ALMESCLA, CASAMAR, GEIGER, COQUEIRAL01, MIA, COQUEIRAL25, MAION, DADINHO, IANDE, MAGIVI, OITI, COQUEIRAL13, COQUEIRAL7, NAOCA, CASA71, CAJU, SANMARCO, CASA14, CASA09, BOSSA, TUA, IMBIRUCU, CASA42, CASA61, VILAS02, CASA80, ITAPO07, CASA96, CASA90, VILAS75, LIMOEIRO, BIRIBA, VILAMAR, BETTONI, PINI, AUREA, SAOJORGE, CAZA, ITAPO06, ITAPO04, ALEGRIA, PONTA, PG11, PG111, PG104, MANDACARU, PONTARB, FALESIA, RAIZES, PONTABARRA, FASANO10, FASANO16, FASANO17, VILAS26, GOLF58, FLORESTA, VILAS41, VILAS67, BOUTIQUE13, ARACUA, JACARANDA03, TEIU, GOLF25, PG50, CASAEDO, BALEIA, PG55, GOLF72, PITANGA, AFRICA, TEMPO07, TEMPO08, TEMPO06, BOSQUE, PATIO, PG32, PG45, LICURI, DIVINA, TRESMENINAS, PEROBA, MORENA, MOA, BRAGA, CUMARU, JACARANDA05, TB14, MACONDO, RICK);
+PROPERTIES.unshift(ALTAR, DUE, AZUL, FER, COLINA3, COLINA2, COLINA, ECO01, ECO03, ECO04, VISTA, GOLF95, VILA13, COQ06, OKUN, GOLF62, TVB10, MANGABA, GOLF21, GOLF19, GOLF33, GOLF37, GOLF27, TRAMA, TIZZI, LILI, C23, JV15, JV14, JV13, C20, C21, C24, V7, MARTINI, SANTARITA, PATIMIRIM, DAJU, BUENO, BONITA, AREIA, COQUEIRAL22, SUBLIME, ESTRELA, VISTANATIVOS, TERRAL, ITAPO01, ATENA, JACARANDA04, COQUEIRAL14, COQUEIRAL02, CASAMARIA, ALMESCLA, CASAMAR, GEIGER, COQUEIRAL01, MIA, COQUEIRAL25, MAION, DADINHO, IANDE, MAGIVI, OITI, COQUEIRAL13, COQUEIRAL7, NAOCA, CASA71, CAJU, SANMARCO, CASA14, CASA09, BOSSA, TUA, IMBIRUCU, CASA42, CASA61, VILAS02, CASA80, ITAPO07, CASA96, CASA90, VILAS75, LIMOEIRO, BIRIBA, VILAMAR, BETTONI, PINI, AUREA, SAOJORGE, CAZA, ITAPO06, ITAPO04, ALEGRIA, PONTA, PG11, PG111, PG104, MANDACARU, PONTARB, FALESIA, RAIZES, PONTABARRA, FASANO10, FASANO16, FASANO17, VILAS26, GOLF58, FLORESTA, VILAS41, VILAS67, BOUTIQUE13, ARACUA, JACARANDA03, TEIU, GOLF25, PG50, CASAEDO, BALEIA, PG55, GOLF72, PITANGA, AFRICA, TEMPO07, TEMPO08, TEMPO06, BOSQUE, PATIO, PG32, PG45, LICURI, DIVINA, TRESMENINAS, PEROBA, MORENA, MOA, BRAGA, CUMARU, JACARANDA05, TB14, MACONDO, RICK);
 
 export const WHATSAPP = '5573999141382';
 
