@@ -229,8 +229,12 @@ export default function Imovel() {
               {lang !== 'pt' && <p className="text-ivory/55 text-[12px] italic pt-1">{t.home.fxNote}</p>}
               <p className="text-ivory/45 text-[11px] leading-relaxed pt-2">
                 {lang === 'pt'
-                  ? 'Valores por diária, sujeitos a confirmação de disponibilidade e ao período da estadia. Não incluem a taxa de serviço de 10%.'
-                  : 'Nightly rates, subject to availability confirmation and length of stay. They do not include the 10% service fee.'}
+                  ? (p.serviceFeeIncluded
+                      ? 'Valores por diária, sujeitos a confirmação de disponibilidade e ao período da estadia. Taxa de serviço já inclusa.'
+                      : 'Valores por diária, sujeitos a confirmação de disponibilidade e ao período da estadia. Não incluem a taxa de serviço de 10%.')
+                  : (p.serviceFeeIncluded
+                      ? 'Nightly rates, subject to availability confirmation and length of stay. Service fee already included.'
+                      : 'Nightly rates, subject to availability confirmation and length of stay. They do not include the 10% service fee.')}
               </p>
             </div>
             <a href={`https://wa.me/${WHATSAPP}?text=${waMsg}`} target="_blank" rel="noreferrer" onClick={() => trackWhatsApp('imovel', p.id)}
