@@ -29,6 +29,8 @@ export interface Property {
   staff?: { pt: string[]; en: string[] };
   /** Informações operacionais (regras, taxas, staff descrito em texto) exibidas em "Informações". */
   notes?: { pt: string[]; en: string[] };
+  /** Se true, o tarifário informa que a taxa de serviço já está inclusa (padrão: não inclui 10%). */
+  serviceFeeIncluded?: boolean;
   /** Detalhes de localização em texto (condomínio, rua, quadra, lote etc.) exibidos na seção "Localização". */
   locationDetail?: { pt: string; en: string };
   /** Características usadas nas caixinhas do filtro "Mais filtros". Se ausente, são derivadas automaticamente. */
@@ -3626,6 +3628,7 @@ const TEMPO04: Property = {
 
 const JUE: Property = {
   id: 'casa-jue', code: 'TBA-358', name: { pt: 'Casa Juê', en: 'Casa Juê' },
+  serviceFeeIncluded: true,
   purpose: ['aluguel'], location: 'Altos de Trancoso', suites: 4, guests: 8, baths: 4, area: '—',
   price: { pt: 'R$ 5.000', en: 'R$ 5,000' },
   priceLow: { pt: 'R$ 4.000', en: 'R$ 4,000' },

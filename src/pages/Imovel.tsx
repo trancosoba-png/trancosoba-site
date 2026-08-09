@@ -224,7 +224,7 @@ export default function Imovel() {
                 <p className="text-[#b08d57] italic">{lang === 'pt' ? 'Diária Baixa:' : 'Low season:'}</p>
                 <p className="text-ivory/85">{p.seasonLow ? (lang === 'pt' ? p.seasonLow.pt : p.seasonLow.en) : (lang === 'pt' ? 'Mar, Abr, Mai, Jun, Ago, Set, Out e Nov' : 'Mar, Apr, May, Jun, Aug, Sep, Oct and Nov')}</p>
               </div>
-              <p className="text-ivory/70 italic pt-1">ⓘ {lang === 'pt' ? 'Preços não incluem 10% de taxa de serviço.' : 'Prices do not include 10% service fee.'}</p>
+              <p className="text-ivory/70 italic pt-1">ⓘ {p.serviceFeeIncluded ? (lang === 'pt' ? 'Preços já incluem taxa de serviço.' : 'Prices include service fee.') : (lang === 'pt' ? 'Preços não incluem 10% de taxa de serviço.' : 'Prices do not include 10% service fee.')}</p>
               <p className="text-ivory/60 text-[12px] pt-1">*{lang === 'pt' ? 'Pacote mínimo, datas sob consulta' : 'Minimum package, dates upon request'}</p>
               {lang !== 'pt' && <p className="text-ivory/55 text-[12px] italic pt-1">{t.home.fxNote}</p>}
               <p className="text-ivory/45 text-[11px] leading-relaxed pt-2">
