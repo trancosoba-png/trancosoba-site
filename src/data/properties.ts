@@ -3593,7 +3593,7 @@ const COQ04: Property = {
 
 const TEMPO04: Property = {
   id: 'casa-tempo-04', code: 'TBA-357', name: { pt: 'Casa Tempo 04', en: 'Casa Tempo 04' },
-  purpose: ['aluguel'], location: 'Condomínio Tempo', suites: 2, guests: 4, baths: 1.5, area: '115 m²',
+  purpose: ['aluguel'], location: 'Quadrado', suites: 2, guests: 4, baths: 1.5, area: '115 m²',
   price: { pt: 'R$ 1.800', en: 'R$ 1,800' },
   priceLow: { pt: 'R$ 1.500', en: 'R$ 1,500' },
   reveillon: { pt: 'Sob consulta', en: 'Upon request' },
