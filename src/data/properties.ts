@@ -215,7 +215,7 @@ const IMBIRUCU: Property = {
 };
 
 const CASA42: Property = {
-  id: 'terravista-golf-casa-42', code: 'TBA-209', name: { pt: 'Terravista Golf — Casa 42', en: 'Terravista Golf — Casa 42' },
+  id: 'terravista-golf-casa-42', code: 'TBA-209', name: { pt: 'Terravista 42', en: 'Terravista 42' },
   purpose: ['aluguel'], location: 'Terravista Golf', suites: 7, guests: 14, baths: 9, area: '920 m² · terreno 1.667 m²',
   price: { pt: 'Sob consulta', en: 'Upon request' },
   priceLow: { pt: 'Sob consulta', en: 'Upon request' },
@@ -235,7 +235,7 @@ const CASA42: Property = {
 };
 
 const CASA61: Property = {
-  id: 'terravista-golf-casa-61', code: 'TBA-210', name: { pt: 'Terravista Golf — Casa 61', en: 'Terravista Golf — Casa 61' },
+  id: 'terravista-golf-casa-61', code: 'TBA-210', name: { pt: 'Terravista 61', en: 'Terravista 61' },
   purpose: ['aluguel'], location: 'Terravista Golf', suites: 6, guests: 12, baths: 7, area: '1.237 m² · terreno 2.793 m²',
   price: { pt: 'R$ 15.000 / diária', en: 'R$ 15,000 / night' },
   priceLow: { pt: 'R$ 14.000 / diária', en: 'R$ 14,000 / night' },
@@ -255,7 +255,7 @@ const CASA61: Property = {
 };
 
 const VILAS02: Property = {
-  id: 'terravista-vilas-casa-02', code: 'TBA-211', name: { pt: 'Terravista Vilas — Casa 02', en: 'Terravista Vilas — Casa 02' },
+  id: 'terravista-vilas-casa-02', code: 'TBA-211', name: { pt: 'Terravista 02', en: 'Terravista 02' },
   purpose: ['aluguel'], location: 'Terravista Vilas', suites: 3, guests: 6, baths: 3, area: '271 m² · terreno 550 m²',
   price: { pt: 'R$ 3.000 / diária', en: 'R$ 3,000 / night' },
   priceLow: { pt: 'R$ 2.800 / diária', en: 'R$ 2,800 / night' },
@@ -275,7 +275,7 @@ const VILAS02: Property = {
 };
 
 const CASA80: Property = {
-  id: 'terravista-golf-casa-80', code: 'TBA-212', name: { pt: 'Terravista Golf — Casa 80', en: 'Terravista Golf — Casa 80' },
+  id: 'terravista-golf-casa-80', code: 'TBA-212', name: { pt: 'Terravista 80', en: 'Terravista 80' },
   purpose: ['aluguel'], location: 'Terravista Golf', suites: 6, guests: 12, baths: 7, area: '590 m² · terreno 1.780 m²',
   price: { pt: 'R$ 11.400 / diária', en: 'R$ 11,400 / night' },
   priceLow: { pt: 'R$ 8.500 / diária', en: 'R$ 8,500 / night' },
@@ -315,7 +315,7 @@ const ITAPO07: Property = {
 };
 
 const CASA96: Property = {
-  id: 'terravista-golf-casa-96', code: 'TBA-214', name: { pt: 'Terravista Golf — Casa 96', en: 'Terravista Golf — Casa 96' },
+  id: 'terravista-golf-casa-96', code: 'TBA-214', name: { pt: 'Terravista 96', en: 'Terravista 96' },
   purpose: ['aluguel'], location: 'Terravista Golf', suites: 6, guests: 12, baths: 8, area: '1.100 m²',
   price: { pt: 'Sob consulta', en: 'Upon request' },
   priceLow: { pt: 'Sob consulta', en: 'Upon request' },
@@ -335,7 +335,7 @@ const CASA96: Property = {
 };
 
 const CASA90: Property = {
-  id: 'terravista-golf-casa-90', code: 'TBA-215', name: { pt: 'Terravista Golf Club 90', en: 'Terravista Golf Club 90' },
+  id: 'terravista-golf-casa-90', code: 'TBA-215', name: { pt: 'Terravista 90', en: 'Terravista 90' },
   purpose: ['aluguel'], location: 'Terravista Golf', suites: 7, guests: 14, baths: 8, area: 'Pé no campo de golfe',
   price: { pt: 'R$ 19.500 / diária', en: 'R$ 19,500 / night' },
   priceLow: { pt: 'R$ 19.500 / diária', en: 'R$ 19,500 / night' },
@@ -355,7 +355,7 @@ const CASA90: Property = {
 };
 
 const VILAS75: Property = {
-  id: 'terravista-vilas-75', code: 'TBA-216', name: { pt: 'Terravista Vilas 75', en: 'Terravista Vilas 75' },
+  id: 'terravista-vilas-75', code: 'TBA-216', name: { pt: 'Terravista 75', en: 'Terravista 75' },
   purpose: ['aluguel'], location: 'Terravista Vilas', suites: 6, guests: 12, baths: 7, area: 'Vista para o mar e o golfe',
   price: { pt: 'R$ 30.000 / diária', en: 'R$ 30,000 / night' },
   priceLow: { pt: 'R$ 30.000 / diária', en: 'R$ 30,000 / night' },
@@ -847,7 +847,7 @@ const FASANO17: Property = {
 };
 
 const VILAS26: Property = {
-  id: 'casa-26-terravista-vilas', code: 'TBA-240', name: { pt: 'Casa 26 — Terravista Vilas', en: 'Casa 26 — Terravista Vilas' },
+  id: 'casa-26-terravista-vilas', code: 'TBA-240', name: { pt: 'Terravista 26', en: 'Terravista 26' },
   purpose: ['aluguel', 'venda'], location: 'Terravista Vilas', suites: 4, guests: 9, baths: 4, area: '344 m² · terreno 2.326 m²',
   price: { pt: 'R$ 8.000 / diária', en: 'R$ 8,000 / night' },
   priceLow: { pt: 'R$ 7.000 / diária', en: 'R$ 7,000 / night' },
@@ -870,7 +870,7 @@ const VILAS26: Property = {
 };
 
 const GOLF58: Property = {
-  id: 'terravista-golf-58', code: 'TBA-241', name: { pt: 'Terravista Golf 58', en: 'Terravista Golf 58' },
+  id: 'terravista-golf-58', code: 'TBA-241', name: { pt: 'Terravista 58', en: 'Terravista 58' },
   purpose: ['aluguel'], location: 'Terravista Golf', suites: 9, guests: 18, baths: 10, area: '1.647 m²',
   price: { pt: 'R$ 50.000 / diária', en: 'R$ 50,000 / night' },
   priceLow: { pt: 'R$ 38.000 / diária', en: 'R$ 38,000 / night' },
@@ -915,7 +915,7 @@ const FLORESTA: Property = {
 }
 
 const VILAS41: Property = {
-  id: 'casa-41-terravista-vilas', code: 'TBA-243', name: { pt: 'Casa 41 — Terravista Vilas', en: 'Casa 41 — Terravista Vilas' },
+  id: 'casa-41-terravista-vilas', code: 'TBA-243', name: { pt: 'Terravista 41', en: 'Terravista 41' },
   purpose: ['aluguel'], location: 'Terravista Vilas', suites: 4, guests: 8, baths: 4, area: '500 m² · terreno 1.900 m²',
   price: { pt: 'R$ 8.900 / diária', en: 'R$ 8,900 / night' },
   priceLow: { pt: 'R$ 7.900 / diária', en: 'R$ 7,900 / night' },
@@ -938,7 +938,7 @@ const VILAS41: Property = {
 };
 
 const VILAS67: Property = {
-  id: 'terravista-vilas-67', code: 'TBA-244', name: { pt: 'Terravista Vilas 67', en: 'Terravista Vilas 67' },
+  id: 'terravista-vilas-67', code: 'TBA-244', name: { pt: 'Terravista 67', en: 'Terravista 67' },
   purpose: ['aluguel'], location: 'Terravista Vilas', suites: 5, guests: 10, baths: 7, area: '240 m²',
   price: { pt: 'R$ 6.875 / diária', en: 'R$ 6,875 / night' },
   priceLow: { pt: 'R$ 4.500 / diária', en: 'R$ 4,500 / night' },
@@ -961,7 +961,7 @@ const VILAS67: Property = {
 };
 
 const BOUTIQUE13: Property = {
-  id: 'terravista-boutique-casa-13', code: 'TBA-245', name: { pt: 'Terravista Boutique Casa 13', en: 'Terravista Boutique Casa 13' },
+  id: 'terravista-boutique-casa-13', code: 'TBA-245', name: { pt: 'Terravista Boutique 13', en: 'Terravista Boutique 13' },
   purpose: ['aluguel', 'venda'], location: 'Terravista', suites: 6, guests: 12, baths: 7, area: '450 m²',
   price: { pt: 'R$ 13.200 / diária', en: 'R$ 13,200 / night' },
   priceLow: { pt: 'R$ 11.000 / diária', en: 'R$ 11,000 / night' },
@@ -1048,7 +1048,7 @@ const TEIU: Property = {
 };
 
 const GOLF25: Property = {
-  id: 'terravista-golf-25', code: 'TBA-249', name: { pt: 'Terravista Golf 25', en: 'Terravista Golf 25' },
+  id: 'terravista-golf-25', code: 'TBA-249', name: { pt: 'Terravista 25', en: 'Terravista 25' },
   purpose: ['aluguel'], location: 'Terravista Golf', suites: 5, guests: 10, baths: 6, area: '—',
   price: { pt: 'R$ 6.500 / diária', en: 'R$ 6,500 / night' },
   priceLow: { pt: 'R$ 4.600 / diária', en: 'R$ 4,600 / night' },
@@ -1177,7 +1177,7 @@ const PG55: Property = {
 };
 
 const GOLF72: Property = {
-  id: 'terravista-golf-72', code: 'TBA-254', name: { pt: 'Casa 72 — Terravista Golf', en: 'Casa 72 — Terravista Golf' },
+  id: 'terravista-golf-72', code: 'TBA-254', name: { pt: 'Terravista 72', en: 'Terravista 72' },
   purpose: ['aluguel'], location: 'Terravista Golf', suites: 8, guests: 16, baths: 8, area: '1.520 m² · terreno 2.580 m²',
   price: { pt: 'R$ 21.500 / diária', en: 'R$ 21,500 / night' },
   priceLow: { pt: 'R$ 16.000 / diária', en: 'R$ 16,000 / night' },
@@ -1654,7 +1654,7 @@ const JACARANDA05: Property = {
 };
 
 const TB14: Property = {
-  id: 'casa-14-terravista-boutique', code: 'TBA-273', name: { pt: 'Casa 14 — Terravista Boutique', en: 'Casa 14 — Terravista Boutique' },
+  id: 'casa-14-terravista-boutique', code: 'TBA-273', name: { pt: 'Terravista 14', en: 'Terravista 14' },
   purpose: ['aluguel'], location: 'Terravista Boutique', suites: 5, guests: 12, baths: 6, area: '450 m²',
   price: { pt: 'Sob consulta', en: 'Upon request' },
   priceLow: { pt: 'Sob consulta', en: 'Upon request' },
@@ -2983,7 +2983,7 @@ const MIA: Property = {
 };
 
 const GOLF21: Property = {
-  id: 'terravista-golf-casa-21', code: 'TBA-331', name: { pt: 'Terravista Golf — Casa 21', en: 'Terravista Golf — Casa 21' },
+  id: 'terravista-golf-casa-21', code: 'TBA-331', name: { pt: 'Terravista 21', en: 'Terravista 21' },
   purpose: ['aluguel'], location: 'Terravista Golf', suites: 6, guests: 12, baths: 7, area: '—',
   price: { pt: 'R$ 12.000 / diária', en: 'R$ 12,000 / night' },
   priceLow: { pt: 'R$ 10.000 / diária', en: 'R$ 10,000 / night' },
@@ -3006,7 +3006,7 @@ const GOLF21: Property = {
 };
 
 const GOLF19: Property = {
-  id: 'terravista-golf-casa-19', code: 'TBA-332', name: { pt: 'Terravista Golf — Casa 19', en: 'Terravista Golf — Casa 19' },
+  id: 'terravista-golf-casa-19', code: 'TBA-332', name: { pt: 'Terravista 19', en: 'Terravista 19' },
   purpose: ['aluguel'], location: 'Terravista Golf', suites: 6, guests: 12, baths: 8, area: '700 m² · terreno 2.100 m²',
   price: { pt: 'R$ 13.000 / diária', en: 'R$ 13,000 / night' },
   priceLow: { pt: 'R$ 9.000 / diária', en: 'R$ 9,000 / night' },
@@ -3029,7 +3029,7 @@ const GOLF19: Property = {
 };
 
 const GOLF33: Property = {
-  id: 'terravista-golf-casa-33', code: 'TBA-333', name: { pt: 'Terravista Golf — Casa 33', en: 'Terravista Golf — Casa 33' },
+  id: 'terravista-golf-casa-33', code: 'TBA-333', name: { pt: 'Terravista 33', en: 'Terravista 33' },
   purpose: ['aluguel'], location: 'Terravista Golf', suites: 6, guests: 15, baths: 6, area: '—',
   price: { pt: 'R$ 9.500 / diária', en: 'R$ 9,500 / night' },
   priceLow: { pt: 'R$ 7.500 / diária', en: 'R$ 7,500 / night' },
@@ -3052,7 +3052,7 @@ const GOLF33: Property = {
 };
 
 const GOLF37: Property = {
-  id: 'terravista-golf-casa-37', code: 'TBA-334', name: { pt: 'Terravista Golf — Casa 37', en: 'Terravista Golf — Casa 37' },
+  id: 'terravista-golf-casa-37', code: 'TBA-334', name: { pt: 'Terravista 37', en: 'Terravista 37' },
   purpose: ['aluguel', 'venda'], location: 'Terravista Golf', suites: 8, guests: 16, baths: 7, area: '750 m² · terreno 1.700 m²',
   price: { pt: 'R$ 11.500 / diária', en: 'R$ 11,500 / night' },
   priceLow: { pt: 'R$ 8.500 / diária', en: 'R$ 8,500 / night' },
@@ -3076,7 +3076,7 @@ const GOLF37: Property = {
 };
 
 const GOLF27: Property = {
-  id: 'terravista-golf-casa-27', code: 'TBA-335', name: { pt: 'Terravista Golf — Casa 27', en: 'Terravista Golf — Casa 27' },
+  id: 'terravista-golf-casa-27', code: 'TBA-335', name: { pt: 'Terravista 27', en: 'Terravista 27' },
   purpose: ['aluguel', 'venda'], location: 'Terravista Golf', suites: 6, guests: 12, baths: 7, area: '—',
   price: { pt: 'R$ 12.500 / diária', en: 'R$ 12,500 / night' },
   priceLow: { pt: 'R$ 10.500 / diária', en: 'R$ 10,500 / night' },
@@ -3099,7 +3099,7 @@ const GOLF27: Property = {
 };
 
 const TVB10: Property = {
-  id: 'terravista-boutique-casa-10', code: 'TBA-336', name: { pt: 'Terravista Boutique — Casa 10', en: 'Terravista Boutique — Casa 10' },
+  id: 'terravista-boutique-casa-10', code: 'TBA-336', name: { pt: 'Terravista 10', en: 'Terravista 10' },
   purpose: ['aluguel', 'venda'], location: 'Terravista Boutique', suites: 5, guests: 12, baths: 5, area: '2.038 m²',
   price: { pt: 'R$ 6.900 / diária', en: 'R$ 6,900 / night' },
   priceLow: { pt: 'R$ 3.900 / diária', en: 'R$ 3,900 / night' },
@@ -3168,7 +3168,7 @@ const OKUN: Property = {
   notes: { pt: ['Valores e disponibilidade sujeitos a confirma\u00e7\u00e3o.'], en: ['Prices and availability subject to confirmation.'] },
 };
 const GOLF62: Property = {
-  id: 'terravista-golf-casa-62', code: 'TBA-339', name: { pt: 'Terravista Golf \u2014 Casa 62', en: 'Terravista Golf \u2014 Casa 62' },
+  id: 'terravista-golf-casa-62', code: 'TBA-339', name: { pt: 'Terravista 62', en: 'Terravista 62' },
   purpose: ['aluguel'], location: 'Terravista Golf', suites: 6, guests: 12, baths: 6, area: '735 m\u00b2 \u00b7 terreno 2.668 m\u00b2',
   price: { pt: 'R$ 14.000 / di\u00e1ria', en: 'R$ 14,000 / night' },
   priceLow: { pt: 'R$ 12.000 / di\u00e1ria', en: 'R$ 12,000 / night' },
@@ -3464,7 +3464,7 @@ const VISTA: Property = {
 };
 
 const GOLF95: Property = {
-  id: 'terravista-golf-casa-95', code: 'TBA-346', name: { pt: 'Terravista Golf — Casa 95', en: 'Terravista Golf — Casa 95' },
+  id: 'terravista-golf-casa-95', code: 'TBA-346', name: { pt: 'Terravista 95', en: 'Terravista 95' },
   purpose: ['aluguel'], location: 'Terravista Golf', suites: 8, guests: 16, baths: 9, area: '1.200 m² · terreno 1.900 m²',
   price: { pt: 'R$ 25.000 / diária', en: 'R$ 25,000 / night' },
   priceLow: { pt: 'R$ 18.000 / diária', en: 'R$ 18,000 / night' },
@@ -3489,7 +3489,7 @@ const GOLF95: Property = {
 };
 
 const VILA13: Property = {
-  id: 'terravista-vilas-casa-13', code: 'TBA-347', name: { pt: 'Terravista Vilas — Casa 13', en: 'Terravista Vilas — Casa 13' },
+  id: 'terravista-vilas-casa-13', code: 'TBA-347', name: { pt: 'Terravista Vilas 13', en: 'Terravista Vilas 13' },
   purpose: ['aluguel'], location: 'Terravista Vilas', suites: 4, guests: 8, baths: 5, area: '300 m²',
   price: { pt: 'R$ 4.500 / diária', en: 'R$ 4,500 / night' },
   priceLow: { pt: 'R$ 3.800 / diária', en: 'R$ 3,800 / night' },
