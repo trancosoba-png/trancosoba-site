@@ -3624,7 +3624,40 @@ const TEMPO04: Property = {
   },
 };
 
-PROPERTIES.unshift(TEMPO04, COQ04, HELENA, ALTAR, DUE, AZUL, FER, COLINA3, COLINA2, COLINA, ECO01, ECO03, ECO04, VISTA, GOLF95, VILA13, COQUEIRAL01, OKUN, GOLF62, TVB10, MANGABA, GOLF21, GOLF19, GOLF33, GOLF37, GOLF27, TRAMA, TIZZI, LILI, COQUEIRAL02, JV15, JV14, JV13, PEROBA, COQ06, COQUEIRAL7, COQ08, V7, MARTINI, SANTARITA, PATIMIRIM, DAJU, BUENO, BONITA, AREIA, COQUEIRAL13, SUBLIME, ESTRELA, VISTANATIVOS, TERRAL, ITAPO01, ATENA, JACARANDA04, COQUEIRAL14, C20, CASAMARIA, ALMESCLA, CASAMAR, GEIGER, C21, MIA, COQUEIRAL22, MAION, DADINHO, IANDE, MAGIVI, OITI, C23, C24, NAOCA, CASA71, CAJU, SANMARCO, CASA14, CASA09, BOSSA, TUA, IMBIRUCU, CASA42, CASA61, VILAS02, CASA80, ITAPO07, CASA96, CASA90, VILAS75, LIMOEIRO, BIRIBA, VILAMAR, BETTONI, PINI, AUREA, SAOJORGE, CAZA, ITAPO06, ITAPO04, ALEGRIA, PONTA, PG11, PG111, PG104, MANDACARU, PONTARB, FALESIA, RAIZES, PONTABARRA, FASANO10, FASANO16, FASANO17, VILAS26, GOLF58, FLORESTA, VILAS41, VILAS67, BOUTIQUE13, ARACUA, JACARANDA03, TEIU, GOLF25, PG50, CASAEDO, BALEIA, PG55, GOLF72, PITANGA, AFRICA, TEMPO07, TEMPO08, TEMPO06, BOSQUE, PATIO, PG32, PG45, LICURI, DIVINA, TRESMENINAS, COQUEIRAL25, MORENA, MOA, BRAGA, CUMARU, JACARANDA05, TB14, MACONDO, RICK);
+const JUE: Property = {
+  id: 'casa-jue', code: 'TBA-358', name: { pt: 'Casa Juê', en: 'Casa Juê' },
+  purpose: ['aluguel'], location: 'Altos de Trancoso', suites: 4, guests: 8, baths: 4, area: '—',
+  price: { pt: 'R$ 5.000', en: 'R$ 5,000' },
+  priceLow: { pt: 'R$ 4.000', en: 'R$ 4,000' },
+  reveillon: { pt: 'R$ 170.000', en: 'R$ 170,000' },
+  carnaval: { pt: 'R$ 40.000', en: 'R$ 40,000' },
+  image: '/img/jue/01.jpg',
+  gallery: ['/img/jue/01.webp','/img/jue/02.webp','/img/jue/03.webp','/img/jue/04.webp','/img/jue/05.webp','/img/jue/06.webp','/img/jue/07.webp','/img/jue/08.webp','/img/jue/09.webp','/img/jue/10.webp','/img/jue/11.webp','/img/jue/12.webp','/img/jue/13.webp','/img/jue/14.webp','/img/jue/15.webp','/img/jue/16.webp','/img/jue/17.webp','/img/jue/18.webp','/img/jue/19.webp','/img/jue/20.webp','/img/jue/21.webp','/img/jue/22.webp','/img/jue/23.webp','/img/jue/24.webp','/img/jue/25.webp','/img/jue/26.webp','/img/jue/27.webp','/img/jue/28.webp','/img/jue/29.webp','/img/jue/30.webp','/img/jue/31.webp','/img/jue/32.webp','/img/jue/33.webp','/img/jue/34.webp','/img/jue/35.webp','/img/jue/36.webp','/img/jue/37.webp','/img/jue/38.webp','/img/jue/39.webp','/img/jue/40.webp','/img/jue/41.webp','/img/jue/42.webp','/img/jue/43.webp','/img/jue/44.webp','/img/jue/45.webp','/img/jue/46.webp'],
+  featured: false,
+  amenities: {
+    pt: ['4 suítes climatizadas', 'Piscina com espreguiçadeiras', 'Espaço gourmet com churrasqueira', 'Sala de estar', 'Sala de jantar', 'Sala de TV', 'Sala de massagem', '2 espaços para home office', 'Cozinha equipada', 'Freezer e cervejeira', 'Máquina de lavar-louças', 'Lavanderia', 'Internet Wi-Fi', 'Gerador', 'Poço artesiano', 'Condomínio fechado'],
+    en: ['4 air-conditioned suites', 'Pool with loungers', 'Gourmet area with barbecue', 'Living room', 'Dining room', 'TV room', 'Massage room', '2 home office spaces', 'Equipped kitchen', 'Freezer and beer cooler', 'Dishwasher', 'Laundry room', 'Wi-Fi', 'Generator', 'Artesian well', 'Gated community'],
+  },
+  staff: {
+    pt: ['Cozinheira', 'Camareira', 'Manutenção do jardim e da piscina'],
+    en: ['Cook', 'Housekeeper', 'Garden and pool maintenance'],
+  },
+  features: ['piscina', 'condominio'],
+  locationDetail: {
+    pt: 'Condomínio Altos de Trancoso — região residencial cercada de natureza, com acesso conveniente ao Quadrado e às praias de Trancoso.',
+    en: 'Altos de Trancoso community — residential area surrounded by nature, with convenient access to the Quadrado and Trancoso beaches.',
+  },
+  description: {
+    pt: 'Em meio ao verde do Altos de Trancoso, a Casa Juê reúne arquitetura contemporânea, privacidade e ambientes pensados para aproveitar o ritmo tranquilo do destino. O projeto, assinado por Julia Bittencourt, valoriza a luz natural e a conexão entre os espaços internos e o jardim, criando uma atmosfera acolhedora e elegante para dias de descanso em Trancoso. A residência acomoda até 8 hóspedes em 4 suítes distribuídas entre os dois pavimentos. As áreas sociais incluem salas de estar, jantar e TV, dois espaços independentes para home office e sala de massagem. Na área externa, piscina, espreguiçadeiras e espaço gourmet com churrasqueira completam a experiência. A cozinha é equipada para a hospedagem e a casa dispõe de Wi-Fi, gerador, lavanderia, máquina de lavar-louças, freezer e cervejeira.',
+    en: 'Amid the greenery of Altos de Trancoso, Casa Juê brings together contemporary architecture, privacy and spaces designed to enjoy the destination\'s relaxed pace. The project, designed by Julia Bittencourt, values natural light and the connection between indoor spaces and the garden, creating a cozy and elegant atmosphere for days of rest in Trancoso. The residence accommodates up to 8 guests in 4 suites spread over two floors. Social areas include living, dining and TV rooms, two independent home office spaces and a massage room. Outside, a pool, loungers and a gourmet area with barbecue complete the experience. The kitchen is equipped for hosting and the house offers Wi-Fi, a generator, laundry room, dishwasher, freezer and beer cooler.',
+  },
+  notes: {
+    pt: ['Suíte 01: cama queen, TV, ar-condicionado, mosquiteiro e secador.', 'Suíte 02: cama king, TV, ar-condicionado, mosquiteiro e secador.', 'Suíte 03: cama queen, TV, ar-condicionado, mosquiteiro e secador.', 'Suíte 04: cama king, TV, ar-condicionado, mosquiteiro e secador.', 'Taxa de serviço: inclusa.', 'Feriados: diária de alta temporada (R$ 5.000).', 'Réveillon: pacote de 10 dias. Carnaval: pacote de 5 dias.', 'Tarifas e disponibilidade sujeitas à confirmação.'],
+    en: ['Suite 01: queen bed, TV, air conditioning, mosquito net and hair dryer.', 'Suite 02: king bed, TV, air conditioning, mosquito net and hair dryer.', 'Suite 03: queen bed, TV, air conditioning, mosquito net and hair dryer.', 'Suite 04: king bed, TV, air conditioning, mosquito net and hair dryer.', 'Service fee: included.', 'Holidays: high season daily rate (R$ 5,000).', 'New Year\'s Eve: 10-day package. Carnival: 5-day package.', 'Rates and availability subject to confirmation.'],
+  },
+};
+
+PROPERTIES.unshift(JUE, TEMPO04, COQ04, HELENA, ALTAR, DUE, AZUL, FER, COLINA3, COLINA2, COLINA, ECO01, ECO03, ECO04, VISTA, GOLF95, VILA13, COQUEIRAL01, OKUN, GOLF62, TVB10, MANGABA, GOLF21, GOLF19, GOLF33, GOLF37, GOLF27, TRAMA, TIZZI, LILI, COQUEIRAL02, JV15, JV14, JV13, PEROBA, COQ06, COQUEIRAL7, COQ08, V7, MARTINI, SANTARITA, PATIMIRIM, DAJU, BUENO, BONITA, AREIA, COQUEIRAL13, SUBLIME, ESTRELA, VISTANATIVOS, TERRAL, ITAPO01, ATENA, JACARANDA04, COQUEIRAL14, C20, CASAMARIA, ALMESCLA, CASAMAR, GEIGER, C21, MIA, COQUEIRAL22, MAION, DADINHO, IANDE, MAGIVI, OITI, C23, C24, NAOCA, CASA71, CAJU, SANMARCO, CASA14, CASA09, BOSSA, TUA, IMBIRUCU, CASA42, CASA61, VILAS02, CASA80, ITAPO07, CASA96, CASA90, VILAS75, LIMOEIRO, BIRIBA, VILAMAR, BETTONI, PINI, AUREA, SAOJORGE, CAZA, ITAPO06, ITAPO04, ALEGRIA, PONTA, PG11, PG111, PG104, MANDACARU, PONTARB, FALESIA, RAIZES, PONTABARRA, FASANO10, FASANO16, FASANO17, VILAS26, GOLF58, FLORESTA, VILAS41, VILAS67, BOUTIQUE13, ARACUA, JACARANDA03, TEIU, GOLF25, PG50, CASAEDO, BALEIA, PG55, GOLF72, PITANGA, AFRICA, TEMPO07, TEMPO08, TEMPO06, BOSQUE, PATIO, PG32, PG45, LICURI, DIVINA, TRESMENINAS, COQUEIRAL25, MORENA, MOA, BRAGA, CUMARU, JACARANDA05, TB14, MACONDO, RICK);
 
 // Todas as casas em ordem alfabética (nome em português).
 PROPERTIES.sort((a, b) => a.name.pt.localeCompare(b.name.pt, 'pt-BR', { numeric: true }));
