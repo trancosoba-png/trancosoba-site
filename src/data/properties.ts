@@ -255,7 +255,7 @@ const CASA61: Property = {
 };
 
 const VILAS02: Property = {
-  id: 'terravista-vilas-casa-02', code: 'TBA-211', name: { pt: 'Terravista 02', en: 'Terravista 02' },
+  id: 'terravista-vilas-casa-02', code: 'TBA-211', name: { pt: 'Terravista Vilas 02', en: 'Terravista Vilas 02' },
   purpose: ['aluguel'], location: 'Terravista Vilas', suites: 3, guests: 6, baths: 3, area: '271 m² · terreno 550 m²',
   price: { pt: 'R$ 3.000 / diária', en: 'R$ 3,000 / night' },
   priceLow: { pt: 'R$ 2.800 / diária', en: 'R$ 2,800 / night' },
@@ -355,7 +355,7 @@ const CASA90: Property = {
 };
 
 const VILAS75: Property = {
-  id: 'terravista-vilas-75', code: 'TBA-216', name: { pt: 'Terravista 75', en: 'Terravista 75' },
+  id: 'terravista-vilas-75', code: 'TBA-216', name: { pt: 'Terravista Vilas 75', en: 'Terravista Vilas 75' },
   purpose: ['aluguel'], location: 'Terravista Vilas', suites: 6, guests: 12, baths: 7, area: 'Vista para o mar e o golfe',
   price: { pt: 'R$ 30.000 / diária', en: 'R$ 30,000 / night' },
   priceLow: { pt: 'R$ 30.000 / diária', en: 'R$ 30,000 / night' },
@@ -847,7 +847,7 @@ const FASANO17: Property = {
 };
 
 const VILAS26: Property = {
-  id: 'casa-26-terravista-vilas', code: 'TBA-240', name: { pt: 'Terravista 26', en: 'Terravista 26' },
+  id: 'casa-26-terravista-vilas', code: 'TBA-240', name: { pt: 'Terravista Vilas 26', en: 'Terravista Vilas 26' },
   purpose: ['aluguel', 'venda'], location: 'Terravista Vilas', suites: 4, guests: 9, baths: 4, area: '344 m² · terreno 2.326 m²',
   price: { pt: 'R$ 8.000 / diária', en: 'R$ 8,000 / night' },
   priceLow: { pt: 'R$ 7.000 / diária', en: 'R$ 7,000 / night' },
@@ -915,7 +915,7 @@ const FLORESTA: Property = {
 }
 
 const VILAS41: Property = {
-  id: 'casa-41-terravista-vilas', code: 'TBA-243', name: { pt: 'Terravista 41', en: 'Terravista 41' },
+  id: 'casa-41-terravista-vilas', code: 'TBA-243', name: { pt: 'Terravista Vilas 41', en: 'Terravista Vilas 41' },
   purpose: ['aluguel'], location: 'Terravista Vilas', suites: 4, guests: 8, baths: 4, area: '500 m² · terreno 1.900 m²',
   price: { pt: 'R$ 8.900 / diária', en: 'R$ 8,900 / night' },
   priceLow: { pt: 'R$ 7.900 / diária', en: 'R$ 7,900 / night' },
@@ -938,7 +938,7 @@ const VILAS41: Property = {
 };
 
 const VILAS67: Property = {
-  id: 'terravista-vilas-67', code: 'TBA-244', name: { pt: 'Terravista 67', en: 'Terravista 67' },
+  id: 'terravista-vilas-67', code: 'TBA-244', name: { pt: 'Terravista Vilas 67', en: 'Terravista Vilas 67' },
   purpose: ['aluguel'], location: 'Terravista Vilas', suites: 5, guests: 10, baths: 7, area: '240 m²',
   price: { pt: 'R$ 6.875 / diária', en: 'R$ 6,875 / night' },
   priceLow: { pt: 'R$ 4.500 / diária', en: 'R$ 4,500 / night' },
