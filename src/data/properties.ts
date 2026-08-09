@@ -3591,7 +3591,40 @@ const COQ04: Property = {
   },
 };
 
-PROPERTIES.unshift(COQ04, HELENA, ALTAR, DUE, AZUL, FER, COLINA3, COLINA2, COLINA, ECO01, ECO03, ECO04, VISTA, GOLF95, VILA13, COQUEIRAL01, OKUN, GOLF62, TVB10, MANGABA, GOLF21, GOLF19, GOLF33, GOLF37, GOLF27, TRAMA, TIZZI, LILI, COQUEIRAL02, JV15, JV14, JV13, PEROBA, COQ06, COQUEIRAL7, COQ08, V7, MARTINI, SANTARITA, PATIMIRIM, DAJU, BUENO, BONITA, AREIA, COQUEIRAL13, SUBLIME, ESTRELA, VISTANATIVOS, TERRAL, ITAPO01, ATENA, JACARANDA04, COQUEIRAL14, C20, CASAMARIA, ALMESCLA, CASAMAR, GEIGER, C21, MIA, COQUEIRAL22, MAION, DADINHO, IANDE, MAGIVI, OITI, C23, C24, NAOCA, CASA71, CAJU, SANMARCO, CASA14, CASA09, BOSSA, TUA, IMBIRUCU, CASA42, CASA61, VILAS02, CASA80, ITAPO07, CASA96, CASA90, VILAS75, LIMOEIRO, BIRIBA, VILAMAR, BETTONI, PINI, AUREA, SAOJORGE, CAZA, ITAPO06, ITAPO04, ALEGRIA, PONTA, PG11, PG111, PG104, MANDACARU, PONTARB, FALESIA, RAIZES, PONTABARRA, FASANO10, FASANO16, FASANO17, VILAS26, GOLF58, FLORESTA, VILAS41, VILAS67, BOUTIQUE13, ARACUA, JACARANDA03, TEIU, GOLF25, PG50, CASAEDO, BALEIA, PG55, GOLF72, PITANGA, AFRICA, TEMPO07, TEMPO08, TEMPO06, BOSQUE, PATIO, PG32, PG45, LICURI, DIVINA, TRESMENINAS, COQUEIRAL25, MORENA, MOA, BRAGA, CUMARU, JACARANDA05, TB14, MACONDO, RICK);
+const TEMPO04: Property = {
+  id: 'casa-tempo-04', code: 'TBA-357', name: { pt: 'Casa Tempo 04', en: 'Casa Tempo 04' },
+  purpose: ['aluguel'], location: 'Condomínio Tempo', suites: 2, guests: 4, baths: 1.5, area: '115 m²',
+  price: { pt: 'R$ 1.800', en: 'R$ 1,800' },
+  priceLow: { pt: 'R$ 1.500', en: 'R$ 1,500' },
+  reveillon: { pt: 'Sob consulta', en: 'Upon request' },
+  carnaval: { pt: 'Sob consulta', en: 'Upon request' },
+  image: '/img/tempo04/01.jpg',
+  gallery: ['/img/tempo04/01.webp','/img/tempo04/02.webp','/img/tempo04/03.webp','/img/tempo04/04.webp','/img/tempo04/05.webp','/img/tempo04/06.webp','/img/tempo04/07.webp','/img/tempo04/08.webp','/img/tempo04/09.webp','/img/tempo04/10.webp','/img/tempo04/11.webp','/img/tempo04/12.webp','/img/tempo04/13.webp','/img/tempo04/14.webp','/img/tempo04/15.webp','/img/tempo04/16.webp','/img/tempo04/17.webp','/img/tempo04/18.webp','/img/tempo04/19.webp','/img/tempo04/20.webp','/img/tempo04/21.webp','/img/tempo04/22.webp','/img/tempo04/23.webp','/img/tempo04/24.webp'],
+  featured: false,
+  amenities: {
+    pt: ['2 quartos climatizados', 'Varanda voltada para o verde', 'Sala de TV', 'Lavabo', 'Cozinha equipada', 'Área externa integrada por amplas portas de vidro', 'Piscina compartilhada do condomínio', 'Churrasqueira compartilhada', 'Ar-condicionado', 'Internet Wi-Fi', 'Gerador', 'Roupa de cama, mesa, banho e toalhas de piscina', 'Condomínio intimista com paisagismo preservado', 'A poucos passos do Quadrado'],
+    en: ['2 air-conditioned bedrooms', 'Balcony facing the greenery', 'TV room', 'Guest bathroom', 'Equipped kitchen', 'Outdoor area integrated through wide glass doors', 'Shared community pool', 'Shared barbecue', 'Air conditioning', 'Wi-Fi', 'Generator', 'Bed, table, bath linens and pool towels', 'Intimate community with preserved landscaping', 'A few steps from the Quadrado'],
+  },
+  staff: {
+    pt: ['Camareira das 8h às 13h'],
+    en: ['Housekeeper from 8am to 1pm'],
+  },
+  features: ['piscina', 'condominio', 'quadrado'],
+  locationDetail: {
+    pt: 'Condomínio Tempo — entrada do Quadrado, Trancoso — Bahia. Condomínio intimista com poucas residências, paisagismo preservado e trilha de acesso à área de lazer comum.',
+    en: 'Condomínio Tempo — at the entrance of the Quadrado, Trancoso — Bahia, Brazil. Intimate community with few residences, preserved landscaping and a trail leading to the common leisure area.',
+  },
+  description: {
+    pt: 'Localizada em uma das regiões mais desejadas de Trancoso, na entrada do Quadrado, a Casa Tempo 04 combina arquitetura contemporânea, conforto e contato com a natureza em um condomínio intimista cercado por vegetação tropical. Com 115 m² distribuídos em dois pavimentos, a casa acomoda até 4 hóspedes em 2 quartos climatizados. No piso superior estão os dormitórios, acompanhados por uma agradável varanda voltada para o verde. No térreo, sala de TV, lavabo e cozinha equipada se integram à área externa através de amplas portas de vidro, proporcionando ambientes arejados e uma conexão natural com o jardim. A decoração mistura elementos de design contemporâneo ao estilo rústico baiano, criando uma atmosfera acolhedora e elegante. O Condomínio Tempo possui poucas residências e paisagismo preservado, com árvores nativas e jardins tropicais; uma pequena trilha entre a vegetação dá acesso à área de lazer comum, com piscina e churrasqueira. A localização é um dos grandes diferenciais: a poucos passos do Quadrado, dá para aproveitar restaurantes, lojas e a vida de Trancoso sem precisar de carro.',
+    en: 'Located in one of the most desirable areas of Trancoso, at the entrance of the Quadrado, Casa Tempo 04 combines contemporary architecture, comfort and contact with nature in an intimate community surrounded by tropical vegetation. With 115 m² over two floors, the house accommodates up to 4 guests in 2 air-conditioned bedrooms. The bedrooms are on the upper floor, along with a pleasant balcony facing the greenery. On the ground floor, the TV room, guest bathroom and equipped kitchen connect to the outdoor area through wide glass doors, providing airy spaces and a natural connection with the garden. The decor blends contemporary design elements with the rustic Bahian style, creating a cozy and elegant atmosphere. Condomínio Tempo has few residences and preserved landscaping, with native trees and tropical gardens; a small trail through the vegetation leads to the common leisure area, with a pool and barbecue. The location is one of the property\'s highlights: a few steps from the Quadrado, allowing guests to enjoy restaurants, shops and Trancoso\'s life without needing a car.',
+  },
+  notes: {
+    pt: ['Quarto 1 (piso superior): 1 cama de casal, ar-condicionado.', 'Quarto 2 (piso superior): 2 camas de solteiro, ar-condicionado.', '1 banheiro + lavabo.', 'Piscina e churrasqueira compartilhadas do condomínio, acessíveis por pequena trilha entre a vegetação.', 'Réveillon e Carnaval: sob consulta.', 'Tarifas e disponibilidade sujeitas à confirmação.'],
+    en: ['Bedroom 1 (upper floor): 1 double bed, air conditioning.', 'Bedroom 2 (upper floor): 2 single beds, air conditioning.', '1 bathroom + guest bathroom.', 'Shared community pool and barbecue, accessible via a small trail through the vegetation.', 'New Year\'s Eve and Carnival: upon request.', 'Rates and availability subject to confirmation.'],
+  },
+};
+
+PROPERTIES.unshift(TEMPO04, COQ04, HELENA, ALTAR, DUE, AZUL, FER, COLINA3, COLINA2, COLINA, ECO01, ECO03, ECO04, VISTA, GOLF95, VILA13, COQUEIRAL01, OKUN, GOLF62, TVB10, MANGABA, GOLF21, GOLF19, GOLF33, GOLF37, GOLF27, TRAMA, TIZZI, LILI, COQUEIRAL02, JV15, JV14, JV13, PEROBA, COQ06, COQUEIRAL7, COQ08, V7, MARTINI, SANTARITA, PATIMIRIM, DAJU, BUENO, BONITA, AREIA, COQUEIRAL13, SUBLIME, ESTRELA, VISTANATIVOS, TERRAL, ITAPO01, ATENA, JACARANDA04, COQUEIRAL14, C20, CASAMARIA, ALMESCLA, CASAMAR, GEIGER, C21, MIA, COQUEIRAL22, MAION, DADINHO, IANDE, MAGIVI, OITI, C23, C24, NAOCA, CASA71, CAJU, SANMARCO, CASA14, CASA09, BOSSA, TUA, IMBIRUCU, CASA42, CASA61, VILAS02, CASA80, ITAPO07, CASA96, CASA90, VILAS75, LIMOEIRO, BIRIBA, VILAMAR, BETTONI, PINI, AUREA, SAOJORGE, CAZA, ITAPO06, ITAPO04, ALEGRIA, PONTA, PG11, PG111, PG104, MANDACARU, PONTARB, FALESIA, RAIZES, PONTABARRA, FASANO10, FASANO16, FASANO17, VILAS26, GOLF58, FLORESTA, VILAS41, VILAS67, BOUTIQUE13, ARACUA, JACARANDA03, TEIU, GOLF25, PG50, CASAEDO, BALEIA, PG55, GOLF72, PITANGA, AFRICA, TEMPO07, TEMPO08, TEMPO06, BOSQUE, PATIO, PG32, PG45, LICURI, DIVINA, TRESMENINAS, COQUEIRAL25, MORENA, MOA, BRAGA, CUMARU, JACARANDA05, TB14, MACONDO, RICK);
 
 // Todas as casas em ordem alfabética (nome em português).
 PROPERTIES.sort((a, b) => a.name.pt.localeCompare(b.name.pt, 'pt-BR', { numeric: true }));
