@@ -138,13 +138,13 @@ const CASA14: Property = {
 };
 
 const CASA09: Property = {
-  id: 'casa-09-itapororoca', code: 'TBA-205', name: { pt: 'Casa 09 Aldeia Itapororoca', en: 'Casa 09 Aldeia Itapororoca' },
+  id: 'casa-09-itapororoca', code: 'TBA-205', name: { pt: 'Casa 9 — Aldeia Itapororoca', en: 'Casa 9 — Aldeia Itapororoca' },
   purpose: ['aluguel'], location: 'Aldeia Itapororoca', suites: 7, guests: 14, baths: 8, area: '550 m²',
   price: { pt: 'R$ 27.500 / diária', en: 'R$ 27,500 / night' },
   priceLow: { pt: 'R$ 19.500 / diária', en: 'R$ 19,500 / night' },
   reveillon: { pt: 'R$ 850.000', en: 'R$ 850,000' },
-  image: '/img/casa09/01.jpg',
-  gallery: ['/img/casa09/01.webp','/img/casa09/02.webp','/img/casa09/03.webp','/img/casa09/04.webp','/img/casa09/05.webp','/img/casa09/06.webp','/img/casa09/07.webp','/img/casa09/08.webp','/img/casa09/09.webp','/img/casa09/10.webp','/img/casa09/11.webp','/img/casa09/12.webp','/img/casa09/13.webp','/img/casa09/14.webp','/img/casa09/15.webp','/img/casa09/16.webp','/img/casa09/17.webp','/img/casa09/18.webp','/img/casa09/19.webp','/img/casa09/20.webp','/img/casa09/21.webp','/img/casa09/22.webp','/img/casa09/23.webp','/img/casa09/24.webp','/img/casa09/25.webp','/img/casa09/26.webp','/img/casa09/27.webp','/img/casa09/28.webp','/img/casa09/29.webp'], featured: false,
+  image: '/img/casa09/28.jpg',
+  gallery: ['/img/casa09/28.webp','/img/casa09/01.webp','/img/casa09/02.webp','/img/casa09/03.webp','/img/casa09/04.webp','/img/casa09/05.webp','/img/casa09/06.webp','/img/casa09/07.webp','/img/casa09/08.webp','/img/casa09/09.webp','/img/casa09/10.webp','/img/casa09/11.webp','/img/casa09/12.webp','/img/casa09/13.webp','/img/casa09/14.webp','/img/casa09/15.webp','/img/casa09/16.webp','/img/casa09/17.webp','/img/casa09/18.webp','/img/casa09/19.webp','/img/casa09/20.webp','/img/casa09/21.webp','/img/casa09/22.webp','/img/casa09/23.webp','/img/casa09/24.webp','/img/casa09/25.webp','/img/casa09/26.webp','/img/casa09/27.webp','/img/casa09/29.webp'], featured: false,
   amenities: {
     pt: ['Piscina com deck', 'Área gourmet com churrasqueira', 'Sala de estar ampla', 'Sala de TV', 'Cozinha completa', 'Lavabo', 'Ar-condicionado nas suítes', 'Ventiladores de teto', 'Wi-Fi', 'Varandas integradas', 'Acesso privativo à Praia de Itapororoca', 'Condomínio fechado com segurança'],
     en: ['Pool with deck', 'Gourmet area with barbecue', 'Spacious living room', 'TV room', 'Full kitchen', 'Guest bathroom', 'Air conditioning in suites', 'Ceiling fans', 'Wi-Fi', 'Integrated verandas', 'Private access to Itapororoca Beach', 'Gated community with security'],
@@ -293,14 +293,14 @@ const CASA80: Property = {
 };
 
 const ITAPO07: Property = {
-  id: 'aldeia-itapororoca-casa-07', code: 'TBA-213', name: { pt: 'Aldeia de Itapororoca — Casa 07', en: 'Aldeia de Itapororoca — Casa 07' },
+  id: 'aldeia-itapororoca-casa-07', code: 'TBA-213', name: { pt: 'Casa 7 — Aldeia Itapororoca', en: 'Casa 7 — Aldeia Itapororoca' },
   purpose: ['aluguel'], location: 'Aldeia Itapororoca', suites: 8, guests: 17, baths: 8, area: 'Praia de Itapororoca',
   price: { pt: 'Sob consulta', en: 'Upon request' },
   priceLow: { pt: 'Sob consulta', en: 'Upon request' },
   carnaval: { pt: 'Sob consulta', en: 'Upon request' },
   reveillon: { pt: 'R$ 605.000', en: 'R$ 605,000' },
-  image: '/img/itapororoca07/01.jpg',
-  gallery: ['/img/itapororoca07/01.webp','/img/itapororoca07/02.webp','/img/itapororoca07/03.webp','/img/itapororoca07/04.webp','/img/itapororoca07/05.webp','/img/itapororoca07/06.webp','/img/itapororoca07/07.webp','/img/itapororoca07/08.webp','/img/itapororoca07/09.webp','/img/itapororoca07/10.webp','/img/itapororoca07/11.webp','/img/itapororoca07/12.webp','/img/itapororoca07/13.webp','/img/itapororoca07/14.webp','/img/itapororoca07/15.webp','/img/itapororoca07/16.webp','/img/itapororoca07/17.webp','/img/itapororoca07/18.webp','/img/itapororoca07/19.webp','/img/itapororoca07/20.webp','/img/itapororoca07/21.webp','/img/itapororoca07/22.webp','/img/itapororoca07/23.webp','/img/itapororoca07/24.webp','/img/itapororoca07/25.webp','/img/itapororoca07/26.webp','/img/itapororoca07/27.webp','/img/itapororoca07/28.webp','/img/itapororoca07/29.webp','/img/itapororoca07/30.webp'], featured: false,
+  image: '/img/itapororoca07/11.jpg',
+  gallery: ['/img/itapororoca07/11.webp','/img/itapororoca07/01.webp','/img/itapororoca07/02.webp','/img/itapororoca07/03.webp','/img/itapororoca07/04.webp','/img/itapororoca07/05.webp','/img/itapororoca07/06.webp','/img/itapororoca07/07.webp','/img/itapororoca07/08.webp','/img/itapororoca07/09.webp','/img/itapororoca07/10.webp','/img/itapororoca07/12.webp','/img/itapororoca07/13.webp','/img/itapororoca07/14.webp','/img/itapororoca07/15.webp','/img/itapororoca07/16.webp','/img/itapororoca07/17.webp','/img/itapororoca07/18.webp','/img/itapororoca07/19.webp','/img/itapororoca07/20.webp','/img/itapororoca07/21.webp','/img/itapororoca07/22.webp','/img/itapororoca07/23.webp','/img/itapororoca07/24.webp','/img/itapororoca07/25.webp','/img/itapororoca07/26.webp','/img/itapororoca07/27.webp','/img/itapororoca07/28.webp','/img/itapororoca07/29.webp','/img/itapororoca07/30.webp'], featured: false,
   amenities: {
     pt: ['Pé na areia na Praia de Itapororoca', 'Piscina com deck de madeira', 'Ofurô', 'Sauna seca', 'Espaço gourmet com churrasqueira e forno a lenha', 'Adega e máquina de gelo', 'Sala de TV ampla', 'Cozinha equipada', 'Ar-condicionado e mosquiteiros nas suítes', 'Carrinho de golfe pick-up', 'Gerador', 'Apoio de praia do condomínio em frente às piscinas naturais'],
     en: ['Beachfront on Itapororoca Beach', 'Pool with wooden deck', 'Hot tub', 'Dry sauna', 'Gourmet area with barbecue and wood-fired oven', 'Wine cellar and ice maker', 'Spacious TV room', 'Equipped kitchen', 'Air conditioning and mosquito nets in suites', 'Pick-up golf cart', 'Generator', 'Condominium beach support facing the natural pools'],
@@ -533,14 +533,14 @@ const CAZA: Property = {
 };
 
 const ITAPO06: Property = {
-  id: 'aldeia-itapororoca-casa-06', code: 'TBA-225', name: { pt: 'Aldeia de Itapororoca — Casa 06', en: 'Aldeia de Itapororoca — Casa 06' },
+  id: 'aldeia-itapororoca-casa-06', code: 'TBA-225', name: { pt: 'Casa 6 — Aldeia Itapororoca', en: 'Casa 6 — Aldeia Itapororoca' },
   purpose: ['aluguel'], location: 'Aldeia Itapororoca', suites: 4, guests: 8, baths: 5, area: 'Pé na areia',
   price: { pt: 'R$ 9.500 / diária', en: 'R$ 9,500 / night' },
   priceLow: { pt: 'R$ 8.000 / diária', en: 'R$ 8,000 / night' },
   carnaval: { pt: 'R$ 60.000', en: 'R$ 60,000' },
   reveillon: { pt: 'R$ 350.000', en: 'R$ 350,000' },
-  image: '/img/itapororoca06/01.jpg',
-  gallery: ['/img/itapororoca06/01.webp','/img/itapororoca06/02.webp','/img/itapororoca06/03.webp','/img/itapororoca06/04.webp','/img/itapororoca06/05.webp','/img/itapororoca06/06.webp','/img/itapororoca06/07.webp','/img/itapororoca06/08.webp','/img/itapororoca06/09.webp','/img/itapororoca06/10.webp','/img/itapororoca06/11.webp','/img/itapororoca06/12.webp','/img/itapororoca06/13.webp','/img/itapororoca06/14.webp','/img/itapororoca06/15.webp','/img/itapororoca06/16.webp','/img/itapororoca06/17.webp','/img/itapororoca06/18.webp','/img/itapororoca06/19.webp','/img/itapororoca06/20.webp','/img/itapororoca06/21.webp','/img/itapororoca06/22.webp','/img/itapororoca06/23.webp','/img/itapororoca06/24.webp','/img/itapororoca06/25.webp','/img/itapororoca06/26.webp','/img/itapororoca06/27.webp','/img/itapororoca06/28.webp','/img/itapororoca06/29.webp','/img/itapororoca06/30.webp'], featured: false,
+  image: '/img/itapororoca06/13.jpg',
+  gallery: ['/img/itapororoca06/13.webp','/img/itapororoca06/01.webp','/img/itapororoca06/02.webp','/img/itapororoca06/03.webp','/img/itapororoca06/04.webp','/img/itapororoca06/05.webp','/img/itapororoca06/06.webp','/img/itapororoca06/07.webp','/img/itapororoca06/08.webp','/img/itapororoca06/09.webp','/img/itapororoca06/10.webp','/img/itapororoca06/11.webp','/img/itapororoca06/12.webp','/img/itapororoca06/14.webp','/img/itapororoca06/15.webp','/img/itapororoca06/16.webp','/img/itapororoca06/17.webp','/img/itapororoca06/18.webp','/img/itapororoca06/19.webp','/img/itapororoca06/20.webp','/img/itapororoca06/21.webp','/img/itapororoca06/22.webp','/img/itapororoca06/23.webp','/img/itapororoca06/24.webp','/img/itapororoca06/25.webp','/img/itapororoca06/26.webp','/img/itapororoca06/27.webp','/img/itapororoca06/28.webp','/img/itapororoca06/29.webp','/img/itapororoca06/30.webp'], featured: false,
   amenities: {
     pt: ['Pé na areia na Praia de Itapororoca', 'Piscina com deck de madeira', 'Banheira de hidromassagem', 'Varanda com redes', 'Espaço gourmet', 'Sala de estar e jantar', 'Cozinha equipada', 'Jardim tropical', 'TV a cabo e ventiladores de teto', 'Toalhas de praia', 'Feriados: R$ 9.500/diária'],
     en: ['Beachfront on Itapororoca Beach', 'Pool with wooden deck', 'Hot tub', 'Veranda with hammocks', 'Gourmet area', 'Living and dining rooms', 'Equipped kitchen', 'Tropical garden', 'Cable TV and ceiling fans', 'Beach towels', 'Holidays: R$ 9,500/night'],
@@ -553,7 +553,7 @@ const ITAPO06: Property = {
 };
 
 const ITAPO04: Property = {
-  id: 'aldeia-itapororoca-casa-04', code: 'TBA-226', name: { pt: 'Aldeia de Itapororoca — Casa 04', en: 'Aldeia de Itapororoca — Casa 04' },
+  id: 'aldeia-itapororoca-casa-04', code: 'TBA-226', name: { pt: 'Casa 4 — Aldeia Itapororoca', en: 'Casa 4 — Aldeia Itapororoca' },
   purpose: ['aluguel'], location: 'Aldeia Itapororoca', suites: 6, guests: 14, baths: 7, area: '700 m² · terreno 2.000 m²',
   price: { pt: 'R$ 17.500 / diária', en: 'R$ 17,500 / night' },
   priceLow: { pt: 'R$ 14.500 / diária', en: 'R$ 14,500 / night' },
@@ -1203,7 +1203,7 @@ const GOLF72: Property = {
 
 const PITANGA: Property = {
   id: 'casa-pitanga', code: 'TBA-255', name: { pt: 'Casa Pitanga', en: 'Casa Pitanga' },
-  purpose: ['aluguel'], location: 'Trancoso', suites: 3, guests: 6, baths: 3, area: '—',
+  purpose: ['aluguel'], location: 'Centro', suites: 3, guests: 6, baths: 3, area: '—',
   price: { pt: 'R$ 2.500 / diária', en: 'R$ 2,500 / night' },
   priceLow: { pt: 'R$ 2.500 / diária', en: 'R$ 2,500 / night' },
   carnaval: { pt: 'Sob consulta', en: 'Upon request' },
@@ -1508,7 +1508,7 @@ const TRESMENINAS: Property = {
 };
 
 const PEROBA: Property = {
-  id: 'casa-peroba', code: 'TBA-267', name: { pt: 'Casa Coqueiral 03', en: 'Casa Coqueiral 03' },
+  id: 'casa-peroba', code: 'TBA-267', name: { pt: 'Casa Coqueiral 3', en: 'Casa Coqueiral 3' },
   purpose: ['aluguel'], location: 'Condomínio Coqueiral', suites: 5, guests: 14, baths: 6, area: 'Sob consulta',
   price: { pt: 'R$ 3.200 / diária', en: 'R$ 3,200 / night' },
   priceLow: { pt: 'R$ 2.500 / diária', en: 'R$ 2,500 / night' },
@@ -1587,8 +1587,8 @@ const BRAGA: Property = {
   carnaval: { pt: 'R$ 40.000', en: 'R$ 40,000' },
   reveillon: { pt: 'R$ 130.000', en: 'R$ 130,000' },
   salePrice: { pt: 'R$ 4.950.000', en: 'R$ 4,950,000' },
-  image: '/img/braga/01.jpg',
-  gallery: ['/img/braga/01.webp','/img/braga/02.webp','/img/braga/03.webp','/img/braga/04.webp','/img/braga/05.webp','/img/braga/06.webp','/img/braga/07.webp','/img/braga/08.webp','/img/braga/09.webp','/img/braga/10.webp','/img/braga/11.webp','/img/braga/12.webp','/img/braga/13.webp','/img/braga/14.webp','/img/braga/15.webp','/img/braga/16.webp','/img/braga/17.webp','/img/braga/18.webp','/img/braga/19.webp','/img/braga/20.webp','/img/braga/21.webp','/img/braga/22.webp','/img/braga/23.webp','/img/braga/24.webp','/img/braga/25.webp','/img/braga/26.webp','/img/braga/27.webp','/img/braga/28.webp','/img/braga/29.webp','/img/braga/30.webp','/img/braga/31.webp','/img/braga/32.webp','/img/braga/33.webp','/img/braga/34.webp','/img/braga/35.webp','/img/braga/36.webp','/img/braga/37.webp','/img/braga/38.webp','/img/braga/39.webp','/img/braga/40.webp','/img/braga/41.webp','/img/braga/42.webp','/img/braga/43.webp','/img/braga/44.webp','/img/braga/45.webp','/img/braga/46.webp'], featured: false,
+  image: '/img/braga/17.jpg',
+  gallery: ['/img/braga/17.webp','/img/braga/02.webp','/img/braga/03.webp','/img/braga/04.webp','/img/braga/05.webp','/img/braga/06.webp','/img/braga/07.webp','/img/braga/08.webp','/img/braga/09.webp','/img/braga/10.webp','/img/braga/11.webp','/img/braga/12.webp','/img/braga/13.webp','/img/braga/14.webp','/img/braga/15.webp','/img/braga/16.webp','/img/braga/18.webp','/img/braga/19.webp','/img/braga/20.webp','/img/braga/21.webp','/img/braga/22.webp','/img/braga/23.webp','/img/braga/01.webp','/img/braga/24.webp','/img/braga/25.webp','/img/braga/26.webp','/img/braga/27.webp','/img/braga/28.webp','/img/braga/29.webp','/img/braga/30.webp','/img/braga/31.webp','/img/braga/32.webp','/img/braga/33.webp','/img/braga/34.webp','/img/braga/35.webp','/img/braga/36.webp','/img/braga/37.webp','/img/braga/38.webp','/img/braga/39.webp','/img/braga/40.webp','/img/braga/41.webp','/img/braga/42.webp','/img/braga/43.webp','/img/braga/44.webp','/img/braga/45.webp','/img/braga/46.webp'], featured: false,
   amenities: {
     pt: ['Piscina privativa', 'Espaço gourmet com churrasqueira', 'Varanda ampla com mesa de refeições e redes', 'Sala de estar, jantar e TV', 'Cozinha equipada', 'Ar-condicionado nos 4 quartos', 'Wi-Fi e TV a cabo', 'Roupas de cama, mesa e banho', 'Lavabo e área de serviço', 'Estacionamento'],
     en: ['Private pool', 'Gourmet area with barbecue', 'Spacious veranda with dining table and hammocks', 'Living, dining and TV rooms', 'Equipped kitchen', 'Air conditioning in the 4 bedrooms', 'Wi-Fi and cable TV', 'Bed, table and bath linen', 'Guest toilet and laundry area', 'Parking'],
@@ -1605,8 +1605,8 @@ const BRAGA: Property = {
 };
 
 const CUMARU: Property = {
-  id: 'casa-cumaru', code: 'TBA-271', name: { pt: 'Casa Cumaru', en: 'Casa Cumaru' },
-  purpose: ['aluguel'], location: 'Bairro Colina', suites: 6, guests: 12, baths: 6, area: '—',
+  id: 'casa-cumaru', code: 'TBA-271', name: { pt: 'Colina — Casa 04', en: 'Colina — Casa 04' },
+  purpose: ['aluguel'], location: 'Colina', suites: 6, guests: 12, baths: 6, area: '—',
   price: { pt: 'R$ 7.000 / diária', en: 'R$ 7,000 / night' },
   priceLow: { pt: 'R$ 5.500 / diária', en: 'R$ 5,500 / night' },
   carnaval: { pt: 'R$ 40.000', en: 'R$ 40,000' },
@@ -2721,7 +2721,7 @@ const C21: Property = {
   features: ['piscina', 'condominio'],
 };
 const C24: Property = {
-  id: 'casa-coqueiral-24', code: 'TBA-321', name: { pt: 'Casa 24 Coqueiral', en: 'Casa 24 Coqueiral' },
+  id: 'casa-coqueiral-24', code: 'TBA-321', name: { pt: 'Casa Coqueiral 24', en: 'Casa Coqueiral 24' },
   purpose: ['aluguel'], location: 'Condomínio Coqueiral', suites: 3, guests: 8, baths: 4, area: '500 m²',
   price: { pt: 'R$ 2.900 / diária', en: 'R$ 2,900 / night' },
   priceLow: { pt: 'R$ 2.900 / diária', en: 'R$ 2,900 / night' },
@@ -2899,7 +2899,7 @@ const TERRAL: Property = {
 };
 
 const ITAPO01: Property = {
-  id: 'casa-01-aldeia-itapororoca', code: 'TBA-308', name: { pt: 'Casa 01 — Aldeia Itapororoca', en: 'Casa 01 — Aldeia Itapororoca' },
+  id: 'casa-01-aldeia-itapororoca', code: 'TBA-308', name: { pt: 'Casa 1 — Aldeia Itapororoca', en: 'Casa 1 — Aldeia Itapororoca' },
   purpose: ['aluguel'], location: 'Aldeia Itapororoca', suites: 7, guests: 16, baths: 8, area: '2.200 m²',
   price: { pt: 'Sob consulta', en: 'Upon request' },
   image: '/img/aldeia-01/01.jpg',
@@ -3346,7 +3346,7 @@ const COLINA3: Property = {
 };
 
 const COQ08: Property = {
-  id: 'casa-coqueiral-08', code: 'TBA-354', name: { pt: 'Casa Coqueiral 08', en: 'Casa Coqueiral 08' },
+  id: 'casa-coqueiral-08', code: 'TBA-354', name: { pt: 'Casa Coqueiral 8', en: 'Casa Coqueiral 8' },
   purpose: ['aluguel'], location: 'Condomínio Coqueiral', suites: 5, guests: 15, baths: 5.5, area: '—',
   price: { pt: 'R$ 3.500 / diária', en: 'R$ 3,500 / night' },
   priceLow: { pt: 'R$ 2.400 / diária', en: 'R$ 2,400 / night' },
@@ -3510,7 +3510,7 @@ const VILA13: Property = {
 };
 
 const COQ06: Property = {
-  id: 'coqueiral-casa-06', code: 'TBA-348', name: { pt: 'Coqueiral — Casa 06', en: 'Coqueiral — Casa 06' },
+  id: 'coqueiral-casa-06', code: 'TBA-348', name: { pt: 'Casa Coqueiral 6', en: 'Casa Coqueiral 6' },
   purpose: ['aluguel'], location: 'Cond. Coqueiral', suites: 7, guests: 20, baths: 7, area: '—',
   price: { pt: 'R$ 4.500 / diária', en: 'R$ 4,500 / night' },
   priceLow: { pt: 'R$ 3.400 / diária', en: 'R$ 3,400 / night' },
@@ -3565,7 +3565,7 @@ const ALTAR: Property = {
 PROPERTIES.unshift(HELENA, ALTAR, DUE, AZUL, FER, COLINA3, COLINA2, COLINA, ECO01, ECO03, ECO04, VISTA, GOLF95, VILA13, COQUEIRAL01, OKUN, GOLF62, TVB10, MANGABA, GOLF21, GOLF19, GOLF33, GOLF37, GOLF27, TRAMA, TIZZI, LILI, COQUEIRAL02, JV15, JV14, JV13, PEROBA, COQ06, COQUEIRAL7, COQ08, V7, MARTINI, SANTARITA, PATIMIRIM, DAJU, BUENO, BONITA, AREIA, COQUEIRAL13, SUBLIME, ESTRELA, VISTANATIVOS, TERRAL, ITAPO01, ATENA, JACARANDA04, COQUEIRAL14, C20, CASAMARIA, ALMESCLA, CASAMAR, GEIGER, C21, MIA, COQUEIRAL22, MAION, DADINHO, IANDE, MAGIVI, OITI, C23, C24, NAOCA, CASA71, CAJU, SANMARCO, CASA14, CASA09, BOSSA, TUA, IMBIRUCU, CASA42, CASA61, VILAS02, CASA80, ITAPO07, CASA96, CASA90, VILAS75, LIMOEIRO, BIRIBA, VILAMAR, BETTONI, PINI, AUREA, SAOJORGE, CAZA, ITAPO06, ITAPO04, ALEGRIA, PONTA, PG11, PG111, PG104, MANDACARU, PONTARB, FALESIA, RAIZES, PONTABARRA, FASANO10, FASANO16, FASANO17, VILAS26, GOLF58, FLORESTA, VILAS41, VILAS67, BOUTIQUE13, ARACUA, JACARANDA03, TEIU, GOLF25, PG50, CASAEDO, BALEIA, PG55, GOLF72, PITANGA, AFRICA, TEMPO07, TEMPO08, TEMPO06, BOSQUE, PATIO, PG32, PG45, LICURI, DIVINA, TRESMENINAS, COQUEIRAL25, MORENA, MOA, BRAGA, CUMARU, JACARANDA05, TB14, MACONDO, RICK);
 
 // Todas as casas em ordem alfabética (nome em português).
-PROPERTIES.sort((a, b) => a.name.pt.localeCompare(b.name.pt, 'pt-BR'));
+PROPERTIES.sort((a, b) => a.name.pt.localeCompare(b.name.pt, 'pt-BR', { numeric: true }));
 
 export const WHATSAPP = '5573999141382';
 
