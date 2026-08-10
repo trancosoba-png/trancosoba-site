@@ -3684,7 +3684,37 @@ const VILAS34: Property = {
   features: ['condominio'],
 };
 
-PROPERTIES.unshift(VILAS34, JUE, TEMPO04, COQ04, HELENA, ALTAR, DUE, AZUL, FER, COLINA3, COLINA2, COLINA, ECO01, ECO03, ECO04, VISTA, GOLF95, VILA13, COQUEIRAL01, OKUN, GOLF62, TVB10, MANGABA, GOLF21, GOLF19, GOLF33, GOLF37, GOLF27, TRAMA, TIZZI, LILI, COQUEIRAL02, JV15, JV14, JV13, PEROBA, COQ06, COQUEIRAL7, COQ08, V7, MARTINI, SANTARITA, PATIMIRIM, DAJU, BUENO, BONITA, AREIA, COQUEIRAL13, SUBLIME, ESTRELA, VISTANATIVOS, TERRAL, ITAPO01, ATENA, JACARANDA04, COQUEIRAL14, C20, CASAMARIA, ALMESCLA, CASAMAR, GEIGER, C21, MIA, COQUEIRAL22, MAION, DADINHO, IANDE, MAGIVI, OITI, C23, C24, NAOCA, CASA71, CAJU, SANMARCO, CASA14, CASA09, BOSSA, TUA, IMBIRUCU, CASA42, CASA61, VILAS02, CASA80, ITAPO07, CASA96, CASA90, VILAS75, LIMOEIRO, BIRIBA, VILAMAR, BETTONI, PINI, AUREA, SAOJORGE, CAZA, ITAPO06, ITAPO04, ALEGRIA, PONTA, PG11, PG111, PG104, MANDACARU, PONTARB, FALESIA, RAIZES, PONTABARRA, FASANO10, FASANO16, FASANO17, VILAS26, GOLF58, FLORESTA, VILAS41, VILAS67, BOUTIQUE13, ARACUA, JACARANDA03, TEIU, GOLF25, PG50, CASAEDO, BALEIA, PG55, GOLF72, PITANGA, AFRICA, TEMPO07, TEMPO08, TEMPO06, BOSQUE, PATIO, PG32, PG45, LICURI, DIVINA, TRESMENINAS, COQUEIRAL25, MORENA, MOA, BRAGA, CUMARU, JACARANDA05, TB14, MACONDO, RICK);
+const NANA: Property = {
+  id: 'casa-nana', code: 'TBA-360', name: { pt: 'Casa Nanã', en: 'Casa Nanã' },
+  purpose: ['aluguel'], location: 'Altos de Trancoso', suites: 6, guests: 12, baths: 6, area: 'Terreno aprox. 5.000 m²',
+  price: { pt: 'R$ 9.900 / diária', en: 'R$ 9,900 / night' },
+  priceLow: { pt: 'R$ 8.800 / diária', en: 'R$ 8,800 / night' },
+  carnaval: { pt: 'R$ 67.760', en: 'R$ 67,760' },
+  reveillon: { pt: 'R$ 400.000', en: 'R$ 400,000' },
+  seasonHigh: { pt: 'Dez, Jan e feriados', en: 'Dec, Jan and holidays' },
+  seasonLow: { pt: 'Mar, Abr, Mai, Jun, Ago, Set, Out e Nov', en: 'Mar, Apr, May, Jun, Aug, Sep, Oct and Nov' },
+  image: '/img/nana/01.jpg',
+  gallery: ['/img/nana/01.webp','/img/nana/02.webp','/img/nana/03.webp','/img/nana/04.webp','/img/nana/05.webp','/img/nana/06.webp','/img/nana/07.webp','/img/nana/08.webp','/img/nana/09.webp','/img/nana/10.webp','/img/nana/11.webp','/img/nana/12.webp','/img/nana/13.webp','/img/nana/14.webp','/img/nana/15.webp','/img/nana/16.webp','/img/nana/17.webp','/img/nana/18.webp','/img/nana/19.webp','/img/nana/20.webp','/img/nana/21.webp','/img/nana/22.webp','/img/nana/23.webp','/img/nana/24.webp','/img/nana/25.webp','/img/nana/26.webp','/img/nana/27.webp','/img/nana/28.webp','/img/nana/29.webp','/img/nana/30.webp','/img/nana/31.webp','/img/nana/32.webp','/img/nana/33.webp','/img/nana/34.webp','/img/nana/35.webp','/img/nana/36.webp','/img/nana/37.webp','/img/nana/38.webp','/img/nana/39.webp','/img/nana/40.webp','/img/nana/41.webp','/img/nana/42.webp','/img/nana/43.webp','/img/nana/44.webp','/img/nana/45.webp'], featured: false,
+  amenities: {
+    pt: ['Piscina', 'Sauna úmida', 'Área gourmet com churrasqueira', 'Bar com cozinha de apoio externa', 'Chuveirão', 'Sala de TV', 'Sala de brinquedos', 'Espaço de jogos', 'Cozinha equipada', 'Máquina de gelo', 'Ar-condicionado', 'Internet Wi-Fi', 'Gerador', 'Amplo jardim tropical', 'Bangalô independente', 'Segurança 24 horas no condomínio'],
+    en: ['Swimming pool', 'Steam sauna', 'Gourmet area with barbecue', 'Bar with outdoor support kitchen', 'Outdoor shower', 'TV room', 'Playroom', 'Games area', 'Equipped kitchen', 'Ice maker', 'Air conditioning', 'Wi-Fi', 'Generator', 'Large tropical garden', 'Independent bungalow', '24-hour security in the condominium'],
+  },
+  staff: {
+    pt: ['Equipe de apoio disponível durante a hospedagem — composição, horários e condições sob consulta'],
+    en: ['Support team available during the stay — team composition, schedules and conditions upon request'],
+  },
+  notes: {
+    pt: ['Suíte 01 (Master, piso superior): 1 cama king, TV e terraço privativo.', 'Suíte 02: 1 cama king.', 'Suíte 03: 2 camas de viúvo.', 'Suíte 04: 2 camas de viúvo.', 'Suíte 05 (bangalô independente): 1 cama king.', 'Suíte 06 (bangalô independente): 1 cama king.', 'Bangalô com terraço compartilhado, duchas internas e externas e pequenos jardins privativos.', 'Tarifas e disponibilidade sujeitas à confirmação.'],
+    en: ['Suite 01 (Master, upper floor): 1 king bed, TV and private terrace.', 'Suite 02: 1 king bed.', 'Suite 03: 2 wide single beds.', 'Suite 04: 2 wide single beds.', 'Suite 05 (independent bungalow): 1 king bed.', 'Suite 06 (independent bungalow): 1 king bed.', 'Bungalow with shared terrace, indoor and outdoor showers and small private gardens.', 'Rates and availability subject to confirmation.'],
+  },
+  description: {
+    pt: 'Em meio à vegetação tropical do exclusivo condomínio Altos de Trancoso, a Casa Nanã combina ambientes amplos, privacidade e uma atmosfera acolhedora que traduz o estilo de viver de Trancoso.\n\nImplantada em um terreno de aproximadamente 5.000 m², a propriedade é cercada por um amplo jardim e possui áreas sociais integradas ao exterior. A piscina se conecta à área de lazer, que conta com sauna úmida, chuveirão, churrasqueira e bar com cozinha de apoio externa.\n\nA residência acomoda até 12 hóspedes em 6 suítes, distribuídas entre a casa principal e um bangalô independente, uma configuração ideal para famílias e grupos que valorizam conforto e privacidade.',
+    en: 'Surrounded by the tropical vegetation of the exclusive Altos de Trancoso condominium, Casa Nanã combines spacious rooms, privacy and a welcoming atmosphere that reflects the Trancoso lifestyle.\n\nSet on a plot of approximately 5,000 m², the property is surrounded by a large garden and has social areas integrated with the outdoors. The pool connects to the leisure area, which features a steam sauna, outdoor shower, barbecue and a bar with an outdoor support kitchen.\n\nThe residence accommodates up to 12 guests in 6 suites, distributed between the main house and an independent bungalow — an ideal configuration for families and groups who value comfort and privacy.',
+  },
+  features: ['piscina', 'condominio'],
+};
+
+PROPERTIES.unshift(NANA, VILAS34, JUE, TEMPO04, COQ04, HELENA, ALTAR, DUE, AZUL, FER, COLINA3, COLINA2, COLINA, ECO01, ECO03, ECO04, VISTA, GOLF95, VILA13, COQUEIRAL01, OKUN, GOLF62, TVB10, MANGABA, GOLF21, GOLF19, GOLF33, GOLF37, GOLF27, TRAMA, TIZZI, LILI, COQUEIRAL02, JV15, JV14, JV13, PEROBA, COQ06, COQUEIRAL7, COQ08, V7, MARTINI, SANTARITA, PATIMIRIM, DAJU, BUENO, BONITA, AREIA, COQUEIRAL13, SUBLIME, ESTRELA, VISTANATIVOS, TERRAL, ITAPO01, ATENA, JACARANDA04, COQUEIRAL14, C20, CASAMARIA, ALMESCLA, CASAMAR, GEIGER, C21, MIA, COQUEIRAL22, MAION, DADINHO, IANDE, MAGIVI, OITI, C23, C24, NAOCA, CASA71, CAJU, SANMARCO, CASA14, CASA09, BOSSA, TUA, IMBIRUCU, CASA42, CASA61, VILAS02, CASA80, ITAPO07, CASA96, CASA90, VILAS75, LIMOEIRO, BIRIBA, VILAMAR, BETTONI, PINI, AUREA, SAOJORGE, CAZA, ITAPO06, ITAPO04, ALEGRIA, PONTA, PG11, PG111, PG104, MANDACARU, PONTARB, FALESIA, RAIZES, PONTABARRA, FASANO10, FASANO16, FASANO17, VILAS26, GOLF58, FLORESTA, VILAS41, VILAS67, BOUTIQUE13, ARACUA, JACARANDA03, TEIU, GOLF25, PG50, CASAEDO, BALEIA, PG55, GOLF72, PITANGA, AFRICA, TEMPO07, TEMPO08, TEMPO06, BOSQUE, PATIO, PG32, PG45, LICURI, DIVINA, TRESMENINAS, COQUEIRAL25, MORENA, MOA, BRAGA, CUMARU, JACARANDA05, TB14, MACONDO, RICK);
 
 // Todas as casas em ordem alfabética (nome em português).
 PROPERTIES.sort((a, b) => a.name.pt.localeCompare(b.name.pt, 'pt-BR', { numeric: true }));
