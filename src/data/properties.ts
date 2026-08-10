@@ -3774,7 +3774,39 @@ const IEMANJA: Property = {
   features: ['piscina', 'condominio'],
 };
 
-PROPERTIES.unshift(IEMANJA, COQ09, NANA, VILAS34, JUE, TEMPO04, COQ04, HELENA, ALTAR, DUE, AZUL, FER, COLINA3, COLINA2, COLINA, ECO01, ECO03, ECO04, VISTA, GOLF95, VILA13, COQUEIRAL01, OKUN, GOLF62, TVB10, MANGABA, GOLF21, GOLF19, GOLF33, GOLF37, GOLF27, TRAMA, TIZZI, LILI, COQUEIRAL02, JV15, JV14, JV13, PEROBA, COQ06, COQUEIRAL7, COQ08, V7, MARTINI, SANTARITA, PATIMIRIM, DAJU, BUENO, BONITA, AREIA, COQUEIRAL13, SUBLIME, ESTRELA, VISTANATIVOS, TERRAL, ITAPO01, ATENA, JACARANDA04, COQUEIRAL14, C20, CASAMARIA, ALMESCLA, CASAMAR, GEIGER, C21, MIA, COQUEIRAL22, MAION, DADINHO, IANDE, MAGIVI, OITI, C23, C24, NAOCA, CASA71, CAJU, SANMARCO, CASA14, CASA09, BOSSA, TUA, IMBIRUCU, CASA42, CASA61, VILAS02, CASA80, ITAPO07, CASA96, CASA90, VILAS75, LIMOEIRO, BIRIBA, VILAMAR, BETTONI, PINI, AUREA, SAOJORGE, CAZA, ITAPO06, ITAPO04, ALEGRIA, PONTA, PG11, PG111, PG104, MANDACARU, PONTARB, FALESIA, RAIZES, PONTABARRA, FASANO10, FASANO16, FASANO17, VILAS26, GOLF58, FLORESTA, VILAS41, VILAS67, BOUTIQUE13, ARACUA, JACARANDA03, TEIU, GOLF25, PG50, CASAEDO, BALEIA, PG55, GOLF72, PITANGA, AFRICA, TEMPO07, TEMPO08, TEMPO06, BOSQUE, PATIO, PG32, PG45, LICURI, DIVINA, TRESMENINAS, COQUEIRAL25, MORENA, MOA, BRAGA, CUMARU, JACARANDA05, TB14, MACONDO, RICK);
+const COQ27: Property = {
+  id: 'coqueiral-27', code: 'TBA-363', name: { pt: 'Coqueiral 27', en: 'Coqueiral 27' },
+  purpose: ['aluguel'], location: 'Condomínio Coqueiral', suites: 5, guests: 12, baths: 5, area: '—',
+  price: { pt: 'Sob consulta', en: 'Upon request' },
+  priceLow: { pt: 'Sob consulta', en: 'Upon request' },
+  carnaval: { pt: 'Sob consulta', en: 'Upon request' },
+  reveillon: { pt: 'Sob consulta', en: 'Upon request' },
+  image: '/img/coq27/01.jpg',
+  gallery: ['/img/coq27/01.webp','/img/coq27/02.webp','/img/coq27/03.webp','/img/coq27/04.webp','/img/coq27/05.webp','/img/coq27/06.webp','/img/coq27/07.webp','/img/coq27/08.webp','/img/coq27/09.webp','/img/coq27/10.webp','/img/coq27/11.webp','/img/coq27/12.webp','/img/coq27/13.webp','/img/coq27/14.webp','/img/coq27/15.webp','/img/coq27/16.webp','/img/coq27/17.webp','/img/coq27/18.webp','/img/coq27/19.webp','/img/coq27/20.webp','/img/coq27/21.webp','/img/coq27/22.webp','/img/coq27/23.webp','/img/coq27/24.webp','/img/coq27/25.webp','/img/coq27/26.webp','/img/coq27/27.webp','/img/coq27/28.webp','/img/coq27/29.webp','/img/coq27/30.webp','/img/coq27/31.webp','/img/coq27/32.webp','/img/coq27/33.webp','/img/coq27/34.webp','/img/coq27/35.webp','/img/coq27/36.webp','/img/coq27/37.webp','/img/coq27/38.webp','/img/coq27/39.webp','/img/coq27/40.webp','/img/coq27/41.webp','/img/coq27/42.webp','/img/coq27/43.webp','/img/coq27/44.webp','/img/coq27/45.webp'], featured: false,
+  amenities: {
+    pt: ['5 suítes climatizadas', '2 suítes com hidromassagem', 'Piscina', 'Jardim', 'Área gourmet completa', 'Churrasqueira', 'Sala de estar', 'Sala de TV', 'Sala de jantar', 'Cozinha equipada', 'Parquinho infantil', 'Canto de leitura', 'Garagem', 'Internet Wi-Fi'],
+    en: ['5 air-conditioned suites', '2 suites with hot tub', 'Swimming pool', 'Garden', 'Full gourmet area', 'Barbecue', 'Living room', 'TV room', 'Dining room', 'Equipped kitchen', 'Children\'s playground', 'Reading corner', 'Garage', 'Wi-Fi'],
+  },
+  staff: {
+    pt: ['1 arrumadeira', '1 jardineiro', '1 piscineiro'],
+    en: ['1 housekeeper', '1 gardener', '1 pool attendant'],
+  },
+  notes: {
+    pt: ['5 suítes climatizadas, sendo 2 com hidromassagem — 8 camas no total.', 'Tarifas e disponibilidade sujeitas à confirmação.'],
+    en: ['5 air-conditioned suites, 2 of them with hot tub — 8 beds in total.', 'Rates and availability subject to confirmation.'],
+  },
+  description: {
+    pt: 'Localizada no Condomínio Coqueiral, em Trancoso, a Casa Coqueiral 27 combina o charme da arquitetura local com ambientes acolhedores e uma agradável área de lazer. Cercada por verde e com espaços pensados para aproveitar os dias com tranquilidade, é uma excelente opção para famílias e grupos de amigos.\n\nA casa dispõe de 5 suítes, todas climatizadas, sendo 2 suítes com hidromassagem, e acomoda confortavelmente até 12 hóspedes.\n\nOs ambientes sociais são amplos e bem distribuídos, com sala de estar, sala de TV e sala de jantar, além de cozinha totalmente equipada. Na área externa, o espaço gourmet com churrasqueira se integra ao jardim e à piscina, criando um ambiente perfeito para reunir os hóspedes ao longo do dia.\n\nA propriedade conta ainda com parquinho infantil, canto de leitura e garagem.',
+    en: 'Located in the Coqueiral Condominium in Trancoso, Casa Coqueiral 27 combines the charm of local architecture with cozy rooms and a pleasant leisure area. Surrounded by greenery and with spaces designed to enjoy the days in tranquility, it is an excellent option for families and groups of friends.\n\nThe house has 5 suites, all air-conditioned, 2 of them with hot tub, and comfortably accommodates up to 12 guests.\n\nThe social areas are spacious and well distributed, with a living room, TV room and dining room, as well as a fully equipped kitchen. Outside, the gourmet area with barbecue integrates with the garden and the pool, creating a perfect setting to bring guests together throughout the day.\n\nThe property also features a children\'s playground, a reading corner and a garage.',
+  },
+  locationDetail: {
+    pt: 'Condomínio Coqueiral — aproximadamente 10 minutos do Quadrado e 15 minutos das praias.',
+    en: 'Coqueiral Condominium — approximately 10 minutes from the Quadrado and 15 minutes from the beaches.',
+  },
+  features: ['piscina', 'condominio'],
+};
+
+PROPERTIES.unshift(COQ27, IEMANJA, COQ09, NANA, VILAS34, JUE, TEMPO04, COQ04, HELENA, ALTAR, DUE, AZUL, FER, COLINA3, COLINA2, COLINA, ECO01, ECO03, ECO04, VISTA, GOLF95, VILA13, COQUEIRAL01, OKUN, GOLF62, TVB10, MANGABA, GOLF21, GOLF19, GOLF33, GOLF37, GOLF27, TRAMA, TIZZI, LILI, COQUEIRAL02, JV15, JV14, JV13, PEROBA, COQ06, COQUEIRAL7, COQ08, V7, MARTINI, SANTARITA, PATIMIRIM, DAJU, BUENO, BONITA, AREIA, COQUEIRAL13, SUBLIME, ESTRELA, VISTANATIVOS, TERRAL, ITAPO01, ATENA, JACARANDA04, COQUEIRAL14, C20, CASAMARIA, ALMESCLA, CASAMAR, GEIGER, C21, MIA, COQUEIRAL22, MAION, DADINHO, IANDE, MAGIVI, OITI, C23, C24, NAOCA, CASA71, CAJU, SANMARCO, CASA14, CASA09, BOSSA, TUA, IMBIRUCU, CASA42, CASA61, VILAS02, CASA80, ITAPO07, CASA96, CASA90, VILAS75, LIMOEIRO, BIRIBA, VILAMAR, BETTONI, PINI, AUREA, SAOJORGE, CAZA, ITAPO06, ITAPO04, ALEGRIA, PONTA, PG11, PG111, PG104, MANDACARU, PONTARB, FALESIA, RAIZES, PONTABARRA, FASANO10, FASANO16, FASANO17, VILAS26, GOLF58, FLORESTA, VILAS41, VILAS67, BOUTIQUE13, ARACUA, JACARANDA03, TEIU, GOLF25, PG50, CASAEDO, BALEIA, PG55, GOLF72, PITANGA, AFRICA, TEMPO07, TEMPO08, TEMPO06, BOSQUE, PATIO, PG32, PG45, LICURI, DIVINA, TRESMENINAS, COQUEIRAL25, MORENA, MOA, BRAGA, CUMARU, JACARANDA05, TB14, MACONDO, RICK);
 
 // Todas as casas em ordem alfabética (nome em português).
 PROPERTIES.sort((a, b) => a.name.pt.localeCompare(b.name.pt, 'pt-BR', { numeric: true }));
