@@ -3834,6 +3834,7 @@ const COQ10: Property = {
   features: ['piscina', 'condominio'],
 };
 
+// Villa W — Altos de Itapororoca (cadastrada em ago/2026)
 const VILLAW: Property = {
   id: 'villa-w-altos-de-itapororoca', code: 'TBA-365', name: { pt: 'Villa W', en: 'Villa W' },
   purpose: ['aluguel'], location: 'Altos de Itapororoca', suites: 9, guests: 18, baths: 9, area: '—',
