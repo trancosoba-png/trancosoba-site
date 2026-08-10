@@ -3714,7 +3714,35 @@ const NANA: Property = {
   features: ['piscina', 'condominio'],
 };
 
-PROPERTIES.unshift(NANA, VILAS34, JUE, TEMPO04, COQ04, HELENA, ALTAR, DUE, AZUL, FER, COLINA3, COLINA2, COLINA, ECO01, ECO03, ECO04, VISTA, GOLF95, VILA13, COQUEIRAL01, OKUN, GOLF62, TVB10, MANGABA, GOLF21, GOLF19, GOLF33, GOLF37, GOLF27, TRAMA, TIZZI, LILI, COQUEIRAL02, JV15, JV14, JV13, PEROBA, COQ06, COQUEIRAL7, COQ08, V7, MARTINI, SANTARITA, PATIMIRIM, DAJU, BUENO, BONITA, AREIA, COQUEIRAL13, SUBLIME, ESTRELA, VISTANATIVOS, TERRAL, ITAPO01, ATENA, JACARANDA04, COQUEIRAL14, C20, CASAMARIA, ALMESCLA, CASAMAR, GEIGER, C21, MIA, COQUEIRAL22, MAION, DADINHO, IANDE, MAGIVI, OITI, C23, C24, NAOCA, CASA71, CAJU, SANMARCO, CASA14, CASA09, BOSSA, TUA, IMBIRUCU, CASA42, CASA61, VILAS02, CASA80, ITAPO07, CASA96, CASA90, VILAS75, LIMOEIRO, BIRIBA, VILAMAR, BETTONI, PINI, AUREA, SAOJORGE, CAZA, ITAPO06, ITAPO04, ALEGRIA, PONTA, PG11, PG111, PG104, MANDACARU, PONTARB, FALESIA, RAIZES, PONTABARRA, FASANO10, FASANO16, FASANO17, VILAS26, GOLF58, FLORESTA, VILAS41, VILAS67, BOUTIQUE13, ARACUA, JACARANDA03, TEIU, GOLF25, PG50, CASAEDO, BALEIA, PG55, GOLF72, PITANGA, AFRICA, TEMPO07, TEMPO08, TEMPO06, BOSQUE, PATIO, PG32, PG45, LICURI, DIVINA, TRESMENINAS, COQUEIRAL25, MORENA, MOA, BRAGA, CUMARU, JACARANDA05, TB14, MACONDO, RICK);
+const COQ09: Property = {
+  id: 'coqueiral-09', code: 'TBA-361', name: { pt: 'Coqueiral 09', en: 'Coqueiral 09' },
+  purpose: ['aluguel'], location: 'Condomínio Coqueiral', suites: 5, guests: 16, baths: 6, area: '300 m²',
+  price: { pt: 'Sob consulta', en: 'Upon request' },
+  priceLow: { pt: 'R$ 2.500 / diária', en: 'R$ 2,500 / night' },
+  carnaval: { pt: 'Sob consulta', en: 'Upon request' },
+  reveillon: { pt: 'Sob consulta', en: 'Upon request' },
+  image: '/img/coq09/01.jpg',
+  gallery: ['/img/coq09/01.webp','/img/coq09/02.webp','/img/coq09/03.webp','/img/coq09/04.webp','/img/coq09/05.webp','/img/coq09/06.webp','/img/coq09/07.webp','/img/coq09/08.webp','/img/coq09/09.webp','/img/coq09/10.webp','/img/coq09/11.webp','/img/coq09/12.webp','/img/coq09/13.webp','/img/coq09/14.webp','/img/coq09/15.webp','/img/coq09/16.webp','/img/coq09/17.webp'], featured: false,
+  amenities: {
+    pt: ['Piscina privativa', 'Área gourmet', 'Churrasqueira', 'Varanda', 'Rede', 'Sala de TV', 'Cozinha completa', 'Ar-condicionado', 'Internet Wi-Fi', 'Jardim', 'Estacionamento para até 3 veículos', 'Condomínio com portaria e segurança 24 horas'],
+    en: ['Private pool', 'Gourmet area', 'Barbecue', 'Veranda', 'Hammock', 'TV room', 'Full kitchen', 'Air conditioning', 'Wi-Fi', 'Garden', 'Parking for up to 3 vehicles', 'Condominium with gatehouse and 24-hour security'],
+  },
+  staff: {
+    pt: ['Camareira', 'Piscineiro', 'Manutenção do jardim'],
+    en: ['Housekeeper', 'Pool attendant', 'Garden maintenance'],
+  },
+  notes: {
+    pt: ['Quarto 01: 1 cama queen.', 'Quarto 02: 1 cama queen.', 'Quarto 03: 1 cama de casal.', 'Quarto 04: 2 camas de casal.', 'Quarto 05: 1 cama de casal.', 'Horários e condições dos serviços sujeitos a confirmação.', 'Tarifas e disponibilidade sujeitas à confirmação.'],
+    en: ['Bedroom 01: 1 queen bed.', 'Bedroom 02: 1 queen bed.', 'Bedroom 03: 1 double bed.', 'Bedroom 04: 2 double beds.', 'Bedroom 05: 1 double bed.', 'Service schedules and conditions subject to confirmation.', 'Rates and availability subject to confirmation.'],
+  },
+  description: {
+    pt: 'Localizada no Condomínio Coqueiral, a Coqueiral 09 é uma casa acolhedora, cercada pelo verde e pensada para receber famílias e grupos que buscam conforto, privacidade e praticidade durante a estadia em Trancoso.\n\nCom aproximadamente 300 m² de área construída, a propriedade possui ambientes amplos e integrados, com uma agradável área externa onde a piscina se torna o principal ponto de convivência da casa. O espaço gourmet com churrasqueira complementa a área de lazer e cria um ambiente perfeito para aproveitar os dias em Trancoso.\n\nA residência acomoda até 16 hóspedes em 5 quartos, oferecendo uma configuração versátil para famílias e grupos de amigos.',
+    en: 'Located in the Coqueiral Condominium, Coqueiral 09 is a welcoming house, surrounded by greenery and designed to host families and groups seeking comfort, privacy and convenience during their stay in Trancoso.\n\nWith approximately 300 m² of built area, the property features spacious, integrated rooms and a pleasant outdoor area where the pool becomes the main gathering point of the house. The gourmet space with barbecue completes the leisure area and creates the perfect setting to enjoy the days in Trancoso.\n\nThe residence accommodates up to 16 guests in 5 bedrooms, offering a versatile configuration for families and groups of friends.',
+  },
+  features: ['piscina', 'condominio'],
+};
+
+PROPERTIES.unshift(COQ09, NANA, VILAS34, JUE, TEMPO04, COQ04, HELENA, ALTAR, DUE, AZUL, FER, COLINA3, COLINA2, COLINA, ECO01, ECO03, ECO04, VISTA, GOLF95, VILA13, COQUEIRAL01, OKUN, GOLF62, TVB10, MANGABA, GOLF21, GOLF19, GOLF33, GOLF37, GOLF27, TRAMA, TIZZI, LILI, COQUEIRAL02, JV15, JV14, JV13, PEROBA, COQ06, COQUEIRAL7, COQ08, V7, MARTINI, SANTARITA, PATIMIRIM, DAJU, BUENO, BONITA, AREIA, COQUEIRAL13, SUBLIME, ESTRELA, VISTANATIVOS, TERRAL, ITAPO01, ATENA, JACARANDA04, COQUEIRAL14, C20, CASAMARIA, ALMESCLA, CASAMAR, GEIGER, C21, MIA, COQUEIRAL22, MAION, DADINHO, IANDE, MAGIVI, OITI, C23, C24, NAOCA, CASA71, CAJU, SANMARCO, CASA14, CASA09, BOSSA, TUA, IMBIRUCU, CASA42, CASA61, VILAS02, CASA80, ITAPO07, CASA96, CASA90, VILAS75, LIMOEIRO, BIRIBA, VILAMAR, BETTONI, PINI, AUREA, SAOJORGE, CAZA, ITAPO06, ITAPO04, ALEGRIA, PONTA, PG11, PG111, PG104, MANDACARU, PONTARB, FALESIA, RAIZES, PONTABARRA, FASANO10, FASANO16, FASANO17, VILAS26, GOLF58, FLORESTA, VILAS41, VILAS67, BOUTIQUE13, ARACUA, JACARANDA03, TEIU, GOLF25, PG50, CASAEDO, BALEIA, PG55, GOLF72, PITANGA, AFRICA, TEMPO07, TEMPO08, TEMPO06, BOSQUE, PATIO, PG32, PG45, LICURI, DIVINA, TRESMENINAS, COQUEIRAL25, MORENA, MOA, BRAGA, CUMARU, JACARANDA05, TB14, MACONDO, RICK);
 
 // Todas as casas em ordem alfabética (nome em português).
 PROPERTIES.sort((a, b) => a.name.pt.localeCompare(b.name.pt, 'pt-BR', { numeric: true }));
