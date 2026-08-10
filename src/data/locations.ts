@@ -8,7 +8,7 @@ const GROUPS: [string, (l: string) => boolean][] = [
   ['Terravista Golf', (l) => l.includes('terravista golf')],
   ['Terravista Vilas', (l) => l.includes('terravista vilas')],
   ['Altos Segredos', (l) => l.includes('altos do segredo')],
-  ['Bairro da Colina', (l) => l.includes('bairro colina')],
+  ['Bairro da Colina', (l) => l.includes('colina')],
   ['Bairro João Vieira', (l) => l.includes('joão vieira')],
   ['Cond. Altos de Trancoso', (l) => l.includes('altos de trancoso')],
   ['Cond. Coqueiral', (l) => l.includes('condomínio coqueiral')],
