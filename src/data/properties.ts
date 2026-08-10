@@ -3660,7 +3660,31 @@ const JUE: Property = {
   },
 };
 
-PROPERTIES.unshift(JUE, TEMPO04, COQ04, HELENA, ALTAR, DUE, AZUL, FER, COLINA3, COLINA2, COLINA, ECO01, ECO03, ECO04, VISTA, GOLF95, VILA13, COQUEIRAL01, OKUN, GOLF62, TVB10, MANGABA, GOLF21, GOLF19, GOLF33, GOLF37, GOLF27, TRAMA, TIZZI, LILI, COQUEIRAL02, JV15, JV14, JV13, PEROBA, COQ06, COQUEIRAL7, COQ08, V7, MARTINI, SANTARITA, PATIMIRIM, DAJU, BUENO, BONITA, AREIA, COQUEIRAL13, SUBLIME, ESTRELA, VISTANATIVOS, TERRAL, ITAPO01, ATENA, JACARANDA04, COQUEIRAL14, C20, CASAMARIA, ALMESCLA, CASAMAR, GEIGER, C21, MIA, COQUEIRAL22, MAION, DADINHO, IANDE, MAGIVI, OITI, C23, C24, NAOCA, CASA71, CAJU, SANMARCO, CASA14, CASA09, BOSSA, TUA, IMBIRUCU, CASA42, CASA61, VILAS02, CASA80, ITAPO07, CASA96, CASA90, VILAS75, LIMOEIRO, BIRIBA, VILAMAR, BETTONI, PINI, AUREA, SAOJORGE, CAZA, ITAPO06, ITAPO04, ALEGRIA, PONTA, PG11, PG111, PG104, MANDACARU, PONTARB, FALESIA, RAIZES, PONTABARRA, FASANO10, FASANO16, FASANO17, VILAS26, GOLF58, FLORESTA, VILAS41, VILAS67, BOUTIQUE13, ARACUA, JACARANDA03, TEIU, GOLF25, PG50, CASAEDO, BALEIA, PG55, GOLF72, PITANGA, AFRICA, TEMPO07, TEMPO08, TEMPO06, BOSQUE, PATIO, PG32, PG45, LICURI, DIVINA, TRESMENINAS, COQUEIRAL25, MORENA, MOA, BRAGA, CUMARU, JACARANDA05, TB14, MACONDO, RICK);
+const VILAS34: Property = {
+  id: 'terravista-vilas-34', code: 'TBA-359', name: { pt: 'Terravista Vilas 34', en: 'Terravista Vilas 34' },
+  purpose: ['aluguel'], location: 'Terravista Vilas', suites: 2, guests: 4, baths: 2, area: '—',
+  price: { pt: 'R$ 2.700 / diária', en: 'R$ 2,700 / night' },
+  priceLow: { pt: 'R$ 2.300 / diária', en: 'R$ 2,300 / night' },
+  reveillon: { pt: 'Sob consulta', en: 'Upon request' },
+  carnaval: { pt: 'Sob consulta', en: 'Upon request' },
+  image: '/img/vilas34/01.jpg',
+  gallery: ['/img/vilas34/01.webp','/img/vilas34/02.webp','/img/vilas34/03.webp','/img/vilas34/04.webp','/img/vilas34/05.webp','/img/vilas34/06.webp','/img/vilas34/07.webp','/img/vilas34/08.webp','/img/vilas34/09.webp','/img/vilas34/10.webp','/img/vilas34/11.webp','/img/vilas34/12.webp','/img/vilas34/13.webp'], featured: false,
+  amenities: {
+    pt: ['2 suítes climatizadas', 'Sala de estar e jantar', 'Cozinha equipada', 'Varanda com vista para a mata', 'Internet Wi-Fi', 'Roupa de cama e banho', 'Estacionamento', 'Condomínio fechado cercado pela Mata Atlântica', 'Próxima ao campo de golfe Terravista'],
+    en: ['2 air-conditioned suites', 'Living and dining room', 'Equipped kitchen', 'Veranda overlooking the forest', 'Wi-Fi', 'Bed and bath linen', 'Parking', 'Gated community surrounded by the Atlantic Forest', 'Next to the Terravista golf course'],
+  },
+  notes: {
+    pt: ['Suíte 1: 2 camas de solteiro, ar-condicionado e mosquiteiro.', 'Suíte 2: 1 cama de casal, ar-condicionado e mosquiteiro.', 'Estadia mínima: 4 noites.', 'Tarifas e disponibilidade sujeitas à confirmação.'],
+    en: ['Suite 1: 2 single beds, air conditioning and mosquito net.', 'Suite 2: 1 double bed, air conditioning and mosquito net.', 'Minimum stay: 4 nights.', 'Rates and availability subject to confirmation.'],
+  },
+  description: {
+    pt: 'Localizada no exclusivo Complexo Terravista, em Trancoso, a Terravista Vilas 34 é uma opção charmosa e confortável para casais, famílias pequenas ou grupos de até quatro hóspedes que desejam tranquilidade, segurança e contato com a natureza.\n\nA casa acomoda até 4 hóspedes em 2 suítes, oferecendo ambientes acolhedores, climatizados e integrados à vegetação tropical característica do Terravista.\n\nA área social conta com sala de estar e jantar, cozinha equipada e varanda, proporcionando um ambiente agradável para os momentos de descanso durante a estadia.\n\nOs hóspedes também desfrutam da estrutura do Terravista Vilas, inserido em uma das regiões mais valorizadas de Trancoso, cercada pela Mata Atlântica e próxima ao campo de golfe Terravista.',
+    en: 'Located in the exclusive Terravista Complex in Trancoso, Terravista Vilas 34 is a charming and comfortable option for couples, small families or groups of up to four guests seeking tranquility, security and contact with nature.\n\nThe house accommodates up to 4 guests in 2 suites, offering cozy, air-conditioned spaces integrated with the tropical vegetation characteristic of Terravista.\n\nThe social area includes a living and dining room, an equipped kitchen and a veranda, providing a pleasant setting for relaxing moments during the stay.\n\nGuests also enjoy the Terravista Vilas amenities, set in one of the most valued regions of Trancoso, surrounded by the Atlantic Forest and next to the Terravista golf course.',
+  },
+  features: ['condominio'],
+};
+
+PROPERTIES.unshift(VILAS34, JUE, TEMPO04, COQ04, HELENA, ALTAR, DUE, AZUL, FER, COLINA3, COLINA2, COLINA, ECO01, ECO03, ECO04, VISTA, GOLF95, VILA13, COQUEIRAL01, OKUN, GOLF62, TVB10, MANGABA, GOLF21, GOLF19, GOLF33, GOLF37, GOLF27, TRAMA, TIZZI, LILI, COQUEIRAL02, JV15, JV14, JV13, PEROBA, COQ06, COQUEIRAL7, COQ08, V7, MARTINI, SANTARITA, PATIMIRIM, DAJU, BUENO, BONITA, AREIA, COQUEIRAL13, SUBLIME, ESTRELA, VISTANATIVOS, TERRAL, ITAPO01, ATENA, JACARANDA04, COQUEIRAL14, C20, CASAMARIA, ALMESCLA, CASAMAR, GEIGER, C21, MIA, COQUEIRAL22, MAION, DADINHO, IANDE, MAGIVI, OITI, C23, C24, NAOCA, CASA71, CAJU, SANMARCO, CASA14, CASA09, BOSSA, TUA, IMBIRUCU, CASA42, CASA61, VILAS02, CASA80, ITAPO07, CASA96, CASA90, VILAS75, LIMOEIRO, BIRIBA, VILAMAR, BETTONI, PINI, AUREA, SAOJORGE, CAZA, ITAPO06, ITAPO04, ALEGRIA, PONTA, PG11, PG111, PG104, MANDACARU, PONTARB, FALESIA, RAIZES, PONTABARRA, FASANO10, FASANO16, FASANO17, VILAS26, GOLF58, FLORESTA, VILAS41, VILAS67, BOUTIQUE13, ARACUA, JACARANDA03, TEIU, GOLF25, PG50, CASAEDO, BALEIA, PG55, GOLF72, PITANGA, AFRICA, TEMPO07, TEMPO08, TEMPO06, BOSQUE, PATIO, PG32, PG45, LICURI, DIVINA, TRESMENINAS, COQUEIRAL25, MORENA, MOA, BRAGA, CUMARU, JACARANDA05, TB14, MACONDO, RICK);
 
 // Todas as casas em ordem alfabética (nome em português).
 PROPERTIES.sort((a, b) => a.name.pt.localeCompare(b.name.pt, 'pt-BR', { numeric: true }));
