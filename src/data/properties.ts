@@ -3715,7 +3715,7 @@ const NANA: Property = {
 };
 
 const COQ09: Property = {
-  id: 'coqueiral-09', code: 'TBA-361', name: { pt: 'Coqueiral 09', en: 'Coqueiral 09' },
+  id: 'coqueiral-09', code: 'TBA-361', name: { pt: 'Casa Coqueiral 9', en: 'Casa Coqueiral 9' },
   purpose: ['aluguel'], location: 'Condomínio Coqueiral', suites: 5, guests: 16, baths: 6, area: '300 m²',
   price: { pt: 'Sob consulta', en: 'Upon request' },
   priceLow: { pt: 'R$ 2.500 / diária', en: 'R$ 2,500 / night' },
@@ -3736,8 +3736,8 @@ const COQ09: Property = {
     en: ['Bedroom 01: 1 queen bed.', 'Bedroom 02: 1 queen bed.', 'Bedroom 03: 1 double bed.', 'Bedroom 04: 2 double beds.', 'Bedroom 05: 1 double bed.', 'Service schedules and conditions subject to confirmation.', 'Rates and availability subject to confirmation.'],
   },
   description: {
-    pt: 'Localizada no Condomínio Coqueiral, a Coqueiral 09 é uma casa acolhedora, cercada pelo verde e pensada para receber famílias e grupos que buscam conforto, privacidade e praticidade durante a estadia em Trancoso.\n\nCom aproximadamente 300 m² de área construída, a propriedade possui ambientes amplos e integrados, com uma agradável área externa onde a piscina se torna o principal ponto de convivência da casa. O espaço gourmet com churrasqueira complementa a área de lazer e cria um ambiente perfeito para aproveitar os dias em Trancoso.\n\nA residência acomoda até 16 hóspedes em 5 quartos, oferecendo uma configuração versátil para famílias e grupos de amigos.',
-    en: 'Located in the Coqueiral Condominium, Coqueiral 09 is a welcoming house, surrounded by greenery and designed to host families and groups seeking comfort, privacy and convenience during their stay in Trancoso.\n\nWith approximately 300 m² of built area, the property features spacious, integrated rooms and a pleasant outdoor area where the pool becomes the main gathering point of the house. The gourmet space with barbecue completes the leisure area and creates the perfect setting to enjoy the days in Trancoso.\n\nThe residence accommodates up to 16 guests in 5 bedrooms, offering a versatile configuration for families and groups of friends.',
+    pt: 'Localizada no Condomínio Coqueiral, a Casa Coqueiral 9 é uma casa acolhedora, cercada pelo verde e pensada para receber famílias e grupos que buscam conforto, privacidade e praticidade durante a estadia em Trancoso.\n\nCom aproximadamente 300 m² de área construída, a propriedade possui ambientes amplos e integrados, com uma agradável área externa onde a piscina se torna o principal ponto de convivência da casa. O espaço gourmet com churrasqueira complementa a área de lazer e cria um ambiente perfeito para aproveitar os dias em Trancoso.\n\nA residência acomoda até 16 hóspedes em 5 quartos, oferecendo uma configuração versátil para famílias e grupos de amigos.',
+    en: 'Located in the Coqueiral Condominium, Casa Coqueiral 9 is a welcoming house, surrounded by greenery and designed to host families and groups seeking comfort, privacy and convenience during their stay in Trancoso.\n\nWith approximately 300 m² of built area, the property features spacious, integrated rooms and a pleasant outdoor area where the pool becomes the main gathering point of the house. The gourmet space with barbecue completes the leisure area and creates the perfect setting to enjoy the days in Trancoso.\n\nThe residence accommodates up to 16 guests in 5 bedrooms, offering a versatile configuration for families and groups of friends.',
   },
   features: ['piscina', 'condominio'],
 };
@@ -3775,7 +3775,7 @@ const IEMANJA: Property = {
 };
 
 const COQ27: Property = {
-  id: 'coqueiral-27', code: 'TBA-363', name: { pt: 'Coqueiral 27', en: 'Coqueiral 27' },
+  id: 'coqueiral-27', code: 'TBA-363', name: { pt: 'Casa Coqueiral 27', en: 'Casa Coqueiral 27' },
   purpose: ['aluguel'], location: 'Condomínio Coqueiral', suites: 5, guests: 12, baths: 5, area: '—',
   price: { pt: 'Sob consulta', en: 'Upon request' },
   priceLow: { pt: 'Sob consulta', en: 'Upon request' },
@@ -3807,7 +3807,7 @@ const COQ27: Property = {
 };
 
 const COQ10: Property = {
-  id: 'coqueiral-10', code: 'TBA-364', name: { pt: 'Coqueiral 10', en: 'Coqueiral 10' },
+  id: 'coqueiral-10', code: 'TBA-364', name: { pt: 'Casa Coqueiral 10', en: 'Casa Coqueiral 10' },
   purpose: ['aluguel'], location: 'Condomínio Coqueiral', suites: 6, guests: 18, baths: 6, area: '—',
   price: { pt: 'Sob consulta', en: 'Upon request' },
   priceLow: { pt: 'Sob consulta', en: 'Upon request' },
@@ -3859,7 +3859,37 @@ const VILLAW: Property = {
   features: ['vista-mar', 'piscina', 'condominio'],
 };
 
-PROPERTIES.unshift(VILLAW, COQ10, COQ27, IEMANJA, COQ09, NANA, VILAS34, JUE, TEMPO04, COQ04, HELENA, ALTAR, DUE, AZUL, FER, COLINA3, COLINA2, COLINA, ECO01, ECO03, ECO04, VISTA, GOLF95, VILA13, COQUEIRAL01, OKUN, GOLF62, TVB10, MANGABA, GOLF21, GOLF19, GOLF33, GOLF37, GOLF27, TRAMA, TIZZI, LILI, COQUEIRAL02, JV15, JV14, JV13, PEROBA, COQ06, COQUEIRAL7, COQ08, V7, MARTINI, SANTARITA, PATIMIRIM, DAJU, BUENO, BONITA, AREIA, COQUEIRAL13, SUBLIME, ESTRELA, VISTANATIVOS, TERRAL, ITAPO01, ATENA, JACARANDA04, COQUEIRAL14, C20, CASAMARIA, ALMESCLA, CASAMAR, GEIGER, C21, MIA, COQUEIRAL22, MAION, DADINHO, IANDE, MAGIVI, OITI, C23, C24, NAOCA, CASA71, CAJU, SANMARCO, CASA14, CASA09, BOSSA, TUA, IMBIRUCU, CASA42, CASA61, VILAS02, CASA80, ITAPO07, CASA96, CASA90, VILAS75, LIMOEIRO, BIRIBA, VILAMAR, BETTONI, PINI, AUREA, SAOJORGE, CAZA, ITAPO06, ITAPO04, ALEGRIA, PONTA, PG11, PG111, PG104, MANDACARU, PONTARB, FALESIA, RAIZES, PONTABARRA, FASANO10, FASANO16, FASANO17, VILAS26, GOLF58, FLORESTA, VILAS41, VILAS67, BOUTIQUE13, ARACUA, JACARANDA03, TEIU, GOLF25, PG50, CASAEDO, BALEIA, PG55, GOLF72, PITANGA, AFRICA, TEMPO07, TEMPO08, TEMPO06, BOSQUE, PATIO, PG32, PG45, LICURI, DIVINA, TRESMENINAS, COQUEIRAL25, MORENA, MOA, BRAGA, CUMARU, JACARANDA05, TB14, MACONDO, RICK);
+
+// Casa Coqueiral 11 — Condomínio Coqueiral (cadastrada em ago/2026)
+const COQ11: Property = {
+  id: 'casa-coqueiral-11', code: 'TBA-366', name: { pt: 'Casa Coqueiral 11', en: 'Casa Coqueiral 11' },
+  purpose: ['aluguel'], location: 'Condomínio Coqueiral', suites: 5, guests: 10, baths: 5, area: '—',
+  price: { pt: 'R$ 3.500 / diária', en: 'R$ 3,500 / night' },
+  priceLow: { pt: 'R$ 3.500 / diária', en: 'R$ 3,500 / night' },
+  carnaval: { pt: 'R$ 40.000 / pacote', en: 'R$ 40,000 / package' },
+  reveillon: { pt: 'R$ 150.000 / pacote 10 dias', en: 'R$ 150,000 / 10-day package' },
+  image: '/img/coqueiral11/01.jpg',
+  gallery: ['/img/coqueiral11/01.webp','/img/coqueiral11/02.webp','/img/coqueiral11/03.webp','/img/coqueiral11/04.webp','/img/coqueiral11/05.webp','/img/coqueiral11/06.webp','/img/coqueiral11/07.webp','/img/coqueiral11/08.webp','/img/coqueiral11/09.webp','/img/coqueiral11/10.webp','/img/coqueiral11/11.webp','/img/coqueiral11/12.webp','/img/coqueiral11/13.webp','/img/coqueiral11/14.webp','/img/coqueiral11/15.webp','/img/coqueiral11/16.webp','/img/coqueiral11/17.webp','/img/coqueiral11/18.webp','/img/coqueiral11/19.webp','/img/coqueiral11/20.webp','/img/coqueiral11/21.webp','/img/coqueiral11/22.webp','/img/coqueiral11/23.webp','/img/coqueiral11/24.webp','/img/coqueiral11/25.webp','/img/coqueiral11/26.webp'], featured: false,
+  amenities: {
+    pt: ['5 suítes climatizadas', 'Piscina revestida em pedras vulcânicas', 'Ampla área gourmet', 'Varandas com redes', 'Jardim e paisagismo tropical', 'Sala de estar', 'Cozinha equipada', 'Internet Wi-Fi', 'Ar-condicionado', 'Estacionamento', 'Condomínio fechado', 'Aceita animais de estimação'],
+    en: ['5 air-conditioned suites', 'Pool with volcanic stone finish', 'Large gourmet area', 'Verandas with hammocks', 'Garden and tropical landscaping', 'Living room', 'Equipped kitchen', 'Wi-Fi', 'Air conditioning', 'Parking', 'Gated community', 'Pet friendly'],
+  },
+  notes: {
+    pt: ['5 suítes climatizadas com diferentes configurações de camas, incluindo king, queen e camas de solteiro, com acesso a varandas.', 'Alta temporada e baixa temporada: R$ 3.500 / diária. Carnaval: R$ 40.000 / pacote. Réveillon: R$ 150.000 / pacote de 10 dias.', 'Taxa de serviço: 10%. Tarifas e disponibilidade sujeitas à confirmação.'],
+    en: ['5 air-conditioned suites with different bed layouts, including king, queen and twin beds, with access to verandas.', 'High and low season: R$ 3,500 / night. Carnival: R$ 40,000 / package. New Year\'s: R$ 150,000 / 10-day package.', 'Service fee: 10%. Rates and availability subject to confirmation.'],
+  },
+  description: {
+    pt: 'A Casa Coqueiral 11 é um refúgio charmoso e acolhedor, ideal para quem busca conforto, privacidade e dias tranquilos em meio à natureza. Localizada em condomínio fechado e a aproximadamente 2,5 km do Quadrado, a propriedade combina a atmosfera descontraída do destino com uma estrutura completa para receber famílias e grupos.\n\nA casa dispõe de 5 suítes climatizadas, acomodando confortavelmente até 10 hóspedes. As acomodações contam com diferentes configurações de camas, incluindo king, queen e camas de solteiro, além de acesso a varandas que tornam os ambientes ainda mais agradáveis.\n\nA área externa é um dos destaques da propriedade, com piscina revestida em pedras vulcânicas, integrada ao paisagismo e aos espaços de convivência. A casa também oferece ampla área gourmet, perfeita para reunir família e amigos durante as refeições e aproveitar os dias de descanso.\n\nEntre as comodidades estão ainda Wi-Fi, cozinha equipada, estacionamento, ambientes climatizados e varandas com redes. A propriedade também aceita animais de estimação.',
+    en: 'Casa Coqueiral 11 is a charming and welcoming retreat, ideal for those seeking comfort, privacy and tranquil days surrounded by nature. Located in a gated community approximately 2.5 km from the Quadrado, the property combines the destination\'s relaxed atmosphere with a complete structure to host families and groups.\n\nThe house has 5 air-conditioned suites, comfortably accommodating up to 10 guests. The accommodations feature different bed layouts, including king, queen and twin beds, as well as access to verandas that make the spaces even more pleasant.\n\nThe outdoor area is one of the property\'s highlights, with a volcanic stone pool integrated into the landscaping and the gathering spaces. The house also offers a large gourmet area, perfect for bringing family and friends together during meals and enjoying days of rest.\n\nAmenities also include Wi-Fi, equipped kitchen, parking, air-conditioned rooms and verandas with hammocks. The property is also pet friendly.',
+  },
+  locationDetail: {
+    pt: 'Condomínio Coqueiral — condomínio fechado a aproximadamente 2,5 km do Quadrado Histórico de Trancoso.',
+    en: 'Coqueiral Condominium — gated community approximately 2.5 km from Trancoso\'s Historic Quadrado.',
+  },
+  features: ['piscina', 'condominio'],
+};
+
+PROPERTIES.unshift(COQ11, VILLAW, COQ10, COQ27, IEMANJA, COQ09, NANA, VILAS34, JUE, TEMPO04, COQ04, HELENA, ALTAR, DUE, AZUL, FER, COLINA3, COLINA2, COLINA, ECO01, ECO03, ECO04, VISTA, GOLF95, VILA13, COQUEIRAL01, OKUN, GOLF62, TVB10, MANGABA, GOLF21, GOLF19, GOLF33, GOLF37, GOLF27, TRAMA, TIZZI, LILI, COQUEIRAL02, JV15, JV14, JV13, PEROBA, COQ06, COQUEIRAL7, COQ08, V7, MARTINI, SANTARITA, PATIMIRIM, DAJU, BUENO, BONITA, AREIA, COQUEIRAL13, SUBLIME, ESTRELA, VISTANATIVOS, TERRAL, ITAPO01, ATENA, JACARANDA04, COQUEIRAL14, C20, CASAMARIA, ALMESCLA, CASAMAR, GEIGER, C21, MIA, COQUEIRAL22, MAION, DADINHO, IANDE, MAGIVI, OITI, C23, C24, NAOCA, CASA71, CAJU, SANMARCO, CASA14, CASA09, BOSSA, TUA, IMBIRUCU, CASA42, CASA61, VILAS02, CASA80, ITAPO07, CASA96, CASA90, VILAS75, LIMOEIRO, BIRIBA, VILAMAR, BETTONI, PINI, AUREA, SAOJORGE, CAZA, ITAPO06, ITAPO04, ALEGRIA, PONTA, PG11, PG111, PG104, MANDACARU, PONTARB, FALESIA, RAIZES, PONTABARRA, FASANO10, FASANO16, FASANO17, VILAS26, GOLF58, FLORESTA, VILAS41, VILAS67, BOUTIQUE13, ARACUA, JACARANDA03, TEIU, GOLF25, PG50, CASAEDO, BALEIA, PG55, GOLF72, PITANGA, AFRICA, TEMPO07, TEMPO08, TEMPO06, BOSQUE, PATIO, PG32, PG45, LICURI, DIVINA, TRESMENINAS, COQUEIRAL25, MORENA, MOA, BRAGA, CUMARU, JACARANDA05, TB14, MACONDO, RICK);
 
 // Todas as casas em ordem alfabética (nome em português).
 PROPERTIES.sort((a, b) => a.name.pt.localeCompare(b.name.pt, 'pt-BR', { numeric: true }));
