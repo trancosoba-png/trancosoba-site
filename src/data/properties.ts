@@ -14,6 +14,7 @@ export interface Property {
   area: string;
   price: { pt: string; en: string };
   priceLow?: { pt: string; en: string };
+  holidayPrice?: { pt: string; en: string };
   carnaval?: { pt: string; en: string };
   reveillon?: { pt: string; en: string };
   salePrice?: { pt: string; en: string };
@@ -113,6 +114,7 @@ const FAZENDA29: Property = {
   priceLow: { pt: 'R$ 13.200 / diária', en: 'R$ 13,200 / night' },
   carnaval: { pt: 'R$ 110.000 / pacote', en: 'R$ 110,000 / package' },
   reveillon: { pt: 'R$ 605.000 / pacote', en: 'R$ 605,000 / package' },
+  holidayPrice: { pt: 'R$ 15.200 / diária', en: 'R$ 15,200 / night' },
   image: '/img/fazenda29/01.jpg',
   gallery: ['/img/fazenda29/01.webp','/img/fazenda29/02.webp','/img/fazenda29/03.webp','/img/fazenda29/04.webp','/img/fazenda29/05.webp','/img/fazenda29/06.webp','/img/fazenda29/07.webp','/img/fazenda29/08.webp','/img/fazenda29/09.webp','/img/fazenda29/10.webp','/img/fazenda29/11.webp','/img/fazenda29/12.webp','/img/fazenda29/13.webp','/img/fazenda29/14.webp','/img/fazenda29/15.webp','/img/fazenda29/16.webp','/img/fazenda29/17.webp','/img/fazenda29/18.webp','/img/fazenda29/19.webp','/img/fazenda29/20.webp','/img/fazenda29/21.webp','/img/fazenda29/22.webp','/img/fazenda29/23.webp','/img/fazenda29/24.webp','/img/fazenda29/25.webp','/img/fazenda29/26.webp'], featured: false,
   amenities: {

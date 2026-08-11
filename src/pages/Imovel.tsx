@@ -200,6 +200,12 @@ export default function Imovel() {
                 <span className="font-serif-e uppercase text-base tracking-[1px]">{lang === 'pt' ? 'Baixa Temporada' : 'Low Season'}</span>
                 <span className="font-serif-e text-lg text-right">{lang === 'pt' ? (p.priceLow ?? p.price).pt : usd((p.priceLow ?? p.price).pt, rate)}</span>
               </div>
+              {p.holidayPrice && (
+                <div className="flex items-baseline justify-between gap-4 border-b border-[#b08d57]/40 pb-4 mb-4">
+                  <span className="font-serif-e uppercase text-base tracking-[1px]">{lang === 'pt' ? 'Diária Feriados' : 'Holiday Rate'}</span>
+                  <span className="font-serif-e text-lg text-right">{lang === 'pt' ? p.holidayPrice.pt : usd(p.holidayPrice.pt, rate)}</span>
+                </div>
+              )}
               <div className="flex items-baseline justify-between gap-4 border-b border-[#b08d57]/40 pb-4 mb-4">
                 <span className="font-serif-e uppercase text-base tracking-[1px] leading-snug">Réveillon<br /><span className="text-[12px] text-ivory/70 normal-case tracking-normal">({lang === 'pt' ? 'Pacote 10 diárias' : '10-night package'})</span></span>
                 <span className="font-serif-e text-lg text-right">{p.reveillon ? (lang === 'pt' ? p.reveillon.pt : usd(p.reveillon.pt, rate)) : (lang === 'pt' ? 'Sob consulta' : 'Upon request')}</span>
