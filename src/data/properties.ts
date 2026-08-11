@@ -37,7 +37,7 @@ export interface Property {
   features?: Feature[];
 }
 
-export const GOLF28: Property = {
+const GOLF28: Property = {
   id: 'terravista-golf-28', code: 'TBA-368', name: { pt: 'Terravista 28', en: 'Terravista 28' },
   purpose: ['aluguel', 'venda'], location: 'Terravista Golf', suites: 4, guests: 8, baths: 5, area: '559,94 m²',
   price: { pt: 'Sob consulta', en: 'On request' },
@@ -83,7 +83,7 @@ const TVB12: Property = {
   notes: { pt: ['Suíte 01: cama king size, mosquiteiro, closet e ar-condicionado. Suíte 02: cama de casal conversível em duas de solteiro, 1 cama de solteiro adicional, mosquiteiro, closet e ar-condicionado. Suíte 03: cama de casal conversível em duas de solteiro, 1 cama de solteiro adicional, mosquiteiro e ar-condicionado. Suítes 04 e 05: cama king size, mosquiteiro, closet, frigobar e ar-condicionado. Suíte de apoio disponível como acomodação complementar.', 'Locação mínima: 5 diárias. Pets não são permitidos.', 'Os valores não incluem 10% de taxa de serviço. No Réveillon, taxa de serviço de 5% acrescentada ao valor do pacote.', 'Feriados: R$ 6.600 por diária.'], en: ['Suite 01: king size bed, mosquito net, closet and air conditioning. Suite 02: double bed convertible into two singles, 1 additional single bed, mosquito net, closet and air conditioning. Suite 03: double bed convertible into two singles, 1 additional single bed, mosquito net and air conditioning. Suites 04 and 05: king size bed, mosquito net, closet, minibar and air conditioning. Support suite available as complementary accommodation.', 'Minimum stay: 5 nights. Pets are not allowed.', 'Rates do not include 10% service fee. For New Year\'s, a 5% service fee is added to the package value.', 'Holidays: R$ 6,600 per night.'] },
 };
 
-const PROPERTIES: Property[] = [];
+export const PROPERTIES: Property[] = [];
 
 
 // Casas com cadastro completo validado pelo proprietário
