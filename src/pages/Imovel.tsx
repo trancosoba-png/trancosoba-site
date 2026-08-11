@@ -157,7 +157,7 @@ export default function Imovel() {
               onClick={(e) => e.stopPropagation()} onTouchStart={onTouchStart} onTouchEnd={onTouchEnd}>
               <span className="relative inline-block max-w-full max-h-full">
                 <img src={p.gallery[active]} alt={`${txt(p.name, lang)} — ${active + 1}`}
-                  className="max-w-full max-h-full w-auto h-auto object-contain shadow-2xl" draggable={false} />
+                  className="max-w-full max-h-[68vh] md:max-h-[74vh] w-auto h-auto object-contain shadow-2xl" draggable={false} />
                 <span className="photo-shield" aria-hidden="true" />
               </span>
             </div>
