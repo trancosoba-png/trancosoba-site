@@ -68,7 +68,11 @@ export default function Imovel() {
 
   if (!p) return <Navigate to="/casas" replace />;
 
-  const waMsg = encodeURIComponent(`Olá, tenho interesse no imóvel ${p.name.pt} (${p.code}) — ${p.location}.`);
+  const waMsg = encodeURIComponent(
+    lang === 'pt' ? `Olá! Vi a casa ${p.code} (${p.name.pt}) no site da TrancosoBA e gostaria de saber a disponibilidade.`
+      : lang === 'es' ? `¡Hola! Vi la casa ${p.code} (${p.name.pt}) en el sitio de TrancosoBA y me gustaría saber la disponibilidad.`
+      : `Hello! I saw the house ${p.code} (${p.name.pt}) on the TrancosoBA website and would like to check availability.`
+  );
   const shareUrl = `${window.location.origin}/p/${p.id}`;
   const doShare = async () => {
     const data = { title: `${p.name.pt} — TrancosoBA`, text: `${p.name.pt}: ${p.suites} suítes, até ${p.guests} hóspedes, em ${p.location}, Trancoso.`, url: shareUrl };

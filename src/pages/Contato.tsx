@@ -26,8 +26,8 @@ export default function Contato() {
   };
 
   const channels = [
-    { icon: MessageCircle, label: t.contato.whatsapp, value: '+55 73 99914-1382', href: `https://wa.me/${WHATSAPP}` },
-    { icon: Phone, label: t.contato.phone, value: '+55 73 99914-1382', href: 'tel:+5573999141382' },
+    { icon: MessageCircle, label: t.contato.whatsapp, value: '+55 73 99971-8799', href: `https://wa.me/${WHATSAPP}` },
+    { icon: Phone, label: t.contato.phone, value: '+55 73 99971-8799', href: 'tel:+5573999718799' },
     { icon: Mail, label: t.contato.email, value: 'contato@trancosoba.com.br', href: 'mailto:contato@trancosoba.com.br' },
     { icon: Instagram, label: t.contato.instagram, value: '@trancosoba', href: 'https://instagram.com/trancosoba' },
     { icon: MapPin, label: 'Trancoso', value: t.contato.address, href: 'https://maps.google.com/?q=Quadrado,Trancoso,Bahia' },

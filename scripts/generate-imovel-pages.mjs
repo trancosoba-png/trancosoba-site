@@ -4,17 +4,17 @@
 import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
 import { join } from 'node:path';
 
-const SITE = 'https://www.trancosoba.com';
+const SITE = process.env.SITE_URL || 'https://trancosoba-site-trancoso-ba.vercel.app';
 const root = new URL('..', import.meta.url).pathname;
 const src = readFileSync(join(root, 'src/data/properties.ts'), 'utf8');
 
 const esc = s => s.replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;');
 
-const re = /id: '([^']+)',[\s\S]*?name: \{ pt: '((?:[^'\\]|\\')*)'[\s\S]*?location: '([^']+)', suites: (\d+), guests: (\d+)[\s\S]*?image: '([^']+)'/g;
+const re = /id: '([^']+)',[\s\S]*?name: \{ pt: '((?:[^'\\]|\\.)*)'[\s\S]*?location: '([^']+)',\s*suites: (\d+),\s*guests: (\d+)[\s\S]*?image: '([^']+)'/g;
 let m, count = 0;
 for (m of src.matchAll(re)) {
   const [, id, nameRaw, location, suites, guests, image] = m;
-  const name = nameRaw.replace(/\\'/g, "'");
+  const name = nameRaw.replace(/\\'/g, "'").replace(/\\u([0-9a-fA-F]{4})/g, (_, h) => String.fromCharCode(parseInt(h, 16)));
   const title = `${name} — TrancosoBA`;
   const desc = `${name}: ${suites} suítes, até ${guests} hóspedes, em ${location}, Trancoso. Curadoria TrancosoBA.`;
   const url = `${SITE}/p/${id}`;

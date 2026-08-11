@@ -1,8 +1,9 @@
 import { useEffect, useMemo, useState } from 'react';
 import { useSearchParams } from 'react-router';
 import { Search, SlidersHorizontal, X } from 'lucide-react';
-import { useLang } from '../i18n';
+import { useLang, txt } from '../i18n';
 import { PROPERTIES, dailyPrice, type Feature } from '../data/properties';
+import { COLLECTIONS, collectionById } from '../data/collections';
 import { FILTER_LOCATIONS, canonicalLocation } from '../data/locations';
 import { PageHero } from '../components/Layout';
 import PropertyCard from '../components/PropertyCard';
@@ -21,10 +22,13 @@ export default function Casas() {
   const [feats, setFeats] = useState<Feature[]>([]);
   const [query, setQuery] = useState('');
   const [filtersOpen, setFiltersOpen] = useState(false);
+  const [colId, setColId] = useState(params.get('colecao') ?? '');
+  const activeCollection = collectionById(colId);
 
   const toggleFeat = (f: Feature) => setFeats((fs) => (fs.includes(f) ? fs.filter((x) => x !== f) : [...fs, f]));
 
   const results = useMemo(() => PROPERTIES.filter(p => {
+    if (activeCollection && !activeCollection.match(p)) return false;
     if (purpose && !p.purpose.includes(purpose) && !(purpose === 'venda' && p.salePrice)) return false;
     if (location && canonicalLocation(p.location) !== location) return false;
     if (suites && p.suites < Number(suites)) return false;
@@ -38,11 +42,11 @@ export default function Casas() {
       if (!p.name.pt.toLowerCase().includes(q) && !p.location.toLowerCase().includes(q) && !p.code.toLowerCase().includes(q)) return false;
     }
     return true;
-  }), [purpose, location, suites, guests, priceMin, priceMax, feats, query]);
+  }), [activeCollection, purpose, location, suites, guests, priceMin, priceMax, feats, query]);
 
-  const clear = () => { setPurpose(''); setLocation(''); setSuites(''); setGuests(''); setPriceMin(''); setPriceMax(''); setFeats([]); setQuery(''); };
+  const clear = () => { setPurpose(''); setLocation(''); setSuites(''); setGuests(''); setPriceMin(''); setPriceMax(''); setFeats([]); setQuery(''); setColId(''); };
 
-  const isFiltering = Boolean(purpose || location || suites || guests || priceMin || priceMax || feats.length || query);
+  const isFiltering = Boolean(colId || purpose || location || suites || guests || priceMin || priceMax || feats.length || query);
   const activeCount = (purpose ? 1 : 0) + (location ? 1 : 0) + (suites ? 1 : 0) + (guests ? 1 : 0)
     + (priceMin ? 1 : 0) + (priceMax ? 1 : 0) + feats.length;
   const colecao = results.filter(p => p.featured);
@@ -148,6 +152,20 @@ export default function Casas() {
                 </span>
               )}
             </button>
+          </div>
+
+          {/* Coleções curadas — atalhos editoriais do portfólio */}
+          <div className="flex gap-2.5 overflow-x-auto pb-2 mb-8 [scrollbar-width:none] -mx-5 px-5 md:mx-0 md:px-0 md:flex-wrap">
+            {COLLECTIONS.map((c) => {
+              const active = colId === c.id;
+              return (
+                <button key={c.id} type="button" onClick={() => setColId(active ? '' : c.id)}
+                  aria-pressed={active}
+                  className={`shrink-0 px-4 py-2 text-[12px] uppercase tracking-[0.12em] border transition-colors whitespace-nowrap ${active ? 'bg-green-e text-ivory border-green-e' : 'bg-transparent text-green-e/70 border-green-e/25 hover:border-gold hover:text-green-e'}`}>
+                  {txt(c.title, lang)}
+                </button>
+              );
+            })}
           </div>
 
           <p className="text-sm text-ink/55 mb-8" role="status">

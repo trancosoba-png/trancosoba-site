@@ -4041,7 +4041,7 @@ PROPERTIES.unshift(BUENAVISTA, FAZENDA29, VILAS39, TVB12, GOLF28, COQ12, COQ11, 
 PROPERTIES.sort((a, b) => a.name.pt.localeCompare(b.name.pt, 'pt-BR', { numeric: true }));
 
 
-export const WHATSAPP = '5573999141382';
+export const WHATSAPP = '5573999718799';
 
 // Lista de localizações gerada automaticamente a partir das casas cadastradas.
 // Toda casa nova entra sozinha no filtro — não editar manualmente.

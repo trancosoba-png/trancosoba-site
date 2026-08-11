@@ -1,8 +1,9 @@
 import { useMemo, useState } from 'react';
 import { Link, useNavigate } from 'react-router';
 import { ArrowRight, MessageCircle, ChevronDown } from 'lucide-react';
-import { useLang } from '../i18n';
+import { useLang, txt } from '../i18n';
 import { PROPERTIES, WHATSAPP } from '../data/properties';
+import { COLLECTIONS, collectionCover, collectionProperties } from '../data/collections';
 import { FILTER_LOCATIONS } from '../data/locations';
 import { trackWhatsApp } from '../data/analytics';
 import { Reveal } from '../components/Layout';
@@ -108,6 +109,36 @@ export default function Home() {
               {t.home.introCta} <ArrowRight size={15} />
             </Link>
           </Reveal>
+        </div>
+      </section>
+
+      {/* 2.5 Coleções curadas */}
+      <section className="py-20 md:py-24 bg-ivory">
+        <div className="max-w-7xl mx-auto px-5 md:px-8">
+          <Reveal className="text-center mb-12">
+            <p className="eyebrow text-gold">{t.home.collectionsEyebrow}</p>
+            <h2 className="font-serif-e text-4xl md:text-5xl text-green-e mt-4">{t.home.collectionsTitle}</h2>
+            <p className="mt-3 text-ink/60 font-serif-e italic text-xl">{t.home.collectionsSub}</p>
+          </Reveal>
+          <div className="flex gap-5 overflow-x-auto pb-4 snap-x snap-mandatory [scrollbar-width:none] md:grid md:grid-cols-3 md:gap-8 md:overflow-visible md:pb-0">
+            {COLLECTIONS.map((c) => {
+              const count = collectionProperties(c).length;
+              return (
+                <Link key={c.id} to={`/casas?colecao=${c.id}`}
+                  className="group relative block overflow-hidden shrink-0 w-[78vw] sm:w-[55vw] md:w-auto aspect-[4/3] snap-start shadow-md">
+                  <img src={collectionCover(c)} alt={txt(c.title, lang)} loading="lazy" decoding="async" draggable={false}
+                    onError={(e) => { (e.currentTarget as HTMLImageElement).style.display = 'none'; }}
+                    className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-green-deep/85 via-green-deep/25 to-transparent" />
+                  <div className="absolute inset-x-0 bottom-0 p-6 md:p-7">
+                    <h3 className="font-serif-e text-2xl md:text-[28px] text-ivory leading-tight">{txt(c.title, lang)}</h3>
+                    <p className="text-ivory/80 text-sm mt-1.5 font-light">{txt(c.sub, lang)}</p>
+                    <p className="eyebrow text-gold mt-4">{count} {lang === 'pt' ? (count === 1 ? 'casa' : 'casas') : (count === 1 ? 'house' : 'houses')}</p>
+                  </div>
+                </Link>
+              );
+            })}
+          </div>
         </div>
       </section>
 
