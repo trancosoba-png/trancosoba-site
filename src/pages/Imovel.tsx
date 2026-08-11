@@ -89,7 +89,7 @@ export default function Imovel() {
   return (
     <div className="pt-16 md:pt-20" style={p.id === 'casa-coqueiral-02' ? { backgroundColor: '#F7F3EC', minHeight: '100vh' } : undefined}>
       {/* Galeria protagonista */}
-      <section className="max-w-7xl mx-auto px-5 md:px-8 pt-8" onContextMenu={(e) => e.preventDefault()}>
+      <section id="fotos" className="max-w-7xl mx-auto px-5 md:px-8 pt-8 scroll-mt-24 md:scroll-mt-32" onContextMenu={(e) => e.preventDefault()}>
         <button type="button" onClick={() => { if ((window.history.state?.idx ?? 0) > 0) navigate(-1); else navigate('/casas'); }} className="inline-flex items-center gap-2 text-sm text-green-e/70 hover:text-gold transition-colors mb-6">
           <ArrowLeft size={15} /> {t.imovel.back}
         </button>
@@ -118,6 +118,24 @@ export default function Imovel() {
           ))}
         </div>
       </section>
+
+      {/* Menu fixo de seções */}
+      <nav className="sticky top-16 md:top-20 z-40 bg-ivory/95 backdrop-blur-sm border-b border-green-e/10 mt-10">
+        <div className="max-w-7xl mx-auto px-5 md:px-8 flex items-center gap-7 md:gap-10 overflow-x-auto py-4 [scrollbar-width:none]">
+          {([
+            ['fotos', t.imovel.navPhotos],
+            ['sobre', t.imovel.navAbout],
+            ['especificacoes', t.imovel.navSpecs],
+            ['tarifario', t.imovel.navRates],
+          ] as [string, string][]).map(([anchor, label]) => (
+            <a key={anchor} href={`#${anchor}`}
+              onClick={(e) => { e.preventDefault(); document.getElementById(anchor)?.scrollIntoView({ behavior: 'smooth', block: 'start' }); }}
+              className="eyebrow text-green-e/70 hover:text-gold transition-colors whitespace-nowrap">
+              {label}
+            </a>
+          ))}
+        </div>
+      </nav>
 
       {/* Lightbox premium */}
       {open && (
@@ -165,7 +183,7 @@ export default function Imovel() {
       )}
 
       {/* Dados */}
-      <section className="max-w-7xl mx-auto px-5 md:px-8 py-16 grid lg:grid-cols-3 gap-14">
+      <section id="sobre" className="max-w-7xl mx-auto px-5 md:px-8 py-16 grid lg:grid-cols-3 gap-14 scroll-mt-32 md:scroll-mt-40">
         <div className="lg:col-span-2">
           <Reveal>
             <p className="eyebrow text-gold">{p.location} · {p.code}</p>
@@ -189,7 +207,7 @@ export default function Imovel() {
 
         {/* Card de conversão */}
         <Reveal className="lg:sticky lg:top-28 h-fit">
-          <div className="text-ivory p-6 md:p-8" style={{ backgroundColor: '#182b23' }}>
+          <div id="tarifario" className="text-ivory p-6 md:p-8 scroll-mt-32 md:scroll-mt-40" style={{ backgroundColor: '#182b23' }}>
             <p className="font-serif-e uppercase text-[#b08d57] text-base" style={{ letterSpacing: '3px' }}>{lang === 'pt' ? 'Tarifário' : 'Rates'}</p>
             <div className="mt-5">
               <div className="flex items-baseline justify-between gap-4 border-b border-[#b08d57]/40 pb-4 mb-4">

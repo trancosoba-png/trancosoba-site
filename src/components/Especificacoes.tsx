@@ -2265,7 +2265,7 @@ export default function Especificacoes({ p }: { p: Property }) {
     : null;
 
   return (
-    <section className="mt-12" aria-label={l.title}>
+    <section id="especificacoes" className="mt-12 scroll-mt-32 md:scroll-mt-40" aria-label={l.title}>
       <h2 className="font-serif-e text-3xl md:text-4xl text-green-e text-center">{l.title}</h2>
       {emph ? (
         <div className="mt-2 mb-9" aria-hidden="true" />

@@ -76,6 +76,7 @@ const dict = {
       share: 'Compartilhar', copied: 'Link copiado',
       mapLot: 'Mapa do condomínio Terravista Golf — Lote',
       gallery: 'Galeria', price: 'Investimento',
+      navPhotos: 'Fotos', navAbout: 'Sobre a casa', navSpecs: 'Especificações', navRates: 'Tarifário',
     },
     trancosoPage: {
       title: 'Trancoso', sub: 'A página que vende o lugar.',
@@ -208,6 +209,7 @@ const dict = {
       share: 'Share', copied: 'Link copied',
       mapLot: 'Terravista Golf condominium map — Lot',
       gallery: 'Gallery', price: 'Investment',
+      navPhotos: 'Photos', navAbout: 'About the house', navSpecs: 'Specifications', navRates: 'Rates',
     },
     trancosoPage: {
       title: 'Trancoso', sub: 'The page that sells the place.',
@@ -340,6 +342,7 @@ const dict = {
       share: 'Compartir', copied: 'Enlace copiado',
       mapLot: 'Mapa del condominio Terravista Golf — Lote',
       gallery: 'Galería', price: 'Inversión',
+      navPhotos: 'Fotos', navAbout: 'Sobre la casa', navSpecs: 'Especificaciones', navRates: 'Tarifas',
     },
     trancosoPage: {
       title: 'Trancoso', sub: 'La página que vende el lugar.',
