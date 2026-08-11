@@ -49,6 +49,7 @@ const dict = {
       collection: 'A Coleção', portfolio: 'Portfólio completo',
       priceFrom: 'De R$', priceTo: 'Até R$', seaView: 'Vista para o mar',
       quadrado: 'Quadrado', condominium: 'Condomínio',
+      showResults: 'Ver resultados', closeFilters: 'Fechar filtros',
     },
     fav: {
       title: 'Minhas Favoritas', sub: 'Sua seleção pessoal em Trancoso.',
@@ -179,6 +180,8 @@ const dict = {
       collection: 'The Collection', portfolio: 'Full portfolio',
       priceFrom: 'From R$', priceTo: 'Up to R$', seaView: 'Ocean view',
       quadrado: 'Quadrado', condominium: 'Gated community',
+      textSearch: 'Search by house name or area...',
+      showResults: 'See results', closeFilters: 'Close filters',
     },
     fav: {
       title: 'My Favorites', sub: 'Your personal selection in Trancoso.',
@@ -310,6 +313,7 @@ const dict = {
       collection: 'La Colección', portfolio: 'Portafolio completo',
       priceFrom: 'Desde R$', priceTo: 'Hasta R$', seaView: 'Vista al mar',
       quadrado: 'Quadrado', condominium: 'Condominio',
+      showResults: 'Ver resultados', closeFilters: 'Cerrar filtros',
     },
     fav: {
       title: 'Mis Favoritas', sub: 'Su selección personal en Trancoso.',
