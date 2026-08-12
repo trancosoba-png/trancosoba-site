@@ -4042,6 +4042,7 @@ PROPERTIES.sort((a, b) => a.name.pt.localeCompare(b.name.pt, 'pt-BR', { numeric:
 
 
 export const WHATSAPP = '5573999718799';
+export const WHATSAPP_DISPLAY = '+55 73 99971-8799';
 
 // Lista de localizações gerada automaticamente a partir das casas cadastradas.
 // Toda casa nova entra sozinha no filtro — não editar manualmente.

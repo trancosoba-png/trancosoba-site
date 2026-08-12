@@ -142,7 +142,8 @@ const dict = {
       rights: 'TrancosoBA — Imobiliária boutique em Trancoso, Bahia.',
       legal: 'CNPJ 68.351.727/0001-57 · CRECI BA 37.447',
       privacy: 'Política de Privacidade',
-      nav: 'Navegação', contact: 'Contato',
+      nav: 'Navegação', contact: 'Contato', collections: 'Coleções',
+      disclaimer: 'As fotografias e informações dos imóveis são publicadas com autorização dos proprietários. Valores de diárias e pacotes são de referência e podem sofrer alterações conforme período e disponibilidade.',
     },
   },
   en: {
@@ -278,7 +279,8 @@ const dict = {
       rights: 'TrancosoBA — Boutique real estate in Trancoso, Bahia.',
       legal: 'CNPJ 68.351.727/0001-57 · CRECI BA 37.447',
       privacy: 'Privacy Policy',
-      nav: 'Navigation', contact: 'Contact',
+      nav: 'Navigation', contact: 'Contact', collections: 'Collections',
+      disclaimer: 'Property photos and information are published with the owners\' authorization. Nightly rates and packages are for reference and may change according to period and availability.',
     },
   },
   es: {
@@ -414,7 +416,8 @@ const dict = {
       rights: 'TrancosoBA — Inmobiliaria boutique en Trancoso, Bahía.',
       legal: 'CNPJ 68.351.727/0001-57 · CRECI BA 37.447',
       privacy: 'Política de Privacidad',
-      nav: 'Navegación', contact: 'Contacto',
+      nav: 'Navegación', contact: 'Contacto', collections: 'Colecciones',
+      disclaimer: 'Las fotografías e informaciones de los inmuebles se publican con autorización de los propietarios. Las tarifas y paquetes son de referencia y pueden variar según el período y la disponibilidad.',
     },
   },
 } as const;

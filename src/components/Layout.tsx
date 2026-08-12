@@ -1,8 +1,9 @@
 import { useEffect, useRef, useState, type ReactNode } from 'react';
 import { Link, NavLink, useLocation } from 'react-router';
 import { Menu, X, Search, MessageCircle, Mail, MapPin, Instagram, Heart } from 'lucide-react';
-import { useLang } from '../i18n';
-import { WHATSAPP } from '../data/properties';
+import { useLang, txt } from '../i18n';
+import { WHATSAPP, WHATSAPP_DISPLAY } from '../data/properties';
+import { COLLECTIONS } from '../data/collections';
 import { trackWhatsApp } from '../data/analytics';
 
 export function Reveal({ children, className = '' }: { children: ReactNode; className?: string }) {
@@ -103,12 +104,12 @@ export function Header() {
 }
 
 export function Footer() {
-  const { t } = useLang();
+  const { t, lang } = useLang();
   const divider = 'border-t border-white/[0.12]';
   return (
     <footer className="bg-green-deep text-ivory">
       <div className="max-w-7xl mx-auto px-5 md:px-8 py-[60px]">
-        <div className="grid gap-12 md:grid-cols-[1.2fr_1fr_1fr]">
+        <div className="grid gap-12 md:grid-cols-[1.2fr_1fr_1fr_1fr]">
           {/* Marca */}
           <div>
             <div className="flex items-center gap-3">
@@ -130,12 +131,21 @@ export function Footer() {
               <Link to="/anuncie" className="hover:text-gold transition-colors">{t.anuncie.footer}</Link>
             </div>
           </div>
+          {/* Coleções */}
+          <div>
+            <p className="text-gold uppercase text-[12px] font-medium mb-5" style={{ letterSpacing: '3px' }}>{t.footer.collections}</p>
+            <div className="flex flex-col gap-2.5 text-[15px] text-ivory">
+              {COLLECTIONS.map((c) => (
+                <Link key={c.id} to={`/casas?colecao=${c.id}`} className="hover:text-gold transition-colors">{txt(c.title, lang)}</Link>
+              ))}
+            </div>
+          </div>
           {/* Contato */}
           <div>
             <p className="text-gold uppercase text-[12px] font-medium mb-5" style={{ letterSpacing: '3px' }}>{t.footer.contact}</p>
             <div className="flex flex-col gap-3.5 text-[15px] text-ivory">
               <a href={`https://wa.me/${WHATSAPP}`} target="_blank" rel="noreferrer" className="flex items-center gap-3 hover:text-gold transition-colors" onClick={() => trackWhatsApp('footer')}>
-                <MessageCircle size={18} className="text-gold shrink-0" /> WhatsApp
+                <MessageCircle size={18} className="text-gold shrink-0" /> {WHATSAPP_DISPLAY}
               </a>
               <a href="mailto:contato@trancosoba.com.br" className="flex items-center gap-3 hover:text-gold transition-colors">
                 <Mail size={18} className="text-gold shrink-0" /> contato@trancosoba.com.br
@@ -158,6 +168,7 @@ export function Footer() {
 
         <div className={`${divider} mt-8 pt-7 text-[13px] text-ivory/55 leading-relaxed`}>
           <p>{t.footer.legal}</p>
+          <p className="mt-2 max-w-3xl">{t.footer.disclaimer}</p>
           <p className="mt-1">
             <Link to="/privacidade" className="underline decoration-ivory/30 underline-offset-2 hover:text-gold transition-colors">
               {t.footer.privacy}
