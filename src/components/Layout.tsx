@@ -106,10 +106,11 @@ export function Header() {
 export function Footer() {
   const { t, lang } = useLang();
   const divider = 'border-t border-white/[0.12]';
+  const socialBtn = 'w-10 h-10 rounded-full border border-ivory/25 flex items-center justify-center text-ivory hover:border-gold hover:text-gold transition-colors';
   return (
     <footer className="bg-green-deep text-ivory">
-      <div className="max-w-7xl mx-auto px-5 md:px-8 py-[60px]">
-        <div className="grid gap-12 md:grid-cols-[1.2fr_1fr_1fr_1fr]">
+      <div className="max-w-7xl mx-auto px-5 md:px-8 pt-16 md:pt-20 pb-10">
+        <div className="grid gap-12 md:grid-cols-[1.5fr_1fr_1fr_1.2fr]">
           {/* Marca */}
           <div>
             <div className="flex items-center gap-3">
@@ -117,6 +118,15 @@ export function Footer() {
               <span className="font-serif-e text-4xl md:text-5xl text-ivory">Trancoso<span className="text-gold">BA</span></span>
             </div>
             <p className="mt-4 font-serif-e italic text-xl text-ivory">{t.footer.tagline}</p>
+            <p className="mt-5 text-[13px] text-ivory/55 leading-relaxed max-w-xs">{t.footer.languages}</p>
+            <div className="mt-7 flex items-center gap-3">
+              <a href="https://instagram.com/trancosoba" target="_blank" rel="noreferrer" aria-label="Instagram" className={socialBtn}>
+                <Instagram size={17} />
+              </a>
+              <a href={`https://wa.me/${WHATSAPP}`} target="_blank" rel="noreferrer" aria-label="WhatsApp" className={socialBtn} onClick={() => trackWhatsApp('footer')}>
+                <MessageCircle size={17} />
+              </a>
+            </div>
           </div>
           {/* Navegação */}
           <div>
@@ -150,31 +160,26 @@ export function Footer() {
               <a href="mailto:contato@trancosoba.com.br" className="flex items-center gap-3 hover:text-gold transition-colors">
                 <Mail size={18} className="text-gold shrink-0" /> contato@trancosoba.com.br
               </a>
-              <span className="flex items-center gap-3">
+              <a href="https://maps.google.com/?q=Quadrado,Trancoso,Bahia" target="_blank" rel="noreferrer" className="flex items-center gap-3 hover:text-gold transition-colors">
                 <MapPin size={18} className="text-gold shrink-0" /> Quadrado, Trancoso — Bahia
-              </span>
+              </a>
             </div>
           </div>
         </div>
 
-        <div className={`${divider} mt-12 pt-8`}>
-          <p className="text-gold uppercase text-[12px] font-medium mb-5" style={{ letterSpacing: '3px' }}>Social</p>
-          <div className="flex flex-col sm:flex-row gap-4 sm:gap-8 text-[15px] text-ivory">
-            <a href="https://instagram.com/trancosoba" target="_blank" rel="noreferrer" className="flex items-center gap-3 hover:text-gold transition-colors">
-              <Instagram size={18} className="text-gold shrink-0" /> Instagram
-            </a>
-          </div>
-        </div>
-
-        <div className={`${divider} mt-8 pt-7 text-[13px] text-ivory/55 leading-relaxed`}>
-          <p>{t.footer.legal}</p>
-          <p className="mt-2 max-w-3xl">{t.footer.disclaimer}</p>
-          <p className="mt-1">
-            <Link to="/privacidade" className="underline decoration-ivory/30 underline-offset-2 hover:text-gold transition-colors">
+        <div className={`${divider} mt-14 pt-7`}>
+          <p className="text-[12px] text-ivory/45 leading-relaxed max-w-4xl">{t.footer.disclaimer}</p>
+          <div className="mt-6 flex flex-col md:flex-row md:items-center gap-2.5 md:gap-8 text-[13px] text-ivory/55">
+            <p>© {new Date().getFullYear()} {t.footer.rights}</p>
+            <p>{t.footer.legal}</p>
+            <Link to="/privacidade" className="underline decoration-ivory/30 underline-offset-2 hover:text-gold transition-colors md:ml-auto">
               {t.footer.privacy}
             </Link>
-          </p>
-          <p className="mt-1">© {new Date().getFullYear()} {t.footer.rights}</p>
+            <button type="button" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+              className="text-left md:text-right uppercase text-[12px] tracking-[0.18em] text-ivory/60 hover:text-gold transition-colors">
+              {t.footer.backToTop} ↑
+            </button>
+          </div>
         </div>
       </div>
     </footer>
