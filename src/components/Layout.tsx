@@ -141,7 +141,7 @@ export function Footer() {
         <div className="border-t border-white/[0.12] mt-12 pt-7">
           <p className="text-[13px] text-ivory/60 tracking-wide">{t.footer.legal}</p>
           <div className="mt-5 flex flex-col sm:flex-row items-center justify-center gap-x-8 gap-y-2.5 text-[13px] text-ivory/55">
-            <p>© {new Date().getFullYear()} {t.footer.rights}</p>
+            <p>© {new Date().getFullYear()} TrancosoBA</p>
             <Link to="/privacidade" className="underline decoration-ivory/30 underline-offset-2 hover:text-gold transition-colors">
               {t.footer.privacy}
             </Link>
