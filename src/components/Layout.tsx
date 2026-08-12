@@ -113,10 +113,9 @@ export function Footer() {
           <img src="/logo-igreja-branca.svg" alt="" width="1910" height="1406" className="h-14 md:h-16 w-auto shrink-0" draggable={false} />
           <span className="font-serif-e text-4xl md:text-5xl text-ivory">Trancoso<span className="text-gold">BA</span></span>
         </div>
-        <p className="mt-4 font-serif-e italic text-xl text-ivory/90">{t.footer.tagline}</p>
 
         {/* Contato essencial */}
-        <div className="mt-9 flex flex-col sm:flex-row items-center justify-center gap-x-10 gap-y-4 text-[15px] text-ivory">
+        <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-x-10 gap-y-4 text-[15px] text-ivory">
           <a href={`https://wa.me/${WHATSAPP}`} target="_blank" rel="noreferrer" className="flex items-center gap-2.5 hover:text-gold transition-colors" onClick={() => trackWhatsApp('footer')}>
             <MessageCircle size={17} className="text-gold shrink-0" /> {WHATSAPP_DISPLAY}
           </a>
@@ -141,16 +140,11 @@ export function Footer() {
         {/* Institucional */}
         <div className="border-t border-white/[0.12] mt-12 pt-7">
           <p className="text-[13px] text-ivory/60 tracking-wide">{t.footer.legal}</p>
-          <p className="mt-4 text-[12px] text-ivory/40 leading-relaxed max-w-2xl mx-auto">{t.footer.disclaimer}</p>
-          <div className="mt-6 flex flex-col sm:flex-row items-center justify-center gap-x-8 gap-y-2.5 text-[13px] text-ivory/55">
+          <div className="mt-5 flex flex-col sm:flex-row items-center justify-center gap-x-8 gap-y-2.5 text-[13px] text-ivory/55">
             <p>© {new Date().getFullYear()} {t.footer.rights}</p>
             <Link to="/privacidade" className="underline decoration-ivory/30 underline-offset-2 hover:text-gold transition-colors">
               {t.footer.privacy}
             </Link>
-            <button type="button" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-              className="uppercase text-[12px] tracking-[0.18em] text-ivory/60 hover:text-gold transition-colors">
-              {t.footer.backToTop} ↑
-            </button>
           </div>
         </div>
       </div>
