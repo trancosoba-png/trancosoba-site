@@ -57,14 +57,24 @@ export default function Imovel() {
     return () => { window.removeEventListener('keydown', onKey); document.body.style.overflow = ''; };
   }, [open, prev, next]);
 
-  const onTouchStart = (e: React.TouchEvent) => { touch.current = { x: e.touches[0].clientX, y: e.touches[0].clientY }; };
+  const swiped = useRef(false);
+  const onTouchStart = (e: React.TouchEvent) => {
+    // Ignora gestos iniciados sobre botões (setas, fechar, miniaturas) para não navegar duas vezes
+    if ((e.target as HTMLElement).closest('button')) { touch.current = null; return; }
+    touch.current = { x: e.touches[0].clientX, y: e.touches[0].clientY };
+  };
   const onTouchEnd = (e: React.TouchEvent) => {
     if (!touch.current) return;
     const dx = e.changedTouches[0].clientX - touch.current.x;
     const dy = e.changedTouches[0].clientY - touch.current.y;
     touch.current = null;
-    if (Math.abs(dx) > 40 && Math.abs(dx) > Math.abs(dy) * 1.5) { dx < 0 ? next() : prev(); }
+    if (Math.abs(dx) > 40 && Math.abs(dx) > Math.abs(dy) * 1.5) {
+      swiped.current = true;
+      setTimeout(() => { swiped.current = false; }, 350);
+      dx < 0 ? next() : prev();
+    }
   };
+  const openLightbox = () => { if (!swiped.current) setOpen(true); };
 
   if (!p) return <Navigate to="/casas" replace />;
 
@@ -97,7 +107,7 @@ export default function Imovel() {
         <button type="button" onClick={() => { if ((window.history.state?.idx ?? 0) > 0) navigate(-1); else navigate('/casas'); }} className="inline-flex items-center gap-2 text-sm text-green-e/70 hover:text-gold transition-colors mb-6">
           <ArrowLeft size={15} /> {t.imovel.back}
         </button>
-        <div className="img-zoom overflow-hidden relative cursor-zoom-in select-none group/gal" onTouchStart={onTouchStart} onTouchEnd={onTouchEnd} onClick={() => setOpen(true)}>
+        <div className="img-zoom overflow-hidden relative cursor-zoom-in select-none group/gal" onTouchStart={onTouchStart} onTouchEnd={onTouchEnd} onClick={openLightbox}>
           <img src={p.gallery[active]} alt={`${txt(p.name, lang)} — ${t.imovel.gallery}`} fetchPriority="high" decoding="async" className="w-full aspect-[16/9] object-cover" draggable={false} />
           <span className="photo-shield" aria-hidden="true" />
           <button type="button" onClick={(e) => { e.stopPropagation(); prev(); }} aria-label="Foto anterior"
