@@ -131,6 +131,33 @@ const FAZENDA29: Property = {
   notes: { pt: ['Área construída: 1.213 m². Capacidade para 12 pessoas em 14 camas.', 'Piso superior — Suíte Máster: 01 cama de casal king size, ar-condicionado, secador de cabelo, armário para roupas e varanda com sofás. Suíte 02: 02 camas de solteiro conversíveis em cama de casal, ar-condicionado, secador de cabelo e armário. Suíte 03: 02 camas de solteiro conversíveis em cama de casal, ar-condicionado, secador de cabelo e armário. Piso térreo — Suíte 04: 02 camas de solteiro conversíveis em cama de casal, 02 camas de apoio, ar-condicionado, secador de cabelo e armário. Suíte 05: 02 camas de casal king size, 02 camas de apoio, ar-condicionado, secador de cabelo e armário. Suíte 06: 01 cama de casal king size, 02 camas de apoio, ar-condicionado, secador de cabelo e armário.', 'Locação mínima: 4 diárias. Diária de feriados: R$ 15.200.', 'Não é permitido pet.', 'Preços não incluem 10% de taxa de serviço.'], en: ['Built area: 1,213 m². Sleeps 12 guests in 14 beds.', 'Upper floor — Master Suite: 01 king size double bed, air conditioning, hairdryer, wardrobe and veranda with sofas. Suite 02: 02 single beds convertible to double, air conditioning, hairdryer and wardrobe. Suite 03: 02 single beds convertible to double, air conditioning, hairdryer and wardrobe. Ground floor — Suite 04: 02 single beds convertible to double, 02 extra beds, air conditioning, hairdryer and wardrobe. Suite 05: 02 king size double beds, 02 extra beds, air conditioning, hairdryer and wardrobe. Suite 06: 01 king size double bed, 02 extra beds, air conditioning, hairdryer and wardrobe.', 'Minimum stay: 4 nights. Holiday nightly rate: R$ 15,200.', 'Pets are not allowed.', 'Prices do not include 10% service fee.'] },
 };
 
+const OLAVA: Property = {
+  id: 'casa-dona-olava-quadrado',
+  code: 'TBA-374',
+  name: { pt: 'Casa Dona Olava', en: 'Casa Dona Olava' },
+  purpose: ['aluguel'],
+  location: 'Quadrado',
+  suites: 2,
+  guests: 4,
+  baths: 2,
+  area: '—',
+  price: { pt: 'R$ 3.250 / diária', en: 'R$ 3,250 / night' },
+  priceLow: { pt: 'R$ 2.100 / diária', en: 'R$ 2,100 / night' },
+  carnaval: { pt: 'R$ 21.000', en: 'R$ 21,000' },
+  reveillon: { pt: 'R$ 89.000', en: 'R$ 89,000' },
+  image: '/img/donaolava/01.jpg',
+  gallery: ['/img/donaolava/01.webp', '/img/donaolava/02.webp', '/img/donaolava/03.webp', '/img/donaolava/04.webp', '/img/donaolava/05.webp', '/img/donaolava/06.webp', '/img/donaolava/07.webp', '/img/donaolava/08.webp', '/img/donaolava/09.webp', '/img/donaolava/10.webp', '/img/donaolava/11.webp', '/img/donaolava/12.webp', '/img/donaolava/13.webp', '/img/donaolava/14.webp', '/img/donaolava/15.webp', '/img/donaolava/16.webp'], featured: false,
+  amenities: {
+    pt: ['Localização privilegiada no Quadrado Histórico', 'Vista para o mar e para o Quadrado', 'Ar-condicionado nos quartos', 'Sala de estar com TV', 'Sala de jantar', 'Cozinha completa', 'Wi-Fi', 'Enxoval completo', 'Lavabo', 'Restaurantes e lojas a poucos passos'],
+    en: ['Privileged location in the historic Quadrado', 'Sea and Quadrado views', 'Air conditioning in the bedrooms', 'Living room with TV', 'Dining room', 'Full kitchen', 'Wi-Fi', 'Complete bed and bath linen', 'Guest toilet', 'Restaurants and shops just steps away'],
+  },
+  description: {
+    pt: 'História, autenticidade e o privilégio de viver o coração de Trancoso.\n\nUma casa especial no Quadrado Histórico, com atmosfera acolhedora e uma conexão genuína com a história de Trancoso. A propriedade recebe até 4 hóspedes e combina o charme da arquitetura tradicional com conforto e praticidade.\n\nCom vista para o mar e para o Quadrado, a casa permite viver Trancoso a pé, com restaurantes, lojas e toda a atmosfera do centro histórico logo à porta.',
+    en: 'History, authenticity and the privilege of living in the heart of Trancoso.\n\nA special house in the historic Quadrado, with a welcoming atmosphere and a genuine connection to the history of Trancoso. The property accommodates up to 4 guests and combines the charm of traditional architecture with comfort and practicality.\n\nWith views of the sea and the Quadrado, the house allows you to experience Trancoso on foot, with restaurants, shops and all the atmosphere of the historic center right at your doorstep.',
+  },
+  notes: { pt: ['2 suítes com ar-condicionado. 1 lavabo.', 'Serviços inclusos: concierge e arrumadeira.', 'Carnaval: pacote de 5 diárias. Réveillon: pacote de 10 diárias. Diária de feriados: R$ 3.250.'], en: ['2 suites with air conditioning. 1 guest toilet.', 'Included services: concierge and housekeeper.', 'Carnival: 5-night package. New Year\'s Eve: 10-night package. Holiday nightly rate: R$ 3,250.'] },
+};
+
 const JV12: Property = {
   id: 'casa-12-joao-vieira',
   code: 'TBA-373',
@@ -4062,7 +4089,7 @@ const COQ12: Property = {
   features: ['piscina', 'condominio'],
 };
 
-PROPERTIES.unshift(JV12, BUENAVISTA, FAZENDA29, VILAS39, TVB12, GOLF28, COQ12, COQ11, VILLAW, COQ10, COQ27, IEMANJA, COQ09, NANA, VILAS34, JUE, TEMPO04, COQ04, HELENA, ALTAR, DUE, AZUL, FER, COLINA3, COLINA2, COLINA, ECO01, ECO03, ECO04, VISTA, GOLF95, VILA13, COQUEIRAL01, OKUN, GOLF62, TVB10, MANGABA, GOLF21, GOLF19, GOLF33, GOLF37, GOLF27, TRAMA, TIZZI, LILI, COQUEIRAL02, JV15, JV14, JV13, PEROBA, COQ06, COQUEIRAL7, COQ08, V7, MARTINI, SANTARITA, PATIMIRIM, DAJU, BUENO, BONITA, AREIA, COQUEIRAL13, SUBLIME, ESTRELA, VISTANATIVOS, TERRAL, ITAPO01, ATENA, JACARANDA04, COQUEIRAL14, C20, CASAMARIA, ALMESCLA, CASAMAR, GEIGER, C21, MIA, COQUEIRAL22, MAION, DADINHO, IANDE, MAGIVI, OITI, C23, C24, NAOCA, CASA71, CAJU, SANMARCO, CASA14, CASA09, BOSSA, TUA, IMBIRUCU, CASA42, CASA61, VILAS02, CASA80, ITAPO07, CASA96, CASA90, VILAS75, LIMOEIRO, BIRIBA, VILAMAR, BETTONI, PINI, AUREA, SAOJORGE, CAZA, ITAPO06, ITAPO04, ALEGRIA, PONTA, PG11, PG111, PG104, MANDACARU, PONTARB, FALESIA, RAIZES, PONTABARRA, FASANO10, FASANO16, FASANO17, VILAS26, GOLF58, FLORESTA, VILAS41, VILAS67, BOUTIQUE13, ARACUA, JACARANDA03, TEIU, GOLF25, PG50, CASAEDO, BALEIA, PG55, GOLF72, PITANGA, AFRICA, TEMPO07, TEMPO08, TEMPO06, BOSQUE, PATIO, PG32, PG45, LICURI, DIVINA, TRESMENINAS, COQUEIRAL25, MORENA, MOA, BRAGA, CUMARU, JACARANDA05, TB14, MACONDO, RICK);
+PROPERTIES.unshift(OLAVA, JV12, BUENAVISTA, FAZENDA29, VILAS39, TVB12, GOLF28, COQ12, COQ11, VILLAW, COQ10, COQ27, IEMANJA, COQ09, NANA, VILAS34, JUE, TEMPO04, COQ04, HELENA, ALTAR, DUE, AZUL, FER, COLINA3, COLINA2, COLINA, ECO01, ECO03, ECO04, VISTA, GOLF95, VILA13, COQUEIRAL01, OKUN, GOLF62, TVB10, MANGABA, GOLF21, GOLF19, GOLF33, GOLF37, GOLF27, TRAMA, TIZZI, LILI, COQUEIRAL02, JV15, JV14, JV13, PEROBA, COQ06, COQUEIRAL7, COQ08, V7, MARTINI, SANTARITA, PATIMIRIM, DAJU, BUENO, BONITA, AREIA, COQUEIRAL13, SUBLIME, ESTRELA, VISTANATIVOS, TERRAL, ITAPO01, ATENA, JACARANDA04, COQUEIRAL14, C20, CASAMARIA, ALMESCLA, CASAMAR, GEIGER, C21, MIA, COQUEIRAL22, MAION, DADINHO, IANDE, MAGIVI, OITI, C23, C24, NAOCA, CASA71, CAJU, SANMARCO, CASA14, CASA09, BOSSA, TUA, IMBIRUCU, CASA42, CASA61, VILAS02, CASA80, ITAPO07, CASA96, CASA90, VILAS75, LIMOEIRO, BIRIBA, VILAMAR, BETTONI, PINI, AUREA, SAOJORGE, CAZA, ITAPO06, ITAPO04, ALEGRIA, PONTA, PG11, PG111, PG104, MANDACARU, PONTARB, FALESIA, RAIZES, PONTABARRA, FASANO10, FASANO16, FASANO17, VILAS26, GOLF58, FLORESTA, VILAS41, VILAS67, BOUTIQUE13, ARACUA, JACARANDA03, TEIU, GOLF25, PG50, CASAEDO, BALEIA, PG55, GOLF72, PITANGA, AFRICA, TEMPO07, TEMPO08, TEMPO06, BOSQUE, PATIO, PG32, PG45, LICURI, DIVINA, TRESMENINAS, COQUEIRAL25, MORENA, MOA, BRAGA, CUMARU, JACARANDA05, TB14, MACONDO, RICK);
 
 // Todas as casas em ordem alfabética (nome em português).
 PROPERTIES.sort((a, b) => a.name.pt.localeCompare(b.name.pt, 'pt-BR', { numeric: true }));
