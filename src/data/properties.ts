@@ -3492,7 +3492,7 @@ const AZUL: Property = {
   notes: { pt: ['Diária única de R$ 2.500 na baixa e na alta temporada.', 'Limpeza e arrumação em dias alternados.'], en: ['Single rate of R$ 2,500 per night in low and high season.', 'Cleaning and tidying on alternate days.'] },
 };
 
-const FER: Property = {
+const FER: Property = { // galeria 28 fotos (PDF)
   id: 'casa-do-fer-altos-de-trancoso', code: 'TBA-342', name: { pt: 'Casa do Fer — Altos de Trancoso', en: 'Casa do Fer — Altos de Trancoso' },
   purpose: ['aluguel', 'venda'], location: 'Altos de Trancoso', suites: 7, guests: 14, baths: 7, area: '700 m² · terreno 1.180 m²',
   price: { pt: 'R$ 8.000 / diária', en: 'R$ 8,000 / night' },
