@@ -84,7 +84,7 @@ export default function Home() {
     <>
       {/* 1. Hero */}
       <section className="relative h-screen min-h-[640px] flex flex-col">
-        <video autoPlay muted loop playsInline poster="/img/hero.jpg" aria-label="Praias, falésias e natureza de Trancoso"
+        <video autoPlay muted loop playsInline poster="/img/hero-fallback.jpg" aria-label="Praias, falésias e natureza de Trancoso"
           className="absolute inset-0 w-full h-full object-cover">
           <source src="/img/hero.mp4" type="video/mp4" />
         </video>
