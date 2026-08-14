@@ -3500,7 +3500,7 @@ const FER: Property = {
   reveillon: { pt: 'R$ 350.000 (pacote de 10 noites)', en: 'R$ 350,000 (10-night package)' },
   salePrice: { pt: 'R$ 12.500.000', en: 'R$ 12,500,000' },
   image: '/img/fer/01.jpg',
-  gallery: ['/img/fer/01.webp','/img/fer/02.webp','/img/fer/03.webp','/img/fer/04.webp','/img/fer/05.webp','/img/fer/06.webp','/img/fer/07.webp','/img/fer/08.webp','/img/fer/09.webp','/img/fer/10.webp','/img/fer/11.webp','/img/fer/12.webp','/img/fer/13.webp','/img/fer/14.webp','/img/fer/15.webp','/img/fer/16.webp','/img/fer/17.webp','/img/fer/18.webp','/img/fer/19.webp','/img/fer/20.webp','/img/fer/21.webp','/img/fer/22.webp'], featured: false,
+  gallery: ['/img/fer/01.webp','/img/fer/02.webp','/img/fer/03.webp','/img/fer/04.webp','/img/fer/05.webp','/img/fer/06.webp','/img/fer/07.webp','/img/fer/08.webp','/img/fer/09.webp','/img/fer/10.webp','/img/fer/11.webp','/img/fer/12.webp','/img/fer/13.webp','/img/fer/14.webp','/img/fer/15.webp','/img/fer/16.webp','/img/fer/17.webp','/img/fer/18.webp','/img/fer/19.webp','/img/fer/20.webp','/img/fer/21.webp','/img/fer/22.webp','/img/fer/23.webp','/img/fer/24.webp','/img/fer/25.webp','/img/fer/26.webp','/img/fer/27.webp','/img/fer/28.webp'], featured: false,
   amenities: {
     pt: ['Quadra de beach tennis', 'Piscina privativa', 'Deck', 'Área gourmet', 'Churrasqueira', 'TV a cabo', 'Internet Wi-Fi', 'Área de serviço', 'Estacionamento para 2 carros'],
     en: ['Beach tennis court', 'Private pool', 'Deck', 'Gourmet area', 'Barbecue', 'Cable TV', 'Wi-Fi internet', 'Service area', 'Parking for 2 cars'],
