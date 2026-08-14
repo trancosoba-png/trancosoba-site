@@ -261,7 +261,7 @@ const CASA09: Property = {
   price: { pt: 'R$ 27.500 / diária', en: 'R$ 27,500 / night' },
   priceLow: { pt: 'R$ 19.500 / diária', en: 'R$ 19,500 / night' },
   reveillon: { pt: 'R$ 850.000', en: 'R$ 850,000' },
-  image: '/img/casa09/01.jpg',
+  image: '/img/casa09/04.jpg',
   gallery: ['/img/casa09/01.webp','/img/casa09/02.webp','/img/casa09/04.webp','/img/casa09/05.webp','/img/casa09/07.webp','/img/casa09/09.webp','/img/casa09/10.webp','/img/casa09/12.webp','/img/casa09/15.webp','/img/casa09/16.webp','/img/casa09/17.webp','/img/casa09/19.webp','/img/casa09/21.webp','/img/casa09/22.webp','/img/casa09/23.webp','/img/casa09/25.webp','/img/casa09/26.webp','/img/casa09/28.webp','/img/casa09/30.webp','/img/casa09/32.webp','/img/casa09/34.webp','/img/casa09/36.webp','/img/casa09/38.webp','/img/casa09/40.webp','/img/casa09/42.webp','/img/casa09/43.webp','/img/casa09/45.webp','/img/casa09/47.webp','/img/casa09/48.webp','/img/casa09/51.webp','/img/casa09/53.webp','/img/casa09/54.webp','/img/casa09/55.webp','/img/casa09/57.webp','/img/casa09/59.webp','/img/casa09/60.webp','/img/casa09/62.webp','/img/casa09/64.webp','/img/casa09/66.webp','/img/casa09/68.webp'], featured: false,
   amenities: {
     pt: ['Piscina com deck', 'Área gourmet com churrasqueira', 'Sala de estar ampla', 'Sala de TV', 'Cozinha completa', 'Lavabo', 'Ar-condicionado nas suítes', 'Ventiladores de teto', 'Wi-Fi', 'Varandas integradas', 'Acesso privativo à Praia de Itapororoca', 'Condomínio fechado com segurança'],
