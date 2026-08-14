@@ -775,7 +775,7 @@ const PG104: Property = {
   carnaval: { pt: 'R$ 65.000 (2027)', en: 'R$ 65,000 (2027)' },
   reveillon: { pt: 'R$ 300.000', en: 'R$ 300,000' },
   image: '/img/pg104/01.jpg',
-  gallery: ['/img/pg104/01.webp'], featured: false,
+  gallery: ['/img/pg104/01.webp','/img/pg104/02.webp','/img/pg104/03.webp','/img/pg104/04.webp','/img/pg104/05.webp','/img/pg104/06.webp','/img/pg104/07.webp','/img/pg104/08.webp','/img/pg104/09.webp','/img/pg104/10.webp','/img/pg104/11.webp','/img/pg104/12.webp','/img/pg104/13.webp','/img/pg104/14.webp','/img/pg104/15.webp','/img/pg104/16.webp','/img/pg104/17.webp','/img/pg104/18.webp','/img/pg104/19.webp','/img/pg104/20.webp','/img/pg104/21.webp','/img/pg104/22.webp','/img/pg104/23.webp','/img/pg104/24.webp','/img/pg104/25.webp','/img/pg104/26.webp','/img/pg104/27.webp','/img/pg104/28.webp','/img/pg104/29.webp','/img/pg104/30.webp','/img/pg104/31.webp','/img/pg104/32.webp','/img/pg104/33.webp','/img/pg104/34.webp','/img/pg104/35.webp','/img/pg104/36.webp','/img/pg104/37.webp','/img/pg104/38.webp','/img/pg104/39.webp','/img/pg104/40.webp'], featured: false,
   amenities: {
     pt: ['Vista para o mar', 'Piscina de formato orgânico sobre deck de madeira', 'Pergolado com sofá', 'Amplo gramado', 'Jardim tropical integrado à mata nativa', 'Quadra de tênis', 'Churrasqueira', 'Cozinha totalmente equipada', 'Condomínio com apenas 11 residências', '15 min a pé da Praia do Rio da Barra'],
     en: ['Ocean view', 'Organic-shaped pool over wooden deck', 'Pergola with sofa', 'Large lawn', 'Tropical garden integrated with native forest', 'Tennis court', 'Barbecue', 'Fully equipped kitchen', 'Condominium with only 11 residences', '15 min walk to Rio da Barra Beach'],
