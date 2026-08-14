@@ -63,7 +63,7 @@ const GOLF28: Property = {
 };
 const TVB12: Property = {
   id: 'terravista-boutique-casa-12', code: 'TBA-369', name: { pt: 'Terravista Boutique 12', en: 'Terravista Boutique 12' },
-  purpose: ['/img/mia/01.webp','/img/mia/02.webp','/img/mia/03.webp','/img/mia/04.webp','/img/mia/05.webp','/img/mia/06.webp','/img/mia/07.webp','/img/mia/08.webp','/img/mia/09.webp','/img/mia/10.webp','/img/mia/11.webp','/img/mia/12.webp','/img/mia/13.webp','/img/mia/14.webp','/img/mia/15.webp','/img/mia/16.webp','/img/mia/17.webp','/img/mia/18.webp','/img/mia/19.webp','/img/mia/20.webp','/img/mia/21.webp','/img/mia/22.webp','/img/mia/23.webp','/img/mia/24.webp','/img/mia/25.webp','/img/mia/26.webp','/img/mia/27.webp','/img/mia/28.webp','/img/mia/29.webp','/img/mia/30.webp','/img/mia/31.webp','/img/mia/32.webp','/img/mia/33.webp','/img/mia/34.webp','/img/mia/35.webp','/img/mia/36.webp','/img/mia/37.webp','/img/mia/38.webp'], location: 'Terravista Boutique', suites: 5, guests: 12, baths: 5, area: '2.038 m² (terreno)',
+  purpose: ['aluguel'], location: 'Terravista Boutique', suites: 5, guests: 12, baths: 5, area: '2.038 m² (terreno)',
   price: { pt: 'R$ 6.600 / diária', en: 'R$ 6,600 / night' },
   priceLow: { pt: 'R$ 5.500 / diária', en: 'R$ 5,500 / night' },
   carnaval: { pt: 'R$ 44.000 / pacote', en: 'R$ 44,000 / package' },
@@ -3220,7 +3220,7 @@ const MIA: Property = {
   carnaval: { pt: 'R$ 60.000', en: 'R$ 60,000' },
   reveillon: { pt: 'R$ 280.000', en: 'R$ 280,000' },
   image: '/img/mia/01.jpg',
-  gallery: ['/img/mia/01.webp','/img/mia/02.webp','/img/mia/03.webp','/img/mia/04.webp','/img/mia/05.webp','/img/mia/06.webp','/img/mia/07.webp','/img/mia/08.webp','/img/mia/09.webp','/img/mia/10.webp','/img/mia/11.webp','/img/mia/12.webp','/img/mia/13.webp','/img/mia/14.webp','/img/mia/15.webp','/img/mia/16.webp','/img/mia/17.webp','/img/mia/18.webp','/img/mia/19.webp','/img/mia/20.webp','/img/mia/21.webp','/img/mia/22.webp','/img/mia/23.webp','/img/mia/24.webp','/img/mia/25.webp','/img/mia/26.webp','/img/mia/27.webp','/img/mia/28.webp','/img/mia/29.webp','/img/mia/30.webp','/img/mia/31.webp','/img/mia/32.webp','/img/mia/33.webp','/img/mia/34.webp','/img/mia/35.webp','/img/mia/36.webp'], featured: false,
+  gallery: ['/img/mia/01.webp','/img/mia/02.webp','/img/mia/03.webp','/img/mia/04.webp','/img/mia/05.webp','/img/mia/06.webp','/img/mia/07.webp','/img/mia/08.webp','/img/mia/09.webp','/img/mia/10.webp','/img/mia/11.webp','/img/mia/12.webp','/img/mia/13.webp','/img/mia/14.webp','/img/mia/15.webp','/img/mia/16.webp','/img/mia/17.webp','/img/mia/18.webp','/img/mia/19.webp','/img/mia/20.webp','/img/mia/21.webp','/img/mia/22.webp','/img/mia/23.webp','/img/mia/24.webp','/img/mia/25.webp','/img/mia/26.webp','/img/mia/27.webp','/img/mia/28.webp','/img/mia/29.webp','/img/mia/30.webp','/img/mia/31.webp','/img/mia/32.webp','/img/mia/33.webp','/img/mia/34.webp','/img/mia/35.webp','/img/mia/36.webp','/img/mia/37.webp','/img/mia/38.webp'], featured: false,
   amenities: {
     pt: ['Adega de vinhos','Ar-condicionado','Cozinha equipada','Estacionamento','Freezer','Gerador','Internet Wi-Fi','Lavabo','Lavanderia','Poço artesiano','Roupas de cama, mesa e banho','Sala de estar','Sala de jantar','Secador de cabelo','Som ambiente','TV a cabo','Ventilador de teto'],
     en: ['Wine cellar','Air conditioning','Equipped kitchen','Parking','Freezer','Generator','Wi-Fi internet','Guest bathroom','Laundry room','Artesian well','Bed, table and bath linen','Living room','Dining room','Hair dryer','Ambient sound system','Cable TV','Ceiling fan'],
