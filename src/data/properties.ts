@@ -131,6 +131,64 @@ const FAZENDA29: Property = {
   notes: { pt: ['Área construída: 1.213 m². Capacidade para 12 pessoas em 14 camas.', 'Piso superior — Suíte Máster: 01 cama de casal king size, ar-condicionado, secador de cabelo, armário para roupas e varanda com sofás. Suíte 02: 02 camas de solteiro conversíveis em cama de casal, ar-condicionado, secador de cabelo e armário. Suíte 03: 02 camas de solteiro conversíveis em cama de casal, ar-condicionado, secador de cabelo e armário. Piso térreo — Suíte 04: 02 camas de solteiro conversíveis em cama de casal, 02 camas de apoio, ar-condicionado, secador de cabelo e armário. Suíte 05: 02 camas de casal king size, 02 camas de apoio, ar-condicionado, secador de cabelo e armário. Suíte 06: 01 cama de casal king size, 02 camas de apoio, ar-condicionado, secador de cabelo e armário.', 'Locação mínima: 4 diárias. Diária de feriados: R$ 15.200.', 'Não é permitido pet.', 'Preços não incluem 10% de taxa de serviço.'], en: ['Built area: 1,213 m². Sleeps 12 guests in 14 beds.', 'Upper floor — Master Suite: 01 king size double bed, air conditioning, hairdryer, wardrobe and veranda with sofas. Suite 02: 02 single beds convertible to double, air conditioning, hairdryer and wardrobe. Suite 03: 02 single beds convertible to double, air conditioning, hairdryer and wardrobe. Ground floor — Suite 04: 02 single beds convertible to double, 02 extra beds, air conditioning, hairdryer and wardrobe. Suite 05: 02 king size double beds, 02 extra beds, air conditioning, hairdryer and wardrobe. Suite 06: 01 king size double bed, 02 extra beds, air conditioning, hairdryer and wardrobe.', 'Minimum stay: 4 nights. Holiday nightly rate: R$ 15,200.', 'Pets are not allowed.', 'Prices do not include 10% service fee.'] },
 };
 
+const VILAS27: Property = {
+  id: 'terravista-vilas-27', code: 'TBA-384', name: { pt: 'Terravista Vilas 27', en: 'Terravista Vilas 27' },
+  purpose: ['aluguel'], location: 'Terravista Vilas', suites: 4, guests: 8, baths: 5, area: '231 m²',
+  price: { pt: 'R$ 6.500 / diária', en: 'R$ 6,500 / night' },
+  priceLow: { pt: 'R$ 5.000 / diária', en: 'R$ 5,000 / night' },
+  carnaval: { pt: 'R$ 43.000', en: 'R$ 43,000' },
+  reveillon: { pt: 'R$ 300.000', en: 'R$ 300,000' },
+  image: '/img/terravistavilas27/01.jpg',
+  gallery: ['/img/terravistavilas27/01.webp','/img/terravistavilas27/02.webp','/img/terravistavilas27/03.webp','/img/terravistavilas27/04.webp','/img/terravistavilas27/05.webp','/img/terravistavilas27/06.webp','/img/terravistavilas27/07.webp','/img/terravistavilas27/08.webp','/img/terravistavilas27/09.webp','/img/terravistavilas27/10.webp','/img/terravistavilas27/11.webp','/img/terravistavilas27/12.webp','/img/terravistavilas27/13.webp','/img/terravistavilas27/14.webp','/img/terravistavilas27/15.webp','/img/terravistavilas27/16.webp','/img/terravistavilas27/17.webp'], featured: false,
+  amenities: {
+    pt: ['Vista panorâmica para o mar', 'Vista para parte do campo de golfe', 'Piscina privativa', 'Jardim tropical', 'Varandas', '2 ambientes de estar', 'Living com TV a cabo', 'Sala de jantar', 'Áreas externas de convivência', 'Churrasqueira portátil'],
+    en: ['Panoramic ocean view', 'Partial golf course view', 'Private pool', 'Tropical garden', 'Verandas', '2 living areas', 'Living room with cable TV', 'Dining room', 'Outdoor gathering areas', 'Portable barbecue'],
+  },
+  staff: {
+    pt: ['1 arrumadeira'],
+    en: ['1 housekeeper'],
+  },
+  description: {
+    pt: 'Com uma vista panorâmica para o mar e cercada pela vegetação tropical de Trancoso, a Terravista Vilas 27 combina privacidade, conforto e uma atmosfera leve para dias tranquilos em família ou entre amigos.\n\nCom 231 m² de área construída, a propriedade acomoda até 8 hóspedes em 4 quartos. Sua implantação privilegia a paisagem: as varandas dos quartos e da sala se abrem para uma vista ampla do oceano, acompanhada pela brisa do mar e por perspectivas do campo de golfe.\n\nOs ambientes sociais são acolhedores e bem distribuídos, com dois espaços de estar, living com TV e sofás, sala de jantar e varanda integrada ao jardim. A proposta é simples e agradável, permitindo que interior e exterior façam parte da mesma experiência.\n\nNa área externa, uma piscina privativa e o jardim tropical criam um espaço reservado para descanso. A casa também dispõe de churrasqueira portátil e áreas mobiliadas ao ar livre para refeições e momentos de convivência.\n\nUma opção especialmente interessante para quem procura uma casa de dimensões mais intimistas dentro do Terravista, sem abrir mão de uma bela vista para o mar e da tranquilidade característica do condomínio.',
+    en: 'With a panoramic ocean view and surrounded by the tropical vegetation of Trancoso, Terravista Vilas 27 combines privacy, comfort and a light atmosphere for peaceful days with family or friends.\n\nWith 231 m² of built area, the property accommodates up to 8 guests in 4 bedrooms. Its layout privileges the landscape: the verandas of the bedrooms and the living room open onto a wide ocean view, accompanied by the sea breeze and perspectives of the golf course.\n\nThe social areas are welcoming and well distributed, with two living spaces, a living room with TV and sofas, a dining room and a veranda integrated with the garden. The concept is simple and pleasant, allowing indoors and outdoors to be part of the same experience.\n\nOutside, a private pool and the tropical garden create a reserved space for rest. The house also offers a portable barbecue and furnished outdoor areas for meals and moments together.\n\nAn especially interesting option for those looking for a more intimate-sized house within Terravista, without giving up a beautiful ocean view and the tranquility characteristic of the condominium.',
+  },
+  locationDetail: { pt: 'Condomínio Terravista Vilas, Trancoso, Bahia. Inserida em uma das áreas mais valorizadas de Trancoso, cercada por natureza e com vista privilegiada para o litoral.', en: 'Terravista Vilas Condominium, Trancoso, Bahia. Set in one of the most valued areas of Trancoso, surrounded by nature and with a privileged view of the coastline.' },
+  notes: {
+    pt: ['Réveillon: pacote de 10 diárias.'],
+    en: ["New Year's Eve: 10-night package."],
+  },
+  features: ['piscina', 'vista-mar', 'condominio'],
+};
+
+const VILAS61: Property = {
+  id: 'terravista-vilas-61', code: 'TBA-386', name: { pt: 'Terravista Vilas 61', en: 'Terravista Vilas 61' },
+  purpose: ['aluguel'], location: 'Terravista Vilas', suites: 4, guests: 8, baths: 4, area: '—',
+  price: { pt: 'R$ 4.725 / diária', en: 'R$ 4,725 / night' },
+  priceLow: { pt: 'R$ 4.200 / diária', en: 'R$ 4,200 / night' },
+  carnaval: { pt: 'R$ 44.100', en: 'R$ 44,100' },
+  reveillon: { pt: 'Sob consulta', en: 'Upon request' },
+  image: '/img/terravistavilas61/01.jpg',
+  gallery: ['/img/terravistavilas61/01.webp','/img/terravistavilas61/02.webp','/img/terravistavilas61/03.webp','/img/terravistavilas61/04.webp','/img/terravistavilas61/05.webp','/img/terravistavilas61/06.webp','/img/terravistavilas61/07.webp','/img/terravistavilas61/08.webp','/img/terravistavilas61/09.webp','/img/terravistavilas61/10.webp','/img/terravistavilas61/11.webp','/img/terravistavilas61/12.webp','/img/terravistavilas61/13.webp','/img/terravistavilas61/14.webp','/img/terravistavilas61/15.webp','/img/terravistavilas61/16.webp','/img/terravistavilas61/17.webp','/img/terravistavilas61/18.webp'], featured: false,
+  amenities: {
+    pt: ['Piscina privativa', 'Deck', 'Jardim', 'Sala de estar', 'Sala de jantar', 'Sala de TV', 'Cozinha equipada', 'Área gourmet', 'Varanda', 'Churrasqueira', 'Ar-condicionado nas suítes', 'Wi-Fi', 'TV', 'Espreguiçadeiras', 'Redes', 'Estacionamento', 'Apoio de praia na Praia das Tartarugas'],
+    en: ['Private pool', 'Deck', 'Garden', 'Living room', 'Dining room', 'TV room', 'Equipped kitchen', 'Gourmet area', 'Veranda', 'Barbecue', 'Air conditioning in the suites', 'Wi-Fi', 'TV', 'Sun loungers', 'Hammocks', 'Parking', 'Beach support at Tartarugas Beach'],
+  },
+  staff: {
+    pt: ['1 arrumadeira'],
+    en: ['1 housekeeper'],
+  },
+  description: {
+    pt: 'Cercada pela vegetação de Trancoso, a Terravista Vilas 61 é uma casa acolhedora e elegante, pensada para quem busca privacidade, conforto e fácil acesso à praia dentro de um dos condomínios mais desejados da região.\n\nA propriedade acomoda até 8 hóspedes em 4 suítes e combina elementos contemporâneos com materiais e referências regionais. Os ambientes são claros e arejados, com uma integração agradável entre sala, varanda, jardim e área de lazer.\n\nNa área social, a casa dispõe de sala de estar, sala de jantar, cozinha equipada e área gourmet. Do lado de fora, o deck de madeira acompanha a piscina privativa e se abre para o jardim, criando um espaço convidativo para refeições, descanso e momentos em família.\n\nAs quatro suítes possuem ar-condicionado. A distribuição entre os pavimentos favorece a privacidade dos hóspedes, enquanto algumas acomodações têm varanda ou acesso mais direto à área da piscina.\n\nAlém da estrutura privativa da casa, os hóspedes podem aproveitar as facilidades do Terravista Vilas e o apoio de praia na Praia das Tartarugas.',
+    en: 'Surrounded by the vegetation of Trancoso, Terravista Vilas 61 is a welcoming and elegant house, designed for those seeking privacy, comfort and easy beach access within one of the most desirable condominiums in the region.\n\nThe property accommodates up to 8 guests in 4 suites and combines contemporary elements with regional materials and references. The spaces are bright and airy, with a pleasant integration between living room, veranda, garden and leisure area.\n\nIn the social area, the house offers a living room, dining room, equipped kitchen and gourmet area. Outside, the wooden deck follows the private pool and opens onto the garden, creating an inviting space for meals, rest and family moments.\n\nThe four suites have air conditioning. The distribution between floors favors guests\' privacy, while some accommodations have a veranda or more direct access to the pool area.\n\nIn addition to the house\'s private facilities, guests can enjoy the Terravista Vilas amenities and beach support at Tartarugas Beach.',
+  },
+  locationDetail: { pt: 'Condomínio Terravista Vilas, Trancoso, Bahia. Próxima à Praia das Tartarugas, com a estrutura de lazer e segurança do condomínio.', en: 'Terravista Vilas Condominium, Trancoso, Bahia. Close to Tartarugas Beach, with the leisure and security structure of the condominium.' },
+  notes: {
+    pt: ['Suíte 1: cama de casal king size, roupeiro e ar-condicionado. Suíte 2: cama de casal king size, roupeiro e ar-condicionado. Suíte 3: duas camas de solteiro, roupeiro e ar-condicionado. Suíte 4: duas camas de solteiro, roupeiro e ar-condicionado.', 'Carnaval: pacote de 5 dias.'],
+    en: ['Suite 1: king size double bed, wardrobe and air conditioning. Suite 2: king size double bed, wardrobe and air conditioning. Suite 3: two single beds, wardrobe and air conditioning. Suite 4: two single beds, wardrobe and air conditioning.', 'Carnival: 5-day package.'],
+  },
+  features: ['piscina', 'condominio'],
+};
+
 const VILAS62: Property = {
   id: 'terravista-vilas-62', code: 'TBA-383', name: { pt: 'Terravista Vilas 62', en: 'Terravista Vilas 62' },
   purpose: ['aluguel'], location: 'Terravista Vilas', suites: 4, guests: 8, baths: 4, area: '—',
@@ -4284,7 +4342,7 @@ const COQ12: Property = {
   features: ['piscina', 'condominio'],
 };
 
-PROPERTIES.unshift(VILAS62, VILLAQ, JV5, PADRE, FASANOJ2, COQ15, CASAFLO, CASACP, TEMPO03, OLAVA, BUENAVISTA, FAZENDA29, VILAS39, TVB12, GOLF28, COQ12, COQ11, VILLAW, COQ10, COQ27, IEMANJA, COQ09, NANA, VILAS34, JUE, TEMPO04, COQ04, HELENA, ALTAR, DUE, AZUL, FER, COLINA3, COLINA2, COLINA, ECO01, ECO03, ECO04, VISTA, GOLF95, VILA13, COQUEIRAL01, OKUN, GOLF62, TVB10, MANGABA, GOLF21, GOLF19, GOLF33, GOLF37, GOLF27, TRAMA, TIZZI, LILI, COQUEIRAL02, JV15, JV14, JV13, PEROBA, COQ06, COQUEIRAL7, COQ08, V7, MARTINI, SANTARITA, PATIMIRIM, DAJU, BUENO, BONITA, AREIA, COQUEIRAL13, SUBLIME, ESTRELA, VISTANATIVOS, TERRAL, ITAPO01, ATENA, JACARANDA04, COQUEIRAL14, C20, CASAMARIA, ALMESCLA, CASAMAR, GEIGER, C21, MIA, COQUEIRAL22, MAION, DADINHO, IANDE, MAGIVI, OITI, C23, C24, NAOCA, CASA71, CAJU, SANMARCO, CASA14, CASA09, BOSSA, TUA, IMBIRUCU, CASA42, CASA61, VILAS02, CASA80, ITAPO07, CASA96, CASA90, VILAS75, LIMOEIRO, BIRIBA, VILAMAR, BETTONI, PINI, AUREA, SAOJORGE, CAZA, ITAPO06, ITAPO04, ALEGRIA, PONTA, PG11, PG111, PG104, MANDACARU, PONTARB, FALESIA, RAIZES, PONTABARRA, FASANO10, FASANO16, FASANO17, VILAS26, GOLF58, FLORESTA, VILAS41, VILAS67, BOUTIQUE13, ARACUA, JACARANDA03, TEIU, GOLF25, PG50, CASAEDO, BALEIA, PG55, GOLF72, PITANGA, AFRICA, TEMPO07, TEMPO08, TEMPO06, BOSQUE, PATIO, PG32, PG45, LICURI, DIVINA, TRESMENINAS, COQUEIRAL25, MORENA, MOA, BRAGA, CUMARU, JACARANDA05, TB14, MACONDO, RICK);
+PROPERTIES.unshift(VILAS27, VILAS61, VILAS62, VILLAQ, JV5, PADRE, FASANOJ2, COQ15, CASAFLO, CASACP, TEMPO03, OLAVA, BUENAVISTA, FAZENDA29, VILAS39, TVB12, GOLF28, COQ12, COQ11, VILLAW, COQ10, COQ27, IEMANJA, COQ09, NANA, VILAS34, JUE, TEMPO04, COQ04, HELENA, ALTAR, DUE, AZUL, FER, COLINA3, COLINA2, COLINA, ECO01, ECO03, ECO04, VISTA, GOLF95, VILA13, COQUEIRAL01, OKUN, GOLF62, TVB10, MANGABA, GOLF21, GOLF19, GOLF33, GOLF37, GOLF27, TRAMA, TIZZI, LILI, COQUEIRAL02, JV15, JV14, JV13, PEROBA, COQ06, COQUEIRAL7, COQ08, V7, MARTINI, SANTARITA, PATIMIRIM, DAJU, BUENO, BONITA, AREIA, COQUEIRAL13, SUBLIME, ESTRELA, VISTANATIVOS, TERRAL, ITAPO01, ATENA, JACARANDA04, COQUEIRAL14, C20, CASAMARIA, ALMESCLA, CASAMAR, GEIGER, C21, MIA, COQUEIRAL22, MAION, DADINHO, IANDE, MAGIVI, OITI, C23, C24, NAOCA, CASA71, CAJU, SANMARCO, CASA14, CASA09, BOSSA, TUA, IMBIRUCU, CASA42, CASA61, VILAS02, CASA80, ITAPO07, CASA96, CASA90, VILAS75, LIMOEIRO, BIRIBA, VILAMAR, BETTONI, PINI, AUREA, SAOJORGE, CAZA, ITAPO06, ITAPO04, ALEGRIA, PONTA, PG11, PG111, PG104, MANDACARU, PONTARB, FALESIA, RAIZES, PONTABARRA, FASANO10, FASANO16, FASANO17, VILAS26, GOLF58, FLORESTA, VILAS41, VILAS67, BOUTIQUE13, ARACUA, JACARANDA03, TEIU, GOLF25, PG50, CASAEDO, BALEIA, PG55, GOLF72, PITANGA, AFRICA, TEMPO07, TEMPO08, TEMPO06, BOSQUE, PATIO, PG32, PG45, LICURI, DIVINA, TRESMENINAS, COQUEIRAL25, MORENA, MOA, BRAGA, CUMARU, JACARANDA05, TB14, MACONDO, RICK);
 
 // Todas as casas em ordem alfabética (nome em português).
 PROPERTIES.sort((a, b) => a.name.pt.localeCompare(b.name.pt, 'pt-BR', { numeric: true }));
