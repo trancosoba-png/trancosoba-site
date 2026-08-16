@@ -2,6 +2,7 @@ import { lazy, Suspense, useEffect } from 'react';
 import { Routes, Route, useLocation, useNavigationType } from 'react-router';
 import { LangProvider } from './i18n';
 import { PROPERTIES } from './data/properties';
+import { collectionById } from './data/collections';
 import { Header, Footer, WhatsAppFloat } from './components/Layout';
 import Home from './pages/Home';
 import { FavoritesProvider } from './data/favorites';
@@ -18,6 +19,9 @@ const Contato = lazy(() => import('./pages/Contato'));
 const Privacidade = lazy(() => import('./pages/Privacidade'));
 const Favoritos = lazy(() => import('./pages/Favoritos'));
 const Anuncie = lazy(() => import('./pages/Anuncie'));
+const Faq = lazy(() => import('./pages/Faq'));
+const Reveillon = lazy(() => import('./pages/Reveillon'));
+const Carnaval = lazy(() => import('./pages/Carnaval'));
 const NotFound = lazy(() => import('./pages/NotFound'));
 
 const SITE_URL = 'https://www.trancosoba.com';
@@ -50,15 +54,23 @@ function TitleManager() {
       '/': 'TrancosoBA — Casas extraordinárias em Trancoso',
       '/casas': 'Casas — TrancosoBA',
       '/trancoso': 'Trancoso — TrancosoBA',
-      '/servicos': 'Serviços — TrancosoBA',
-      '/nos': 'Nós — TrancosoBA',
+      '/servicos': 'Concierge — TrancosoBA',
+      '/nos': 'Quem Somos — TrancosoBA',
       '/contato': 'Contato — TrancosoBA',
       '/favoritos': 'Minhas Favoritas — TrancosoBA',
       '/anuncie': 'Anuncie sua casa — TrancosoBA',
+      '/faq': 'Perguntas Frequentes — TrancosoBA',
+      '/reveillon-trancoso': 'Réveillon em Trancoso — Pacotes 10 diárias | TrancosoBA',
+      '/carnaval-trancoso': 'Carnaval em Trancoso — Pacotes 5 dias | TrancosoBA',
+    };
+    const descs: Record<string, string> = {
+      '/faq': 'Perguntas frequentes sobre aluguel de casas em Trancoso: taxa de serviço, Réveillon, Carnaval, staff, concierge e reservas.',
+      '/reveillon-trancoso': 'Casas de alto padrão para o Réveillon em Trancoso: pacotes de 10 diárias com valores publicados, staff e concierge TrancosoBA.',
+      '/carnaval-trancoso': 'Casas de alto padrão para o Carnaval em Trancoso: pacotes de 5 dias com valores publicados, staff e concierge TrancosoBA.',
     };
     const defaultDesc = 'Curadoria de casas de alto padrão em Trancoso, Bahia. Aluguel de temporada e venda, com concierge dedicado.';
     let title = names[pathname];
-    let desc = defaultDesc;
+    let desc = descs[pathname] ?? defaultDesc;
     let image = `${SITE_URL}/img/hero.jpg`;
     if (!title && pathname.startsWith('/imovel/')) {
       const p = PROPERTIES.find(x => x.id === pathname.split('/imovel/')[1]);
@@ -66,6 +78,14 @@ function TitleManager() {
         title = `${p.name.pt} — TrancosoBA`;
         desc = `${p.name.pt}: ${p.suites} suítes, até ${p.guests} hóspedes, em ${p.location}, Trancoso. ${p.description.pt.split('\n')[0].slice(0, 140)}`;
         image = `${SITE_URL}${p.image}`;
+      }
+    }
+    if (!title && pathname.startsWith('/casas/')) {
+      const c = collectionById(pathname.split('/casas/')[1]);
+      if (c) {
+        title = `Casas ${c.title.pt} em Trancoso | TrancosoBA`;
+        desc = c.seo.pt;
+        image = `${SITE_URL}${c.cover}`;
       }
     }
     const finalTitle = title ?? 'TrancosoBA — Casas extraordinárias em Trancoso';
@@ -148,6 +168,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/casas" element={<Casas />} />
+          <Route path="/casas/:colecao" element={<Casas />} />
           <Route path="/imovel/:id" element={<Imovel />} />
           <Route path="/trancoso" element={<Trancoso />} />
           <Route path="/servicos" element={<Servicos />} />
@@ -156,6 +177,9 @@ export default function App() {
           <Route path="/privacidade" element={<Privacidade />} />
           <Route path="/favoritos" element={<Favoritos />} />
           <Route path="/anuncie" element={<Anuncie />} />
+          <Route path="/faq" element={<Faq />} />
+          <Route path="/reveillon-trancoso" element={<Reveillon />} />
+          <Route path="/carnaval-trancoso" element={<Carnaval />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
         </Suspense>

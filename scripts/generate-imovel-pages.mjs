@@ -78,12 +78,13 @@ for (const b of blocks) {
   const pricePt = unesc(get(/price: \{ pt: '((?:[^'\\]|\\.)*)'/));
   const code = get(/code: '([^']+)'/);
   const descPt = unesc(get(/description: \{\s*pt: '((?:[^'\\]|\\.)*)'/, 1));
-  const carnaval = unesc(get(/carnaval: '((?:[^'\\]|\\.)*)'/));
-  const reveillon = unesc(get(/reveillon: '((?:[^'\\]|\\.)*)'/));
+  const carnaval = unesc(get(/carnaval: \{ pt: '((?:[^'\\]|\\.)*)'/));
+  const reveillon = unesc(get(/reveillon: \{ pt: '((?:[^'\\]|\\.)*)'/));
   const priceLowPt = unesc(get(/priceLow: \{ pt: '((?:[^'\\]|\\.)*)'/));
   const gallery = parseArray(/gallery: \[([^\]]*)\]/, b);
   const amenities = parseArray(/amenities: \{\s*pt: \[([^\]]*)\]/, b);
-  props.push({ id, code, namePt, location, suites, guests, baths, image, pricePt, priceLowPt, carnaval, reveillon, descPt, gallery, amenities });
+  const features = parseArray(/features: \[([^\]]*)\]/, b);
+  props.push({ id, code, namePt, location, suites, guests, baths, image, pricePt, priceLowPt, carnaval, reveillon, descPt, gallery, amenities, features });
 }
 
 const template = readFileSync(join(root, 'dist/index.html'), 'utf8');
@@ -197,4 +198,137 @@ for (const s of statics) {
   if (s.path) mkdirSync(join(root, 'dist', s.path), { recursive: true });
   writeFileSync(join(dir, 'index.html'), pageShell({ title: s.title, desc: s.desc, url, img: DEFAULT_IMG, body: s.body }));
 }
+
+// ---------------------------------------------------------------------------
+// PÁGINAS DE COLEÇÃO (/casas/<id>) — mesmas regras de src/data/collections.ts
+// ---------------------------------------------------------------------------
+const low = (s) => (s || '').toLowerCase();
+const COLS = [
+  { id: 'pe-na-areia', name: 'Pé na Areia', sub: 'Casas com a areia aos pés',
+    seo: 'Casas pé na areia em Trancoso: saia da varanda direto para a praia. Nossa seleção inclui propriedades em Itapororoca, Rio da Barra, Praia do Espelho e outras praias do sul da Bahia, todas com concierge TrancosoBA.',
+    match: (p) => p.features.includes('pe-na-areia') },
+  { id: 'vista-mar', name: 'Vista Mar', sub: 'O oceano como horizonte',
+    seo: 'Casas com vista para o mar em Trancoso: varandas, piscinas e salas de estar de frente para o oceano, em condomínios como Terravista, Altos de Trancoso e Outeiro das Brisas.',
+    match: (p) => p.features.includes('vista-mar') },
+  { id: 'quadrado', name: 'Perto do Quadrado', sub: 'A poucos passos do coração de Trancoso',
+    seo: 'Casas perto do Quadrado, o coração histórico de Trancoso: a poucos passos dos restaurantes, das lojas e da igreja de São João Batista, com a tranquilidade de ruas arborizadas.',
+    match: (p) => low(p.location).includes('quadrado') || p.features.includes('quadrado') },
+  { id: 'terravista-golf', name: 'Terravista & Golf', sub: 'Campo de golfe, lagoas e mata atlântica',
+    seo: 'Casas no condomínio Terravista, em Trancoso: campo de golfe premiado, aeroporto privativo, teatro, beach club e apoio de praia. Seleção de casas no Terravista Golf e no Terravista Vilas para temporada e venda.',
+    match: (p) => low(p.location).startsWith('terravista') },
+  { id: 'fasano', name: 'no Fasano', sub: 'Casas no condomínio Fasano',
+    seo: 'Casas no condomínio Fasano em Trancoso: o padrão de hospitalidade Fasano em um dos condomínios mais exclusivos do Brasil, com praia praticamente privativa e serviços de alto padrão.',
+    match: (p) => low(p.location).includes('fasano') },
+  { id: 'grandes-grupos', name: 'para Grandes Grupos', sub: 'Casas a partir de 12 hóspedes',
+    seo: 'Casas para grandes grupos em Trancoso: propriedades a partir de 12 hóspedes, ideais para famílias grandes, celebrações e retiros, com staff completo e áreas de convivência amplas.',
+    match: (p) => Number(p.guests) >= 12 },
+  { id: 'condominios', name: 'em Condomínios Fechados', sub: 'Privacidade e segurança 24 horas',
+    seo: 'Casas em condomínios fechados em Trancoso: privacidade e segurança 24 horas no Terravista, Fasano, Altos de Trancoso, Itapororoca, Outeiro das Brisas e outros endereços exclusivos.',
+    match: (p) => p.features.includes('condominio') },
+];
+
+let colCount = 0;
+for (const c of COLS) {
+  const list = props.filter(c.match);
+  const url = `${SITE}/casas/${c.id}`;
+  const title = `Casas ${c.name} em Trancoso | TrancosoBA`;
+  const itemListLd = {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name: `Casas ${c.name} em Trancoso — TrancosoBA`,
+    numberOfItems: list.length,
+    itemListElement: list.map((p, i) => ({ '@type': 'ListItem', position: i + 1, name: p.namePt, url: `${SITE}/imovel/${p.id}` })),
+  };
+  const items = list.map((p) => `<li><a href="/imovel/${p.id}">${esc(p.namePt)}</a> — ${esc(p.location)}, ${p.suites} suítes, até ${p.guests} hóspedes. ${esc(p.pricePt)}</li>`).join('\n      ');
+  const body = `<main style="font-family:Georgia,serif;max-width:960px;margin:0 auto;padding:24px;">
+    <p><a href="/casas">TrancosoBA — Nossas Casas</a></p>
+    <h1>Casas ${esc(c.name)} em Trancoso</h1>
+    <p>${esc(c.seo)}</p>
+    <p>${list.length} ${list.length === 1 ? 'casa' : 'casas'} nesta seleção:</p>
+    <ul>
+      ${items}
+    </ul>
+    <p>Reservas: WhatsApp +55 73 99971-8799 · contato@trancosoba.com.br</p>
+  </main>`;
+  const extraHead = `<script type="application/ld+json">${JSON.stringify(itemListLd)}</script>`;
+  mkdirSync(join(root, 'dist/casas', c.id), { recursive: true });
+  writeFileSync(join(root, 'dist/casas', c.id, 'index.html'), pageShell({ title, desc: c.seo, url, img: DEFAULT_IMG, extraHead, body }));
+  colCount++;
+}
+
+// ---------------------------------------------------------------------------
+// PÁGINAS SAZONAIS — Réveillon e Carnaval
+// ---------------------------------------------------------------------------
+function seasonalPage({ path, h1, intro, field, pacote }) {
+  const com = props.filter((p) => p[field] && p[field] !== 'Sob consulta');
+  const sem = props.filter((p) => !p[field] || p[field] === 'Sob consulta');
+  const li = (arr, showPrice) => arr.map((p) => `<li><a href="/imovel/${p.id}">${esc(p.namePt)}</a> — ${esc(p.location)}, ${p.suites} suítes, até ${p.guests} hóspedes.${showPrice ? ` ${pacote}: <strong>${esc(p[field])}</strong>` : ''}</li>`).join('\n      ');
+  const url = `${SITE}/${path}`;
+  const itemListLd = {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name: `${h1} — TrancosoBA`,
+    numberOfItems: com.length + sem.length,
+    itemListElement: [...com, ...sem].map((p, i) => ({ '@type': 'ListItem', position: i + 1, name: p.namePt, url: `${SITE}/imovel/${p.id}` })),
+  };
+  const body = `<main style="font-family:Georgia,serif;max-width:960px;margin:0 auto;padding:24px;">
+    <p><a href="/casas">TrancosoBA — Nossas Casas</a></p>
+    <h1>${esc(h1)}</h1>
+    <p>${esc(intro)}</p>
+    <p>Valores não incluem taxa de serviço de 10%. Datas exatas e disponibilidade sob consulta.</p>
+    <h2>Casas com pacote publicado</h2>
+    <ul>
+      ${li(com, true)}
+    </ul>
+    <h2>Outras casas — valores sob consulta</h2>
+    <ul>
+      ${li(sem, false)}
+    </ul>
+    <p>Reservas: WhatsApp +55 73 99971-8799 · contato@trancosoba.com.br</p>
+  </main>`;
+  mkdirSync(join(root, 'dist', path), { recursive: true });
+  writeFileSync(join(root, 'dist', path, 'index.html'), pageShell({ title: `${h1} | TrancosoBA`, desc: intro, url, img: DEFAULT_IMG, extraHead: `<script type="application/ld+json">${JSON.stringify(itemListLd)}</script>`, body }));
+}
+seasonalPage({ path: 'reveillon-trancoso', h1: 'Réveillon em Trancoso', field: 'reveillon', pacote: 'Réveillon (pacote 10 diárias)',
+  intro: 'Casas de alto padrão para o Réveillon em Trancoso: pacotes de 10 diárias com valores fechados publicados em cada imóvel, staff e concierge TrancosoBA.' });
+seasonalPage({ path: 'carnaval-trancoso', h1: 'Carnaval em Trancoso', field: 'carnaval', pacote: 'Carnaval (pacote 5 dias)',
+  intro: 'Casas de alto padrão para o Carnaval em Trancoso: pacotes de 5 dias com valores fechados publicados em cada imóvel, staff e concierge TrancosoBA.' });
+
+// ---------------------------------------------------------------------------
+// FAQ — página estática com FAQPage JSON-LD
+// ---------------------------------------------------------------------------
+const FAQS = [
+  ['Como faço para reservar uma casa em Trancoso?', 'Todas as reservas começam com uma conversa pelo WhatsApp (+55 73 99971-8799) ou pelo formulário de contato. A TrancosoBA confirma disponibilidade, envia uma proposta personalizada e acompanha até a assinatura do contrato.'],
+  ['Os preços incluem taxa de serviço?', 'Não. Os valores publicados não incluem a taxa de serviço de 10%.'],
+  ['Como funciona o Réveillon em Trancoso?', 'O Réveillon é vendido em pacote de 10 diárias, com valor fechado por casa, publicado na página de cada imóvel. Datas e disponibilidade sob consulta.'],
+  ['Como funciona o Carnaval em Trancoso?', 'O Carnaval é vendido em pacote de 5 dias, com valor fechado por casa. Datas e disponibilidade sob consulta.'],
+  ['Qual é a diferença entre alta e baixa temporada?', 'Alta temporada: dezembro, janeiro, fevereiro, julho e feriados. Baixa temporada: março, abril, maio, junho, agosto, setembro, outubro e novembro.'],
+  ['As casas têm staff incluído?', 'A maioria das casas inclui ao menos uma arrumadeira diária. A equipe exata de cada casa está descrita na página do imóvel. Serviços adicionais, como chef particular, podem ser contratados pelo concierge.'],
+  ['Quais serviços de concierge a TrancosoBA oferece?', 'Transfer do aeroporto, motorista particular, compras e abastecimento da casa, chef e cozinheira, reservas em restaurantes e beach clubs, passeios de lancha, helicóptero, bem-estar e suporte completo durante a estadia.'],
+  ['Existe número mínimo de diárias?', 'Sim, e varia por casa e período. Réveillon e Carnaval são sempre pacotes fechados (10 e 5 diárias).'],
+  ['Quais são as condições de pagamento e cancelamento?', 'As condições de pagamento e a política de cancelamento são definidas em contrato para cada reserva e apresentadas na proposta.'],
+  ['A TrancosoBA também vende imóveis?', 'Sim. Além do aluguel de temporada, há uma seleção de casas à venda em Trancoso e região, com preço de venda publicado na página de cada imóvel.'],
+];
+const faqLd = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: FAQS.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })),
+};
+const faqBody = `<main style="font-family:Georgia,serif;max-width:960px;margin:0 auto;padding:24px;">
+    <p><a href="/">TrancosoBA — Início</a></p>
+    <h1>Perguntas Frequentes — Aluguel de casas em Trancoso</h1>
+    ${FAQS.map(([q, a]) => `<h2>${esc(q)}</h2>\n    <p>${esc(a)}</p>`).join('\n    ')}
+    <p>Dúvidas: WhatsApp +55 73 99971-8799 · contato@trancosoba.com.br</p>
+  </main>`;
+mkdirSync(join(root, 'dist/faq'), { recursive: true });
+writeFileSync(join(root, 'dist/faq', 'index.html'), pageShell({
+  title: 'Perguntas Frequentes — TrancosoBA',
+  desc: 'Perguntas frequentes sobre aluguel de casas em Trancoso: taxa de serviço, Réveillon, Carnaval, staff, concierge e reservas.',
+  url: `${SITE}/faq`, img: DEFAULT_IMG,
+  extraHead: `<script type="application/ld+json">${JSON.stringify(faqLd)}</script>`,
+  body: faqBody,
+}));
+
+console.log(`prerender extra: ${colCount} coleções + 2 sazonais + FAQ geradas`);
+
 console.log(`prerender: ${pre} páginas de imóveis + ${statics.length} páginas estáticas geradas`);

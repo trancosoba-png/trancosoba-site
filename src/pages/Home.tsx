@@ -124,7 +124,7 @@ export default function Home() {
             {COLLECTIONS.map((c) => {
               const count = collectionProperties(c).length;
               return (
-                <Link key={c.id} to={`/casas?colecao=${c.id}`}
+                <Link key={c.id} to={`/casas/${c.id}`}
                   className="group relative block overflow-hidden shrink-0 w-[78vw] sm:w-[55vw] md:w-auto aspect-[4/3] snap-start shadow-md">
                   <img src={collectionCover(c)} alt={txt(c.title, lang)} loading="lazy" decoding="async" draggable={false}
                     onError={(e) => { (e.currentTarget as HTMLImageElement).style.display = 'none'; }}

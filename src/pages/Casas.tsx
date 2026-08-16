@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react';
-import { useSearchParams } from 'react-router';
+import { Link, useParams, useSearchParams } from 'react-router';
 import { Search, SlidersHorizontal, X } from 'lucide-react';
 import { useLang, txt } from '../i18n';
 import { PROPERTIES, dailyPrice, type Feature } from '../data/properties';
@@ -13,6 +13,7 @@ type PurposeFilter = '' | 'aluguel' | 'venda';
 export default function Casas() {
   const { t, lang } = useLang();
   const [params] = useSearchParams();
+  const { colecao: routeCol } = useParams();
   const [purpose, setPurpose] = useState<PurposeFilter>((params.get('finalidade') as PurposeFilter) ?? '');
   const [location, setLocation] = useState(canonicalLocation(params.get('local') ?? ''));
   const [suites, setSuites] = useState(params.get('suites') ?? '');
@@ -22,7 +23,8 @@ export default function Casas() {
   const [feats, setFeats] = useState<Feature[]>([]);
   const [query, setQuery] = useState('');
   const [filtersOpen, setFiltersOpen] = useState(false);
-  const [colId, setColId] = useState(params.get('colecao') ?? '');
+  // Coleção ativa vem da URL (/casas/:colecao ou ?colecao=) — URLs reais para SEO
+  const colId = routeCol ?? params.get('colecao') ?? '';
   const activeCollection = collectionById(colId);
 
   const toggleFeat = (f: Feature) => setFeats((fs) => (fs.includes(f) ? fs.filter((x) => x !== f) : [...fs, f]));
@@ -44,7 +46,7 @@ export default function Casas() {
     return true;
   }), [activeCollection, purpose, location, suites, guests, priceMin, priceMax, feats, query]);
 
-  const clear = () => { setPurpose(''); setLocation(''); setSuites(''); setGuests(''); setPriceMin(''); setPriceMax(''); setFeats([]); setQuery(''); setColId(''); };
+  const clear = () => { setPurpose(''); setLocation(''); setSuites(''); setGuests(''); setPriceMin(''); setPriceMax(''); setFeats([]); setQuery(''); };
 
   const isFiltering = Boolean(colId || purpose || location || suites || guests || priceMin || priceMax || feats.length || query);
   const activeCount = (purpose ? 1 : 0) + (location ? 1 : 0) + (suites ? 1 : 0) + (guests ? 1 : 0)
@@ -130,7 +132,17 @@ export default function Casas() {
 
   return (
     <>
-      <PageHero title={t.casas.title} sub={t.casas.sub} image="/img/vilas75/01.jpg" />
+      <PageHero
+        title={activeCollection ? txt(activeCollection.title, lang) : t.casas.title}
+        sub={activeCollection ? txt(activeCollection.sub, lang) : t.casas.sub}
+        image={activeCollection ? activeCollection.cover : '/img/vilas75/01.jpg'} />
+      {activeCollection && (
+        <section className="pt-10 md:pt-14 -mb-6">
+          <div className="max-w-3xl mx-auto px-5 text-center">
+            <p className="text-ink/70 text-base md:text-lg leading-relaxed">{txt(activeCollection.seo, lang)}</p>
+          </div>
+        </section>
+      )}
       <section className="py-16 md:py-20">
         <div className="max-w-7xl mx-auto px-5 md:px-8">
           {/* Barra de busca + botão de filtros (painel recolhido por padrão) */}
@@ -159,11 +171,11 @@ export default function Casas() {
             {COLLECTIONS.map((c) => {
               const active = colId === c.id;
               return (
-                <button key={c.id} type="button" onClick={() => setColId(active ? '' : c.id)}
+                <Link key={c.id} to={active ? '/casas' : `/casas/${c.id}`}
                   aria-pressed={active}
                   className={`shrink-0 px-4 py-2 text-[12px] uppercase tracking-[0.12em] border transition-colors whitespace-nowrap ${active ? 'bg-green-e text-ivory border-green-e' : 'bg-transparent text-green-e/70 border-green-e/25 hover:border-gold hover:text-green-e'}`}>
                   {txt(c.title, lang)}
-                </button>
+                </Link>
               );
             })}
           </div>
