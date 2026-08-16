@@ -14,7 +14,6 @@ export default function Privacidade() {
         <div className="max-w-3xl mx-auto px-5 space-y-8 text-ink/70 leading-relaxed text-[15px]">
           {pt ? (
             <>
-              <p className="text-sm text-ink/50 italic">Texto jurídico em revisão pelo cliente antes da publicação final.</p>
               <div>
                 <h2 className="font-serif-e text-2xl text-green-e mb-3">1. Dados coletados</h2>
                 <p>Ao entrar em contato pelos nossos formulários ou pelo WhatsApp, coletamos os dados que você nos fornece diretamente: nome, telefone, e-mail, datas desejadas da estadia, número de hóspedes e o conteúdo da sua mensagem.</p>
