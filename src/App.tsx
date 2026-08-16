@@ -59,6 +59,7 @@ function TitleManager() {
       '/contato': 'Contato — TrancosoBA',
       '/favoritos': 'Minhas Favoritas — TrancosoBA',
       '/anuncie': 'Anuncie sua casa — TrancosoBA',
+      '/privacidade': 'Política de Privacidade — TrancosoBA',
       '/faq': 'Perguntas Frequentes — TrancosoBA',
       '/reveillon-trancoso': 'Réveillon em Trancoso — Pacotes 10 diárias | TrancosoBA',
       '/carnaval-trancoso': 'Carnaval em Trancoso — Pacotes 5 dias | TrancosoBA',
