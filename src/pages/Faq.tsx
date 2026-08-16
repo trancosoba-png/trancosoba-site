@@ -90,7 +90,7 @@ export default function Faq() {
       <PageHero
         title={pt ? 'Perguntas Frequentes' : 'Frequently Asked Questions'}
         sub={pt ? 'Tudo sobre reservas, tarifas e estadias' : 'All about bookings, rates and stays'}
-        image="/img/servicos/10-suporte.jpg" />
+        image="/img/servicos/10-suporte.webp" />
       <section className="py-16 md:py-24">
         <div className="max-w-3xl mx-auto px-5">
           <Reveal>

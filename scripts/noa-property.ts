@@ -5,7 +5,7 @@ const NOA: Property = {
   priceLow: { pt: 'R$ 2.800 / diária', en: 'R$ 2,800 / night' },
   carnaval: { pt: 'R$ 35.000 / pacote', en: 'R$ 35,000 / package' },
   reveillon: { pt: 'R$ 150.000 / pacote', en: 'R$ 150,000 / package' },
-  image: '/img/noa/01.jpg',
+  image: '/img/noa/01.webp',
   gallery: ['/img/noa/01.webp','/img/noa/02.webp','/img/noa/03.webp','/img/noa/04.webp','/img/noa/05.webp','/img/noa/06.webp','/img/noa/07.webp','/img/noa/08.webp','/img/noa/09.webp','/img/noa/10.webp','/img/noa/11.webp','/img/noa/12.webp','/img/noa/13.webp','/img/noa/14.webp','/img/noa/15.webp','/img/noa/16.webp','/img/noa/17.webp','/img/noa/18.webp','/img/noa/19.webp','/img/noa/20.webp','/img/noa/21.webp','/img/noa/22.webp','/img/noa/23.webp','/img/noa/24.webp','/img/noa/25.webp','/img/noa/26.webp','/img/noa/27.webp','/img/noa/28.webp','/img/noa/29.webp','/img/noa/30.webp','/img/noa/31.webp','/img/noa/32.webp','/img/noa/33.webp','/img/noa/34.webp','/img/noa/35.webp','/img/noa/36.webp','/img/noa/37.webp'], featured: false,
   amenities: {
     pt: ['Condomínio fechado', 'Vista para o mar', 'Piscina', 'Jardim com paisagismo assinado', 'Cozinha equipada', 'Sala de estar', 'Sala de jantar', 'Lavabo', 'Lavanderia', 'Ar-condicionado', 'Mosquiteiros', 'Internet Wi-Fi', 'TV a cabo', 'Estacionamento', 'Poço artesiano', 'Roupas de cama, mesa e banho'],

@@ -5,7 +5,7 @@ const CASAJV12: Property = {
   priceLow: { pt: 'R$ 2.600 / diária', en: 'R$ 2,600 / night' },
   carnaval: { pt: 'R$ 30.000', en: 'R$ 30,000' },
   reveillon: { pt: 'R$ 120.000', en: 'R$ 120,000' },
-  image: '/img/joaovieira12/01.jpg',
+  image: '/img/joaovieira12/01.webp',
   gallery: ['/img/joaovieira12/01.webp','/img/joaovieira12/02.webp','/img/joaovieira12/03.webp','/img/joaovieira12/04.webp','/img/joaovieira12/05.webp','/img/joaovieira12/06.webp','/img/joaovieira12/07.webp','/img/joaovieira12/08.webp','/img/joaovieira12/09.webp','/img/joaovieira12/10.webp','/img/joaovieira12/11.webp','/img/joaovieira12/12.webp','/img/joaovieira12/13.webp','/img/joaovieira12/14.webp','/img/joaovieira12/15.webp','/img/joaovieira12/16.webp','/img/joaovieira12/17.webp','/img/joaovieira12/18.webp','/img/joaovieira12/19.webp','/img/joaovieira12/20.webp','/img/joaovieira12/21.webp','/img/joaovieira12/22.webp','/img/joaovieira12/23.webp','/img/joaovieira12/24.webp','/img/joaovieira12/25.webp','/img/joaovieira12/26.webp','/img/joaovieira12/27.webp','/img/joaovieira12/28.webp','/img/joaovieira12/29.webp','/img/joaovieira12/30.webp','/img/joaovieira12/31.webp','/img/joaovieira12/32.webp','/img/joaovieira12/33.webp','/img/joaovieira12/34.webp','/img/joaovieira12/35.webp','/img/joaovieira12/36.webp'], featured: false,
   amenities: {
     pt: ['Piscina com deck e espreguiçadeiras', 'Cozinha gourmet azul com bar', 'Área gourmet integrada à piscina', 'Sala de estar com balanço', 'Mesa de jantar ampla', 'Bangalô de madeira independente', 'Ducha externa no jardim', 'Jardim tropical com rede', 'Ar-condicionado nas suítes', 'Mosquiteiros', 'Wi-Fi', 'Roupa de cama, mesa e banho'],

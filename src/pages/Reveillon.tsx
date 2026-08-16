@@ -15,7 +15,7 @@ export default function Reveillon() {
       <PageHero
         title={pt ? 'Réveillon em Trancoso' : 'New Year\'s Eve in Trancoso'}
         sub={pt ? 'Pacotes de 10 diárias em casas de alto padrão' : '10-night packages in high-end houses'}
-        image="/img/vilas75/01.jpg" />
+        image="/img/vilas75/01.webp" />
       <section className="py-16 md:py-24">
         <div className="max-w-3xl mx-auto px-5">
           <Reveal className="space-y-6 text-ink/80 leading-relaxed text-base md:text-lg mb-14">

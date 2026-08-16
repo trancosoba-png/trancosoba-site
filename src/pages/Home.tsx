@@ -84,7 +84,7 @@ export default function Home() {
     <>
       {/* 1. Hero */}
       <section className="relative h-screen min-h-[640px] flex flex-col">
-        <video autoPlay muted loop playsInline poster="/img/hero-fallback.jpg" aria-label="Praias, falésias e natureza de Trancoso"
+        <video autoPlay muted loop playsInline poster="/img/hero-fallback.webp" aria-label="Praias, falésias e natureza de Trancoso"
           className="absolute inset-0 w-full h-full object-cover">
           <source src="/img/hero.mp4" type="video/mp4" />
         </video>
@@ -166,7 +166,7 @@ export default function Home() {
 
       {/* 4. Trancoso */}
       <section className="relative flex flex-col min-h-[100vh] md:min-h-[118vh] overflow-hidden">
-        <img draggable={false} src="/img/lugares/falesia-v3.jpg" alt="Vista aérea das falésias de Trancoso" loading="lazy" decoding="async" className="absolute inset-0 w-full h-full object-cover object-center" />
+        <img draggable={false} src="/img/lugares/falesia-v3.webp" alt="Vista aérea das falésias de Trancoso" loading="lazy" decoding="async" className="absolute inset-0 w-full h-full object-cover object-center" />
         <div className="absolute inset-x-0 top-0 h-[52vh] bg-gradient-to-b from-[#f7f2e9]/60 via-[#f7f2e9]/25 to-transparent" />
         <Reveal className="relative max-w-3xl mx-auto px-5 text-center pt-20 md:pt-24">
           <p className="text-[14px] font-semibold uppercase text-ivory" style={{ letterSpacing: '0.2em', textShadow: '0 1px 4px rgba(0,0,0,0.55)' }}>{t.home.trancosoEyebrow}</p>

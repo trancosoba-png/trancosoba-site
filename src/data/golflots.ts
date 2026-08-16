@@ -1,5 +1,5 @@
 // Posição de cada lote no mapa do Terravista Golf (percentuais x/y sobre a imagem 1536×1024)
-export const GOLF_MAP = '/img/lugares/terravista-golf-mapa.jpg';
+export const GOLF_MAP = '/img/lugares/terravista-golf-mapa.webp';
 
 export const GOLF_LOTS: Record<string, { lot: string; x: number; y: number }> = {
   'casa-71': { lot: '71', x: 65.4, y: 75.7 },

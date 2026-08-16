@@ -46,7 +46,7 @@ const GOLF28: Property = {
   carnaval: { pt: 'Sob consulta', en: 'On request' },
   reveillon: { pt: 'Sob consulta', en: 'On request' },
   salePrice: { pt: 'R$ 12.000.000', en: 'R$ 12,000,000' },
-  image: '/img/golf28/01.jpg',
+  image: '/img/golf28/01.webp',
   gallery: ['/img/golf28/01.webp','/img/golf28/02.webp','/img/golf28/03.webp','/img/golf28/04.webp','/img/golf28/05.webp','/img/golf28/06.webp','/img/golf28/07.webp','/img/golf28/08.webp','/img/golf28/09.webp','/img/golf28/10.webp','/img/golf28/11.webp','/img/golf28/12.webp','/img/golf28/13.webp','/img/golf28/14.webp','/img/golf28/15.webp','/img/golf28/16.webp','/img/golf28/17.webp','/img/golf28/18.webp','/img/golf28/19.webp','/img/golf28/20.webp','/img/golf28/21.webp','/img/golf28/22.webp','/img/golf28/23.webp','/img/golf28/24.webp','/img/golf28/25.webp','/img/golf28/26.webp','/img/golf28/27.webp','/img/golf28/28.webp','/img/golf28/29.webp','/img/golf28/30.webp','/img/golf28/31.webp','/img/golf28/32.webp','/img/golf28/33.webp','/img/golf28/34.webp','/img/golf28/35.webp','/img/golf28/36.webp','/img/golf28/37.webp','/img/golf28/38.webp','/img/golf28/39.webp','/img/golf28/40.webp','/img/golf28/41.webp','/img/golf28/42.webp','/img/golf28/43.webp','/img/golf28/44.webp','/img/golf28/45.webp','/img/golf28/46.webp','/img/golf28/47.webp','/img/golf28/48.webp','/img/golf28/49.webp','/img/golf28/50.webp','/img/golf28/51.webp','/img/golf28/52.webp','/img/golf28/53.webp','/img/golf28/54.webp','/img/golf28/55.webp','/img/golf28/56.webp','/img/golf28/57.webp','/img/golf28/58.webp','/img/golf28/59.webp','/img/golf28/60.webp'], featured: false,
   amenities: {
     pt: ['Piscina privativa', 'Espaço gourmet', 'Varanda e jardim integrados aos ambientes sociais', 'Vista para o lago e o campo de golfe', 'Sala de estar e sala de jantar integradas', '4 suítes: 2 com cama de casal e 2 com camas de solteiro conversíveis em cama de casal'],
@@ -68,7 +68,7 @@ const TVB12: Property = {
   priceLow: { pt: 'R$ 5.500 / diária', en: 'R$ 5,500 / night' },
   carnaval: { pt: 'R$ 44.000 / pacote', en: 'R$ 44,000 / package' },
   reveillon: { pt: 'R$ 275.000 / pacote', en: 'R$ 275,000 / package' },
-  image: '/img/tvb12/01.jpg',
+  image: '/img/tvb12/01.webp',
   gallery: ['/img/tvb12/01.webp','/img/tvb12/02.webp','/img/tvb12/03.webp','/img/tvb12/04.webp','/img/tvb12/05.webp','/img/tvb12/06.webp','/img/tvb12/07.webp','/img/tvb12/08.webp','/img/tvb12/09.webp','/img/tvb12/10.webp','/img/tvb12/11.webp','/img/tvb12/12.webp','/img/tvb12/13.webp','/img/tvb12/14.webp','/img/tvb12/15.webp','/img/tvb12/16.webp','/img/tvb12/17.webp','/img/tvb12/18.webp','/img/tvb12/19.webp','/img/tvb12/20.webp','/img/tvb12/21.webp','/img/tvb12/22.webp','/img/tvb12/23.webp','/img/tvb12/24.webp','/img/tvb12/25.webp','/img/tvb12/26.webp','/img/tvb12/27.webp','/img/tvb12/28.webp','/img/tvb12/29.webp','/img/tvb12/30.webp','/img/tvb12/31.webp'], featured: false,
   amenities: {
     pt: ['Piscina com vista para o mar', 'Solário com vista para o oceano', 'Mirante', 'Adega de vinhos', 'Espaço gourmet e churrasqueira', 'Sala de estar, jantar e TV', 'Cozinha equipada', 'Geladeira de cerveja e máquina de gelo', 'Lavabo e lavanderia', 'Internet Wi-Fi e som ambiente', 'Ar-condicionado e mosquiteiros', 'Duchas parcialmente ao ar livre', 'Frigobar', 'Gerador', 'Apoio de praia na Praia das Tartarugas', 'Kids friendly', 'Roupas de cama, mesa e banho', 'Toalhas de piscina e praia', 'Estacionamento'],
@@ -91,7 +91,7 @@ const VILAS39: Property = {
   priceLow: { pt: 'R$ 3.000 / diária', en: 'R$ 3,000 / night' },
   carnaval: { pt: 'R$ 28.500 / pacote', en: 'R$ 28,500 / package' },
   reveillon: { pt: 'Sob consulta', en: 'On request' },
-  image: '/img/terravista-vilas-39/01.jpg',
+  image: '/img/terravista-vilas-39/01.webp',
   gallery: ['/img/terravista-vilas-39/01.webp','/img/terravista-vilas-39/02.webp','/img/terravista-vilas-39/03.webp','/img/terravista-vilas-39/04.webp','/img/terravista-vilas-39/05.webp','/img/terravista-vilas-39/06.webp','/img/terravista-vilas-39/07.webp','/img/terravista-vilas-39/08.webp','/img/terravista-vilas-39/09.webp','/img/terravista-vilas-39/10.webp','/img/terravista-vilas-39/11.webp','/img/terravista-vilas-39/12.webp','/img/terravista-vilas-39/13.webp','/img/terravista-vilas-39/14.webp','/img/terravista-vilas-39/15.webp','/img/terravista-vilas-39/16.webp','/img/terravista-vilas-39/17.webp','/img/terravista-vilas-39/18.webp','/img/terravista-vilas-39/19.webp','/img/terravista-vilas-39/20.webp','/img/terravista-vilas-39/21.webp','/img/terravista-vilas-39/22.webp','/img/terravista-vilas-39/23.webp'], featured: false,
   amenities: {
     pt: ['Piscina privativa', 'Área gourmet integrada à piscina', 'Varandas nas suítes do piso superior', 'Ar-condicionado em todas as suítes', 'Mosquiteiros', 'Cofre (suíte 1)', 'TV e frigobar (suíte 3)', 'Secadores de cabelo'],
@@ -115,7 +115,7 @@ const FAZENDA29: Property = {
   carnaval: { pt: 'R$ 110.000 / pacote', en: 'R$ 110,000 / package' },
   reveillon: { pt: 'R$ 605.000 / pacote', en: 'R$ 605,000 / package' },
   holidayPrice: { pt: 'R$ 15.200 / diária', en: 'R$ 15,200 / night' },
-  image: '/img/fazenda29/01.jpg',
+  image: '/img/fazenda29/01.webp',
   gallery: ['/img/fazenda29/01.webp','/img/fazenda29/02.webp','/img/fazenda29/03.webp','/img/fazenda29/04.webp','/img/fazenda29/05.webp','/img/fazenda29/06.webp','/img/fazenda29/07.webp','/img/fazenda29/08.webp','/img/fazenda29/09.webp','/img/fazenda29/10.webp','/img/fazenda29/11.webp','/img/fazenda29/12.webp','/img/fazenda29/13.webp','/img/fazenda29/14.webp','/img/fazenda29/15.webp','/img/fazenda29/16.webp','/img/fazenda29/17.webp','/img/fazenda29/18.webp','/img/fazenda29/19.webp','/img/fazenda29/20.webp','/img/fazenda29/21.webp','/img/fazenda29/22.webp','/img/fazenda29/23.webp','/img/fazenda29/24.webp','/img/fazenda29/25.webp','/img/fazenda29/26.webp'], featured: false,
   amenities: {
     pt: ['Academia', 'Adega de vinhos', 'Apoio de praia', 'Ar-condicionado', 'Carrinho de golfe (pick up)', 'Cervejeira', 'Churrasqueira', 'Cozinha equipada', 'Espaço gourmet', 'Espreguiçadeiras e ombrelone', 'Estacionamento', 'Forno de pizza', 'Freezer', 'Gerador', 'Internet Wi-Fi', 'Jacuzzi', 'Kayak', 'Kids friendly', 'Lavabo', 'Lavanderia', 'Máquina de gelo', 'Mirante', 'Netflix', 'Piscina', 'Quarto de apoio', 'Roupas de cama, mesa e banho', 'Sala de estar', 'Sala de jantar', 'Sala de TV', 'Secador de cabelo', 'Som ambiente', 'Toalha de piscina', 'Toalha de praia', 'TV'],
@@ -138,7 +138,7 @@ const VILAS37: Property = {
   priceLow: { pt: 'Sob consulta', en: 'Upon request' },
   carnaval: { pt: 'Sob consulta', en: 'Upon request' },
   reveillon: { pt: 'Sob consulta', en: 'Upon request' },
-  image: '/img/terravistavilas37/01.jpg',
+  image: '/img/terravistavilas37/01.webp',
   gallery: ['/img/terravistavilas37/01.webp','/img/terravistavilas37/02.webp','/img/terravistavilas37/03.webp','/img/terravistavilas37/04.webp','/img/terravistavilas37/05.webp','/img/terravistavilas37/06.webp','/img/terravistavilas37/07.webp','/img/terravistavilas37/08.webp','/img/terravistavilas37/09.webp','/img/terravistavilas37/10.webp','/img/terravistavilas37/11.webp','/img/terravistavilas37/12.webp','/img/terravistavilas37/13.webp','/img/terravistavilas37/14.webp','/img/terravistavilas37/15.webp','/img/terravistavilas37/16.webp','/img/terravistavilas37/17.webp','/img/terravistavilas37/18.webp','/img/terravistavilas37/19.webp','/img/terravistavilas37/20.webp','/img/terravistavilas37/21.webp','/img/terravistavilas37/22.webp'], featured: false,
   amenities: {
     pt: ['Piscina privativa', 'Áreas de convivência', 'Localizada em condomínio', 'Ambiente cercado por vegetação', 'Estrutura de lazer do Terravista Vilas', 'Apoio de praia'],
@@ -159,7 +159,7 @@ const VILAS27: Property = {
   priceLow: { pt: 'R$ 5.000 / diária', en: 'R$ 5,000 / night' },
   carnaval: { pt: 'R$ 43.000', en: 'R$ 43,000' },
   reveillon: { pt: 'R$ 300.000', en: 'R$ 300,000' },
-  image: '/img/terravistavilas27/01.jpg',
+  image: '/img/terravistavilas27/01.webp',
   gallery: ['/img/terravistavilas27/01.webp','/img/terravistavilas27/02.webp','/img/terravistavilas27/03.webp','/img/terravistavilas27/04.webp','/img/terravistavilas27/05.webp','/img/terravistavilas27/06.webp','/img/terravistavilas27/07.webp','/img/terravistavilas27/08.webp','/img/terravistavilas27/09.webp','/img/terravistavilas27/10.webp','/img/terravistavilas27/11.webp','/img/terravistavilas27/12.webp','/img/terravistavilas27/13.webp','/img/terravistavilas27/14.webp','/img/terravistavilas27/15.webp','/img/terravistavilas27/16.webp','/img/terravistavilas27/17.webp'], featured: false,
   amenities: {
     pt: ['Vista panorâmica para o mar', 'Vista para parte do campo de golfe', 'Piscina privativa', 'Jardim tropical', 'Varandas', '2 ambientes de estar', 'Living com TV a cabo', 'Sala de jantar', 'Áreas externas de convivência', 'Churrasqueira portátil'],
@@ -188,7 +188,7 @@ const VILAS61: Property = {
   priceLow: { pt: 'R$ 4.200 / diária', en: 'R$ 4,200 / night' },
   carnaval: { pt: 'R$ 44.100', en: 'R$ 44,100' },
   reveillon: { pt: 'Sob consulta', en: 'Upon request' },
-  image: '/img/terravistavilas61/01.jpg',
+  image: '/img/terravistavilas61/01.webp',
   gallery: ['/img/terravistavilas61/01.webp','/img/terravistavilas61/02.webp','/img/terravistavilas61/03.webp','/img/terravistavilas61/04.webp','/img/terravistavilas61/05.webp','/img/terravistavilas61/06.webp','/img/terravistavilas61/07.webp','/img/terravistavilas61/08.webp','/img/terravistavilas61/09.webp','/img/terravistavilas61/10.webp','/img/terravistavilas61/11.webp','/img/terravistavilas61/12.webp','/img/terravistavilas61/13.webp','/img/terravistavilas61/14.webp','/img/terravistavilas61/15.webp','/img/terravistavilas61/16.webp','/img/terravistavilas61/17.webp','/img/terravistavilas61/18.webp'], featured: false,
   amenities: {
     pt: ['Piscina privativa', 'Deck', 'Jardim', 'Sala de estar', 'Sala de jantar', 'Sala de TV', 'Cozinha equipada', 'Área gourmet', 'Varanda', 'Churrasqueira', 'Ar-condicionado nas suítes', 'Wi-Fi', 'TV', 'Espreguiçadeiras', 'Redes', 'Estacionamento', 'Apoio de praia na Praia das Tartarugas'],
@@ -217,7 +217,7 @@ const VILAS62: Property = {
   priceLow: { pt: 'R$ 4.200 / diária', en: 'R$ 4,200 / night' },
   carnaval: { pt: 'R$ 44.100', en: 'R$ 44,100' },
   reveillon: { pt: 'R$ 189.000', en: 'R$ 189,000' },
-  image: '/img/terravistavilas62/01.jpg',
+  image: '/img/terravistavilas62/01.webp',
   gallery: ['/img/terravistavilas62/01.webp','/img/terravistavilas62/02.webp','/img/terravistavilas62/03.webp','/img/terravistavilas62/04.webp','/img/terravistavilas62/05.webp','/img/terravistavilas62/06.webp','/img/terravistavilas62/07.webp','/img/terravistavilas62/08.webp','/img/terravistavilas62/09.webp','/img/terravistavilas62/10.webp','/img/terravistavilas62/11.webp','/img/terravistavilas62/12.webp','/img/terravistavilas62/13.webp','/img/terravistavilas62/14.webp','/img/terravistavilas62/15.webp','/img/terravistavilas62/16.webp','/img/terravistavilas62/17.webp','/img/terravistavilas62/18.webp','/img/terravistavilas62/19.webp','/img/terravistavilas62/20.webp','/img/terravistavilas62/21.webp','/img/terravistavilas62/22.webp','/img/terravistavilas62/23.webp','/img/terravistavilas62/24.webp','/img/terravistavilas62/25.webp','/img/terravistavilas62/26.webp','/img/terravistavilas62/27.webp','/img/terravistavilas62/28.webp'], featured: false,
   amenities: {
     pt: ['Piscina privativa com deck e área de descanso', 'Sala de estar e sala de TV', 'Sala de jantar', 'Cozinha equipada', 'Área gourmet com churrasqueira', 'Wi-Fi', 'Ar-condicionado nas suítes', 'Varandas integradas à área verde', 'Espreguiçadeiras e redes', 'Área de serviço', 'Estacionamento', 'Portaria e vigilância 24 horas no condomínio'],
@@ -246,7 +246,7 @@ const VILLAQ: Property = {
   priceLow: { pt: 'Sob consulta', en: 'Upon request' },
   carnaval: { pt: 'Sob consulta', en: 'Upon request' },
   reveillon: { pt: 'R$ 75.000', en: 'R$ 75,000' },
-  image: '/img/villadoquadrado/01.jpg',
+  image: '/img/villadoquadrado/01.webp',
   gallery: ['/img/villadoquadrado/01.webp','/img/villadoquadrado/02.webp','/img/villadoquadrado/03.webp','/img/villadoquadrado/04.webp','/img/villadoquadrado/05.webp','/img/villadoquadrado/06.webp','/img/villadoquadrado/07.webp','/img/villadoquadrado/08.webp','/img/villadoquadrado/09.webp','/img/villadoquadrado/10.webp','/img/villadoquadrado/11.webp','/img/villadoquadrado/12.webp','/img/villadoquadrado/13.webp','/img/villadoquadrado/14.webp'], featured: false,
   amenities: {
     pt: ['Sala de estar', 'Cozinha equipada', 'Varanda voltada para a área verde', 'Área verde', 'Estacionamento interno', 'Ar-condicionado', 'Gerador', 'Smart TV', 'Wi-Fi', 'Caixa de som Bluetooth', 'Máquina de café Nespresso', 'Enxoval completo', 'Closets', 'Redes de descanso', 'Secador de cabelo', 'Steamer'],
@@ -275,7 +275,7 @@ const JV5: Property = {
   carnaval: { pt: 'R$ 45.000', en: 'R$ 45,000' },
   reveillon: { pt: 'R$ 170.000', en: 'R$ 170,000' },
   salePrice: { pt: 'R$ 6.500.000', en: 'R$ 6,500,000' },
-  image: '/img/joaovieira5/01.jpg',
+  image: '/img/joaovieira5/01.webp',
   gallery: ['/img/joaovieira5/01.webp','/img/joaovieira5/02.webp','/img/joaovieira5/03.webp','/img/joaovieira5/04.webp','/img/joaovieira5/05.webp','/img/joaovieira5/06.webp','/img/joaovieira5/07.webp','/img/joaovieira5/08.webp','/img/joaovieira5/09.webp','/img/joaovieira5/10.webp','/img/joaovieira5/11.webp','/img/joaovieira5/12.webp','/img/joaovieira5/13.webp','/img/joaovieira5/14.webp','/img/joaovieira5/15.webp','/img/joaovieira5/16.webp','/img/joaovieira5/17.webp','/img/joaovieira5/18.webp','/img/joaovieira5/19.webp','/img/joaovieira5/20.webp','/img/joaovieira5/21.webp','/img/joaovieira5/22.webp','/img/joaovieira5/23.webp','/img/joaovieira5/24.webp','/img/joaovieira5/25.webp','/img/joaovieira5/26.webp','/img/joaovieira5/27.webp','/img/joaovieira5/28.webp','/img/joaovieira5/29.webp','/img/joaovieira5/30.webp'], featured: false,
   amenities: {
     pt: ['Piscina', 'Deck', 'Varanda', 'Sala de TV', 'Cozinha equipada', 'Ar-condicionado', 'Wi-Fi', 'TV a cabo', 'Roupa de cama, mesa e banho', 'Redes', 'Churrasqueira móvel', 'Terreno de aproximadamente 1.700 m²'],
@@ -303,7 +303,7 @@ const PADRE: Property = {
   price: { pt: 'R$ 5.500 / diária', en: 'R$ 5,500 / night' },
   priceLow: { pt: 'R$ 2.400 / diária', en: 'R$ 2,400 / night' },
   reveillon: { pt: 'Sob consulta (pacote de 10 diárias)', en: 'Upon request (10-night package)' },
-  image: '/img/casadopadre/01.jpg',
+  image: '/img/casadopadre/01.webp',
   gallery: ['/img/casadopadre/01.webp','/img/casadopadre/02.webp','/img/casadopadre/03.webp','/img/casadopadre/04.webp','/img/casadopadre/05.webp','/img/casadopadre/06.webp','/img/casadopadre/07.webp','/img/casadopadre/08.webp','/img/casadopadre/09.webp','/img/casadopadre/10.webp','/img/casadopadre/11.webp','/img/casadopadre/12.webp','/img/casadopadre/13.webp','/img/casadopadre/14.webp','/img/casadopadre/15.webp','/img/casadopadre/16.webp','/img/casadopadre/17.webp'], featured: false,
   amenities: {
     pt: ['Vista para o mar e a Mata Atlântica', 'Sala de estar', 'Sala de jantar', 'Sala de TV', 'Cozinha equipada', 'Varanda integrada à natureza', 'Ar-condicionado', 'Internet Wi-Fi', 'Lavanderia', 'Roupa de cama, mesa e banho', 'Toalhas de praia', 'Mosquiteiros'],
@@ -327,7 +327,7 @@ const FASANOJ2: Property = {
   priceLow: { pt: 'Sob consulta', en: 'Upon request' },
   carnaval: { pt: 'Sob consulta', en: 'Upon request' },
   reveillon: { pt: 'R$ 1.200.000', en: 'R$ 1,200,000' },
-  image: '/img/fasanoJ2/01.jpg',
+  image: '/img/fasanoJ2/01.webp',
   gallery: ['/img/fasanoJ2/01.webp','/img/fasanoJ2/02.webp','/img/fasanoJ2/03.webp','/img/fasanoJ2/04.webp','/img/fasanoJ2/05.webp','/img/fasanoJ2/06.webp','/img/fasanoJ2/07.webp','/img/fasanoJ2/08.webp','/img/fasanoJ2/09.webp','/img/fasanoJ2/10.webp','/img/fasanoJ2/11.webp','/img/fasanoJ2/12.webp','/img/fasanoJ2/13.webp','/img/fasanoJ2/14.webp','/img/fasanoJ2/15.webp','/img/fasanoJ2/16.webp','/img/fasanoJ2/17.webp','/img/fasanoJ2/18.webp','/img/fasanoJ2/19.webp','/img/fasanoJ2/20.webp','/img/fasanoJ2/21.webp','/img/fasanoJ2/22.webp','/img/fasanoJ2/23.webp','/img/fasanoJ2/24.webp','/img/fasanoJ2/25.webp','/img/fasanoJ2/26.webp'], featured: false,
   amenities: {
     pt: ['Ar-condicionado em todos os quartos', 'Secador de cabelo', 'Área gourmet com churrasqueira a gás', 'Adega de vinhos', 'Cervejeira', 'Cozinha equipada com eletrodomésticos e utensílios', 'Frigobar', 'Internet Wi-Fi', 'Gerador de energia', 'Espreguiçadeiras e ombrelone', 'Estacionamento', 'Lavabo', 'Amenities do Fasano Trancoso', 'Condomínio fechado'],
@@ -355,7 +355,7 @@ const COQ15: Property = {
   priceLow: { pt: 'R$ 3.800 / diária', en: 'R$ 3,800 / night' },
   carnaval: { pt: 'R$ 50.000', en: 'R$ 50,000' },
   reveillon: { pt: 'R$ 175.000', en: 'R$ 175,000' },
-  image: '/img/coqueiral15/01.jpg',
+  image: '/img/coqueiral15/01.webp',
   gallery: ['/img/coqueiral15/01.webp', '/img/coqueiral15/02.webp', '/img/coqueiral15/03.webp', '/img/coqueiral15/04.webp', '/img/coqueiral15/05.webp', '/img/coqueiral15/06.webp', '/img/coqueiral15/07.webp', '/img/coqueiral15/08.webp', '/img/coqueiral15/09.webp', '/img/coqueiral15/10.webp', '/img/coqueiral15/11.webp', '/img/coqueiral15/12.webp', '/img/coqueiral15/13.webp', '/img/coqueiral15/14.webp', '/img/coqueiral15/15.webp', '/img/coqueiral15/16.webp', '/img/coqueiral15/17.webp', '/img/coqueiral15/18.webp', '/img/coqueiral15/19.webp', '/img/coqueiral15/20.webp', '/img/coqueiral15/21.webp', '/img/coqueiral15/22.webp', '/img/coqueiral15/23.webp', '/img/coqueiral15/24.webp', '/img/coqueiral15/25.webp', '/img/coqueiral15/26.webp', '/img/coqueiral15/27.webp', '/img/coqueiral15/28.webp', '/img/coqueiral15/29.webp', '/img/coqueiral15/30.webp', '/img/coqueiral15/31.webp', '/img/coqueiral15/32.webp', '/img/coqueiral15/33.webp', '/img/coqueiral15/34.webp', '/img/coqueiral15/35.webp'],
   featured: false,
   amenities: { pt: ['Condomínio Coqueiral, a cerca de 2 km do Quadrado', 'Piscina', 'Terreno de aproximadamente 750 m²', 'Cozinha gourmet com churrasqueira integrada à área de lazer', 'Sala de estar e sala de TV', 'Cozinha principal', 'Lavabo', 'Amplas áreas de convivência', 'Quartos distribuídos entre casa principal e área anexa'],
@@ -377,7 +377,7 @@ const CASAFLO: Property = {
   priceLow: { pt: 'R$ 5.000 / diária', en: 'R$ 5,000 / night' },
   carnaval: { pt: 'R$ 80.000', en: 'R$ 80,000' },
   reveillon: { pt: 'R$ 200.000', en: 'R$ 200,000' },
-  image: '/img/casaflo/01.jpg',
+  image: '/img/casaflo/01.webp',
   gallery: ['/img/casaflo/01.webp', '/img/casaflo/02.webp', '/img/casaflo/03.webp', '/img/casaflo/04.webp', '/img/casaflo/05.webp', '/img/casaflo/06.webp', '/img/casaflo/07.webp', '/img/casaflo/08.webp', '/img/casaflo/09.webp', '/img/casaflo/10.webp', '/img/casaflo/11.webp', '/img/casaflo/12.webp', '/img/casaflo/13.webp'],
   featured: false,
   amenities: { pt: ['Em plena Praça do Quadrado', 'Piscina', 'Vista para o mar', 'Área gourmet completa com vista para o mar', 'Churrasqueira', 'Adega, cervejeira e máquina de gelo', 'Sala de estar climatizada com TV de 55"', 'Cozinha equipada com cooktop e forno', 'Suíte master com cama Super King, TV 55", frigobar e varanda com vista para o mar', 'Ar-condicionado nas suítes', 'Wi-Fi', 'Lavabo', 'Lavanderia', 'Enxoval de cama e banho', 'Secador de cabelo'],
@@ -399,7 +399,7 @@ const CASACP: Property = {
   priceLow: { pt: 'R$ 2.000 / diária', en: 'R$ 2,000 / night' },
   carnaval: { pt: 'R$ 35.000', en: 'R$ 35,000' },
   reveillon: { pt: 'R$ 120.000', en: 'R$ 120,000' },
-  image: '/img/casacp/01.jpg',
+  image: '/img/casacp/01.webp',
   gallery: ['/img/casacp/01.webp', '/img/casacp/02.webp', '/img/casacp/03.webp', '/img/casacp/04.webp', '/img/casacp/05.webp', '/img/casacp/06.webp', '/img/casacp/07.webp', '/img/casacp/08.webp', '/img/casacp/09.webp', '/img/casacp/10.webp', '/img/casacp/11.webp', '/img/casacp/12.webp', '/img/casacp/13.webp', '/img/casacp/14.webp', '/img/casacp/15.webp', '/img/casacp/16.webp', '/img/casacp/17.webp', '/img/casacp/18.webp', '/img/casacp/19.webp', '/img/casacp/20.webp', '/img/casacp/21.webp', '/img/casacp/22.webp', '/img/casacp/23.webp'],
   featured: false,
   amenities: { pt: ['Localização privilegiada no coração do Quadrado Histórico', 'Vista para o mar e para a Praia dos Nativos', 'Amplo deck', 'Jardim e solário', 'Ar-condicionado nos quartos', 'Sala de estar', 'Sala de jantar', 'Cozinha equipada', 'Wi-Fi', 'TV', 'Enxoval de cama e banho', 'Restaurantes, bares, lojas e cafés a poucos passos'],
@@ -421,7 +421,7 @@ const TEMPO03: Property = {
   priceLow: { pt: 'R$ 1.700 / diária', en: 'R$ 1,700 / night' },
   carnaval: { pt: 'Sob consulta', en: 'On request' },
   reveillon: { pt: 'Sob consulta', en: 'On request' },
-  image: '/img/tempo03/01.jpg',
+  image: '/img/tempo03/01.webp',
   gallery: ['/img/tempo03/01.webp', '/img/tempo03/02.webp', '/img/tempo03/03.webp', '/img/tempo03/04.webp', '/img/tempo03/05.webp', '/img/tempo03/06.webp', '/img/tempo03/07.webp', '/img/tempo03/08.webp', '/img/tempo03/09.webp', '/img/tempo03/10.webp', '/img/tempo03/11.webp', '/img/tempo03/12.webp', '/img/tempo03/13.webp', '/img/tempo03/14.webp', '/img/tempo03/15.webp', '/img/tempo03/16.webp', '/img/tempo03/17.webp'],
   featured: false,
   amenities: { pt: ['A menos de 100 metros do Quadrado', 'Condomínio fechado com portaria e segurança 24h', 'Piscina compartilhada do condomínio com espreguiçadeiras', 'Deck privativo com mesa para refeições', 'Suítes com ar-condicionado e camas queen size', 'Sala de TV com Smart TV', 'Cozinha equipada em conceito aberto', 'Wi-Fi', 'Enxoval de cama, mesa e banho', 'Área de serviço', 'Gerador de energia', 'Estacionamento'],
@@ -446,7 +446,7 @@ const OLAVA: Property = {
   priceLow: { pt: 'R$ 2.100 / diária', en: 'R$ 2,100 / night' },
   carnaval: { pt: 'R$ 21.000', en: 'R$ 21,000' },
   reveillon: { pt: 'R$ 89.000', en: 'R$ 89,000' },
-  image: '/img/donaolava/01.jpg',
+  image: '/img/donaolava/01.webp',
   gallery: ['/img/donaolava/01.webp', '/img/donaolava/02.webp', '/img/donaolava/03.webp', '/img/donaolava/04.webp', '/img/donaolava/05.webp', '/img/donaolava/06.webp', '/img/donaolava/07.webp', '/img/donaolava/08.webp', '/img/donaolava/09.webp', '/img/donaolava/10.webp', '/img/donaolava/11.webp', '/img/donaolava/12.webp', '/img/donaolava/13.webp', '/img/donaolava/14.webp', '/img/donaolava/15.webp', '/img/donaolava/16.webp'], featured: false,
   amenities: {
     pt: ['Localização privilegiada no Quadrado Histórico', 'Vista para o mar e para o Quadrado', 'Ar-condicionado nos quartos', 'Sala de estar com TV', 'Sala de jantar', 'Cozinha completa', 'Wi-Fi', 'Enxoval completo', 'Lavabo', 'Restaurantes e lojas a poucos passos'],
@@ -466,7 +466,7 @@ const BUENAVISTA: Property = {
   priceLow: { pt: 'R$ 8.000 / diária', en: 'R$ 8,000 / night' },
   carnaval: { pt: 'R$ 65.000 / pacote', en: 'R$ 65,000 / package' },
   reveillon: { pt: 'R$ 300.000 / pacote', en: 'R$ 300,000 / package' },
-  image: '/img/buenavista/01.jpg',
+  image: '/img/buenavista/01.webp',
   gallery: ['/img/buenavista/01.webp','/img/buenavista/02.webp','/img/buenavista/03.webp','/img/buenavista/04.webp','/img/buenavista/05.webp','/img/buenavista/06.webp','/img/buenavista/07.webp','/img/buenavista/08.webp','/img/buenavista/09.webp','/img/buenavista/10.webp','/img/buenavista/11.webp','/img/buenavista/12.webp','/img/buenavista/13.webp','/img/buenavista/14.webp','/img/buenavista/15.webp','/img/buenavista/16.webp','/img/buenavista/17.webp','/img/buenavista/18.webp','/img/buenavista/19.webp','/img/buenavista/20.webp','/img/buenavista/21.webp','/img/buenavista/22.webp','/img/buenavista/23.webp','/img/buenavista/24.webp','/img/buenavista/25.webp','/img/buenavista/26.webp','/img/buenavista/27.webp','/img/buenavista/28.webp','/img/buenavista/29.webp','/img/buenavista/30.webp'], featured: false,
   amenities: {
     pt: ['Vista para o mar', 'Piscina privativa', 'Amplo gramado e jardim', 'Sala de estar', 'Sala de jantar', 'Sala de TV', 'Cozinha equipada', 'Ar-condicionado nos dormitórios', 'TV a cabo', 'Roupas de cama, mesa e banho', 'Chalé anexo independente'],
@@ -491,7 +491,7 @@ const NAOCA: Property = {
   price: { pt: 'R$ 31.000 / diária', en: 'R$ 31,000 / night' },
   priceLow: { pt: 'R$ 19.500 / diária', en: 'R$ 19,500 / night' },
   reveillon: { pt: 'R$ 605.000', en: 'R$ 605,000' },
-  image: '/img/naoca/01.jpg',
+  image: '/img/naoca/01.webp',
   gallery: ['/img/naoca/01.webp','/img/naoca/02.webp','/img/naoca/03.webp','/img/naoca/04.webp','/img/naoca/05.webp','/img/naoca/06.webp','/img/naoca/07.webp','/img/naoca/08.webp','/img/naoca/09.webp','/img/naoca/10.webp','/img/naoca/11.webp','/img/naoca/12.webp','/img/naoca/13.webp','/img/naoca/14.webp','/img/naoca/15.webp','/img/naoca/16.webp','/img/naoca/17.webp','/img/naoca/18.webp','/img/naoca/19.webp','/img/naoca/20.webp','/img/naoca/21.webp','/img/naoca/22.webp','/img/naoca/23.webp','/img/naoca/24.webp','/img/naoca/25.webp','/img/naoca/26.webp','/img/naoca/27.webp','/img/naoca/28.webp','/img/naoca/29.webp','/img/naoca/30.webp'], featured: true,
   amenities: {
     pt: ['Pé na areia', 'Piscina', 'Deck de madeira', 'Espaços para massagem e relaxamento', 'Jardim tropical', 'Sala de estar e TV', 'Cozinha equipada', 'Wi-Fi', 'Ar-condicionado e ventiladores', 'Estacionamento', 'Lavanderia', 'Roupa de cama, banho e praia', 'Espreguiçadeiras e ombrelones', 'Sky', 'Lavabo'],
@@ -513,7 +513,7 @@ const CASA71: Property = {
   seasonLow: { pt: 'De abril a novembro', en: 'April to November' },
   carnaval: { pt: 'R$ 120.000', en: 'R$ 120,000' },
   salePrice: { pt: 'R$ 28.000.000', en: 'R$ 28,000,000' },
-  image: '/img/casa71/02.jpg',
+  image: '/img/casa71/02.webp',
   gallery: ['/img/casa71/02.webp','/img/casa71/01.webp','/img/casa71/03.webp','/img/casa71/04.webp','/img/casa71/05.webp','/img/casa71/06.webp','/img/casa71/07.webp','/img/casa71/08.webp','/img/casa71/09.webp','/img/casa71/10.webp','/img/casa71/11.webp','/img/casa71/12.webp','/img/casa71/13.webp','/img/casa71/14.webp','/img/casa71/15.webp','/img/casa71/16.webp','/img/casa71/17.webp','/img/casa71/18.webp','/img/casa71/19.webp','/img/casa71/20.webp','/img/casa71/21.webp','/img/casa71/22.webp'], featured: true,
   amenities: {
     pt: ['Duas piscinas (uma aquecida)', 'Lounge com vista para o mar', 'Espaço gourmet completo', 'Churrasqueira', 'Academia equipada', 'Adega e cervejeira', 'Cozinha equipada', 'Wi-Fi', 'Ar-condicionado em todas as suítes', 'Frigobar nas suítes', 'Lavanderia', 'Roupa de cama, banho e praia', 'Apoio de praia', 'Condomínio fechado com segurança'],
@@ -532,7 +532,7 @@ const CAJU: Property = {
   price: { pt: 'R$ 12.000 / diária', en: 'R$ 12,000 / night' },
   priceLow: { pt: 'R$ 11.000 / diária', en: 'R$ 11,000 / night' },
   reveillon: { pt: 'R$ 495.000', en: 'R$ 495,000' },
-  image: '/img/caju/01.jpg',
+  image: '/img/caju/01.webp',
   gallery: ['/img/caju/01.webp','/img/caju/02.webp','/img/caju/03.webp','/img/caju/04.webp','/img/caju/05.webp','/img/caju/06.webp','/img/caju/07.webp','/img/caju/08.webp','/img/caju/09.webp','/img/caju/10.webp','/img/caju/11.webp','/img/caju/12.webp','/img/caju/13.webp','/img/caju/14.webp','/img/caju/15.webp','/img/caju/16.webp','/img/caju/17.webp','/img/caju/18.webp','/img/caju/19.webp','/img/caju/20.webp','/img/caju/21.webp','/img/caju/22.webp'], featured: false,
   amenities: {
     pt: ['Piscina com deck de pedra', 'Sala de estar com pé-direito duplo', 'Cozinha gourmet integrada', 'Mezanino com sala de TV e jogos', 'Ampla varanda', 'Suítes com closet e banheira', 'Chuveiros interno e externo', 'Área de serviço completa', 'Estacionamento para 2 veículos', 'Condomínio fechado com segurança'],
@@ -551,7 +551,7 @@ const SANMARCO: Property = {
   price: { pt: 'US$ 5.500 / diária', en: 'US$ 5,500 / night' },
   priceLow: { pt: 'US$ 3.500 / diária', en: 'US$ 3,500 / night' },
   carnaval: { pt: 'US$ 30.000', en: 'US$ 30,000' },
-  image: '/img/sanmarco/01.jpg',
+  image: '/img/sanmarco/01.webp',
   gallery: ['/img/sanmarco/01.webp','/img/sanmarco/02.webp','/img/sanmarco/03.webp','/img/sanmarco/04.webp','/img/sanmarco/05.webp','/img/sanmarco/06.webp','/img/sanmarco/07.webp','/img/sanmarco/08.webp','/img/sanmarco/09.webp','/img/sanmarco/10.webp','/img/sanmarco/11.webp','/img/sanmarco/12.webp','/img/sanmarco/13.webp','/img/sanmarco/14.webp','/img/sanmarco/15.webp','/img/sanmarco/16.webp','/img/sanmarco/17.webp','/img/sanmarco/18.webp','/img/sanmarco/19.webp','/img/sanmarco/20.webp','/img/sanmarco/21.webp','/img/sanmarco/22.webp','/img/sanmarco/23.webp'], featured: false,
   amenities: {
     pt: ['Pé na areia com acesso direto à praia', 'Piscina e hidromassagem', 'Sauna', 'Adega climatizada', 'Área gourmet com churrasqueira', 'Sala de estar e sala de TV', 'Deck', 'Máquina de gelo e cervejeira', 'Lavanderia', 'Cozinha totalmente equipada', 'Apoio completo de praia', 'Roupas de cama, mesa e banho', 'Toalhas para piscina', 'Caixa de som e TV Sky', 'Estacionamento'],
@@ -570,7 +570,7 @@ const CASA14: Property = {
   price: { pt: 'R$ 15.000 / diária', en: 'R$ 15,000 / night' },
   priceLow: { pt: 'R$ 12.000 / diária', en: 'R$ 12,000 / night' },
   reveillon: { pt: 'R$ 650.000', en: 'R$ 650,000' },
-  image: '/img/casa14/23.jpg',
+  image: '/img/casa14/23.webp',
   gallery: ['/img/casa14/01.webp','/img/casa14/02.webp','/img/casa14/03.webp','/img/casa14/04.webp','/img/casa14/05.webp','/img/casa14/06.webp','/img/casa14/07.webp','/img/casa14/08.webp','/img/casa14/09.webp','/img/casa14/10.webp','/img/casa14/11.webp','/img/casa14/12.webp','/img/casa14/13.webp','/img/casa14/14.webp','/img/casa14/15.webp','/img/casa14/16.webp','/img/casa14/17.webp','/img/casa14/18.webp','/img/casa14/19.webp','/img/casa14/20.webp','/img/casa14/21.webp','/img/casa14/22.webp','/img/casa14/23.webp'], featured: false,
   amenities: {
     pt: ['Piscina com hidromassagem', 'Piscina com telão', 'Área gourmet', 'Churrasqueira a gás', 'Cozinha equipada', 'Adega e cervejeira', 'Ar-condicionado', 'Mosquiteiros', 'Lavanderia', 'Roupas de cama, mesa e banho', 'Toalhas de piscina', 'Caixa de som e TV Sky', 'Estrutura completa de praia (cadeiras, tenda e coolers)', 'Estacionamento', 'A 8 min a pé do elevador de acesso à praia'],
@@ -589,7 +589,7 @@ const CASA09: Property = {
   price: { pt: 'R$ 27.500 / diária', en: 'R$ 27,500 / night' },
   priceLow: { pt: 'R$ 19.500 / diária', en: 'R$ 19,500 / night' },
   reveillon: { pt: 'R$ 850.000', en: 'R$ 850,000' },
-  image: '/img/casa09/04.jpg',
+  image: '/img/casa09/04.webp',
   gallery: ['/img/casa09/01.webp','/img/casa09/02.webp','/img/casa09/04.webp','/img/casa09/05.webp','/img/casa09/07.webp','/img/casa09/09.webp','/img/casa09/10.webp','/img/casa09/12.webp','/img/casa09/15.webp','/img/casa09/16.webp','/img/casa09/17.webp','/img/casa09/19.webp','/img/casa09/21.webp','/img/casa09/22.webp','/img/casa09/23.webp','/img/casa09/25.webp','/img/casa09/26.webp','/img/casa09/28.webp','/img/casa09/30.webp','/img/casa09/32.webp','/img/casa09/34.webp','/img/casa09/36.webp','/img/casa09/38.webp','/img/casa09/40.webp','/img/casa09/42.webp','/img/casa09/43.webp','/img/casa09/45.webp','/img/casa09/47.webp','/img/casa09/48.webp','/img/casa09/51.webp','/img/casa09/53.webp','/img/casa09/54.webp','/img/casa09/55.webp','/img/casa09/57.webp','/img/casa09/59.webp','/img/casa09/60.webp','/img/casa09/62.webp','/img/casa09/64.webp','/img/casa09/66.webp','/img/casa09/68.webp'], featured: false,
   amenities: {
     pt: ['Piscina com deck', 'Área gourmet com churrasqueira', 'Sala de estar ampla', 'Sala de TV', 'Cozinha completa', 'Lavabo', 'Ar-condicionado nas suítes', 'Ventiladores de teto', 'Wi-Fi', 'Varandas integradas', 'Acesso privativo à Praia de Itapororoca', 'Condomínio fechado com segurança'],
@@ -606,7 +606,7 @@ const BOSSA: Property = {
   id: 'casa-bossa-nova-alto', code: 'TBA-206', name: { pt: 'Casa Bossa Nova', en: 'Casa Bossa Nova' },
   purpose: ['aluguel'], location: 'Altos de Trancoso', suites: 6, guests: 12, baths: 7, area: '680 m²',
   price: { pt: 'Sob consulta', en: 'Upon request' },
-  image: '/img/bossa/01.jpg',
+  image: '/img/bossa/01.webp',
   gallery: ['/img/bossa/01.webp','/img/bossa/02.webp','/img/bossa/03.webp','/img/bossa/04.webp','/img/bossa/05.webp','/img/bossa/06.webp','/img/bossa/07.webp','/img/bossa/08.webp','/img/bossa/09.webp','/img/bossa/10.webp','/img/bossa/11.webp','/img/bossa/12.webp','/img/bossa/13.webp','/img/bossa/14.webp','/img/bossa/15.webp','/img/bossa/16.webp','/img/bossa/17.webp','/img/bossa/18.webp','/img/bossa/19.webp','/img/bossa/20.webp','/img/bossa/21.webp','/img/bossa/22.webp','/img/bossa/23.webp','/img/bossa/24.webp','/img/bossa/25.webp','/img/bossa/26.webp','/img/bossa/27.webp','/img/bossa/28.webp','/img/bossa/29.webp','/img/bossa/30.webp'], featured: false,
   amenities: {
     pt: ['Piscina', 'Ofurô', 'Redário', 'Sala de massagem', 'Espaço gourmet', 'Vista para o mar', 'Sala de estar', 'Sala de TV', 'Cozinha completa', 'Ar-condicionado em todas as suítes', 'Mosquiteiro e secador', 'Varandas amplas', 'Condomínio fechado com segurança'],
@@ -626,7 +626,7 @@ const TUA: Property = {
   priceLow: { pt: 'R$ 2.900 / diária', en: 'R$ 2,900 / night' },
   carnaval: { pt: 'R$ 30.000', en: 'R$ 30,000' },
   reveillon: { pt: 'R$ 120.000', en: 'R$ 120,000' },
-  image: '/img/tua/01.jpg',
+  image: '/img/tua/01.webp',
   gallery: ['/img/tua/01.webp','/img/tua/02.webp','/img/tua/03.webp','/img/tua/04.webp','/img/tua/05.webp','/img/tua/06.webp','/img/tua/07.webp','/img/tua/08.webp','/img/tua/09.webp','/img/tua/10.webp','/img/tua/11.webp','/img/tua/12.webp','/img/tua/13.webp','/img/tua/14.webp','/img/tua/15.webp','/img/tua/16.webp','/img/tua/17.webp','/img/tua/18.webp','/img/tua/19.webp','/img/tua/20.webp','/img/tua/21.webp','/img/tua/22.webp','/img/tua/23.webp','/img/tua/24.webp','/img/tua/25.webp','/img/tua/26.webp','/img/tua/27.webp','/img/tua/28.webp','/img/tua/29.webp','/img/tua/30.webp'], featured: false,
   amenities: {
     pt: ['Piscina', 'Espaço gourmet', 'Churrasqueira', 'Sala de estar', 'Sala de jantar', 'Sala de TV', 'Cozinha equipada', 'Jardim', 'Espreguiçadeiras e ombrelones', 'Estacionamento', 'Lavanderia', 'Quarto de apoio'],
@@ -645,7 +645,7 @@ const IMBIRUCU: Property = {
   price: { pt: 'R$ 16.500 / diária', en: 'R$ 16,500 / night' },
   priceLow: { pt: 'R$ 13.500 / diária', en: 'R$ 13,500 / night' },
   carnaval: { pt: 'R$ 62.500', en: 'R$ 62,500' },
-  image: '/img/imbirucu/01.jpg',
+  image: '/img/imbirucu/01.webp',
   gallery: ['/img/imbirucu/01.webp','/img/imbirucu/02.webp','/img/imbirucu/03.webp','/img/imbirucu/04.webp','/img/imbirucu/05.webp','/img/imbirucu/06.webp','/img/imbirucu/07.webp','/img/imbirucu/08.webp','/img/imbirucu/09.webp','/img/imbirucu/10.webp','/img/imbirucu/11.webp','/img/imbirucu/12.webp','/img/imbirucu/13.webp','/img/imbirucu/14.webp','/img/imbirucu/15.webp','/img/imbirucu/16.webp','/img/imbirucu/17.webp','/img/imbirucu/18.webp','/img/imbirucu/19.webp','/img/imbirucu/20.webp','/img/imbirucu/21.webp','/img/imbirucu/22.webp','/img/imbirucu/23.webp','/img/imbirucu/24.webp','/img/imbirucu/25.webp','/img/imbirucu/26.webp','/img/imbirucu/27.webp','/img/imbirucu/28.webp','/img/imbirucu/29.webp','/img/imbirucu/30.webp'], featured: false,
   amenities: {
     pt: ['Pé na areia com acesso direto à praia', 'Piscina privativa', 'Sauna', 'Mirante exclusivo', 'Espaço gourmet', 'Churrasqueira', 'Sala de estar e jantar', 'Cozinha equipada', 'Lavanderia', 'Poço artesiano', 'Estacionamento', 'Mais de 100 m de frente para o mar'],
@@ -665,7 +665,7 @@ const CASA42: Property = {
   priceLow: { pt: 'Sob consulta', en: 'Upon request' },
   carnaval: { pt: 'R$ 250.000 (7 diárias)', en: 'R$ 250,000 (7 nights)' },
   reveillon: { pt: 'R$ 980.000', en: 'R$ 980,000' },
-  image: '/img/casa42/01.jpg',
+  image: '/img/casa42/01.webp',
   gallery: ['/img/casa42/01.webp','/img/casa42/02.webp','/img/casa42/03.webp','/img/casa42/04.webp','/img/casa42/05.webp','/img/casa42/06.webp','/img/casa42/07.webp','/img/casa42/08.webp','/img/casa42/09.webp','/img/casa42/10.webp','/img/casa42/11.webp','/img/casa42/12.webp','/img/casa42/13.webp','/img/casa42/14.webp','/img/casa42/15.webp','/img/casa42/16.webp','/img/casa42/17.webp','/img/casa42/18.webp','/img/casa42/19.webp','/img/casa42/20.webp','/img/casa42/21.webp','/img/casa42/22.webp','/img/casa42/23.webp','/img/casa42/24.webp','/img/casa42/25.webp','/img/casa42/26.webp','/img/casa42/27.webp','/img/casa42/28.webp','/img/casa42/29.webp','/img/casa42/30.webp'], featured: false,
   amenities: {
     pt: ['Piscina aquecida com borda infinita', 'Jacuzzi', 'Sauna e chuveirão', 'Espaço gourmet em madeira Garapa', 'Churrasqueira, cervejeira, adega e máquina de gelo', 'Sala de estar, jantar e TV', 'Cozinha equipada', 'Deck e solário', 'Jardins exuberantes', 'Ar-condicionado nas 7 suítes', 'Smart TV e Wi-Fi', 'Estacionamento e lavanderia'],
@@ -685,7 +685,7 @@ const CASA61: Property = {
   priceLow: { pt: 'R$ 14.000 / diária', en: 'R$ 14,000 / night' },
   carnaval: { pt: 'Sob consulta', en: 'Upon request' },
   reveillon: { pt: 'R$ 550.000', en: 'R$ 550,000' },
-  image: '/img/casa61/01.jpg',
+  image: '/img/casa61/01.webp',
   gallery: ['/img/casa61/01.webp','/img/casa61/02.webp','/img/casa61/03.webp','/img/casa61/04.webp','/img/casa61/05.webp','/img/casa61/06.webp','/img/casa61/07.webp','/img/casa61/08.webp','/img/casa61/09.webp','/img/casa61/10.webp','/img/casa61/11.webp','/img/casa61/12.webp','/img/casa61/13.webp','/img/casa61/14.webp','/img/casa61/15.webp','/img/casa61/16.webp','/img/casa61/17.webp','/img/casa61/18.webp','/img/casa61/19.webp','/img/casa61/20.webp','/img/casa61/21.webp','/img/casa61/22.webp','/img/casa61/23.webp','/img/casa61/24.webp','/img/casa61/25.webp','/img/casa61/26.webp','/img/casa61/27.webp','/img/casa61/28.webp','/img/casa61/29.webp','/img/casa61/30.webp'], featured: false,
   amenities: {
     pt: ['Vista para o mar do Rio da Barra', 'Piscina', 'Jacuzzi aquecida', 'Bar à beira da piscina', 'Área gourmet com forno de pizza e churrasqueira a gás', 'Deck de madeira com redes', 'Sala de estar e jantar', 'Cozinha equipada', 'Cervejeira, adega e máquina de gelo', 'Acesso exclusivo à praia pelo elevador do condomínio', 'Kit bebê completo', 'Gerador, Wi-Fi e TV Sky'],
@@ -705,7 +705,7 @@ const VILAS02: Property = {
   priceLow: { pt: 'R$ 2.800 / diária', en: 'R$ 2,800 / night' },
   carnaval: { pt: 'R$ 20.000', en: 'R$ 20,000' },
   reveillon: { pt: 'R$ 140.000', en: 'R$ 140,000' },
-  image: '/img/casa02/01.jpg',
+  image: '/img/casa02/01.webp',
   gallery: ['/img/casa02/01.webp','/img/casa02/02.webp','/img/casa02/03.webp','/img/casa02/04.webp','/img/casa02/05.webp','/img/casa02/06.webp','/img/casa02/07.webp','/img/casa02/08.webp','/img/casa02/09.webp','/img/casa02/10.webp','/img/casa02/11.webp','/img/casa02/12.webp','/img/casa02/13.webp','/img/casa02/14.webp','/img/casa02/15.webp','/img/casa02/16.webp','/img/casa02/17.webp','/img/casa02/18.webp','/img/casa02/19.webp','/img/casa02/20.webp','/img/casa02/21.webp','/img/casa02/22.webp','/img/casa02/23.webp','/img/casa02/24.webp','/img/casa02/25.webp','/img/casa02/26.webp','/img/casa02/27.webp','/img/casa02/28.webp','/img/casa02/29.webp','/img/casa02/30.webp'], featured: false,
   amenities: {
     pt: ['Sala de estar integrada ao deck', 'Cozinha equipada', 'Espaço gourmet com churrasqueira', 'Adega, cervejeira e máquina de gelo', 'Piscina do condomínio', 'Apoio exclusivo na Praia do Rio da Barra com restaurante e bar', 'Acesso ao Terravista Golf', 'Ar-condicionado nas suítes', 'Wi-Fi e Netflix', 'Carrinho de golfe (locação)', 'Lavanderia', 'Estacionamento'],
@@ -725,7 +725,7 @@ const CASA80: Property = {
   priceLow: { pt: 'R$ 8.500 / diária', en: 'R$ 8,500 / night' },
   carnaval: { pt: 'R$ 80.000', en: 'R$ 80,000' },
   reveillon: { pt: 'R$ 370.000', en: 'R$ 370,000' },
-  image: '/img/casa80/01.jpg',
+  image: '/img/casa80/01.webp',
   gallery: ['/img/casa80/01.webp','/img/casa80/02.webp','/img/casa80/03.webp','/img/casa80/04.webp','/img/casa80/05.webp','/img/casa80/06.webp','/img/casa80/07.webp','/img/casa80/08.webp','/img/casa80/09.webp','/img/casa80/10.webp','/img/casa80/11.webp','/img/casa80/12.webp','/img/casa80/13.webp','/img/casa80/14.webp','/img/casa80/15.webp','/img/casa80/16.webp','/img/casa80/17.webp','/img/casa80/18.webp','/img/casa80/19.webp','/img/casa80/20.webp','/img/casa80/21.webp','/img/casa80/22.webp','/img/casa80/23.webp','/img/casa80/24.webp','/img/casa80/25.webp','/img/casa80/26.webp'], featured: false,
   amenities: {
     pt: ['Piscina de 15 x 3 metros', 'Deck de 117 m²', 'Redário', 'Área de fogueira', 'Espaço gourmet com churrasqueira', 'Mesa de sinuca', 'Escritório', 'Sala de estar e jantar', 'Cozinha equipada', 'Ar-condicionado e mosquiteiros', 'Smart TV e Wi-Fi', 'Acesso privativo à Praia das Tartarugas'],
@@ -745,7 +745,7 @@ const ITAPO07: Property = {
   priceLow: { pt: 'Sob consulta', en: 'Upon request' },
   carnaval: { pt: 'Sob consulta', en: 'Upon request' },
   reveillon: { pt: 'R$ 605.000', en: 'R$ 605,000' },
-  image: '/img/itapororoca07/11.jpg',
+  image: '/img/itapororoca07/11.webp',
   gallery: ['/img/itapororoca07/11.webp','/img/itapororoca07/01.webp','/img/itapororoca07/02.webp','/img/itapororoca07/03.webp','/img/itapororoca07/04.webp','/img/itapororoca07/05.webp','/img/itapororoca07/06.webp','/img/itapororoca07/07.webp','/img/itapororoca07/08.webp','/img/itapororoca07/09.webp','/img/itapororoca07/10.webp','/img/itapororoca07/12.webp','/img/itapororoca07/13.webp','/img/itapororoca07/14.webp','/img/itapororoca07/15.webp','/img/itapororoca07/16.webp','/img/itapororoca07/17.webp','/img/itapororoca07/18.webp','/img/itapororoca07/19.webp','/img/itapororoca07/20.webp','/img/itapororoca07/21.webp','/img/itapororoca07/22.webp','/img/itapororoca07/23.webp','/img/itapororoca07/24.webp','/img/itapororoca07/25.webp','/img/itapororoca07/26.webp','/img/itapororoca07/27.webp','/img/itapororoca07/28.webp','/img/itapororoca07/29.webp','/img/itapororoca07/30.webp'], featured: false,
   amenities: {
     pt: ['Pé na areia na Praia de Itapororoca', 'Piscina com deck de madeira', 'Ofurô', 'Sauna seca', 'Espaço gourmet com churrasqueira e forno a lenha', 'Adega e máquina de gelo', 'Sala de TV ampla', 'Cozinha equipada', 'Ar-condicionado e mosquiteiros nas suítes', 'Carrinho de golfe pick-up', 'Gerador', 'Apoio de praia do condomínio em frente às piscinas naturais'],
@@ -765,7 +765,7 @@ const CASA96: Property = {
   priceLow: { pt: 'Sob consulta', en: 'Upon request' },
   carnaval: { pt: 'Sob consulta', en: 'Upon request' },
   reveillon: { pt: 'Indisponível', en: 'Unavailable' },
-  image: '/img/casa96/01.jpg',
+  image: '/img/casa96/01.webp',
   gallery: ['/img/casa96/01.webp','/img/casa96/02.webp','/img/casa96/03.webp','/img/casa96/04.webp','/img/casa96/05.webp','/img/casa96/06.webp','/img/casa96/07.webp','/img/casa96/08.webp','/img/casa96/09.webp','/img/casa96/10.webp','/img/casa96/11.webp','/img/casa96/12.webp','/img/casa96/13.webp','/img/casa96/14.webp','/img/casa96/15.webp','/img/casa96/16.webp','/img/casa96/17.webp','/img/casa96/18.webp','/img/casa96/19.webp','/img/casa96/20.webp','/img/casa96/21.webp','/img/casa96/22.webp','/img/casa96/23.webp','/img/casa96/24.webp','/img/casa96/25.webp','/img/casa96/26.webp','/img/casa96/27.webp','/img/casa96/28.webp','/img/casa96/29.webp','/img/casa96/30.webp'], featured: false,
   amenities: {
     pt: ['Vista para o campo de golfe', 'Piscina aquecida', 'Área gourmet completa com churrasqueira a gás', 'Lounge fire pit com lareira a gás', 'Sala de estar, jantar e TV', 'Cozinha equipada com máquina de lavar louças', 'Deck e jardim', 'Ar-condicionado em todas as suítes e sala', 'Smart TV e Wi-Fi', 'Acesso à Praia das Tartarugas pelo elevador do condomínio', 'UTV exclusivo para hóspedes', 'Equipamentos de beach tennis, frescobol e pesca submarina'],
@@ -785,7 +785,7 @@ const CASA90: Property = {
   priceLow: { pt: 'R$ 19.500 / diária', en: 'R$ 19,500 / night' },
   carnaval: { pt: 'R$ 42.500 / diária', en: 'R$ 42,500 / night' },
   reveillon: { pt: 'Sob consulta', en: 'Upon request' },
-  image: '/img/casa90/01.jpg',
+  image: '/img/casa90/01.webp',
   gallery: ['/img/casa90/01.webp','/img/casa90/02.webp','/img/casa90/03.webp','/img/casa90/04.webp','/img/casa90/05.webp','/img/casa90/06.webp','/img/casa90/07.webp','/img/casa90/08.webp','/img/casa90/09.webp','/img/casa90/10.webp','/img/casa90/11.webp','/img/casa90/12.webp','/img/casa90/13.webp','/img/casa90/14.webp','/img/casa90/15.webp','/img/casa90/16.webp','/img/casa90/17.webp','/img/casa90/18.webp','/img/casa90/19.webp','/img/casa90/20.webp','/img/casa90/21.webp','/img/casa90/22.webp','/img/casa90/23.webp','/img/casa90/24.webp','/img/casa90/25.webp','/img/casa90/26.webp','/img/casa90/27.webp','/img/casa90/28.webp','/img/casa90/29.webp','/img/casa90/30.webp'], featured: false,
   amenities: {
     pt: ['Piscina e jacuzzi', 'Spa', 'Adega climatizada', 'Espaço gourmet e churrasqueira', 'Salas de estar e jantar integradas', 'Paisagismo de Alex de Sá', 'Apoio de praia com espreguiçadeiras e ombrelones', 'Quadra de tênis', 'Carrinho de golfe pick-up', 'Ar-condicionado, Wi-Fi e TV a cabo', 'Roupa de cama Trousseau na suíte master', 'Duchas de alta pressão e toalhas de algodão egípcio'],
@@ -805,7 +805,7 @@ const VILAS75: Property = {
   priceLow: { pt: 'R$ 30.000 / diária', en: 'R$ 30,000 / night' },
   carnaval: { pt: 'Sob consulta', en: 'Upon request' },
   reveillon: { pt: 'R$ 800.000', en: 'R$ 800,000' },
-  image: '/img/vilas75/01.jpg',
+  image: '/img/vilas75/01.webp',
   gallery: ['/img/vilas75/01.webp','/img/vilas75/02.webp','/img/vilas75/03.webp','/img/vilas75/04.webp','/img/vilas75/05.webp','/img/vilas75/06.webp','/img/vilas75/07.webp','/img/vilas75/08.webp','/img/vilas75/09.webp','/img/vilas75/10.webp','/img/vilas75/11.webp','/img/vilas75/12.webp','/img/vilas75/13.webp','/img/vilas75/14.webp','/img/vilas75/15.webp','/img/vilas75/16.webp','/img/vilas75/17.webp','/img/vilas75/18.webp','/img/vilas75/19.webp','/img/vilas75/20.webp','/img/vilas75/21.webp','/img/vilas75/22.webp','/img/vilas75/23.webp','/img/vilas75/24.webp','/img/vilas75/25.webp','/img/vilas75/26.webp','/img/vilas75/27.webp','/img/vilas75/28.webp','/img/vilas75/29.webp','/img/vilas75/30.webp'], featured: true,
   amenities: {
     pt: ['Vista para o mar e para o campo de golfe', 'Piscina privativa + piscina do condomínio', 'Elevador interno', 'Internet Starlink', 'Gerador', 'Sala de massagem', 'PlayStation 4', 'Rede de vôlei no jardim', 'Adega de vinhos e cervejeira', 'Espaço gourmet e churrasqueira', 'Apoio de praia', 'Kit bebê e kids friendly'],
@@ -825,7 +825,7 @@ const LIMOEIRO: Property = {
   priceLow: { pt: 'R$ 10.000 / diária', en: 'R$ 10,000 / night' },
   carnaval: { pt: 'R$ 125.000', en: 'R$ 125,000' },
   reveillon: { pt: 'R$ 500.000', en: 'R$ 500,000' },
-  image: '/img/limoeiro/01.jpg',
+  image: '/img/limoeiro/01.webp',
   gallery: ['/img/limoeiro/01.webp','/img/limoeiro/02.webp','/img/limoeiro/03.webp','/img/limoeiro/04.webp','/img/limoeiro/05.webp','/img/limoeiro/06.webp','/img/limoeiro/07.webp','/img/limoeiro/08.webp','/img/limoeiro/09.webp','/img/limoeiro/10.webp','/img/limoeiro/11.webp','/img/limoeiro/12.webp','/img/limoeiro/13.webp','/img/limoeiro/14.webp','/img/limoeiro/15.webp','/img/limoeiro/16.webp','/img/limoeiro/17.webp','/img/limoeiro/18.webp','/img/limoeiro/19.webp','/img/limoeiro/20.webp','/img/limoeiro/21.webp','/img/limoeiro/22.webp','/img/limoeiro/23.webp','/img/limoeiro/24.webp','/img/limoeiro/25.webp','/img/limoeiro/26.webp','/img/limoeiro/27.webp','/img/limoeiro/28.webp','/img/limoeiro/29.webp','/img/limoeiro/30.webp'], featured: false,
   amenities: {
     pt: ['Piscina com paisagismo tropical', 'Ofurô', 'Forno de pizza e churrasqueira', 'Espaço gourmet', 'Mesa de sinuca', 'Academia ao ar livre', 'Quiosque com bar', 'Salas de estar e jantar integradas', 'Cozinha equipada', 'Ar-condicionado e mosquiteiros', 'Wi-Fi', 'Próxima às praias dos Nativos e dos Coqueiros'],
@@ -845,7 +845,7 @@ const BIRIBA: Property = {
   priceLow: { pt: 'R$ 6.000 / diária', en: 'R$ 6,000 / night' },
   carnaval: { pt: 'R$ 50.000', en: 'R$ 50,000' },
   reveillon: { pt: 'R$ 220.000', en: 'R$ 220,000' },
-  image: '/img/biriba/01.jpg',
+  image: '/img/biriba/01.webp',
   gallery: ['/img/biriba/01.webp','/img/biriba/02.webp','/img/biriba/03.webp','/img/biriba/04.webp','/img/biriba/05.webp','/img/biriba/06.webp','/img/biriba/07.webp','/img/biriba/08.webp','/img/biriba/09.webp','/img/biriba/10.webp','/img/biriba/11.webp','/img/biriba/12.webp','/img/biriba/13.webp','/img/biriba/14.webp','/img/biriba/15.webp','/img/biriba/16.webp','/img/biriba/17.webp','/img/biriba/18.webp','/img/biriba/19.webp','/img/biriba/20.webp','/img/biriba/21.webp','/img/biriba/22.webp','/img/biriba/23.webp','/img/biriba/24.webp','/img/biriba/25.webp','/img/biriba/26.webp','/img/biriba/27.webp','/img/biriba/28.webp','/img/biriba/29.webp','/img/biriba/30.webp'], featured: false,
   amenities: {
     pt: ['Piscina cercada pelo jardim', 'Deck de madeira', 'Espaço gourmet', 'Mesa de sinuca e pingue-pongue', 'Salas de estar e jantar integradas', 'Cozinha equipada', 'Ar-condicionado nas suítes', 'Wi-Fi', 'Próxima às praias dos Nativos e dos Coqueiros', 'Disponível também para venda: R$ 7.200.000'],
@@ -865,7 +865,7 @@ const VILAMAR: Property = {
   priceLow: { pt: 'R$ 60.000 / diária', en: 'R$ 60,000 / night' },
   carnaval: { pt: 'R$ 400.000 (2027)', en: 'R$ 400,000 (2027)' },
   reveillon: { pt: 'Indisponível', en: 'Unavailable' },
-  image: '/img/vilamar/01.jpg',
+  image: '/img/vilamar/01.webp',
   gallery: ['/img/vilamar/01.webp','/img/vilamar/02.webp','/img/vilamar/03.webp','/img/vilamar/04.webp','/img/vilamar/05.webp','/img/vilamar/06.webp','/img/vilamar/07.webp','/img/vilamar/08.webp','/img/vilamar/09.webp','/img/vilamar/10.webp','/img/vilamar/11.webp','/img/vilamar/12.webp','/img/vilamar/13.webp','/img/vilamar/14.webp','/img/vilamar/15.webp','/img/vilamar/16.webp','/img/vilamar/17.webp','/img/vilamar/18.webp','/img/vilamar/19.webp','/img/vilamar/20.webp','/img/vilamar/21.webp','/img/vilamar/22.webp','/img/vilamar/23.webp','/img/vilamar/24.webp','/img/vilamar/25.webp','/img/vilamar/26.webp','/img/vilamar/27.webp','/img/vilamar/28.webp','/img/vilamar/29.webp','/img/vilamar/30.webp'], featured: true,
   amenities: {
     pt: ['Vista panorâmica para o mar', 'Piscina com vista para o oceano', 'Sauna', 'Sala de massagem', 'Home theater com mesa de sinuca', 'Espaço gourmet', 'Cozinha profissional', 'Decoração com peças de artistas brasileiros', 'Ar-condicionado e mosquiteiros', 'Wi-Fi', 'Equipe completa de staff incluída', 'Próxima às praias dos Nativos e dos Coqueiros'],
@@ -885,7 +885,7 @@ const BETTONI: Property = {
   priceLow: { pt: 'R$ 9.900 / diária', en: 'R$ 9,900 / night' },
   carnaval: { pt: 'R$ 150.000', en: 'R$ 150,000' },
   reveillon: { pt: 'R$ 550.000', en: 'R$ 550,000' },
-  image: '/img/bettoni/01.jpg',
+  image: '/img/bettoni/01.webp',
   gallery: ['/img/bettoni/01.webp','/img/bettoni/02.webp','/img/bettoni/03.webp','/img/bettoni/04.webp','/img/bettoni/05.webp','/img/bettoni/06.webp','/img/bettoni/07.webp','/img/bettoni/08.webp','/img/bettoni/09.webp','/img/bettoni/10.webp','/img/bettoni/11.webp','/img/bettoni/12.webp','/img/bettoni/13.webp','/img/bettoni/14.webp','/img/bettoni/15.webp','/img/bettoni/16.webp','/img/bettoni/17.webp','/img/bettoni/18.webp','/img/bettoni/19.webp','/img/bettoni/20.webp','/img/bettoni/21.webp','/img/bettoni/22.webp','/img/bettoni/23.webp','/img/bettoni/24.webp','/img/bettoni/25.webp','/img/bettoni/26.webp','/img/bettoni/27.webp','/img/bettoni/28.webp','/img/bettoni/29.webp','/img/bettoni/30.webp'], featured: false,
   amenities: {
     pt: ['Piscina cercada por jardins', 'Jacuzzi privativa', 'Sauna', 'Salas de estar amplas e integradas', 'Sala de TV', 'Espaço gourmet', 'Cozinha equipada', 'Banheiros com ducha ao ar livre', 'Jardins tropicais', 'Ar-condicionado nas suítes', 'Wi-Fi', 'Condomínio com segurança 24h'],
@@ -905,7 +905,7 @@ const PINI: Property = {
   priceLow: { pt: 'R$ 2.850 / diária', en: 'R$ 2,850 / night' },
   carnaval: { pt: 'R$ 33.000', en: 'R$ 33,000' },
   reveillon: { pt: 'R$ 170.000', en: 'R$ 170,000' },
-  image: '/img/pini/01.jpg',
+  image: '/img/pini/01.webp',
   gallery: ['/img/pini/01.webp','/img/pini/02.webp','/img/pini/03.webp','/img/pini/04.webp','/img/pini/05.webp','/img/pini/06.webp','/img/pini/07.webp','/img/pini/08.webp','/img/pini/09.webp','/img/pini/10.webp','/img/pini/11.webp','/img/pini/12.webp','/img/pini/13.webp','/img/pini/14.webp','/img/pini/15.webp'], featured: false,
   amenities: {
     pt: ['Piscina', 'Jardim amplo', 'Sala de estar', 'Sala de jantar', 'Cozinha equipada', 'Ambientes integrados', 'Ar-condicionado nas suítes', 'Wi-Fi', 'Varanda com redes'],
@@ -925,7 +925,7 @@ const AUREA: Property = {
   priceLow: { pt: 'R$ 7.500 / diária', en: 'R$ 7,500 / night' },
   carnaval: { pt: 'R$ 100.000', en: 'R$ 100,000' },
   reveillon: { pt: 'R$ 420.000', en: 'R$ 420,000' },
-  image: '/img/aurea/01.jpg',
+  image: '/img/aurea/01.webp',
   gallery: ['/img/aurea/02.webp','/img/aurea/01.webp','/img/aurea/03.webp','/img/aurea/04.webp','/img/aurea/05.webp','/img/aurea/06.webp','/img/aurea/07.webp','/img/aurea/08.webp','/img/aurea/09.webp','/img/aurea/10.webp','/img/aurea/11.webp','/img/aurea/12.webp','/img/aurea/13.webp','/img/aurea/14.webp','/img/aurea/15.webp','/img/aurea/16.webp','/img/aurea/17.webp','/img/aurea/18.webp','/img/aurea/19.webp','/img/aurea/20.webp','/img/aurea/21.webp','/img/aurea/22.webp','/img/aurea/23.webp','/img/aurea/24.webp','/img/aurea/25.webp','/img/aurea/26.webp','/img/aurea/27.webp','/img/aurea/28.webp','/img/aurea/29.webp','/img/aurea/30.webp'], featured: false,
   amenities: {
     pt: ['Vista para o mar', 'Piscina com deck', 'Academia climatizada', 'Espaço gourmet', 'Lounge externo e redários', 'Ducha externa', 'Sala de estar e jantar', 'Cozinha equipada', 'Churrasqueira', 'TV Sky e caixa de som', '10 min a pé da Praia dos Nativos', 'Não aceita pets'],
@@ -945,7 +945,7 @@ const SAOJORGE: Property = {
   priceLow: { pt: 'Sob consulta', en: 'Upon request' },
   carnaval: { pt: 'Sob consulta', en: 'Upon request' },
   reveillon: { pt: 'R$ 380.000', en: 'R$ 380,000' },
-  image: '/img/saojorge/01.jpg',
+  image: '/img/saojorge/01.webp',
   gallery: ['/img/saojorge/01.webp','/img/saojorge/02.webp','/img/saojorge/03.webp','/img/saojorge/04.webp','/img/saojorge/05.webp','/img/saojorge/06.webp','/img/saojorge/07.webp','/img/saojorge/08.webp','/img/saojorge/09.webp','/img/saojorge/10.webp','/img/saojorge/11.webp','/img/saojorge/12.webp','/img/saojorge/13.webp','/img/saojorge/14.webp','/img/saojorge/15.webp','/img/saojorge/16.webp','/img/saojorge/17.webp','/img/saojorge/18.webp','/img/saojorge/19.webp','/img/saojorge/20.webp','/img/saojorge/21.webp','/img/saojorge/22.webp','/img/saojorge/23.webp','/img/saojorge/24.webp'], featured: false,
   amenities: {
     pt: ['Vista para o mar de todas as suítes', 'Piscina', 'Hidromassagem', 'Rooftop', 'Salão de jogos', 'Sala de estar', 'Cozinha equipada', 'Cervejeira e máquina de gelo', 'Ar-condicionado', 'Wi-Fi', 'Suíte master com varanda, closet e chuveiro duplo'],
@@ -965,7 +965,7 @@ const CAZA: Property = {
   priceLow: { pt: 'R$ 9.900 / diária', en: 'R$ 9,900 / night' },
   carnaval: { pt: 'R$ 107.800', en: 'R$ 107,800' },
   reveillon: { pt: 'R$ 352.000', en: 'R$ 352,000' },
-  image: '/img/caza/01.jpg',
+  image: '/img/caza/01.webp',
   gallery: ['/img/caza/01.webp','/img/caza/02.webp','/img/caza/03.webp','/img/caza/04.webp','/img/caza/05.webp','/img/caza/06.webp','/img/caza/07.webp','/img/caza/08.webp','/img/caza/09.webp','/img/caza/10.webp','/img/caza/11.webp','/img/caza/12.webp','/img/caza/13.webp','/img/caza/14.webp','/img/caza/15.webp','/img/caza/16.webp','/img/caza/17.webp','/img/caza/18.webp','/img/caza/19.webp','/img/caza/20.webp','/img/caza/21.webp','/img/caza/22.webp','/img/caza/23.webp','/img/caza/24.webp','/img/caza/25.webp','/img/caza/26.webp','/img/caza/27.webp','/img/caza/28.webp','/img/caza/29.webp','/img/caza/30.webp'], featured: false,
   amenities: {
     pt: ['Vista panorâmica de 180° para o oceano', 'Piscina em pedras balinesas', 'Amplo gramado', 'Bar', 'Sala de estar e jantar', 'Cozinha equipada', 'Área externa para convivência', 'Closets e cofres', 'Mosquiteiros e ar-condicionado', 'Próxima ao Quadrado e às praias'],
@@ -985,7 +985,7 @@ const ITAPO06: Property = {
   priceLow: { pt: 'R$ 8.000 / diária', en: 'R$ 8,000 / night' },
   carnaval: { pt: 'R$ 60.000', en: 'R$ 60,000' },
   reveillon: { pt: 'R$ 350.000', en: 'R$ 350,000' },
-  image: '/img/itapororoca06/13.jpg',
+  image: '/img/itapororoca06/13.webp',
   gallery: ['/img/itapororoca06/13.webp','/img/itapororoca06/01.webp','/img/itapororoca06/02.webp','/img/itapororoca06/03.webp','/img/itapororoca06/04.webp','/img/itapororoca06/05.webp','/img/itapororoca06/06.webp','/img/itapororoca06/07.webp','/img/itapororoca06/08.webp','/img/itapororoca06/09.webp','/img/itapororoca06/10.webp','/img/itapororoca06/11.webp','/img/itapororoca06/12.webp','/img/itapororoca06/14.webp','/img/itapororoca06/15.webp','/img/itapororoca06/16.webp','/img/itapororoca06/17.webp','/img/itapororoca06/18.webp','/img/itapororoca06/19.webp','/img/itapororoca06/20.webp','/img/itapororoca06/21.webp','/img/itapororoca06/22.webp','/img/itapororoca06/23.webp','/img/itapororoca06/24.webp','/img/itapororoca06/25.webp','/img/itapororoca06/26.webp','/img/itapororoca06/27.webp','/img/itapororoca06/28.webp','/img/itapororoca06/29.webp','/img/itapororoca06/30.webp'], featured: false,
   amenities: {
     pt: ['Pé na areia na Praia de Itapororoca', 'Piscina com deck de madeira', 'Banheira de hidromassagem', 'Varanda com redes', 'Espaço gourmet', 'Sala de estar e jantar', 'Cozinha equipada', 'Jardim tropical', 'TV a cabo e ventiladores de teto', 'Toalhas de praia', 'Feriados: R$ 9.500/diária'],
@@ -1005,7 +1005,7 @@ const ITAPO04: Property = {
   priceLow: { pt: 'R$ 14.500 / diária', en: 'R$ 14,500 / night' },
   carnaval: { pt: 'Sob consulta', en: 'Upon request' },
   reveillon: { pt: 'Sob consulta', en: 'Upon request' },
-  image: '/img/itapororoca04/01.jpg',
+  image: '/img/itapororoca04/01.webp',
   gallery: ['/img/itapororoca04/01.webp','/img/itapororoca04/02.webp','/img/itapororoca04/03.webp','/img/itapororoca04/04.webp','/img/itapororoca04/05.webp','/img/itapororoca04/06.webp','/img/itapororoca04/07.webp','/img/itapororoca04/08.webp','/img/itapororoca04/09.webp','/img/itapororoca04/10.webp','/img/itapororoca04/11.webp','/img/itapororoca04/12.webp','/img/itapororoca04/13.webp','/img/itapororoca04/14.webp','/img/itapororoca04/15.webp','/img/itapororoca04/16.webp','/img/itapororoca04/17.webp','/img/itapororoca04/18.webp','/img/itapororoca04/19.webp','/img/itapororoca04/20.webp','/img/itapororoca04/21.webp','/img/itapororoca04/22.webp','/img/itapororoca04/23.webp','/img/itapororoca04/24.webp','/img/itapororoca04/25.webp','/img/itapororoca04/26.webp','/img/itapororoca04/27.webp','/img/itapororoca04/28.webp','/img/itapororoca04/29.webp','/img/itapororoca04/30.webp'], featured: false,
   amenities: {
     pt: ['Pé na areia na Praia de Itapororoca', 'Piscina privativa + piscina do condomínio', 'Mini academia', 'Espaço para massagens', 'Adega de vinhos', 'Espaço gourmet com forno de pizza', 'Churrasqueira', 'Apoio de praia', 'Jardim tropical', 'Suíte master com hidromassagem', 'Máquina de gelo', 'Reformada em 2026'],
@@ -1025,7 +1025,7 @@ const ALEGRIA: Property = {
   priceLow: { pt: 'R$ 12.900 / diária', en: 'R$ 12,900 / night' },
   carnaval: { pt: 'Sob consulta', en: 'Upon request' },
   reveillon: { pt: 'Sob consulta', en: 'Upon request' },
-  image: '/img/alegria/01.jpg',
+  image: '/img/alegria/01.webp',
   gallery: ['/img/alegria/01.webp','/img/alegria/02.webp','/img/alegria/03.webp','/img/alegria/04.webp','/img/alegria/05.webp','/img/alegria/06.webp','/img/alegria/07.webp','/img/alegria/08.webp','/img/alegria/09.webp','/img/alegria/10.webp','/img/alegria/11.webp','/img/alegria/12.webp','/img/alegria/13.webp','/img/alegria/14.webp','/img/alegria/15.webp','/img/alegria/16.webp','/img/alegria/17.webp','/img/alegria/18.webp','/img/alegria/19.webp','/img/alegria/20.webp','/img/alegria/21.webp','/img/alegria/22.webp','/img/alegria/23.webp','/img/alegria/24.webp','/img/alegria/25.webp','/img/alegria/26.webp','/img/alegria/27.webp','/img/alegria/28.webp','/img/alegria/29.webp','/img/alegria/30.webp','/img/alegria/31.webp','/img/alegria/32.webp','/img/alegria/33.webp','/img/alegria/34.webp','/img/alegria/35.webp','/img/alegria/36.webp','/img/alegria/37.webp','/img/alegria/38.webp','/img/alegria/39.webp','/img/alegria/40.webp'], featured: true,
   amenities: {
     pt: ['Pé na areia na Praia de Itapororoca', 'Rio de águas tranquilas ao lado', 'Piscina com deck', 'Terraço da piscina', 'Sala de estar e jantar integradas', 'Cozinha gourmet', 'Bangalôs independentes no jardim', 'Suíte master com vista para o mar', 'Ar-condicionado e mosquiteiros', 'Não aceita pets'],
@@ -1045,7 +1045,7 @@ const PONTA: Property = {
   priceLow: { pt: 'R$ 18.000 / diária', en: 'R$ 18,000 / night' },
   carnaval: { pt: 'R$ 150.000', en: 'R$ 150,000' },
   reveillon: { pt: 'R$ 800.000', en: 'R$ 800,000' },
-  image: '/img/ponta/01.jpg',
+  image: '/img/ponta/01.webp',
   gallery: ['/img/ponta/01.webp','/img/ponta/02.webp','/img/ponta/03.webp','/img/ponta/04.webp','/img/ponta/05.webp','/img/ponta/06.webp','/img/ponta/07.webp','/img/ponta/08.webp','/img/ponta/09.webp','/img/ponta/10.webp','/img/ponta/11.webp','/img/ponta/12.webp','/img/ponta/13.webp','/img/ponta/14.webp','/img/ponta/15.webp','/img/ponta/16.webp','/img/ponta/17.webp','/img/ponta/18.webp','/img/ponta/19.webp','/img/ponta/20.webp','/img/ponta/21.webp','/img/ponta/22.webp','/img/ponta/23.webp','/img/ponta/24.webp','/img/ponta/25.webp','/img/ponta/26.webp','/img/ponta/27.webp','/img/ponta/28.webp','/img/ponta/29.webp','/img/ponta/30.webp'], featured: true,
   amenities: {
     pt: ['Vista para o mar', 'Piscina diante da vista', 'Amplo gramado', 'Bangalôs independentes', 'Sala de estar e jantar', 'Cozinha gourmet', 'Varandas com vista', 'Iluminação natural e ventilação cruzada', 'Ar-condicionado e mosquiteiros', 'Diária mínima de 3 noites'],
@@ -1064,7 +1064,7 @@ const PG11: Property = {
   price: { pt: 'R$ 12.500 / diária', en: 'R$ 12,500 / night' },
   priceLow: { pt: 'R$ 12.500 / diária', en: 'R$ 12,500 / night' },
   reveillon: { pt: 'R$ 450.000', en: 'R$ 450,000' },
-  image: '/img/pg11/01.jpg',
+  image: '/img/pg11/01.webp',
   gallery: ['/img/pg11/01.webp','/img/pg11/02.webp','/img/pg11/03.webp','/img/pg11/04.webp','/img/pg11/05.webp','/img/pg11/06.webp','/img/pg11/07.webp','/img/pg11/08.webp','/img/pg11/09.webp','/img/pg11/10.webp','/img/pg11/11.webp','/img/pg11/12.webp','/img/pg11/13.webp','/img/pg11/14.webp','/img/pg11/15.webp','/img/pg11/16.webp','/img/pg11/17.webp','/img/pg11/18.webp','/img/pg11/19.webp','/img/pg11/20.webp','/img/pg11/21.webp','/img/pg11/22.webp','/img/pg11/23.webp','/img/pg11/24.webp','/img/pg11/25.webp','/img/pg11/26.webp','/img/pg11/27.webp','/img/pg11/28.webp','/img/pg11/29.webp','/img/pg11/30.webp'], featured: false,
   amenities: {
     pt: ['Piscina', 'Espaço gourmet e churrasqueira', 'Adega climatizada', 'Bangalô externo com 2 quartos', 'Sala de estar e jantar integradas', 'Cozinha equipada', 'Jardins com mata nativa', 'Apoio de praia', 'Gerador e poço artesiano', 'Locação mínima de 3 diárias'],
@@ -1082,7 +1082,7 @@ const PG111: Property = {
   purpose: ['aluguel'], location: 'Condomínio Pedro Grande', suites: 4, guests: 8, baths: 4, area: '807 m²',
   price: { pt: 'R$ 8.000 / diária', en: 'R$ 8,000 / night' },
   priceLow: { pt: 'R$ 8.000 / diária', en: 'R$ 8,000 / night' },
-  image: '/img/pg111/01.jpg',
+  image: '/img/pg111/01.webp',
   gallery: ['/img/pg111/01.webp','/img/pg111/02.webp','/img/pg111/03.webp','/img/pg111/04.webp','/img/pg111/05.webp','/img/pg111/06.webp','/img/pg111/07.webp','/img/pg111/08.webp','/img/pg111/09.webp','/img/pg111/10.webp','/img/pg111/11.webp','/img/pg111/12.webp','/img/pg111/13.webp','/img/pg111/14.webp','/img/pg111/15.webp','/img/pg111/16.webp','/img/pg111/17.webp','/img/pg111/18.webp','/img/pg111/19.webp','/img/pg111/20.webp','/img/pg111/21.webp','/img/pg111/22.webp','/img/pg111/23.webp','/img/pg111/24.webp','/img/pg111/25.webp','/img/pg111/26.webp','/img/pg111/27.webp','/img/pg111/28.webp','/img/pg111/29.webp','/img/pg111/30.webp'], featured: false,
   amenities: {
     pt: ['Piscina', 'Espaço gourmet e churrasqueira', 'Suíte inteiramente em madeira', 'Sala de estar e jantar', 'Cozinha equipada', 'Integração total com a natureza', 'Gerador e poço artesiano', 'Condomínio fechado', 'Não aceita animais de estimação', 'Locação mínima de 3 diárias'],
@@ -1102,7 +1102,7 @@ const PG104: Property = {
   priceLow: { pt: 'R$ 5.500 / diária', en: 'R$ 5,500 / night' },
   carnaval: { pt: 'R$ 65.000 (2027)', en: 'R$ 65,000 (2027)' },
   reveillon: { pt: 'R$ 300.000', en: 'R$ 300,000' },
-  image: '/img/pg104/01.jpg',
+  image: '/img/pg104/01.webp',
   gallery: ['/img/pg104/01.webp','/img/pg104/02.webp','/img/pg104/03.webp','/img/pg104/04.webp','/img/pg104/05.webp','/img/pg104/06.webp','/img/pg104/07.webp','/img/pg104/08.webp','/img/pg104/09.webp','/img/pg104/10.webp','/img/pg104/11.webp','/img/pg104/12.webp','/img/pg104/13.webp','/img/pg104/14.webp','/img/pg104/15.webp','/img/pg104/16.webp','/img/pg104/17.webp','/img/pg104/18.webp','/img/pg104/19.webp','/img/pg104/20.webp','/img/pg104/21.webp','/img/pg104/22.webp','/img/pg104/23.webp','/img/pg104/24.webp','/img/pg104/25.webp','/img/pg104/26.webp','/img/pg104/27.webp','/img/pg104/28.webp','/img/pg104/29.webp','/img/pg104/30.webp','/img/pg104/31.webp','/img/pg104/32.webp','/img/pg104/33.webp','/img/pg104/34.webp','/img/pg104/35.webp','/img/pg104/36.webp','/img/pg104/37.webp','/img/pg104/38.webp','/img/pg104/39.webp','/img/pg104/40.webp'], featured: false,
   amenities: {
     pt: ['Vista para o mar', 'Piscina de formato orgânico sobre deck de madeira', 'Pergolado com sofá', 'Amplo gramado', 'Jardim tropical integrado à mata nativa', 'Quadra de tênis', 'Churrasqueira', 'Cozinha totalmente equipada', 'Condomínio com apenas 11 residências', '15 min a pé da Praia do Rio da Barra'],
@@ -1122,7 +1122,7 @@ const MANDACARU: Property = {
   priceLow: { pt: 'R$ 14.800 / diária', en: 'R$ 14,800 / night' },
   carnaval: { pt: 'R$ 231.000', en: 'R$ 231,000' },
   reveillon: { pt: 'R$ 1.100.000', en: 'R$ 1,100,000' },
-  image: '/img/mandacaru/01.jpg',
+  image: '/img/mandacaru/01.webp',
   gallery: ['/img/mandacaru/01.webp','/img/mandacaru/02.webp','/img/mandacaru/03.webp','/img/mandacaru/04.webp','/img/mandacaru/05.webp','/img/mandacaru/06.webp','/img/mandacaru/07.webp','/img/mandacaru/08.webp','/img/mandacaru/09.webp','/img/mandacaru/10.webp','/img/mandacaru/11.webp','/img/mandacaru/12.webp','/img/mandacaru/13.webp','/img/mandacaru/14.webp','/img/mandacaru/15.webp','/img/mandacaru/16.webp','/img/mandacaru/17.webp','/img/mandacaru/18.webp','/img/mandacaru/19.webp','/img/mandacaru/20.webp','/img/mandacaru/21.webp','/img/mandacaru/22.webp','/img/mandacaru/23.webp','/img/mandacaru/24.webp','/img/mandacaru/25.webp','/img/mandacaru/26.webp','/img/mandacaru/27.webp','/img/mandacaru/28.webp','/img/mandacaru/29.webp','/img/mandacaru/30.webp'], featured: false,
   amenities: {
     pt: ['Vista para o mar sobre as falésias', 'Piscina de 105 m² e jacuzzi', 'Mirante com área para fogueira', 'Academia e sala de massagem', 'Home theater com sinuca', 'Projeto sustentável Vida de Vila', 'Telhado verde e energia própria', 'Madeiras e telhas de demolição', 'Adega climatizada', 'Staff completo com gerente e barman'],
@@ -1140,7 +1140,7 @@ const PONTARB: Property = {
   purpose: ['aluguel'], location: 'Rio da Barra', suites: 5, guests: 10, baths: 5, area: '1.200 m² · terreno 37.000 m²',
   price: { pt: 'R$ 20.000 / diária', en: 'R$ 20,000 / night' },
   priceLow: { pt: 'R$ 17.000 / diária', en: 'R$ 17,000 / night' },
-  image: '/img/ponta-rio-da-barra/01.jpg',
+  image: '/img/ponta-rio-da-barra/01.webp',
   gallery: ['/img/ponta-rio-da-barra/01.webp','/img/ponta-rio-da-barra/02.webp','/img/ponta-rio-da-barra/03.webp','/img/ponta-rio-da-barra/04.webp','/img/ponta-rio-da-barra/05.webp','/img/ponta-rio-da-barra/06.webp','/img/ponta-rio-da-barra/07.webp','/img/ponta-rio-da-barra/08.webp','/img/ponta-rio-da-barra/09.webp','/img/ponta-rio-da-barra/10.webp','/img/ponta-rio-da-barra/11.webp','/img/ponta-rio-da-barra/12.webp','/img/ponta-rio-da-barra/13.webp','/img/ponta-rio-da-barra/14.webp','/img/ponta-rio-da-barra/15.webp','/img/ponta-rio-da-barra/16.webp','/img/ponta-rio-da-barra/17.webp','/img/ponta-rio-da-barra/18.webp','/img/ponta-rio-da-barra/19.webp','/img/ponta-rio-da-barra/20.webp','/img/ponta-rio-da-barra/21.webp','/img/ponta-rio-da-barra/22.webp','/img/ponta-rio-da-barra/23.webp','/img/ponta-rio-da-barra/24.webp','/img/ponta-rio-da-barra/25.webp','/img/ponta-rio-da-barra/26.webp','/img/ponta-rio-da-barra/27.webp','/img/ponta-rio-da-barra/28.webp','/img/ponta-rio-da-barra/29.webp','/img/ponta-rio-da-barra/30.webp'], featured: false,
   amenities: {
     pt: ['Pé na areia na Praia do Rio da Barra', 'Piscina com vista para o mar', 'Academia e sauna', 'Sala de jogos e sala de massagem', 'Espaço gourmet com forno de pizza', 'Adega', 'Bangalôs independentes', 'Encontro do rio com o mar', 'Apoio de praia', 'Locação mínima de 5 noites'],
@@ -1161,7 +1161,7 @@ const FALESIA: Property = {
   id: 'casa-falesia-rio-da-barra', code: 'TBA-234', name: { pt: 'Casa Falésia', en: 'Casa Falésia' },
   purpose: ['aluguel'], location: 'Rio da Barra', suites: 6, guests: 12, baths: 7, area: 'Pé na falésia, vista para o mar',
   price: { pt: 'Sob consulta', en: 'Upon request' },
-  image: '/img/falesia/01.jpg',
+  image: '/img/falesia/01.webp',
   gallery: ['/img/falesia/01.webp','/img/falesia/02.webp','/img/falesia/03.webp','/img/falesia/04.webp','/img/falesia/05.webp','/img/falesia/06.webp','/img/falesia/07.webp','/img/falesia/08.webp','/img/falesia/09.webp','/img/falesia/10.webp','/img/falesia/11.webp','/img/falesia/12.webp','/img/falesia/13.webp','/img/falesia/14.webp','/img/falesia/15.webp','/img/falesia/16.webp','/img/falesia/17.webp','/img/falesia/18.webp','/img/falesia/19.webp','/img/falesia/20.webp','/img/falesia/21.webp','/img/falesia/22.webp','/img/falesia/23.webp','/img/falesia/24.webp','/img/falesia/25.webp','/img/falesia/26.webp','/img/falesia/27.webp','/img/falesia/28.webp','/img/falesia/29.webp'], featured: false,
   amenities: {
     pt: ['Pergolado na falésia com vista para o mar', 'Piscina', 'Espaço gourmet com churrasqueira', '4 suítes internas + 2 suítes independentes', 'Sala de estar ampla e aconchegante', 'Copa com mesa para 10 lugares', 'Cozinha completa com fogão industrial', 'Som JBL 100', 'Lareira portátil no pergolado', 'Staff com cozinheira, camareira e gerente da casa'],
@@ -1181,7 +1181,7 @@ const RAIZES: Property = {
   priceLow: { pt: 'R$ 14.000 / diária', en: 'R$ 14,000 / night' },
   carnaval: { pt: 'R$ 150.000', en: 'R$ 150,000' },
   reveillon: { pt: 'R$ 800.000', en: 'R$ 800,000' },
-  image: '/img/raizes/01.jpg',
+  image: '/img/raizes/01.webp',
   gallery: ['/img/raizes/01.webp','/img/raizes/02.webp','/img/raizes/03.webp','/img/raizes/04.webp','/img/raizes/05.webp','/img/raizes/06.webp','/img/raizes/07.webp','/img/raizes/08.webp','/img/raizes/09.webp','/img/raizes/10.webp','/img/raizes/11.webp','/img/raizes/12.webp','/img/raizes/13.webp','/img/raizes/14.webp','/img/raizes/15.webp','/img/raizes/16.webp','/img/raizes/17.webp','/img/raizes/18.webp','/img/raizes/19.webp','/img/raizes/20.webp','/img/raizes/21.webp','/img/raizes/22.webp','/img/raizes/23.webp','/img/raizes/24.webp'], featured: false,
   amenities: {
     pt: ['Vista para o mar', 'Piscina aquecida', 'Projeto em 4 blocos independentes', 'Academia, sauna e sala de massagem', 'Quadra de areia e meia quadra de basquete', 'Lago e 5 caiaques', 'Deck com churrasqueira e vista mar', 'Apoio de praia a 2 min', 'Arquitetura de Gabriela Gontijo', 'Locação mínima de 3 diárias'],
@@ -1200,7 +1200,7 @@ const PONTABARRA: Property = {
   price: { pt: 'R$ 20.000 / diária', en: 'R$ 20,000 / night' },
   priceLow: { pt: 'R$ 16.000 / diária', en: 'R$ 16,000 / night' },
   reveillon: { pt: 'R$ 670.000', en: 'R$ 670,000' },
-  image: '/img/ponta-da-barra/01.jpg',
+  image: '/img/ponta-da-barra/01.webp',
   gallery: ['/img/ponta-da-barra/01.webp','/img/ponta-da-barra/02.webp','/img/ponta-da-barra/03.webp','/img/ponta-da-barra/04.webp','/img/ponta-da-barra/05.webp','/img/ponta-da-barra/06.webp','/img/ponta-da-barra/07.webp','/img/ponta-da-barra/08.webp','/img/ponta-da-barra/09.webp','/img/ponta-da-barra/10.webp','/img/ponta-da-barra/11.webp','/img/ponta-da-barra/12.webp','/img/ponta-da-barra/13.webp','/img/ponta-da-barra/14.webp','/img/ponta-da-barra/15.webp','/img/ponta-da-barra/16.webp','/img/ponta-da-barra/17.webp','/img/ponta-da-barra/18.webp','/img/ponta-da-barra/19.webp','/img/ponta-da-barra/20.webp','/img/ponta-da-barra/21.webp','/img/ponta-da-barra/22.webp','/img/ponta-da-barra/23.webp','/img/ponta-da-barra/24.webp','/img/ponta-da-barra/25.webp','/img/ponta-da-barra/26.webp','/img/ponta-da-barra/27.webp','/img/ponta-da-barra/28.webp','/img/ponta-da-barra/29.webp','/img/ponta-da-barra/30.webp'], featured: false,
   amenities: {
     pt: ['Pé na areia na Praia do Rio da Barra', 'Piscina emoldurada por palmeiras', 'Ofurô', 'Adega de vinhos', 'Sala de estar e sala de jantar', 'Cozinha equipada', 'Sistema de som', 'Espreguiçadeiras e ombrelones', 'Vista para o mar', 'Suíte master com spa e vista mar'],
@@ -1223,7 +1223,7 @@ const FASANO10: Property = {
   priceLow: { pt: 'Sob consulta', en: 'Upon request' },
   carnaval: { pt: 'Sob consulta', en: 'Upon request' },
   reveillon: { pt: 'Sob consulta', en: 'Upon request' },
-  image: '/img/fasano10/01.jpg',
+  image: '/img/fasano10/01.webp',
   gallery: ['/img/fasano10/01.webp','/img/fasano10/02.webp','/img/fasano10/03.webp','/img/fasano10/04.webp','/img/fasano10/05.webp','/img/fasano10/06.webp','/img/fasano10/07.webp','/img/fasano10/08.webp','/img/fasano10/09.webp','/img/fasano10/10.webp','/img/fasano10/11.webp','/img/fasano10/12.webp','/img/fasano10/13.webp','/img/fasano10/14.webp','/img/fasano10/15.webp','/img/fasano10/16.webp','/img/fasano10/17.webp','/img/fasano10/18.webp','/img/fasano10/19.webp','/img/fasano10/20.webp','/img/fasano10/21.webp','/img/fasano10/22.webp','/img/fasano10/23.webp','/img/fasano10/24.webp','/img/fasano10/25.webp','/img/fasano10/26.webp','/img/fasano10/27.webp','/img/fasano10/28.webp','/img/fasano10/29.webp','/img/fasano10/30.webp'], featured: false,
   amenities: {
     pt: ['Academia do condomínio', 'Adega climatizada', 'Amenities', 'Apoio de praia', 'Ar-condicionado', 'Beach tennis', 'Bicicletas', 'Carrinho de golfe', 'Cervejeira', 'Churrasqueira', 'Cofres nas suítes', 'Cozinha equipada', 'Espreguiçadeiras e ombrelones', 'Estacionamento', 'Extintor', 'Freezer', 'Frigobar', 'Geladeira de cerveja', 'Gerador', 'Internet Wi-Fi', 'Kids friendly', 'Lavabo', 'Lavanderia', 'Máquina de gelo', 'Máquina de lavar-louça', 'Mosquiteiros', 'Piscina de 20 m x 6 m', 'Poço artesiano', 'Quadra de tênis', 'Roupas de cama, mesa e banho', 'Sala de estar', 'Sala de jantar', 'Sala de TV', 'Sauna', 'Secador de cabelo', 'Som ambiente', 'Toalhas de piscina e praia', 'TV', 'Ventilador de teto', 'Vista para o mar'],
@@ -1250,7 +1250,7 @@ const FASANO16: Property = {
   priceLow: { pt: 'R$ 8.400 / diária', en: 'R$ 8,400 / night' },
   carnaval: { pt: 'R$ 80.000', en: 'R$ 80,000' },
   reveillon: { pt: 'R$ 290.000', en: 'R$ 290,000' },
-  image: '/img/fasano16/01.jpg',
+  image: '/img/fasano16/01.webp',
   gallery: ['/img/fasano16/01.webp','/img/fasano16/02.webp','/img/fasano16/03.webp','/img/fasano16/04.webp','/img/fasano16/05.webp','/img/fasano16/06.webp','/img/fasano16/07.webp','/img/fasano16/08.webp','/img/fasano16/09.webp','/img/fasano16/10.webp','/img/fasano16/11.webp','/img/fasano16/12.webp','/img/fasano16/13.webp','/img/fasano16/14.webp','/img/fasano16/15.webp','/img/fasano16/16.webp','/img/fasano16/17.webp','/img/fasano16/18.webp','/img/fasano16/19.webp','/img/fasano16/20.webp','/img/fasano16/21.webp','/img/fasano16/22.webp','/img/fasano16/23.webp','/img/fasano16/24.webp','/img/fasano16/25.webp','/img/fasano16/26.webp','/img/fasano16/27.webp','/img/fasano16/28.webp','/img/fasano16/29.webp','/img/fasano16/30.webp'], featured: false,
   amenities: {
     pt: ['Piscina privativa aquecida', 'Área gourmet com churrasqueira', 'Deck integrado à piscina', 'Cozinha totalmente equipada', 'Suíte master com dois banheiros independentes', 'Energia solar e gerador', 'Sistema de som Bluetooth', 'Garagem privativa', 'Infraestrutura do Hotel Fasano Trancoso', 'Arquitetura Galvez & Marton e Carol Daros'],
@@ -1273,7 +1273,7 @@ const FASANO17: Property = {
   priceLow: { pt: 'R$ 8.400 / diária', en: 'R$ 8,400 / night' },
   carnaval: { pt: 'R$ 80.000', en: 'R$ 80,000' },
   reveillon: { pt: 'R$ 290.000', en: 'R$ 290,000' },
-  image: '/img/fasano17/01.jpg',
+  image: '/img/fasano17/01.webp',
   gallery: ['/img/fasano17/01.webp','/img/fasano17/02.webp','/img/fasano17/03.webp','/img/fasano17/04.webp','/img/fasano17/05.webp','/img/fasano17/06.webp','/img/fasano17/07.webp','/img/fasano17/08.webp','/img/fasano17/09.webp','/img/fasano17/10.webp','/img/fasano17/11.webp','/img/fasano17/12.webp','/img/fasano17/13.webp','/img/fasano17/14.webp','/img/fasano17/15.webp','/img/fasano17/16.webp','/img/fasano17/17.webp','/img/fasano17/18.webp','/img/fasano17/19.webp','/img/fasano17/20.webp','/img/fasano17/21.webp','/img/fasano17/22.webp','/img/fasano17/23.webp','/img/fasano17/24.webp','/img/fasano17/25.webp','/img/fasano17/26.webp','/img/fasano17/27.webp','/img/fasano17/28.webp','/img/fasano17/29.webp','/img/fasano17/30.webp'], featured: false,
   amenities: {
     pt: ['Piscina privativa', 'Espaço gourmet com churrasqueira', 'Quatro suítes climatizadas', 'Cozinha equipada', 'Sala de estar integrada aos jardins', 'Sistema de som', 'TV e Netflix', 'Estrutura kids friendly', 'Infraestrutura do Hotel Fasano Trancoso', 'Locação mínima de 3 diárias'],
@@ -1297,7 +1297,7 @@ const VILAS26: Property = {
   priceLow: { pt: 'R$ 7.000 / diária', en: 'R$ 7,000 / night' },
   carnaval: { pt: 'R$ 100.000', en: 'R$ 100,000' },
   reveillon: { pt: 'R$ 300.000', en: 'R$ 300,000' },
-  image: '/img/terravista-vilas-26/01.jpg',
+  image: '/img/terravista-vilas-26/01.webp',
   gallery: ['/img/terravista-vilas-26/01.webp','/img/terravista-vilas-26/02.webp','/img/terravista-vilas-26/03.webp','/img/terravista-vilas-26/04.webp','/img/terravista-vilas-26/05.webp','/img/terravista-vilas-26/06.webp','/img/terravista-vilas-26/07.webp','/img/terravista-vilas-26/08.webp','/img/terravista-vilas-26/09.webp','/img/terravista-vilas-26/10.webp','/img/terravista-vilas-26/11.webp','/img/terravista-vilas-26/12.webp','/img/terravista-vilas-26/13.webp','/img/terravista-vilas-26/14.webp','/img/terravista-vilas-26/15.webp','/img/terravista-vilas-26/16.webp','/img/terravista-vilas-26/17.webp','/img/terravista-vilas-26/18.webp','/img/terravista-vilas-26/19.webp','/img/terravista-vilas-26/20.webp','/img/terravista-vilas-26/21.webp','/img/terravista-vilas-26/22.webp','/img/terravista-vilas-26/23.webp','/img/terravista-vilas-26/24.webp','/img/terravista-vilas-26/25.webp','/img/terravista-vilas-26/26.webp','/img/terravista-vilas-26/27.webp','/img/terravista-vilas-26/28.webp','/img/terravista-vilas-26/29.webp','/img/terravista-vilas-26/30.webp','/img/terravista-vilas-26/31.webp','/img/terravista-vilas-26/32.webp','/img/terravista-vilas-26/33.webp','/img/terravista-vilas-26/34.webp','/img/terravista-vilas-26/35.webp'], featured: false,
   amenities: {
     pt: ['Piscina privativa', 'Espaço gourmet e churrasqueira', 'Adega de vinhos', 'Sala de massagem e spa', 'Sala de TV com Netflix e Sky', 'Vista para o mar e para o campo de golfe', 'Sistema de som ambiente', 'Internet Wi-Fi', 'Gerador e cofres nos quartos', 'Acesso às comodidades do Complexo Terravista'],
@@ -1320,7 +1320,7 @@ const GOLF58: Property = {
   priceLow: { pt: 'R$ 38.000 / diária', en: 'R$ 38,000 / night' },
   carnaval: { pt: 'R$ 399.000', en: 'R$ 399,000' },
   reveillon: { pt: 'R$ 1.260.000', en: 'R$ 1,260,000' },
-  image: '/img/golf58/01.jpg',
+  image: '/img/golf58/01.webp',
   gallery: ['/img/golf58/01.webp','/img/golf58/02.webp','/img/golf58/03.webp','/img/golf58/04.webp','/img/golf58/05.webp','/img/golf58/06.webp','/img/golf58/07.webp','/img/golf58/08.webp','/img/golf58/09.webp','/img/golf58/10.webp','/img/golf58/11.webp','/img/golf58/12.webp','/img/golf58/13.webp','/img/golf58/14.webp','/img/golf58/15.webp','/img/golf58/16.webp','/img/golf58/17.webp','/img/golf58/18.webp','/img/golf58/19.webp','/img/golf58/20.webp','/img/golf58/21.webp','/img/golf58/22.webp','/img/golf58/23.webp','/img/golf58/24.webp','/img/golf58/25.webp','/img/golf58/26.webp','/img/golf58/27.webp','/img/golf58/28.webp','/img/golf58/29.webp','/img/golf58/30.webp','/img/golf58/31.webp','/img/golf58/32.webp','/img/golf58/33.webp','/img/golf58/34.webp','/img/golf58/35.webp','/img/golf58/36.webp','/img/golf58/37.webp','/img/golf58/38.webp','/img/golf58/39.webp'], featured: false,
   amenities: {
     pt: ['Piscina de 25 metros', 'Bar molhado', 'Sauna', 'Academia', 'Sala de cinema', 'Adega climatizada', 'Área gourmet com churrasqueira e forno de pizza', 'Sala de jogos', 'Cozinha industrial equipada', 'Apoio de praia'],
@@ -1342,7 +1342,7 @@ const FLORESTA: Property = {
   price: { pt: 'R$ 12.000 / diária', en: 'R$ 12,000 / night' },
   priceLow: { pt: 'R$ 10.000 / diária', en: 'R$ 10,000 / night' },
   reveillon: { pt: 'R$ 475.000', en: 'R$ 475,000' },
-  image: '/img/floresta/01.jpg',
+  image: '/img/floresta/01.webp',
   gallery: ['/img/floresta/01.webp','/img/floresta/02.webp','/img/floresta/03.webp','/img/floresta/04.webp','/img/floresta/05.webp','/img/floresta/06.webp','/img/floresta/07.webp','/img/floresta/08.webp','/img/floresta/09.webp','/img/floresta/10.webp','/img/floresta/11.webp','/img/floresta/12.webp','/img/floresta/13.webp','/img/floresta/14.webp','/img/floresta/15.webp','/img/floresta/16.webp','/img/floresta/17.webp','/img/floresta/18.webp','/img/floresta/19.webp','/img/floresta/20.webp','/img/floresta/21.webp','/img/floresta/22.webp','/img/floresta/23.webp','/img/floresta/24.webp','/img/floresta/25.webp','/img/floresta/26.webp','/img/floresta/27.webp','/img/floresta/28.webp','/img/floresta/29.webp','/img/floresta/30.webp','/img/floresta/31.webp','/img/floresta/32.webp','/img/floresta/33.webp','/img/floresta/34.webp','/img/floresta/35.webp','/img/floresta/36.webp','/img/floresta/37.webp','/img/floresta/38.webp','/img/floresta/39.webp','/img/floresta/40.webp','/img/floresta/41.webp','/img/floresta/42.webp','/img/floresta/43.webp','/img/floresta/44.webp','/img/floresta/45.webp'], featured: false,
   amenities: {
     pt: ['Piscina privativa', 'Acesso direto à praia com apoio de praia', 'Duas suítes em bangalôs próximos à praia', 'Sala de estar, TV e jantar', 'Cozinha equipada com fogão industrial', 'Deck e jardim tropical', 'Churrasqueira', 'Caiaques e bicicletas', 'Ducha externa e espreguiçadeiras', 'Sistema de som e Wi-Fi'],
@@ -1365,7 +1365,7 @@ const VILAS41: Property = {
   priceLow: { pt: 'R$ 7.900 / diária', en: 'R$ 7,900 / night' },
   carnaval: { pt: 'R$ 66.750', en: 'R$ 66,750' },
   reveillon: { pt: 'R$ 311.500', en: 'R$ 311,500' },
-  image: '/img/vilas41/01.jpg',
+  image: '/img/vilas41/01.webp',
   gallery: ['/img/vilas41/01.webp','/img/vilas41/02.webp','/img/vilas41/03.webp','/img/vilas41/04.webp','/img/vilas41/05.webp','/img/vilas41/06.webp','/img/vilas41/07.webp','/img/vilas41/08.webp','/img/vilas41/09.webp','/img/vilas41/10.webp','/img/vilas41/11.webp','/img/vilas41/12.webp','/img/vilas41/13.webp','/img/vilas41/14.webp','/img/vilas41/15.webp','/img/vilas41/16.webp','/img/vilas41/17.webp','/img/vilas41/18.webp','/img/vilas41/19.webp','/img/vilas41/20.webp','/img/vilas41/21.webp','/img/vilas41/22.webp','/img/vilas41/23.webp','/img/vilas41/24.webp','/img/vilas41/25.webp','/img/vilas41/26.webp'], featured: false,
   amenities: {
     pt: ['Piscina com borda infinita', 'Espaço gourmet com churrasqueira e forno de pizza', 'Deck amplo', 'Lavanderia e copa', 'Redário integrado à área gourmet', 'Sala de estar e jantar integradas', 'Energia solar fotovoltaica', 'Internet Wi-Fi', 'Vista para a Mata Atlântica', 'Acesso ao Complexo Terravista'],
@@ -1388,7 +1388,7 @@ const VILAS67: Property = {
   priceLow: { pt: 'R$ 4.500 / diária', en: 'R$ 4,500 / night' },
   carnaval: { pt: 'R$ 53.000', en: 'R$ 53,000' },
   reveillon: { pt: 'R$ 265.000', en: 'R$ 265,000' },
-  image: '/img/terravista-vilas-67/01.jpg',
+  image: '/img/terravista-vilas-67/01.webp',
   gallery: ['/img/terravista-vilas-67/01.webp','/img/terravista-vilas-67/02.webp','/img/terravista-vilas-67/03.webp','/img/terravista-vilas-67/04.webp','/img/terravista-vilas-67/05.webp','/img/terravista-vilas-67/06.webp','/img/terravista-vilas-67/07.webp','/img/terravista-vilas-67/08.webp','/img/terravista-vilas-67/09.webp','/img/terravista-vilas-67/10.webp','/img/terravista-vilas-67/11.webp','/img/terravista-vilas-67/12.webp','/img/terravista-vilas-67/13.webp','/img/terravista-vilas-67/14.webp','/img/terravista-vilas-67/15.webp','/img/terravista-vilas-67/16.webp','/img/terravista-vilas-67/17.webp','/img/terravista-vilas-67/18.webp','/img/terravista-vilas-67/19.webp','/img/terravista-vilas-67/20.webp','/img/terravista-vilas-67/21.webp','/img/terravista-vilas-67/22.webp','/img/terravista-vilas-67/23.webp','/img/terravista-vilas-67/24.webp','/img/terravista-vilas-67/25.webp','/img/terravista-vilas-67/26.webp','/img/terravista-vilas-67/27.webp','/img/terravista-vilas-67/28.webp'], featured: false,
   amenities: {
     pt: ['Apoio de praia no Rio da Barra', 'Piscina do condomínio', 'Ar-condicionado nas suítes', 'Internet Wi-Fi', 'Cozinha equipada', 'Sala de estar e sala de jantar', 'Estacionamento', 'Freezer', 'TV a cabo', 'Ventiladores de teto', 'Roupas de cama, mesa e banho', 'Toalhas de praia', 'Poço artesiano'],
@@ -1411,7 +1411,7 @@ const BOUTIQUE13: Property = {
   priceLow: { pt: 'R$ 11.000 / diária', en: 'R$ 11,000 / night' },
   carnaval: { pt: 'R$ 69.000', en: 'R$ 69,000' },
   reveillon: { pt: 'R$ 396.000', en: 'R$ 396,000' },
-  image: '/img/boutique13/01.jpg',
+  image: '/img/boutique13/01.webp',
   gallery: ['/img/boutique13/01.webp','/img/boutique13/02.webp','/img/boutique13/03.webp','/img/boutique13/04.webp','/img/boutique13/05.webp','/img/boutique13/06.webp','/img/boutique13/07.webp','/img/boutique13/08.webp','/img/boutique13/09.webp','/img/boutique13/10.webp','/img/boutique13/11.webp','/img/boutique13/12.webp','/img/boutique13/13.webp','/img/boutique13/14.webp','/img/boutique13/15.webp','/img/boutique13/16.webp','/img/boutique13/17.webp','/img/boutique13/18.webp','/img/boutique13/19.webp','/img/boutique13/20.webp','/img/boutique13/21.webp'], featured: false,
   amenities: {
     pt: ['Piscina privativa com vista panorâmica para o oceano', 'Localização no alto da falésia', 'Áreas sociais amplas e integradas', 'Arquitetura contemporânea', 'Iluminação natural', 'Fácil acesso às praias e ao Quadrado', 'Disponível também para venda: R$ 15.000.000'],
@@ -1433,7 +1433,7 @@ const ARACUA: Property = {
   price: { pt: 'R$ 6.500 / diária', en: 'R$ 6,500 / night' },
   priceLow: { pt: 'R$ 5.500 / diária', en: 'R$ 5,500 / night' },
   reveillon: { pt: 'R$ 120.000', en: 'R$ 120,000' },
-  image: '/img/aracua/01.jpg',
+  image: '/img/aracua/01.webp',
   gallery: ['/img/aracua/01.webp','/img/aracua/02.webp','/img/aracua/03.webp','/img/aracua/04.webp','/img/aracua/05.webp','/img/aracua/06.webp','/img/aracua/07.webp','/img/aracua/08.webp','/img/aracua/09.webp','/img/aracua/10.webp','/img/aracua/11.webp','/img/aracua/12.webp','/img/aracua/13.webp','/img/aracua/14.webp','/img/aracua/15.webp','/img/aracua/16.webp','/img/aracua/17.webp','/img/aracua/18.webp','/img/aracua/19.webp','/img/aracua/20.webp','/img/aracua/21.webp','/img/aracua/22.webp','/img/aracua/23.webp','/img/aracua/24.webp','/img/aracua/25.webp','/img/aracua/26.webp','/img/aracua/27.webp','/img/aracua/28.webp','/img/aracua/29.webp','/img/aracua/30.webp','/img/aracua/31.webp','/img/aracua/32.webp','/img/aracua/33.webp','/img/aracua/34.webp','/img/aracua/35.webp','/img/aracua/36.webp','/img/aracua/37.webp','/img/aracua/38.webp'], featured: false,
   amenities: {
     pt: ['Piscina privativa', 'Área gourmet com churrasqueira e forno', 'Extenso deck de madeira', 'Sala de estar, TV e jantar', 'Cozinha equipada', 'Ar-condicionado em todas as suítes', 'Internet Wi-Fi e TV a cabo', 'Estacionamento', 'Lavanderia', 'Roupa de cama, mesa e banho', 'Toalhas de piscina e de praia', 'Cofre nos quartos', 'Secador de cabelo'],
@@ -1456,7 +1456,7 @@ const JACARANDA03: Property = {
   price: { pt: 'R$ 3.400 / diária', en: 'R$ 3,400 / night' },
   priceLow: { pt: 'R$ 2.800 / diária', en: 'R$ 2,800 / night' },
   reveillon: { pt: 'R$ 135.000', en: 'R$ 135,000' },
-  image: '/img/jacaranda-03/01.jpg',
+  image: '/img/jacaranda-03/01.webp',
   gallery: ['/img/jacaranda-03/01.webp','/img/jacaranda-03/02.webp','/img/jacaranda-03/03.webp','/img/jacaranda-03/04.webp','/img/jacaranda-03/05.webp','/img/jacaranda-03/06.webp','/img/jacaranda-03/07.webp','/img/jacaranda-03/08.webp','/img/jacaranda-03/09.webp','/img/jacaranda-03/10.webp','/img/jacaranda-03/11.webp','/img/jacaranda-03/12.webp','/img/jacaranda-03/13.webp','/img/jacaranda-03/14.webp','/img/jacaranda-03/15.webp','/img/jacaranda-03/16.webp','/img/jacaranda-03/17.webp','/img/jacaranda-03/18.webp','/img/jacaranda-03/19.webp','/img/jacaranda-03/20.webp','/img/jacaranda-03/21.webp','/img/jacaranda-03/22.webp','/img/jacaranda-03/23.webp','/img/jacaranda-03/24.webp','/img/jacaranda-03/25.webp','/img/jacaranda-03/26.webp','/img/jacaranda-03/27.webp','/img/jacaranda-03/28.webp','/img/jacaranda-03/29.webp','/img/jacaranda-03/30.webp','/img/jacaranda-03/31.webp','/img/jacaranda-03/32.webp','/img/jacaranda-03/33.webp','/img/jacaranda-03/34.webp','/img/jacaranda-03/35.webp','/img/jacaranda-03/36.webp'], featured: false,
   amenities: {
     pt: ['Piscina privativa com borda infinita', 'Jardim tropical', 'Varanda com rede', 'Área gourmet com churrasqueira, cooktop, cervejeira e frigobar', 'Sala de estar com televisão', 'Sala de jantar', 'Cozinha completa', 'Lavabo', 'Ducha externa', 'Ar-condicionado nos quartos', 'Internet Wi-Fi', 'Roupas de cama e banho', 'Lavadora e secadora', 'Iluminação externa', 'Estacionamento privativo para até 3 carros', 'Condomínio fechado com segurança'],
@@ -1479,7 +1479,7 @@ const TEIU: Property = {
   priceLow: { pt: 'R$ 3.500 / diária', en: 'R$ 3,500 / night' },
   carnaval: { pt: 'R$ 5.500 / diária', en: 'R$ 5,500 / night' },
   reveillon: { pt: 'R$ 250.000', en: 'R$ 250,000' },
-  image: '/img/casa-teiu/01.jpg',
+  image: '/img/casa-teiu/01.webp',
   gallery: ['/img/casa-teiu/01.webp','/img/casa-teiu/02.webp','/img/casa-teiu/03.webp','/img/casa-teiu/04.webp','/img/casa-teiu/05.webp','/img/casa-teiu/06.webp','/img/casa-teiu/07.webp','/img/casa-teiu/08.webp','/img/casa-teiu/09.webp','/img/casa-teiu/10.webp','/img/casa-teiu/11.webp','/img/casa-teiu/12.webp','/img/casa-teiu/13.webp','/img/casa-teiu/14.webp','/img/casa-teiu/15.webp','/img/casa-teiu/16.webp','/img/casa-teiu/17.webp','/img/casa-teiu/18.webp','/img/casa-teiu/19.webp','/img/casa-teiu/20.webp','/img/casa-teiu/21.webp','/img/casa-teiu/22.webp','/img/casa-teiu/23.webp','/img/casa-teiu/24.webp','/img/casa-teiu/25.webp','/img/casa-teiu/26.webp'], featured: false,
   amenities: {
     pt: ['Piscina privativa com deck de madeira', 'Área gourmet com churrasqueira, bancada e cozinha de apoio', 'Sala de estar, televisão e jantar', 'Cozinha equipada', 'Academia privativa', 'Suíte independente em contêiner adaptado', 'Ar-condicionado em todos os quartos', 'Mosquiteiros', 'Secador de cabelo em todas as suítes', 'Internet Wi-Fi', 'Lavanderia', 'Quarto de apoio para funcionário ou staff', 'Estacionamento', 'Roupas de cama, mesa e banho', 'Toalhas de piscina', 'Condomínio fechado com segurança'],
@@ -1498,7 +1498,7 @@ const GOLF25: Property = {
   priceLow: { pt: 'R$ 4.600 / diária', en: 'R$ 4,600 / night' },
   carnaval: { pt: 'Sob consulta', en: 'Upon request' },
   reveillon: { pt: 'R$ 250.000', en: 'R$ 250,000' },
-  image: '/img/golf25/01.jpg',
+  image: '/img/golf25/01.webp',
   gallery: ['/img/golf25/01.webp','/img/golf25/02.webp','/img/golf25/03.webp','/img/golf25/04.webp','/img/golf25/05.webp','/img/golf25/06.webp','/img/golf25/07.webp','/img/golf25/08.webp','/img/golf25/09.webp','/img/golf25/10.webp','/img/golf25/11.webp','/img/golf25/12.webp','/img/golf25/13.webp','/img/golf25/14.webp','/img/golf25/15.webp','/img/golf25/16.webp','/img/golf25/17.webp','/img/golf25/18.webp','/img/golf25/19.webp','/img/golf25/20.webp','/img/golf25/21.webp','/img/golf25/22.webp','/img/golf25/23.webp','/img/golf25/24.webp'], featured: false,
   amenities: {
     pt: ['Piscina privativa', 'Amplo deck', 'Área gourmet coberta e equipada', 'Mesa para refeições ao ar livre', 'Sala de estar', 'Terraço coberto', 'Jardim tropical', 'Vista para a lagoa, o bosque e o campo de golfe', 'Apoio de praia', 'Casa reformada em 2024', 'Cozinha equipada', 'Arquitetura rústico-chic', 'Ambientes com iluminação natural', 'Suítes independentes', 'Segurança em condomínio fechado', 'Acesso ao campo de golfe'],
@@ -1525,7 +1525,7 @@ const PG50: Property = {
   priceLow: { pt: 'R$ 3.800 / diária', en: 'R$ 3,800 / night' },
   carnaval: { pt: 'R$ 50.000', en: 'R$ 50,000' },
   reveillon: { pt: 'R$ 180.000', en: 'R$ 180,000' },
-  image: '/img/pg50/01.jpg',
+  image: '/img/pg50/01.webp',
   gallery: ['/img/pg50/01.webp','/img/pg50/02.webp','/img/pg50/03.webp','/img/pg50/04.webp','/img/pg50/05.webp','/img/pg50/06.webp','/img/pg50/07.webp','/img/pg50/08.webp','/img/pg50/09.webp','/img/pg50/10.webp','/img/pg50/11.webp','/img/pg50/12.webp','/img/pg50/13.webp','/img/pg50/14.webp','/img/pg50/15.webp','/img/pg50/16.webp','/img/pg50/17.webp','/img/pg50/18.webp','/img/pg50/19.webp','/img/pg50/20.webp','/img/pg50/21.webp','/img/pg50/22.webp','/img/pg50/23.webp'], featured: false,
   amenities: {
     pt: ['Piscina privativa', 'Amplo jardim tropical', 'Área gourmet completa com espaço integrado', 'Espaço de jogos com sinuca', 'Varanda com rede', 'Sala de estar, sala de jantar e sala de TV', 'Cozinha equipada', 'Lavabo', 'Quarto de despejo', 'Lavanderia', 'Ar-condicionado nos quartos', 'Internet Wi-Fi', 'Roupa de cama, mesa e banho', 'Toalhas de piscina', 'Estacionamento', 'Condomínio fechado com segurança 24h'],
@@ -1548,7 +1548,7 @@ const CASAEDO: Property = {
   priceLow: { pt: 'R$ 12.000 / diária', en: 'R$ 12,000 / night' },
   carnaval: { pt: 'R$ 105.000', en: 'R$ 105,000' },
   reveillon: { pt: 'R$ 470.000', en: 'R$ 470,000' },
-  image: '/img/casa-edo/01.jpg',
+  image: '/img/casa-edo/01.webp',
   gallery: ['/img/casa-edo/01.webp','/img/casa-edo/02.webp','/img/casa-edo/03.webp','/img/casa-edo/04.webp','/img/casa-edo/05.webp','/img/casa-edo/06.webp','/img/casa-edo/07.webp','/img/casa-edo/08.webp','/img/casa-edo/09.webp','/img/casa-edo/10.webp','/img/casa-edo/11.webp','/img/casa-edo/12.webp','/img/casa-edo/13.webp','/img/casa-edo/14.webp','/img/casa-edo/15.webp','/img/casa-edo/16.webp','/img/casa-edo/17.webp','/img/casa-edo/18.webp','/img/casa-edo/19.webp','/img/casa-edo/20.webp','/img/casa-edo/21.webp','/img/casa-edo/22.webp','/img/casa-edo/23.webp','/img/casa-edo/24.webp','/img/casa-edo/25.webp','/img/casa-edo/26.webp','/img/casa-edo/27.webp','/img/casa-edo/28.webp','/img/casa-edo/29.webp'], featured: true,
   amenities: {
     pt: ['Pé na areia com 80 m de frente para o mar', 'Piscina com gazebo de apoio', 'Amplo deck com vista para o mar, bar e redes', 'Mirante de piaçava com vista do litoral', 'Churrasqueira e área gourmet', 'Casa de hóspedes independente', 'Sala de leitura com biblioteca', 'Sala de TV com lareira', 'Mesa de ping-pong', 'Stand-up paddle (SUP)', 'Apoio de praia', 'Cozinha equipada com forno de pizza', 'Ar-condicionado e mosquiteiro', 'Internet Wi-Fi e TV a cabo', 'Gerador e poço artesiano', 'Lavanderia', 'Roupas de cama, mesa e banho', 'Estacionamento'],
@@ -1573,7 +1573,7 @@ const BALEIA: Property = {
   purpose: ['aluguel'], location: 'Condomínio Pedro Grande', suites: 7, guests: 14, baths: 7, area: '—',
   price: { pt: 'R$ 22.000 / diária', en: 'R$ 22,000 / night' },
   carnaval: { pt: 'Sob consulta', en: 'Upon request' },
-  image: '/img/casa-baleia/01.jpg',
+  image: '/img/casa-baleia/01.webp',
   gallery: ['/img/casa-baleia/01.webp','/img/casa-baleia/02.webp','/img/casa-baleia/03.webp','/img/casa-baleia/04.webp','/img/casa-baleia/05.webp','/img/casa-baleia/06.webp','/img/casa-baleia/07.webp','/img/casa-baleia/08.webp','/img/casa-baleia/09.webp','/img/casa-baleia/10.webp','/img/casa-baleia/11.webp','/img/casa-baleia/12.webp','/img/casa-baleia/13.webp','/img/casa-baleia/14.webp','/img/casa-baleia/15.webp','/img/casa-baleia/16.webp','/img/casa-baleia/17.webp','/img/casa-baleia/18.webp','/img/casa-baleia/19.webp','/img/casa-baleia/20.webp','/img/casa-baleia/21.webp','/img/casa-baleia/22.webp','/img/casa-baleia/23.webp','/img/casa-baleia/24.webp','/img/casa-baleia/25.webp','/img/casa-baleia/26.webp','/img/casa-baleia/27.webp','/img/casa-baleia/28.webp','/img/casa-baleia/29.webp','/img/casa-baleia/30.webp','/img/casa-baleia/31.webp','/img/casa-baleia/32.webp','/img/casa-baleia/33.webp','/img/casa-baleia/34.webp','/img/casa-baleia/35.webp','/img/casa-baleia/36.webp','/img/casa-baleia/37.webp'], featured: true,
   amenities: {
     pt: ['A poucos passos da Praia do Rio da Barra', 'Piscina com vista para o mar', 'Amplas áreas de convivência', 'Escritório', 'Playground para crianças', 'Bangalô externo com sala de estar, TV e cozinha privativa', 'Ar-condicionado em todas as suítes', 'Mosquiteiro, cofre e secador de cabelo nas suítes', 'Banheira na Suíte Master', 'Internet Wi-Fi', 'Jardim com paisagismo Licuri', 'Estacionamento', 'Condomínio fechado com segurança'],
@@ -1600,7 +1600,7 @@ const PG55: Property = {
   priceLow: { pt: 'R$ 10.000 / diária', en: 'R$ 10,000 / night' },
   carnaval: { pt: 'R$ 85.000', en: 'R$ 85,000' },
   reveillon: { pt: 'R$ 410.000', en: 'R$ 410,000' },
-  image: '/img/pg55/01.jpg',
+  image: '/img/pg55/01.webp',
   gallery: ['/img/pg55/01.webp','/img/pg55/02.webp','/img/pg55/03.webp','/img/pg55/04.webp','/img/pg55/05.webp','/img/pg55/06.webp','/img/pg55/07.webp','/img/pg55/08.webp','/img/pg55/09.webp','/img/pg55/10.webp','/img/pg55/11.webp','/img/pg55/12.webp','/img/pg55/13.webp','/img/pg55/14.webp','/img/pg55/15.webp','/img/pg55/16.webp','/img/pg55/17.webp','/img/pg55/18.webp','/img/pg55/19.webp','/img/pg55/20.webp','/img/pg55/21.webp','/img/pg55/22.webp','/img/pg55/23.webp','/img/pg55/24.webp','/img/pg55/25.webp','/img/pg55/26.webp','/img/pg55/27.webp','/img/pg55/28.webp','/img/pg55/29.webp','/img/pg55/30.webp','/img/pg55/31.webp','/img/pg55/32.webp','/img/pg55/33.webp','/img/pg55/34.webp','/img/pg55/35.webp'], featured: false,
   amenities: {
     pt: ['Piscina privativa', 'Pira central em meio à mata', 'Academia', 'Adega de vinhos', 'Espaço gourmet com churrasqueira', 'Apoio de praia', 'Bicicletas fat bike', 'Salas de estar, jantar e TV', 'Cozinha equipada', 'Cervejeira e máquina de gelo', 'Ar-condicionado e ventilador de teto', 'Internet Wi-Fi e TV a cabo', 'Lavabo e lavanderia', 'Gerador', 'Roupas de cama, mesa e banho', 'Toalhas de piscina e praia', 'Estacionamento', '800 m da Praia do Rio da Barra'],
@@ -1627,7 +1627,7 @@ const GOLF72: Property = {
   priceLow: { pt: 'R$ 16.000 / diária', en: 'R$ 16,000 / night' },
   carnaval: { pt: 'R$ 200.000', en: 'R$ 200,000' },
   reveillon: { pt: 'R$ 800.000', en: 'R$ 800,000' },
-  image: '/img/golf72/01.jpg',
+  image: '/img/golf72/01.webp',
   gallery: ['/img/golf72/01.webp','/img/golf72/02.webp','/img/golf72/03.webp','/img/golf72/04.webp','/img/golf72/05.webp','/img/golf72/06.webp','/img/golf72/07.webp','/img/golf72/08.webp','/img/golf72/09.webp','/img/golf72/10.webp','/img/golf72/11.webp','/img/golf72/12.webp','/img/golf72/13.webp','/img/golf72/14.webp','/img/golf72/15.webp','/img/golf72/16.webp','/img/golf72/17.webp','/img/golf72/18.webp','/img/golf72/19.webp','/img/golf72/20.webp','/img/golf72/21.webp','/img/golf72/22.webp','/img/golf72/23.webp','/img/golf72/24.webp','/img/golf72/25.webp','/img/golf72/26.webp','/img/golf72/27.webp','/img/golf72/28.webp','/img/golf72/29.webp','/img/golf72/30.webp','/img/golf72/31.webp','/img/golf72/32.webp','/img/golf72/33.webp','/img/golf72/34.webp','/img/golf72/35.webp','/img/golf72/36.webp','/img/golf72/37.webp','/img/golf72/38.webp','/img/golf72/39.webp','/img/golf72/40.webp','/img/golf72/41.webp','/img/golf72/42.webp','/img/golf72/43.webp','/img/golf72/44.webp','/img/golf72/45.webp','/img/golf72/46.webp','/img/golf72/47.webp','/img/golf72/48.webp','/img/golf72/49.webp'], featured: false,
   amenities: {
     pt: ['Piscina', 'Academia e sala de ginástica', 'Sauna', 'Espaço gourmet', 'Adega', 'Apoio de praia', 'Salas de estar, jantar e TV', 'Cozinha equipada', 'Frigobar, freezer e cervejeira', 'Lavanderia', 'Quarto de apoio', 'Espreguiçadeiras e ombrelones', 'Internet Wi-Fi', 'Ar-condicionado nas suítes'],
@@ -1654,7 +1654,7 @@ const PITANGA: Property = {
   priceLow: { pt: 'R$ 2.500 / diária', en: 'R$ 2,500 / night' },
   carnaval: { pt: 'Sob consulta', en: 'Upon request' },
   reveillon: { pt: 'R$ 120.000', en: 'R$ 120,000' },
-  image: '/img/casa-pitanga/01.jpg',
+  image: '/img/casa-pitanga/01.webp',
   gallery: ['/img/casa-pitanga/01.webp','/img/casa-pitanga/02.webp','/img/casa-pitanga/03.webp','/img/casa-pitanga/04.webp','/img/casa-pitanga/05.webp','/img/casa-pitanga/06.webp','/img/casa-pitanga/07.webp','/img/casa-pitanga/08.webp','/img/casa-pitanga/09.webp','/img/casa-pitanga/10.webp','/img/casa-pitanga/11.webp','/img/casa-pitanga/12.webp','/img/casa-pitanga/13.webp','/img/casa-pitanga/14.webp','/img/casa-pitanga/15.webp','/img/casa-pitanga/16.webp','/img/casa-pitanga/17.webp','/img/casa-pitanga/18.webp','/img/casa-pitanga/19.webp','/img/casa-pitanga/20.webp','/img/casa-pitanga/21.webp','/img/casa-pitanga/22.webp','/img/casa-pitanga/23.webp','/img/casa-pitanga/24.webp','/img/casa-pitanga/25.webp','/img/casa-pitanga/26.webp','/img/casa-pitanga/27.webp','/img/casa-pitanga/28.webp','/img/casa-pitanga/29.webp','/img/casa-pitanga/30.webp','/img/casa-pitanga/31.webp'], featured: false,
   amenities: {
     pt: ['Piscina privativa', 'Lounge externo', 'Salão de jogos com sinuca', 'Suítes com ar-condicionado', 'Sala de estar', 'Cozinha completa', 'Ambientes integrados', 'Internet Wi-Fi', 'TV a cabo', 'Estacionamento', 'Roupa de cama, mesa e banho', '8 min a pé do Quadrado Histórico', '15 min a pé da Praia dos Nativos'],
@@ -1681,7 +1681,7 @@ const AFRICA: Property = {
   priceLow: { pt: 'R$ 8.000 / diária', en: 'R$ 8,000 / night' },
   carnaval: { pt: 'R$ 65.000', en: 'R$ 65,000' },
   reveillon: { pt: 'R$ 300.000', en: 'R$ 300,000' },
-  image: '/img/africa/01.jpg',
+  image: '/img/africa/01.webp',
   gallery: ['/img/africa/01.webp','/img/africa/02.webp','/img/africa/03.webp','/img/africa/04.webp','/img/africa/05.webp','/img/africa/06.webp','/img/africa/07.webp','/img/africa/08.webp','/img/africa/09.webp','/img/africa/10.webp','/img/africa/11.webp','/img/africa/12.webp','/img/africa/13.webp','/img/africa/14.webp','/img/africa/15.webp','/img/africa/16.webp','/img/africa/17.webp','/img/africa/18.webp','/img/africa/19.webp','/img/africa/20.webp','/img/africa/21.webp','/img/africa/22.webp','/img/africa/23.webp','/img/africa/24.webp','/img/africa/25.webp','/img/africa/26.webp','/img/africa/27.webp','/img/africa/28.webp','/img/africa/29.webp','/img/africa/30.webp'], featured: false,
   amenities: {
     pt: ['Vista para o mar', 'Piscina privativa revestida em seixos e ofurô', 'Deck de 432 m² com vista para o mar', 'Amplo jardim com gramado', 'Sala de estar, TV e jantar integradas', 'Smart TV 55" e som JBL', 'Cozinha equipada completa', 'Churrasqueiras elétrica e a carvão Weber', 'Ar-condicionado e mosquiteiros nas suítes', 'Wi-Fi fibra óptica e Starlink', 'Gerador automático', 'Enxoval Buddemeyer', 'Toalhas de piscina, espreguiçadeiras e sombreiros', 'Ducha externa', 'Condomínio fechado com segurança'],
@@ -1705,7 +1705,7 @@ const TEMPO07: Property = {
   priceLow: { pt: 'R$ 1.650 / diária', en: 'R$ 1,650 / night' },
   carnaval: { pt: 'R$ 16.500', en: 'R$ 16,500' },
   reveillon: { pt: 'R$ 70.000', en: 'R$ 70,000' },
-  image: '/img/tempo07/01.jpg',
+  image: '/img/tempo07/01.webp',
   gallery: ['/img/tempo07/01.webp','/img/tempo07/02.webp','/img/tempo07/03.webp','/img/tempo07/04.webp','/img/tempo07/05.webp','/img/tempo07/06.webp','/img/tempo07/07.webp','/img/tempo07/08.webp','/img/tempo07/09.webp','/img/tempo07/10.webp','/img/tempo07/11.webp','/img/tempo07/12.webp','/img/tempo07/13.webp','/img/tempo07/14.webp','/img/tempo07/15.webp','/img/tempo07/16.webp','/img/tempo07/17.webp','/img/tempo07/18.webp','/img/tempo07/19.webp','/img/tempo07/20.webp','/img/tempo07/21.webp','/img/tempo07/22.webp','/img/tempo07/23.webp'], featured: false,
   amenities: {
     pt: ['Piscina privativa', 'Cozinha equipada', 'Ar-condicionado', 'Ventiladores', 'Internet Wi-Fi', 'Gerador de energia', 'Roupas de cama, mesa e banho', 'Toalhas de piscina', 'Chuveiros aquecidos a gás', 'Condomínio fechado na entrada do Quadrado'],
@@ -1730,7 +1730,7 @@ const TEMPO08: Property = {
   carnaval: { pt: 'R$ 25.000', en: 'R$ 25,000' },
   reveillon: { pt: 'R$ 125.000', en: 'R$ 125,000' },
   salePrice: { pt: 'R$ 5.500.000', en: 'R$ 5,500,000' },
-  image: '/img/tempo08/01.jpg',
+  image: '/img/tempo08/01.webp',
   gallery: ['/img/tempo08/01.webp','/img/tempo08/02.webp','/img/tempo08/03.webp','/img/tempo08/04.webp','/img/tempo08/05.webp','/img/tempo08/06.webp','/img/tempo08/07.webp','/img/tempo08/08.webp','/img/tempo08/09.webp','/img/tempo08/10.webp','/img/tempo08/11.webp','/img/tempo08/12.webp','/img/tempo08/13.webp','/img/tempo08/14.webp','/img/tempo08/15.webp','/img/tempo08/16.webp','/img/tempo08/17.webp','/img/tempo08/18.webp','/img/tempo08/19.webp','/img/tempo08/20.webp','/img/tempo08/21.webp','/img/tempo08/22.webp','/img/tempo08/23.webp','/img/tempo08/24.webp','/img/tempo08/25.webp','/img/tempo08/26.webp','/img/tempo08/27.webp','/img/tempo08/28.webp','/img/tempo08/29.webp','/img/tempo08/30.webp'], featured: false,
   amenities: {
     pt: ['Adega de vinhos', 'Cozinha totalmente equipada', 'Banheira externa', 'Ar-condicionado em todos os quartos', 'Wi-Fi e TV a cabo', 'Gerador', 'Lavanderia e lavabo', 'Piscina do condomínio', 'SPA', 'Roupas de cama, mesa e banho', 'Toalhas de praia e piscina', 'Secadores de cabelo', 'Poço artesiano', 'Estacionamento em condomínio fechado'],
@@ -1756,7 +1756,7 @@ const TEMPO06: Property = {
   seasonLow: { pt: 'De abril a novembro', en: 'April to November' },
   carnaval: { pt: 'R$ 23.000', en: 'R$ 23,000' },
   reveillon: { pt: 'R$ 70.000', en: 'R$ 70,000' },
-  image: '/img/tempo06/01.jpg',
+  image: '/img/tempo06/01.webp',
   gallery: ['/img/tempo06/01.webp','/img/tempo06/02.webp','/img/tempo06/03.webp','/img/tempo06/04.webp','/img/tempo06/05.webp','/img/tempo06/06.webp','/img/tempo06/07.webp','/img/tempo06/08.webp','/img/tempo06/09.webp','/img/tempo06/10.webp','/img/tempo06/11.webp','/img/tempo06/12.webp','/img/tempo06/13.webp','/img/tempo06/14.webp','/img/tempo06/15.webp','/img/tempo06/16.webp','/img/tempo06/17.webp','/img/tempo06/18.webp','/img/tempo06/19.webp','/img/tempo06/20.webp'], featured: false,
   amenities: {
     pt: ['Piscina privativa', '2 suítes com ar-condicionado', 'Cozinha em conceito aberto', 'Sala de TV', 'Mesa de refeições na área externa', 'Sacada', 'TV a cabo', 'Wi-Fi', 'Roupas de cama, mesa e banho', 'Área de serviço', 'Garagem', 'Portaria 24 horas', 'Gerador', 'Poço artesiano'],
@@ -1782,7 +1782,7 @@ const BOSQUE: Property = {
   seasonLow: { pt: 'De abril a novembro', en: 'April to November' },
   carnaval: { pt: 'R$ 65.000', en: 'R$ 65,000' },
   reveillon: { pt: 'R$ 285.000', en: 'R$ 285,000' },
-  image: '/img/bosque/01.jpg',
+  image: '/img/bosque/01.webp',
   gallery: ['/img/bosque/01.webp','/img/bosque/02.webp','/img/bosque/03.webp','/img/bosque/04.webp','/img/bosque/05.webp','/img/bosque/06.webp','/img/bosque/07.webp','/img/bosque/08.webp','/img/bosque/09.webp','/img/bosque/10.webp','/img/bosque/11.webp','/img/bosque/12.webp','/img/bosque/13.webp','/img/bosque/14.webp','/img/bosque/15.webp','/img/bosque/16.webp','/img/bosque/17.webp','/img/bosque/18.webp','/img/bosque/19.webp','/img/bosque/20.webp','/img/bosque/21.webp','/img/bosque/22.webp','/img/bosque/23.webp','/img/bosque/24.webp','/img/bosque/25.webp','/img/bosque/26.webp','/img/bosque/27.webp','/img/bosque/28.webp','/img/bosque/29.webp','/img/bosque/30.webp','/img/bosque/31.webp','/img/bosque/32.webp','/img/bosque/33.webp','/img/bosque/34.webp'], featured: false,
   amenities: {
     pt: ['Piscina', 'Espaço gourmet', 'Churrasqueira', 'Adega de vinhos', 'Sala de estar', 'Sala de jantar', 'Sala de TV', 'Cozinha equipada', 'Quarto de apoio', 'Ar-condicionado', 'Ventilador de teto', 'Cofres nos quartos', 'Mosquiteiro', 'Espreguiçadeiras e ombrelone', 'Toalhas de praia', 'Internet Wi-Fi', 'TV a cabo', 'Sky', 'Som ambiente', 'Máquina de gelo', 'Freezer', 'Lavanderia', 'Gerador', 'Poço artesiano', 'Estacionamento', 'Próxima ao Quadrado', 'Roupas de cama, mesa e banho'],
@@ -1810,7 +1810,7 @@ const PATIO: Property = {
   priceLow: { pt: 'R$ 1.500 / diária', en: 'R$ 1,500 / night' },
   carnaval: { pt: 'R$ 20.000', en: 'R$ 20,000' },
   reveillon: { pt: 'R$ 79.000', en: 'R$ 79,000' },
-  image: '/img/patio/01.jpg',
+  image: '/img/patio/01.webp',
   gallery: ['/img/patio/01.webp','/img/patio/02.webp','/img/patio/03.webp','/img/patio/04.webp','/img/patio/05.webp','/img/patio/06.webp','/img/patio/07.webp','/img/patio/08.webp','/img/patio/09.webp','/img/patio/10.webp','/img/patio/11.webp','/img/patio/12.webp','/img/patio/13.webp','/img/patio/14.webp','/img/patio/15.webp','/img/patio/16.webp','/img/patio/17.webp','/img/patio/18.webp','/img/patio/19.webp','/img/patio/20.webp','/img/patio/21.webp','/img/patio/22.webp','/img/patio/23.webp','/img/patio/24.webp','/img/patio/25.webp','/img/patio/26.webp','/img/patio/27.webp','/img/patio/28.webp'], featured: false,
   amenities: {
     pt: ['Pátio central', 'Jardim de entrada com mesa para refeições externas', 'Ducha externa e lava-pés', 'Sala de estar e jantar', 'Cozinha equipada', 'Ar-condicionado', 'Cofres nos quartos', 'Internet Wi-Fi', 'Máquina de lavar louças', 'Lavanderia', 'Mosquiteiros', 'Roupas de cama, mesa e banho', 'Secador de cabelo', 'TV Sky', 'Ventiladores de teto', 'Kids friendly'],
@@ -1836,7 +1836,7 @@ const PG32: Property = {
   seasonLow: { pt: 'De abril a novembro', en: 'April to November' },
   carnaval: { pt: 'R$ 150.000', en: 'R$ 150,000' },
   reveillon: { pt: 'R$ 650.000', en: 'R$ 650,000' },
-  image: '/img/pg32/01.jpg',
+  image: '/img/pg32/01.webp',
   gallery: ['/img/pg32/01.webp','/img/pg32/02.webp','/img/pg32/03.webp','/img/pg32/04.webp','/img/pg32/05.webp','/img/pg32/06.webp','/img/pg32/07.webp','/img/pg32/08.webp','/img/pg32/09.webp','/img/pg32/10.webp','/img/pg32/11.webp','/img/pg32/12.webp','/img/pg32/13.webp','/img/pg32/14.webp','/img/pg32/15.webp','/img/pg32/16.webp','/img/pg32/17.webp','/img/pg32/18.webp','/img/pg32/19.webp','/img/pg32/20.webp','/img/pg32/21.webp','/img/pg32/22.webp','/img/pg32/23.webp','/img/pg32/24.webp','/img/pg32/25.webp','/img/pg32/26.webp','/img/pg32/27.webp','/img/pg32/28.webp','/img/pg32/29.webp','/img/pg32/30.webp','/img/pg32/31.webp','/img/pg32/32.webp','/img/pg32/33.webp','/img/pg32/34.webp','/img/pg32/35.webp','/img/pg32/36.webp','/img/pg32/37.webp','/img/pg32/38.webp','/img/pg32/39.webp','/img/pg32/40.webp','/img/pg32/41.webp','/img/pg32/42.webp','/img/pg32/43.webp','/img/pg32/44.webp','/img/pg32/45.webp','/img/pg32/46.webp','/img/pg32/47.webp','/img/pg32/48.webp','/img/pg32/49.webp'], featured: false,
   amenities: {
     pt: ['Piscina e jacuzzi', 'Espaço gourmet e churrasqueira', 'Quadra de tênis', 'Quadra de beach tennis', 'Apoio de praia', 'Ar-condicionado em todas as suítes', 'Wi-Fi', 'TV a cabo e Netflix', 'Sala de TV, estar e jantar', 'Cozinha equipada', 'Máquina de gelo', 'Cervejeira e geladeira para bebidas', 'Lava-louças', 'Lavanderia', 'Gerador', 'Poço artesiano', 'Estacionamento', 'Cofres nas suítes', 'Mosquiteiros', 'Toalhas de piscina e praia', 'Roupas de cama, mesa e banho', 'Kids friendly'],
@@ -1863,7 +1863,7 @@ const PG45: Property = {
   carnaval: { pt: 'R$ 60.000', en: 'R$ 60,000' },
   reveillon: { pt: 'R$ 380.000', en: 'R$ 380,000' },
   salePrice: { pt: 'R$ 24.000.000', en: 'R$ 24,000,000' },
-  image: '/img/pg45/01.jpg',
+  image: '/img/pg45/01.webp',
   gallery: ['/img/pg45/01.webp','/img/pg45/02.webp','/img/pg45/03.webp','/img/pg45/04.webp','/img/pg45/05.webp','/img/pg45/06.webp','/img/pg45/07.webp','/img/pg45/08.webp','/img/pg45/09.webp','/img/pg45/10.webp','/img/pg45/11.webp','/img/pg45/12.webp','/img/pg45/13.webp','/img/pg45/14.webp','/img/pg45/15.webp','/img/pg45/16.webp','/img/pg45/17.webp','/img/pg45/18.webp','/img/pg45/19.webp','/img/pg45/20.webp','/img/pg45/21.webp','/img/pg45/22.webp','/img/pg45/23.webp','/img/pg45/24.webp','/img/pg45/25.webp','/img/pg45/26.webp','/img/pg45/27.webp','/img/pg45/28.webp','/img/pg45/29.webp','/img/pg45/30.webp','/img/pg45/31.webp','/img/pg45/32.webp','/img/pg45/33.webp','/img/pg45/34.webp','/img/pg45/35.webp','/img/pg45/36.webp','/img/pg45/37.webp','/img/pg45/38.webp','/img/pg45/39.webp','/img/pg45/40.webp'], featured: false,
   amenities: {
     pt: ['Piscina', 'Área gourmet e churrasqueira', 'Deck e amplas varandas', 'Redários e lounges externos', 'Apoio de praia', 'Quadra de tênis', 'Sala de estar, jantar e TV', 'Cozinha equipada', 'Ar-condicionado', 'Máquina de gelo', 'Gerador', 'Estacionamento', 'Lavanderia', 'Mosquiteiros', 'Roupas de cama, mesa e banho', 'Caixa de som', 'Smart TV', 'Internet Wi-Fi', 'Toalhas de piscina e praia'],
@@ -1889,7 +1889,7 @@ const LICURI: Property = {
   seasonLow: { pt: 'Abril, maio, junho, agosto, setembro e outubro', en: 'April, May, June, August, September and October' },
   carnaval: { pt: 'R$ 48.000', en: 'R$ 48,000' },
   reveillon: { pt: 'R$ 240.000', en: 'R$ 240,000' },
-  image: '/img/divina/01.jpg',
+  image: '/img/divina/01.webp',
   gallery: ['/img/divina/01.webp','/img/divina/02.webp','/img/divina/03.webp','/img/divina/04.webp','/img/divina/05.webp','/img/divina/06.webp','/img/divina/07.webp','/img/divina/08.webp','/img/divina/09.webp','/img/divina/10.webp','/img/divina/11.webp','/img/divina/12.webp','/img/divina/13.webp','/img/divina/14.webp','/img/divina/15.webp','/img/divina/16.webp','/img/divina/17.webp','/img/divina/18.webp','/img/divina/19.webp','/img/divina/20.webp','/img/divina/21.webp','/img/divina/22.webp','/img/divina/23.webp','/img/divina/24.webp','/img/divina/25.webp','/img/divina/26.webp','/img/divina/27.webp','/img/divina/28.webp','/img/divina/29.webp','/img/divina/30.webp','/img/divina/31.webp','/img/divina/32.webp'], featured: false,
   amenities: {
     pt: ['Piscina de borda infinita com vista para o vale', 'Chalé independente', 'Cozinha equipada', 'Ar-condicionado em todas as suítes', 'Varandas e jardins', 'Espaços de convivência', 'Terreno de 1.400 m²'],
@@ -1913,7 +1913,7 @@ const DIVINA: Property = {
   priceLow: { pt: 'R$ 2.900 / diária', en: 'R$ 2,900 / night' },
   seasonHigh: { pt: 'Alta temporada e feriados', en: 'High season and holidays' },
   reveillon: { pt: 'R$ 200.000', en: 'R$ 200,000' },
-  image: '/img/licuri/01.jpg',
+  image: '/img/licuri/01.webp',
   gallery: ['/img/licuri/01.webp','/img/licuri/02.webp','/img/licuri/03.webp','/img/licuri/04.webp','/img/licuri/05.webp','/img/licuri/06.webp','/img/licuri/07.webp','/img/licuri/08.webp','/img/licuri/09.webp','/img/licuri/10.webp','/img/licuri/11.webp','/img/licuri/12.webp','/img/licuri/13.webp','/img/licuri/14.webp','/img/licuri/15.webp','/img/licuri/16.webp'], featured: false,
   amenities: {
     pt: ['Vista para o mar', 'Arquitetura colonial', 'Mezanino com TV', 'Área total de 600 m²', 'Acesso à praia a pé', 'Ao lado da Igreja de São João Batista'],
@@ -1937,7 +1937,7 @@ const TRESMENINAS: Property = {
   seasonHigh: { pt: 'Alta temporada e feriados', en: 'High season and holidays' },
   carnaval: { pt: 'R$ 19.500', en: 'R$ 19,500' },
   reveillon: { pt: 'R$ 135.000', en: 'R$ 135,000' },
-  image: '/img/3meninas/01.jpg',
+  image: '/img/3meninas/01.webp',
   gallery: ['/img/3meninas/01.webp','/img/3meninas/02.webp','/img/3meninas/03.webp','/img/3meninas/04.webp','/img/3meninas/05.webp','/img/3meninas/06.webp','/img/3meninas/07.webp','/img/3meninas/08.webp','/img/3meninas/09.webp','/img/3meninas/10.webp','/img/3meninas/11.webp','/img/3meninas/12.webp','/img/3meninas/13.webp','/img/3meninas/14.webp','/img/3meninas/15.webp','/img/3meninas/16.webp','/img/3meninas/17.webp','/img/3meninas/18.webp','/img/3meninas/19.webp','/img/3meninas/20.webp','/img/3meninas/21.webp','/img/3meninas/22.webp','/img/3meninas/23.webp','/img/3meninas/24.webp','/img/3meninas/25.webp','/img/3meninas/26.webp'], featured: false,
   amenities: {
     pt: ['Piscina e deck de 70 m²', 'Amplo jardim com árvores nativas e frutíferas', 'Generosa varanda integrada', 'Sala de estar', 'Cozinha equipada', 'Banheiro social', 'Lavanderia', 'Ar-condicionado e ventilador de teto nas suítes', 'Estacionamento', 'Terreno de 2.000 m²'],
@@ -1960,7 +1960,7 @@ const PEROBA: Property = {
   priceLow: { pt: 'R$ 2.500 / diária', en: 'R$ 2,500 / night' },
   carnaval: { pt: 'R$ 40.000', en: 'R$ 40,000' },
   reveillon: { pt: 'R$ 140.000', en: 'R$ 140,000' },
-  image: '/img/peroba/01.jpg',
+  image: '/img/peroba/01.webp',
   gallery: ['/img/peroba/01.webp','/img/peroba/02.webp','/img/peroba/03.webp','/img/peroba/04.webp','/img/peroba/05.webp','/img/peroba/06.webp','/img/peroba/07.webp','/img/peroba/08.webp','/img/peroba/09.webp','/img/peroba/10.webp','/img/peroba/11.webp','/img/peroba/12.webp','/img/peroba/13.webp','/img/peroba/14.webp','/img/peroba/15.webp','/img/peroba/16.webp','/img/peroba/17.webp','/img/peroba/18.webp','/img/peroba/19.webp','/img/peroba/20.webp','/img/peroba/21.webp','/img/peroba/22.webp','/img/peroba/23.webp','/img/peroba/24.webp','/img/peroba/25.webp','/img/peroba/26.webp','/img/peroba/27.webp','/img/peroba/28.webp','/img/peroba/29.webp','/img/peroba/30.webp','/img/peroba/31.webp','/img/peroba/32.webp','/img/peroba/33.webp','/img/peroba/34.webp','/img/peroba/35.webp','/img/peroba/36.webp','/img/peroba/37.webp','/img/peroba/38.webp'], featured: false,
   amenities: {
     pt: ['Piscina privativa com deck amplo', 'Hidromassagem panorâmica com vista para a mata', 'Bangalô independente (Suíte Master)', 'Espaço gourmet com churrasqueira a gás', 'Sala de TV com tela de 75"', 'Cozinha equipada', 'Ar-condicionado', 'Ampla área verde privativa', 'Lavanderia'],
@@ -1983,7 +1983,7 @@ const MORENA: Property = {
   priceLow: { pt: 'R$ 17.000 / diária', en: 'R$ 17,000 / night' },
   carnaval: { pt: 'R$ 180.000', en: 'R$ 180,000' },
   reveillon: { pt: 'R$ 670.000', en: 'R$ 670,000' },
-  image: '/img/morena/01.jpg',
+  image: '/img/morena/01.webp',
   gallery: ['/img/morena/01.webp','/img/morena/02.webp','/img/morena/03.webp','/img/morena/04.webp','/img/morena/05.webp','/img/morena/06.webp','/img/morena/07.webp','/img/morena/08.webp','/img/morena/09.webp','/img/morena/10.webp','/img/morena/11.webp','/img/morena/12.webp','/img/morena/13.webp','/img/morena/14.webp','/img/morena/15.webp','/img/morena/16.webp','/img/morena/17.webp','/img/morena/18.webp','/img/morena/19.webp','/img/morena/20.webp','/img/morena/21.webp','/img/morena/22.webp','/img/morena/23.webp','/img/morena/24.webp','/img/morena/25.webp','/img/morena/26.webp','/img/morena/27.webp','/img/morena/28.webp','/img/morena/29.webp','/img/morena/30.webp','/img/morena/31.webp','/img/morena/32.webp','/img/morena/33.webp','/img/morena/34.webp','/img/morena/35.webp','/img/morena/36.webp','/img/morena/37.webp','/img/morena/38.webp','/img/morena/39.webp','/img/morena/40.webp','/img/morena/41.webp','/img/morena/42.webp','/img/morena/43.webp','/img/morena/44.webp','/img/morena/45.webp','/img/morena/46.webp','/img/morena/47.webp','/img/morena/48.webp','/img/morena/49.webp','/img/morena/50.webp'], featured: false,
   amenities: {
     pt: ['Vista para o mar', 'Piscina de raia de 18 metros', 'Boate privativa com CDJ, iluminação profissional e bar equipado', 'Sala de jogos e mesa de sinuca', 'Sala de massagem', 'Adega de vinhos', 'Espaço gourmet completo para até 20 pessoas', 'Sala de estar, jantar e TV', 'Cozinha equipada', 'Ar-condicionado', 'Elevador', 'Carrinho de golfe', 'Apoio de praia do condomínio', 'Máquina de gelo e cervejeira', 'Gerador e poço artesiano', 'Mosquiteiros', 'Som ambiente', 'Toalhas de piscina e praia', 'Estacionamento'],
@@ -2008,7 +2008,7 @@ const MOA: Property = {
   carnaval: { pt: 'R$ 35.000', en: 'R$ 35,000' },
   reveillon: { pt: 'R$ 190.000', en: 'R$ 190,000' },
   salePrice: { pt: 'R$ 7.500.000', en: 'R$ 7,500,000' },
-  image: '/img/moa/01.jpg',
+  image: '/img/moa/01.webp',
   gallery: ['/img/moa/01.webp','/img/moa/02.webp','/img/moa/03.webp','/img/moa/04.webp','/img/moa/05.webp','/img/moa/06.webp','/img/moa/07.webp','/img/moa/08.webp','/img/moa/09.webp','/img/moa/10.webp','/img/moa/11.webp','/img/moa/12.webp','/img/moa/13.webp','/img/moa/14.webp','/img/moa/15.webp','/img/moa/16.webp','/img/moa/17.webp','/img/moa/18.webp','/img/moa/19.webp','/img/moa/20.webp','/img/moa/21.webp','/img/moa/22.webp','/img/moa/23.webp','/img/moa/24.webp','/img/moa/25.webp','/img/moa/26.webp','/img/moa/27.webp','/img/moa/28.webp','/img/moa/29.webp','/img/moa/30.webp','/img/moa/31.webp','/img/moa/32.webp','/img/moa/33.webp','/img/moa/34.webp','/img/moa/35.webp','/img/moa/36.webp','/img/moa/37.webp','/img/moa/38.webp','/img/moa/39.webp','/img/moa/40.webp','/img/moa/41.webp','/img/moa/42.webp'], featured: false,
   amenities: {
     pt: ['Piscina de raia de 15 metros', 'Churrasqueira', 'Jardim de 2.500 m² com parquinho infantil e minicasinha', 'Sala de estar, jantar e TV', 'Cozinha equipada', 'Ar-condicionado e ventilador nas suítes', 'Lavabo', 'Área de serviço', 'Garagem para 2 carros', 'Apoio para passeio de barco'],
@@ -2033,7 +2033,7 @@ const BRAGA: Property = {
   carnaval: { pt: 'R$ 40.000', en: 'R$ 40,000' },
   reveillon: { pt: 'R$ 130.000', en: 'R$ 130,000' },
   salePrice: { pt: 'R$ 4.950.000', en: 'R$ 4,950,000' },
-  image: '/img/braga/17.jpg',
+  image: '/img/braga/17.webp',
   gallery: ['/img/braga/17.webp','/img/braga/02.webp','/img/braga/03.webp','/img/braga/04.webp','/img/braga/05.webp','/img/braga/06.webp','/img/braga/07.webp','/img/braga/08.webp','/img/braga/09.webp','/img/braga/10.webp','/img/braga/11.webp','/img/braga/12.webp','/img/braga/13.webp','/img/braga/14.webp','/img/braga/15.webp','/img/braga/16.webp','/img/braga/18.webp','/img/braga/19.webp','/img/braga/20.webp','/img/braga/21.webp','/img/braga/22.webp','/img/braga/23.webp','/img/braga/01.webp','/img/braga/24.webp','/img/braga/25.webp','/img/braga/26.webp','/img/braga/27.webp','/img/braga/28.webp','/img/braga/29.webp','/img/braga/30.webp','/img/braga/31.webp','/img/braga/32.webp','/img/braga/33.webp','/img/braga/34.webp','/img/braga/35.webp','/img/braga/36.webp','/img/braga/37.webp','/img/braga/38.webp','/img/braga/39.webp','/img/braga/40.webp','/img/braga/41.webp','/img/braga/42.webp','/img/braga/43.webp','/img/braga/44.webp','/img/braga/45.webp','/img/braga/46.webp'], featured: false,
   amenities: {
     pt: ['Piscina privativa', 'Espaço gourmet com churrasqueira', 'Varanda ampla com mesa de refeições e redes', 'Sala de estar, jantar e TV', 'Cozinha equipada', 'Ar-condicionado nos 4 quartos', 'Wi-Fi e TV a cabo', 'Roupas de cama, mesa e banho', 'Lavabo e área de serviço', 'Estacionamento'],
@@ -2057,7 +2057,7 @@ const CUMARU: Property = {
   priceLow: { pt: 'R$ 5.500 / diária', en: 'R$ 5,500 / night' },
   carnaval: { pt: 'R$ 40.000', en: 'R$ 40,000' },
   reveillon: { pt: 'R$ 220.000', en: 'R$ 220,000' },
-  image: '/img/cumaru/01.jpg',
+  image: '/img/cumaru/01.webp',
   gallery: ['/img/cumaru/01.webp'], featured: false,
   amenities: {
     pt: ['Piscina privativa', 'Jardim amplo', 'Varanda com vista para a piscina', 'Área gourmet integrada', 'Cozinha equipada', 'Ar-condicionado e mosquiteiro nas suítes', 'Wi-Fi', 'Roupas de cama, mesa e banho'],
@@ -2080,7 +2080,7 @@ const JACARANDA05: Property = {
   price: { pt: 'R$ 4.500 / diária', en: 'R$ 4,500 / night' },
   priceLow: { pt: 'R$ 3.600 / diária', en: 'R$ 3,600 / night' },
   reveillon: { pt: 'R$ 160.000', en: 'R$ 160,000' },
-  image: '/img/jacaranda05/01.jpg',
+  image: '/img/jacaranda05/01.webp',
   gallery: ['/img/jacaranda05/01.webp','/img/jacaranda05/02.webp','/img/jacaranda05/03.webp','/img/jacaranda05/04.webp','/img/jacaranda05/05.webp','/img/jacaranda05/06.webp','/img/jacaranda05/07.webp','/img/jacaranda05/08.webp','/img/jacaranda05/09.webp','/img/jacaranda05/10.webp','/img/jacaranda05/11.webp','/img/jacaranda05/12.webp','/img/jacaranda05/13.webp','/img/jacaranda05/14.webp','/img/jacaranda05/15.webp','/img/jacaranda05/16.webp','/img/jacaranda05/17.webp','/img/jacaranda05/18.webp','/img/jacaranda05/19.webp','/img/jacaranda05/20.webp','/img/jacaranda05/21.webp','/img/jacaranda05/22.webp','/img/jacaranda05/23.webp','/img/jacaranda05/24.webp','/img/jacaranda05/25.webp','/img/jacaranda05/26.webp','/img/jacaranda05/27.webp','/img/jacaranda05/28.webp','/img/jacaranda05/29.webp'], featured: false,
   amenities: {
     pt: ['Piscina privativa com jacuzzi integrada', 'Bar', 'Espaço gourmet com churrasqueira', 'Amplos jardins', 'Espaços internos integrados às áreas externas', 'Cozinha completa', 'Wi-Fi', 'Espaço para home office', 'Garagem'],
@@ -2103,7 +2103,7 @@ const TB14: Property = {
   price: { pt: 'Sob consulta', en: 'Upon request' },
   priceLow: { pt: 'Sob consulta', en: 'Upon request' },
   reveillon: { pt: 'R$ 350.000', en: 'R$ 350,000' },
-  image: '/img/tb14/01.jpg',
+  image: '/img/tb14/01.webp',
   gallery: ['/img/tb14/01.webp','/img/tb14/02.webp','/img/tb14/03.webp','/img/tb14/04.webp','/img/tb14/05.webp','/img/tb14/06.webp','/img/tb14/07.webp','/img/tb14/08.webp','/img/tb14/09.webp','/img/tb14/10.webp','/img/tb14/11.webp','/img/tb14/12.webp','/img/tb14/13.webp','/img/tb14/14.webp','/img/tb14/15.webp','/img/tb14/16.webp','/img/tb14/17.webp','/img/tb14/18.webp','/img/tb14/19.webp','/img/tb14/20.webp','/img/tb14/21.webp','/img/tb14/22.webp','/img/tb14/23.webp','/img/tb14/24.webp','/img/tb14/25.webp','/img/tb14/26.webp','/img/tb14/27.webp','/img/tb14/28.webp','/img/tb14/29.webp','/img/tb14/30.webp','/img/tb14/31.webp','/img/tb14/32.webp','/img/tb14/33.webp','/img/tb14/34.webp','/img/tb14/35.webp','/img/tb14/36.webp','/img/tb14/37.webp','/img/tb14/38.webp','/img/tb14/39.webp','/img/tb14/40.webp','/img/tb14/41.webp','/img/tb14/42.webp','/img/tb14/43.webp','/img/tb14/44.webp','/img/tb14/45.webp','/img/tb14/46.webp','/img/tb14/47.webp','/img/tb14/48.webp'], featured: false,
   amenities: {
     pt: ['A 200 metros da Praia das Tartarugas', 'Solário mirante com vista para o mar', 'Piscina privativa', 'Hidromassagem', 'Sauna', 'Quadra de beach tennis', 'Área gourmet integrada à área externa', 'Deck e jardim', 'Sala de estar, jantar e TV', 'Cozinha equipada', 'Ar-condicionado e mosquiteiros', 'Smart TV e Wi-Fi', 'Churrasqueira, máquina de lavar louças e lava e seca', 'Toalhas de piscina e espreguiçadeiras', 'Estacionamento', 'Portaria 24 horas'],
@@ -2127,7 +2127,7 @@ const MACONDO: Property = {
   priceLow: { pt: 'R$ 18.000 / diária', en: 'R$ 18,000 / night' },
   carnaval: { pt: 'R$ 195.000', en: 'R$ 195,000' },
   reveillon: { pt: 'R$ 1.000.000', en: 'R$ 1,000,000' },
-  image: '/img/macondo/01.jpg',
+  image: '/img/macondo/01.webp',
   gallery: ['/img/macondo/01.webp','/img/macondo/02.webp','/img/macondo/03.webp','/img/macondo/04.webp','/img/macondo/05.webp','/img/macondo/06.webp','/img/macondo/07.webp','/img/macondo/08.webp','/img/macondo/09.webp','/img/macondo/10.webp','/img/macondo/11.webp','/img/macondo/12.webp','/img/macondo/13.webp','/img/macondo/14.webp','/img/macondo/15.webp','/img/macondo/16.webp','/img/macondo/17.webp','/img/macondo/18.webp','/img/macondo/19.webp','/img/macondo/20.webp','/img/macondo/21.webp','/img/macondo/22.webp','/img/macondo/23.webp','/img/macondo/24.webp','/img/macondo/25.webp','/img/macondo/26.webp','/img/macondo/27.webp','/img/macondo/28.webp','/img/macondo/29.webp','/img/macondo/30.webp','/img/macondo/31.webp','/img/macondo/32.webp','/img/macondo/33.webp','/img/macondo/34.webp','/img/macondo/35.webp','/img/macondo/36.webp','/img/macondo/37.webp','/img/macondo/38.webp','/img/macondo/39.webp','/img/macondo/40.webp','/img/macondo/41.webp','/img/macondo/42.webp','/img/macondo/43.webp','/img/macondo/44.webp','/img/macondo/45.webp','/img/macondo/46.webp','/img/macondo/47.webp','/img/macondo/48.webp','/img/macondo/49.webp','/img/macondo/50.webp'],
   featured: true,
   amenities: {
@@ -2153,7 +2153,7 @@ const RICK: Property = {
   carnaval: { pt: 'R$ 70.000', en: 'R$ 70,000' },
   reveillon: { pt: 'R$ 350.000', en: 'R$ 350,000' },
   salePrice: { pt: 'R$ 22.000.000', en: 'R$ 22,000,000' },
-  image: '/img/rick/01.jpg',
+  image: '/img/rick/01.webp',
   gallery: ['/img/rick/01.webp','/img/rick/02.webp','/img/rick/03.webp','/img/rick/04.webp','/img/rick/05.webp','/img/rick/06.webp','/img/rick/07.webp','/img/rick/08.webp','/img/rick/09.webp','/img/rick/10.webp','/img/rick/11.webp','/img/rick/12.webp','/img/rick/13.webp','/img/rick/14.webp','/img/rick/15.webp','/img/rick/16.webp','/img/rick/17.webp','/img/rick/18.webp','/img/rick/19.webp','/img/rick/20.webp','/img/rick/21.webp','/img/rick/22.webp','/img/rick/23.webp','/img/rick/24.webp','/img/rick/25.webp','/img/rick/26.webp','/img/rick/27.webp','/img/rick/28.webp','/img/rick/29.webp','/img/rick/30.webp','/img/rick/31.webp','/img/rick/32.webp','/img/rick/33.webp','/img/rick/34.webp','/img/rick/35.webp','/img/rick/36.webp','/img/rick/37.webp','/img/rick/38.webp','/img/rick/39.webp','/img/rick/40.webp','/img/rick/41.webp','/img/rick/42.webp','/img/rick/43.webp','/img/rick/44.webp'],
   featured: true,
   amenities: {
@@ -2179,7 +2179,7 @@ const IANDE: Property = {
   priceLow: { pt: 'R$ 6.500', en: 'R$ 6,500' },
   reveillon: { pt: 'R$ 230.000 (pacote 10 dias)', en: 'R$ 230,000 (10-night package)' },
   carnaval: { pt: 'R$ 55.000 (pacote 5 dias)', en: 'R$ 55,000 (5-night package)' },
-  image: '/img/iande/01.jpg',
+  image: '/img/iande/01.webp',
   gallery: ['/img/iande/01.webp','/img/iande/02.webp','/img/iande/03.webp','/img/iande/04.webp','/img/iande/05.webp','/img/iande/06.webp','/img/iande/07.webp','/img/iande/08.webp','/img/iande/09.webp','/img/iande/10.webp','/img/iande/11.webp','/img/iande/12.webp','/img/iande/13.webp','/img/iande/14.webp','/img/iande/15.webp','/img/iande/16.webp','/img/iande/17.webp','/img/iande/18.webp','/img/iande/19.webp','/img/iande/20.webp','/img/iande/21.webp','/img/iande/22.webp','/img/iande/23.webp','/img/iande/24.webp','/img/iande/25.webp','/img/iande/26.webp','/img/iande/27.webp','/img/iande/28.webp','/img/iande/29.webp','/img/iande/30.webp','/img/iande/31.webp','/img/iande/32.webp','/img/iande/33.webp','/img/iande/34.webp','/img/iande/35.webp','/img/iande/36.webp','/img/iande/37.webp','/img/iande/38.webp','/img/iande/39.webp','/img/iande/40.webp'],
   featured: true,
   amenities: {
@@ -2205,7 +2205,7 @@ const MAGIVI: Property = {
   priceLow: { pt: 'R$ 10.000', en: 'R$ 10,000' },
   reveillon: { pt: 'R$ 500.000 (pacote 10 dias)', en: 'R$ 500,000 (10-night package)' },
   carnaval: { pt: 'R$ 120.000 (pacote 5 dias)', en: 'R$ 120,000 (5-night package)' },
-  image: '/img/magivi/01.jpg',
+  image: '/img/magivi/01.webp',
   gallery: ['/img/magivi/01.webp','/img/magivi/02.webp','/img/magivi/03.webp','/img/magivi/04.webp','/img/magivi/05.webp','/img/magivi/06.webp','/img/magivi/07.webp','/img/magivi/08.webp','/img/magivi/09.webp','/img/magivi/10.webp','/img/magivi/11.webp','/img/magivi/12.webp','/img/magivi/13.webp','/img/magivi/14.webp','/img/magivi/15.webp','/img/magivi/16.webp','/img/magivi/17.webp','/img/magivi/18.webp','/img/magivi/19.webp','/img/magivi/20.webp','/img/magivi/21.webp','/img/magivi/22.webp','/img/magivi/23.webp','/img/magivi/24.webp','/img/magivi/25.webp','/img/magivi/26.webp','/img/magivi/27.webp','/img/magivi/28.webp','/img/magivi/29.webp','/img/magivi/30.webp','/img/magivi/31.webp','/img/magivi/32.webp','/img/magivi/33.webp','/img/magivi/34.webp','/img/magivi/35.webp','/img/magivi/36.webp','/img/magivi/37.webp','/img/magivi/38.webp','/img/magivi/39.webp','/img/magivi/40.webp','/img/magivi/41.webp'],
   featured: true,
   amenities: {
@@ -2232,7 +2232,7 @@ const OITI: Property = {
   reveillon: { pt: 'R$ 270.000 (pacote 10 dias)', en: 'R$ 270,000 (10-night package)' },
   carnaval: { pt: 'R$ 60.000 (pacote 5 dias)', en: 'R$ 60,000 (5-night package)' },
   salePrice: { pt: 'R$ 13.500.000', en: 'R$ 13,500,000' },
-  image: '/img/oiti/01.jpg',
+  image: '/img/oiti/01.webp',
   gallery: ['/img/oiti/01.webp','/img/oiti/02.webp','/img/oiti/03.webp','/img/oiti/04.webp','/img/oiti/05.webp','/img/oiti/06.webp','/img/oiti/07.webp','/img/oiti/08.webp','/img/oiti/09.webp','/img/oiti/10.webp','/img/oiti/11.webp','/img/oiti/12.webp','/img/oiti/13.webp','/img/oiti/14.webp','/img/oiti/15.webp','/img/oiti/16.webp','/img/oiti/17.webp','/img/oiti/18.webp','/img/oiti/19.webp','/img/oiti/20.webp','/img/oiti/21.webp','/img/oiti/22.webp','/img/oiti/23.webp','/img/oiti/24.webp','/img/oiti/25.webp','/img/oiti/26.webp','/img/oiti/27.webp','/img/oiti/28.webp','/img/oiti/29.webp','/img/oiti/30.webp','/img/oiti/31.webp','/img/oiti/32.webp','/img/oiti/33.webp','/img/oiti/34.webp','/img/oiti/35.webp','/img/oiti/36.webp','/img/oiti/37.webp'],
   amenities: {
     pt: ['5 suítes', 'Piscina', 'Hidromassagem', 'Ducha externa', 'Cozinha gourmet completa', 'Churrasqueira', 'Cervejeira', 'Adega', 'Lavabo', 'Espaço de massagem no jardim', 'Jardim tropical', 'Staff completo (cozinheira, ajudante, arrumadeira, jardineiro e piscineiro)'],
@@ -2256,7 +2256,7 @@ const COQUEIRAL13: Property = {
   priceLow: { pt: 'R$ 2.550', en: 'R$ 2,550' },
   reveillon: { pt: 'Sob consulta', en: 'Upon request' },
   carnaval: { pt: 'Sob consulta', en: 'Upon request' },
-  image: '/img/coqueiral13/01.jpg',
+  image: '/img/coqueiral13/01.webp',
   gallery: ['/img/coqueiral13/01.webp','/img/coqueiral13/02.webp','/img/coqueiral13/03.webp','/img/coqueiral13/04.webp','/img/coqueiral13/05.webp','/img/coqueiral13/06.webp','/img/coqueiral13/07.webp','/img/coqueiral13/08.webp','/img/coqueiral13/09.webp','/img/coqueiral13/10.webp','/img/coqueiral13/11.webp','/img/coqueiral13/12.webp','/img/coqueiral13/13.webp','/img/coqueiral13/14.webp','/img/coqueiral13/15.webp','/img/coqueiral13/16.webp','/img/coqueiral13/17.webp','/img/coqueiral13/18.webp','/img/coqueiral13/19.webp','/img/coqueiral13/20.webp','/img/coqueiral13/21.webp','/img/coqueiral13/22.webp','/img/coqueiral13/23.webp','/img/coqueiral13/24.webp','/img/coqueiral13/25.webp','/img/coqueiral13/26.webp','/img/coqueiral13/27.webp','/img/coqueiral13/28.webp','/img/coqueiral13/29.webp','/img/coqueiral13/30.webp','/img/coqueiral13/31.webp','/img/coqueiral13/32.webp','/img/coqueiral13/33.webp','/img/coqueiral13/34.webp','/img/coqueiral13/35.webp','/img/coqueiral13/36.webp','/img/coqueiral13/37.webp'],
   amenities: {
     pt: ['6 suítes climatizadas', 'Piscina com revestimento hijau', 'Sala de estar', 'Cozinha completa e equipada', 'Área gourmet', 'Churrasqueira', 'Jardim tropical', 'Gramado', 'Suítes com hidromassagem', 'Vista para a mata', 'Condomínio fechado'],
@@ -2280,7 +2280,7 @@ const COQUEIRAL7: Property = {
   priceLow: { pt: 'Sob consulta', en: 'Upon request' },
   reveillon: { pt: 'Sob consulta', en: 'Upon request' },
   carnaval: { pt: 'Sob consulta', en: 'Upon request' },
-  image: '/img/coqueiral7/01.jpg',
+  image: '/img/coqueiral7/01.webp',
   gallery: ['/img/coqueiral7/01.webp','/img/coqueiral7/02.webp','/img/coqueiral7/03.webp','/img/coqueiral7/04.webp','/img/coqueiral7/05.webp','/img/coqueiral7/06.webp','/img/coqueiral7/07.webp','/img/coqueiral7/08.webp','/img/coqueiral7/09.webp','/img/coqueiral7/10.webp','/img/coqueiral7/11.webp','/img/coqueiral7/12.webp','/img/coqueiral7/13.webp','/img/coqueiral7/14.webp','/img/coqueiral7/15.webp','/img/coqueiral7/16.webp','/img/coqueiral7/17.webp','/img/coqueiral7/18.webp','/img/coqueiral7/19.webp'],
   amenities: {
     pt: ['6 suítes climatizadas', 'Piscina privativa', 'Área gourmet', 'Churrasqueira', 'Fogão industrial', 'Cervejeira e freezer', 'Sala de estar', 'Sala de jantar', 'Sala de TV climatizada', 'Cozinha completa e equipada', 'Lavabo', 'Wi-Fi', 'Condomínio fechado', 'Segurança 24 horas'],
@@ -2300,7 +2300,7 @@ const DADINHO: Property = {
   priceLow: { pt: 'R$ 8.000 / diária', en: 'R$ 8,000 / night' },
   carnaval: { pt: 'Sob consulta', en: 'Upon request' },
   reveillon: { pt: 'R$ 280.000 / período', en: 'R$ 280,000 / period' },
-  image: '/img/dadinho/01.jpg',
+  image: '/img/dadinho/01.webp',
   gallery: ['/img/dadinho/01.webp','/img/dadinho/02.webp','/img/dadinho/03.webp','/img/dadinho/04.webp','/img/dadinho/05.webp','/img/dadinho/06.webp','/img/dadinho/07.webp','/img/dadinho/08.webp','/img/dadinho/09.webp','/img/dadinho/10.webp','/img/dadinho/11.webp','/img/dadinho/12.webp','/img/dadinho/13.webp','/img/dadinho/14.webp','/img/dadinho/15.webp','/img/dadinho/16.webp','/img/dadinho/17.webp','/img/dadinho/18.webp','/img/dadinho/19.webp','/img/dadinho/20.webp','/img/dadinho/21.webp','/img/dadinho/22.webp','/img/dadinho/23.webp','/img/dadinho/24.webp','/img/dadinho/25.webp','/img/dadinho/26.webp','/img/dadinho/27.webp','/img/dadinho/28.webp','/img/dadinho/29.webp','/img/dadinho/30.webp','/img/dadinho/31.webp','/img/dadinho/32.webp','/img/dadinho/33.webp','/img/dadinho/34.webp','/img/dadinho/35.webp'], featured: false,
   amenities: {
     pt: ['Ambientes sociais integrados', 'Smart TV e Wi-Fi', 'Caixa de som Bluetooth', 'Churrasqueira americana', 'Redes de descanso', 'Ampla área verde', 'Cozinha totalmente equipada', 'Ar-condicionado', 'Máquina de café Nespresso', 'Enxoval completo', 'Estacionamento interno'],
@@ -2327,7 +2327,7 @@ const MAION: Property = {
   priceLow: { pt: 'Sob consulta', en: 'Upon request' },
   carnaval: { pt: 'Sob consulta', en: 'Upon request' },
   reveillon: { pt: 'R$ 200.000 / pacote de 10 diárias', en: 'R$ 200,000 / 10-night package' },
-  image: '/img/maion/01.jpg',
+  image: '/img/maion/01.webp',
   gallery: ['/img/maion/01.webp','/img/maion/02.webp','/img/maion/03.webp','/img/maion/04.webp','/img/maion/05.webp','/img/maion/06.webp','/img/maion/07.webp','/img/maion/08.webp','/img/maion/09.webp','/img/maion/10.webp','/img/maion/11.webp','/img/maion/12.webp','/img/maion/13.webp','/img/maion/14.webp','/img/maion/15.webp','/img/maion/16.webp','/img/maion/17.webp','/img/maion/18.webp','/img/maion/19.webp','/img/maion/20.webp','/img/maion/21.webp','/img/maion/22.webp','/img/maion/23.webp','/img/maion/24.webp','/img/maion/25.webp'], featured: false,
   amenities: {
     pt: ['Ar-condicionado nas suítes', 'Área gourmet', 'Churrasqueira', 'Fogão a lenha', 'Cozinha equipada', 'Piscina', 'Grande jardim', 'Ducha externa', 'Espreguiçadeiras', 'Ombrelone', 'Varanda com redes', 'Sala de estar', 'Sala de jantar', 'TV e Netflix', 'Wi-Fi', 'Mosquiteiros', 'Poço artesiano', 'Lavanderia', 'Máquina de lavar e secar', 'Estacionamento'],
@@ -2356,7 +2356,7 @@ const COQUEIRAL25: Property = {
   carnaval: { pt: 'Sob consulta', en: 'Upon request' },
   reveillon: { pt: 'Sob consulta', en: 'Upon request' },
   seasonHigh: { pt: 'Janeiro', en: 'January' },
-  image: '/img/coqueiral25/01.jpg',
+  image: '/img/coqueiral25/01.webp',
   gallery: ['/img/coqueiral25/02.webp','/img/coqueiral25/03.webp','/img/coqueiral25/04.webp','/img/coqueiral25/05.webp','/img/coqueiral25/06.webp','/img/coqueiral25/07.webp','/img/coqueiral25/08.webp','/img/coqueiral25/09.webp','/img/coqueiral25/10.webp','/img/coqueiral25/11.webp','/img/coqueiral25/12.webp','/img/coqueiral25/13.webp','/img/coqueiral25/14.webp','/img/coqueiral25/15.webp','/img/coqueiral25/16.webp','/img/coqueiral25/17.webp','/img/coqueiral25/18.webp','/img/coqueiral25/19.webp','/img/coqueiral25/20.webp','/img/coqueiral25/21.webp','/img/coqueiral25/22.webp','/img/coqueiral25/23.webp','/img/coqueiral25/24.webp','/img/coqueiral25/25.webp','/img/coqueiral25/26.webp','/img/coqueiral25/27.webp','/img/coqueiral25/28.webp','/img/coqueiral25/29.webp'], featured: false,
   amenities: {
     pt: ['Ar-condicionado', 'Banheiras de hidromassagem', 'Churrasqueira', 'Cozinha totalmente equipada', 'Cervejeira', 'Duchas externas', 'Espaço gourmet', 'Espreguiçadeiras', 'Estacionamento para quatro veículos', 'Geladeira e freezer', 'Hidromassagem aquecida', 'Internet Wi-Fi', 'Lavabos', 'Lavanderia equipada', 'Piscina de borda infinita', 'Roupas de cama e banho', 'Televisão', 'Varandas privativas', 'Lounge externo'],
@@ -2384,7 +2384,7 @@ const COQUEIRAL01: Property = {
   priceLow: { pt: 'R$ 4.800 / diária', en: 'R$ 4,800 / night' },
   carnaval: { pt: 'Sob consulta', en: 'Upon request' },
   reveillon: { pt: 'R$ 230.000 (pacote de 10 noites)', en: 'R$ 230,000 (10-night package)' },
-  image: '/img/coqueiral01/01.jpg',
+  image: '/img/coqueiral01/01.webp',
   gallery: ['/img/coqueiral01/01.webp','/img/coqueiral01/02.webp','/img/coqueiral01/03.webp','/img/coqueiral01/04.webp','/img/coqueiral01/05.webp','/img/coqueiral01/06.webp','/img/coqueiral01/07.webp','/img/coqueiral01/08.webp','/img/coqueiral01/09.webp','/img/coqueiral01/10.webp','/img/coqueiral01/11.webp','/img/coqueiral01/12.webp','/img/coqueiral01/13.webp','/img/coqueiral01/14.webp','/img/coqueiral01/15.webp','/img/coqueiral01/16.webp','/img/coqueiral01/17.webp','/img/coqueiral01/18.webp','/img/coqueiral01/19.webp','/img/coqueiral01/20.webp','/img/coqueiral01/21.webp','/img/coqueiral01/22.webp','/img/coqueiral01/23.webp','/img/coqueiral01/24.webp','/img/coqueiral01/25.webp','/img/coqueiral01/26.webp','/img/coqueiral01/27.webp','/img/coqueiral01/28.webp','/img/coqueiral01/29.webp','/img/coqueiral01/30.webp','/img/coqueiral01/31.webp','/img/coqueiral01/32.webp','/img/coqueiral01/33.webp','/img/coqueiral01/34.webp','/img/coqueiral01/35.webp','/img/coqueiral01/36.webp','/img/coqueiral01/37.webp','/img/coqueiral01/38.webp','/img/coqueiral01/39.webp','/img/coqueiral01/40.webp'], featured: false,
   amenities: {
     pt: ['Ar-condicionado', 'Piscina aquecida com borda infinita', 'Jacuzzi / hidromassagem', 'Academia completa', 'Sala de TV climatizada', 'Cozinha totalmente equipada', 'Área gourmet integrada', 'Churrasqueira', 'Internet Wi-Fi', 'Sistema de som', 'Lavadora e secadora', 'Roupas de cama e banho', 'Equipamentos de praia', 'Estacionamento privativo', 'Segurança 24 horas no condomínio'],
@@ -2412,7 +2412,7 @@ const GEIGER: Property = {
   priceLow: { pt: 'R$ 22.500 / diária', en: 'R$ 22,500 / night' },
   carnaval: { pt: 'R$ 22.500 / diária', en: 'R$ 22,500 / night' },
   reveillon: { pt: 'Sob consulta', en: 'Upon request' },
-  image: '/img/geiger/01.jpg',
+  image: '/img/geiger/01.webp',
   gallery: ['/img/geiger/01.webp','/img/geiger/02.webp','/img/geiger/03.webp','/img/geiger/04.webp','/img/geiger/05.webp','/img/geiger/06.webp','/img/geiger/07.webp','/img/geiger/08.webp','/img/geiger/09.webp','/img/geiger/10.webp','/img/geiger/11.webp','/img/geiger/12.webp','/img/geiger/13.webp','/img/geiger/14.webp','/img/geiger/15.webp','/img/geiger/16.webp','/img/geiger/17.webp','/img/geiger/18.webp','/img/geiger/19.webp','/img/geiger/20.webp','/img/geiger/21.webp','/img/geiger/22.webp','/img/geiger/23.webp','/img/geiger/24.webp','/img/geiger/25.webp','/img/geiger/26.webp','/img/geiger/27.webp','/img/geiger/28.webp','/img/geiger/29.webp'], featured: false,
   amenities: {
     pt: ['Casa pé na areia em condomínio fechado', 'Seis suítes climatizadas', 'Closets e cofres nas suítes', 'Mosquiteiros', 'Áreas integradas à natureza', 'Proximidade ao Quadrado de Trancoso', 'Acesso rápido à praia e a um rio de águas tranquilas', 'Varandas com vista para o jardim', 'Mesas de escritório em suítes selecionadas', 'Secadores de cabelo', 'Privacidade e segurança'],
@@ -2440,7 +2440,7 @@ const CASAMAR: Property = {
   priceLow: { pt: 'R$ 4.800 / diária', en: 'R$ 4,800 / night' },
   carnaval: { pt: 'R$ 55.000 (pacote especial)', en: 'R$ 55,000 (special package)' },
   reveillon: { pt: 'R$ 190.000 (pacote especial)', en: 'R$ 190,000 (special package)' },
-  image: '/img/casamar/01.jpg',
+  image: '/img/casamar/01.webp',
   gallery: ['/img/casamar/01.webp','/img/casamar/02.webp','/img/casamar/03.webp','/img/casamar/04.webp','/img/casamar/05.webp','/img/casamar/06.webp','/img/casamar/07.webp','/img/casamar/08.webp','/img/casamar/09.webp','/img/casamar/10.webp','/img/casamar/11.webp','/img/casamar/12.webp','/img/casamar/13.webp','/img/casamar/14.webp','/img/casamar/15.webp','/img/casamar/16.webp','/img/casamar/17.webp','/img/casamar/18.webp','/img/casamar/19.webp','/img/casamar/20.webp','/img/casamar/21.webp','/img/casamar/22.webp','/img/casamar/23.webp','/img/casamar/24.webp','/img/casamar/25.webp','/img/casamar/26.webp','/img/casamar/27.webp','/img/casamar/28.webp','/img/casamar/29.webp','/img/casamar/30.webp','/img/casamar/31.webp','/img/casamar/32.webp','/img/casamar/33.webp'], featured: false,
   amenities: {
     pt: ['Piscina privativa', 'Espaço gourmet', 'Churrasqueira', 'Adega de vinhos', 'Cervejeira', 'Cozinha equipada', 'Sala de estar', 'Sala de jantar', 'Sala de massagem', 'Lavabo', 'Ar-condicionado', 'Cofres nas suítes', 'Mosquiteiros', 'TV', 'Netflix', 'Internet Wi-Fi', 'Som ambiente', 'Conexão de som para iPod', 'Frigobar', 'Freezer', 'Espreguiçadeiras e ombrelone', 'Toalhas de piscina', 'Toalhas de praia', 'Roupas de cama, mesa e banho', 'Secador de cabelo', 'Lavanderia', 'Kids friendly', 'Estacionamento', 'Poço artesiano', 'Extintor'],
@@ -2468,7 +2468,7 @@ const ALMESCLA: Property = {
   priceLow: { pt: 'R$ 3.400 / diária', en: 'R$ 3,400 / night' },
   carnaval: { pt: 'R$ 40.000 (pacote especial)', en: 'R$ 40,000 (special package)' },
   reveillon: { pt: 'R$ 170.000 (pacote especial)', en: 'R$ 170,000 (special package)' },
-  image: '/img/almescla/01.jpg',
+  image: '/img/almescla/01.webp',
   gallery: ['/img/almescla/01.webp','/img/almescla/02.webp','/img/almescla/03.webp','/img/almescla/04.webp','/img/almescla/05.webp','/img/almescla/06.webp','/img/almescla/07.webp','/img/almescla/08.webp','/img/almescla/09.webp','/img/almescla/10.webp','/img/almescla/11.webp','/img/almescla/12.webp','/img/almescla/13.webp','/img/almescla/14.webp','/img/almescla/15.webp','/img/almescla/16.webp','/img/almescla/17.webp','/img/almescla/18.webp','/img/almescla/19.webp','/img/almescla/20.webp','/img/almescla/21.webp','/img/almescla/22.webp','/img/almescla/23.webp','/img/almescla/24.webp','/img/almescla/25.webp','/img/almescla/26.webp','/img/almescla/27.webp','/img/almescla/28.webp','/img/almescla/29.webp'], featured: false,
   amenities: {
     pt: ['Piscina revestida com pedras de seixo', 'Espaço gourmet com churrasqueira', 'Sala de estar', 'Sala de jantar', 'Sala de TV', 'Cozinha equipada', 'Lavabo', 'Ar-condicionado', 'Ventiladores de teto', 'Mosquiteiros', 'Internet Wi-Fi', 'TV', 'TV a cabo', 'Sky', 'Netflix', 'Som ambiente', 'Sistema de som', 'Espreguiçadeiras', 'Toalhas de piscina', 'Toalhas de praia', 'Roupas de cama, mesa e banho', 'Secador de cabelo', 'Freezer', 'Lavanderia', 'Ambiente adequado para famílias', 'Estacionamento', 'Poço artesiano', 'Extintor', 'Condomínio com segurança'],
@@ -2496,7 +2496,7 @@ const CASAMARIA: Property = {
   priceLow: { pt: 'R$ 9.000 / diária', en: 'R$ 9,000 / night' },
   carnaval: { pt: 'R$ 11.000 / diária', en: 'R$ 11,000 / night' },
   reveillon: { pt: 'R$ 350.000 (pacote especial)', en: 'R$ 350,000 (special package)' },
-  image: '/img/casamaria/01.jpg',
+  image: '/img/casamaria/01.webp',
   gallery: ['/img/casamaria/01.webp','/img/casamaria/02.webp','/img/casamaria/03.webp','/img/casamaria/04.webp','/img/casamaria/05.webp','/img/casamaria/06.webp','/img/casamaria/07.webp','/img/casamaria/08.webp','/img/casamaria/09.webp','/img/casamaria/10.webp','/img/casamaria/11.webp','/img/casamaria/12.webp','/img/casamaria/13.webp','/img/casamaria/14.webp','/img/casamaria/15.webp','/img/casamaria/16.webp','/img/casamaria/17.webp','/img/casamaria/18.webp','/img/casamaria/19.webp','/img/casamaria/20.webp','/img/casamaria/21.webp','/img/casamaria/22.webp','/img/casamaria/23.webp','/img/casamaria/24.webp','/img/casamaria/25.webp','/img/casamaria/26.webp','/img/casamaria/27.webp','/img/casamaria/28.webp'], featured: false,
   amenities: {
     pt: ['Casa pé na areia', 'Vista para o mar', 'Apoio de praia', 'Piscina', 'Espaço gourmet com churrasqueira', 'Sala de estar', 'Sala de jantar', 'Sala de TV', 'Cozinha equipada', 'Lavabo', 'Ar-condicionado', 'Internet Wi-Fi', 'TV a cabo / Sky', 'Espreguiçadeiras e ombrelone', 'Toalhas de piscina e praia', 'Roupas de cama, mesa e banho', 'Dois caiaques', 'Estacionamento', 'Poço artesiano'],
@@ -2524,7 +2524,7 @@ const COQUEIRAL02: Property = {
   priceLow: { pt: 'R$ 3.300 / diária', en: 'R$ 3,300 / night' },
   carnaval: { pt: 'R$ 8.000 / diária', en: 'R$ 8,000 / night' },
   reveillon: { pt: 'Sob consulta', en: 'Upon request' },
-  image: '/img/coqueiral02/01.jpg',
+  image: '/img/coqueiral02/01.webp',
   gallery: ['/img/coqueiral02/01.webp','/img/coqueiral02/02.webp','/img/coqueiral02/03.webp','/img/coqueiral02/04.webp','/img/coqueiral02/05.webp','/img/coqueiral02/06.webp','/img/coqueiral02/07.webp','/img/coqueiral02/08.webp','/img/coqueiral02/09.webp','/img/coqueiral02/10.webp','/img/coqueiral02/11.webp','/img/coqueiral02/12.webp','/img/coqueiral02/13.webp','/img/coqueiral02/14.webp','/img/coqueiral02/15.webp','/img/coqueiral02/16.webp','/img/coqueiral02/17.webp','/img/coqueiral02/18.webp','/img/coqueiral02/19.webp','/img/coqueiral02/20.webp','/img/coqueiral02/21.webp','/img/coqueiral02/22.webp','/img/coqueiral02/23.webp','/img/coqueiral02/24.webp','/img/coqueiral02/25.webp','/img/coqueiral02/26.webp','/img/coqueiral02/27.webp','/img/coqueiral02/28.webp','/img/coqueiral02/29.webp','/img/coqueiral02/30.webp','/img/coqueiral02/31.webp','/img/coqueiral02/32.webp','/img/coqueiral02/33.webp','/img/coqueiral02/34.webp','/img/coqueiral02/35.webp','/img/coqueiral02/36.webp','/img/coqueiral02/37.webp','/img/coqueiral02/38.webp','/img/coqueiral02/39.webp','/img/coqueiral02/40.webp'], featured: false,
   amenities: {
     pt: ['Piscina privativa', 'Área gourmet com churrasqueira e forno de pizza', 'Deck integrado às áreas sociais', 'Ducha externa em estilo rústico', 'Jardim e gramado', '2 salas de estar', '2 cozinhas completas', 'Internet Wi-Fi', 'TV', 'Roupas de cama', 'Estacionamento gratuito (2 garagens para até 4 carros)'],
@@ -2552,7 +2552,7 @@ const JACARANDA04: Property = {
   priceLow: { pt: 'R$ 5.880 / diária', en: 'R$ 5,880 / night' },
   carnaval: { pt: 'Sob consulta', en: 'Upon request' },
   reveillon: { pt: 'Sob consulta', en: 'Upon request' },
-  image: '/img/jacaranda-04/01.jpg',
+  image: '/img/jacaranda-04/01.webp',
   gallery: ['/img/jacaranda-04/01.webp','/img/jacaranda-04/02.webp','/img/jacaranda-04/03.webp','/img/jacaranda-04/04.webp','/img/jacaranda-04/05.webp','/img/jacaranda-04/06.webp','/img/jacaranda-04/07.webp','/img/jacaranda-04/08.webp','/img/jacaranda-04/09.webp','/img/jacaranda-04/10.webp','/img/jacaranda-04/11.webp','/img/jacaranda-04/12.webp','/img/jacaranda-04/13.webp','/img/jacaranda-04/14.webp','/img/jacaranda-04/15.webp','/img/jacaranda-04/16.webp','/img/jacaranda-04/17.webp','/img/jacaranda-04/18.webp','/img/jacaranda-04/19.webp','/img/jacaranda-04/20.webp','/img/jacaranda-04/21.webp','/img/jacaranda-04/22.webp','/img/jacaranda-04/23.webp','/img/jacaranda-04/24.webp','/img/jacaranda-04/25.webp','/img/jacaranda-04/26.webp','/img/jacaranda-04/27.webp','/img/jacaranda-04/28.webp'], featured: false,
   amenities: {
     pt: ['Piscina privativa', 'Hidromassagem para até 12 pessoas', 'Espaço gourmet completo com churrasqueira e forno de pizza', 'Redário', 'Cozinha completa equipada', 'Salas de estar e TV integradas', 'Wi-Fi de alta velocidade', 'Estacionamento para 4 veículos', 'Suítes climatizadas'],
@@ -2580,7 +2580,7 @@ const COQUEIRAL14: Property = {
   priceLow: { pt: 'R$ 3.900 / diária', en: 'R$ 3,900 / night' },
   carnaval: { pt: 'Sob consulta', en: 'Upon request' },
   reveillon: { pt: 'R$ 170.000', en: 'R$ 170,000' },
-  image: '/img/coqueiral14/01.jpg',
+  image: '/img/coqueiral14/01.webp',
   gallery: ['/img/coqueiral14/01.webp','/img/coqueiral14/02.webp','/img/coqueiral14/03.webp','/img/coqueiral14/04.webp','/img/coqueiral14/05.webp','/img/coqueiral14/06.webp','/img/coqueiral14/07.webp','/img/coqueiral14/08.webp','/img/coqueiral14/09.webp','/img/coqueiral14/10.webp','/img/coqueiral14/11.webp','/img/coqueiral14/12.webp','/img/coqueiral14/13.webp','/img/coqueiral14/14.webp','/img/coqueiral14/15.webp','/img/coqueiral14/16.webp','/img/coqueiral14/17.webp','/img/coqueiral14/18.webp','/img/coqueiral14/19.webp','/img/coqueiral14/20.webp','/img/coqueiral14/21.webp','/img/coqueiral14/22.webp','/img/coqueiral14/23.webp','/img/coqueiral14/24.webp','/img/coqueiral14/25.webp','/img/coqueiral14/26.webp','/img/coqueiral14/27.webp','/img/coqueiral14/28.webp','/img/coqueiral14/29.webp','/img/coqueiral14/30.webp','/img/coqueiral14/31.webp','/img/coqueiral14/32.webp'], featured: false,
   amenities: {
     pt: ['Ar-condicionado', 'Piscina privativa de borda infinita iluminada em LED', 'Espaço gourmet com churrasqueira', 'Cozinha completa', 'Wi-Fi', 'Sistema de som', 'TV por assinatura', 'Lavadora e secadora', 'Estacionamento privativo', 'Pet friendly', 'Roupas de cama e banho', 'Ducha externa', 'Varanda com redes e redário'],
@@ -2608,7 +2608,7 @@ const ESTRELA: Property = {
   priceLow: { pt: 'R$ 21.450 / diária', en: 'R$ 21,450 / night' },
   carnaval: { pt: 'Sob consulta', en: 'Upon request' },
   reveillon: { pt: 'Sob consulta', en: 'Upon request' },
-  image: '/img/estrela/01.jpg',
+  image: '/img/estrela/01.webp',
   gallery: ['/img/estrela/01.webp','/img/estrela/02.webp','/img/estrela/03.webp','/img/estrela/04.webp','/img/estrela/05.webp','/img/estrela/06.webp','/img/estrela/07.webp','/img/estrela/08.webp','/img/estrela/09.webp','/img/estrela/10.webp','/img/estrela/11.webp','/img/estrela/12.webp','/img/estrela/13.webp','/img/estrela/14.webp','/img/estrela/15.webp','/img/estrela/16.webp','/img/estrela/17.webp','/img/estrela/18.webp','/img/estrela/19.webp','/img/estrela/20.webp','/img/estrela/21.webp','/img/estrela/22.webp','/img/estrela/23.webp','/img/estrela/24.webp','/img/estrela/25.webp','/img/estrela/26.webp','/img/estrela/27.webp','/img/estrela/28.webp','/img/estrela/29.webp','/img/estrela/30.webp','/img/estrela/31.webp','/img/estrela/32.webp','/img/estrela/33.webp','/img/estrela/34.webp','/img/estrela/35.webp'], featured: false,
   amenities: {
     pt: ['Três construções independentes integradas ao jardim', 'Piscina privativa cercada pela vegetação', 'Salas de estar, televisão e jantar', 'Cozinha principal totalmente equipada', 'Segunda cozinha na Casa 2', 'Rooftop com vista para o mar', 'Mesa e aparelhos de jantar para até 16 pessoas', 'Jardins tropicais', 'A poucos passos do mar', 'Ar-condicionado', 'Mosquiteiros', 'TV'],
@@ -2637,7 +2637,7 @@ const COQUEIRAL22: Property = {
   priceLow: { pt: 'R$ 2.000 / diária', en: 'R$ 2,000 / night' },
   carnaval: { pt: 'Sob consulta', en: 'Upon request' },
   reveillon: { pt: 'R$ 150.000 (pacote sob consulta)', en: 'R$ 150,000 (package upon request)' },
-  image: '/img/coqueiral22/01.jpg',
+  image: '/img/coqueiral22/01.webp',
   gallery: ['/img/coqueiral22/01.webp','/img/coqueiral22/02.webp','/img/coqueiral22/03.webp','/img/coqueiral22/04.webp','/img/coqueiral22/05.webp','/img/coqueiral22/06.webp','/img/coqueiral22/07.webp','/img/coqueiral22/08.webp','/img/coqueiral22/09.webp','/img/coqueiral22/10.webp','/img/coqueiral22/11.webp','/img/coqueiral22/12.webp','/img/coqueiral22/13.webp','/img/coqueiral22/14.webp','/img/coqueiral22/15.webp','/img/coqueiral22/16.webp','/img/coqueiral22/17.webp','/img/coqueiral22/18.webp'], featured: false,
   amenities: {
     pt: ['Sala de estar climatizada com sofás e poltronas', 'Sala de jantar com mesa para 12 pessoas', 'Sala de TV com sofá retrátil, TV de 65 polegadas, Netflix e SKY', 'Cozinha gourmet completa com ilha, cooktop, cristaleira e eletrodomésticos', 'Piscina privativa de aproximadamente 150 m² com lounge interno', 'Espaço gourmet com churrasqueira', 'Jardim tropical e varandas', 'Wi-Fi de alta velocidade com 4 roteadores', 'Hidromassagem', 'Lavabo, lavanderia, despensa e rouparia', 'Garagem coberta para 2 veículos', 'Segurança 24 horas'],
@@ -2669,7 +2669,7 @@ const AREIA: Property = {
   priceLow: { pt: 'R$ 15.000 / diária', en: 'R$ 15,000 / night' },
   carnaval: { pt: 'R$ 125.000 (pacote de 5 dias)', en: 'R$ 125,000 (5-day package)' },
   reveillon: { pt: 'R$ 500.000 (pacote de 10 dias)', en: 'R$ 500,000 (10-day package)' },
-  image: '/img/areia/01.jpg',
+  image: '/img/areia/01.webp',
   gallery: ['/img/areia/07.webp','/img/areia/01.webp','/img/areia/02.webp','/img/areia/03.webp','/img/areia/04.webp','/img/areia/05.webp','/img/areia/06.webp','/img/areia/08.webp','/img/areia/09.webp','/img/areia/10.webp','/img/areia/11.webp','/img/areia/12.webp','/img/areia/13.webp','/img/areia/14.webp','/img/areia/15.webp','/img/areia/16.webp','/img/areia/17.webp','/img/areia/18.webp','/img/areia/19.webp','/img/areia/20.webp','/img/areia/21.webp','/img/areia/22.webp','/img/areia/23.webp','/img/areia/24.webp','/img/areia/25.webp','/img/areia/26.webp','/img/areia/27.webp','/img/areia/28.webp','/img/areia/29.webp'], featured: false,
   amenities: {
     pt: ['Piscina privativa integrada ao jardim florido', 'Espaço para refeições na falésia, com vista para o mar', 'Área gourmet', 'Dois blocos independentes: área social e bloco de suítes', 'Pé-direito de aproximadamente 5 metros na área social', 'Mobiliário assinado por designers brasileiros', 'Máquina de gelo', 'Poço artesiano', 'Espreguiçadeiras e ombrelones', 'TV a cabo', 'Ar-condicionado nas suítes', 'Wi-Fi', 'Closets', 'Gerador'],
@@ -2700,7 +2700,7 @@ const BONITA: Property = {
   price: { pt: 'Sob consulta', en: 'Upon request' },
   carnaval: { pt: 'Sob consulta', en: 'Upon request' },
   reveillon: { pt: 'Sob consulta', en: 'Upon request' },
-  image: '/img/bonita/01.jpg',
+  image: '/img/bonita/01.webp',
   gallery: ['/img/bonita/01.webp','/img/bonita/02.webp','/img/bonita/03.webp','/img/bonita/04.webp','/img/bonita/05.webp','/img/bonita/06.webp','/img/bonita/07.webp','/img/bonita/08.webp','/img/bonita/09.webp','/img/bonita/10.webp','/img/bonita/11.webp','/img/bonita/12.webp','/img/bonita/13.webp','/img/bonita/14.webp','/img/bonita/15.webp','/img/bonita/16.webp','/img/bonita/17.webp','/img/bonita/18.webp','/img/bonita/19.webp','/img/bonita/20.webp','/img/bonita/21.webp','/img/bonita/22.webp','/img/bonita/23.webp','/img/bonita/24.webp','/img/bonita/25.webp','/img/bonita/26.webp','/img/bonita/27.webp','/img/bonita/28.webp','/img/bonita/29.webp','/img/bonita/30.webp'], featured: false,
   amenities: {
     pt: ['6 suítes climatizadas com banheiro privativo', 'Piscina com duas raias de 18 metros', 'Vista exuberante para o mar e total privacidade', 'Amplo jardim', 'Escritório com biblioteca', 'Ampla varanda', 'Duas cozinhas equipadas', 'Sala de estar, sala de jantar e sala de TV', 'Churrasqueira, mesas de apoio e frigobar na área externa', 'Wi-Fi', 'TV a cabo', 'Roupas de cama, mesa e banho', 'Som para MP3', 'Estacionamento'],
@@ -2734,7 +2734,7 @@ const BUENO: Property = {
   reveillon: { pt: 'R$ 280.000 (pacote de 10 diárias) — indisponível', en: 'R$ 280,000 (10-night package) — unavailable' },
   seasonHigh: { pt: 'Janeiro, fevereiro, março, dezembro e feriados', en: 'January, February, March, December and holidays' },
   seasonLow: { pt: 'Abril a novembro', en: 'April to November' },
-  image: '/img/bueno/01.jpg',
+  image: '/img/bueno/01.webp',
   gallery: ['/img/bueno/01.webp','/img/bueno/02.webp','/img/bueno/03.webp','/img/bueno/04.webp','/img/bueno/05.webp','/img/bueno/06.webp','/img/bueno/07.webp','/img/bueno/08.webp','/img/bueno/09.webp','/img/bueno/10.webp','/img/bueno/11.webp','/img/bueno/12.webp','/img/bueno/13.webp','/img/bueno/14.webp','/img/bueno/15.webp','/img/bueno/16.webp','/img/bueno/17.webp','/img/bueno/18.webp','/img/bueno/19.webp','/img/bueno/20.webp'], featured: false,
   amenities: {
     pt: ['5 suítes climatizadas', 'Vista encantadora para o mar', 'Ampla área externa com piscina', 'Sala de estar', 'Varanda', 'Cozinha equipada', 'Wi-Fi', 'TV a cabo', 'Roupas de cama, mesa e banho', 'Estacionamento'],
@@ -2765,7 +2765,7 @@ const DAJU: Property = {
   price: { pt: 'Sob consulta', en: 'Upon request' },
   carnaval: { pt: 'Sob consulta', en: 'Upon request' },
   reveillon: { pt: 'Sob consulta', en: 'Upon request' },
-  image: '/img/daju/01.jpg',
+  image: '/img/daju/01.webp',
   gallery: ['/img/daju/01.webp','/img/daju/02.webp','/img/daju/03.webp','/img/daju/04.webp','/img/daju/05.webp','/img/daju/06.webp','/img/daju/07.webp','/img/daju/08.webp','/img/daju/09.webp','/img/daju/10.webp','/img/daju/11.webp','/img/daju/12.webp','/img/daju/13.webp','/img/daju/14.webp','/img/daju/15.webp','/img/daju/16.webp','/img/daju/17.webp','/img/daju/18.webp','/img/daju/19.webp','/img/daju/20.webp','/img/daju/21.webp','/img/daju/22.webp','/img/daju/23.webp','/img/daju/24.webp','/img/daju/25.webp','/img/daju/26.webp','/img/daju/27.webp'], featured: false,
   amenities: {
     pt: ['4 suítes climatizadas', 'Piscina de areia com raia de 12 metros e pequenas prainhas', 'Acesso direto à praia por trilha em meio à vegetação nativa', 'Terreno de aproximadamente 6.000 m² cercado pela Mata Atlântica', 'Ampla varanda com lounges, espaço fitness e mesa para refeições', 'Sala de estar, sala de jantar e sala de TV', 'Escritório e biblioteca', 'Cozinha interna e cozinha externa', 'Suíte térrea com deck privativo, também usada para massagens, yoga ou brinquedoteca', 'Apoio de praia', 'Lavanderia', 'Wi-Fi', 'TV a cabo', 'Roupas de cama, mesa e banho', 'Som para MP3', 'Estacionamento'],
@@ -2797,7 +2797,7 @@ const PATIMIRIM: Property = {
   priceLow: { pt: 'R$ 65.000 / diária', en: 'R$ 65,000 / night' },
   carnaval: { pt: 'Sob consulta', en: 'Upon request' },
   reveillon: { pt: 'Sob consulta', en: 'Upon request' },
-  image: '/img/patimirim/01.jpg',
+  image: '/img/patimirim/01.webp',
   gallery: ['/img/patimirim/01.webp','/img/patimirim/02.webp','/img/patimirim/03.webp','/img/patimirim/04.webp','/img/patimirim/05.webp','/img/patimirim/06.webp','/img/patimirim/07.webp','/img/patimirim/08.webp','/img/patimirim/09.webp','/img/patimirim/10.webp','/img/patimirim/11.webp','/img/patimirim/12.webp','/img/patimirim/13.webp','/img/patimirim/14.webp','/img/patimirim/15.webp','/img/patimirim/16.webp','/img/patimirim/17.webp','/img/patimirim/18.webp','/img/patimirim/19.webp','/img/patimirim/20.webp','/img/patimirim/21.webp','/img/patimirim/22.webp','/img/patimirim/23.webp','/img/patimirim/24.webp','/img/patimirim/25.webp','/img/patimirim/26.webp','/img/patimirim/27.webp','/img/patimirim/28.webp','/img/patimirim/29.webp','/img/patimirim/30.webp','/img/patimirim/31.webp'], featured: false,
   amenities: {
     pt: ['Casa de frente para o mar, a poucos passos da areia', 'Dez suítes climatizadas, entre casa principal e bangalôs', 'Amplo jardim com árvores nativas', 'Piscina', 'Espaço gourmet com churrasqueira', 'Apoio de praia', '4 caiaques para uso dos hóspedes', 'Adega de vinhos', 'Sala de ginástica', 'Sala de estar e sala de jantar', 'Máquina de gelo e freezer', 'Mosquiteiros', 'Gerador e poço artesiano', 'Internet Wi-Fi', 'TV a cabo / Sky', 'Sistema de som', 'Toalhas de praia e roupas de cama, mesa e banho', 'Estacionamento'],
@@ -2831,7 +2831,7 @@ const SANTARITA: Property = {
   reveillon: { pt: 'R$ 1.100.000 (pacote de 10 diárias) — indisponível', en: 'R$ 1,100,000 (10-night package) — unavailable' },
   seasonHigh: { pt: 'Dezembro, janeiro, fevereiro, março, julho e feriados', en: 'December, January, February, March, July and holidays' },
   seasonLow: { pt: 'Abril a novembro', en: 'April to November' },
-  image: '/img/santarita/01.jpg',
+  image: '/img/santarita/01.webp',
   gallery: ['/img/santarita/01.webp','/img/santarita/02.webp','/img/santarita/03.webp','/img/santarita/04.webp','/img/santarita/05.webp','/img/santarita/06.webp','/img/santarita/07.webp','/img/santarita/08.webp','/img/santarita/09.webp','/img/santarita/10.webp','/img/santarita/11.webp','/img/santarita/12.webp','/img/santarita/13.webp','/img/santarita/14.webp','/img/santarita/15.webp','/img/santarita/16.webp','/img/santarita/17.webp','/img/santarita/18.webp','/img/santarita/19.webp','/img/santarita/20.webp'], featured: false,
   amenities: {
     pt: ['Casa em frente ao mar, na Praia de Itaquena', 'Terreno de aproximadamente 12.000 m² com amplos jardins', 'Acesso direto à praia', '10 suítes climatizadas', 'Piscina aquecida', 'Academia, sauna e sala de massagem', 'Apoio de praia completo e bar de praia', 'Área gourmet com churrasqueira', 'Hidromassagem', 'Adega de vinhos e cervejeira', 'Máquina de gelo', 'Sala de estar, sala de jantar e sala de TV', 'Cozinha equipada', 'Deck e jardim', 'Lavanderia', 'Caixa de som e TV Sky', 'Roupas de cama, mesa e banho e toalhas de piscina', 'Estacionamento'],
@@ -2868,7 +2868,7 @@ const TRAMA: Property = {
   area: '600 m²',
   price: { pt: 'Sob consulta', en: 'Upon request' },
   reveillon: { pt: 'R$ 450.000', en: 'R$ 450,000' },
-  image: '/img/casatrama/01.jpg',
+  image: '/img/casatrama/01.webp',
   gallery: ['/img/casatrama/01.webp','/img/casatrama/02.webp','/img/casatrama/03.webp','/img/casatrama/04.webp','/img/casatrama/05.webp','/img/casatrama/06.webp','/img/casatrama/07.webp','/img/casatrama/08.webp','/img/casatrama/09.webp','/img/casatrama/10.webp','/img/casatrama/11.webp','/img/casatrama/12.webp','/img/casatrama/13.webp','/img/casatrama/14.webp','/img/casatrama/15.webp','/img/casatrama/16.webp','/img/casatrama/17.webp','/img/casatrama/18.webp','/img/casatrama/19.webp','/img/casatrama/20.webp','/img/casatrama/21.webp','/img/casatrama/22.webp','/img/casatrama/23.webp','/img/casatrama/24.webp','/img/casatrama/25.webp','/img/casatrama/26.webp','/img/casatrama/27.webp','/img/casatrama/28.webp','/img/casatrama/29.webp','/img/casatrama/30.webp'],
   amenities: {
     pt: ['Piscina privativa', 'Jacuzzi', 'Sauna', 'Espaço gourmet', 'Churrasqueira', 'Cozinha equipada', 'Adega de vinhos', 'Cervejeira', 'Máquina de lavar-louça', 'Lavanderia', 'Sala de estar', 'Sala de jantar', 'Sala de TV', 'TV a cabo', 'Sky', 'Sistema de som', 'Wi-Fi', 'Gerador', 'Ar-condicionado', 'Mosquiteiros', 'Estacionamento', 'Espreguiçadeiras e ombrelone', 'Roupas de cama, mesa e banho', 'Toalhas de piscina e praia'],
@@ -2903,7 +2903,7 @@ const TIZZI: Property = {
   priceLow: { pt: 'R$ 3.200 / diária', en: 'R$ 3,200 / night' },
   carnaval: { pt: 'R$ 30.000 (pacote de 5 dias)', en: 'R$ 30,000 (5-day package)' },
   reveillon: { pt: 'R$ 150.000 (pacote de 10 dias)', en: 'R$ 150,000 (10-day package)' },
-  image: '/img/casatizzi/01.jpg',
+  image: '/img/casatizzi/01.webp',
   gallery: ['/img/casatizzi/01.webp','/img/casatizzi/02.webp','/img/casatizzi/03.webp','/img/casatizzi/04.webp','/img/casatizzi/05.webp','/img/casatizzi/06.webp','/img/casatizzi/07.webp','/img/casatizzi/08.webp','/img/casatizzi/09.webp','/img/casatizzi/10.webp','/img/casatizzi/11.webp','/img/casatizzi/12.webp','/img/casatizzi/13.webp','/img/casatizzi/14.webp','/img/casatizzi/15.webp','/img/casatizzi/16.webp','/img/casatizzi/17.webp','/img/casatizzi/18.webp','/img/casatizzi/19.webp','/img/casatizzi/20.webp','/img/casatizzi/21.webp','/img/casatizzi/22.webp','/img/casatizzi/23.webp','/img/casatizzi/24.webp','/img/casatizzi/25.webp','/img/casatizzi/26.webp','/img/casatizzi/27.webp','/img/casatizzi/28.webp','/img/casatizzi/29.webp','/img/casatizzi/30.webp','/img/casatizzi/31.webp','/img/casatizzi/32.webp','/img/casatizzi/33.webp','/img/casatizzi/34.webp'],
   amenities: {
     pt: ['Cozinha gourmet completa', 'Piscina privativa', 'Bar junto à piscina', 'Área externa para confraternizações', 'Ambientes amplos e integrados', 'Condomínio fechado com segurança'],
@@ -2935,7 +2935,7 @@ const LILI: Property = {
   carnaval: { pt: 'R$ 45.000 (pacote de 5 diárias)', en: 'R$ 45,000 (5-night package)' },
   reveillon: { pt: 'R$ 150.000 (pacote de 10 diárias)', en: 'R$ 150,000 (10-night package)' },
   salePrice: { pt: 'R$ 5.500.000', en: 'R$ 5,500,000' },
-  image: '/img/casalili/01.jpg',
+  image: '/img/casalili/01.webp',
   gallery: ['/img/casalili/01.webp', '/img/casalili/02.webp', '/img/casalili/03.webp', '/img/casalili/04.webp', '/img/casalili/05.webp', '/img/casalili/06.webp', '/img/casalili/07.webp', '/img/casalili/08.webp', '/img/casalili/09.webp', '/img/casalili/10.webp', '/img/casalili/11.webp', '/img/casalili/12.webp', '/img/casalili/13.webp', '/img/casalili/14.webp', '/img/casalili/15.webp', '/img/casalili/16.webp', '/img/casalili/17.webp', '/img/casalili/18.webp', '/img/casalili/19.webp', '/img/casalili/20.webp', '/img/casalili/21.webp', '/img/casalili/22.webp', '/img/casalili/23.webp', '/img/casalili/24.webp'],
   amenities: {
     pt: ['Sala de estar', 'Sala de jantar', 'Cozinha equipada', 'Área gourmet', 'Piscina privativa', 'Deck', 'Varanda', 'Jardim', 'Duas salas com TV', 'SKY', 'Netflix', 'Wi-Fi', 'Churrasqueira', 'Forno de pizza', 'Máquina de gelo', 'Poço artesiano', 'Roupas de cama, mesa e banho', 'Condomínio com segurança'],
@@ -2970,7 +2970,7 @@ const C23: Property = {
   priceLow: { pt: 'A partir de R$ 1.800 / diária', en: 'From R$ 1,800 / night' },
   carnaval: { pt: 'Sob consulta', en: 'Upon request' },
   reveillon: { pt: 'R$ 100.000', en: 'R$ 100,000' },
-  image: '/img/coqueiral23/01.jpg',
+  image: '/img/coqueiral23/01.webp',
   gallery: ['/img/coqueiral23/01.webp', '/img/coqueiral23/02.webp', '/img/coqueiral23/03.webp', '/img/coqueiral23/04.webp', '/img/coqueiral23/05.webp', '/img/coqueiral23/06.webp', '/img/coqueiral23/07.webp', '/img/coqueiral23/08.webp', '/img/coqueiral23/09.webp', '/img/coqueiral23/10.webp', '/img/coqueiral23/11.webp', '/img/coqueiral23/12.webp', '/img/coqueiral23/13.webp', '/img/coqueiral23/14.webp', '/img/coqueiral23/15.webp'],
   amenities: {
     pt: ['Piscina privativa', 'Área gourmet', 'Churrasqueira', 'Mesa de sinuca', 'Sala de estar integrada à varanda', 'Cozinha completa', 'Terraço e varandas', 'Varanda com rede', 'Jardim', 'Ducha externa', 'Ar-condicionado', 'Roupas de cama e banho', 'Wi-Fi', 'Equipamentos de praia', 'Iluminação externa', 'Estacionamento privativo', 'Serviço de limpeza', 'Jacuzzi / banheira de hidromassagem', 'Decoração com referências praianas', 'Lavadora e secadora'],
@@ -3009,7 +3009,7 @@ const JV15: Property = {
   priceLow: { pt: 'R$ 2.500 / diária', en: 'R$ 2,500 / night' },
   carnaval: { pt: 'R$ 60.000', en: 'R$ 60,000' },
   reveillon: { pt: 'R$ 150.000', en: 'R$ 150,000' },
-  image: '/img/joaovieira15/01.jpg',
+  image: '/img/joaovieira15/01.webp',
   gallery: ['/img/joaovieira15/01.webp', '/img/joaovieira15/02.webp', '/img/joaovieira15/03.webp', '/img/joaovieira15/04.webp', '/img/joaovieira15/05.webp', '/img/joaovieira15/06.webp', '/img/joaovieira15/07.webp', '/img/joaovieira15/08.webp', '/img/joaovieira15/09.webp', '/img/joaovieira15/10.webp', '/img/joaovieira15/11.webp', '/img/joaovieira15/12.webp', '/img/joaovieira15/13.webp', '/img/joaovieira15/14.webp', '/img/joaovieira15/15.webp', '/img/joaovieira15/16.webp', '/img/joaovieira15/17.webp', '/img/joaovieira15/18.webp', '/img/joaovieira15/19.webp', '/img/joaovieira15/20.webp', '/img/joaovieira15/21.webp', '/img/joaovieira15/22.webp', '/img/joaovieira15/23.webp', '/img/joaovieira15/24.webp', '/img/joaovieira15/25.webp', '/img/joaovieira15/26.webp', '/img/joaovieira15/27.webp', '/img/joaovieira15/28.webp'],
   amenities: {
     pt: ['2 salas de estar', 'Sala de jantar', 'Cozinha principal', 'Cozinha de apoio', 'Piscina orgânica revestida em pedra', 'Sistema de tratamento por luz ultravioleta', 'Jardins tropicais', 'Espaço para yoga', 'Churrasqueira', 'Áreas de convivência e descanso ao ar livre'],
@@ -3048,7 +3048,7 @@ const JV14: Property = {
   priceLow: { pt: 'R$ 2.800 / diária', en: 'R$ 2,800 / night' },
   carnaval: { pt: 'R$ 50.000 (pacote de 5 diárias)', en: 'R$ 50,000 (5-night package)' },
   reveillon: { pt: 'R$ 140.000', en: 'R$ 140,000' },
-  image: '/img/joaovieira14/01.jpg',
+  image: '/img/joaovieira14/01.webp',
   gallery: ['/img/joaovieira14/01.webp', '/img/joaovieira14/02.webp', '/img/joaovieira14/03.webp', '/img/joaovieira14/04.webp', '/img/joaovieira14/05.webp', '/img/joaovieira14/06.webp', '/img/joaovieira14/07.webp', '/img/joaovieira14/08.webp', '/img/joaovieira14/09.webp', '/img/joaovieira14/10.webp', '/img/joaovieira14/11.webp', '/img/joaovieira14/12.webp', '/img/joaovieira14/13.webp', '/img/joaovieira14/14.webp', '/img/joaovieira14/15.webp', '/img/joaovieira14/16.webp', '/img/joaovieira14/17.webp', '/img/joaovieira14/18.webp', '/img/joaovieira14/19.webp', '/img/joaovieira14/20.webp', '/img/joaovieira14/21.webp', '/img/joaovieira14/22.webp', '/img/joaovieira14/23.webp', '/img/joaovieira14/24.webp', '/img/joaovieira14/25.webp', '/img/joaovieira14/26.webp', '/img/joaovieira14/27.webp', '/img/joaovieira14/28.webp', '/img/joaovieira14/29.webp', '/img/joaovieira14/30.webp', '/img/joaovieira14/31.webp'],
   amenities: {
     pt: ['Sala de estar', 'Sala de jantar', 'Sala de TV', 'Sala de estar com inspiração marroquina', 'Cozinha totalmente equipada', 'Varanda', '3 terraços', 'Área gourmet externa', 'Churrasqueira', 'Mesa circular para 10 pessoas', 'Piscina privativa em Cristal Pool', 'Jardim', 'Banheiro de apoio à piscina', 'Lavanderia', 'Espaço de trabalho', 'Wi-Fi', 'TV a cabo', 'Sistema de som compatível com MP3', 'Roupas de cama, mesa e banho', 'Estacionamento gratuito', 'Vista para o jardim', 'Vista para área verde', 'Piscina disponível durante todo o ano'],
@@ -3087,7 +3087,7 @@ const JV13: Property = {
   priceLow: { pt: 'Sob consulta', en: 'Upon request' },
   carnaval: { pt: 'Sob consulta', en: 'Upon request' },
   reveillon: { pt: 'Sob consulta', en: 'Upon request' },
-  image: '/img/joaovieira13/01.jpg',
+  image: '/img/joaovieira13/01.webp',
   gallery: ['/img/joaovieira13/01.webp', '/img/joaovieira13/02.webp', '/img/joaovieira13/03.webp', '/img/joaovieira13/04.webp', '/img/joaovieira13/05.webp', '/img/joaovieira13/06.webp', '/img/joaovieira13/07.webp', '/img/joaovieira13/08.webp', '/img/joaovieira13/09.webp', '/img/joaovieira13/10.webp', '/img/joaovieira13/11.webp', '/img/joaovieira13/12.webp', '/img/joaovieira13/13.webp', '/img/joaovieira13/14.webp', '/img/joaovieira13/15.webp', '/img/joaovieira13/16.webp', '/img/joaovieira13/17.webp', '/img/joaovieira13/18.webp', '/img/joaovieira13/19.webp', '/img/joaovieira13/20.webp', '/img/joaovieira13/21.webp', '/img/joaovieira13/22.webp', '/img/joaovieira13/23.webp', '/img/joaovieira13/24.webp', '/img/joaovieira13/25.webp', '/img/joaovieira13/26.webp', '/img/joaovieira13/27.webp', '/img/joaovieira13/28.webp', '/img/joaovieira13/29.webp', '/img/joaovieira13/30.webp', '/img/joaovieira13/31.webp', '/img/joaovieira13/32.webp', '/img/joaovieira13/33.webp', '/img/joaovieira13/34.webp'],
   amenities: {
     pt: ['Ar-condicionado', 'Mosquiteiros', 'Adega de vinhos', 'Ofurô', 'Churrasqueira', 'Piscina privativa', 'Cozinha equipada', 'Poço artesiano', 'Espaço gourmet', 'Roupas de cama, mesa e banho', 'Espreguiçadeiras e ombrelone', 'Sala de estar', 'Estacionamento', 'Sala de jantar', 'Freezer', 'Secadores de cabelo', 'Wi-Fi', 'Som ambiente', 'Lavabo', 'Toalhas de praia', 'Lavanderia', 'Ventiladores', 'Máquina de gelo'],
@@ -3119,7 +3119,7 @@ const C20: Property = {
   priceLow: { pt: 'R$ 4.000 / diária', en: 'R$ 4,000 / night' },
   carnaval: { pt: 'Sob consulta', en: 'Upon request' },
   reveillon: { pt: 'R$ 210.000 (pacote)', en: 'R$ 210,000 (package)' },
-  image: '/img/coqueiral20/01.jpg',
+  image: '/img/coqueiral20/01.webp',
   gallery: ['/img/coqueiral20/01.webp','/img/coqueiral20/02.webp','/img/coqueiral20/03.webp','/img/coqueiral20/04.webp','/img/coqueiral20/05.webp','/img/coqueiral20/06.webp','/img/coqueiral20/07.webp','/img/coqueiral20/08.webp','/img/coqueiral20/09.webp','/img/coqueiral20/10.webp','/img/coqueiral20/11.webp','/img/coqueiral20/12.webp','/img/coqueiral20/13.webp','/img/coqueiral20/14.webp','/img/coqueiral20/15.webp','/img/coqueiral20/16.webp','/img/coqueiral20/17.webp','/img/coqueiral20/18.webp','/img/coqueiral20/19.webp','/img/coqueiral20/20.webp','/img/coqueiral20/21.webp','/img/coqueiral20/22.webp','/img/coqueiral20/23.webp','/img/coqueiral20/24.webp','/img/coqueiral20/25.webp','/img/coqueiral20/26.webp','/img/coqueiral20/27.webp','/img/coqueiral20/28.webp','/img/coqueiral20/29.webp','/img/coqueiral20/30.webp','/img/coqueiral20/31.webp','/img/coqueiral20/32.webp','/img/coqueiral20/33.webp','/img/coqueiral20/34.webp','/img/coqueiral20/35.webp','/img/coqueiral20/36.webp'], featured: false,
   amenities: {
     pt: ['Piscina privativa com hidromassagem integrada', 'Espaço gourmet com churrasqueira', 'Sala de estar com TV de 80 polegadas', 'Sala de jantar com mesa para até 20 pessoas', 'Cozinha completa', 'Suíte master com banheira de hidromassagem', 'Ar-condicionado nas suítes', 'Varandas com redes', 'Jardim com ducha externa', 'Área de lazer para crianças', 'Lavanderia equipada com lavadora e secadora', 'Wi-Fi', 'TV a cabo', 'Roupas de cama e banho', 'Estacionamento privativo', 'Condomínio fechado com segurança 24 horas'],
@@ -3146,7 +3146,7 @@ const C21: Property = {
   priceLow: { pt: 'Sob consulta', en: 'Upon request' },
   carnaval: { pt: 'Sob consulta', en: 'Upon request' },
   reveillon: { pt: 'Sob consulta', en: 'Upon request' },
-  image: '/img/coqueiral21/01.jpg',
+  image: '/img/coqueiral21/01.webp',
   gallery: ['/img/coqueiral21/01.webp','/img/coqueiral21/02.webp','/img/coqueiral21/03.webp','/img/coqueiral21/04.webp','/img/coqueiral21/05.webp','/img/coqueiral21/06.webp','/img/coqueiral21/07.webp','/img/coqueiral21/08.webp','/img/coqueiral21/09.webp','/img/coqueiral21/10.webp','/img/coqueiral21/11.webp','/img/coqueiral21/12.webp','/img/coqueiral21/13.webp','/img/coqueiral21/14.webp','/img/coqueiral21/15.webp','/img/coqueiral21/16.webp','/img/coqueiral21/17.webp','/img/coqueiral21/18.webp','/img/coqueiral21/19.webp','/img/coqueiral21/20.webp','/img/coqueiral21/21.webp','/img/coqueiral21/22.webp','/img/coqueiral21/23.webp','/img/coqueiral21/24.webp','/img/coqueiral21/25.webp','/img/coqueiral21/26.webp','/img/coqueiral21/27.webp','/img/coqueiral21/28.webp','/img/coqueiral21/29.webp','/img/coqueiral21/30.webp'], featured: false,
   amenities: {
     pt: ['Piscina privativa', 'Terraço com vista para a piscina', 'Varandas', 'Jardim', 'Sala de estar ampla', 'Cozinha equipada com forno, micro-ondas e cooktop', 'Ar-condicionado nos quartos', 'TV', 'Wi-Fi', 'Secadores de cabelo', 'Máquina de lavar', 'Estacionamento gratuito', 'Câmeras de segurança nas áreas externas', 'Condomínio fechado a 2,9 km do Quadrado'],
@@ -3173,7 +3173,7 @@ const C24: Property = {
   priceLow: { pt: 'R$ 2.900 / diária', en: 'R$ 2,900 / night' },
   carnaval: { pt: 'Sob consulta', en: 'Upon request' },
   reveillon: { pt: 'Sob consulta', en: 'Upon request' },
-  image: '/img/coqueiral24/01.jpg',
+  image: '/img/coqueiral24/01.webp',
   gallery: ['/img/coqueiral24/01.webp','/img/coqueiral24/02.webp','/img/coqueiral24/03.webp','/img/coqueiral24/04.webp','/img/coqueiral24/05.webp','/img/coqueiral24/06.webp','/img/coqueiral24/07.webp','/img/coqueiral24/08.webp','/img/coqueiral24/09.webp','/img/coqueiral24/10.webp','/img/coqueiral24/11.webp','/img/coqueiral24/12.webp','/img/coqueiral24/13.webp','/img/coqueiral24/14.webp','/img/coqueiral24/15.webp','/img/coqueiral24/16.webp','/img/coqueiral24/17.webp','/img/coqueiral24/18.webp','/img/coqueiral24/19.webp','/img/coqueiral24/20.webp','/img/coqueiral24/21.webp','/img/coqueiral24/22.webp','/img/coqueiral24/23.webp','/img/coqueiral24/24.webp','/img/coqueiral24/25.webp','/img/coqueiral24/26.webp','/img/coqueiral24/27.webp','/img/coqueiral24/28.webp','/img/coqueiral24/29.webp','/img/coqueiral24/30.webp','/img/coqueiral24/31.webp','/img/coqueiral24/32.webp','/img/coqueiral24/33.webp','/img/coqueiral24/34.webp','/img/coqueiral24/35.webp','/img/coqueiral24/36.webp'], featured: false,
   amenities: {
     pt: ['Sala de estar ampla e totalmente envidraçada', 'Piscina privativa', 'Cozinha externa', 'Salão de convivência', 'Lounge externo amplo', 'Banheiros internos e externos', 'Jardim integrado aos ambientes', 'Suíte principal com mais de 50 m², closet e jardim privativo', 'Suíte superior com vista para a mata e quarto anexo', 'Suíte inferior com duchas duplas e metais em cobre', 'Quarto adicional com 2 camas de casal', 'Decoração com obras de artistas locais e materiais naturais', 'Condomínio fechado a 2,5 km do Quadrado'],
@@ -3200,7 +3200,7 @@ const V7: Property = {
   priceLow: { pt: 'R$ 2.500 / diária', en: 'R$ 2,500 / night' },
   carnaval: { pt: 'R$ 25.000 (pacote sob confirmação)', en: 'R$ 25,000 (package upon confirmation)' },
   reveillon: { pt: 'R$ 120.000 (pacote sob confirmação)', en: 'R$ 120,000 (package upon confirmation)' },
-  image: '/img/v7/01.jpg',
+  image: '/img/v7/01.webp',
   gallery: ['/img/v7/01.webp','/img/v7/02.webp','/img/v7/03.webp','/img/v7/04.webp','/img/v7/05.webp','/img/v7/06.webp','/img/v7/07.webp','/img/v7/08.webp','/img/v7/09.webp','/img/v7/10.webp','/img/v7/11.webp','/img/v7/12.webp','/img/v7/13.webp','/img/v7/14.webp','/img/v7/15.webp','/img/v7/16.webp','/img/v7/17.webp','/img/v7/18.webp','/img/v7/19.webp','/img/v7/20.webp','/img/v7/21.webp','/img/v7/22.webp','/img/v7/23.webp','/img/v7/24.webp','/img/v7/25.webp','/img/v7/26.webp','/img/v7/27.webp','/img/v7/28.webp'], featured: false,
   amenities: {
     pt: ['Duas estruturas independentes: Loft Bambu e Casa Madeira', 'Arquitetura de baixo impacto, com bambu, barro e madeira de demolição', 'Sistemas sustentáveis de captação de chuva, reaproveitamento de resíduos orgânicos e tratamento por evapotranspiração', 'Ofurô', 'Ducha externa', 'Varandas abertas para o jardim', 'Redário e espreguiçadeiras', 'Ar-condicionado', 'Wi-Fi', 'TV a cabo', 'Sistema de som surround', 'Cozinha equipada', 'Lavanderia', 'Lavabo', 'Apoio de praia no Almar Trancoso, sujeito a disponibilidade', 'Bicicletas sustentáveis, conforme disponibilidade', 'Condomínio fechado'],
@@ -3232,7 +3232,7 @@ const MARTINI: Property = {
   carnaval: { pt: 'Sob consulta', en: 'Upon request' },
   reveillon: { pt: 'Sob consulta', en: 'Upon request' },
   salePrice: { pt: 'R$ 50.000.000', en: 'R$ 50,000,000' },
-  image: '/img/martini/01.jpg',
+  image: '/img/martini/01.webp',
   gallery: ['/img/martini/01.webp','/img/martini/02.webp','/img/martini/03.webp','/img/martini/04.webp','/img/martini/05.webp','/img/martini/06.webp','/img/martini/07.webp','/img/martini/08.webp','/img/martini/09.webp','/img/martini/10.webp','/img/martini/11.webp','/img/martini/12.webp','/img/martini/13.webp','/img/martini/14.webp','/img/martini/15.webp','/img/martini/16.webp','/img/martini/17.webp','/img/martini/18.webp','/img/martini/19.webp','/img/martini/20.webp','/img/martini/21.webp','/img/martini/22.webp','/img/martini/23.webp','/img/martini/24.webp','/img/martini/25.webp','/img/martini/26.webp'], featured: false,
   amenities: {
     pt: ['Casa totalmente pé na areia, de frente para o mar', 'Aproximadamente 700 m² de área construída em terreno de 5.000 m²', '7 suítes climatizadas', 'Suíte master com varanda e vista para o mar', 'Piscina e hidromassagem', 'Área gourmet com churrasqueira e forno', 'Apoio de praia completo, com cadeiras de praia e ducha', 'Sala de estar, sala de jantar e sala de TV', 'Cozinha equipada com fogão industrial', 'Cervejeira e geladeiras', 'Jardim', 'TV e Wi-Fi', 'Roupas de cama, mesa e banho', 'Estacionamento'],
@@ -3264,7 +3264,7 @@ const SUBLIME: Property = {
   priceLow: { pt: 'R$ 34.500 / diária', en: 'R$ 34,500 / night' },
   carnaval: { pt: 'R$ 181.500 (pacote de 5 dias)', en: 'R$ 181,500 (5-day package)' },
   reveillon: { pt: 'Sob consulta', en: 'Upon request' },
-  image: '/img/sublime/01.jpg',
+  image: '/img/sublime/01.webp',
   gallery: ['/img/sublime/01.webp','/img/sublime/02.webp','/img/sublime/03.webp','/img/sublime/04.webp','/img/sublime/05.webp','/img/sublime/06.webp','/img/sublime/07.webp','/img/sublime/08.webp','/img/sublime/09.webp','/img/sublime/10.webp','/img/sublime/11.webp','/img/sublime/12.webp','/img/sublime/13.webp','/img/sublime/14.webp','/img/sublime/15.webp','/img/sublime/16.webp','/img/sublime/17.webp','/img/sublime/18.webp','/img/sublime/19.webp','/img/sublime/20.webp','/img/sublime/21.webp','/img/sublime/22.webp','/img/sublime/23.webp','/img/sublime/24.webp','/img/sublime/25.webp','/img/sublime/26.webp','/img/sublime/27.webp','/img/sublime/28.webp','/img/sublime/29.webp','/img/sublime/30.webp','/img/sublime/31.webp','/img/sublime/32.webp','/img/sublime/33.webp','/img/sublime/34.webp','/img/sublime/35.webp'], featured: false,
   amenities: {
     pt: ['Casa pé na areia na Praia dos Nativos', '125 metros de frente para uma faixa de praia reservada', 'Mais de 36.000 m² de mata nativa', 'Sete suítes amplas', 'Vista para o mar, piscina, jardins e mata', 'Bar e estrutura de apoio à beira-mar', 'Cozinha profissional e forno a lenha', 'Sala de entretenimento de aproximadamente 80 m², com TV e mesas de jogos', 'Espaço rústico de ginástica', 'Piscina cercada por jardins', 'Terraços, decks e áreas de descanso voltados para o mar', 'Acesso direto à praia'],
@@ -3293,7 +3293,7 @@ const VISTANATIVOS: Property = {
   priceLow: { pt: 'R$ 4.000 / diária', en: 'R$ 4,000 / night' },
   carnaval: { pt: 'Sob consulta', en: 'Upon request' },
   reveillon: { pt: 'R$ 290.000 (pacote de 10 noites)', en: 'R$ 290,000 (10-night package)' },
-  image: '/img/vista-nativos/01.jpg',
+  image: '/img/vista-nativos/01.webp',
   gallery: ['/img/vista-nativos/01.webp','/img/vista-nativos/02.webp','/img/vista-nativos/03.webp','/img/vista-nativos/04.webp','/img/vista-nativos/05.webp','/img/vista-nativos/06.webp','/img/vista-nativos/07.webp','/img/vista-nativos/08.webp','/img/vista-nativos/09.webp','/img/vista-nativos/10.webp','/img/vista-nativos/11.webp','/img/vista-nativos/12.webp','/img/vista-nativos/13.webp','/img/vista-nativos/14.webp','/img/vista-nativos/15.webp','/img/vista-nativos/16.webp','/img/vista-nativos/17.webp','/img/vista-nativos/18.webp','/img/vista-nativos/19.webp','/img/vista-nativos/20.webp','/img/vista-nativos/21.webp','/img/vista-nativos/22.webp','/img/vista-nativos/23.webp','/img/vista-nativos/24.webp','/img/vista-nativos/25.webp','/img/vista-nativos/26.webp','/img/vista-nativos/27.webp','/img/vista-nativos/28.webp','/img/vista-nativos/29.webp','/img/vista-nativos/30.webp','/img/vista-nativos/31.webp','/img/vista-nativos/32.webp','/img/vista-nativos/33.webp','/img/vista-nativos/34.webp','/img/vista-nativos/35.webp'], featured: false,
   amenities: {
     pt: ['Ar-condicionado', 'Acesso próximo à praia', 'Churrasqueira', 'Cozinha completa', 'Cozinheira', 'Ducha externa', 'Equipamentos de praia', 'Estacionamento privativo', 'Iluminação externa', 'Hidromassagem', 'Piscina privativa', 'Roupas de cama e banho', 'Serviço de limpeza', 'Terraço ou varanda', 'Varanda com rede', 'Vista para o mar', 'Wi-Fi gratuito'],
@@ -3322,7 +3322,7 @@ const TERRAL: Property = {
   priceLow: { pt: 'R$ 6.000 / diária', en: 'R$ 6,000 / night' },
   carnaval: { pt: 'R$ 60.000 (pacote de 5 diárias)', en: 'R$ 60,000 (5-night package)' },
   reveillon: { pt: 'R$ 300.000', en: 'R$ 300,000' },
-  image: '/img/terral/01.jpg',
+  image: '/img/terral/01.webp',
   gallery: ['/img/terral/01.webp','/img/terral/02.webp','/img/terral/03.webp','/img/terral/04.webp','/img/terral/05.webp','/img/terral/06.webp','/img/terral/07.webp','/img/terral/08.webp','/img/terral/09.webp','/img/terral/10.webp','/img/terral/11.webp','/img/terral/12.webp','/img/terral/13.webp','/img/terral/14.webp','/img/terral/15.webp','/img/terral/16.webp','/img/terral/17.webp','/img/terral/18.webp','/img/terral/19.webp','/img/terral/20.webp','/img/terral/21.webp','/img/terral/22.webp','/img/terral/23.webp','/img/terral/24.webp','/img/terral/25.webp','/img/terral/26.webp','/img/terral/27.webp','/img/terral/28.webp','/img/terral/29.webp'], featured: false,
   amenities: {
     pt: ['4 suítes com ar-condicionado', '2 lavabos', 'Varanda gourmet', 'Sala de estar', 'Sala de jantar', 'Sala de TV', 'Cozinha equipada', 'Escritório', 'Deck', 'Piscina de 16 x 3,5 m', 'Churrasqueira', 'Fogueira', 'Estacionamento coberto', 'Lavanderia', 'Roupas de cama, mesa e banho', 'Caixa de som', 'Toalhas de piscina', 'Mosquiteiros', 'TV'],
@@ -3348,7 +3348,7 @@ const ITAPO01: Property = {
   id: 'casa-01-aldeia-itapororoca', code: 'TBA-308', name: { pt: 'Casa 1 — Aldeia Itapororoca', en: 'Casa 1 — Aldeia Itapororoca' },
   purpose: ['aluguel'], location: 'Aldeia Itapororoca', suites: 7, guests: 16, baths: 8, area: '2.200 m²',
   price: { pt: 'Sob consulta', en: 'Upon request' },
-  image: '/img/aldeia-01/01.jpg',
+  image: '/img/aldeia-01/01.webp',
   gallery: ['/img/aldeia-01/01.webp','/img/aldeia-01/02.webp','/img/aldeia-01/03.webp','/img/aldeia-01/04.webp','/img/aldeia-01/05.webp','/img/aldeia-01/06.webp','/img/aldeia-01/07.webp','/img/aldeia-01/08.webp','/img/aldeia-01/09.webp','/img/aldeia-01/10.webp','/img/aldeia-01/11.webp','/img/aldeia-01/12.webp','/img/aldeia-01/13.webp','/img/aldeia-01/14.webp','/img/aldeia-01/15.webp','/img/aldeia-01/16.webp','/img/aldeia-01/17.webp','/img/aldeia-01/18.webp','/img/aldeia-01/19.webp','/img/aldeia-01/20.webp','/img/aldeia-01/21.webp','/img/aldeia-01/22.webp','/img/aldeia-01/23.webp','/img/aldeia-01/24.webp','/img/aldeia-01/25.webp','/img/aldeia-01/26.webp','/img/aldeia-01/27.webp','/img/aldeia-01/28.webp','/img/aldeia-01/29.webp','/img/aldeia-01/30.webp','/img/aldeia-01/31.webp','/img/aldeia-01/32.webp','/img/aldeia-01/33.webp','/img/aldeia-01/34.webp'], featured: false,
   amenities: {
     pt: ['Pé na areia', 'Apoio de praia', 'Piscina privativa', 'Piscina do condomínio', 'Espaço gourmet', 'Churrasqueira', 'Cozinha equipada', 'Sala de estar', 'Sala de jantar', 'Mesa de sinuca', 'Ar-condicionado', 'Ventiladores de teto', 'Mosquiteiros', 'Internet Wi-Fi', 'TV a cabo', 'Gerador', 'Poço artesiano', 'Lavanderia', 'Freezer', 'Lavabo', 'Estacionamento', 'Carrinho de golfe', 'Espreguiçadeiras e ombrelone', 'Roupas de cama, mesa e banho', 'Toalhas de praia'],
@@ -3377,7 +3377,7 @@ const ATENA: Property = {
   priceLow: { pt: 'R$ 6.500 / diária', en: 'R$ 6,500 / night' },
   carnaval: { pt: 'R$ 65.000', en: 'R$ 65,000' },
   reveillon: { pt: 'R$ 320.000 (pacote de 10 noites)', en: 'R$ 320,000 (10-night package)' },
-  image: '/img/atena/01.jpg',
+  image: '/img/atena/01.webp',
   gallery: ['/img/atena/01.webp','/img/atena/02.webp','/img/atena/03.webp','/img/atena/04.webp','/img/atena/05.webp','/img/atena/06.webp','/img/atena/07.webp','/img/atena/08.webp','/img/atena/09.webp','/img/atena/10.webp','/img/atena/11.webp','/img/atena/12.webp','/img/atena/13.webp','/img/atena/14.webp','/img/atena/15.webp','/img/atena/16.webp','/img/atena/17.webp','/img/atena/18.webp','/img/atena/19.webp','/img/atena/20.webp','/img/atena/21.webp','/img/atena/22.webp','/img/atena/23.webp','/img/atena/24.webp','/img/atena/25.webp','/img/atena/26.webp','/img/atena/27.webp','/img/atena/28.webp','/img/atena/29.webp','/img/atena/30.webp','/img/atena/31.webp','/img/atena/32.webp','/img/atena/33.webp','/img/atena/34.webp','/img/atena/35.webp','/img/atena/36.webp','/img/atena/37.webp','/img/atena/38.webp'], featured: false,
   amenities: {
     pt: ['Ar-condicionado', 'Piscina com raia e hidromassagem (preparada para aquecimento)', 'Sauna a vapor', 'Home cinema com TV de 75\'', 'Cozinha principal completa e cozinha gourmet equipada', 'Churrasqueira a gás', 'Ducha externa', 'Sistema de som', 'TV a cabo', 'Wi-Fi de alta velocidade', 'Terraço e varanda com rede', 'Lavanderia completa', 'Gerador automático de 40 kVA', 'Garagem coberta para 2 veículos', 'Roupas de cama e banho', 'Assistência turística'],
@@ -3405,7 +3405,7 @@ const MIA: Property = {
   priceLow: { pt: 'R$ 5.500 / diária', en: 'R$ 5,500 / night' },
   carnaval: { pt: 'R$ 60.000', en: 'R$ 60,000' },
   reveillon: { pt: 'R$ 280.000', en: 'R$ 280,000' },
-  image: '/img/mia/01.jpg',
+  image: '/img/mia/01.webp',
   gallery: ['/img/mia/01.webp','/img/mia/02.webp','/img/mia/03.webp','/img/mia/04.webp','/img/mia/05.webp','/img/mia/06.webp','/img/mia/07.webp','/img/mia/08.webp','/img/mia/09.webp','/img/mia/10.webp','/img/mia/11.webp','/img/mia/12.webp','/img/mia/13.webp','/img/mia/14.webp','/img/mia/15.webp','/img/mia/16.webp','/img/mia/17.webp','/img/mia/18.webp','/img/mia/19.webp','/img/mia/20.webp','/img/mia/21.webp','/img/mia/22.webp','/img/mia/23.webp','/img/mia/24.webp','/img/mia/25.webp','/img/mia/26.webp','/img/mia/27.webp','/img/mia/28.webp','/img/mia/29.webp','/img/mia/30.webp','/img/mia/31.webp','/img/mia/32.webp','/img/mia/33.webp','/img/mia/34.webp','/img/mia/35.webp','/img/mia/36.webp','/img/mia/37.webp','/img/mia/38.webp'], featured: false,
   amenities: {
     pt: ['Adega de vinhos','Ar-condicionado','Cozinha equipada','Estacionamento','Freezer','Gerador','Internet Wi-Fi','Lavabo','Lavanderia','Poço artesiano','Roupas de cama, mesa e banho','Sala de estar','Sala de jantar','Secador de cabelo','Som ambiente','TV a cabo','Ventilador de teto'],
@@ -3433,7 +3433,7 @@ const GOLF21: Property = {
   priceLow: { pt: 'R$ 10.000 / diária', en: 'R$ 10,000 / night' },
   carnaval: { pt: 'R$ 80.000 (pacote de 5 diárias)', en: 'R$ 80,000 (5-night package)' },
   reveillon: { pt: 'Sob consulta', en: 'Upon request' },
-  image: '/img/golf21/01.jpg',
+  image: '/img/golf21/01.webp',
   gallery: ['/img/golf21/01.webp','/img/golf21/02.webp','/img/golf21/03.webp','/img/golf21/04.webp','/img/golf21/05.webp','/img/golf21/06.webp','/img/golf21/07.webp','/img/golf21/08.webp','/img/golf21/09.webp','/img/golf21/10.webp','/img/golf21/11.webp','/img/golf21/12.webp','/img/golf21/13.webp','/img/golf21/14.webp','/img/golf21/15.webp','/img/golf21/16.webp','/img/golf21/17.webp','/img/golf21/18.webp','/img/golf21/19.webp','/img/golf21/20.webp','/img/golf21/21.webp','/img/golf21/22.webp','/img/golf21/23.webp','/img/golf21/24.webp','/img/golf21/25.webp','/img/golf21/26.webp','/img/golf21/27.webp','/img/golf21/28.webp','/img/golf21/29.webp','/img/golf21/30.webp','/img/golf21/31.webp','/img/golf21/32.webp','/img/golf21/33.webp','/img/golf21/34.webp','/img/golf21/35.webp','/img/golf21/36.webp','/img/golf21/37.webp','/img/golf21/38.webp','/img/golf21/39.webp','/img/golf21/40.webp','/img/golf21/41.webp','/img/golf21/42.webp','/img/golf21/43.webp'], featured: false,
   amenities: {
     pt: ['Piscina privativa', 'Jacuzzi', 'Espaço gourmet', 'Churrasqueira', 'Cozinha equipada', 'Máquina de gelo e freezer', 'Sala de estar e sala de jantar', 'Lavabo', 'Som ambiente', 'TV a cabo', 'Internet Wi-Fi', 'Ar-condicionado', 'Ventiladores de teto', 'Espreguiçadeiras e ombrelones', 'Toalhas de praia', 'Lavanderia', 'Poço artesiano', 'Quadra de tênis', 'Acesso privativo à Praia das Tartarugas'],
@@ -3456,7 +3456,7 @@ const GOLF19: Property = {
   priceLow: { pt: 'R$ 9.000 / diária', en: 'R$ 9,000 / night' },
   carnaval: { pt: 'R$ 70.000 (pacote de 5 dias)', en: 'R$ 70,000 (5-day package)' },
   reveillon: { pt: 'R$ 420.000 (pacote de 10 dias)', en: 'R$ 420,000 (10-day package)' },
-  image: '/img/golf19/01.jpg',
+  image: '/img/golf19/01.webp',
   gallery: ['/img/golf19/01.webp','/img/golf19/02.webp','/img/golf19/03.webp','/img/golf19/04.webp','/img/golf19/05.webp','/img/golf19/06.webp','/img/golf19/07.webp','/img/golf19/08.webp','/img/golf19/09.webp','/img/golf19/10.webp','/img/golf19/11.webp','/img/golf19/12.webp','/img/golf19/13.webp','/img/golf19/14.webp','/img/golf19/15.webp','/img/golf19/16.webp','/img/golf19/17.webp','/img/golf19/18.webp','/img/golf19/19.webp','/img/golf19/20.webp','/img/golf19/21.webp','/img/golf19/22.webp','/img/golf19/23.webp','/img/golf19/24.webp','/img/golf19/25.webp','/img/golf19/26.webp'], featured: false,
   amenities: {
     pt: ['Piscina integrada ao jardim', 'Área de churrasco', 'Duas salas de estar', 'Sala de jantar integrada', 'Cozinha totalmente equipada', 'Lavanderia bem equipada', 'Enxoval completo', 'Vista para área de preservação da Mata Atlântica', 'Ar-condicionado', 'Acesso facilitado à Praia dos Golfinhos pelo condomínio', 'Campo de tênis e acesso ao Terravista Golf', 'Estacionamento, heliporto e aeroporto privado', '50% de desconto em green-fees e serviços associados ao Club Med Trancoso*'],
@@ -3479,7 +3479,7 @@ const GOLF33: Property = {
   priceLow: { pt: 'R$ 7.500 / diária', en: 'R$ 7,500 / night' },
   carnaval: { pt: 'R$ 88.000 (pacote de 5 noites)', en: 'R$ 88,000 (5-night package)' },
   reveillon: { pt: 'R$ 357.000 (pacote de 10 noites)', en: 'R$ 357,000 (10-night package)' },
-  image: '/img/golf33/01.jpg',
+  image: '/img/golf33/01.webp',
   gallery: ['/img/golf33/01.webp','/img/golf33/02.webp','/img/golf33/03.webp','/img/golf33/04.webp','/img/golf33/05.webp','/img/golf33/06.webp','/img/golf33/07.webp','/img/golf33/08.webp','/img/golf33/09.webp','/img/golf33/10.webp','/img/golf33/11.webp','/img/golf33/12.webp','/img/golf33/13.webp','/img/golf33/14.webp','/img/golf33/15.webp','/img/golf33/17.webp','/img/golf33/18.webp','/img/golf33/19.webp','/img/golf33/20.webp','/img/golf33/21.webp','/img/golf33/23.webp','/img/golf33/24.webp','/img/golf33/25.webp','/img/golf33/26.webp','/img/golf33/27.webp','/img/golf33/28.webp','/img/golf33/29.webp','/img/golf33/30.webp','/img/golf33/31.webp','/img/golf33/32.webp','/img/golf33/33.webp','/img/golf33/34.webp','/img/golf33/35.webp','/img/golf33/36.webp'], featured: false,
   amenities: {
     pt: ['Vista aberta para o campo de golfe', 'Piscina central com deck de madeira', 'Suíte master com hidromassagem e varanda', 'Área de refeições junto à piscina', 'Sala de jogos com mesa de sinuca', 'Academia privativa', 'Sala de TV', 'Carrinho de golfe tipo pick-up', 'Ar-condicionado em todas as suítes', 'Cozinha equipada', 'Churrasqueira', 'Lavabo e lavanderia', 'Freezer e máquina de gelo', 'Wi-Fi e TV a cabo', 'Playstation 4', 'Cofres e mosquiteiros', 'Estacionamento e poço artesiano', 'Enxoval completo e toalhas de piscina e praia', 'Apoio de praia e acesso às estruturas do Terravista', 'Quadra de tênis no condomínio'],
@@ -3503,7 +3503,7 @@ const GOLF37: Property = {
   carnaval: { pt: 'R$ 85.000 (pacote de 5 diárias)', en: 'R$ 85,000 (5-night package)' },
   reveillon: { pt: 'R$ 380.000 (pacote de 10 noites)', en: 'R$ 380,000 (10-night package)' },
   salePrice: { pt: 'R$ 14.000.000', en: 'R$ 14,000,000' },
-  image: '/img/golf37/01.jpg',
+  image: '/img/golf37/01.webp',
   gallery: ['/img/golf37/01.webp','/img/golf37/02.webp','/img/golf37/03.webp','/img/golf37/04.webp','/img/golf37/05.webp','/img/golf37/06.webp','/img/golf37/07.webp','/img/golf37/08.webp','/img/golf37/09.webp','/img/golf37/10.webp','/img/golf37/11.webp','/img/golf37/12.webp','/img/golf37/13.webp','/img/golf37/14.webp','/img/golf37/15.webp','/img/golf37/16.webp','/img/golf37/17.webp','/img/golf37/18.webp','/img/golf37/19.webp','/img/golf37/20.webp','/img/golf37/21.webp','/img/golf37/22.webp','/img/golf37/23.webp','/img/golf37/24.webp','/img/golf37/25.webp','/img/golf37/26.webp','/img/golf37/27.webp','/img/golf37/28.webp','/img/golf37/29.webp','/img/golf37/30.webp','/img/golf37/31.webp'], featured: false,
   amenities: {
     pt: ['Piscina privativa', 'Espaço gourmet e churrasqueira', 'Academia e sala de ginástica', 'Sauna', 'Adega de vinhos', 'Sala de estar, jantar e TV', 'Cozinha equipada', 'Cervejeira, freezer e máquina de gelo', 'Lavabo e lavanderia', 'Internet Wi-Fi', 'Ar-condicionado', 'Mosquiteiros', 'Apoio de praia', 'Quarto de apoio', 'Roupas de cama, mesa e banho', 'Toalhas de piscina e praia', 'Secadores de cabelo', 'Estacionamento'],
@@ -3526,7 +3526,7 @@ const GOLF27: Property = {
   priceLow: { pt: 'R$ 10.500 / diária', en: 'R$ 10,500 / night' },
   carnaval: { pt: 'R$ 90.000 (Carnaval 2027 · pacote de 5 diárias)', en: 'R$ 90,000 (Carnival 2027 · 5-night package)' },
   salePrice: { pt: 'Sob consulta', en: 'Upon request' },
-  image: '/img/golf27/01.jpg',
+  image: '/img/golf27/01.webp',
   gallery: ['/img/golf27/01.webp','/img/golf27/02.webp','/img/golf27/03.webp','/img/golf27/04.webp','/img/golf27/05.webp','/img/golf27/06.webp','/img/golf27/07.webp','/img/golf27/08.webp','/img/golf27/09.webp','/img/golf27/10.webp','/img/golf27/11.webp','/img/golf27/12.webp','/img/golf27/13.webp','/img/golf27/14.webp','/img/golf27/15.webp','/img/golf27/16.webp','/img/golf27/17.webp','/img/golf27/18.webp','/img/golf27/19.webp','/img/golf27/20.webp','/img/golf27/21.webp','/img/golf27/22.webp','/img/golf27/23.webp','/img/golf27/24.webp','/img/golf27/25.webp','/img/golf27/26.webp','/img/golf27/27.webp','/img/golf27/28.webp'], featured: false,
   amenities: {
     pt: ['Piscina privativa', 'Lounge com vista para o campo de golfe', 'Varanda suspensa', 'Jardim de inverno', 'Deck e jardim', 'Sala de estar, leitura, jantar e TV', 'Cozinha gourmet equipada e três despensas', 'Churrasqueira portátil', 'Máquina de gelo, frigobar, cervejeira e geladeiras', 'Smart TV e internet Wi-Fi', 'Ar-condicionado nas suítes', 'Espreguiçadeiras', 'Apoio de praia completo', '2 carrinhos de golfe à disposição', 'Estacionamento e lavanderia equipada'],
@@ -3550,7 +3550,7 @@ const TVB10: Property = {
   carnaval: { pt: 'R$ 75.000 (Carnaval 2027 · pacote de 5 diárias)', en: 'R$ 75,000 (Carnival 2027 · 5-night package)' },
   reveillon: { pt: 'R$ 290.000 (pacote de 10 diárias)', en: 'R$ 290,000 (10-night package)' },
   salePrice: { pt: 'R$ 10.000.000', en: 'R$ 10,000,000' },
-  image: '/img/tvb10/01.jpg',
+  image: '/img/tvb10/01.webp',
   gallery: ['/img/tvb10/01.webp','/img/tvb10/02.webp','/img/tvb10/03.webp','/img/tvb10/04.webp','/img/tvb10/05.webp','/img/tvb10/06.webp','/img/tvb10/07.webp','/img/tvb10/08.webp','/img/tvb10/09.webp','/img/tvb10/10.webp','/img/tvb10/11.webp','/img/tvb10/12.webp','/img/tvb10/13.webp','/img/tvb10/14.webp','/img/tvb10/15.webp','/img/tvb10/16.webp','/img/tvb10/17.webp','/img/tvb10/18.webp','/img/tvb10/19.webp','/img/tvb10/20.webp','/img/tvb10/21.webp','/img/tvb10/22.webp','/img/tvb10/23.webp','/img/tvb10/24.webp','/img/tvb10/25.webp','/img/tvb10/26.webp','/img/tvb10/27.webp','/img/tvb10/28.webp','/img/tvb10/29.webp','/img/tvb10/30.webp','/img/tvb10/31.webp','/img/tvb10/32.webp','/img/tvb10/33.webp','/img/tvb10/34.webp','/img/tvb10/35.webp','/img/tvb10/36.webp','/img/tvb10/37.webp','/img/tvb10/38.webp','/img/tvb10/39.webp','/img/tvb10/40.webp','/img/tvb10/41.webp'], featured: false,
   amenities: {
     pt: ['Vista para o mar', 'Piscina privativa, deck, jardim e mirante', 'Sala de estar, sala de jantar e sala de TV', 'Cozinha equipada e área gourmet integrada', 'Adega de vinhos', 'Churrasqueira e espaço gourmet', 'Som ambiente', 'Smart TV e internet Wi-Fi', 'Ar-condicionado', 'Mosquiteiros', 'Frigobares e geladeira de cerveja', 'Máquina de gelo e máquina de lavar-louças', 'Espreguiçadeiras e ombrelone', 'Roupas de cama, mesa e banho', 'Toalhas de piscina e praia', 'Secadores de cabelo', 'Lavabo, lavanderia e quarto de apoio', 'Gerador e poço artesiano', 'Estacionamento e portaria 24 horas', 'Apoio de praia'],
@@ -3573,7 +3573,7 @@ const MANGABA: Property = {
   priceLow: { pt: 'R$ 8.400 / diária', en: 'R$ 8,400 / night' },
   carnaval: { pt: 'R$ 80.000 (pacote de 5 diárias)', en: 'R$ 80,000 (5-night package)' },
   reveillon: { pt: 'R$ 420.000 (pacote de 10 noites)', en: 'R$ 420,000 (10-night package)' },
-  image: '/img/mangaba/01.jpg',
+  image: '/img/mangaba/01.webp',
   gallery: ['/img/mangaba/01.webp','/img/mangaba/02.webp','/img/mangaba/03.webp','/img/mangaba/04.webp','/img/mangaba/05.webp','/img/mangaba/06.webp','/img/mangaba/07.webp','/img/mangaba/08.webp','/img/mangaba/09.webp','/img/mangaba/10.webp','/img/mangaba/11.webp','/img/mangaba/12.webp','/img/mangaba/13.webp','/img/mangaba/14.webp','/img/mangaba/15.webp','/img/mangaba/16.webp','/img/mangaba/17.webp','/img/mangaba/18.webp','/img/mangaba/19.webp','/img/mangaba/20.webp','/img/mangaba/21.webp','/img/mangaba/22.webp','/img/mangaba/23.webp','/img/mangaba/24.webp','/img/mangaba/25.webp','/img/mangaba/26.webp','/img/mangaba/27.webp','/img/mangaba/28.webp','/img/mangaba/29.webp','/img/mangaba/30.webp','/img/mangaba/31.webp','/img/mangaba/32.webp','/img/mangaba/33.webp','/img/mangaba/34.webp','/img/mangaba/35.webp','/img/mangaba/36.webp','/img/mangaba/37.webp','/img/mangaba/38.webp'], featured: false,
   amenities: {
     pt: ['Vista para o mar e para a mata', 'Piscina privativa e mirante', 'Decks e áreas externas', 'Sala de estar, sala de jantar e sala de TV', 'Cozinha equipada e espaço gourmet', 'Churrasqueira e forno de pizza', 'Cervejeira, freezer e máquina de gelo', 'Máquina de lavar-louça', 'Internet Wi-Fi e TV a cabo', 'Som ambiente', 'Ar-condicionado', 'Mosquiteiros', 'Espreguiçadeiras e ombrelone', 'Roupas de cama, mesa e banho', 'Toalhas de piscina', 'Secador de cabelo', 'Lavabo e lavanderia', 'Poço artesiano'],
@@ -3596,7 +3596,7 @@ const OKUN: Property = {
   priceLow: { pt: 'R$ 2.000 / di\u00e1ria', en: 'R$ 2,000 / night' },
   carnaval: { pt: 'Sob consulta', en: 'Upon request' },
   reveillon: { pt: 'R$ 100.000', en: 'R$ 100,000' },
-  image: '/img/okun/01.jpg',
+  image: '/img/okun/01.webp',
   gallery: ['/img/okun/01.webp','/img/okun/02.webp','/img/okun/03.webp','/img/okun/04.webp','/img/okun/05.webp','/img/okun/06.webp','/img/okun/07.webp','/img/okun/08.webp','/img/okun/09.webp','/img/okun/10.webp','/img/okun/11.webp','/img/okun/12.webp','/img/okun/13.webp','/img/okun/14.webp','/img/okun/15.webp','/img/okun/16.webp','/img/okun/17.webp','/img/okun/18.webp','/img/okun/19.webp','/img/okun/20.webp','/img/okun/21.webp','/img/okun/22.webp','/img/okun/23.webp'], featured: false,
   amenities: {
     pt: ['Piscina', 'Jardim tropical com pergolado', '\u00c1rea gourmet externa', 'Sala de TV', 'Cozinha equipada', 'Ar-condicionado', 'Internet Wi-Fi', 'Smart TV', 'Roupas de cama e banho', 'Estacionamento privativo', 'A 5 minutos a p\u00e9 do Quadrado'],
@@ -3618,7 +3618,7 @@ const GOLF62: Property = {
   priceLow: { pt: 'R$ 12.000 / di\u00e1ria', en: 'R$ 12,000 / night' },
   carnaval: { pt: 'R$ 120.000', en: 'R$ 120,000' },
   reveillon: { pt: 'R$ 450.000', en: 'R$ 450,000' },
-  image: '/img/golf62/01.jpg',
+  image: '/img/golf62/01.webp',
   gallery: ['/img/golf62/01.webp','/img/golf62/02.webp','/img/golf62/03.webp','/img/golf62/04.webp','/img/golf62/05.webp','/img/golf62/06.webp','/img/golf62/07.webp','/img/golf62/08.webp','/img/golf62/09.webp','/img/golf62/10.webp','/img/golf62/11.webp','/img/golf62/12.webp','/img/golf62/13.webp','/img/golf62/14.webp','/img/golf62/15.webp','/img/golf62/16.webp','/img/golf62/17.webp','/img/golf62/18.webp','/img/golf62/19.webp','/img/golf62/20.webp','/img/golf62/21.webp','/img/golf62/22.webp','/img/golf62/23.webp','/img/golf62/24.webp','/img/golf62/25.webp','/img/golf62/26.webp','/img/golf62/27.webp','/img/golf62/28.webp','/img/golf62/29.webp','/img/golf62/30.webp','/img/golf62/31.webp','/img/golf62/32.webp','/img/golf62/33.webp','/img/golf62/34.webp','/img/golf62/35.webp','/img/golf62/36.webp','/img/golf62/37.webp','/img/golf62/38.webp','/img/golf62/39.webp','/img/golf62/40.webp','/img/golf62/41.webp','/img/golf62/42.webp','/img/golf62/43.webp','/img/golf62/44.webp','/img/golf62/45.webp','/img/golf62/46.webp','/img/golf62/47.webp'], featured: false,
   amenities: {
     pt: ['Piscina privativa', 'Espa\u00e7o gourmet e churrasqueira', 'Adega de vinhos', 'Sala de estar, sala de jantar e sala de TV', 'Cozinha equipada', 'Espregui\u00e7adeiras e ombrelone', 'Ar-condicionado e ventilador de teto', 'Cofres nos quartos', 'Mosquiteiros', 'Internet Wi-Fi', 'TV e Netflix', 'Sistema de som', 'Cervejeira, freezer e m\u00e1quina de gelo', 'Lavabo e lavanderia', 'Quarto de apoio', 'Gerador', 'Estacionamento', 'Apoio de praia', 'Roupas de cama, mesa e banho', 'Toalhas de piscina', 'Secador de cabelo', 'Kit beb\u00ea', 'Kids friendly'],
@@ -3640,7 +3640,7 @@ const DUE: Property = {
   carnaval: { pt: 'Sob consulta', en: 'Upon request' },
   reveillon: { pt: 'R$ 260.000 (pacote de 10 noites)', en: 'R$ 260,000 (10-night package)' },
   salePrice: { pt: 'R$ 15.000.000', en: 'R$ 15,000,000' },
-  image: '/img/due/01.jpg',
+  image: '/img/due/01.webp',
   gallery: ['/img/due/01.webp','/img/due/02.webp','/img/due/03.webp','/img/due/04.webp','/img/due/05.webp','/img/due/06.webp','/img/due/07.webp','/img/due/08.webp','/img/due/09.webp','/img/due/10.webp','/img/due/11.webp','/img/due/12.webp','/img/due/13.webp','/img/due/14.webp','/img/due/15.webp','/img/due/16.webp','/img/due/17.webp','/img/due/18.webp','/img/due/19.webp','/img/due/20.webp','/img/due/21.webp'], featured: false,
   amenities: {
     pt: ['Piscina privativa', 'Deck e varanda', 'Jardim', 'Área gourmet', 'Churrasqueira', 'Cervejeira', 'Ar-condicionado', 'Internet Wi-Fi', 'TV', 'Som ambiente', 'Roupas de cama e banho', 'Toalhas de piscina', 'Estacionamento'],
@@ -3662,7 +3662,7 @@ const AZUL: Property = {
   price: { pt: 'R$ 2.500 / diária', en: 'R$ 2,500 / night' },
   carnaval: { pt: 'Sob consulta', en: 'Upon request' },
   reveillon: { pt: 'R$ 90.000 (pacote)', en: 'R$ 90,000 (package)' },
-  image: '/img/azul/01.jpg',
+  image: '/img/azul/01.webp',
   gallery: ['/img/azul/01.webp','/img/azul/02.webp','/img/azul/03.webp','/img/azul/04.webp','/img/azul/05.webp','/img/azul/06.webp','/img/azul/07.webp','/img/azul/08.webp','/img/azul/09.webp','/img/azul/10.webp','/img/azul/11.webp','/img/azul/12.webp','/img/azul/13.webp','/img/azul/14.webp','/img/azul/15.webp','/img/azul/16.webp','/img/azul/17.webp','/img/azul/18.webp','/img/azul/19.webp','/img/azul/20.webp','/img/azul/21.webp','/img/azul/22.webp','/img/azul/23.webp','/img/azul/24.webp','/img/azul/25.webp','/img/azul/26.webp','/img/azul/27.webp','/img/azul/28.webp','/img/azul/29.webp'], featured: false,
   amenities: {
     pt: ['Piscina', 'Jardim', 'Churrasqueira', 'Cozinha equipada', 'Sala de convivência', 'Internet Wi-Fi', 'TV', 'Espaço de trabalho', 'Enxoval completo'],
@@ -3685,7 +3685,7 @@ const FER: Property = { // galeria 28 fotos (PDF)
   carnaval: { pt: 'R$ 75.000 (pacote de 5 noites)', en: 'R$ 75,000 (5-night package)' },
   reveillon: { pt: 'R$ 350.000 (pacote de 10 noites)', en: 'R$ 350,000 (10-night package)' },
   salePrice: { pt: 'R$ 12.500.000', en: 'R$ 12,500,000' },
-  image: '/img/fer/01.jpg',
+  image: '/img/fer/01.webp',
   gallery: ['/img/fer/01.webp','/img/fer/02.webp','/img/fer/03.webp','/img/fer/04.webp','/img/fer/05.webp','/img/fer/06.webp','/img/fer/07.webp','/img/fer/08.webp','/img/fer/09.webp','/img/fer/10.webp','/img/fer/11.webp','/img/fer/12.webp','/img/fer/13.webp','/img/fer/14.webp','/img/fer/15.webp','/img/fer/16.webp','/img/fer/17.webp','/img/fer/18.webp','/img/fer/19.webp','/img/fer/20.webp','/img/fer/21.webp','/img/fer/22.webp','/img/fer/23.webp','/img/fer/24.webp','/img/fer/25.webp','/img/fer/26.webp','/img/fer/27.webp','/img/fer/28.webp'], featured: false,
   amenities: {
     pt: ['Quadra de beach tennis', 'Piscina privativa', 'Deck', 'Área gourmet', 'Churrasqueira', 'TV a cabo', 'Internet Wi-Fi', 'Área de serviço', 'Estacionamento para 2 carros'],
@@ -3708,7 +3708,7 @@ const ECO01: Property = {
   priceLow: { pt: 'R$ 6.800 / diária', en: 'R$ 6,800 / night' },
   carnaval: { pt: 'R$ 60.000 (pacote)', en: 'R$ 60,000 (package)' },
   reveillon: { pt: 'R$ 185.000 (pacote)', en: 'R$ 185,000 (package)' },
-  image: '/img/eco01/01.jpg',
+  image: '/img/eco01/01.webp',
   gallery: ['/img/eco01/01.webp','/img/eco01/02.webp','/img/eco01/03.webp','/img/eco01/04.webp','/img/eco01/05.webp','/img/eco01/06.webp','/img/eco01/07.webp','/img/eco01/08.webp','/img/eco01/09.webp','/img/eco01/10.webp','/img/eco01/11.webp','/img/eco01/12.webp','/img/eco01/13.webp','/img/eco01/14.webp','/img/eco01/15.webp','/img/eco01/16.webp','/img/eco01/17.webp','/img/eco01/18.webp','/img/eco01/19.webp','/img/eco01/20.webp','/img/eco01/21.webp','/img/eco01/22.webp','/img/eco01/23.webp','/img/eco01/24.webp','/img/eco01/25.webp','/img/eco01/26.webp','/img/eco01/27.webp','/img/eco01/28.webp','/img/eco01/29.webp','/img/eco01/30.webp','/img/eco01/31.webp','/img/eco01/32.webp','/img/eco01/33.webp','/img/eco01/34.webp','/img/eco01/35.webp','/img/eco01/36.webp','/img/eco01/37.webp','/img/eco01/38.webp','/img/eco01/39.webp','/img/eco01/40.webp','/img/eco01/41.webp','/img/eco01/42.webp','/img/eco01/43.webp','/img/eco01/44.webp','/img/eco01/45.webp','/img/eco01/46.webp','/img/eco01/47.webp','/img/eco01/48.webp','/img/eco01/49.webp','/img/eco01/50.webp','/img/eco01/51.webp','/img/eco01/52.webp','/img/eco01/53.webp','/img/eco01/54.webp','/img/eco01/55.webp','/img/eco01/56.webp','/img/eco01/57.webp','/img/eco01/58.webp','/img/eco01/59.webp','/img/eco01/60.webp','/img/eco01/61.webp','/img/eco01/62.webp','/img/eco01/63.webp','/img/eco01/64.webp','/img/eco01/65.webp','/img/eco01/66.webp','/img/eco01/67.webp','/img/eco01/68.webp'], featured: false,
   amenities: {
     pt: ['Piscina', 'Sauna integrada à piscina', 'Jacuzzi externa', 'Rooftop', 'Academia', 'Playground infantil', 'Quadra de areia (beach tennis, peteca e futevôlei)', 'Pista de cooper interna de 100 m', 'Mesa de sinuca profissional', 'Mesa de carteado', 'Espaço gourmet', 'Churrasqueira', 'Fogão a lenha', 'Cozinha equipada', 'Lava-louças', 'Máquina de gelo', 'Máquina de café', 'Cervejeira', 'Banheira de hidromassagem', 'Ar-condicionado', 'Roupas de cama e banho', 'Toalhas de piscina', 'Espreguiçadeiras', 'Rede externa', 'Som Bluetooth portátil', 'Portaria 24 horas'],
@@ -3731,7 +3731,7 @@ const COLINA: Property = {
   priceLow: { pt: 'Sob consulta', en: 'Upon request' },
   carnaval: { pt: 'Sob consulta', en: 'Upon request' },
   reveillon: { pt: 'Sob consulta', en: 'Upon request' },
-  image: '/img/colina/01.jpg',
+  image: '/img/colina/01.webp',
   gallery: ['/img/colina/01.webp','/img/colina/02.webp','/img/colina/03.webp','/img/colina/04.webp','/img/colina/05.webp','/img/colina/06.webp','/img/colina/07.webp','/img/colina/08.webp','/img/colina/09.webp','/img/colina/10.webp','/img/colina/11.webp','/img/colina/12.webp','/img/colina/13.webp','/img/colina/14.webp','/img/colina/15.webp','/img/colina/16.webp','/img/colina/17.webp','/img/colina/18.webp','/img/colina/19.webp','/img/colina/20.webp','/img/colina/21.webp','/img/colina/22.webp','/img/colina/23.webp','/img/colina/24.webp','/img/colina/25.webp','/img/colina/26.webp','/img/colina/27.webp','/img/colina/28.webp','/img/colina/29.webp','/img/colina/30.webp','/img/colina/31.webp','/img/colina/32.webp','/img/colina/33.webp','/img/colina/34.webp','/img/colina/35.webp','/img/colina/36.webp','/img/colina/37.webp','/img/colina/38.webp','/img/colina/39.webp','/img/colina/40.webp','/img/colina/41.webp','/img/colina/42.webp','/img/colina/43.webp','/img/colina/44.webp'], featured: false,
   amenities: {
     pt: ['Piscina privativa', 'Ampla varanda', 'Ambientes integrados', 'Cozinha equipada', 'Sala de estar', 'TV', 'Wi-Fi', 'Espaço de trabalho', 'Estacionamento gratuito no local', 'Ambientes com ampla entrada de luz natural'],
@@ -3753,7 +3753,7 @@ const COLINA2: Property = {
   priceLow: { pt: 'R$ 2.500 / diária', en: 'R$ 2,500 / night' },
   carnaval: { pt: 'R$ 35.000 (pacote)', en: 'R$ 35,000 (package)' },
   reveillon: { pt: 'R$ 150.000 (mínimo de 7 diárias)', en: 'R$ 150,000 (minimum 7 nights)' },
-  image: '/img/colina2/01.jpg',
+  image: '/img/colina2/01.webp',
   gallery: ['/img/colina2/01.webp','/img/colina2/02.webp','/img/colina2/03.webp','/img/colina2/04.webp','/img/colina2/05.webp','/img/colina2/06.webp','/img/colina2/07.webp','/img/colina2/08.webp','/img/colina2/09.webp','/img/colina2/10.webp','/img/colina2/11.webp','/img/colina2/12.webp','/img/colina2/13.webp','/img/colina2/14.webp','/img/colina2/15.webp','/img/colina2/16.webp','/img/colina2/17.webp','/img/colina2/18.webp','/img/colina2/19.webp','/img/colina2/20.webp','/img/colina2/21.webp','/img/colina2/22.webp','/img/colina2/23.webp','/img/colina2/24.webp','/img/colina2/25.webp','/img/colina2/26.webp','/img/colina2/27.webp','/img/colina2/28.webp','/img/colina2/29.webp','/img/colina2/30.webp','/img/colina2/31.webp'], featured: false,
   amenities: {
     pt: ['Piscina privativa de 9 metros', 'Área gourmet', 'Churrasqueira', 'Fogão a lenha', 'Forno de pizza', 'Geladeira para cervejas', 'Cozinha equipada', 'Varanda', 'Jardim', 'Ar-condicionado', 'Wi-Fi', 'Mosquiteiros', 'Roupas de cama, mesa e banho', 'Toalhas de piscina'],
@@ -3776,7 +3776,7 @@ const COLINA3: Property = {
   priceLow: { pt: 'R$ 1.500 / diária', en: 'R$ 1,500 / night' },
   carnaval: { pt: 'Sob consulta', en: 'Upon request' },
   reveillon: { pt: 'R$ 85.000 (pacote)', en: 'R$ 85,000 (package)' },
-  image: '/img/colina3/01.jpg',
+  image: '/img/colina3/01.webp',
   gallery: ['/img/colina3/01.webp','/img/colina3/02.webp','/img/colina3/03.webp','/img/colina3/04.webp','/img/colina3/05.webp','/img/colina3/06.webp','/img/colina3/07.webp','/img/colina3/08.webp','/img/colina3/09.webp','/img/colina3/10.webp','/img/colina3/11.webp','/img/colina3/12.webp','/img/colina3/13.webp','/img/colina3/14.webp','/img/colina3/15.webp','/img/colina3/16.webp','/img/colina3/17.webp','/img/colina3/18.webp','/img/colina3/19.webp','/img/colina3/20.webp','/img/colina3/21.webp','/img/colina3/22.webp','/img/colina3/23.webp','/img/colina3/24.webp','/img/colina3/25.webp','/img/colina3/26.webp','/img/colina3/27.webp','/img/colina3/28.webp','/img/colina3/29.webp','/img/colina3/30.webp','/img/colina3/31.webp','/img/colina3/32.webp','/img/colina3/33.webp','/img/colina3/34.webp','/img/colina3/35.webp'], featured: false,
   amenities: {
     pt: ['Piscina privativa de pedra natural', 'Cozinha aberta e totalmente equipada', 'Sala de estar', 'Varanda', 'Terraço', 'Jardim', 'Ar-condicionado', 'Wi-Fi', 'Máquina de lavar', 'Estacionamento gratuito no local'],
@@ -3798,7 +3798,7 @@ const COQ08: Property = {
   priceLow: { pt: 'R$ 2.400 / diária', en: 'R$ 2,400 / night' },
   carnaval: { pt: 'R$ 40.000 (pacote de 5 diárias)', en: 'R$ 40,000 (5-night package)' },
   reveillon: { pt: 'R$ 110.000 (pacote de 10 diárias)', en: 'R$ 110,000 (10-night package)' },
-  image: '/img/coq08/01.jpg',
+  image: '/img/coq08/01.webp',
   gallery: ['/img/coq08/01.webp','/img/coq08/02.webp','/img/coq08/03.webp','/img/coq08/04.webp','/img/coq08/05.webp','/img/coq08/06.webp','/img/coq08/07.webp','/img/coq08/08.webp','/img/coq08/09.webp','/img/coq08/10.webp','/img/coq08/11.webp','/img/coq08/12.webp','/img/coq08/13.webp','/img/coq08/14.webp','/img/coq08/15.webp','/img/coq08/16.webp','/img/coq08/17.webp','/img/coq08/18.webp','/img/coq08/19.webp','/img/coq08/20.webp','/img/coq08/21.webp','/img/coq08/22.webp','/img/coq08/23.webp','/img/coq08/24.webp','/img/coq08/25.webp','/img/coq08/26.webp','/img/coq08/27.webp','/img/coq08/28.webp','/img/coq08/29.webp','/img/coq08/30.webp','/img/coq08/31.webp','/img/coq08/32.webp','/img/coq08/33.webp','/img/coq08/34.webp','/img/coq08/35.webp','/img/coq08/36.webp','/img/coq08/37.webp','/img/coq08/38.webp','/img/coq08/39.webp','/img/coq08/40.webp'], featured: false,
   amenities: {
     pt: ['Piscina privativa', 'Jacuzzi aquecida', 'Espaço gourmet', 'Redário', 'Living interno e externo', 'Sala de TV', 'Cozinha equipada e integrada', 'Mesa de jantar para 10 lugares', 'Lavabo', 'Varandas', 'Jardim', 'Ar-condicionado', 'Banho ao ar livre'],
@@ -3824,7 +3824,7 @@ const HELENA: Property = {
   priceLow: { pt: 'R$ 5.000 / diária', en: 'R$ 5,000 / night' },
   carnaval: { pt: 'Sob consulta', en: 'Upon request' },
   reveillon: { pt: 'R$ 150.000 (pacote)', en: 'R$ 150,000 (package)' },
-  image: '/img/helena/01.jpg',
+  image: '/img/helena/01.webp',
   gallery: ['/img/helena/01.webp','/img/helena/02.webp','/img/helena/03.webp','/img/helena/04.webp','/img/helena/05.webp','/img/helena/06.webp','/img/helena/07.webp','/img/helena/08.webp','/img/helena/09.webp','/img/helena/10.webp','/img/helena/11.webp','/img/helena/12.webp','/img/helena/13.webp','/img/helena/14.webp','/img/helena/15.webp','/img/helena/16.webp','/img/helena/17.webp','/img/helena/18.webp','/img/helena/19.webp','/img/helena/20.webp','/img/helena/21.webp','/img/helena/22.webp','/img/helena/23.webp','/img/helena/24.webp','/img/helena/25.webp','/img/helena/26.webp','/img/helena/27.webp','/img/helena/28.webp','/img/helena/29.webp','/img/helena/30.webp','/img/helena/31.webp','/img/helena/32.webp','/img/helena/33.webp','/img/helena/34.webp','/img/helena/35.webp','/img/helena/36.webp','/img/helena/37.webp','/img/helena/38.webp','/img/helena/39.webp','/img/helena/40.webp','/img/helena/41.webp','/img/helena/42.webp','/img/helena/43.webp','/img/helena/44.webp','/img/helena/45.webp','/img/helena/46.webp','/img/helena/47.webp'], featured: false,
   amenities: {
     pt: ['Piscina privativa', 'Área gourmet', 'Churrasqueira', 'Cozinha completa com vista para o mar', 'Ar-condicionado', 'Wi-Fi', 'Estacionamento', 'Áreas de convivência integradas', 'Vista para o mar', 'Aproximadamente 120 m da praia'],
@@ -3846,7 +3846,7 @@ const ECO03: Property = {
   priceLow: { pt: 'R$ 3.300 / diária', en: 'R$ 3,300 / night' },
   carnaval: { pt: 'R$ 30.000 (pacote de 5 noites)', en: 'R$ 30,000 (5-night package)' },
   reveillon: { pt: 'R$ 135.000 (pacote de 7 noites)', en: 'R$ 135,000 (7-night package)' },
-  image: '/img/eco03/01.jpg',
+  image: '/img/eco03/01.webp',
   gallery: ['/img/eco03/01.webp','/img/eco03/02.webp','/img/eco03/03.webp','/img/eco03/04.webp','/img/eco03/05.webp','/img/eco03/06.webp','/img/eco03/07.webp','/img/eco03/08.webp','/img/eco03/09.webp','/img/eco03/10.webp','/img/eco03/11.webp','/img/eco03/12.webp','/img/eco03/13.webp','/img/eco03/14.webp','/img/eco03/15.webp','/img/eco03/16.webp','/img/eco03/17.webp','/img/eco03/18.webp','/img/eco03/19.webp','/img/eco03/20.webp','/img/eco03/21.webp','/img/eco03/22.webp','/img/eco03/23.webp','/img/eco03/24.webp','/img/eco03/25.webp','/img/eco03/26.webp'], featured: false,
   amenities: {
     pt: ['Piscina privativa', 'Ducha externa', 'Lava-louças', 'Máquina de gelo', 'Nespresso', 'TV a cabo', 'Máquina de lavar', 'Som ambiente', 'Internet Wi-Fi', 'Ar-condicionado'],
@@ -3868,7 +3868,7 @@ const ECO04: Property = {
   priceLow: { pt: 'R$ 6.500 / diária', en: 'R$ 6,500 / night' },
   carnaval: { pt: 'R$ 60.000 (pacote)', en: 'R$ 60,000 (package)' },
   reveillon: { pt: 'R$ 170.000 (pacote)', en: 'R$ 170,000 (package)' },
-  image: '/img/eco04/01.jpg',
+  image: '/img/eco04/01.webp',
   gallery: ['/img/eco04/01.webp','/img/eco04/02.webp','/img/eco04/03.webp','/img/eco04/04.webp','/img/eco04/05.webp','/img/eco04/06.webp','/img/eco04/07.webp','/img/eco04/08.webp','/img/eco04/09.webp','/img/eco04/10.webp','/img/eco04/11.webp','/img/eco04/12.webp','/img/eco04/13.webp','/img/eco04/14.webp','/img/eco04/15.webp','/img/eco04/16.webp','/img/eco04/17.webp','/img/eco04/18.webp','/img/eco04/19.webp','/img/eco04/20.webp','/img/eco04/21.webp','/img/eco04/22.webp','/img/eco04/23.webp','/img/eco04/24.webp','/img/eco04/25.webp'], featured: false,
   amenities: {
     pt: ['Piscina privativa', 'Quadra de beach tennis', 'Gerador', 'Mosquiteiros', 'Smart TV', 'Equipamentos de praia', 'Internet Wi-Fi', 'Ar-condicionado'],
@@ -3891,7 +3891,7 @@ const VISTA: Property = {
   priceLow: { pt: 'R$ 8.000 / diária', en: 'R$ 8,000 / night' },
   carnaval: { pt: 'Sob consulta', en: 'Upon request' },
   reveillon: { pt: 'Sob consulta', en: 'Upon request' },
-  image: '/img/vista/01.jpg',
+  image: '/img/vista/01.webp',
   gallery: ['/img/vista/01.webp','/img/vista/02.webp','/img/vista/03.webp','/img/vista/04.webp','/img/vista/05.webp','/img/vista/06.webp','/img/vista/07.webp','/img/vista/08.webp','/img/vista/09.webp','/img/vista/10.webp','/img/vista/11.webp','/img/vista/12.webp','/img/vista/13.webp','/img/vista/14.webp','/img/vista/15.webp','/img/vista/16.webp','/img/vista/17.webp','/img/vista/18.webp','/img/vista/19.webp','/img/vista/20.webp','/img/vista/21.webp','/img/vista/22.webp','/img/vista/23.webp','/img/vista/24.webp','/img/vista/25.webp','/img/vista/26.webp','/img/vista/27.webp','/img/vista/28.webp','/img/vista/29.webp','/img/vista/30.webp','/img/vista/31.webp'], featured: false,
   amenities: {
     pt: ['Piscina privativa', 'Jacuzzi aquecida', 'Sauna', 'Quadra de areia', 'Píer privativo com barco e barqueiro', 'Adega', 'Cervejeira', '2 geladeiras', 'Lavadora e secadora', 'Gerador', 'Vista para o rio e para o mar', 'Pet friendly (mediante consulta)'],
@@ -3916,7 +3916,7 @@ const GOLF95: Property = {
   seasonLow: { pt: 'Março a novembro (exceto julho)', en: 'March to November (except July)' },
   carnaval: { pt: 'R$ 200.000 (pacote de 5 diárias)', en: 'R$ 200,000 (5-night package)' },
   reveillon: { pt: 'R$ 750.000 (pacote de 10 noites)', en: 'R$ 750,000 (10-night package)' },
-  image: '/img/golf95/01.jpg',
+  image: '/img/golf95/01.webp',
   gallery: ['/img/golf95/01.webp','/img/golf95/02.webp','/img/golf95/03.webp','/img/golf95/04.webp','/img/golf95/05.webp','/img/golf95/06.webp','/img/golf95/07.webp','/img/golf95/08.webp','/img/golf95/09.webp','/img/golf95/10.webp','/img/golf95/11.webp','/img/golf95/12.webp','/img/golf95/13.webp','/img/golf95/14.webp','/img/golf95/15.webp','/img/golf95/16.webp','/img/golf95/17.webp','/img/golf95/18.webp','/img/golf95/19.webp','/img/golf95/20.webp','/img/golf95/21.webp','/img/golf95/22.webp','/img/golf95/23.webp','/img/golf95/24.webp','/img/golf95/25.webp','/img/golf95/26.webp','/img/golf95/27.webp','/img/golf95/28.webp','/img/golf95/29.webp','/img/golf95/30.webp','/img/golf95/31.webp','/img/golf95/32.webp'], featured: false,
   amenities: {
     pt: ['Piscina privativa', 'Sauna', 'Adega', 'Quadra de beach tennis', 'Carrinho de golfe', 'Gerador', 'Apoio de praia (cadeiras, ombrelones e cooler)', 'Elevador panorâmico', 'Kit bebê', 'Internet Wi-Fi', 'Ar-condicionado'],
@@ -3939,7 +3939,7 @@ const VILA13: Property = {
   priceLow: { pt: 'R$ 3.800 / diária', en: 'R$ 3,800 / night' },
   carnaval: { pt: 'R$ 40.000 (pacote de 5 diárias) ou R$ 48.000 (7 diárias)', en: 'R$ 40,000 (5-night package) or R$ 48,000 (7 nights)' },
   reveillon: { pt: 'R$ 190.000 (pacote de 10 noites)', en: 'R$ 190,000 (10-night package)' },
-  image: '/img/vila13/01.jpg',
+  image: '/img/vila13/01.webp',
   gallery: ['/img/vila13/01.webp','/img/vila13/02.webp','/img/vila13/03.webp','/img/vila13/04.webp','/img/vila13/05.webp','/img/vila13/06.webp','/img/vila13/07.webp','/img/vila13/08.webp','/img/vila13/09.webp','/img/vila13/10.webp','/img/vila13/11.webp','/img/vila13/12.webp','/img/vila13/13.webp','/img/vila13/14.webp','/img/vila13/15.webp','/img/vila13/16.webp','/img/vila13/17.webp','/img/vila13/18.webp','/img/vila13/19.webp','/img/vila13/20.webp','/img/vila13/21.webp','/img/vila13/22.webp','/img/vila13/23.webp','/img/vila13/24.webp','/img/vila13/25.webp','/img/vila13/26.webp','/img/vila13/27.webp','/img/vila13/28.webp','/img/vila13/29.webp','/img/vila13/30.webp','/img/vila13/31.webp','/img/vila13/32.webp','/img/vila13/33.webp'], featured: false,
   amenities: {
     pt: ['Piscina com prainha', 'Deck', 'Área gourmet', 'Churrasqueira', 'Cervejeira', 'Máquina de gelo', 'Lavadora e secadora', 'Apoio de praia nas Tartarugas', 'Academia e playground do condomínio', 'Piscina do condomínio', 'Segurança 24h'],
@@ -3962,7 +3962,7 @@ const COQ06: Property = {
   priceLow: { pt: 'R$ 3.400 / diária', en: 'R$ 3,400 / night' },
   carnaval: { pt: 'R$ 50.000 (pacote)', en: 'R$ 50,000 (package)' },
   reveillon: { pt: 'R$ 170.000 (pacote)', en: 'R$ 170,000 (package)' },
-  image: '/img/coq06/01.jpg',
+  image: '/img/coq06/01.webp',
   gallery: ['/img/coq06/01.webp','/img/coq06/02.webp','/img/coq06/03.webp','/img/coq06/04.webp','/img/coq06/05.webp','/img/coq06/06.webp','/img/coq06/07.webp','/img/coq06/08.webp','/img/coq06/09.webp','/img/coq06/10.webp','/img/coq06/11.webp','/img/coq06/12.webp','/img/coq06/13.webp','/img/coq06/14.webp','/img/coq06/15.webp','/img/coq06/16.webp','/img/coq06/17.webp','/img/coq06/18.webp','/img/coq06/19.webp','/img/coq06/20.webp','/img/coq06/21.webp','/img/coq06/22.webp','/img/coq06/23.webp'], featured: false,
   amenities: {
     pt: ['Piscina privativa', 'Área gourmet com bar e churrasqueira', 'Área de jogos', 'Telão', 'Jardim amplo'],
@@ -3987,7 +3987,7 @@ const ALTAR: Property = {
   reveillon: { pt: 'R$ 275.000 (pacote de 10 diárias)', en: 'R$ 275,000 (10-night package)' },
   seasonHigh: { pt: 'Dezembro, janeiro e feriados', en: 'December, January and holidays' },
   seasonLow: { pt: 'Março, abril, maio, junho, agosto, setembro, outubro e novembro', en: 'March, April, May, June, August, September, October and November' },
-  image: '/img/altar/01.jpg',
+  image: '/img/altar/01.webp',
   gallery: ['/img/altar/01.webp','/img/altar/02.webp','/img/altar/03.webp','/img/altar/04.webp','/img/altar/05.webp','/img/altar/06.webp','/img/altar/07.webp','/img/altar/08.webp','/img/altar/09.webp','/img/altar/10.webp','/img/altar/11.webp','/img/altar/12.webp','/img/altar/13.webp','/img/altar/14.webp','/img/altar/15.webp','/img/altar/16.webp','/img/altar/17.webp','/img/altar/18.webp','/img/altar/19.webp','/img/altar/20.webp','/img/altar/21.webp','/img/altar/22.webp','/img/altar/23.webp'], featured: false,
   amenities: {
     pt: ['3 suítes (2 com cama king size e 1 com três camas de solteiro)', 'Cozinha central integrada, coração da casa', 'Piscina ampla em meio à natureza', 'Ar-condicionado', 'Internet Wi-Fi', 'Cozinha completa', 'Churrasqueira', 'Cafeteira', 'Fogão a gás, forno, geladeira, freezer e micro-ondas', 'Máquina de lavar', 'Ferro de passar', 'Jogos de piscina', 'Roupas de cama', 'Enxoval de louça', 'Secador de cabelo', 'Água quente'],
@@ -4015,7 +4015,7 @@ const COQ04: Property = {
   priceLow: { pt: 'Sob consulta', en: 'Upon request' },
   reveillon: { pt: 'Sob consulta', en: 'Upon request' },
   carnaval: { pt: 'Sob consulta', en: 'Upon request' },
-  image: '/img/coq04/01.jpg',
+  image: '/img/coq04/01.webp',
   gallery: ['/img/coq04/01.webp','/img/coq04/02.webp','/img/coq04/03.webp','/img/coq04/04.webp','/img/coq04/05.webp','/img/coq04/06.webp','/img/coq04/07.webp','/img/coq04/08.webp','/img/coq04/09.webp','/img/coq04/10.webp','/img/coq04/11.webp','/img/coq04/12.webp','/img/coq04/13.webp','/img/coq04/14.webp','/img/coq04/15.webp','/img/coq04/16.webp','/img/coq04/17.webp','/img/coq04/18.webp','/img/coq04/19.webp','/img/coq04/20.webp','/img/coq04/21.webp','/img/coq04/22.webp','/img/coq04/23.webp','/img/coq04/24.webp','/img/coq04/25.webp','/img/coq04/26.webp','/img/coq04/27.webp','/img/coq04/28.webp','/img/coq04/29.webp','/img/coq04/30.webp','/img/coq04/31.webp','/img/coq04/32.webp','/img/coq04/33.webp','/img/coq04/34.webp','/img/coq04/35.webp','/img/coq04/36.webp','/img/coq04/37.webp','/img/coq04/38.webp','/img/coq04/39.webp','/img/coq04/40.webp','/img/coq04/41.webp','/img/coq04/42.webp','/img/coq04/43.webp','/img/coq04/44.webp'],
   featured: false,
   amenities: {
@@ -4044,7 +4044,7 @@ const TEMPO04: Property = {
   priceLow: { pt: 'R$ 1.500', en: 'R$ 1,500' },
   reveillon: { pt: 'Sob consulta', en: 'Upon request' },
   carnaval: { pt: 'Sob consulta', en: 'Upon request' },
-  image: '/img/tempo04/01.jpg',
+  image: '/img/tempo04/01.webp',
   gallery: ['/img/tempo04/01.webp','/img/tempo04/02.webp','/img/tempo04/03.webp','/img/tempo04/04.webp','/img/tempo04/05.webp','/img/tempo04/06.webp','/img/tempo04/07.webp','/img/tempo04/08.webp','/img/tempo04/09.webp','/img/tempo04/10.webp','/img/tempo04/11.webp','/img/tempo04/12.webp','/img/tempo04/13.webp','/img/tempo04/14.webp','/img/tempo04/15.webp','/img/tempo04/16.webp','/img/tempo04/17.webp','/img/tempo04/18.webp','/img/tempo04/19.webp','/img/tempo04/20.webp','/img/tempo04/21.webp','/img/tempo04/22.webp','/img/tempo04/23.webp','/img/tempo04/24.webp'],
   featured: false,
   amenities: {
@@ -4078,7 +4078,7 @@ const JUE: Property = {
   priceLow: { pt: 'R$ 4.000', en: 'R$ 4,000' },
   reveillon: { pt: 'R$ 170.000', en: 'R$ 170,000' },
   carnaval: { pt: 'R$ 40.000', en: 'R$ 40,000' },
-  image: '/img/jue/01.jpg',
+  image: '/img/jue/01.webp',
   gallery: ['/img/jue/01.webp','/img/jue/02.webp','/img/jue/03.webp','/img/jue/04.webp','/img/jue/05.webp','/img/jue/06.webp','/img/jue/07.webp','/img/jue/08.webp','/img/jue/09.webp','/img/jue/10.webp','/img/jue/11.webp','/img/jue/12.webp','/img/jue/13.webp','/img/jue/14.webp','/img/jue/15.webp','/img/jue/16.webp','/img/jue/17.webp','/img/jue/18.webp','/img/jue/19.webp','/img/jue/20.webp','/img/jue/21.webp','/img/jue/22.webp','/img/jue/23.webp','/img/jue/24.webp','/img/jue/25.webp','/img/jue/26.webp','/img/jue/27.webp','/img/jue/28.webp','/img/jue/29.webp','/img/jue/30.webp','/img/jue/31.webp','/img/jue/32.webp','/img/jue/33.webp','/img/jue/34.webp','/img/jue/35.webp','/img/jue/36.webp','/img/jue/37.webp','/img/jue/38.webp','/img/jue/39.webp','/img/jue/40.webp','/img/jue/41.webp','/img/jue/42.webp','/img/jue/43.webp','/img/jue/44.webp','/img/jue/45.webp','/img/jue/46.webp'],
   featured: false,
   amenities: {
@@ -4111,7 +4111,7 @@ const VILAS34: Property = {
   priceLow: { pt: 'R$ 2.300 / diária', en: 'R$ 2,300 / night' },
   reveillon: { pt: 'Sob consulta', en: 'Upon request' },
   carnaval: { pt: 'Sob consulta', en: 'Upon request' },
-  image: '/img/vilas34/01.jpg',
+  image: '/img/vilas34/01.webp',
   gallery: ['/img/vilas34/01.webp','/img/vilas34/02.webp','/img/vilas34/03.webp','/img/vilas34/04.webp','/img/vilas34/05.webp','/img/vilas34/06.webp','/img/vilas34/07.webp','/img/vilas34/08.webp','/img/vilas34/09.webp','/img/vilas34/10.webp','/img/vilas34/11.webp','/img/vilas34/12.webp','/img/vilas34/13.webp'], featured: false,
   amenities: {
     pt: ['2 suítes climatizadas', 'Sala de estar e jantar', 'Cozinha equipada', 'Varanda com vista para a mata', 'Internet Wi-Fi', 'Roupa de cama e banho', 'Estacionamento', 'Condomínio fechado cercado pela Mata Atlântica', 'Próxima ao campo de golfe Terravista'],
@@ -4137,7 +4137,7 @@ const NANA: Property = {
   reveillon: { pt: 'R$ 400.000', en: 'R$ 400,000' },
   seasonHigh: { pt: 'Dez, Jan e feriados', en: 'Dec, Jan and holidays' },
   seasonLow: { pt: 'Mar, Abr, Mai, Jun, Ago, Set, Out e Nov', en: 'Mar, Apr, May, Jun, Aug, Sep, Oct and Nov' },
-  image: '/img/nana/01.jpg',
+  image: '/img/nana/01.webp',
   gallery: ['/img/nana/01.webp','/img/nana/02.webp','/img/nana/03.webp','/img/nana/04.webp','/img/nana/05.webp','/img/nana/06.webp','/img/nana/07.webp','/img/nana/08.webp','/img/nana/09.webp','/img/nana/10.webp','/img/nana/11.webp','/img/nana/12.webp','/img/nana/13.webp','/img/nana/14.webp','/img/nana/15.webp','/img/nana/16.webp','/img/nana/17.webp','/img/nana/18.webp','/img/nana/19.webp','/img/nana/20.webp','/img/nana/21.webp','/img/nana/22.webp','/img/nana/23.webp','/img/nana/24.webp','/img/nana/25.webp','/img/nana/26.webp','/img/nana/27.webp','/img/nana/28.webp','/img/nana/29.webp','/img/nana/30.webp','/img/nana/31.webp','/img/nana/32.webp','/img/nana/33.webp','/img/nana/34.webp','/img/nana/35.webp','/img/nana/36.webp','/img/nana/37.webp','/img/nana/38.webp','/img/nana/39.webp','/img/nana/40.webp','/img/nana/41.webp','/img/nana/42.webp','/img/nana/43.webp','/img/nana/44.webp','/img/nana/45.webp'], featured: false,
   amenities: {
     pt: ['Piscina', 'Sauna úmida', 'Área gourmet com churrasqueira', 'Bar com cozinha de apoio externa', 'Chuveirão', 'Sala de TV', 'Sala de brinquedos', 'Espaço de jogos', 'Cozinha equipada', 'Máquina de gelo', 'Ar-condicionado', 'Internet Wi-Fi', 'Gerador', 'Amplo jardim tropical', 'Bangalô independente', 'Segurança 24 horas no condomínio'],
@@ -4165,7 +4165,7 @@ const COQ09: Property = {
   priceLow: { pt: 'R$ 2.500 / diária', en: 'R$ 2,500 / night' },
   carnaval: { pt: 'Sob consulta', en: 'Upon request' },
   reveillon: { pt: 'Sob consulta', en: 'Upon request' },
-  image: '/img/coq09/01.jpg',
+  image: '/img/coq09/01.webp',
   gallery: ['/img/coq09/01.webp','/img/coq09/02.webp','/img/coq09/03.webp','/img/coq09/04.webp','/img/coq09/05.webp','/img/coq09/06.webp','/img/coq09/07.webp','/img/coq09/08.webp','/img/coq09/09.webp','/img/coq09/10.webp','/img/coq09/11.webp','/img/coq09/12.webp','/img/coq09/13.webp','/img/coq09/14.webp','/img/coq09/15.webp','/img/coq09/16.webp','/img/coq09/17.webp'], featured: false,
   amenities: {
     pt: ['Piscina privativa', 'Área gourmet', 'Churrasqueira', 'Varanda', 'Rede', 'Sala de TV', 'Cozinha completa', 'Ar-condicionado', 'Internet Wi-Fi', 'Jardim', 'Estacionamento para até 3 veículos', 'Condomínio com portaria e segurança 24 horas'],
@@ -4193,7 +4193,7 @@ const IEMANJA: Property = {
   priceLow: { pt: 'R$ 4.400 / diária', en: 'R$ 4,400 / night' },
   carnaval: { pt: 'R$ 45.000', en: 'R$ 45,000' },
   reveillon: { pt: 'R$ 190.000', en: 'R$ 190,000' },
-  image: '/img/iemanja/01.jpg',
+  image: '/img/iemanja/01.webp',
   gallery: ['/img/iemanja/01.webp','/img/iemanja/02.webp','/img/iemanja/03.webp','/img/iemanja/04.webp','/img/iemanja/05.webp','/img/iemanja/06.webp','/img/iemanja/07.webp','/img/iemanja/08.webp','/img/iemanja/09.webp','/img/iemanja/10.webp','/img/iemanja/11.webp','/img/iemanja/12.webp','/img/iemanja/13.webp','/img/iemanja/14.webp','/img/iemanja/15.webp','/img/iemanja/16.webp','/img/iemanja/17.webp','/img/iemanja/18.webp','/img/iemanja/19.webp','/img/iemanja/20.webp','/img/iemanja/21.webp','/img/iemanja/22.webp','/img/iemanja/23.webp','/img/iemanja/24.webp','/img/iemanja/25.webp','/img/iemanja/26.webp','/img/iemanja/27.webp','/img/iemanja/28.webp','/img/iemanja/29.webp','/img/iemanja/30.webp','/img/iemanja/31.webp','/img/iemanja/32.webp'], featured: false,
   amenities: {
     pt: ['Piscina privativa com deck de madeira', 'Jardim tropical', 'Espaço gourmet', 'Churrasqueira', 'Cozinha equipada', 'Sala de estar', 'Sala de jantar', 'Ar-condicionado', 'Internet Wi-Fi', 'TV a cabo e Netflix', 'Lavabo', 'Lavanderia', 'Chuveirão', 'Gerador', 'Poço artesiano', 'Roupas de cama, mesa e banho', 'Toalhas de piscina e praia', 'Secador de cabelo'],
@@ -4225,7 +4225,7 @@ const COQ27: Property = {
   priceLow: { pt: 'Sob consulta', en: 'Upon request' },
   carnaval: { pt: 'Sob consulta', en: 'Upon request' },
   reveillon: { pt: 'Sob consulta', en: 'Upon request' },
-  image: '/img/coq27/01.jpg',
+  image: '/img/coq27/01.webp',
   gallery: ['/img/coq27/01.webp','/img/coq27/02.webp','/img/coq27/03.webp','/img/coq27/04.webp','/img/coq27/05.webp','/img/coq27/06.webp','/img/coq27/07.webp','/img/coq27/08.webp','/img/coq27/09.webp','/img/coq27/10.webp','/img/coq27/11.webp','/img/coq27/12.webp','/img/coq27/13.webp','/img/coq27/14.webp','/img/coq27/15.webp','/img/coq27/16.webp','/img/coq27/17.webp','/img/coq27/18.webp','/img/coq27/19.webp','/img/coq27/20.webp','/img/coq27/21.webp','/img/coq27/22.webp','/img/coq27/23.webp','/img/coq27/24.webp','/img/coq27/25.webp','/img/coq27/26.webp','/img/coq27/27.webp','/img/coq27/28.webp','/img/coq27/29.webp','/img/coq27/30.webp','/img/coq27/31.webp','/img/coq27/32.webp','/img/coq27/33.webp','/img/coq27/34.webp','/img/coq27/35.webp','/img/coq27/36.webp','/img/coq27/37.webp','/img/coq27/38.webp','/img/coq27/39.webp','/img/coq27/40.webp','/img/coq27/41.webp','/img/coq27/42.webp','/img/coq27/43.webp','/img/coq27/44.webp','/img/coq27/45.webp'], featured: false,
   amenities: {
     pt: ['5 suítes climatizadas', '2 suítes com hidromassagem', 'Piscina', 'Jardim', 'Área gourmet completa', 'Churrasqueira', 'Sala de estar', 'Sala de TV', 'Sala de jantar', 'Cozinha equipada', 'Parquinho infantil', 'Canto de leitura', 'Garagem', 'Internet Wi-Fi'],
@@ -4257,7 +4257,7 @@ const COQ10: Property = {
   priceLow: { pt: 'Sob consulta', en: 'Upon request' },
   carnaval: { pt: 'Sob consulta', en: 'Upon request' },
   reveillon: { pt: 'Sob consulta', en: 'Upon request' },
-  image: '/img/coq10/01.jpg',
+  image: '/img/coq10/01.webp',
   gallery: ['/img/coq10/01.webp','/img/coq10/02.webp','/img/coq10/03.webp','/img/coq10/04.webp','/img/coq10/05.webp','/img/coq10/06.webp','/img/coq10/07.webp','/img/coq10/08.webp','/img/coq10/09.webp','/img/coq10/10.webp','/img/coq10/11.webp','/img/coq10/12.webp','/img/coq10/13.webp','/img/coq10/14.webp','/img/coq10/15.webp','/img/coq10/16.webp','/img/coq10/17.webp','/img/coq10/18.webp','/img/coq10/19.webp','/img/coq10/20.webp','/img/coq10/21.webp','/img/coq10/22.webp','/img/coq10/23.webp','/img/coq10/24.webp','/img/coq10/25.webp','/img/coq10/26.webp','/img/coq10/27.webp','/img/coq10/28.webp','/img/coq10/29.webp','/img/coq10/30.webp','/img/coq10/31.webp','/img/coq10/32.webp','/img/coq10/33.webp'], featured: false,
   amenities: {
     pt: ['6 suítes climatizadas', 'Piscina privativa', 'Jardim tropical', 'Área externa de convivência', 'Churrasqueira', 'Área para refeições ao ar livre', 'Sala de estar', 'Sala de jantar', 'Cozinha completa e equipada', 'Internet Wi-Fi', 'Ar-condicionado', 'TV', 'Máquina de lavar', 'Estacionamento', 'Condomínio fechado'],
@@ -4286,7 +4286,7 @@ const VILLAW: Property = {
   priceLow: { pt: 'R$ 18.800 / diária', en: 'R$ 18,800 / night' },
   carnaval: { pt: 'R$ 120.750 / pacote 5 dias', en: 'R$ 120,750 / 5-day package' },
   reveillon: { pt: 'R$ 600.000 / pacote 10 dias', en: 'R$ 600,000 / 10-day package' },
-  image: '/img/villaw/01.jpg',
+  image: '/img/villaw/01.webp',
   gallery: ['/img/villaw/01.webp','/img/villaw/02.webp','/img/villaw/03.webp','/img/villaw/04.webp','/img/villaw/05.webp','/img/villaw/06.webp','/img/villaw/07.webp','/img/villaw/08.webp','/img/villaw/09.webp','/img/villaw/10.webp','/img/villaw/11.webp','/img/villaw/12.webp','/img/villaw/13.webp','/img/villaw/14.webp','/img/villaw/15.webp','/img/villaw/16.webp','/img/villaw/17.webp','/img/villaw/18.webp','/img/villaw/19.webp','/img/villaw/20.webp','/img/villaw/21.webp','/img/villaw/22.webp','/img/villaw/23.webp','/img/villaw/24.webp','/img/villaw/25.webp','/img/villaw/26.webp','/img/villaw/27.webp','/img/villaw/28.webp','/img/villaw/29.webp','/img/villaw/30.webp','/img/villaw/31.webp','/img/villaw/32.webp','/img/villaw/33.webp','/img/villaw/34.webp','/img/villaw/35.webp','/img/villaw/36.webp','/img/villaw/37.webp','/img/villaw/38.webp','/img/villaw/39.webp','/img/villaw/40.webp'], featured: false,
   amenities: {
     pt: ['9 suítes', 'Vista panorâmica para o mar', 'Localização privilegiada no Altos de Itapororoca', 'Piscina de borda infinita com bar', 'Decks e lounges com vista para o mar', 'Espaço gourmet e cozinha completa', 'Sala de estar integrada à área externa', 'Academia ao ar livre', 'Bangalôs independentes', 'Amplos jardins cercados pela Mata Atlântica', 'Wi-Fi e ar-condicionado', 'Estacionamento privativo', 'Serviço de apoio de praia e acesso privativo à Praia de Itapororoca'],
@@ -4312,7 +4312,7 @@ const COQ11: Property = {
   priceLow: { pt: 'R$ 3.500 / diária', en: 'R$ 3,500 / night' },
   carnaval: { pt: 'R$ 40.000 / pacote', en: 'R$ 40,000 / package' },
   reveillon: { pt: 'R$ 150.000 / pacote 10 dias', en: 'R$ 150,000 / 10-day package' },
-  image: '/img/coqueiral11/01.jpg',
+  image: '/img/coqueiral11/01.webp',
   gallery: ['/img/coqueiral11/01.webp','/img/coqueiral11/02.webp','/img/coqueiral11/03.webp','/img/coqueiral11/04.webp','/img/coqueiral11/05.webp','/img/coqueiral11/06.webp','/img/coqueiral11/07.webp','/img/coqueiral11/08.webp','/img/coqueiral11/09.webp','/img/coqueiral11/10.webp','/img/coqueiral11/11.webp','/img/coqueiral11/12.webp','/img/coqueiral11/13.webp','/img/coqueiral11/14.webp','/img/coqueiral11/15.webp','/img/coqueiral11/16.webp','/img/coqueiral11/17.webp','/img/coqueiral11/18.webp','/img/coqueiral11/19.webp','/img/coqueiral11/20.webp','/img/coqueiral11/21.webp','/img/coqueiral11/22.webp','/img/coqueiral11/23.webp','/img/coqueiral11/24.webp','/img/coqueiral11/25.webp','/img/coqueiral11/26.webp'], featured: false,
   amenities: {
     pt: ['5 suítes climatizadas', 'Piscina revestida em pedras vulcânicas', 'Ampla área gourmet', 'Varandas com redes', 'Jardim e paisagismo tropical', 'Sala de estar', 'Cozinha equipada', 'Internet Wi-Fi', 'Ar-condicionado', 'Estacionamento', 'Condomínio fechado', 'Aceita animais de estimação'],
@@ -4342,7 +4342,7 @@ const COQ12: Property = {
   priceLow: { pt: 'Sob consulta', en: 'Upon request' },
   carnaval: { pt: 'Sob consulta', en: 'Upon request' },
   reveillon: { pt: 'Sob consulta', en: 'Upon request' },
-  image: '/img/coqueiral12/01.jpg',
+  image: '/img/coqueiral12/01.webp',
   gallery: ['/img/coqueiral12/01.webp','/img/coqueiral12/02.webp','/img/coqueiral12/03.webp','/img/coqueiral12/04.webp','/img/coqueiral12/05.webp','/img/coqueiral12/06.webp','/img/coqueiral12/07.webp','/img/coqueiral12/08.webp','/img/coqueiral12/09.webp','/img/coqueiral12/10.webp','/img/coqueiral12/11.webp','/img/coqueiral12/12.webp','/img/coqueiral12/13.webp','/img/coqueiral12/14.webp','/img/coqueiral12/15.webp','/img/coqueiral12/16.webp','/img/coqueiral12/17.webp','/img/coqueiral12/18.webp','/img/coqueiral12/19.webp','/img/coqueiral12/20.webp','/img/coqueiral12/21.webp','/img/coqueiral12/22.webp','/img/coqueiral12/23.webp','/img/coqueiral12/24.webp','/img/coqueiral12/25.webp','/img/coqueiral12/26.webp','/img/coqueiral12/27.webp'], featured: false,
   amenities: {
     pt: ['4 suítes amplas + espaço adicional reversível em dormitório', 'Piscina privativa', 'Churrasqueira e forno de pizza', 'Salas e ambientes sociais integrados', 'Mata nativa e jardim', 'Terreno de 730 m²', 'Estacionamento para 4 veículos', 'Condomínio com portaria e rondas 24h', 'Aproximadamente 3,5 km do Quadrado', 'Acesso asfaltado'],

@@ -9,7 +9,7 @@ export default function Privacidade() {
       <PageHero
         title={pt ? 'Política de Privacidade' : 'Privacy Policy'}
         sub={pt ? 'Como tratamos seus dados' : 'How we handle your data'}
-        image="/img/vilas75/01.jpg" />
+        image="/img/vilas75/01.webp" />
       <section className="py-16 md:py-24">
         <div className="max-w-3xl mx-auto px-5 space-y-8 text-ink/70 leading-relaxed text-[15px]">
           {pt ? (

@@ -5,7 +5,7 @@ const CASASOL: Property = {
   priceLow: { pt: 'R$ 33.100 / diária', en: 'R$ 33,100 / night' },
   carnaval: { pt: 'Sob consulta', en: 'Upon request' },
   reveillon: { pt: 'Sob consulta', en: 'Upon request' },
-  image: '/img/casasol/01.jpg',
+  image: '/img/casasol/01.webp',
   gallery: ['/img/casasol/01.webp','/img/casasol/02.webp','/img/casasol/03.webp','/img/casasol/04.webp','/img/casasol/05.webp','/img/casasol/06.webp','/img/casasol/07.webp','/img/casasol/08.webp','/img/casasol/09.webp','/img/casasol/10.webp','/img/casasol/11.webp','/img/casasol/12.webp','/img/casasol/13.webp','/img/casasol/14.webp','/img/casasol/15.webp','/img/casasol/16.webp','/img/casasol/17.webp','/img/casasol/18.webp','/img/casasol/19.webp','/img/casasol/20.webp','/img/casasol/21.webp','/img/casasol/22.webp','/img/casasol/23.webp','/img/casasol/24.webp','/img/casasol/25.webp','/img/casasol/26.webp','/img/casasol/27.webp','/img/casasol/28.webp','/img/casasol/29.webp','/img/casasol/30.webp','/img/casasol/31.webp','/img/casasol/32.webp','/img/casasol/33.webp','/img/casasol/34.webp','/img/casasol/35.webp'], featured: false,
   amenities: {
     pt: ['Pé na areia, com acesso direto à Praia de Itapororoca', 'Piscina com tratamento por sal', 'SPA, sauna, jacuzzi e ofurô', 'Sala de massagem', 'Sala de cinema', 'Lareira', 'Espaço gourmet completo', 'Forno de pizza e forno a lenha', 'Churrasqueira', 'Máquina de chope', 'Quadra de beach tennis', 'Bicicletas, caiaques e stand up paddle', 'Apoio de praia', 'Adega', 'Internet Wi-Fi', 'Ar-condicionado', 'Gerador', 'Estacionamento', 'Decoração assinada por Nanã Salles', 'Enxoval em linho 800 fios e amenities completos'],

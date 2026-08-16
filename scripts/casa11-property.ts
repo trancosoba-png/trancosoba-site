@@ -5,7 +5,7 @@ const CASA11ALDEIA: Property = {
   priceLow: { pt: 'R$ 16.500 / diária', en: 'R$ 16,500 / night' },
   carnaval: { pt: 'Sob consulta', en: 'Upon request' },
   reveillon: { pt: 'R$ 605.000 / período', en: 'R$ 605,000 / period' },
-  image: '/img/aldeia11/01.jpg',
+  image: '/img/aldeia11/01.webp',
   gallery: ['/img/aldeia11/01.webp','/img/aldeia11/02.webp','/img/aldeia11/03.webp','/img/aldeia11/04.webp','/img/aldeia11/05.webp','/img/aldeia11/06.webp','/img/aldeia11/07.webp','/img/aldeia11/08.webp','/img/aldeia11/09.webp','/img/aldeia11/10.webp','/img/aldeia11/11.webp','/img/aldeia11/12.webp','/img/aldeia11/13.webp','/img/aldeia11/14.webp','/img/aldeia11/15.webp','/img/aldeia11/16.webp','/img/aldeia11/17.webp','/img/aldeia11/18.webp','/img/aldeia11/19.webp','/img/aldeia11/20.webp','/img/aldeia11/21.webp','/img/aldeia11/22.webp','/img/aldeia11/23.webp','/img/aldeia11/24.webp','/img/aldeia11/25.webp','/img/aldeia11/26.webp','/img/aldeia11/27.webp','/img/aldeia11/28.webp','/img/aldeia11/29.webp','/img/aldeia11/30.webp','/img/aldeia11/31.webp','/img/aldeia11/32.webp','/img/aldeia11/33.webp'], featured: false,
   amenities: {
     pt: ['Pé na areia', 'Vista para o mar', 'Condomínio fechado', 'Piscina privativa', 'Piscina do condomínio', 'Apoio de praia', 'Espaço gourmet', 'Cozinha equipada', 'Forno a lenha', 'Adega de vinhos', 'Carrinho de golfe (pickup)', 'Espreguiçadeiras e ombrelone', 'Sala de estar', 'Sala de jantar', 'Lavabo', 'Lavanderia', 'Máquina de gelo', 'Freezer', 'Frigobar', 'Ar-condicionado', 'Internet Wi-Fi', 'TV a cabo', 'Gerador', 'Estacionamento', 'Poço artesiano', 'Secador de cabelo', 'Roupas de cama, mesa e banho', 'Toalhas de praia e piscina', 'Serviços gerais'],

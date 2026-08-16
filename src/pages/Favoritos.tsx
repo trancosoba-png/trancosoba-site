@@ -18,7 +18,7 @@ export default function Favoritos() {
 
   return (
     <>
-      <PageHero title={t.fav.title} sub={t.fav.sub} image="/img/vilas75/01.jpg" />
+      <PageHero title={t.fav.title} sub={t.fav.sub} image="/img/vilas75/01.webp" />
       <section className="py-16 md:py-20">
         <div className="max-w-7xl mx-auto px-5 md:px-8">
           {houses.length === 0 ? (

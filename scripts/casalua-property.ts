@@ -6,7 +6,7 @@ const CASALUA: Property = {
   carnaval: { pt: 'Sob consulta', en: 'Upon request' },
   reveillon: { pt: 'R$ 880.000', en: 'R$ 880,000' },
   salePrice: { pt: 'Sob consulta', en: 'Upon request' },
-  image: '/img/casalua/01.jpg',
+  image: '/img/casalua/01.webp',
   gallery: ['/img/casalua/01.webp','/img/casalua/02.webp','/img/casalua/03.webp','/img/casalua/04.webp','/img/casalua/05.webp','/img/casalua/06.webp','/img/casalua/07.webp','/img/casalua/08.webp','/img/casalua/09.webp','/img/casalua/10.webp','/img/casalua/11.webp','/img/casalua/12.webp','/img/casalua/13.webp','/img/casalua/14.webp','/img/casalua/15.webp','/img/casalua/16.webp','/img/casalua/17.webp','/img/casalua/18.webp','/img/casalua/19.webp','/img/casalua/20.webp','/img/casalua/21.webp','/img/casalua/22.webp','/img/casalua/23.webp','/img/casalua/24.webp','/img/casalua/25.webp','/img/casalua/26.webp','/img/casalua/27.webp','/img/casalua/28.webp','/img/casalua/29.webp'], featured: false,
   amenities: {
     pt: ['Pé na areia, de frente para a Praia de Itapororoca', 'Vista para o mar', 'Piscina', 'SPA e jacuzzi', 'Apoio de praia', 'Stand up paddle e caiaque', 'Beach tennis', 'Espaço gourmet com churrasqueira', 'Cozinha equipada', 'Adega de vinhos', 'Sala de estar e sala de jantar', 'Ar-condicionado', 'Ventilador de teto', 'Mosquiteiros', 'Internet Wi-Fi', 'TV a cabo', 'Som ambiente', 'Máquina de gelo', 'Freezer', 'Gerador', 'Poço artesiano', 'Estacionamento', 'Roupas de cama, mesa e banho', 'Toalhas de piscina e praia', 'Não é permitida a hospedagem de animais de estimação.'],

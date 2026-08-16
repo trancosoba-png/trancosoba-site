@@ -5,7 +5,7 @@ const COQUEIRAL5: Property = {
   priceLow: { pt: 'R$ 2.800 / diária', en: 'R$ 2,800 / night' },
   carnaval: { pt: 'R$ 35.000 / pacote', en: 'R$ 35,000 / package' },
   reveillon: { pt: 'R$ 150.000 / pacote', en: 'R$ 150,000 / package' },
-  image: '/img/coqueiral5/01.jpg',
+  image: '/img/coqueiral5/01.webp',
   gallery: ['/img/coqueiral5/01.webp','/img/coqueiral5/02.webp','/img/coqueiral5/03.webp','/img/coqueiral5/04.webp','/img/coqueiral5/05.webp','/img/coqueiral5/06.webp','/img/coqueiral5/07.webp','/img/coqueiral5/08.webp','/img/coqueiral5/09.webp','/img/coqueiral5/10.webp','/img/coqueiral5/11.webp','/img/coqueiral5/12.webp','/img/coqueiral5/13.webp','/img/coqueiral5/14.webp','/img/coqueiral5/15.webp','/img/coqueiral5/16.webp','/img/coqueiral5/17.webp','/img/coqueiral5/18.webp','/img/coqueiral5/19.webp','/img/coqueiral5/20.webp','/img/coqueiral5/21.webp','/img/coqueiral5/22.webp','/img/coqueiral5/23.webp','/img/coqueiral5/24.webp','/img/coqueiral5/25.webp','/img/coqueiral5/26.webp','/img/coqueiral5/27.webp','/img/coqueiral5/28.webp','/img/coqueiral5/29.webp','/img/coqueiral5/30.webp','/img/coqueiral5/31.webp','/img/coqueiral5/32.webp','/img/coqueiral5/33.webp','/img/coqueiral5/34.webp'], featured: false,
   amenities: {
     pt: ['Piscina de borda infinita', 'Hidromassagem', 'Ducha externa', 'Área gourmet', 'Churrasqueira', 'Mesa para refeições ao ar livre', 'Cozinha equipada', 'Sala de estar', 'Sala de jantar', 'Sala de TV', 'Redário integrado ao jardim', 'Jardim amplo', 'Vista para a mata nativa', 'Ar-condicionado nos quartos', 'Internet Wi-Fi'],

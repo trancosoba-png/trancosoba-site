@@ -11,7 +11,7 @@ function Divider() {
 export default function Nos() {
   return (
     <>
-      <PageHero title="Nós" sub="Trancoso, BA" image="/img/ponta/01.jpg" />
+      <PageHero title="Nós" sub="Trancoso, BA" image="/img/ponta/01.webp" />
       <section
         className="relative py-24 md:py-32 border-y border-[#b08d57]/25"
         style={{ backgroundColor: '#eee2c8' }}

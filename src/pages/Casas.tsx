@@ -135,7 +135,7 @@ export default function Casas() {
       <PageHero
         title={activeCollection ? txt(activeCollection.title, lang) : t.casas.title}
         sub={activeCollection ? txt(activeCollection.sub, lang) : t.casas.sub}
-        image={activeCollection ? activeCollection.cover : '/img/vilas75/01.jpg'} />
+        image={activeCollection ? activeCollection.cover : '/img/vilas75/01.webp'} />
       {activeCollection && (
         <section className="pt-10 md:pt-14 -mb-6">
           <div className="max-w-3xl mx-auto px-5 text-center">

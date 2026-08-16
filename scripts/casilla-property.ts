@@ -5,7 +5,7 @@ const CASILLA: Property = {
   priceLow: { pt: 'R$ 15.000 / diária', en: 'R$ 15,000 / night' },
   carnaval: { pt: 'R$ 250.000 / pacote (5 dias)', en: 'R$ 250,000 / package (5 days)' },
   reveillon: { pt: 'R$ 550.000 / pacote (10 dias)', en: 'R$ 550,000 / package (10 days)' },
-  image: '/img/casilla/01.jpg',
+  image: '/img/casilla/01.webp',
   gallery: ['/img/casilla/01.webp','/img/casilla/02.webp','/img/casilla/03.webp','/img/casilla/04.webp','/img/casilla/05.webp','/img/casilla/06.webp','/img/casilla/07.webp','/img/casilla/08.webp','/img/casilla/09.webp','/img/casilla/10.webp','/img/casilla/11.webp','/img/casilla/12.webp','/img/casilla/13.webp','/img/casilla/14.webp','/img/casilla/15.webp','/img/casilla/16.webp','/img/casilla/17.webp','/img/casilla/18.webp','/img/casilla/19.webp','/img/casilla/20.webp','/img/casilla/21.webp','/img/casilla/22.webp','/img/casilla/23.webp','/img/casilla/24.webp','/img/casilla/25.webp','/img/casilla/26.webp','/img/casilla/27.webp','/img/casilla/28.webp','/img/casilla/29.webp'], featured: false,
   amenities: {
     pt: ['Condomínio fechado', 'Piscina', 'Jardim tropical', 'Área gourmet completa', 'Churrasqueira', 'Parrilla argentina', 'Forno de pizza', 'Adega climatizada', 'Cozinha equipada', 'Sala de estar', 'Sala de jantar', 'Internet Wi-Fi', 'Ar-condicionado', 'Estacionamento'],

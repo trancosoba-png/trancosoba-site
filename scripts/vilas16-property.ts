@@ -5,7 +5,7 @@ const VILAS16: Property = {
   priceLow: { pt: 'R$ 6.000 / diária', en: 'R$ 6,000 / night' },
   carnaval: { pt: 'R$ 75.000 / pacote', en: 'R$ 75,000 / package' },
   reveillon: { pt: 'R$ 250.000 / pacote', en: 'R$ 250,000 / package' },
-  image: '/img/vilas16/01.jpg',
+  image: '/img/vilas16/01.webp',
   gallery: ['/img/vilas16/01.webp','/img/vilas16/02.webp','/img/vilas16/03.webp','/img/vilas16/04.webp','/img/vilas16/05.webp','/img/vilas16/06.webp','/img/vilas16/07.webp','/img/vilas16/08.webp','/img/vilas16/09.webp','/img/vilas16/10.webp','/img/vilas16/11.webp','/img/vilas16/12.webp','/img/vilas16/13.webp','/img/vilas16/14.webp','/img/vilas16/15.webp','/img/vilas16/16.webp','/img/vilas16/17.webp','/img/vilas16/18.webp','/img/vilas16/19.webp','/img/vilas16/20.webp','/img/vilas16/21.webp','/img/vilas16/22.webp','/img/vilas16/23.webp','/img/vilas16/24.webp','/img/vilas16/25.webp','/img/vilas16/26.webp','/img/vilas16/27.webp','/img/vilas16/28.webp','/img/vilas16/29.webp','/img/vilas16/30.webp','/img/vilas16/31.webp','/img/vilas16/32.webp','/img/vilas16/33.webp','/img/vilas16/34.webp','/img/vilas16/35.webp','/img/vilas16/36.webp'], featured: false,
   amenities: {
     pt: ['Piscina privativa', 'Espaço gourmet', 'Churrasqueira', 'Apoio de praia', 'Pé na areia', 'Café da manhã', 'Sala de estar', 'Sala de jantar', 'Sala de TV', 'Cozinha equipada', 'Lavabo', 'Lavanderia', 'Ar-condicionado', 'TV', 'Netflix', 'Internet Wi-Fi', 'Espreguiçadeiras e ombrelone', 'Toalhas de praia', 'Toalhas de piscina', 'Cervejeira', 'Freezer', 'Secador de cabelo', 'Ambiente kids friendly', 'Serviços gerais', 'Gerador', 'Extintor', 'Poço artesiano', 'Estacionamento', 'Condomínio Vilas Altos de Trancoso', 'Roupa de cama, mesa e banho'],

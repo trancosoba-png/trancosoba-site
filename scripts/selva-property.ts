@@ -6,7 +6,7 @@ const SELVA: Property = {
   priceLow: { pt: 'R$ 14.000 / diária', en: 'R$ 14,000 / night' },
   carnaval: { pt: 'R$ 200.000 (pacote de 5 dias)', en: 'R$ 200,000 (5-day package)' },
   reveillon: { pt: 'R$ 650.000 (pacote de 10 dias)', en: 'R$ 650,000 (10-day package)' },
-  image: '/img/selva/01.jpg',
+  image: '/img/selva/01.webp',
   gallery: ['/img/selva/01.webp','/img/selva/02.webp','/img/selva/03.webp','/img/selva/04.webp','/img/selva/05.webp','/img/selva/06.webp','/img/selva/07.webp','/img/selva/08.webp','/img/selva/09.webp','/img/selva/10.webp','/img/selva/11.webp','/img/selva/12.webp','/img/selva/13.webp','/img/selva/14.webp','/img/selva/15.webp','/img/selva/16.webp','/img/selva/17.webp','/img/selva/18.webp','/img/selva/19.webp','/img/selva/20.webp','/img/selva/21.webp','/img/selva/22.webp','/img/selva/23.webp','/img/selva/24.webp','/img/selva/25.webp','/img/selva/26.webp','/img/selva/27.webp','/img/selva/28.webp','/img/selva/29.webp','/img/selva/30.webp','/img/selva/31.webp','/img/selva/32.webp','/img/selva/33.webp','/img/selva/34.webp','/img/selva/35.webp','/img/selva/36.webp','/img/selva/37.webp','/img/selva/38.webp','/img/selva/39.webp','/img/selva/40.webp'], featured: false,
   amenities: {
     pt: ['Piscina', 'Apoio de praia', 'Heliponto privativo', 'Trilhas privativas', 'Produção artesanal de mel', 'Sala de estar', 'Sala de jantar', 'Cozinha equipada', 'Lavabo', 'Lavanderia', 'Ar-condicionado', 'Mosquiteiro', 'Churrasqueira', 'Espreguiçadeiras e ombrelone', 'Toalhas de praia', 'Internet Wi-Fi', 'TV a cabo', 'Freezer', 'Condomínio', 'Estacionamento', 'Roupas de cama, mesa e banho'],

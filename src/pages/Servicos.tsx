@@ -9,7 +9,7 @@ export default function Servicos() {
   const cards = t.servicos.cards;
   return (
     <>
-      <PageHero title={t.servicos.title} sub={t.servicos.sub} image="/img/servicos/10-suporte.jpg" />
+      <PageHero title={t.servicos.title} sub={t.servicos.sub} image="/img/servicos/10-suporte.webp" />
 
       <section className="pt-16 md:pt-24 pb-6">
         <Reveal className="max-w-3xl mx-auto px-5 text-center">

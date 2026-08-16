@@ -25,7 +25,7 @@ export default function Anuncie() {
 
   return (
     <>
-      <PageHero title={t.anuncie.title} sub={t.anuncie.sub} image="/img/hero.jpg" />
+      <PageHero title={t.anuncie.title} sub={t.anuncie.sub} image="/img/hero.webp" />
       <section className="py-16 md:py-24">
         <div className="max-w-3xl mx-auto px-5 md:px-8">
           <Reveal>

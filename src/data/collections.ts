@@ -54,7 +54,7 @@ export const COLLECTIONS: Collection[] = [
       pt: 'Casas perto do Quadrado, o coração histórico de Trancoso: a poucos passos dos restaurantes, das lojas e da igreja de São João Batista, com a tranquilidade de ruas arborizadas.',
       en: 'Houses near the Quadrado, the historic heart of Trancoso: steps from restaurants, shops and the São João Batista church, on quiet tree-lined streets.',
     },
-    cover: '/img/tempo07/01.jpg',
+    cover: '/img/tempo07/01.webp',
     match: (p) => loc(p).includes('quadrado') || Boolean(p.features?.includes('quadrado')),
   },
   {
@@ -78,7 +78,7 @@ export const COLLECTIONS: Collection[] = [
       pt: 'Casas no condomínio Fasano em Trancoso: o padrão de hospitalidade Fasano em um dos condomínios mais exclusivos do Brasil, com praia praticamente privativa e serviços de alto padrão.',
       en: 'Houses in the Fasano community in Trancoso: Fasano hospitality standards in one of Brazil\'s most exclusive communities, with a nearly private beach and high-end services.',
     },
-    cover: '/img/fasanoJ2/01.jpg',
+    cover: '/img/fasanoJ2/01.webp',
     match: (p) => loc(p).includes('fasano'),
   },
   {
@@ -90,7 +90,7 @@ export const COLLECTIONS: Collection[] = [
       pt: 'Casas para grandes grupos em Trancoso: propriedades a partir de 12 hóspedes, ideais para famílias grandes, celebrações e retiros, com staff completo e áreas de convivência amplas.',
       en: 'Houses for large groups in Trancoso: properties from 12 guests, ideal for big families, celebrations and retreats, with full staff and generous living areas.',
     },
-    cover: '/img/sanmarco/01.jpg',
+    cover: '/img/sanmarco/01.webp',
     match: (p) => p.guests >= 12,
   },
   {
@@ -102,7 +102,7 @@ export const COLLECTIONS: Collection[] = [
       pt: 'Casas em condomínios fechados em Trancoso: privacidade e segurança 24 horas no Terravista, Fasano, Altos de Trancoso, Itapororoca, Outeiro das Brisas e outros endereços exclusivos.',
       en: 'Houses in gated communities in Trancoso: privacy and 24-hour security in Terravista, Fasano, Altos de Trancoso, Itapororoca, Outeiro das Brisas and other exclusive addresses.',
     },
-    cover: '/img/coqueiral23/01.jpg',
+    cover: '/img/coqueiral23/01.webp',
     match: (p) => Boolean(p.features?.includes('condominio')),
   },
 ];
