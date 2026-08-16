@@ -4,7 +4,7 @@
 import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
 import { join } from 'node:path';
 
-const SITE = process.env.SITE_URL || 'https://trancosoba-site-trancoso-ba.vercel.app';
+const SITE = process.env.SITE_URL || 'https://www.trancosoba.com';
 const root = new URL('..', import.meta.url).pathname;
 const src = readFileSync(join(root, 'src/data/properties.ts'), 'utf8');
 
@@ -91,6 +91,20 @@ const template = readFileSync(join(root, 'dist/index.html'), 'utf8');
 const assetRe = /<script type="module" crossorigin src="[^"]+"><\/script>|<link rel="stylesheet"[^>]+>/g;
 const assets = (template.match(assetRe) || []).join('\n    ');
 
+const ORG_LD = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'RealEstateAgent',
+  name: 'TrancosoBA',
+  url: 'https://www.trancosoba.com',
+  logo: 'https://www.trancosoba.com/favicon.svg',
+  description: 'Curadoria de casas de alto padrão em Trancoso, Bahia. Aluguel de temporada e venda, com concierge dedicado.',
+  email: 'contato@trancosoba.com.br',
+  telephone: '+55-73-99971-8799',
+  address: { '@type': 'PostalAddress', addressLocality: 'Trancoso', addressRegion: 'BA', addressCountry: 'BR' },
+  sameAs: ['https://instagram.com/trancosoba'],
+});
+const HERO_PRELOAD = '<link rel="preload" as="image" href="/img/hero-fallback-800.webp" imagesrcset="/img/hero-fallback-800.webp 800w, /img/hero-fallback-1600.webp 1600w" imagesizes="100vw" type="image/webp" />';
+
 function pageShell({ title, desc, url, img, extraHead = '', body = '' }) {
   return `<!doctype html>
 <html lang="pt-BR">
@@ -105,6 +119,7 @@ function pageShell({ title, desc, url, img, extraHead = '', body = '' }) {
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
     <link rel="shortcut icon" href="/favicon.ico" />
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    ${HERO_PRELOAD}
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="TrancosoBA" />
     <meta property="og:title" content="${esc(title)}" />
@@ -115,6 +130,7 @@ function pageShell({ title, desc, url, img, extraHead = '', body = '' }) {
     <meta name="twitter:title" content="${esc(title)}" />
     <meta name="twitter:description" content="${metaDesc(desc)}" />
     <meta name="twitter:image" content="${img}" />
+    <script type="application/ld+json">${ORG_LD}</script>
     ${extraHead}
     ${assets}
   </head>
