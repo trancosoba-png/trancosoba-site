@@ -78,9 +78,12 @@ for (const b of blocks) {
   const pricePt = unesc(get(/price: \{ pt: '((?:[^'\\]|\\.)*)'/));
   const code = get(/code: '([^']+)'/);
   const descPt = unesc(get(/description: \{\s*pt: '((?:[^'\\]|\\.)*)'/, 1));
+  const carnaval = unesc(get(/carnaval: '((?:[^'\\]|\\.)*)'/));
+  const reveillon = unesc(get(/reveillon: '((?:[^'\\]|\\.)*)'/));
+  const priceLowPt = unesc(get(/priceLow: \{ pt: '((?:[^'\\]|\\.)*)'/));
   const gallery = parseArray(/gallery: \[([^\]]*)\]/, b);
   const amenities = parseArray(/amenities: \{\s*pt: \[([^\]]*)\]/, b);
-  props.push({ id, code, namePt, location, suites, guests, baths, image, pricePt, descPt, gallery, amenities });
+  props.push({ id, code, namePt, location, suites, guests, baths, image, pricePt, priceLowPt, carnaval, reveillon, descPt, gallery, amenities });
 }
 
 const template = readFileSync(join(root, 'dist/index.html'), 'utf8');
@@ -141,8 +144,19 @@ for (const p of props) {
     image: p.gallery.slice(0, 6).map((g) => `${SITE}${g}`),
     address: { '@type': 'PostalAddress', addressLocality: 'Trancoso', addressRegion: 'BA', addressCountry: 'BR' },
     numberOfRooms: Number(p.suites),
+    numberOfBathroomsTotal: Number(p.baths) || undefined,
     occupancy: { '@type': 'QuantitativeValue', maxValue: Number(p.guests) },
+    amenityFeature: p.amenities.slice(0, 12).map((a) => ({ '@type': 'LocationFeatureSpecification', name: a })),
     ...(priceNum ? { offers: { '@type': 'Offer', price: Number(priceNum), priceCurrency: 'BRL', availability: 'https://schema.org/InStock' } } : {}),
+  };
+  const breadcrumbLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Início', item: `${SITE}/` },
+      { '@type': 'ListItem', position: 2, name: 'Nossas Casas', item: `${SITE}/casas` },
+      { '@type': 'ListItem', position: 3, name: p.namePt, item: url },
+    ],
   };
   const photos = p.gallery.slice(0, 8).map((g) => `      <img src="${g}" alt="${esc(p.namePt)} — ${esc(p.location)}, Trancoso" loading="lazy" style="max-width:100%;" />`).join('\n');
   const amen = p.amenities.slice(0, 12).map((a) => `<li>${esc(a)}</li>`).join('');
@@ -151,13 +165,15 @@ for (const p of props) {
     <p><a href="/casas">TrancosoBA — Nossas Casas</a></p>
     <h1>${esc(p.namePt)}</h1>
     <p><strong>${esc(p.location)}</strong> · ${p.code} · ${p.suites} suítes · até ${p.guests} hóspedes · ${p.baths} banheiros</p>
-    <p><strong>${esc(p.pricePt)}</strong></p>
+    <p><strong>Alta temporada: ${esc(p.pricePt)}</strong>${p.priceLowPt ? ` · Baixa temporada: ${esc(p.priceLowPt)}` : ''}</p>
+    <p>Réveillon (pacote 10 diárias): ${esc(p.reveillon || 'Sob consulta')} · Carnaval (pacote 5 dias): ${esc(p.carnaval || 'Sob consulta')}</p>
     ${photos}
     ${paras}
     <h2>Facilidades</h2>
     <ul>${amen}</ul>
+    <p>Reservas e disponibilidade: <a href="/imovel/${p.id}">TrancosoBA</a> — WhatsApp +55 73 99971-8799 · contato@trancosoba.com.br</p>
   </main>`;
-  const extraHead = `<script type="application/ld+json">${JSON.stringify(jsonLd)}</script>`;
+  const extraHead = `<script type="application/ld+json">${JSON.stringify(jsonLd)}</script>\n    <script type="application/ld+json">${JSON.stringify(breadcrumbLd)}</script>`;
   mkdirSync(join(root, 'dist/imovel', p.id), { recursive: true });
   writeFileSync(join(root, 'dist/imovel', p.id, 'index.html'), pageShell({ title, desc, url, img, extraHead, body }));
   pre++;
@@ -165,11 +181,11 @@ for (const p of props) {
 
 // Páginas institucionais
 const statics = [
-  { path: '', title: 'TrancosoBA — Casas extraordinárias em Trancoso', desc: 'Casas de alto padrão para temporada em Trancoso, Bahia. Aluguel de vilas com concierge, staff e atendimento via WhatsApp.', body: '<main style="font-family:Georgia,serif;max-width:960px;margin:0 auto;padding:24px;"><h1>TrancosoBA — Casas extraordinárias em Trancoso</h1><p>Imobiliária boutique em Trancoso, Bahia. Portfólio com mais de 70 casas de alto padrão para temporada e venda, com concierge e staff completo.</p><p><a href="/casas">Ver todas as casas</a></p></main>' },
+  { path: '', title: 'TrancosoBA — Casas de alto padrão em Trancoso, Bahia', desc: `Aluguel de temporada e venda de casas de alto padrão em Trancoso, Bahia. ${props.length} casas curadas, concierge dedicado e atendimento de quem nasceu em Trancoso.`, body: `<main style="font-family:Georgia,serif;max-width:960px;margin:0 auto;padding:24px;"><h1>TrancosoBA — Casas extraordinárias em Trancoso</h1><p>Imobiliária boutique em Trancoso, Bahia. Portfólio com ${props.length} casas de alto padrão para aluguel de temporada e venda — pé na areia, vista mar, Quadrado, Altos de Trancoso, Itapororoca, Terravista e Fasano — com concierge, staff completo e atendimento via WhatsApp.</p><p><a href="/casas">Ver todas as casas</a> · <a href="/trancoso">Guia de Trancoso</a> · <a href="/servicos">Concierge</a> · <a href="/nos">Quem somos</a></p></main>` },
   { path: 'casas', title: 'Nossas Casas — Portfólio completo | TrancosoBA', desc: `Portfólio TrancosoBA: ${props.length} casas de alto padrão em Trancoso — Quadrado, Altos, Itapororoca, Terravista, Rio da Barra e mais. Aluguel de temporada e venda.`, body: `<main style="font-family:Georgia,serif;max-width:960px;margin:0 auto;padding:24px;"><h1>Nossas Casas</h1><p>Um portfólio escolhido a dedo: ${props.length} casas em Trancoso, Bahia.</p><ul>${props.map((p) => `<li><a href="/imovel/${p.id}">${esc(p.namePt)} — ${esc(p.location)}</a></li>`).join('')}</ul></main>` },
-  { path: 'trancoso', title: 'Trancoso — História, praias e gastronomia | TrancosoBA', desc: 'Tudo sobre Trancoso: o Quadrado, as praias de Nativos, Coqueiros e Itapororoca, gastronomia, cultura e como chegar.', body: '<main style="font-family:Georgia,serif;max-width:960px;margin:0 auto;padding:24px;"><h1>Trancoso</h1><p>Uma vila de pescadores que virou destino internacional sem perder a alma. Igreja branca, casas coloridas, falésias cor de terra e um mar que muda de verde a cada hora do dia.</p></main>' },
-  { path: 'servicos', title: 'Serviços de Concierge | TrancosoBA', desc: 'Concierge TrancosoBA: transfers, chef, reservas, passeios de lancha, helicóptero, bem-estar e suporte completo durante a estadia.', body: '<main style="font-family:Georgia,serif;max-width:960px;margin:0 auto;padding:24px;"><h1>Serviços de Concierge</h1><p>Um único time cuida de tudo: da chegada ao aeroporto ao último dia na casa.</p></main>' },
-  { path: 'nos', title: 'Nós — A TrancosoBA | TrancosoBA', desc: 'Uma imobiliária boutique com alma local: curadoria rigorosa, poucas casas e hospitalidade de verdade em Trancoso.', body: '<main style="font-family:Georgia,serif;max-width:960px;margin:0 auto;padding:24px;"><h1>Nós — A TrancosoBA</h1><p>A TrancosoBA nasceu do amor por esta vila: poucas casas, curadoria rigorosa e hospitalidade de verdade.</p></main>' },
+  { path: 'trancoso', title: 'Guia de Trancoso: praias, Quadrado, gastronomia e como chegar | TrancosoBA', desc: 'Guia completo de Trancoso, Bahia: o Quadrado histórico, praias de Nativos, Coqueiros, Itapororoca e Espelho, gastronomia, cultura, melhor época e como chegar.', body: '<main style="font-family:Georgia,serif;max-width:960px;margin:0 auto;padding:24px;"><h1>Guia de Trancoso</h1><p>Uma vila de pescadores que virou destino internacional sem perder a alma. Igreja branca do século XVI, casas coloridas, falésias cor de terra e um mar que muda de verde a cada hora do dia.</p><h2>O Quadrado</h2><p>O coração histórico de Trancoso: um gramado cercado de casinhas coloridas, restaurantes e lojas, com a Igreja de São João Batista ao fundo e vista para o mar.</p><h2>Praias</h2><p>Praia dos Nativos, Praia dos Coqueiros, Itapororoca, Rio da Barra, Praia do Espelho e Itaquena — cada uma com sua maré, sua luz e seu público.</p><h2>Gastronomia</h2><p>Da cozinha baiana de raiz aos restaurantes autorais do Quadrado, Trancoso é um dos polos gastronômicos mais celebrados do litoral brasileiro.</p><h2>Como chegar</h2><p>Aeroporto de Porto Seguro (BPS) a cerca de 1h30 de carro, incluindo a balsa, ou pouso direto no Aeroporto Terravista para aviação executiva.</p><p><a href="/casas">Casas em Trancoso — TrancosoBA</a></p></main>' },
+  { path: 'servicos', title: 'Concierge TrancosoBA — serviços completos em Trancoso | TrancosoBA', desc: 'Concierge TrancosoBA: transfers, motorista particular, chef e cozinheira, compras, reservas, passeios de lancha, helicóptero, bem-estar e suporte completo durante a estadia.', body: '<main style="font-family:Georgia,serif;max-width:960px;margin:0 auto;padding:24px;"><h1>Concierge TrancosoBA</h1><p>Um único time cuida de tudo: da chegada ao aeroporto ao último dia na casa.</p><ul><li>Transfer e transporte — recepção no aeroporto de Porto Seguro e traslado privativo</li><li>Motorista particular durante a estadia</li><li>Compras e abastecimento da casa antes da chegada</li><li>Chef e cozinheira na casa</li><li>Reservas em restaurantes e beach clubs</li><li>Passeios de lancha e experiências no mar</li><li>Helicóptero e aviação executiva (Aeroporto Terravista)</li><li>Bem-estar: yoga, massagens e personal</li><li>Equipe de casa: camareiras, cozinheira, jardineiro e piscineiro</li><li>Suporte completo durante toda a estadia</li></ul><p><a href="/contato">Falar com o concierge</a></p></main>' },
+  { path: 'nos', title: 'Quem somos — Luciano e a TrancosoBA | TrancosoBA', desc: 'A TrancosoBA é uma imobiliária boutique fundada por Luciano, nativo de Trancoso, com mais de uma década no mercado de alto padrão. CRECI BA 37.447.', body: '<main style="font-family:Georgia,serif;max-width:960px;margin:0 auto;padding:24px;"><h1>Quem somos — Luciano e a TrancosoBA</h1><p>A TrancosoBA nasceu do amor por esta vila: poucas casas, curadoria rigorosa e hospitalidade de verdade.</p><p>Luciano nasceu em Trancoso e acompanhou de perto a transformação da vila de pescadores em um dos destinos mais desejados do Brasil. Em 2012, transformou esse conhecimento em profissão, fundando a TrancosoBA para oferecer atendimento verdadeiramente personalizado no mercado imobiliário de alto padrão.</p><p>Ser nativo significa conhecer lugares que não aparecem nos mapas, entender cada condomínio, saber indicar a praia ideal para cada momento e estar presente para resolver qualquer necessidade durante a estadia.</p><p>TrancosoBA · CRECI BA 37.447 · CNPJ 68.351.727/0001-57 · Quadrado, Trancoso — Bahia · WhatsApp +55 73 99971-8799 · contato@trancosoba.com.br</p></main>' },
   { path: 'contato', title: 'Contato | TrancosoBA', desc: 'Fale com a TrancosoBA: WhatsApp, e-mail e formulário. Resposta humana, sem atrito. Quadrado, Trancoso — Bahia.', body: '<main style="font-family:Georgia,serif;max-width:960px;margin:0 auto;padding:24px;"><h1>Contato</h1><p>Fale com a TrancosoBA pelo WhatsApp ou envie sua mensagem. Quadrado, Trancoso — Bahia, Brasil.</p></main>' },
   { path: 'favoritos', title: 'Minhas Favoritas | TrancosoBA', desc: 'Sua seleção de casas favoritas em Trancoso — envie pelo WhatsApp e receba uma proposta personalizada.', body: '<main style="font-family:Georgia,serif;max-width:960px;margin:0 auto;padding:24px;"><h1>Minhas Favoritas</h1><p>Sua seleção de casas em Trancoso.</p></main>' },
   { path: 'anuncie', title: 'Anuncie sua casa | TrancosoBA', desc: 'Proprietário em Trancoso? Anuncie sua casa com a TrancosoBA: curadoria, fotos profissionais, concierge e gestão completa da locação.', body: '<main style="font-family:Georgia,serif;max-width:960px;margin:0 auto;padding:24px;"><h1>Anuncie sua casa</h1><p>Coloque sua casa no portfólio TrancosoBA: curadoria, fotos, tarifário e gestão completa.</p></main>' },
