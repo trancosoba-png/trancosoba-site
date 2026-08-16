@@ -36,6 +36,30 @@ export const SUITE_PAR = /configura[cç][aã]o das su[ií]tes|suite layout|distr
 type SuiteGroup = { title: string; master?: string; suites?: [string, string][] };
 type HouseSuites = { groups: SuiteGroup[]; footer?: string };
 const SUITES_BY_ID: Record<string, Record<'pt' | 'en', HouseSuites>> = {
+  'casa-grao-de-mar': {
+    pt: { groups: [
+      { title: 'Suítes', master: 'Suíte Master: 01 cama king.', suites: [
+        ['Suíte 02', '01 cama queen'],
+        ['Suíte 03', '01 cama queen'],
+        ['Suíte 04', '01 cama queen'],
+        ['Suíte 05', '01 cama queen'],
+        ['Suíte 06', '01 cama de casal'],
+        ['Suíte 07', '01 cama de casal'],
+        ['Suíte 08', '01 cama de casal'],
+      ] },
+    ], footer: 'A casa acomoda até 16 hóspedes. 8 banheiros.' },
+    en: { groups: [
+      { title: 'Suites', master: 'Master Suite: 01 king bed.', suites: [
+        ['Suite 02', '01 queen bed'],
+        ['Suite 03', '01 queen bed'],
+        ['Suite 04', '01 queen bed'],
+        ['Suite 05', '01 queen bed'],
+        ['Suite 06', '01 double bed'],
+        ['Suite 07', '01 double bed'],
+        ['Suite 08', '01 double bed'],
+      ] },
+    ], footer: 'The house accommodates up to 16 guests. 8 bathrooms.' },
+  },
   'casa-due-altos-de-trancoso': {
     pt: { groups: [
       { title: 'Casa Principal', suites: [
