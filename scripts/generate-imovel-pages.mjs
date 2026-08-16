@@ -223,13 +223,13 @@ const COLS = [
   { id: 'pe-na-areia', name: 'Pé na Areia', sub: 'Casas com a areia aos pés',
     seo: 'Casas pé na areia em Trancoso: saia da varanda direto para a praia. Nossa seleção inclui propriedades em Itapororoca, Rio da Barra, Praia do Espelho e outras praias do sul da Bahia, todas com concierge TrancosoBA.',
     match: (p) => p.features.includes('pe-na-areia') },
-  { id: 'vista-mar', name: 'Vista Mar', sub: 'O oceano como horizonte',
+  { id: 'vista-mar', name: 'com Vista Mar', sub: 'O oceano como horizonte',
     seo: 'Casas com vista para o mar em Trancoso: varandas, piscinas e salas de estar de frente para o oceano, em condomínios como Terravista, Altos de Trancoso e Outeiro das Brisas.',
     match: (p) => p.features.includes('vista-mar') },
   { id: 'quadrado', name: 'Perto do Quadrado', sub: 'A poucos passos do coração de Trancoso',
     seo: 'Casas perto do Quadrado, o coração histórico de Trancoso: a poucos passos dos restaurantes, das lojas e da igreja de São João Batista, com a tranquilidade de ruas arborizadas.',
     match: (p) => low(p.location).includes('quadrado') || p.features.includes('quadrado') },
-  { id: 'terravista-golf', name: 'Terravista & Golf', sub: 'Campo de golfe, lagoas e mata atlântica',
+  { id: 'terravista-golf', name: 'no Terravista & Golf', sub: 'Campo de golfe, lagoas e mata atlântica',
     seo: 'Casas no condomínio Terravista, em Trancoso: campo de golfe premiado, aeroporto privativo, teatro, beach club e apoio de praia. Seleção de casas no Terravista Golf e no Terravista Vilas para temporada e venda.',
     match: (p) => low(p.location).startsWith('terravista') },
   { id: 'fasano', name: 'no Fasano', sub: 'Casas no condomínio Fasano',
@@ -348,3 +348,19 @@ writeFileSync(join(root, 'dist/faq', 'index.html'), pageShell({
 console.log(`prerender extra: ${colCount} coleções + 2 sazonais + FAQ geradas`);
 
 console.log(`prerender: ${pre} páginas de imóveis + ${statics.length} páginas estáticas geradas`);
+
+// ---------------------------------------------------------------------------
+// 404 personalizada — a Vercel serve dist/404.html para rotas desconhecidas
+// ---------------------------------------------------------------------------
+writeFileSync(join(root, 'dist', '404.html'), pageShell({
+  title: 'Página não encontrada — TrancosoBA',
+  desc: 'A página que você procurou não existe ou foi movida. Veja nossas casas em Trancoso.',
+  url: `${SITE}/404`, img: DEFAULT_IMG,
+  extraHead: '<meta name="robots" content="noindex" />',
+  body: `<main style="font-family:Georgia,serif;max-width:960px;margin:0 auto;padding:48px 24px;text-align:center;">
+    <h1>Página não encontrada</h1>
+    <p>A página que você procurou não existe ou foi movida.</p>
+    <p><a href="/">Início</a> · <a href="/casas">Nossas Casas</a> · <a href="/contato">Contato</a></p>
+  </main>`,
+}));
+console.log('404.html gerada');

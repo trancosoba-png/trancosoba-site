@@ -83,7 +83,7 @@ function TitleManager() {
     if (!title && pathname.startsWith('/casas/')) {
       const c = collectionById(pathname.split('/casas/')[1]);
       if (c) {
-        title = `Casas ${c.title.pt} em Trancoso | TrancosoBA`;
+        title = `Casas ${c.seoName.pt} em Trancoso | TrancosoBA`;
         desc = c.seo.pt;
         image = `${SITE_URL}${c.cover}`;
       }

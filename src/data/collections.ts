@@ -9,6 +9,8 @@ export interface Collection {
   id: string;
   title: { pt: string; en: string };
   sub: { pt: string; en: string };
+  /** Nome gramatical para títulos: "Casas <seoName> em Trancoso". */
+  seoName: { pt: string; en: string };
   /** Texto introdutório da página da coleção (SEO). */
   seo: { pt: string; en: string };
   /** Capa editorial fixa da coleção (foto real do portfólio que representa a categoria). */
@@ -21,6 +23,7 @@ const loc = (p: Property) => p.location.toLowerCase();
 export const COLLECTIONS: Collection[] = [
   {
     id: 'pe-na-areia',
+    seoName: { pt: 'Pé na Areia', en: 'Beachfront' },
     title: { pt: 'Pé na Areia', en: 'Beachfront' },
     sub: { pt: 'Casas com a areia aos pés', en: 'Houses right on the sand' },
     seo: {
@@ -32,6 +35,7 @@ export const COLLECTIONS: Collection[] = [
   },
   {
     id: 'vista-mar',
+    seoName: { pt: 'com Vista Mar', en: 'with Sea View' },
     title: { pt: 'Vista Mar', en: 'Sea View' },
     sub: { pt: 'O oceano como horizonte', en: 'The ocean on the horizon' },
     seo: {
@@ -43,6 +47,7 @@ export const COLLECTIONS: Collection[] = [
   },
   {
     id: 'quadrado',
+    seoName: { pt: 'Perto do Quadrado', en: 'Near the Quadrado' },
     title: { pt: 'Perto do Quadrado', en: 'Near the Quadrado' },
     sub: { pt: 'A poucos passos do coração de Trancoso', en: 'Steps from the heart of Trancoso' },
     seo: {
@@ -54,6 +59,7 @@ export const COLLECTIONS: Collection[] = [
   },
   {
     id: 'terravista-golf',
+    seoName: { pt: 'no Terravista & Golf', en: 'in Terravista & Golf' },
     title: { pt: 'Terravista & Golf', en: 'Terravista & Golf' },
     sub: { pt: 'Campo de golfe, lagoas e mata atlântica', en: 'Golf course, lagoons and Atlantic forest' },
     seo: {
@@ -65,6 +71,7 @@ export const COLLECTIONS: Collection[] = [
   },
   {
     id: 'fasano',
+    seoName: { pt: 'no Fasano', en: 'in Fasano' },
     title: { pt: 'Fasano', en: 'Fasano' },
     sub: { pt: 'Casas no condomínio Fasano', en: 'Houses in the Fasano community' },
     seo: {
@@ -76,6 +83,7 @@ export const COLLECTIONS: Collection[] = [
   },
   {
     id: 'grandes-grupos',
+    seoName: { pt: 'para Grandes Grupos', en: 'for Large Groups' },
     title: { pt: 'Grandes Grupos', en: 'Large Groups' },
     sub: { pt: 'Casas a partir de 12 hóspedes', en: 'Houses from 12 guests' },
     seo: {
@@ -87,6 +95,7 @@ export const COLLECTIONS: Collection[] = [
   },
   {
     id: 'condominios',
+    seoName: { pt: 'em Condomínios Fechados', en: 'in Gated Communities' },
     title: { pt: 'Condomínios Fechados', en: 'Gated Communities' },
     sub: { pt: 'Privacidade e segurança 24 horas', en: 'Privacy and 24-hour security' },
     seo: {
