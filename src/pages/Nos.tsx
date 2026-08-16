@@ -53,6 +53,13 @@ export default function Nos() {
             <p>Hoje, depois de mais de uma década atuando no mercado de alto padrão, seguimos com o mesmo compromisso: oferecer segurança, transparência e uma experiência que reflita tudo o que Trancoso tem de melhor.</p>
             <p>Mais do que vender ou alugar imóveis, nosso trabalho é apresentar Trancoso através do olhar de quem nasceu aqui.</p>
           </div>
+
+          {/* Assinatura + credenciais */}
+          <div className="mt-16 md:mt-20 border-t border-[#b08d57]/30 pt-10 text-center">
+            <p className="font-serif-e text-2xl md:text-3xl text-green-e">Luciano</p>
+            <p className="mt-2 text-sm uppercase tracking-[0.18em] text-ink/55">Fundador — TrancosoBA</p>
+            <p className="mt-6 text-[13px] text-ink/50 tracking-wide">CRECI BA 37.447 · CNPJ 68.351.727/0001-57 · Quadrado, Trancoso — Bahia</p>
+          </div>
         </Reveal>
       </section>
     </>
