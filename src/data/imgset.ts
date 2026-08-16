@@ -2,7 +2,7 @@
 // As variantes (-800.webp, -1600.webp) são geradas no pipeline de imagens.
 
 export function imgSources(jpgPath: string): { webpSrcSet: string; jpgSrcSet: string } {
-  const stem = jpgPath.replace(/\.jpe?g$/i, '');
+  const stem = jpgPath.replace(/\.(jpe?g|webp)$/i, '');
   return {
     webpSrcSet: `${stem}-800.webp 800w, ${stem}-1600.webp 1600w`,
     jpgSrcSet: `${jpgPath} 1600w`,
