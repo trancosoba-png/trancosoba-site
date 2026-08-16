@@ -38,7 +38,8 @@ type HouseSuites = { groups: SuiteGroup[]; footer?: string };
 const SUITES_BY_ID: Record<string, Record<'pt' | 'en', HouseSuites>> = {
   'casa-grao-de-mar': {
     pt: { groups: [
-      { title: 'Suítes', master: 'Suíte Master: 01 cama king.', suites: [
+      { title: 'Suíte Master', master: 'Suíte Master: 01 cama king.' },
+      { title: 'Suítes', suites: [
         ['Suíte 02', '01 cama queen'],
         ['Suíte 03', '01 cama queen'],
         ['Suíte 04', '01 cama queen'],
@@ -49,7 +50,8 @@ const SUITES_BY_ID: Record<string, Record<'pt' | 'en', HouseSuites>> = {
       ] },
     ], footer: 'A casa acomoda até 16 hóspedes. 8 banheiros.' },
     en: { groups: [
-      { title: 'Suites', master: 'Master Suite: 01 king bed.', suites: [
+      { title: 'Master Suite', master: 'Master Suite: 01 king bed.' },
+      { title: 'Suites', suites: [
         ['Suite 02', '01 queen bed'],
         ['Suite 03', '01 queen bed'],
         ['Suite 04', '01 queen bed'],
