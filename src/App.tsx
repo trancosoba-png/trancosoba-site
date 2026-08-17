@@ -114,9 +114,9 @@ function ScrollTop() {
   const action = useNavigationType();
   useEffect(() => {
     // no voltar (POP) para listagens, a restauração fica a cargo do ScrollRestorer
-    if (action === 'POP' && (pathname === '/' || pathname === '/casas')) return;
+    if (action === 'POP' && (pathname === '/' || pathname.startsWith('/casas'))) return;
     window.scrollTo(0, 0);
-    if (pathname === '/' || pathname === '/casas') {
+    if (pathname === '/' || pathname.startsWith('/casas')) {
       sessionStorage.removeItem('scroll:' + pathname);
     }
   }, [pathname, action]);
@@ -128,7 +128,7 @@ function ScrollRestorer() {
   const action = useNavigationType();
   // salva posição ao sair das páginas de lista
   useEffect(() => {
-    if (pathname !== '/' && pathname !== '/casas') return;
+    if (pathname !== '/' && !pathname.startsWith('/casas')) return;
     const key = 'scroll:' + pathname;
     const save = () => sessionStorage.setItem(key, String(window.scrollY));
     window.addEventListener('scroll', save, { passive: true });
@@ -136,7 +136,7 @@ function ScrollRestorer() {
   }, [pathname]);
   // restaura somente no POP (voltar do navegador)
   useEffect(() => {
-    if (pathname !== '/' && pathname !== '/casas') return;
+    if (pathname !== '/' && !pathname.startsWith('/casas')) return;
     if (action !== 'POP') return;
     const y = Number(sessionStorage.getItem('scroll:' + pathname) ?? 0);
     if (!y) return;

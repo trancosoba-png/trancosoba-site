@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
-import { Link, useParams, useSearchParams } from 'react-router';
+import { Link, useParams, useSearchParams, useNavigationType } from 'react-router';
 import { Search, SlidersHorizontal, X } from 'lucide-react';
 import { useLang, txt } from '../i18n';
 import { PROPERTIES, dailyPrice, type Feature } from '../data/properties';
@@ -60,10 +60,49 @@ export default function Casas() {
   // em vez de montar os ~187 de uma vez.
   const PAGE = 24;
   const [visible, setVisible] = useState(PAGE);
+  const skipReset = useRef(false);
   const sentinelRef = useRef<HTMLDivElement | null>(null);
   const fullList = isFiltering ? results : portfolio;
   const listKey = [colId, purpose, location, suites, guests, priceMin, priceMax, feats.join(','), query].join('|');
-  useEffect(() => { setVisible(PAGE); }, [listKey]);
+  useEffect(() => {
+    if (skipReset.current) { skipReset.current = false; return; }
+    setVisible(PAGE);
+  }, [listKey]);
+
+  // Voltar da página de imóvel (POP): restaura filtros, nº de cards visíveis e posição.
+  // O estado é salvo continuamente em sessionStorage enquanto a lista é usada.
+  const navType = useNavigationType();
+  const didRestore = useRef(false);
+  useEffect(() => {
+    if (didRestore.current) return;
+    didRestore.current = true;
+    if (navType !== 'POP') return;
+    try {
+      const raw = sessionStorage.getItem('casas:state');
+      if (!raw) return;
+      const st = JSON.parse(raw);
+      skipReset.current = true;
+      if (st.purpose) setPurpose(st.purpose);
+      if (st.location) setLocation(st.location);
+      if (st.suites) setSuites(st.suites);
+      if (st.guests) setGuests(st.guests);
+      if (st.priceMin) setPriceMin(st.priceMin);
+      if (st.priceMax) setPriceMax(st.priceMax);
+      if (Array.isArray(st.feats) && st.feats.length) setFeats(st.feats);
+      if (st.query) setQuery(st.query);
+      if (st.visible) setVisible(st.visible);
+    } catch { /* estado inválido: ignora */ }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  // Salva o estado da listagem para o retorno (POP)
+  useEffect(() => {
+    try {
+      sessionStorage.setItem('casas:state', JSON.stringify({
+        purpose, location, suites, guests, priceMin, priceMax, feats, query, visible,
+      }));
+    } catch { /* storage cheio/bloqueado: ignora */ }
+  }, [purpose, location, suites, guests, priceMin, priceMax, feats, query, visible]);
   useEffect(() => {
     const el = sentinelRef.current;
     if (!el) return;
