@@ -1,0 +1,74 @@
+{
+  "redirects": [
+    {
+      "source": "/imovel/casa-01-aldeia-itapororoca",
+      "destination": "/imovel/aldeia-itapororoca-01",
+      "permanent": true
+    },
+    {
+      "source": "/p/casa-01-aldeia-itapororoca",
+      "destination": "/p/aldeia-itapororoca-01",
+      "permanent": true
+    },
+    {
+      "source": "/imovel/aldeia-itapororoca-casa-04",
+      "destination": "/imovel/aldeia-itapororoca-04",
+      "permanent": true
+    },
+    {
+      "source": "/p/aldeia-itapororoca-casa-04",
+      "destination": "/p/aldeia-itapororoca-04",
+      "permanent": true
+    },
+    {
+      "source": "/imovel/aldeia-itapororoca-casa-06",
+      "destination": "/imovel/aldeia-itapororoca-06",
+      "permanent": true
+    },
+    {
+      "source": "/p/aldeia-itapororoca-casa-06",
+      "destination": "/p/aldeia-itapororoca-06",
+      "permanent": true
+    },
+    {
+      "source": "/imovel/aldeia-itapororoca-casa-07",
+      "destination": "/imovel/aldeia-itapororoca-07",
+      "permanent": true
+    },
+    {
+      "source": "/p/aldeia-itapororoca-casa-07",
+      "destination": "/p/aldeia-itapororoca-07",
+      "permanent": true
+    },
+    {
+      "source": "/imovel/casa-09-itapororoca",
+      "destination": "/imovel/aldeia-itapororoca-09",
+      "permanent": true
+    },
+    {
+      "source": "/p/casa-09-itapororoca",
+      "destination": "/p/aldeia-itapororoca-09",
+      "permanent": true
+    },
+    {
+      "source": "/imovel/aldeia-itapororoca-casa-11",
+      "destination": "/imovel/aldeia-itapororoca-11",
+      "permanent": true
+    },
+    {
+      "source": "/p/aldeia-itapororoca-casa-11",
+      "destination": "/p/aldeia-itapororoca-11",
+      "permanent": true
+    },
+    {
+      "source": "/imovel/casa-braga",
+      "destination": "/imovel/casa-coqueiral-26",
+      "permanent": true
+    },
+    {
+      "source": "/p/casa-braga",
+      "destination": "/p/casa-coqueiral-26",
+      "permanent": true
+    }
+  ]
+}

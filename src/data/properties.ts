@@ -39,7 +39,7 @@ export interface Property {
 }
 
 const GOLF28: Property = {
-  id: 'terravista-golf-28', code: 'TBA-368', name: { pt: 'Terravista 28', en: 'Terravista 28' },
+  id: 'terravista-golf-28', code: 'TBA-368', name: { pt: 'Golf 28', en: 'Golf 28' },
   purpose: ['aluguel', 'venda'], location: 'Terravista Golf', suites: 4, guests: 8, baths: 5, area: '559,94 m²',
   price: { pt: 'Sob consulta', en: 'On request' },
   priceLow: { pt: 'Sob consulta', en: 'On request' },
@@ -505,7 +505,7 @@ const NAOCA: Property = {
 };
 
 const CASA71: Property = {
-  id: 'casa-71', code: 'TBA-201', name: { pt: 'Casa 71', en: 'Casa 71' },
+  id: 'casa-71', code: 'TBA-201', name: { pt: 'Golf 71', en: 'Golf 71' },
   purpose: ['aluguel', 'venda'], location: 'Terravista Golf', suites: 7, guests: 14, baths: 7, area: '1.200 m²',
   price: { pt: 'R$ 16.000 / diária', en: 'R$ 16,000 / night' },
   priceLow: { pt: 'R$ 12.000 / diária', en: 'R$ 12,000 / night' },
@@ -520,8 +520,8 @@ const CASA71: Property = {
     en: ['Two pools (one heated)', 'Lounge with ocean view', 'Full gourmet area', 'Barbecue', 'Equipped gym', 'Wine cellar and beer fridge', 'Equipped kitchen', 'Wi-Fi', 'Air conditioning in all suites', 'Minibar in suites', 'Laundry', 'Bed, bath and beach linen', 'Beach support', 'Gated community with security'],
   },
   description: {
-    pt: 'Suspensa entre o verde do campo de golfe e o azul do mar, a Casa 71 foi concebida para quem valoriza espaço, privacidade e uma conexão constante com a paisagem de Trancoso. Localizada em uma das áreas mais privilegiadas do Terravista Golf, combina arquitetura marcante, ambientes amplos e uma atmosfera elegante.\n\nCom aproximadamente 1.200 m² de área construída e capacidade para até 14 hóspedes, a casa se destaca pela integração entre os espaços internos e externos. Os ambientes sociais se abrem para amplos decks, áreas de convivência e duas piscinas.\n\nInspirada na leveza das embarcações clássicas e assinada pela arquiteta Ana Paula Rohlfs, apresenta linguagem arquitetônica sofisticada, com materiais naturais e uma relação harmoniosa com a natureza. O grande destaque é o lounge com vista para o mar e para as falésias da região.',
-    en: 'Suspended between the green of the golf course and the blue of the sea, Casa 71 was designed for those who value space, privacy and a constant connection with the Trancoso landscape. Located in one of the most privileged areas of Terravista Golf, it combines striking architecture, spacious rooms and an elegant atmosphere.\n\nWith approximately 1,200 m² of built area and capacity for up to 14 guests, the house stands out for its indoor-outdoor integration. Social areas open onto wide decks, living areas and two pools.\n\nInspired by the lightness of classic vessels and designed by architect Ana Paula Rohlfs, it presents a sophisticated architectural language with natural materials and a harmonious relationship with nature. The highlight is the lounge overlooking the sea and the region\'s cliffs.',
+    pt: 'Suspensa entre o verde do campo de golfe e o azul do mar, a Golf 71 foi concebida para quem valoriza espaço, privacidade e uma conexão constante com a paisagem de Trancoso. Localizada em uma das áreas mais privilegiadas do Terravista Golf, combina arquitetura marcante, ambientes amplos e uma atmosfera elegante.\n\nCom aproximadamente 1.200 m² de área construída e capacidade para até 14 hóspedes, a casa se destaca pela integração entre os espaços internos e externos. Os ambientes sociais se abrem para amplos decks, áreas de convivência e duas piscinas.\n\nInspirada na leveza das embarcações clássicas e assinada pela arquiteta Ana Paula Rohlfs, apresenta linguagem arquitetônica sofisticada, com materiais naturais e uma relação harmoniosa com a natureza. O grande destaque é o lounge com vista para o mar e para as falésias da região.',
+    en: 'Suspended between the green of the golf course and the blue of the sea, Golf 71 was designed for those who value space, privacy and a constant connection with the Trancoso landscape. Located in one of the most privileged areas of Terravista Golf, it combines striking architecture, spacious rooms and an elegant atmosphere.\n\nWith approximately 1,200 m² of built area and capacity for up to 14 guests, the house stands out for its indoor-outdoor integration. Social areas open onto wide decks, living areas and two pools.\n\nInspired by the lightness of classic vessels and designed by architect Ana Paula Rohlfs, it presents a sophisticated architectural language with natural materials and a harmonious relationship with nature. The highlight is the lounge overlooking the sea and the region\'s cliffs.',
   },
   notes: { pt: ['Staff: 2 arrumadeiras, 1 cozinheira, 1 auxiliar de cozinha e serviço de apoio de praia.','Carnaval: pacote de 5 diárias R$ 120.000 — disponível para 2027. Réveillon: pacote de 10 diárias R$ 650.000 — indisponível. Taxa de serviço: 10%.'], en: ['Staff: 2 housekeepers, 1 cook, 1 kitchen assistant and beach support service.','Carnival: 5-night package R$ 120,000 — available for 2027. New Year\'s Eve: 10-night package R$ 650,000 — unavailable. Service fee: 10%.'] },
 };
@@ -565,7 +565,7 @@ const SANMARCO: Property = {
 };
 
 const CASA14: Property = {
-  id: 'casa-14', code: 'TBA-204', name: { pt: 'Casa 14', en: 'Casa 14' },
+  id: 'casa-14', code: 'TBA-204', name: { pt: 'Golf 14', en: 'Golf 14' },
   purpose: ['aluguel'], location: 'Terravista Golf', suites: 6, guests: 12, baths: 7, area: '640 m²',
   price: { pt: 'R$ 15.000 / diária', en: 'R$ 15,000 / night' },
   priceLow: { pt: 'R$ 12.000 / diária', en: 'R$ 12,000 / night' },
@@ -577,14 +577,14 @@ const CASA14: Property = {
     en: ['Pool with hot tub', 'Pool with outdoor screen', 'Gourmet area', 'Gas barbecue', 'Equipped kitchen', 'Wine cellar and beer fridge', 'Air conditioning', 'Mosquito nets', 'Laundry', 'Bed, table and bath linen', 'Pool towels', 'Sound system and Sky TV', 'Full beach gear (chairs, tent and coolers)', 'Parking', '8 min walk to the beach elevator'],
   },
   description: {
-    pt: 'Localizada no exclusivo condomínio Terravista Golf, em Trancoso, a Casa 14 combina arquitetura sofisticada, conforto e integração com a natureza. Com projeto assinado por David Bastos, a residência traduz a elegância contemporânea em uma atmosfera leve, acolhedora e genuinamente baiana.\n\nCom 640 m² de área construída, dispõe de 6 suítes amplas e acomoda até 12 hóspedes. Os ambientes foram planejados para proporcionar privacidade, bem-estar e uma experiência exclusiva.\n\nA sala de estar, sala de jantar, varanda e área gourmet integram-se ao deck e à piscina com hidromassagem, criando um ambiente ideal para descanso e confraternização.\n\nA casa está localizada a aproximadamente 8 minutos a pé do elevador do condomínio, que oferece acesso à praia.',
-    en: 'Located in the exclusive Terravista Golf condominium in Trancoso, Casa 14 combines sophisticated architecture, comfort and integration with nature. Designed by David Bastos, the residence translates contemporary elegance into a light, welcoming and genuinely Bahian atmosphere.\n\nWith 640 m² of built area, it offers 6 spacious suites and accommodates up to 12 guests. The spaces were planned to provide privacy, well-being and an exclusive experience.\n\nThe living room, dining room, veranda and gourmet area integrate with the deck and the pool with hot tub, creating an ideal setting for rest and gathering.\n\nThe house is located approximately 8 minutes on foot from the condominium elevator, which provides beach access.',
+    pt: 'Localizada no exclusivo condomínio Terravista Golf, em Trancoso, a Golf 14 combina arquitetura sofisticada, conforto e integração com a natureza. Com projeto assinado por David Bastos, a residência traduz a elegância contemporânea em uma atmosfera leve, acolhedora e genuinamente baiana.\n\nCom 640 m² de área construída, dispõe de 6 suítes amplas e acomoda até 12 hóspedes. Os ambientes foram planejados para proporcionar privacidade, bem-estar e uma experiência exclusiva.\n\nA sala de estar, sala de jantar, varanda e área gourmet integram-se ao deck e à piscina com hidromassagem, criando um ambiente ideal para descanso e confraternização.\n\nA casa está localizada a aproximadamente 8 minutos a pé do elevador do condomínio, que oferece acesso à praia.',
+    en: 'Located in the exclusive Terravista Golf condominium in Trancoso, Golf 14 combines sophisticated architecture, comfort and integration with nature. Designed by David Bastos, the residence translates contemporary elegance into a light, welcoming and genuinely Bahian atmosphere.\n\nWith 640 m² of built area, it offers 6 spacious suites and accommodates up to 12 guests. The spaces were planned to provide privacy, well-being and an exclusive experience.\n\nThe living room, dining room, veranda and gourmet area integrate with the deck and the pool with hot tub, creating an ideal setting for rest and gathering.\n\nThe house is located approximately 8 minutes on foot from the condominium elevator, which provides beach access.',
   },
   notes: { pt: ['Staff: cozinheira, ajudante de cozinha, camareira, jardineiro e piscineiro. Taxa de serviço: 10%.'], en: ['Staff: cook, kitchen assistant, housekeeper, gardener and pool attendant. Service fee: 10%.'] },
 };
 
 const CASA09: Property = {
-  id: 'casa-09-itapororoca', code: 'TBA-205', name: { pt: 'Aldeia Itapororoca 09', en: 'Aldeia Itapororoca 09' },
+  id: 'aldeia-itapororoca-09', code: 'TBA-205', name: { pt: 'Aldeia Itapororoca 09', en: 'Aldeia Itapororoca 09' },
   purpose: ['aluguel'], location: 'Praia de Itapororoca', suites: 7, guests: 14, baths: 8, area: '550 m²',
   price: { pt: 'R$ 27.500 / diária', en: 'R$ 27,500 / night' },
   priceLow: { pt: 'R$ 19.500 / diária', en: 'R$ 19,500 / night' },
@@ -659,7 +659,7 @@ const IMBIRUCU: Property = {
 };
 
 const CASA42: Property = {
-  id: 'terravista-golf-casa-42', code: 'TBA-209', name: { pt: 'Terravista 42', en: 'Terravista 42' },
+  id: 'terravista-golf-casa-42', code: 'TBA-209', name: { pt: 'Golf 42', en: 'Golf 42' },
   purpose: ['aluguel'], location: 'Terravista Golf', suites: 7, guests: 14, baths: 9, area: '920 m² · terreno 1.667 m²',
   price: { pt: 'Sob consulta', en: 'Upon request' },
   priceLow: { pt: 'Sob consulta', en: 'Upon request' },
@@ -672,14 +672,14 @@ const CASA42: Property = {
     en: ['Heated infinity-edge pool', 'Jacuzzi', 'Sauna and outdoor shower', 'Gourmet area in Garapa wood', 'Barbecue, beer cooler, wine cellar and ice maker', 'Living, dining and TV rooms', 'Equipped kitchen', 'Deck and solarium', 'Lush gardens', 'Air conditioning in all 7 suites', 'Smart TV and Wi-Fi', 'Parking and laundry'],
   },
   description: {
-    pt: 'Localizada no requintado Condomínio Villavista Golf, dentro do exclusivo Complexo Terravista, a Casa 42 é uma residência extraordinária projetada pelo renomado escritório David Bastos. A decoração e os quadros levam a assinatura de Valéria Calonge, enquanto o paisagismo foi concebido por Yapó, by Orsini. A propriedade ocupa um terreno de esquina com 1.667 m² e possui 920 m² de área construída, reunindo arquitetura contemporânea, materiais naturais, sofisticação e funcionalidade.\n\nDistribuída em dois pavimentos, a casa conta com sete suítes, incluindo duas suítes master — uma delas com aproximadamente 70 m². As áreas sociais integram sala de estar, sala de jantar e sala de TV, criando um ambiente amplo, acolhedor e harmônico para receber famílias e grupos de amigos.\n\nUm elegante corredor interno conduz ao amplo espaço gourmet, revestido em madeira Garapa, com mesa para 10 pessoas e ilha em Travertino com seis assentos. A cozinha gourmet é equipada com churrasqueira, cervejeira, frigobar, adega e máquina de gelo.\n\nNa área externa, a residência oferece piscina aquecida com borda infinita, jacuzzi, sauna, solário, deck e jardins exuberantes. Atrás da cozinha, um lavabo com detalhes em Pedra Moledo e pia esculpida em madeira Pequiá, além de sauna e chuveirão.\n\nConfiguração das suítes: Suítes 01 e 02 com 2 camas de solteiro cada; Suítes 03 e 04 com 1 cama de casal cada; Suítes 05 e 06 (Master) com 1 cama de casal, TV e varanda; Suíte 07 com 1 cama de casal, TV e varanda. Todas com ar-condicionado e secador de cabelo.',
-    en: 'Located in the refined Villavista Golf Condominium, within the exclusive Terravista Complex, Casa 42 is an extraordinary residence designed by the renowned David Bastos studio. The decoration and artwork are signed by Valéria Calonge, while the landscaping was conceived by Yapó, by Orsini. The property occupies a 1,667 m² corner lot with 920 m² of built area, combining contemporary architecture, natural materials, sophistication and functionality.\n\nSpread over two floors, the house has seven suites, including two master suites — one of approximately 70 m². The social areas integrate living room, dining room and TV room, creating a spacious, welcoming and harmonious environment for families and groups of friends.\n\nAn elegant internal corridor leads to the generous gourmet space, clad in Garapa wood, with a table for 10 and a Travertine island with six seats. The gourmet kitchen is equipped with barbecue, beer cooler, minibar, wine cellar and ice maker.\n\nOutside, the residence offers a heated infinity-edge pool, jacuzzi, sauna, solarium, deck and lush gardens. Behind the kitchen, a guest bathroom with Moledo stone details and a sink carved in Pequiá wood, plus sauna and outdoor shower.\n\nSuite layout: Suites 01 and 02 with 2 single beds each; Suites 03 and 04 with 1 double bed each; Suites 05 and 06 (Master) with 1 double bed, TV and veranda; Suite 07 with 1 double bed, TV and veranda. All with air conditioning and hairdryer.',
+    pt: 'Localizada no requintado Condomínio Villavista Golf, dentro do exclusivo Complexo Terravista, a Golf 42 é uma residência extraordinária projetada pelo renomado escritório David Bastos. A decoração e os quadros levam a assinatura de Valéria Calonge, enquanto o paisagismo foi concebido por Yapó, by Orsini. A propriedade ocupa um terreno de esquina com 1.667 m² e possui 920 m² de área construída, reunindo arquitetura contemporânea, materiais naturais, sofisticação e funcionalidade.\n\nDistribuída em dois pavimentos, a casa conta com sete suítes, incluindo duas suítes master — uma delas com aproximadamente 70 m². As áreas sociais integram sala de estar, sala de jantar e sala de TV, criando um ambiente amplo, acolhedor e harmônico para receber famílias e grupos de amigos.\n\nUm elegante corredor interno conduz ao amplo espaço gourmet, revestido em madeira Garapa, com mesa para 10 pessoas e ilha em Travertino com seis assentos. A cozinha gourmet é equipada com churrasqueira, cervejeira, frigobar, adega e máquina de gelo.\n\nNa área externa, a residência oferece piscina aquecida com borda infinita, jacuzzi, sauna, solário, deck e jardins exuberantes. Atrás da cozinha, um lavabo com detalhes em Pedra Moledo e pia esculpida em madeira Pequiá, além de sauna e chuveirão.\n\nConfiguração das suítes: Suítes 01 e 02 com 2 camas de solteiro cada; Suítes 03 e 04 com 1 cama de casal cada; Suítes 05 e 06 (Master) com 1 cama de casal, TV e varanda; Suíte 07 com 1 cama de casal, TV e varanda. Todas com ar-condicionado e secador de cabelo.',
+    en: 'Located in the refined Villavista Golf Condominium, within the exclusive Terravista Complex, Golf 42 is an extraordinary residence designed by the renowned David Bastos studio. The decoration and artwork are signed by Valéria Calonge, while the landscaping was conceived by Yapó, by Orsini. The property occupies a 1,667 m² corner lot with 920 m² of built area, combining contemporary architecture, natural materials, sophistication and functionality.\n\nSpread over two floors, the house has seven suites, including two master suites — one of approximately 70 m². The social areas integrate living room, dining room and TV room, creating a spacious, welcoming and harmonious environment for families and groups of friends.\n\nAn elegant internal corridor leads to the generous gourmet space, clad in Garapa wood, with a table for 10 and a Travertine island with six seats. The gourmet kitchen is equipped with barbecue, beer cooler, minibar, wine cellar and ice maker.\n\nOutside, the residence offers a heated infinity-edge pool, jacuzzi, sauna, solarium, deck and lush gardens. Behind the kitchen, a guest bathroom with Moledo stone details and a sink carved in Pequiá wood, plus sauna and outdoor shower.\n\nSuite layout: Suites 01 and 02 with 2 single beds each; Suites 03 and 04 with 1 double bed each; Suites 05 and 06 (Master) with 1 double bed, TV and veranda; Suite 07 with 1 double bed, TV and veranda. All with air conditioning and hairdryer.',
   },
   notes: { pt: ['Staff: 1 cozinheira, 1 ajudante de cozinha, 1 camareira, 1 ajudante geral, jardineiro e piscineiro. Taxa de serviço: 10%.'], en: ['Staff: 1 cook, 1 kitchen assistant, 1 housekeeper, 1 general assistant, gardener and pool attendant. Service fee: 10%.'] },
 };
 
 const CASA61: Property = {
-  id: 'terravista-golf-casa-61', code: 'TBA-210', name: { pt: 'Terravista 61', en: 'Terravista 61' },
+  id: 'terravista-golf-casa-61', code: 'TBA-210', name: { pt: 'Golf 61', en: 'Golf 61' },
   purpose: ['aluguel'], location: 'Terravista Golf', suites: 6, guests: 12, baths: 7, area: '1.237 m² · terreno 2.793 m²',
   price: { pt: 'R$ 15.000 / diária', en: 'R$ 15,000 / night' },
   priceLow: { pt: 'R$ 14.000 / diária', en: 'R$ 14,000 / night' },
@@ -719,7 +719,7 @@ const VILAS02: Property = {
 };
 
 const CASA80: Property = {
-  id: 'terravista-golf-casa-80', code: 'TBA-212', name: { pt: 'Terravista 80', en: 'Terravista 80' },
+  id: 'terravista-golf-casa-80', code: 'TBA-212', name: { pt: 'Golf 80', en: 'Golf 80' },
   purpose: ['aluguel'], location: 'Terravista Golf', suites: 6, guests: 12, baths: 7, area: '590 m² · terreno 1.780 m²',
   price: { pt: 'R$ 11.400 / diária', en: 'R$ 11,400 / night' },
   priceLow: { pt: 'R$ 8.500 / diária', en: 'R$ 8,500 / night' },
@@ -732,14 +732,14 @@ const CASA80: Property = {
     en: ['15 x 3 meter pool', '117 m² deck', 'Hammock area', 'Fire pit area', 'Gourmet area with barbecue', 'Pool table', 'Office', 'Living and dining rooms', 'Equipped kitchen', 'Air conditioning and mosquito nets', 'Smart TV and Wi-Fi', 'Private access to Tartarugas Beach'],
   },
   description: {
-    pt: 'Localizada no exclusivo Condomínio Terravista Golf, a Casa 80 ocupa um terreno de 1.780 m² e oferece 590 m² de área construída. Projetada por Beatriz Regis Bittencourt, com decoração assinada por Viviana Figueiredo, a residência está posicionada à beira do campo de golfe do Terravista e integra arquitetura contemporânea, natureza e conforto.\n\nO amplo jardim, deck de 117,64 m², piscina de 15 x 3 metros, redário e área de fogueira criam ambientes ideais para relaxar ao ar livre. Os hóspedes ainda desfrutam de acesso ao campo de golfe, quadras de tênis e acesso privativo à Praia das Tartarugas.\n\nConfiguração das suítes — Piso térreo: Suíte 01 (Master) com cama king, mosquiteiro, ar-condicionado, cofre e secador; Suítes 02 e 03 com 2 camas de solteiro conversíveis em casal cada. Piso inferior: Suíte 04 (Master) com cama king, mosquiteiro, ar-condicionado, cofre e secador; Suítes 05 e 06 com 2 camas de solteiro conversíveis em casal cada.',
-    en: 'Located in the exclusive Terravista Golf Condominium, Casa 80 sits on a 1,780 m² plot with 590 m² of built area. Designed by Beatriz Regis Bittencourt with decoration by Viviana Figueiredo, the residence is positioned on the edge of the Terravista golf course and combines contemporary architecture, nature and comfort.\n\nThe generous garden, 117.64 m² deck, 15 x 3 meter pool, hammock area and fire pit create ideal settings for outdoor relaxation. Guests also enjoy access to the golf course, tennis courts and private access to Tartarugas Beach.\n\nSuite layout — Ground floor: Suite 01 (Master) with king bed, mosquito net, air conditioning, safe and hairdryer; Suites 02 and 03 with 2 single beds convertible into a double each. Lower floor: Suite 04 (Master) with king bed, mosquito net, air conditioning, safe and hairdryer; Suites 05 and 06 with 2 single beds convertible into a double each.',
+    pt: 'Localizada no exclusivo Condomínio Terravista Golf, a Golf 80 ocupa um terreno de 1.780 m² e oferece 590 m² de área construída. Projetada por Beatriz Regis Bittencourt, com decoração assinada por Viviana Figueiredo, a residência está posicionada à beira do campo de golfe do Terravista e integra arquitetura contemporânea, natureza e conforto.\n\nO amplo jardim, deck de 117,64 m², piscina de 15 x 3 metros, redário e área de fogueira criam ambientes ideais para relaxar ao ar livre. Os hóspedes ainda desfrutam de acesso ao campo de golfe, quadras de tênis e acesso privativo à Praia das Tartarugas.\n\nConfiguração das suítes — Piso térreo: Suíte 01 (Master) com cama king, mosquiteiro, ar-condicionado, cofre e secador; Suítes 02 e 03 com 2 camas de solteiro conversíveis em casal cada. Piso inferior: Suíte 04 (Master) com cama king, mosquiteiro, ar-condicionado, cofre e secador; Suítes 05 e 06 com 2 camas de solteiro conversíveis em casal cada.',
+    en: 'Located in the exclusive Terravista Golf Condominium, Golf 80 sits on a 1,780 m² plot with 590 m² of built area. Designed by Beatriz Regis Bittencourt with decoration by Viviana Figueiredo, the residence is positioned on the edge of the Terravista golf course and combines contemporary architecture, nature and comfort.\n\nThe generous garden, 117.64 m² deck, 15 x 3 meter pool, hammock area and fire pit create ideal settings for outdoor relaxation. Guests also enjoy access to the golf course, tennis courts and private access to Tartarugas Beach.\n\nSuite layout — Ground floor: Suite 01 (Master) with king bed, mosquito net, air conditioning, safe and hairdryer; Suites 02 and 03 with 2 single beds convertible into a double each. Lower floor: Suite 04 (Master) with king bed, mosquito net, air conditioning, safe and hairdryer; Suites 05 and 06 with 2 single beds convertible into a double each.',
   },
   notes: { pt: ['Locação mínima de 3 diárias. Não é permitido pet.','Staff: 2 arrumadeiras, 1 cozinheira e 1 auxiliar de cozinha. Taxa de serviço: 10%.'], en: ['Minimum stay of 3 nights. Pets are not allowed.','Staff: 2 housekeepers, 1 cook and 1 kitchen assistant. Service fee: 10%.'] },
 };
 
 const ITAPO07: Property = {
-  id: 'aldeia-itapororoca-casa-07', code: 'TBA-213', name: { pt: 'Aldeia Itapororoca 07', en: 'Aldeia Itapororoca 07' },
+  id: 'aldeia-itapororoca-07', code: 'TBA-213', name: { pt: 'Aldeia Itapororoca 07', en: 'Aldeia Itapororoca 07' },
   purpose: ['aluguel'], location: 'Praia de Itapororoca', suites: 8, guests: 17, baths: 8, area: 'Praia de Itapororoca',
   price: { pt: 'Sob consulta', en: 'Upon request' },
   priceLow: { pt: 'Sob consulta', en: 'Upon request' },
@@ -759,7 +759,7 @@ const ITAPO07: Property = {
 };
 
 const CASA96: Property = {
-  id: 'terravista-golf-casa-96', code: 'TBA-214', name: { pt: 'Terravista 96', en: 'Terravista 96' },
+  id: 'terravista-golf-casa-96', code: 'TBA-214', name: { pt: 'Golf 96', en: 'Golf 96' },
   purpose: ['aluguel'], location: 'Terravista Golf', suites: 6, guests: 12, baths: 8, area: '1.100 m²',
   price: { pt: 'Sob consulta', en: 'Upon request' },
   priceLow: { pt: 'Sob consulta', en: 'Upon request' },
@@ -772,14 +772,14 @@ const CASA96: Property = {
     en: ['Golf course view', 'Heated pool', 'Complete gourmet area with gas barbecue', 'Fire pit lounge with gas fireplace', 'Living, dining and TV rooms', 'Equipped kitchen with dishwasher', 'Deck and garden', 'Air conditioning in all suites and living room', 'Smart TV and Wi-Fi', 'Access to Tartarugas Beach via condominium elevator', 'Exclusive UTV for guests', 'Beach tennis, frescobol and spearfishing equipment'],
   },
   description: {
-    pt: 'Localizada no exclusivo Condomínio Terravista Golf, a Casa 96 reúne arquitetura contemporânea, amplos ambientes e integração com a natureza. Possui seis suítes, sendo duas suítes-master, dois quartos de serviço, piscina aquecida, área gourmet completa, lounge com fire pit, jardim e vista privilegiada para o campo de golfe.\n\nO acesso à Praia das Tartarugas é feito pelo elevador do condomínio, a cerca de 6 minutos de caminhada. A estrutura inclui sala de estar, sala de jantar, sala de TV, cozinha equipada, deck, área gourmet equipada, lounge fire pit com lareira a gás, estacionamento, lavanderia, apoio de praia e portaria 24h.\n\nAs comodidades incluem ar-condicionado em todas as suítes e sala, Wi-Fi, Smart TV, máquina de gelo, máquina de lavar louças, roupas de cama, mesa e banho, toalhas de piscina, churrasqueira a gás e equipamentos de beach tennis, frescobol e pesca submarina.\n\nUTV disponível exclusivamente para transporte dos hóspedes até o elevador de acesso à praia, conduzido pelo caseiro.',
-    en: 'Located in the exclusive Terravista Golf Condominium, Casa 96 combines contemporary architecture, generous spaces and integration with nature. It features six suites, including two master suites, two staff rooms, heated pool, complete gourmet area, fire pit lounge, garden and a privileged view of the golf course.\n\nAccess to Tartarugas Beach is via the condominium elevator, about a 6-minute walk. The structure includes living room, dining room, TV room, equipped kitchen, deck, equipped gourmet area, fire pit lounge with gas fireplace, parking, laundry, beach support and 24-hour gatehouse.\n\nAmenities include air conditioning in all suites and living room, Wi-Fi, Smart TV, ice maker, dishwasher, bed, table and bath linens, pool towels, gas barbecue and beach tennis, frescobol and spearfishing equipment.\n\nA UTV is available exclusively to transport guests to the beach access elevator, driven by the caretaker.',
+    pt: 'Localizada no exclusivo Condomínio Terravista Golf, a Golf 96 reúne arquitetura contemporânea, amplos ambientes e integração com a natureza. Possui seis suítes, sendo duas suítes-master, dois quartos de serviço, piscina aquecida, área gourmet completa, lounge com fire pit, jardim e vista privilegiada para o campo de golfe.\n\nO acesso à Praia das Tartarugas é feito pelo elevador do condomínio, a cerca de 6 minutos de caminhada. A estrutura inclui sala de estar, sala de jantar, sala de TV, cozinha equipada, deck, área gourmet equipada, lounge fire pit com lareira a gás, estacionamento, lavanderia, apoio de praia e portaria 24h.\n\nAs comodidades incluem ar-condicionado em todas as suítes e sala, Wi-Fi, Smart TV, máquina de gelo, máquina de lavar louças, roupas de cama, mesa e banho, toalhas de piscina, churrasqueira a gás e equipamentos de beach tennis, frescobol e pesca submarina.\n\nUTV disponível exclusivamente para transporte dos hóspedes até o elevador de acesso à praia, conduzido pelo caseiro.',
+    en: 'Located in the exclusive Terravista Golf Condominium, Golf 96 combines contemporary architecture, generous spaces and integration with nature. It features six suites, including two master suites, two staff rooms, heated pool, complete gourmet area, fire pit lounge, garden and a privileged view of the golf course.\n\nAccess to Tartarugas Beach is via the condominium elevator, about a 6-minute walk. The structure includes living room, dining room, TV room, equipped kitchen, deck, equipped gourmet area, fire pit lounge with gas fireplace, parking, laundry, beach support and 24-hour gatehouse.\n\nAmenities include air conditioning in all suites and living room, Wi-Fi, Smart TV, ice maker, dishwasher, bed, table and bath linens, pool towels, gas barbecue and beach tennis, frescobol and spearfishing equipment.\n\nA UTV is available exclusively to transport guests to the beach access elevator, driven by the caretaker.',
   },
   notes: { pt: ['Staff: cozinheira, auxiliar de cozinha, arrumadeira e caseiro responsável pela piscina, jardim e churrasco, além de serviço completo de apoio de praia. Taxa de serviço: 10%.'], en: ['Staff: cook, kitchen assistant, housekeeper and caretaker responsible for the pool, garden and barbecue, plus full beach support service. Service fee: 10%.'] },
 };
 
 const CASA90: Property = {
-  id: 'terravista-golf-casa-90', code: 'TBA-215', name: { pt: 'Terravista 90', en: 'Terravista 90' },
+  id: 'terravista-golf-casa-90', code: 'TBA-215', name: { pt: 'Golf 90', en: 'Golf 90' },
   purpose: ['aluguel'], location: 'Terravista Golf', suites: 7, guests: 14, baths: 8, area: 'Pé no campo de golfe',
   price: { pt: 'R$ 19.500 / diária', en: 'R$ 19,500 / night' },
   priceLow: { pt: 'R$ 19.500 / diária', en: 'R$ 19,500 / night' },
@@ -979,7 +979,7 @@ const CAZA: Property = {
 };
 
 const ITAPO06: Property = {
-  id: 'aldeia-itapororoca-casa-06', code: 'TBA-225', name: { pt: 'Aldeia Itapororoca 06', en: 'Aldeia Itapororoca 06' },
+  id: 'aldeia-itapororoca-06', code: 'TBA-225', name: { pt: 'Aldeia Itapororoca 06', en: 'Aldeia Itapororoca 06' },
   purpose: ['aluguel'], location: 'Praia de Itapororoca', suites: 4, guests: 8, baths: 5, area: 'Pé na areia',
   price: { pt: 'R$ 9.500 / diária', en: 'R$ 9,500 / night' },
   priceLow: { pt: 'R$ 8.000 / diária', en: 'R$ 8,000 / night' },
@@ -999,7 +999,7 @@ const ITAPO06: Property = {
 };
 
 const ITAPO04: Property = {
-  id: 'aldeia-itapororoca-casa-04', code: 'TBA-226', name: { pt: 'Aldeia Itapororoca 04', en: 'Aldeia Itapororoca 04' },
+  id: 'aldeia-itapororoca-04', code: 'TBA-226', name: { pt: 'Aldeia Itapororoca 04', en: 'Aldeia Itapororoca 04' },
   purpose: ['aluguel'], location: 'Praia de Itapororoca', suites: 6, guests: 14, baths: 7, area: '700 m² · terreno 2.000 m²',
   price: { pt: 'R$ 17.500 / diária', en: 'R$ 17,500 / night' },
   priceLow: { pt: 'R$ 14.500 / diária', en: 'R$ 14,500 / night' },
@@ -1314,7 +1314,7 @@ const VILAS26: Property = {
 };
 
 const GOLF58: Property = {
-  id: 'terravista-golf-58', code: 'TBA-241', name: { pt: 'Terravista 58', en: 'Terravista 58' },
+  id: 'terravista-golf-58', code: 'TBA-241', name: { pt: 'Golf 58', en: 'Golf 58' },
   purpose: ['aluguel'], location: 'Terravista Golf', suites: 9, guests: 18, baths: 10, area: '1.647 m²',
   price: { pt: 'R$ 50.000 / diária', en: 'R$ 50,000 / night' },
   priceLow: { pt: 'R$ 38.000 / diária', en: 'R$ 38,000 / night' },
@@ -1492,7 +1492,7 @@ const TEIU: Property = {
 };
 
 const GOLF25: Property = {
-  id: 'terravista-golf-25', code: 'TBA-249', name: { pt: 'Terravista 25', en: 'Terravista 25' },
+  id: 'terravista-golf-25', code: 'TBA-249', name: { pt: 'Golf 25', en: 'Golf 25' },
   purpose: ['aluguel'], location: 'Terravista Golf', suites: 5, guests: 10, baths: 6, area: '—',
   price: { pt: 'R$ 6.500 / diária', en: 'R$ 6,500 / night' },
   priceLow: { pt: 'R$ 4.600 / diária', en: 'R$ 4,600 / night' },
@@ -1513,8 +1513,8 @@ const GOLF25: Property = {
     en: ['Staff available for up to eight hours a day.'],
   },
   description: {
-    pt: 'Localizada no exclusivo Condomínio Terravista Golf, a Casa 25 é uma residência de alto padrão que combina conforto, privacidade e uma atmosfera elegante em meio à natureza de Trancoso.\n\nTotalmente reformada em 2024, a casa apresenta uma arquitetura rústico-chic, marcada pelo uso de materiais naturais, ambientes amplos e integração harmoniosa com o jardim tropical. As grandes portas de madeira favorecem a entrada de luz natural e podem ser abertas por completo, criando uma agradável sensação de amplitude e conexão com a paisagem.\n\nA propriedade dispõe de cinco suítes independentes e confortáveis, acomodando até dez hóspedes. Duas suítes possuem cama king size, uma possui cama queen size e duas possuem duas camas de solteiro cada. Todas são arejadas, com amplas portas de madeira e vistas para a área verde. A suíte master se destaca pela vista aberta para a lagoa, o bosque e o campo de golfe.\n\nA área social conta com sala de estar integrada a um amplo terraço coberto, ideal para refeições e momentos de descanso em contato com o jardim. A cozinha está localizada a poucos passos, garantindo praticidade durante toda a hospedagem.\n\nNa área externa, a ampla piscina é cercada por um espaçoso deck e por uma área gourmet coberta e equipada, com mesa para refeições ao ar livre. O ambiente oferece vista privilegiada para o campo de golfe, a lagoa e a vegetação, sendo perfeito para aproveitar os dias ensolarados de Trancoso com tranquilidade e exclusividade.\n\nA Casa 25 está situada no Condomínio Terravista Golf, um dos endereços mais prestigiados de Trancoso. O condomínio oferece segurança, contato direto com a natureza, acesso ao renomado campo de golfe e apoio de praia, além de estar próximo às principais praias da região.',
-    en: 'Located in the exclusive Terravista Golf Condominium, Casa 25 is a high-standard residence that combines comfort, privacy and an elegant atmosphere amid Trancoso\'s nature.\n\nFully renovated in 2024, the house features rustic-chic architecture, marked by the use of natural materials, spacious rooms and harmonious integration with the tropical garden. The large wooden doors let in natural light and can be fully opened, creating a pleasant sense of spaciousness and connection with the landscape.\n\nThe property offers five independent and comfortable suites, accommodating up to ten guests. Two suites have a king-size bed, one has a queen-size bed and two have two single beds each. All are airy, with large wooden doors and views of the green area. The master suite stands out for its open view of the lagoon, the grove and the golf course.\n\nThe social area features a living room integrated with a large covered terrace, ideal for meals and moments of rest in contact with the garden. The kitchen is located just a few steps away, ensuring practicality throughout the stay.\n\nOutside, the large pool is surrounded by a spacious deck and a covered, equipped gourmet area, with a table for outdoor meals. The setting offers a privileged view of the golf course, the lagoon and the vegetation, perfect for enjoying Trancoso\'s sunny days with tranquility and exclusivity.\n\nCasa 25 is located in the Terravista Golf Condominium, one of Trancoso\'s most prestigious addresses. The condominium offers security, direct contact with nature, access to the renowned golf course and beach support, in addition to being close to the region\'s main beaches.',
+    pt: 'Localizada no exclusivo Condomínio Terravista Golf, a Golf 25 é uma residência de alto padrão que combina conforto, privacidade e uma atmosfera elegante em meio à natureza de Trancoso.\n\nTotalmente reformada em 2024, a casa apresenta uma arquitetura rústico-chic, marcada pelo uso de materiais naturais, ambientes amplos e integração harmoniosa com o jardim tropical. As grandes portas de madeira favorecem a entrada de luz natural e podem ser abertas por completo, criando uma agradável sensação de amplitude e conexão com a paisagem.\n\nA propriedade dispõe de cinco suítes independentes e confortáveis, acomodando até dez hóspedes. Duas suítes possuem cama king size, uma possui cama queen size e duas possuem duas camas de solteiro cada. Todas são arejadas, com amplas portas de madeira e vistas para a área verde. A suíte master se destaca pela vista aberta para a lagoa, o bosque e o campo de golfe.\n\nA área social conta com sala de estar integrada a um amplo terraço coberto, ideal para refeições e momentos de descanso em contato com o jardim. A cozinha está localizada a poucos passos, garantindo praticidade durante toda a hospedagem.\n\nNa área externa, a ampla piscina é cercada por um espaçoso deck e por uma área gourmet coberta e equipada, com mesa para refeições ao ar livre. O ambiente oferece vista privilegiada para o campo de golfe, a lagoa e a vegetação, sendo perfeito para aproveitar os dias ensolarados de Trancoso com tranquilidade e exclusividade.\n\nA Golf 25 está situada no Condomínio Terravista Golf, um dos endereços mais prestigiados de Trancoso. O condomínio oferece segurança, contato direto com a natureza, acesso ao renomado campo de golfe e apoio de praia, além de estar próximo às principais praias da região.',
+    en: 'Located in the exclusive Terravista Golf Condominium, Golf 25 is a high-standard residence that combines comfort, privacy and an elegant atmosphere amid Trancoso\'s nature.\n\nFully renovated in 2024, the house features rustic-chic architecture, marked by the use of natural materials, spacious rooms and harmonious integration with the tropical garden. The large wooden doors let in natural light and can be fully opened, creating a pleasant sense of spaciousness and connection with the landscape.\n\nThe property offers five independent and comfortable suites, accommodating up to ten guests. Two suites have a king-size bed, one has a queen-size bed and two have two single beds each. All are airy, with large wooden doors and views of the green area. The master suite stands out for its open view of the lagoon, the grove and the golf course.\n\nThe social area features a living room integrated with a large covered terrace, ideal for meals and moments of rest in contact with the garden. The kitchen is located just a few steps away, ensuring practicality throughout the stay.\n\nOutside, the large pool is surrounded by a spacious deck and a covered, equipped gourmet area, with a table for outdoor meals. The setting offers a privileged view of the golf course, the lagoon and the vegetation, perfect for enjoying Trancoso\'s sunny days with tranquility and exclusivity.\n\nGolf 25 is located in the Terravista Golf Condominium, one of Trancoso\'s most prestigious addresses. The condominium offers security, direct contact with nature, access to the renowned golf course and beach support, in addition to being close to the region\'s main beaches.',
   },
 };
 
@@ -1621,7 +1621,7 @@ const PG55: Property = {
 };
 
 const GOLF72: Property = {
-  id: 'terravista-golf-72', code: 'TBA-254', name: { pt: 'Terravista 72', en: 'Terravista 72' },
+  id: 'terravista-golf-72', code: 'TBA-254', name: { pt: 'Golf 72', en: 'Golf 72' },
   purpose: ['aluguel'], location: 'Terravista Golf', suites: 8, guests: 16, baths: 8, area: '1.520 m² · terreno 2.580 m²',
   price: { pt: 'R$ 21.500 / diária', en: 'R$ 21,500 / night' },
   priceLow: { pt: 'R$ 16.000 / diária', en: 'R$ 16,000 / night' },
@@ -2026,7 +2026,7 @@ const MOA: Property = {
 };
 
 const BRAGA: Property = {
-  id: 'casa-braga', code: 'TBA-270', name: { pt: 'Casa Coqueiral 26', en: 'Casa Coqueiral 26' },
+  id: 'casa-coqueiral-26', code: 'TBA-270', name: { pt: 'Casa Coqueiral 26', en: 'Casa Coqueiral 26' },
   purpose: ['aluguel', 'venda'], location: 'Condomínio Coqueiral', suites: 4, guests: 12, baths: 5, area: '250 m²',
   price: { pt: 'R$ 2.600 / diária', en: 'R$ 2,600 / night' },
   priceLow: { pt: 'R$ 2.100 / diária', en: 'R$ 2,100 / night' },
@@ -2098,7 +2098,7 @@ const JACARANDA05: Property = {
 };
 
 const TB14: Property = {
-  id: 'casa-14-terravista-boutique', code: 'TBA-273', name: { pt: 'Terravista 14', en: 'Terravista 14' },
+  id: 'casa-14-terravista-boutique', code: 'TBA-273', name: { pt: 'Terravista Boutique 14', en: 'Terravista Boutique 14' },
   purpose: ['aluguel'], location: 'Terravista Boutique', suites: 5, guests: 12, baths: 6, area: '450 m²',
   price: { pt: 'Sob consulta', en: 'Upon request' },
   priceLow: { pt: 'Sob consulta', en: 'Upon request' },
@@ -2110,8 +2110,8 @@ const TB14: Property = {
     en: ['200 meters from Tartarugas Beach', 'Rooftop solarium with ocean view', 'Private pool', 'Hot tub', 'Sauna', 'Beach tennis court', 'Gourmet area integrated with the outdoor area', 'Deck and garden', 'Living, dining and TV rooms', 'Equipped kitchen', 'Air conditioning and mosquito nets', 'Smart TV and Wi-Fi', 'Barbecue, dishwasher and washer-dryer', 'Pool towels and sun loungers', 'Parking', '24-hour gated security'],
   },
   description: {
-    pt: 'Com localização privilegiada no exclusivo Condomínio Terravista Boutique, a apenas 200 metros da Praia das Tartarugas, a Casa 14 oferece uma experiência sofisticada e integrada à natureza, com ambientes amplos, privacidade e vistas deslumbrantes.\n\nInspirada na rica cultura regional, a residência dispõe de 5 suítes com ar-condicionado, além de 1 suíte de apoio. O projeto valoriza a conexão entre as áreas internas e externas, criando uma atmosfera acolhedora para momentos de lazer e convivência com a família e os amigos.\n\nEntre os principais destaques estão o solário mirante com vista para o mar, piscina privativa, hidromassagem, sauna, quadra de beach tennis, deck, jardim e uma ampla área gourmet integrada à área externa.',
-    en: 'With a privileged location in the exclusive Terravista Boutique Condominium, just 200 meters from Tartarugas Beach, Casa 14 offers a sophisticated experience integrated with nature, with spacious environments, privacy and breathtaking views.\n\nInspired by the rich regional culture, the residence features 5 air-conditioned suites, plus 1 support suite. The design values the connection between indoor and outdoor areas, creating a welcoming atmosphere for leisure and togetherness with family and friends.\n\nHighlights include the rooftop solarium overlooking the sea, private pool, hot tub, sauna, beach tennis court, deck, garden and a spacious gourmet area integrated with the outdoor space.',
+    pt: 'Com localização privilegiada no exclusivo Condomínio Terravista Boutique, a apenas 200 metros da Praia das Tartarugas, a Terravista Boutique 14 oferece uma experiência sofisticada e integrada à natureza, com ambientes amplos, privacidade e vistas deslumbrantes.\n\nInspirada na rica cultura regional, a residência dispõe de 5 suítes com ar-condicionado, além de 1 suíte de apoio. O projeto valoriza a conexão entre as áreas internas e externas, criando uma atmosfera acolhedora para momentos de lazer e convivência com a família e os amigos.\n\nEntre os principais destaques estão o solário mirante com vista para o mar, piscina privativa, hidromassagem, sauna, quadra de beach tennis, deck, jardim e uma ampla área gourmet integrada à área externa.',
+    en: 'With a privileged location in the exclusive Terravista Boutique Condominium, just 200 meters from Tartarugas Beach, Terravista Boutique 14 offers a sophisticated experience integrated with nature, with spacious environments, privacy and breathtaking views.\n\nInspired by the rich regional culture, the residence features 5 air-conditioned suites, plus 1 support suite. The design values the connection between indoor and outdoor areas, creating a welcoming atmosphere for leisure and togetherness with family and friends.\n\nHighlights include the rooftop solarium overlooking the sea, private pool, hot tub, sauna, beach tennis court, deck, garden and a spacious gourmet area integrated with the outdoor space.',
   },
   staff: { pt: ['Camareira', 'Cozinheira', 'Piscineiro / Jardineiro'], en: ['Housekeeper', 'Cook', 'Pool attendant / Gardener'] },
   notes: {
@@ -3368,7 +3368,7 @@ const ITAPO05: Property = {
 };
 
 const ITAPO01: Property = {
-  id: 'casa-01-aldeia-itapororoca', code: 'TBA-308', name: { pt: 'Aldeia Itapororoca 01', en: 'Aldeia Itapororoca 01' },
+  id: 'aldeia-itapororoca-01', code: 'TBA-308', name: { pt: 'Aldeia Itapororoca 01', en: 'Aldeia Itapororoca 01' },
   purpose: ['aluguel'], location: 'Praia de Itapororoca', suites: 7, guests: 16, baths: 8, area: '2.200 m²',
   price: { pt: 'Sob consulta', en: 'Upon request' },
   image: '/img/aldeia-01/01.webp',
@@ -3450,7 +3450,7 @@ const MIA: Property = {
 };
 
 const GOLF21: Property = {
-  id: 'terravista-golf-casa-21', code: 'TBA-331', name: { pt: 'Terravista 21', en: 'Terravista 21' },
+  id: 'terravista-golf-casa-21', code: 'TBA-331', name: { pt: 'Golf 21', en: 'Golf 21' },
   purpose: ['aluguel'], location: 'Terravista Golf', suites: 6, guests: 12, baths: 7, area: '—',
   price: { pt: 'R$ 12.000 / diária', en: 'R$ 12,000 / night' },
   priceLow: { pt: 'R$ 10.000 / diária', en: 'R$ 10,000 / night' },
@@ -3473,7 +3473,7 @@ const GOLF21: Property = {
 };
 
 const GOLF19: Property = {
-  id: 'terravista-golf-casa-19', code: 'TBA-332', name: { pt: 'Terravista 19', en: 'Terravista 19' },
+  id: 'terravista-golf-casa-19', code: 'TBA-332', name: { pt: 'Golf 19', en: 'Golf 19' },
   purpose: ['aluguel'], location: 'Terravista Golf', suites: 6, guests: 12, baths: 8, area: '700 m² · terreno 2.100 m²',
   price: { pt: 'R$ 13.000 / diária', en: 'R$ 13,000 / night' },
   priceLow: { pt: 'R$ 9.000 / diária', en: 'R$ 9,000 / night' },
@@ -3496,7 +3496,7 @@ const GOLF19: Property = {
 };
 
 const GOLF33: Property = {
-  id: 'terravista-golf-casa-33', code: 'TBA-333', name: { pt: 'Terravista 33', en: 'Terravista 33' },
+  id: 'terravista-golf-casa-33', code: 'TBA-333', name: { pt: 'Golf 33', en: 'Golf 33' },
   purpose: ['aluguel'], location: 'Terravista Golf', suites: 6, guests: 15, baths: 6, area: '—',
   price: { pt: 'R$ 9.500 / diária', en: 'R$ 9,500 / night' },
   priceLow: { pt: 'R$ 7.500 / diária', en: 'R$ 7,500 / night' },
@@ -3519,7 +3519,7 @@ const GOLF33: Property = {
 };
 
 const GOLF37: Property = {
-  id: 'terravista-golf-casa-37', code: 'TBA-334', name: { pt: 'Terravista 37', en: 'Terravista 37' },
+  id: 'terravista-golf-casa-37', code: 'TBA-334', name: { pt: 'Golf 37', en: 'Golf 37' },
   purpose: ['aluguel', 'venda'], location: 'Terravista Golf', suites: 8, guests: 16, baths: 7, area: '750 m² · terreno 1.700 m²',
   price: { pt: 'R$ 11.500 / diária', en: 'R$ 11,500 / night' },
   priceLow: { pt: 'R$ 8.500 / diária', en: 'R$ 8,500 / night' },
@@ -3543,7 +3543,7 @@ const GOLF37: Property = {
 };
 
 const GOLF27: Property = {
-  id: 'terravista-golf-casa-27', code: 'TBA-335', name: { pt: 'Terravista 27', en: 'Terravista 27' },
+  id: 'terravista-golf-casa-27', code: 'TBA-335', name: { pt: 'Golf 27', en: 'Golf 27' },
   purpose: ['aluguel', 'venda'], location: 'Terravista Golf', suites: 6, guests: 12, baths: 7, area: '—',
   price: { pt: 'R$ 12.500 / diária', en: 'R$ 12,500 / night' },
   priceLow: { pt: 'R$ 10.500 / diária', en: 'R$ 10,500 / night' },
@@ -3566,7 +3566,7 @@ const GOLF27: Property = {
 };
 
 const TVB10: Property = {
-  id: 'terravista-boutique-casa-10', code: 'TBA-336', name: { pt: 'Terravista 10', en: 'Terravista 10' },
+  id: 'terravista-boutique-casa-10', code: 'TBA-336', name: { pt: 'Terravista Boutique 10', en: 'Terravista Boutique 10' },
   purpose: ['aluguel', 'venda'], location: 'Terravista Boutique', suites: 5, guests: 12, baths: 5, area: '2.038 m²',
   price: { pt: 'R$ 6.900 / diária', en: 'R$ 6,900 / night' },
   priceLow: { pt: 'R$ 3.900 / diária', en: 'R$ 3,900 / night' },
@@ -3583,8 +3583,8 @@ const TVB10: Property = {
   features: ['vista-mar', 'condominio', 'piscina'],
   locationDetail: { pt: 'No Condomínio Terravista Boutique, a cerca de 300 metros da Praia das Tartarugas, com vista para o mar, próxima ao campo de golfe. O condomínio conta com portaria 24 horas e está inserido em uma das áreas mais reservadas de Trancoso.', en: 'In the Terravista Boutique Condominium, about 300 meters from Praia das Tartarugas, with sea views, near the golf course. The condominium has a 24-hour gatehouse and is set in one of the most reserved areas of Trancoso.' },
   description: {
-    pt: 'Localizada no exclusivo Condomínio Terravista Boutique, a apenas 300 metros da Praia das Tartarugas, a Casa 10 reúne privacidade, conforto e uma relação direta com a paisagem de Trancoso. A vista para o mar acompanha os principais ambientes e cria uma atmosfera leve, ideal para dias de descanso em família ou entre amigos.\n\nA residência dispõe de cinco suítes amplas, ambientes sociais integrados e uma área externa pensada para convivência. A piscina privativa, o deck, o jardim e o espaço gourmet formam o centro da casa, conectando sala, refeições e lazer em uma composição aberta e acolhedora.\n\nCom infraestrutura completa, apoio de praia e serviços de staff, a propriedade oferece praticidade durante toda a estadia, sem abrir mão da elegância natural que caracteriza o Terravista.',
-    en: 'Located in the exclusive Terravista Boutique Condominium, just 300 meters from Praia das Tartarugas, Casa 10 brings together privacy, comfort and a direct relationship with the Trancoso landscape. The sea view accompanies the main rooms and creates a light atmosphere, ideal for days of rest with family or friends.\n\nThe residence has five spacious suites, integrated social areas and an outdoor area designed for conviviality. The private pool, deck, garden and gourmet space form the heart of the house, connecting living room, dining and leisure in an open and welcoming composition.\n\nWith complete infrastructure, beach service and staff services, the property offers practicality throughout the stay, without giving up the natural elegance that characterizes Terravista.',
+    pt: 'Localizada no exclusivo Condomínio Terravista Boutique, a apenas 300 metros da Praia das Tartarugas, a Terravista Boutique 10 reúne privacidade, conforto e uma relação direta com a paisagem de Trancoso. A vista para o mar acompanha os principais ambientes e cria uma atmosfera leve, ideal para dias de descanso em família ou entre amigos.\n\nA residência dispõe de cinco suítes amplas, ambientes sociais integrados e uma área externa pensada para convivência. A piscina privativa, o deck, o jardim e o espaço gourmet formam o centro da casa, conectando sala, refeições e lazer em uma composição aberta e acolhedora.\n\nCom infraestrutura completa, apoio de praia e serviços de staff, a propriedade oferece praticidade durante toda a estadia, sem abrir mão da elegância natural que caracteriza o Terravista.',
+    en: 'Located in the exclusive Terravista Boutique Condominium, just 300 meters from Praia das Tartarugas, Terravista Boutique 10 brings together privacy, comfort and a direct relationship with the Trancoso landscape. The sea view accompanies the main rooms and creates a light atmosphere, ideal for days of rest with family or friends.\n\nThe residence has five spacious suites, integrated social areas and an outdoor area designed for conviviality. The private pool, deck, garden and gourmet space form the heart of the house, connecting living room, dining and leisure in an open and welcoming composition.\n\nWith complete infrastructure, beach service and staff services, the property offers practicality throughout the stay, without giving up the natural elegance that characterizes Terravista.',
   },
   notes: { pt: ['Diária Baixa: abril a novembro. Diária Alta: dezembro, janeiro, fevereiro, março, julho e feriados.', 'Locação mínima de 5 diárias. Não é permitido hospedar animais de estimação.', 'Taxa de serviço de R$ 1.300 por diária (staff). Réveillon: acréscimo de 5% de taxa de serviço sobre o valor do pacote.'], en: ['Low season: April to November. High season: December, January, February, March, July and holidays.', 'Minimum rental of 5 nights. Pets are not allowed.', 'Service fee of R$ 1,300 per night (staff). New Year\'s: 5% service fee added to the package price.'] },
 };
@@ -3635,7 +3635,7 @@ const OKUN: Property = {
   notes: { pt: ['Valores e disponibilidade sujeitos a confirmação.'], en: ['Prices and availability subject to confirmation.'] },
 };
 const GOLF62: Property = {
-  id: 'terravista-golf-casa-62', code: 'TBA-339', name: { pt: 'Terravista 62', en: 'Terravista 62' },
+  id: 'terravista-golf-casa-62', code: 'TBA-339', name: { pt: 'Golf 62', en: 'Golf 62' },
   purpose: ['aluguel'], location: 'Terravista Golf', suites: 6, guests: 12, baths: 6, area: '735 m² · terreno 2.668 m²',
   price: { pt: 'R$ 14.000 / diária', en: 'R$ 14,000 / night' },
   priceLow: { pt: 'R$ 12.000 / diária', en: 'R$ 12,000 / night' },
@@ -3725,7 +3725,7 @@ const FER: Property = { // galeria 28 fotos (PDF)
 };
 
 const ECO01: Property = {
-  id: 'condominio-eco-casa-01', code: 'TBA-350', name: { pt: 'Casa 01', en: 'Casa 01' },
+  id: 'condominio-eco-casa-01', code: 'TBA-350', name: { pt: 'Casa Eco 1', en: 'Casa Eco 1' },
   purpose: ['aluguel'], location: 'Condomínio Eco', suites: 7, guests: 14, baths: 9, area: '910 m² · terreno 2.000 m²',
   price: { pt: 'R$ 7.700 / diária', en: 'R$ 7,700 / night' },
   priceLow: { pt: 'R$ 6.800 / diária', en: 'R$ 6,800 / night' },
@@ -3741,8 +3741,8 @@ const ECO01: Property = {
   features: ['condominio', 'piscina'],
   locationDetail: { pt: 'No Condomínio Eco, na Estrada dos Macacos, em Trancoso — Bahia.', en: 'In the Eco Condominium, on Estrada dos Macacos, in Trancoso — Bahia.' },
   description: {
-    pt: 'Localizada no Condomínio Eco, em Trancoso, a Casa 01 está inserida em meio à Mata Atlântica, a poucos minutos da praia, reunindo arquitetura contemporânea, conforto e elementos do estilo praiano de Trancoso.\n\nCom sete suítes, nove banheiros, 910 m² de área construída e terreno de 2.000 m², a residência oferece ambientes amplos e integrados, além de uma estrutura completa de lazer e convivência para famílias e grupos de amigos.\n\nA suíte master conta com cama king size, armário, ar-condicionado, banheiro com dois chuveiros, varanda com vista para a piscina e banheira de hidromassagem. As demais suítes possuem cama de casal, armário, ar-condicionado, banheiro com chuveiro e varanda com vista.\n\nNa área social, a casa dispõe de sala de jantar e TV, três áreas de convivência com espaço gourmet e uma cozinha completamente equipada. A estrutura de lazer inclui piscina, sauna integrada à piscina, jacuzzi externa, academia, playground infantil, quadra de areia, pista de cooper, rooftop e espaços para jogos e entretenimento.',
-    en: 'Located in the Eco Condominium, in Trancoso, Casa 01 is set amid the Atlantic Forest, just minutes from the beach, combining contemporary architecture, comfort and the beach-style elements of Trancoso.\n\nWith seven suites, nine bathrooms, 910 m² of built area and a 2,000 m² plot, the residence offers spacious, integrated environments and a complete leisure and gathering structure for families and groups of friends.\n\nThe master suite features a king-size bed, wardrobe, air conditioning, a bathroom with two showers, a veranda overlooking the pool and a hot tub. The other suites have a double bed, wardrobe, air conditioning, a bathroom with shower and a veranda with a view.\n\nIn the social area, the house offers a dining room and TV room, three living areas with a gourmet space and a fully equipped kitchen. The leisure structure includes a pool, a pool-integrated sauna, an outdoor jacuzzi, a gym, a children playground, a sand court, a running track, a rooftop and spaces for games and entertainment.',
+    pt: 'Localizada no Condomínio Eco, em Trancoso, a Casa Eco 1 está inserida em meio à Mata Atlântica, a poucos minutos da praia, reunindo arquitetura contemporânea, conforto e elementos do estilo praiano de Trancoso.\n\nCom sete suítes, nove banheiros, 910 m² de área construída e terreno de 2.000 m², a residência oferece ambientes amplos e integrados, além de uma estrutura completa de lazer e convivência para famílias e grupos de amigos.\n\nA suíte master conta com cama king size, armário, ar-condicionado, banheiro com dois chuveiros, varanda com vista para a piscina e banheira de hidromassagem. As demais suítes possuem cama de casal, armário, ar-condicionado, banheiro com chuveiro e varanda com vista.\n\nNa área social, a casa dispõe de sala de jantar e TV, três áreas de convivência com espaço gourmet e uma cozinha completamente equipada. A estrutura de lazer inclui piscina, sauna integrada à piscina, jacuzzi externa, academia, playground infantil, quadra de areia, pista de cooper, rooftop e espaços para jogos e entretenimento.',
+    en: 'Located in the Eco Condominium, in Trancoso, Casa Eco 1 is set amid the Atlantic Forest, just minutes from the beach, combining contemporary architecture, comfort and the beach-style elements of Trancoso.\n\nWith seven suites, nine bathrooms, 910 m² of built area and a 2,000 m² plot, the residence offers spacious, integrated environments and a complete leisure and gathering structure for families and groups of friends.\n\nThe master suite features a king-size bed, wardrobe, air conditioning, a bathroom with two showers, a veranda overlooking the pool and a hot tub. The other suites have a double bed, wardrobe, air conditioning, a bathroom with shower and a veranda with a view.\n\nIn the social area, the house offers a dining room and TV room, three living areas with a gourmet space and a fully equipped kitchen. The leisure structure includes a pool, a pool-integrated sauna, an outdoor jacuzzi, a gym, a children playground, a sand court, a running track, a rooftop and spaces for games and entertainment.',
   },
   notes: { pt: ['Carnaval e Réveillon sob formato de pacote.', 'Valores sujeitos a alteração sem aviso prévio.'], en: ['Carnival and New Year’s Eve offered as packages.', 'Rates subject to change without notice.'] },
 };
@@ -3863,7 +3863,7 @@ const HELENA: Property = {
 };
 
 const ECO03: Property = {
-  id: 'condominio-eco-casa-03', code: 'TBA-343', name: { pt: 'Casa 03', en: 'Casa 03' },
+  id: 'condominio-eco-casa-03', code: 'TBA-343', name: { pt: 'Casa Eco 3', en: 'Casa Eco 3' },
   purpose: ['aluguel'], location: 'Condomínio Eco', suites: 4, guests: 8, baths: 5, area: '364 m² · terreno 1.000 m²',
   price: { pt: 'R$ 3.800 / diária', en: 'R$ 3,800 / night' },
   priceLow: { pt: 'R$ 3.300 / diária', en: 'R$ 3,300 / night' },
@@ -3878,14 +3878,14 @@ const ECO03: Property = {
   features: ['condominio', 'piscina'],
   locationDetail: { pt: 'No Condomínio Trancoso Eco Residence, na Estrada dos Macacos — 1,5 km do Quadrado e 3 km da Praia dos Nativos (5 minutos de carro).', en: 'In the Trancoso Eco Residence Condominium, on Estrada dos Macacos — 1.5 km from the Quadrado and 3 km from Praia dos Nativos (5 minutes by car).' },
   description: {
-    pt: 'Localizada no Condomínio Trancoso Eco Residence, na Estrada dos Macacos, a Casa 03 fica a apenas 1,5 km do Quadrado e 3 km da Praia dos Nativos — cerca de cinco minutos de carro.\n\nCom 364 m² de área construída em um terreno de 1.000 m², a casa acomoda até oito hóspedes em quatro suítes, com cinco banheiros. Os ambientes sociais são amplos e integrados à área externa.\n\nA piscina, o deck e o jardim formam um conjunto acolhedor para os dias de descanso, e a casa conta com comodidades como lava-louças, máquina de gelo, Nespresso, ducha externa, TV a cabo e som ambiente.',
-    en: 'Located in the Trancoso Eco Residence Condominium, on Estrada dos Macacos, Casa 03 is just 1.5 km from the Quadrado and 3 km from Praia dos Nativos — about five minutes by car.\n\nWith 364 m² of built area on a 1,000 m² plot, the house accommodates up to eight guests in four suites, with five bathrooms. The social areas are spacious and integrated with the outdoors.\n\nThe pool, deck and garden form a welcoming set for days of rest, and the house offers amenities such as dishwasher, ice maker, Nespresso, outdoor shower, cable TV and ambient sound.',
+    pt: 'Localizada no Condomínio Trancoso Eco Residence, na Estrada dos Macacos, a Casa Eco 3 fica a apenas 1,5 km do Quadrado e 3 km da Praia dos Nativos — cerca de cinco minutos de carro.\n\nCom 364 m² de área construída em um terreno de 1.000 m², a casa acomoda até oito hóspedes em quatro suítes, com cinco banheiros. Os ambientes sociais são amplos e integrados à área externa.\n\nA piscina, o deck e o jardim formam um conjunto acolhedor para os dias de descanso, e a casa conta com comodidades como lava-louças, máquina de gelo, Nespresso, ducha externa, TV a cabo e som ambiente.',
+    en: 'Located in the Trancoso Eco Residence Condominium, on Estrada dos Macacos, Casa Eco 3 is just 1.5 km from the Quadrado and 3 km from Praia dos Nativos — about five minutes by car.\n\nWith 364 m² of built area on a 1,000 m² plot, the house accommodates up to eight guests in four suites, with five bathrooms. The social areas are spacious and integrated with the outdoors.\n\nThe pool, deck and garden form a welcoming set for days of rest, and the house offers amenities such as dishwasher, ice maker, Nespresso, outdoor shower, cable TV and ambient sound.',
   },
   notes: { pt: ['Réveillon: pacote de 7 noites. Carnaval: pacote de 5 noites.'], en: ['New Year’s: 7-night package. Carnival: 5-night package.'] },
 };
 
 const ECO04: Property = {
-  id: 'condominio-eco-casa-04', code: 'TBA-344', name: { pt: 'Casa 04', en: 'Casa 04' },
+  id: 'condominio-eco-casa-04', code: 'TBA-344', name: { pt: 'Casa Eco 4', en: 'Casa Eco 4' },
   purpose: ['aluguel'], location: 'Condomínio Eco', suites: 6, guests: 12, baths: 6, area: '—',
   price: { pt: 'R$ 8.000 / diária', en: 'R$ 8,000 / night' },
   priceLow: { pt: 'R$ 6.500 / diária', en: 'R$ 6,500 / night' },
@@ -3901,8 +3901,8 @@ const ECO04: Property = {
   features: ['condominio', 'piscina'],
   locationDetail: { pt: 'No Condomínio Trancoso Eco Residence, na Estrada dos Macacos — 2 km do Quadrado e 3 km da Praia dos Nativos.', en: 'In the Trancoso Eco Residence Condominium, on Estrada dos Macacos — 2 km from the Quadrado and 3 km from Praia dos Nativos.' },
   description: {
-    pt: 'Situada no Condomínio Trancoso Eco Residence, a Casa 04 fica a cerca de dois quilômetros do Quadrado e três quilômetros da Praia dos Nativos, unindo tranquilidade e acesso rápido ao centrinho e às praias.\n\nSão seis suítes para até doze hóspedes, com ambientes sociais integrados à área externa, onde a piscina, o jardim e a quadra de beach tennis criam um completo espaço de lazer.\n\nA casa conta com gerador, mosquiteiros, Smart TV e equipamentos de praia, além de equipe com arrumadeira, piscineiro e jardineiro incluída na locação.',
-    en: 'Set in the Trancoso Eco Residence Condominium, Casa 04 is about two kilometers from the Quadrado and three kilometers from Praia dos Nativos, combining tranquility with quick access to the village center and beaches.\n\nThere are six suites for up to twelve guests, with social areas integrated with the outdoors, where the pool, garden and beach tennis court create a complete leisure space.\n\nThe house has a generator, mosquito nets, Smart TV and beach equipment, plus a team with housekeeper, pool attendant and gardener included in the rental.',
+    pt: 'Situada no Condomínio Trancoso Eco Residence, a Casa Eco 4 fica a cerca de dois quilômetros do Quadrado e três quilômetros da Praia dos Nativos, unindo tranquilidade e acesso rápido ao centrinho e às praias.\n\nSão seis suítes para até doze hóspedes, com ambientes sociais integrados à área externa, onde a piscina, o jardim e a quadra de beach tennis criam um completo espaço de lazer.\n\nA casa conta com gerador, mosquiteiros, Smart TV e equipamentos de praia, além de equipe com arrumadeira, piscineiro e jardineiro incluída na locação.',
+    en: 'Set in the Trancoso Eco Residence Condominium, Casa Eco 4 is about two kilometers from the Quadrado and three kilometers from Praia dos Nativos, combining tranquility with quick access to the village center and beaches.\n\nThere are six suites for up to twelve guests, with social areas integrated with the outdoors, where the pool, garden and beach tennis court create a complete leisure space.\n\nThe house has a generator, mosquito nets, Smart TV and beach equipment, plus a team with housekeeper, pool attendant and gardener included in the rental.',
   },
   notes: { pt: ['Carnaval e Réveillon sob formato de pacote.'], en: ['Carnival and New Year’s Eve offered as packages.'] },
 };
@@ -3931,7 +3931,7 @@ const VISTA: Property = {
 };
 
 const GOLF95: Property = {
-  id: 'terravista-golf-casa-95', code: 'TBA-346', name: { pt: 'Terravista 95', en: 'Terravista 95' },
+  id: 'terravista-golf-casa-95', code: 'TBA-346', name: { pt: 'Golf 95', en: 'Golf 95' },
   purpose: ['aluguel'], location: 'Terravista Golf', suites: 8, guests: 16, baths: 9, area: '1.200 m² · terreno 1.900 m²',
   price: { pt: 'R$ 25.000 / diária', en: 'R$ 25,000 / night' },
   priceLow: { pt: 'R$ 18.000 / diária', en: 'R$ 18,000 / night' },
@@ -3949,8 +3949,8 @@ const GOLF95: Property = {
   features: ['condominio', 'piscina'],
   locationDetail: { pt: 'No Condomínio Terravista Golf, com vista para o campo de golfe, em Trancoso — Bahia.', en: 'In the Terravista Golf Condominium, overlooking the golf course, in Trancoso — Bahia.' },
   description: {
-    pt: 'Assinada por Caio Bandeira e Luis Carlos Orsini, com decoração de Maisa Pimenta, a Casa 95 é uma das propriedades mais imponentes do Condomínio Terravista Golf, com 1.200 m² de área construída em um terreno de 1.900 m² de frente para o campo de golfe.\n\nSão oito suítes para até dezesseis hóspedes: duas no térreo com cama queen, closet, frigobar e TV; quatro no pavimento superior com duas camas de solteiro convertíveis e varanda com vista para o golfe; e duas em bangalô com cama de casal.\n\nA estrutura inclui piscina, sauna, adega, quadra de beach tennis, carrinho de golfe, elevador panorâmico e gerador, além de apoio de praia com cadeiras, ombrelones e cooler. A equipe conta com duas arrumadeiras, cozinheira, auxiliar de cozinha e caseiro.',
-    en: 'Designed by Caio Bandeira and Luis Carlos Orsini, with decoration by Maisa Pimenta, Casa 95 is one of the most imposing properties in the Terravista Golf Condominium, with 1,200 m² of built area on a 1,900 m² plot facing the golf course.\n\nThere are eight suites for up to sixteen guests: two on the ground floor with queen bed, closet, minibar and TV; four on the upper floor with two convertible single beds and a veranda overlooking the golf course; and two in a bungalow with a double bed.\n\nThe structure includes pool, sauna, wine cellar, beach tennis court, golf cart, panoramic elevator and generator, plus beach support with chairs, parasols and cooler. The team includes two housekeepers, cook, kitchen assistant and caretaker.',
+    pt: 'Assinada por Caio Bandeira e Luis Carlos Orsini, com decoração de Maisa Pimenta, a Golf 95 é uma das propriedades mais imponentes do Condomínio Terravista Golf, com 1.200 m² de área construída em um terreno de 1.900 m² de frente para o campo de golfe.\n\nSão oito suítes para até dezesseis hóspedes: duas no térreo com cama queen, closet, frigobar e TV; quatro no pavimento superior com duas camas de solteiro convertíveis e varanda com vista para o golfe; e duas em bangalô com cama de casal.\n\nA estrutura inclui piscina, sauna, adega, quadra de beach tennis, carrinho de golfe, elevador panorâmico e gerador, além de apoio de praia com cadeiras, ombrelones e cooler. A equipe conta com duas arrumadeiras, cozinheira, auxiliar de cozinha e caseiro.',
+    en: 'Designed by Caio Bandeira and Luis Carlos Orsini, with decoration by Maisa Pimenta, Golf 95 is one of the most imposing properties in the Terravista Golf Condominium, with 1,200 m² of built area on a 1,900 m² plot facing the golf course.\n\nThere are eight suites for up to sixteen guests: two on the ground floor with queen bed, closet, minibar and TV; four on the upper floor with two convertible single beds and a veranda overlooking the golf course; and two in a bungalow with a double bed.\n\nThe structure includes pool, sauna, wine cellar, beach tennis court, golf cart, panoramic elevator and generator, plus beach support with chairs, parasols and cooler. The team includes two housekeepers, cook, kitchen assistant and caretaker.',
   },
   notes: { pt: ['Locação mínima de 3 noites.', 'Taxa de serviço de 5% sobre o valor da hospedagem.', 'Diária alta: dezembro a fevereiro, julho e feriados. Diária baixa: março a novembro (exceto julho).'], en: ['Minimum rental of 3 nights.', 'Service fee of 5% on the accommodation price.', 'High season: December to February, July and holidays. Low season: March to November (except July).'] },
 };
@@ -4409,7 +4409,413 @@ const GRAODEMAR: Property = {
   features: ['piscina', 'vista-mar'],
 };
 
-PROPERTIES.unshift(GRAODEMAR, VILAS37, VILAS27, VILAS61, VILAS62, VILLAQ, JV5, PADRE, FASANOJ2, COQ15, CASAFLO, CASACP, TEMPO03, OLAVA, BUENAVISTA, FAZENDA29, VILAS39, TVB12, GOLF28, COQ12, COQ11, VILLAW, COQ10, COQ27, IEMANJA, COQ09, NANA, VILAS34, JUE, TEMPO04, COQ04, HELENA, ALTAR, DUE, AZUL, FER, COLINA3, COLINA2, COLINA, ECO01, ECO03, ECO04, VISTA, GOLF95, VILA13, COQUEIRAL01, OKUN, GOLF62, TVB10, MANGABA, GOLF21, GOLF19, GOLF33, GOLF37, GOLF27, TRAMA, TIZZI, LILI, COQUEIRAL02, JV15, JV14, JV13, PEROBA, COQ06, COQUEIRAL7, COQ08, V7, MARTINI, SANTARITA, PATIMIRIM, DAJU, BUENO, BONITA, AREIA, COQUEIRAL13, SUBLIME, ESTRELA, VISTANATIVOS, TERRAL, ITAPO05, ITAPO01, ATENA, JACARANDA04, COQUEIRAL14, C20, CASAMARIA, ALMESCLA, CASAMAR, GEIGER, C21, MIA, COQUEIRAL22, MAION, DADINHO, IANDE, MAGIVI, OITI, C23, C24, NAOCA, CASA71, CAJU, SANMARCO, CASA14, CASA09, BOSSA, TUA, IMBIRUCU, CASA42, CASA61, VILAS02, CASA80, ITAPO07, CASA96, CASA90, VILAS75, LIMOEIRO, BIRIBA, VILAMAR, BETTONI, PINI, AUREA, SAOJORGE, CAZA, ITAPO06, ITAPO04, ALEGRIA, PONTA, PG11, PG111, PG104, MANDACARU, PONTARB, FALESIA, RAIZES, PONTABARRA, FASANO10, FASANO16, FASANO17, VILAS26, GOLF58, FLORESTA, VILAS41, VILAS67, BOUTIQUE13, ARACUA, JACARANDA03, TEIU, GOLF25, PG50, CASAEDO, BALEIA, PG55, GOLF72, PITANGA, AFRICA, TEMPO07, TEMPO08, TEMPO06, BOSQUE, PATIO, PG32, PG45, LICURI, DIVINA, TRESMENINAS, COQUEIRAL25, MORENA, MOA, BRAGA, CUMARU, JACARANDA05, TB14, MACONDO, RICK);
+const AROEIRA: Property = {
+  id: 'casa-aroeira-itapororoca', code: 'TBA-285', name: { pt: 'Casa Aroeira', en: 'Casa Aroeira' },
+  purpose: ['aluguel'], location: 'Praia de Itapororoca', suites: 6, guests: 12, baths: 6, area: 'Terreno 3.670 m² · 700 m² construídos',
+  price: { pt: 'R$ 20.000 / diária', en: 'R$ 20,000 / night' },
+  priceLow: { pt: 'R$ 17.000 / diária', en: 'R$ 17,000 / night' },
+  carnaval: { pt: 'R$ 125.000 / pacote', en: 'R$ 125,000 / package' },
+  reveillon: { pt: 'R$ 700.000 / pacote', en: 'R$ 700,000 / package' },
+  image: '/img/aroeira/01.webp',
+  gallery: ['/img/aroeira/01.webp','/img/aroeira/02.webp','/img/aroeira/03.webp','/img/aroeira/04.webp','/img/aroeira/05.webp','/img/aroeira/06.webp','/img/aroeira/07.webp','/img/aroeira/08.webp','/img/aroeira/09.webp','/img/aroeira/10.webp','/img/aroeira/11.webp','/img/aroeira/12.webp','/img/aroeira/13.webp','/img/aroeira/14.webp','/img/aroeira/15.webp','/img/aroeira/16.webp','/img/aroeira/17.webp','/img/aroeira/18.webp','/img/aroeira/19.webp','/img/aroeira/20.webp','/img/aroeira/21.webp','/img/aroeira/22.webp','/img/aroeira/23.webp','/img/aroeira/24.webp','/img/aroeira/25.webp','/img/aroeira/26.webp','/img/aroeira/27.webp','/img/aroeira/28.webp','/img/aroeira/29.webp','/img/aroeira/30.webp','/img/aroeira/31.webp','/img/aroeira/32.webp','/img/aroeira/33.webp','/img/aroeira/34.webp','/img/aroeira/35.webp','/img/aroeira/36.webp','/img/aroeira/37.webp','/img/aroeira/38.webp','/img/aroeira/39.webp','/img/aroeira/40.webp','/img/aroeira/41.webp','/img/aroeira/42.webp','/img/aroeira/43.webp','/img/aroeira/44.webp','/img/aroeira/45.webp','/img/aroeira/46.webp','/img/aroeira/47.webp','/img/aroeira/48.webp','/img/aroeira/49.webp','/img/aroeira/50.webp'], featured: false,
+  amenities: {
+    pt: ['Pé na areia', 'Vista para o mar', 'Piscina', 'Apoio de praia', 'Espaço gourmet', 'Churrasqueira', 'Cozinha equipada', 'Adega de vinhos', 'Cervejeira', 'Sala de estar', 'Sala de jantar', 'Sala de TV', 'Lavabo', 'Lavanderia', 'Máquina de lavar-louça', 'Máquina de gelo', 'Freezer', 'Cofres nos quartos', 'Mosquiteiro', 'Ar-condicionado', 'Ventilador de teto', 'Internet Wi-Fi', 'TV a cabo, Sky e Netflix', 'Som ambiente e som para iPod', 'Kids friendly e kit bebê', 'Espreguiçadeiras e ombrelone', 'Estacionamento', 'Gerador', 'Poço artesiano', 'Extintor', 'Secador de cabelo', 'Roupas de cama, mesa e banho', 'Toalhas de praia e piscina'],
+    en: ['Beachfront', 'Ocean view', 'Swimming pool', 'Beach service', 'Gourmet area', 'Barbecue', 'Equipped kitchen', 'Wine cellar', 'Beer fridge', 'Living room', 'Dining room', 'TV room', 'Powder room', 'Laundry', 'Dishwasher', 'Ice maker', 'Freezer', 'In-room safes', 'Mosquito nets', 'Air conditioning', 'Ceiling fans', 'Wi-Fi internet', 'Cable TV, Sky and Netflix', 'Ambient sound and iPod dock', 'Kids friendly and baby kit', 'Sun loungers and parasol', 'Parking', 'Generator', 'Artesian well', 'Fire extinguisher', 'Hairdryer', 'Bed, table and bath linens', 'Beach and pool towels'],
+  },
+  description: {
+    pt: 'Implantada em um terreno de 3.670 m², a Casa Aroeira conta com 700 m² de área construída e acomoda até 12 hóspedes em 6 suítes confortáveis, distribuídas de forma a garantir privacidade e bem-estar.\n\nOs ambientes sociais foram projetados para valorizar a integração entre interior e exterior. A sala principal se abre para o jardim e para a área da piscina, criando espaços acolhedores para convivência ao longo do dia. A ampla varanda acompanha toda a área social e oferece diferentes ambientes para descanso e refeições ao ar livre.\n\nNo piso superior, as suítes dispõem de varandas privativas e vista aberta para o mar, proporcionando ainda mais exclusividade à experiência de hospedagem.\n\nAlém da localização privilegiada à beira-mar, a propriedade está a aproximadamente 10 minutos de carro do Quadrado de Trancoso, permitindo fácil acesso aos restaurantes, lojas e ao charme do centro histórico da vila. Uma propriedade ideal para quem busca conforto, discrição e contato genuíno com um dos cenários mais desejados do litoral baiano.\n\nConfiguração das suítes: Suíte 01 (Master) com 1 cama de casal king size, ar-condicionado, mosquiteiro, closet, secador de cabelo e varanda com vista para o mar; Suíte 02 com 1 cama de casal king size, ar-condicionado, mosquiteiro, closet, secador de cabelo e varanda com vista para o mar; Suíte 03 com 2 camas de solteiro, ar-condicionado, mosquiteiro, closet, secador de cabelo e vista para o jardim; Suíte 04 com 1 cama de casal king size, ar-condicionado, closet, secador de cabelo e vista para o jardim; Suíte 05 com 2 camas de solteiro, ar-condicionado, closet, secador de cabelo e vista para o jardim; Suíte 06 com 1 cama de casal king size, ar-condicionado, mosquiteiro, closet, secador de cabelo e vista para o jardim. Capacidade para até 12 hóspedes.',
+    en: 'Set on a 3,670 m² plot, Casa Aroeira offers 700 m² of built area and accommodates up to 12 guests in 6 comfortable suites, arranged to ensure privacy and well-being.\n\nThe social areas were designed to enhance the integration between indoors and outdoors. The main living room opens onto the garden and the pool area, creating welcoming spaces for gathering throughout the day. The wide veranda runs along the entire social area and offers different settings for relaxation and outdoor meals.\n\nUpstairs, the suites feature private verandas and open ocean views, adding even more exclusivity to the stay.\n\nBesides the privileged beachfront location, the property is approximately 10 minutes by car from Trancoso\'s Quadrado, with easy access to restaurants, shops and the charm of the village\'s historic center. An ideal property for those seeking comfort, discretion and a genuine connection with one of the most coveted settings on the Bahian coast.\n\nSuite layout: Suite 01 (Master) with 1 king-size bed, air conditioning, mosquito net, walk-in closet, hairdryer and veranda with ocean view; Suite 02 with 1 king-size bed, air conditioning, mosquito net, walk-in closet, hairdryer and veranda with ocean view; Suite 03 with 2 twin beds, air conditioning, mosquito net, closet, hairdryer and garden view; Suite 04 with 1 king-size bed, air conditioning, closet, hairdryer and garden view; Suite 05 with 2 twin beds, air conditioning, closet, hairdryer and garden view; Suite 06 with 1 king-size bed, air conditioning, mosquito net, closet, hairdryer and garden view. Capacity for up to 12 guests.',
+  },
+  staff: {
+    pt: ['1 arrumadeira, 1 governanta, 1 cozinheira, 1 auxiliar de cozinha, 1 bartender e 1 caseiro'],
+    en: ['1 housekeeper, 1 head housekeeper, 1 cook, 1 kitchen assistant, 1 bartender and 1 caretaker'],
+  },
+  notes: {
+    pt: ['Locação mínima de 3 diárias.', 'Preços não incluem 10% de taxa de serviço.', 'Réveillon e Carnaval: valores de pacotes especiais.'],
+    en: ['Minimum stay of 3 nights.', 'Rates do not include a 10% service charge.', 'New Year\'s Eve and Carnival: special package rates.'],
+  },
+  locationDetail: {
+    pt: 'Estrada para Itaquena, Praia de Itapororoca — pé na areia, a aproximadamente 10 minutos de carro do Quadrado.',
+    en: 'Estrada para Itaquena, Itapororoca Beach — beachfront, approximately 10 minutes by car from the Quadrado.',
+  },
+};
+
+const CASA11ALDEIA: Property = {
+  id: 'aldeia-itapororoca-11', code: 'TBA-284', name: { pt: 'Aldeia Itapororoca 11', en: 'Aldeia Itapororoca 11' },
+  purpose: ['aluguel'], location: 'Praia de Itapororoca', suites: 7, guests: 14, baths: 7, area: '',
+  price: { pt: 'R$ 22.000 / diária', en: 'R$ 22,000 / night' },
+  priceLow: { pt: 'R$ 16.500 / diária', en: 'R$ 16,500 / night' },
+  carnaval: { pt: 'Sob consulta', en: 'Upon request' },
+  reveillon: { pt: 'R$ 605.000 / período', en: 'R$ 605,000 / period' },
+  image: '/img/aldeia11/01.webp',
+  gallery: ['/img/aldeia11/01.webp','/img/aldeia11/02.webp','/img/aldeia11/03.webp','/img/aldeia11/04.webp','/img/aldeia11/05.webp','/img/aldeia11/06.webp','/img/aldeia11/07.webp','/img/aldeia11/08.webp','/img/aldeia11/09.webp','/img/aldeia11/10.webp','/img/aldeia11/11.webp','/img/aldeia11/12.webp','/img/aldeia11/13.webp','/img/aldeia11/14.webp','/img/aldeia11/15.webp','/img/aldeia11/16.webp','/img/aldeia11/17.webp','/img/aldeia11/18.webp','/img/aldeia11/19.webp','/img/aldeia11/20.webp','/img/aldeia11/21.webp','/img/aldeia11/22.webp','/img/aldeia11/23.webp','/img/aldeia11/24.webp','/img/aldeia11/25.webp','/img/aldeia11/26.webp','/img/aldeia11/27.webp','/img/aldeia11/28.webp','/img/aldeia11/29.webp','/img/aldeia11/30.webp','/img/aldeia11/31.webp','/img/aldeia11/32.webp','/img/aldeia11/33.webp'], featured: false,
+  amenities: {
+    pt: ['Pé na areia', 'Vista para o mar', 'Condomínio fechado', 'Piscina privativa', 'Piscina do condomínio', 'Apoio de praia', 'Espaço gourmet', 'Cozinha equipada', 'Forno a lenha', 'Adega de vinhos', 'Carrinho de golfe (pickup)', 'Espreguiçadeiras e ombrelone', 'Sala de estar', 'Sala de jantar', 'Lavabo', 'Lavanderia', 'Máquina de gelo', 'Freezer', 'Frigobar', 'Ar-condicionado', 'Internet Wi-Fi', 'TV a cabo', 'Gerador', 'Estacionamento', 'Poço artesiano', 'Secador de cabelo', 'Roupas de cama, mesa e banho', 'Toalhas de praia e piscina', 'Serviços gerais'],
+    en: ['Beachfront', 'Ocean view', 'Gated community', 'Private pool', 'Community pool', 'Beach service', 'Gourmet area', 'Equipped kitchen', 'Wood-fired oven', 'Wine cellar', 'Golf cart (pickup)', 'Sun loungers and parasol', 'Living room', 'Dining room', 'Powder room', 'Laundry', 'Ice maker', 'Freezer', 'Minibar', 'Air conditioning', 'Wi-Fi internet', 'Cable TV', 'Generator', 'Parking', 'Artesian well', 'Hairdryer', 'Bed, table and bath linens', 'Beach and pool towels', 'General services'],
+  },
+  description: {
+    pt: 'À beira da Praia de Itapororoca, uma das mais belas de Trancoso, a Aldeia Itapororoca 11 combina a arquitetura característica da região com ambientes amplos, acolhedores e totalmente integrados à natureza. Estruturas em madeira e vidro aproximam os espaços internos do jardim e do mar, enquanto a decoração, marcada por obras de artistas locais, traduz a identidade e a riqueza cultural do destino.\n\nA sala de estar valoriza o calor da madeira e os elementos naturais em cada detalhe. A propriedade dispõe de sete suítes confortáveis e de uma elegante sala de jantar, ampla e luminosa, conectada diretamente ao deck e à convidativa piscina.\n\nNa área externa, o paisagismo tropical envolve espaços pensados para a convivência. A cozinha e o forno a lenha criam o cenário ideal para almoços em família, encontros entre amigos e noites tranquilas sob o céu de Trancoso. O jardim arborizado oferece ainda diferentes ambientes de descanso, perfeitos para aproveitar o fim de tarde com privacidade e conforto.\n\nPé na areia e inserida em um condomínio fechado de alto padrão, a casa reúne localização privilegiada, serviço completo e uma atmosfera genuinamente trancosense.\n\nConfiguração das suítes: Suíte Master com 1 cama king-size, mosquiteiro, closet, ar-condicionado, TV, banheira e secador de cabelo; Suíte 02 com 1 cama king-size, mosquiteiro, ar-condicionado e secador de cabelo; Suítes 03 e 04 com 2 camas de solteiro conversíveis em cama de casal, mosquiteiro e ar-condicionado cada; Suíte 05 com 2 camas de solteiro conversíveis em cama de casal, 1 sofá-cama, mosquiteiro e ar-condicionado; Suíte 06 com 1 cama king-size, 1 sofá-cama de solteiro com bicama, mosquiteiro, closet e ar-condicionado; Suíte 07 com 1 cama king-size, mosquiteiro, ar-condicionado e banheira. Capacidade para até 14 hóspedes.',
+    en: 'On the edge of Itapororoca Beach, one of the most beautiful in Trancoso, Aldeia Itapororoca 11 combines the region\'s characteristic architecture with spacious, welcoming environments fully integrated into nature. Wood and glass structures bring the indoor spaces closer to the garden and the sea, while the décor, marked by works from local artists, reflects the identity and cultural richness of the destination.\n\nThe living room celebrates the warmth of wood and natural elements in every detail. The property offers seven comfortable suites and an elegant, bright dining room, connected directly to the deck and the inviting pool.\n\nOutside, tropical landscaping surrounds spaces designed for gathering. The kitchen and wood-fired oven create the perfect setting for family lunches, get-togethers with friends and quiet evenings under the Trancoso sky. The tree-filled garden also offers different resting areas, perfect for enjoying the late afternoon with privacy and comfort.\n\nBeachfront and set inside a high-end gated community, the house combines a privileged location, full service and a genuinely Trancoso atmosphere.\n\nSuite layout: Master Suite with 1 king-size bed, mosquito net, walk-in closet, air conditioning, TV, bathtub and hairdryer; Suite 02 with 1 king-size bed, mosquito net, air conditioning and hairdryer; Suites 03 and 04 with 2 twin beds convertible into a double, mosquito net and air conditioning each; Suite 05 with 2 twin beds convertible into a double, 1 sofa bed, mosquito net and air conditioning; Suite 06 with 1 king-size bed, 1 twin sofa bed with trundle, mosquito net, walk-in closet and air conditioning; Suite 07 with 1 king-size bed, mosquito net, air conditioning and bathtub. Capacity for up to 14 guests.',
+  },
+  staff: {
+    pt: ['Equipe regular: 2 arrumadeiras, 1 cozinheira, 1 auxiliar de cozinha e 1 jardineiro/piscineiro', 'Equipe no Réveillon: 2 arrumadeiras, 1 cozinheira, 1 auxiliar de cozinha, 1 barman e 1 jardineiro/piscineiro'],
+    en: ['Regular team: 2 housekeepers, 1 cook, 1 kitchen assistant and 1 gardener/pool attendant', 'New Year\'s Eve team: 2 housekeepers, 1 cook, 1 kitchen assistant, 1 bartender and 1 gardener/pool attendant'],
+  },
+  notes: {
+    pt: ['Locação mínima de 4 diárias.', 'É permitida a hospedagem de animal de estimação de pequeno porte.', 'No Réveillon, deverá ser adicionada taxa de serviço de 5% ao valor da locação.'],
+    en: ['Minimum stay of 4 nights.', 'Small pets are welcome.', 'A 5% service charge applies to New Year\'s Eve rentals.'],
+  },
+  locationDetail: {
+    pt: 'Condomínio Aldeia de Itapororoca — pé na areia, a aproximadamente 15 minutos de carro do Quadrado.',
+    en: 'Aldeia de Itapororoca gated community — beachfront, approximately 15 minutes by car from the Quadrado.',
+  },
+};
+
+const CASADEI: Property = {
+  id: 'casa-casadei-altos-de-trancoso', code: 'TBA-288', name: { pt: 'Casa Casadei', en: 'Casa Casadei' },
+  purpose: ['aluguel'], location: 'Altos de Trancoso', suites: 5, guests: 13, baths: 5, area: '—',
+  price: { pt: 'R$ 6.500 / diária', en: 'R$ 6,500 / night' },
+  priceLow: { pt: 'R$ 4.500 / diária', en: 'R$ 4,500 / night' },
+  carnaval: { pt: 'R$ 45.000 / pacote', en: 'R$ 45,000 / package' },
+  reveillon: { pt: 'R$ 230.000 / pacote', en: 'R$ 230,000 / package' },
+  image: '/img/casadei/01.webp',
+  gallery: ['/img/casadei/01.webp','/img/casadei/02.webp','/img/casadei/03.webp','/img/casadei/04.webp','/img/casadei/05.webp','/img/casadei/06.webp','/img/casadei/07.webp','/img/casadei/08.webp','/img/casadei/09.webp','/img/casadei/10.webp','/img/casadei/11.webp','/img/casadei/12.webp','/img/casadei/13.webp','/img/casadei/14.webp','/img/casadei/15.webp','/img/casadei/16.webp','/img/casadei/17.webp','/img/casadei/18.webp','/img/casadei/19.webp','/img/casadei/20.webp','/img/casadei/21.webp','/img/casadei/22.webp','/img/casadei/23.webp','/img/casadei/24.webp','/img/casadei/25.webp','/img/casadei/26.webp','/img/casadei/27.webp','/img/casadei/28.webp','/img/casadei/29.webp','/img/casadei/30.webp','/img/casadei/31.webp','/img/casadei/32.webp','/img/casadei/33.webp','/img/casadei/34.webp','/img/casadei/35.webp','/img/casadei/36.webp','/img/casadei/37.webp','/img/casadei/38.webp','/img/casadei/39.webp','/img/casadei/40.webp','/img/casadei/41.webp','/img/casadei/42.webp','/img/casadei/43.webp','/img/casadei/44.webp','/img/casadei/45.webp','/img/casadei/46.webp','/img/casadei/47.webp','/img/casadei/48.webp','/img/casadei/49.webp'], featured: false,
+  amenities: {
+    pt: ['Condomínio fechado sobre as falésias', 'Piscina com hidromassagem', 'Spa', 'Cozinha gourmet', 'Churrasqueira', 'Forno de pizza', 'Fogão e forno a lenha', 'Internet Wi-Fi', 'TV a cabo', 'Ar-condicionado', 'Lava-louças', 'Máquina de lavar', 'Secadora', 'Cervejeira', 'Freezer', 'Frigobar', 'Jardim', 'Gerador', 'Energia fotovoltaica'],
+    en: ['Gated community on the cliffs', 'Pool with jacuzzi', 'Spa', 'Gourmet kitchen', 'Barbecue', 'Pizza oven', 'Wood-burning stove and oven', 'Wi-Fi internet', 'Cable TV', 'Air conditioning', 'Dishwasher', 'Washing machine', 'Dryer', 'Beer fridge', 'Freezer', 'Minibar', 'Garden', 'Generator', 'Photovoltaic energy'],
+  },
+  description: {
+    pt: 'Localizada no Condomínio Altos de Trancoso, a Casa Casadei está em uma área de bosque preservado sobre as falésias, a menos de cinco minutos da Praia dos Nativos e próxima ao Quadrado. A residência combina elegância, conforto e integração com a natureza.\n\nA casa conta com piscina com hidromassagem, spa, cozinha gourmet, churrasqueira, forno de pizza e fogão e forno a lenha — estrutura completa para receber bem em qualquer estação.\n\nCom cinco suítes e capacidade para 13 hóspedes, oferece staff dedicado para uma experiência exclusiva em Trancoso.',
+    en: 'Located in the Altos de Trancoso community, Casa Casadei sits in a preserved grove on the cliffs, less than five minutes from Praia dos Nativos and close to the Quadrado. The residence combines elegance, comfort and integration with nature.\n\nThe house features a pool with jacuzzi, spa, gourmet kitchen, barbecue, pizza oven and wood-burning stove and oven — a complete structure for entertaining in any season.\n\nWith five suites and capacity for 13 guests, it offers dedicated staff for an exclusive experience in Trancoso.',
+  },
+  staff: {
+    pt: ['Jardineiro, piscineiro, cozinheira e camareira (para até 8 hóspedes). Acima disso, terceira auxiliar opcional.'],
+    en: ['Gardener, pool attendant, cook and housekeeper (for up to 8 guests). Above that, an optional third assistant.'],
+  },
+  notes: {
+    pt: ['Julho e feriados: diária de R$ 5.000.', 'Semana das Crianças: R$ 35.000.', 'Pagamento: 50% na assinatura do contrato e 50% no check-in.'],
+    en: ['July and holidays: nightly rate of R$ 5,000.', 'Children\'s Week: R$ 35,000.', 'Payment: 50% upon contract signing and 50% at check-in.'],
+  },
+  locationDetail: {
+    pt: 'Condomínio Altos de Trancoso — bosque preservado sobre as falésias, a menos de 5 minutos da Praia dos Nativos e próximo ao Quadrado.',
+    en: 'Altos de Trancoso community — preserved grove on the cliffs, less than 5 minutes from Praia dos Nativos and close to the Quadrado.',
+  },
+};
+
+const CASALUA: Property = {
+  id: 'casa-lua', code: 'TBA-282', name: { pt: 'Casa Lua', en: 'Casa Lua' },
+  purpose: ['aluguel', 'venda'], location: 'Praia de Itapororoca', suites: 5, guests: 12, baths: 5, area: '1.300 m² · terreno 23.400 m²',
+  price: { pt: 'R$ 22.000 / diária', en: 'R$ 22,000 / night' },
+  priceLow: { pt: 'R$ 20.000 / diária', en: 'R$ 20,000 / night' },
+  carnaval: { pt: 'Sob consulta', en: 'Upon request' },
+  reveillon: { pt: 'R$ 880.000', en: 'R$ 880,000' },
+  salePrice: { pt: 'Sob consulta', en: 'Upon request' },
+  image: '/img/casalua/01.webp',
+  gallery: ['/img/casalua/01.webp','/img/casalua/02.webp','/img/casalua/03.webp','/img/casalua/04.webp','/img/casalua/05.webp','/img/casalua/06.webp','/img/casalua/07.webp','/img/casalua/08.webp','/img/casalua/09.webp','/img/casalua/10.webp','/img/casalua/11.webp','/img/casalua/12.webp','/img/casalua/13.webp','/img/casalua/14.webp','/img/casalua/15.webp','/img/casalua/16.webp','/img/casalua/17.webp','/img/casalua/18.webp','/img/casalua/19.webp','/img/casalua/20.webp','/img/casalua/21.webp','/img/casalua/22.webp','/img/casalua/23.webp','/img/casalua/24.webp','/img/casalua/25.webp','/img/casalua/26.webp','/img/casalua/27.webp','/img/casalua/28.webp','/img/casalua/29.webp'], featured: false,
+  amenities: {
+    pt: ['Pé na areia, de frente para a Praia de Itapororoca', 'Vista para o mar', 'Piscina', 'SPA e jacuzzi', 'Apoio de praia', 'Stand up paddle e caiaque', 'Beach tennis', 'Espaço gourmet com churrasqueira', 'Cozinha equipada', 'Adega de vinhos', 'Sala de estar e sala de jantar', 'Ar-condicionado', 'Ventilador de teto', 'Mosquiteiros', 'Internet Wi-Fi', 'TV a cabo', 'Som ambiente', 'Máquina de gelo', 'Freezer', 'Gerador', 'Poço artesiano', 'Estacionamento', 'Roupas de cama, mesa e banho', 'Toalhas de piscina e praia', 'Não é permitida a hospedagem de animais de estimação.'],
+    en: ['Beachfront on Itapororoca Beach', 'Ocean view', 'Swimming pool', 'SPA and jacuzzi', 'Beach service', 'Stand up paddle and kayak', 'Beach tennis', 'Gourmet area with barbecue', 'Equipped kitchen', 'Wine cellar', 'Living room and dining room', 'Air conditioning', 'Ceiling fans', 'Mosquito nets', 'Wi-Fi internet', 'Cable TV', 'Ambient sound system', 'Ice maker', 'Freezer', 'Generator', 'Artesian well', 'Parking', 'Bed, table and bath linen', 'Pool and beach towels', 'Pets are not allowed.'],
+  },
+  description: {
+    pt: 'De frente para a Praia de Itapororoca, a Casa Lua encanta pelos ambientes amplos, charmosos e cuidadosamente integrados à natureza.\n\nA propriedade é composta por uma casa principal e três bangalôs, totalizando cinco suítes e capacidade para receber até 12 hóspedes. A suíte máster conta com frigobar, cofre, banheira, espaço para massagem e uma privilegiada vista para o mar.\n\nOs espaços internos oferecem conforto, amplitude e conexão com a paisagem ao redor. A decoração, inspirada na cultura regional, reúne peças de artistas locais e cria uma atmosfera acolhedora, sofisticada e autenticamente trancosense.\n\nNa área externa, um exuberante jardim tropical com árvores nativas envolve a piscina, o espaço gourmet, as espreguiçadeiras e diferentes ambientes de descanso e lazer. A experiência é complementada por SPA, jacuzzi, apoio de praia, prancha de stand up paddle e caiaque à disposição dos hóspedes.\n\nConfiguração das suítes: Suíte Máster (piso superior) com 1 cama de casal king size, mosquiteiro, ar-condicionado, frigobar, cofre, secador de cabelo, banheira, espaço para massagem e vista para o mar; Suíte 02 (piso térreo) com 1 cama de casal king size, mosquiteiro, TV, ar-condicionado, ventilador de teto, cofre, secador de cabelo e vista para o jardim; Suíte 03 (piso térreo) com 1 cama de casal king size, mosquiteiro, 1 sofá-cama, ar-condicionado, cofre, secador de cabelo, minicozinha integrada e varanda com rede; Suíte 04 (piso térreo) com 1 cama de casal king size, mosquiteiro, 1 sofá-cama, ar-condicionado, cofre, secador de cabelo, minicozinha integrada e varanda com rede; Suíte 05 (piso térreo) com 1 cama de casal king size, mosquiteiro, ar-condicionado, cofre, banheira, secador de cabelo e varanda com vista para o jardim. Capacidade para até 12 hóspedes, com 5 camas king size e 2 sofás-cama.',
+    en: 'Facing Itapororoca Beach, Casa Lua delights with spacious, charming environments carefully integrated into nature.\n\nThe property consists of a main house and three bungalows, totaling five suites and capacity for up to 12 guests. The master suite features a minibar, safe, bathtub, massage space and a privileged ocean view.\n\nThe indoor spaces offer comfort, amplitude and connection with the surrounding landscape. The décor, inspired by regional culture, brings together pieces by local artists and creates a welcoming, sophisticated and authentically Trancoso atmosphere.\n\nOutside, a lush tropical garden with native trees surrounds the pool, the gourmet area, the sun loungers and different resting and leisure environments. The experience is complemented by a SPA, jacuzzi, beach service, stand up paddle board and kayak available to guests.\n\nSuite layout: Master Suite (upper floor) with 1 king-size bed, mosquito net, air conditioning, minibar, safe, hairdryer, bathtub, massage space and ocean view; Suite 02 (ground floor) with 1 king-size bed, mosquito net, TV, air conditioning, ceiling fan, safe, hairdryer and garden view; Suite 03 (ground floor) with 1 king-size bed, mosquito net, 1 sofa bed, air conditioning, safe, hairdryer, integrated kitchenette and balcony with hammock; Suite 04 (ground floor) with 1 king-size bed, mosquito net, 1 sofa bed, air conditioning, safe, hairdryer, integrated kitchenette and balcony with hammock; Suite 05 (ground floor) with 1 king-size bed, mosquito net, air conditioning, safe, bathtub, hairdryer and balcony with garden view. Capacity for up to 12 guests, with 5 king-size beds and 2 sofa beds.',
+  },
+  staff: {
+    pt: ['2 arrumadeiras', '1 cozinheira', '1 auxiliar de cozinha', '1 copeiro/garçom', '1 profissional de serviços gerais'],
+    en: ['2 housekeepers', '1 cook', '1 kitchen assistant', '1 waiter/butler', '1 general services professional'],
+  },
+  notes: {
+    pt: ['Diária em feriados: R$ 22.000.', 'Carnaval: sob consulta. Réveillon: pacote R$ 880.000.', 'Disponível também para venda: valor sob consulta.', 'Os valores não incluem 10% de taxa de serviço. Tarifas e disponibilidade estão sujeitas a alteração sem aviso prévio.'],
+    en: ['Holiday nightly rate: R$ 22,000.', 'Carnival: upon request. New Year\'s Eve: R$ 880,000 package.', 'Also available for sale: price upon request.', 'Rates do not include a 10% service fee. Rates and availability are subject to change without prior notice.'],
+  },
+  locationDetail: {
+    pt: 'Praia de Itapororoca, Trancoso — pé na areia, a aproximadamente 12 km do Quadrado Histórico.',
+    en: 'Itapororoca Beach, Trancoso — beachfront, about 12 km from the Historic Quadrado.',
+  },
+};
+
+const CASASOL: Property = {
+  id: 'casa-sol', code: 'TBA-283', name: { pt: 'Casa Sol', en: 'Casa Sol' },
+  purpose: ['aluguel'], location: 'Praia de Itapororoca', suites: 9, guests: 20, baths: 13, area: 'Terreno 23.400 m²',
+  price: { pt: 'R$ 37.375 / diária', en: 'R$ 37,375 / night' },
+  priceLow: { pt: 'R$ 33.100 / diária', en: 'R$ 33,100 / night' },
+  carnaval: { pt: 'Sob consulta', en: 'Upon request' },
+  reveillon: { pt: 'Sob consulta', en: 'Upon request' },
+  image: '/img/casasol/01.webp',
+  gallery: ['/img/casasol/01.webp','/img/casasol/02.webp','/img/casasol/03.webp','/img/casasol/04.webp','/img/casasol/05.webp','/img/casasol/06.webp','/img/casasol/07.webp','/img/casasol/08.webp','/img/casasol/09.webp','/img/casasol/10.webp','/img/casasol/11.webp','/img/casasol/12.webp','/img/casasol/13.webp','/img/casasol/14.webp','/img/casasol/15.webp','/img/casasol/16.webp','/img/casasol/17.webp','/img/casasol/18.webp','/img/casasol/19.webp','/img/casasol/20.webp','/img/casasol/21.webp','/img/casasol/22.webp','/img/casasol/23.webp','/img/casasol/24.webp','/img/casasol/25.webp','/img/casasol/26.webp','/img/casasol/27.webp','/img/casasol/28.webp','/img/casasol/29.webp','/img/casasol/30.webp','/img/casasol/31.webp','/img/casasol/32.webp','/img/casasol/33.webp','/img/casasol/34.webp','/img/casasol/35.webp'], featured: false,
+  amenities: {
+    pt: ['Pé na areia, com acesso direto à Praia de Itapororoca', 'Piscina com tratamento por sal', 'SPA, sauna, jacuzzi e ofurô', 'Sala de massagem', 'Sala de cinema', 'Lareira', 'Espaço gourmet completo', 'Forno de pizza e forno a lenha', 'Churrasqueira', 'Máquina de chope', 'Quadra de beach tennis', 'Bicicletas, caiaques e stand up paddle', 'Apoio de praia', 'Adega', 'Internet Wi-Fi', 'Ar-condicionado', 'Gerador', 'Estacionamento', 'Decoração assinada por Nanã Salles', 'Enxoval em linho 800 fios e amenities completos'],
+    en: ['Beachfront, with direct access to Itapororoca Beach', 'Salt-treated swimming pool', 'SPA, sauna, jacuzzi and ofuro tub', 'Massage room', 'Cinema room', 'Fireplace', 'Complete gourmet area', 'Pizza oven and wood-fired oven', 'Barbecue', 'Draft beer machine', 'Beach tennis court', 'Bicycles, kayaks and stand up paddle', 'Beach service', 'Wine cellar', 'Wi-Fi internet', 'Air conditioning', 'Generator', 'Parking', 'Décor signed by Nanã Salles', '800-thread-count linen bedding and complete amenities'],
+  },
+  description: {
+    pt: 'Esta exclusiva residência pé na areia em Itapororoca, Trancoso, acomoda até 20 hóspedes em 9 suítes distribuídas entre a casa principal e três bangalôs. Cercada pela Mata Atlântica e com acesso direto à praia, combina privacidade, sofisticação e contato com a natureza.\n\nProjetada para oferecer uma experiência completa, a propriedade dispõe de spa, jacuzzi, ofurô, sala de cinema, espaço gourmet com forno de pizza, forno a lenha, churrasqueira, máquina de chope e quadra de beach tennis. Os hóspedes ainda contam com bicicletas, caiaques, pranchas de stand up paddle e apoio de praia completo.\n\nA decoração, assinada por Nanã Salles, valoriza a cultura baiana por meio de peças de artesãos locais. Outro diferencial é a piscina tratada com sal, uma solução mais ecológica e suave para a pele e os cabelos.\n\nConfiguração das suítes: Suíte Master com cama king, closet, sala de estar, sala de massagem e banheiro com banheira; Suíte 01 com cama king e sofá-cama; Suítes 02, 03 e 08 com cama king — a Suíte 02 possui saleta, sofá-cama e mini copa; Suíte 04 com duas camas de solteiro e duas bicamas, conectada à Suíte 03; Suítes 06 e 07 com duas camas de viúvo cada. Capacidade para até 20 hóspedes.',
+    en: 'This exclusive beachfront residence in Itapororoca, Trancoso, accommodates up to 20 guests in 9 suites distributed between the main house and three bungalows. Surrounded by the Atlantic Forest and with direct beach access, it combines privacy, sophistication and contact with nature.\n\nDesigned to offer a complete experience, the property features a spa, jacuzzi, ofuro tub, cinema room, gourmet area with pizza oven, wood-fired oven, barbecue, draft beer machine and a beach tennis court. Guests also have bicycles, kayaks, stand up paddle boards and complete beach service.\n\nThe décor, signed by Nanã Salles, celebrates Bahian culture through pieces by local artisans. Another highlight is the salt-treated pool, a more ecological solution that is gentler on skin and hair.\n\nSuite layout: Master Suite with king bed, walk-in closet, living room, massage room and bathroom with bathtub; Suite 01 with king bed and sofa bed; Suites 02, 03 and 08 with king bed — Suite 02 also has a sitting area, sofa bed and mini kitchen; Suite 04 with two twin beds and two trundle beds, connected to Suite 03; Suites 06 and 07 with two wide twin beds each. Capacity for up to 20 guests.',
+  },
+  staff: {
+    pt: ['Staff completo incluído'],
+    en: ['Full staff included'],
+  },
+  notes: {
+    pt: ['Locação mínima de 5 diárias.', 'Carnaval e Réveillon: sob consulta.', 'Acrescentar 15% de taxa de serviço aos valores.', 'Banheiros dos bangalôs possuem acesso externo pelo jardim.'],
+    en: ['Minimum stay of 5 nights.', 'Carnival and New Year\'s Eve: upon request.', 'A 15% service charge applies to the rates.', 'Bungalow bathrooms have external access through the garden.'],
+  },
+  locationDetail: {
+    pt: 'Praia de Itapororoca, Trancoso — pé na areia, cercada pela Mata Atlântica, com acesso direto à praia.',
+    en: 'Itapororoca Beach, Trancoso — beachfront, surrounded by the Atlantic Forest, with direct beach access.',
+  },
+};
+
+const CASILLA: Property = {
+  id: 'casilla-del-mare-altos-de-trancoso', code: 'TBA-286', name: { pt: 'Casilla del Mare', en: 'Casilla del Mare' },
+  purpose: ['aluguel'], location: 'Altos de Trancoso', suites: 6, guests: 12, baths: 8, area: '1.000 m² construídos',
+  price: { pt: 'R$ 15.000 / diária', en: 'R$ 15,000 / night' },
+  priceLow: { pt: 'R$ 15.000 / diária', en: 'R$ 15,000 / night' },
+  carnaval: { pt: 'R$ 250.000 / pacote (5 dias)', en: 'R$ 250,000 / package (5 days)' },
+  reveillon: { pt: 'R$ 550.000 / pacote (10 dias)', en: 'R$ 550,000 / package (10 days)' },
+  image: '/img/casilla/01.webp',
+  gallery: ['/img/casilla/01.webp','/img/casilla/02.webp','/img/casilla/03.webp','/img/casilla/04.webp','/img/casilla/05.webp','/img/casilla/06.webp','/img/casilla/07.webp','/img/casilla/08.webp','/img/casilla/09.webp','/img/casilla/10.webp','/img/casilla/11.webp','/img/casilla/12.webp','/img/casilla/13.webp','/img/casilla/14.webp','/img/casilla/15.webp','/img/casilla/16.webp','/img/casilla/17.webp','/img/casilla/18.webp','/img/casilla/19.webp','/img/casilla/20.webp','/img/casilla/21.webp','/img/casilla/22.webp','/img/casilla/23.webp','/img/casilla/24.webp','/img/casilla/25.webp','/img/casilla/26.webp','/img/casilla/27.webp','/img/casilla/28.webp','/img/casilla/29.webp'], featured: false,
+  amenities: {
+    pt: ['Condomínio fechado', 'Piscina', 'Jardim tropical', 'Área gourmet completa', 'Churrasqueira', 'Parrilla argentina', 'Forno de pizza', 'Adega climatizada', 'Cozinha equipada', 'Sala de estar', 'Sala de jantar', 'Internet Wi-Fi', 'Ar-condicionado', 'Estacionamento'],
+    en: ['Gated community', 'Swimming pool', 'Tropical garden', 'Full gourmet area', 'Barbecue', 'Argentine parrilla', 'Pizza oven', 'Climate-controlled wine cellar', 'Equipped kitchen', 'Living room', 'Dining room', 'Wi-Fi internet', 'Air conditioning', 'Parking'],
+  },
+  description: {
+    pt: 'Localizada no exclusivo condomínio Altos de Trancoso, a Casilla del Mare combina arquitetura contemporânea, conforto e privacidade. A residência acomoda até 12 hóspedes em 6 suítes e oferece ambientes amplos, área gourmet completa com churrasqueira, parrilla argentina, forno de pizza e adega climatizada, além de piscina integrada ao jardim tropical.\n\nCom 1.000 m² de área construída, a casa dispõe de sala de estar, sala de jantar e cozinha equipada, tudo pensado para receber bem em qualquer época do ano.\n\nO condomínio Altos de Trancoso fica a poucos minutos do Quadrado e das principais praias, unindo segurança, exclusividade e fácil acesso ao melhor da vila.',
+    en: 'Located in the exclusive Altos de Trancoso gated community, Casilla del Mare combines contemporary architecture, comfort and privacy. The residence accommodates up to 12 guests in 6 suites and offers spacious interiors, a full gourmet area with barbecue, Argentine parrilla, pizza oven and climate-controlled wine cellar, plus a pool integrated into the tropical garden.\n\nWith 1,000 m² of built area, the house features a living room, dining room and equipped kitchen, all designed for entertaining year-round.\n\nThe Altos de Trancoso community is just a few minutes from the Quadrado and the main beaches, combining security, exclusivity and easy access to the best of the village.',
+  },
+  staff: {
+    pt: ['1 cozinheira, 1 ajudante e 1 arrumadeira'],
+    en: ['1 cook, 1 assistant and 1 housekeeper'],
+  },
+  notes: {
+    pt: ['Réveillon: pacote de 10 dias — R$ 550.000.', 'Carnaval: pacote de 5 dias — R$ 250.000.'],
+    en: ['New Year\'s Eve: 10-day package — R$ 550,000.', 'Carnival: 5-day package — R$ 250,000.'],
+  },
+  locationDetail: {
+    pt: 'Condomínio Altos de Trancoso, a poucos minutos do Quadrado e das principais praias.',
+    en: 'Altos de Trancoso gated community, a few minutes from the Quadrado and the main beaches.',
+  },
+};
+
+const COQUEIRAL5: Property = {
+  id: 'casa-coqueiral-5', code: 'TBA-289', name: { pt: 'Casa Coqueiral 5', en: 'Casa Coqueiral 5' },
+  purpose: ['aluguel'], location: 'Condomínio Coqueiral', suites: 5, guests: 14, baths: 5, area: '—',
+  price: { pt: 'R$ 3.800 / diária', en: 'R$ 3,800 / night' },
+  priceLow: { pt: 'R$ 2.800 / diária', en: 'R$ 2,800 / night' },
+  carnaval: { pt: 'R$ 35.000 / pacote', en: 'R$ 35,000 / package' },
+  reveillon: { pt: 'R$ 150.000 / pacote', en: 'R$ 150,000 / package' },
+  image: '/img/coqueiral5/01.webp',
+  gallery: ['/img/coqueiral5/01.webp','/img/coqueiral5/02.webp','/img/coqueiral5/03.webp','/img/coqueiral5/04.webp','/img/coqueiral5/05.webp','/img/coqueiral5/06.webp','/img/coqueiral5/07.webp','/img/coqueiral5/08.webp','/img/coqueiral5/09.webp','/img/coqueiral5/10.webp','/img/coqueiral5/11.webp','/img/coqueiral5/12.webp','/img/coqueiral5/13.webp','/img/coqueiral5/14.webp','/img/coqueiral5/15.webp','/img/coqueiral5/16.webp','/img/coqueiral5/17.webp','/img/coqueiral5/18.webp','/img/coqueiral5/19.webp','/img/coqueiral5/20.webp','/img/coqueiral5/21.webp','/img/coqueiral5/22.webp','/img/coqueiral5/23.webp','/img/coqueiral5/24.webp','/img/coqueiral5/25.webp','/img/coqueiral5/26.webp','/img/coqueiral5/27.webp','/img/coqueiral5/28.webp','/img/coqueiral5/29.webp','/img/coqueiral5/30.webp','/img/coqueiral5/31.webp','/img/coqueiral5/32.webp','/img/coqueiral5/33.webp','/img/coqueiral5/34.webp'], featured: false,
+  amenities: {
+    pt: ['Piscina de borda infinita', 'Hidromassagem', 'Ducha externa', 'Área gourmet', 'Churrasqueira', 'Mesa para refeições ao ar livre', 'Cozinha equipada', 'Sala de estar', 'Sala de jantar', 'Sala de TV', 'Redário integrado ao jardim', 'Jardim amplo', 'Vista para a mata nativa', 'Ar-condicionado nos quartos', 'Internet Wi-Fi'],
+    en: ['Infinity-edge pool', 'Jacuzzi', 'Outdoor shower', 'Gourmet area', 'Barbecue', 'Outdoor dining table', 'Equipped kitchen', 'Living room', 'Dining room', 'TV room', 'Hammock area integrated into the garden', 'Large garden', 'Native forest view', 'Air conditioning in the bedrooms', 'Wi-Fi internet'],
+  },
+  description: {
+    pt: 'A Casa Coqueiral 5 é uma residência acolhedora, cercada pelo verde e localizada no Condomínio Coqueiral, na entrada de Trancoso. A aproximadamente 2 km do Quadrado e 2,5 km da Praia dos Nativos, oferece tranquilidade e fácil acesso aos principais pontos do destino.\n\nInspirada nos cinco elementos da natureza — Fogo, Madeira, Terra, Água e Metal —, a casa apresenta uma arquitetura que combina o rústico e o sofisticado. O uso do reboco Santa Fé, os materiais naturais e a presença de peças produzidas por artesãos de diferentes regiões do Brasil criam ambientes autênticos, cheios de personalidade e conexão com a cultura brasileira.\n\nOs espaços sociais são amplos e convidativos, com sala de estar, sala de jantar, sala de TV e um agradável redário integrado ao jardim. A área externa foi pensada para os momentos de convivência e descanso, reunindo espaço gourmet, churrasqueira, mesa para refeições ao ar livre e piscina de borda infinita com hidromassagem.\n\nA vista para a mata nativa, o jardim exuberante e a ducha externa complementam a atmosfera de refúgio. A casa acomoda até 14 hóspedes, distribuídos em cinco suítes confortáveis e climatizadas.',
+    en: 'Casa Coqueiral 5 is a welcoming residence surrounded by greenery, located in the Coqueiral community at the entrance of Trancoso. Approximately 2 km from the Quadrado and 2.5 km from Praia dos Nativos, it offers tranquility and easy access to the destination\'s main attractions.\n\nInspired by the five elements of nature — Fire, Wood, Earth, Water and Metal —, the house features an architecture that blends rustic and sophisticated. The use of Santa Fé plaster, natural materials and pieces crafted by artisans from different regions of Brazil create authentic spaces full of personality and connection with Brazilian culture.\n\nThe social areas are spacious and inviting, with a living room, dining room, TV room and a pleasant hammock area integrated into the garden. The outdoor area was designed for gathering and relaxation, with a gourmet space, barbecue, outdoor dining table and an infinity-edge pool with jacuzzi.\n\nThe view of the native forest, the lush garden and the outdoor shower complete the retreat atmosphere. The house accommodates up to 14 guests in five comfortable, air-conditioned suites.',
+  },
+  staff: {
+    pt: ['Staff completo, sob consulta.'],
+    en: ['Full staff, upon request.'],
+  },
+  notes: {
+    pt: ['Capacidade para até 14 hóspedes em 5 suítes.', 'Carnaval: mínimo de 2 diárias.', 'Recomenda-se utilizar carro durante a hospedagem.'],
+    en: ['Capacity for up to 14 guests in 5 suites.', 'Carnival: 2-night minimum stay.', 'A car is recommended during the stay.'],
+  },
+  locationDetail: {
+    pt: 'Condomínio Coqueiral, na entrada de Trancoso — a aproximadamente 2 km do Quadrado e 2,5 km da Praia dos Nativos.',
+    en: 'Coqueiral community, at the entrance of Trancoso — approximately 2 km from the Quadrado and 2.5 km from Praia dos Nativos.',
+  },
+};
+
+const CASAJV12: Property = {
+  id: 'casa-joao-vieira-12', code: 'TBA-281', name: { pt: 'Casa João Vieira 12', en: 'Casa João Vieira 12' },
+  purpose: ['aluguel'], location: 'João Vieira', suites: 4, guests: 8, baths: 4, area: '—',
+  price: { pt: 'R$ 3.250 / diária', en: 'R$ 3,250 / night' },
+  priceLow: { pt: 'R$ 2.600 / diária', en: 'R$ 2,600 / night' },
+  carnaval: { pt: 'R$ 30.000', en: 'R$ 30,000' },
+  reveillon: { pt: 'R$ 120.000', en: 'R$ 120,000' },
+  image: '/img/joaovieira12/01.webp',
+  gallery: ['/img/joaovieira12/01.webp','/img/joaovieira12/02.webp','/img/joaovieira12/03.webp','/img/joaovieira12/04.webp','/img/joaovieira12/05.webp','/img/joaovieira12/06.webp','/img/joaovieira12/07.webp','/img/joaovieira12/08.webp','/img/joaovieira12/09.webp','/img/joaovieira12/10.webp','/img/joaovieira12/11.webp','/img/joaovieira12/12.webp','/img/joaovieira12/13.webp','/img/joaovieira12/14.webp','/img/joaovieira12/15.webp','/img/joaovieira12/16.webp','/img/joaovieira12/17.webp','/img/joaovieira12/18.webp','/img/joaovieira12/19.webp','/img/joaovieira12/20.webp','/img/joaovieira12/21.webp','/img/joaovieira12/22.webp','/img/joaovieira12/23.webp','/img/joaovieira12/24.webp','/img/joaovieira12/25.webp','/img/joaovieira12/26.webp','/img/joaovieira12/27.webp','/img/joaovieira12/28.webp','/img/joaovieira12/29.webp','/img/joaovieira12/30.webp','/img/joaovieira12/31.webp','/img/joaovieira12/32.webp','/img/joaovieira12/33.webp','/img/joaovieira12/34.webp','/img/joaovieira12/35.webp','/img/joaovieira12/36.webp'], featured: false,
+  amenities: {
+    pt: ['Piscina com deck e espreguiçadeiras', 'Cozinha gourmet azul com bar', 'Área gourmet integrada à piscina', 'Sala de estar com balanço', 'Mesa de jantar ampla', 'Bangalô de madeira independente', 'Ducha externa no jardim', 'Jardim tropical com rede', 'Ar-condicionado nas suítes', 'Mosquiteiros', 'Wi-Fi', 'Roupa de cama, mesa e banho'],
+    en: ['Pool with deck and sun loungers', 'Blue gourmet kitchen with bar', 'Gourmet area integrated with the pool', 'Living room with swing', 'Large dining table', 'Independent wooden bungalow', 'Outdoor garden shower', 'Tropical garden with hammock', 'Air conditioning in the suites', 'Mosquito nets', 'Wi-Fi', 'Bed, table and bath linen'],
+  },
+  description: {
+    pt: 'Localizada no charmoso condomínio João Vieira, a cerca de 10 minutos a pé do Quadrado, a Casa João Vieira 12 traduz a essência de Trancoso em uma arquitetura acolhedora assinada pelo arquiteto Benedetto Fernando Moreira. A decoração combina referências brasileiras e tunisianas, criando ambientes únicos, elegantes e cheios de personalidade.\n\nA casa principal abriga três suítes climatizadas, enquanto um bangalô de madeira independente no jardim oferece a quarta suíte, garantindo privacidade extra aos hóspedes. A icônica cozinha azul com bar se abre para a área gourmet e a piscina, formando o coração social da propriedade — cercada por jardim tropical, deck com espreguiçadeiras e uma agradável ducha externa.\n\nConfiguração das suítes: Suíte 01 com cama king size; Suíte 02 com cama queen size; Suíte 03 com duas camas de solteiro conversíveis em king size; Suíte 04 (bangalô de madeira) com cama queen size. Capacidade para até 8 hóspedes.',
+    en: 'Located in the charming João Vieira condominium, about a 10-minute walk from the Quadrado, Casa João Vieira 12 translates the essence of Trancoso into welcoming architecture signed by architect Benedetto Fernando Moreira. The décor combines Brazilian and Tunisian references, creating unique, elegant spaces full of personality.\n\nThe main house holds three air-conditioned suites, while an independent wooden bungalow in the garden offers the fourth suite, ensuring extra privacy for guests. The iconic blue kitchen with bar opens onto the gourmet area and the pool, forming the social heart of the property — surrounded by tropical garden, a deck with sun loungers and a pleasant outdoor shower.\n\nSuite layout: Suite 01 with king-size bed; Suite 02 with queen-size bed; Suite 03 with two twin beds convertible into a king; Suite 04 (wooden bungalow) with queen-size bed. Capacity for up to 8 guests.',
+  },
+  staff: {
+    pt: ['Baixa temporada: 1 arrumadeira e 1 jardineiro/piscineiro', 'Alta temporada: 1 arrumadeira, 1 jardineiro/piscineiro, 1 cozinheira e 1 auxiliar'],
+    en: ['Low season: 1 housekeeper and 1 gardener/pool keeper', 'High season: 1 housekeeper, 1 gardener/pool keeper, 1 cook and 1 assistant'],
+  },
+  notes: {
+    pt: ['Locação mínima de 4 diárias.', 'Pet mediante consulta prévia.', 'Carnaval: pacote R$ 30.000. Réveillon: pacote R$ 120.000.', 'A cerca de 10 minutos a pé do Quadrado.', 'Taxa de serviço: 10%.'],
+    en: ['Minimum stay of 4 nights.', 'Pets upon prior request.', 'Carnival: R$ 30,000 package. New Year\'s Eve: R$ 120,000 package.', 'About a 10-minute walk from the Quadrado.', 'Service fee: 10%.'],
+  },
+  locationDetail: {
+    pt: 'Condomínio João Vieira, Trancoso — a cerca de 10 minutos a pé do Quadrado Histórico.',
+    en: 'João Vieira Condominium, Trancoso — about a 10-minute walk from the Historic Quadrado.',
+  },
+};
+
+const MUXARABI: Property = {
+  id: 'casa-muxarabi-altos-de-trancoso', code: 'TBA-287', name: { pt: 'Casa Muxarabi', en: 'Casa Muxarabi' },
+  purpose: ['aluguel', 'venda'], location: 'Altos de Trancoso', suites: 6, guests: 13, baths: 6, area: 'Terreno 1.560 m² · 420 m² construídos',
+  price: { pt: 'R$ 9.000 / diária', en: 'R$ 9,000 / night' },
+  priceLow: { pt: 'R$ 8.000 / diária', en: 'R$ 8,000 / night' },
+  carnaval: { pt: 'R$ 70.000 / pacote', en: 'R$ 70,000 / package' },
+  reveillon: { pt: 'R$ 350.000 / pacote', en: 'R$ 350,000 / package' },
+  salePrice: { pt: 'R$ 9.500.000', en: 'R$ 9,500,000' },
+  image: '/img/muxarabi/01.webp',
+  gallery: ['/img/muxarabi/03.webp','/img/muxarabi/01.webp','/img/muxarabi/02.webp','/img/muxarabi/04.webp','/img/muxarabi/05.webp','/img/muxarabi/06.webp','/img/muxarabi/07.webp','/img/muxarabi/08.webp','/img/muxarabi/09.webp','/img/muxarabi/10.webp','/img/muxarabi/11.webp','/img/muxarabi/12.webp','/img/muxarabi/13.webp','/img/muxarabi/14.webp','/img/muxarabi/15.webp','/img/muxarabi/16.webp','/img/muxarabi/17.webp','/img/muxarabi/18.webp','/img/muxarabi/19.webp','/img/muxarabi/20.webp','/img/muxarabi/21.webp','/img/muxarabi/22.webp','/img/muxarabi/23.webp','/img/muxarabi/24.webp','/img/muxarabi/25.webp','/img/muxarabi/26.webp','/img/muxarabi/27.webp','/img/muxarabi/28.webp','/img/muxarabi/29.webp','/img/muxarabi/30.webp','/img/muxarabi/31.webp','/img/muxarabi/32.webp','/img/muxarabi/33.webp','/img/muxarabi/34.webp','/img/muxarabi/35.webp','/img/muxarabi/36.webp','/img/muxarabi/37.webp','/img/muxarabi/38.webp','/img/muxarabi/39.webp','/img/muxarabi/40.webp','/img/muxarabi/41.webp','/img/muxarabi/42.webp','/img/muxarabi/43.webp','/img/muxarabi/44.webp'], featured: false,
+  amenities: {
+    pt: ['Condomínio fechado de frente para o mar', 'Projeto do arquiteto André Luque', 'Fachada em muxarabi', 'Piscina de borda infinita', 'Sauna', 'Jardins com espécies nativas', 'Espaço gourmet', 'Churrasqueira', 'Adega de vinhos', 'Cervejeira', 'Cozinha equipada', 'Sala de estar', 'Sala de jantar', 'Lavabo', 'Lavanderia', 'Freezer', 'Ar-condicionado', 'Internet Wi-Fi', 'TV a cabo', 'Gerador', 'Poço artesiano', 'Estacionamento', 'Secador de cabelo', 'Roupas de cama, mesa e banho', 'Toalhas de piscina', 'Toalhas de praia'],
+    en: ['Beachfront gated community', 'Designed by architect André Luque', 'Muxarabi façade', 'Infinity-edge pool', 'Sauna', 'Gardens with native species', 'Gourmet area', 'Barbecue', 'Wine cellar', 'Beer fridge', 'Equipped kitchen', 'Living room', 'Dining room', 'Powder room', 'Laundry', 'Freezer', 'Air conditioning', 'Wi-Fi internet', 'Cable TV', 'Generator', 'Artesian well', 'Parking', 'Hairdryer', 'Bed, table and bath linens', 'Pool towels', 'Beach towels'],
+  },
+  description: {
+    pt: 'Projetada pelo premiado arquiteto André Luque, a Casa Muxarabi está localizada no Condomínio Altos de Trancoso, a aproximadamente 10 minutos de caminhada do Quadrado e da praia. Implantada sobre as falésias e cercada pela Mata Atlântica, a residência foi concebida para respeitar a topografia natural e integrar-se completamente à paisagem.\n\nConstruída em dois pavilhões, a casa se destaca pela fachada em muxarabi inspirada nas rendas baianas, pelas estruturas em madeira certificada e pelas amplas superfícies de vidro que valorizam a iluminação natural e as vistas para a vegetação.\n\nNa área externa, a piscina de borda infinita se volta para a copa das árvores, acompanhada por sauna e jardins com espécies nativas, criando um ambiente de tranquilidade, privacidade e sofisticação para até 13 hóspedes.\n\nDisponível para locação de temporada e também para venda (R$ 9.500.000).',
+    en: 'Designed by award-winning architect André Luque, Casa Muxarabi is located in the Altos de Trancoso community, approximately a 10-minute walk from the Quadrado and the beach. Set on the cliffs and surrounded by Atlantic Forest, the residence was conceived to respect the natural topography and blend completely into the landscape.\n\nBuilt in two pavilions, the house stands out for its muxarabi façade inspired by Bahian lace, its certified wood structures and the wide glass surfaces that enhance natural light and the views of the vegetation.\n\nOutside, the infinity-edge pool faces the treetops, accompanied by a sauna and gardens with native species, creating an atmosphere of tranquility, privacy and sophistication for up to 13 guests.\n\nAvailable for seasonal rental and also for sale (R$ 9,500,000).',
+  },
+  staff: {
+    pt: ['1 arrumadeira, 1 cozinheira, 1 auxiliar de cozinha e 1 colaborador de serviços gerais'],
+    en: ['1 housekeeper, 1 cook, 1 kitchen assistant and 1 general services staff member'],
+  },
+  notes: {
+    pt: ['Locação mínima de 4 diárias.', 'Preços não incluem 10% de taxa de serviço.', 'Réveillon e Carnaval: valores de pacotes especiais.'],
+    en: ['Minimum stay of 4 nights.', 'Rates do not include a 10% service charge.', 'New Year\'s Eve and Carnival: special package rates.'],
+  },
+  locationDetail: {
+    pt: 'Condomínio Altos de Trancoso — cercado pela Mata Atlântica e de frente para o mar, a aproximadamente 10 minutos de caminhada do Quadrado e da praia.',
+    en: 'Altos de Trancoso community — surrounded by Atlantic Forest and facing the sea, approximately a 10-minute walk from the Quadrado and the beach.',
+  },
+};
+
+const NOA: Property = {
+  id: 'casa-noa-altos-de-trancoso', code: 'TBA-290', name: { pt: 'Casa Noa', en: 'Casa Noa' },
+  purpose: ['aluguel'], location: 'Altos de Trancoso', suites: 3, guests: 6, baths: 4, area: 'Terreno 1.420 m² · 290 m² construídos',
+  price: { pt: 'R$ 3.400 / diária', en: 'R$ 3,400 / night' },
+  priceLow: { pt: 'R$ 2.800 / diária', en: 'R$ 2,800 / night' },
+  carnaval: { pt: 'R$ 35.000 / pacote', en: 'R$ 35,000 / package' },
+  reveillon: { pt: 'R$ 150.000 / pacote', en: 'R$ 150,000 / package' },
+  image: '/img/noa/01.webp',
+  gallery: ['/img/noa/01.webp','/img/noa/02.webp','/img/noa/03.webp','/img/noa/04.webp','/img/noa/05.webp','/img/noa/06.webp','/img/noa/07.webp','/img/noa/08.webp','/img/noa/09.webp','/img/noa/10.webp','/img/noa/11.webp','/img/noa/12.webp','/img/noa/13.webp','/img/noa/14.webp','/img/noa/15.webp','/img/noa/16.webp','/img/noa/17.webp','/img/noa/18.webp','/img/noa/19.webp','/img/noa/20.webp','/img/noa/21.webp','/img/noa/22.webp','/img/noa/23.webp','/img/noa/24.webp','/img/noa/25.webp','/img/noa/26.webp','/img/noa/27.webp','/img/noa/28.webp','/img/noa/29.webp','/img/noa/30.webp','/img/noa/31.webp','/img/noa/32.webp','/img/noa/33.webp','/img/noa/34.webp','/img/noa/35.webp','/img/noa/36.webp','/img/noa/37.webp'], featured: false,
+  amenities: {
+    pt: ['Condomínio fechado', 'Vista para o mar', 'Piscina', 'Jardim com paisagismo assinado', 'Cozinha equipada', 'Sala de estar', 'Sala de jantar', 'Lavabo', 'Lavanderia', 'Ar-condicionado', 'Mosquiteiros', 'Internet Wi-Fi', 'TV a cabo', 'Estacionamento', 'Poço artesiano', 'Roupas de cama, mesa e banho'],
+    en: ['Gated community', 'Ocean view', 'Swimming pool', 'Garden with signature landscaping', 'Equipped kitchen', 'Living room', 'Dining room', 'Powder room', 'Laundry', 'Air conditioning', 'Mosquito nets', 'Wi-Fi internet', 'Cable TV', 'Parking', 'Artesian well', 'Bed, table and bath linens'],
+  },
+  description: {
+    pt: 'A Casa Noa está localizada no Condomínio Altos de Trancoso, um dos endereços mais exclusivos da região. Com terreno de 1.420 m² e 290 m² de área construída, a residência foi projetada para integrar arquitetura, conforto e natureza, oferecendo uma atmosfera de tranquilidade cercada por vegetação preservada e horizonte para o mar.\n\nAssinada pela arquiteta Cris Nogueira, a casa segue o estilo rústico-chique característico de Trancoso, combinando madeira, vidro e materiais naturais. A decoração, assinada por Cris Nogueira e Thaís Derron, valoriza a arte brasileira contemporânea, enquanto o paisagismo de Juliana Favarato e Gabriel Bittencourt reforça a conexão com a Mata Atlântica.\n\nA área social integra sala de estar, jantar, cozinha equipada e piscina, criando ambientes acolhedores para momentos de descanso. A casa acomoda até 6 hóspedes em três suítes, sendo duas na residência principal e uma em bangalô independente.',
+    en: 'Casa Noa is located in the Altos de Trancoso community, one of the most exclusive addresses in the region. With a 1,420 m² plot and 290 m² of built area, the residence was designed to integrate architecture, comfort and nature, offering an atmosphere of tranquility surrounded by preserved vegetation and a sea horizon.\n\nDesigned by architect Cris Nogueira, the house follows Trancoso\'s signature rustic-chic style, combining wood, glass and natural materials. The décor, by Cris Nogueira and Thaís Derron, celebrates contemporary Brazilian art, while the landscaping by Juliana Favarato and Gabriel Bittencourt reinforces the connection with the Atlantic Forest.\n\nThe social area integrates living room, dining room, equipped kitchen and pool, creating welcoming spaces for relaxation. The house accommodates up to 6 guests in three suites — two in the main residence and one in an independent bungalow.',
+  },
+  staff: {
+    pt: ['1 arrumadeira, 1 cozinheira e 1 jardineiro/piscineiro'],
+    en: ['1 housekeeper, 1 cook and 1 gardener/pool attendant'],
+  },
+  notes: {
+    pt: ['Locação mínima de 3 diárias.', 'Não é permitida a entrada de animais de estimação.', 'Preços não incluem 10% de taxa de serviço.', 'Feriados: diária de R$ 3.400.'],
+    en: ['Minimum stay of 3 nights.', 'Pets are not allowed.', 'Rates do not include a 10% service charge.', 'Holidays: nightly rate of R$ 3,400.'],
+  },
+  locationDetail: {
+    pt: 'Condomínio Altos de Trancoso — segurança, privacidade e excelente localização, próximo ao Quadrado e às praias dos Nativos e dos Coqueiros.',
+    en: 'Altos de Trancoso community — security, privacy and an excellent location, close to the Quadrado and the Nativos and Coqueiros beaches.',
+  },
+};
+
+const PONTA03: Property = {
+  id: 'casa-da-ponta-03', code: 'TBA-291', name: { pt: 'Casa da Ponta 03', en: 'Casa da Ponta 03' },
+  purpose: ['aluguel'], location: 'Rio da Barra', suites: 6, guests: 12, baths: 6, area: '—',
+  price: { pt: 'R$ 18.000 / diária', en: 'R$ 18,000 / night' },
+  priceLow: { pt: 'R$ 16.000 / diária', en: 'R$ 16,000 / night' },
+  carnaval: { pt: 'Sob consulta', en: 'Upon request' },
+  reveillon: { pt: 'Sob consulta', en: 'Upon request' },
+  image: '/img/ponta03/01.webp',
+  gallery: ['/img/ponta03/04.webp','/img/ponta03/02.webp','/img/ponta03/03.webp','/img/ponta03/01.webp','/img/ponta03/05.webp','/img/ponta03/06.webp','/img/ponta03/07.webp','/img/ponta03/08.webp','/img/ponta03/09.webp','/img/ponta03/10.webp','/img/ponta03/11.webp','/img/ponta03/12.webp','/img/ponta03/13.webp','/img/ponta03/14.webp','/img/ponta03/15.webp','/img/ponta03/16.webp','/img/ponta03/17.webp','/img/ponta03/18.webp','/img/ponta03/19.webp','/img/ponta03/20.webp','/img/ponta03/21.webp','/img/ponta03/22.webp','/img/ponta03/23.webp','/img/ponta03/24.webp','/img/ponta03/25.webp','/img/ponta03/26.webp','/img/ponta03/27.webp','/img/ponta03/28.webp','/img/ponta03/29.webp','/img/ponta03/30.webp','/img/ponta03/31.webp','/img/ponta03/32.webp','/img/ponta03/33.webp','/img/ponta03/34.webp','/img/ponta03/35.webp','/img/ponta03/36.webp','/img/ponta03/37.webp','/img/ponta03/38.webp','/img/ponta03/39.webp','/img/ponta03/40.webp','/img/ponta03/41.webp','/img/ponta03/42.webp','/img/ponta03/43.webp','/img/ponta03/44.webp'], featured: false,
+  amenities: {
+    pt: ['Pé na areia', 'Vista para o mar', 'Apoio de praia', 'Espreguiçadeiras e ombrelone', 'Toalhas de praia', 'Churrasqueira', 'Sala de estar', 'Sala de jantar', 'Cozinha equipada', 'Lavabo', 'Lavanderia', 'Ar-condicionado', 'Ventiladores de teto', 'Mosquiteiros', 'Internet Wi-Fi', 'TV a cabo', 'Som ambiente', 'Conexão para iPod', 'Máquina de gelo', 'Freezer', 'Ambiente kids friendly', 'Gerador', 'Poço artesiano', 'Estacionamento', 'Roupa de cama, mesa e banho'],
+    en: ['Beachfront', 'Ocean view', 'Beach service', 'Sun loungers and parasol', 'Beach towels', 'Barbecue grill', 'Living room', 'Dining room', 'Equipped kitchen', 'Powder room', 'Laundry', 'Air conditioning', 'Ceiling fans', 'Mosquito nets', 'Wi-Fi internet', 'Cable TV', 'Ambient sound system', 'iPod connection', 'Ice maker', 'Freezer', 'Kid-friendly environment', 'Generator', 'Artesian well', 'Parking', 'Bed, table and bath linens'],
+  },
+  description: {
+    pt: 'Bem-vindo à Casa da Ponta 03, um refúgio encantador à beira-mar, cercado pelo mangue e por um exuberante jardim tropical. A propriedade convida a desacelerar e aproveitar Trancoso com conforto, privacidade e uma conexão imediata com a natureza.\n\nA casa dispõe de redários, apoio de praia e diversos espaços abertos. No gramado que se encontra com as areias da Praia do Rio da Barra, uma mesa de jantar ao ar livre cria o cenário perfeito para refeições embaladas pela brisa do mar.\n\nA arquitetura segue o estilo rústico-chic característico de Trancoso, com estruturas em vidro e madeira integradas ao entorno. A decoração valoriza a cultura regional por meio de peças de artistas locais, compondo ambientes elegantes, acolhedores e cheios de identidade. Com seis suítes, a propriedade acomoda confortavelmente até doze hóspedes.',
+    en: 'Welcome to Casa da Ponta 03, a charming beachfront retreat surrounded by mangroves and a lush tropical garden. The property invites you to slow down and enjoy Trancoso with comfort, privacy and an immediate connection with nature.\n\nThe house offers hammock areas, beach service and several open-air spaces. On the lawn that meets the sands of Rio da Barra Beach, an outdoor dining table creates the perfect setting for meals caressed by the sea breeze.\n\nThe architecture follows Trancoso\'s signature rustic-chic style, with glass and wood structures integrated into the surroundings. The décor celebrates regional culture through pieces by local artists, composing elegant, welcoming spaces full of identity. With six suites, the property comfortably accommodates up to twelve guests.',
+  },
+  staff: {
+    pt: ['Equipe completa composta por 2 arrumadeiras, 1 cozinheira, 1 ajudante de cozinha, 1 barman, 1 caseiro e 1 vigia noturno.'],
+    en: ['Full staff consisting of 2 housekeepers, 1 cook, 1 kitchen assistant, 1 bartender, 1 caretaker and 1 night watchman.'],
+  },
+  notes: {
+    pt: ['Locação mínima de 5 diárias.', 'Valores e disponibilidade sujeitos a alteração sem aviso prévio.', 'Condições especiais de Réveillon e Carnaval sob consulta.'],
+    en: ['Minimum stay of 5 nights.', 'Rates and availability subject to change without prior notice.', 'Special New Year\'s Eve and Carnival conditions upon request.'],
+  },
+  locationDetail: {
+    pt: 'Pé na areia na Praia do Rio da Barra, a aproximadamente 5 minutos de carro do Quadrado Histórico de Trancoso e a 45 km do Aeroporto Internacional de Porto Seguro.',
+    en: 'Beachfront on Rio da Barra Beach, approximately 5 minutes by car from Trancoso\'s Historic Quadrado and 45 km from Porto Seguro International Airport.',
+  },
+};
+
+const SELVA: Property = {
+  id: 'casa-selva-altos-de-patimirim', code: 'TBA-292', name: { pt: 'Casa Selva', en: 'Casa Selva' },
+  purpose: ['aluguel', 'venda'], location: 'Altos de Patimirim', suites: 7, guests: 15, baths: 9, area: 'Terreno 20.000 m² · 1.100 m² construídos',
+  salePrice: { pt: 'Sob consulta', en: 'Upon request' },
+  price: { pt: 'R$ 16.000 / diária', en: 'R$ 16,000 / night' },
+  priceLow: { pt: 'R$ 14.000 / diária', en: 'R$ 14,000 / night' },
+  carnaval: { pt: 'R$ 200.000 (pacote de 5 dias)', en: 'R$ 200,000 (5-day package)' },
+  reveillon: { pt: 'R$ 650.000 (pacote de 10 dias)', en: 'R$ 650,000 (10-day package)' },
+  image: '/img/selva/01.webp',
+  gallery: ['/img/selva/01.webp','/img/selva/02.webp','/img/selva/03.webp','/img/selva/04.webp','/img/selva/05.webp','/img/selva/06.webp','/img/selva/07.webp','/img/selva/08.webp','/img/selva/09.webp','/img/selva/10.webp','/img/selva/11.webp','/img/selva/12.webp','/img/selva/13.webp','/img/selva/14.webp','/img/selva/15.webp','/img/selva/16.webp','/img/selva/17.webp','/img/selva/18.webp','/img/selva/19.webp','/img/selva/20.webp','/img/selva/21.webp','/img/selva/22.webp','/img/selva/23.webp','/img/selva/24.webp','/img/selva/25.webp','/img/selva/26.webp','/img/selva/27.webp','/img/selva/28.webp','/img/selva/29.webp','/img/selva/30.webp','/img/selva/31.webp','/img/selva/32.webp','/img/selva/33.webp','/img/selva/34.webp','/img/selva/35.webp','/img/selva/36.webp','/img/selva/37.webp','/img/selva/38.webp','/img/selva/39.webp','/img/selva/40.webp'], featured: false,
+  amenities: {
+    pt: ['Piscina', 'Apoio de praia', 'Heliponto privativo', 'Trilhas privativas', 'Produção artesanal de mel', 'Sala de estar', 'Sala de jantar', 'Cozinha equipada', 'Lavabo', 'Lavanderia', 'Ar-condicionado', 'Mosquiteiro', 'Churrasqueira', 'Espreguiçadeiras e ombrelone', 'Toalhas de praia', 'Internet Wi-Fi', 'TV a cabo', 'Freezer', 'Condomínio', 'Estacionamento', 'Roupas de cama, mesa e banho'],
+    en: ['Swimming pool', 'Beach service', 'Private helipad', 'Private trails', 'Artisanal honey production', 'Living room', 'Dining room', 'Equipped kitchen', 'Powder room', 'Laundry', 'Air conditioning', 'Mosquito nets', 'Barbecue grill', 'Sun loungers and parasol', 'Beach towels', 'Wi-Fi internet', 'Cable TV', 'Freezer', 'Gated community', 'Parking', 'Bed, table and bath linens'],
+  },
+  description: {
+    pt: 'A Casa Selva está inserida em um cenário de natureza completamente preservada, cercada por uma ampla área verde e com total privacidade, sem vizinhos ao redor. Um verdadeiro refúgio para quem busca exclusividade, tranquilidade e contato genuíno com a Mata Atlântica.\n\nA propriedade conta com trilhas privativas em meio à mata, que proporcionam experiências únicas em um ambiente de rara beleza natural. Outro grande diferencial é o heliponto privativo, oferecendo praticidade, conforto e discrição nas chegadas.\n\nA produção artesanal de mel realizada na própria propriedade acrescenta autenticidade e charme à experiência.\n\nCom 20.000 m² de terreno e 1.100 m² de área construída, a casa foi projetada para oferecer amplitude, conforto e integração com o entorno. São sete suítes espaçosas, além de apoio exclusivo de praia, garantindo comodidade à beira-mar.\n\nUma propriedade única, ideal para quem valoriza privacidade absoluta e uma atmosfera sofisticada em um dos cenários mais especiais do litoral baiano. O projeto é assinado pela arquiteta Cris Nogueira, que também responde pela decoração, com paisagismo de Ulisse Baggi.',
+    en: 'Casa Selva is set in a completely preserved natural landscape, surrounded by a vast green area with total privacy and no neighbors around. A true retreat for those seeking exclusivity, tranquility and a genuine connection with the Atlantic Forest.\n\nThe property features private trails through the forest, offering unique experiences in an environment of rare natural beauty. Another highlight is the private helipad, providing convenience, comfort and discretion on arrival.\n\nThe artisanal honey produced on the property itself adds authenticity and charm to the experience.\n\nWith 20,000 m² of land and 1,100 m² of built area, the house was designed to offer spaciousness, comfort and integration with the surroundings. There are seven generous suites, plus exclusive beach service, ensuring comfort by the sea.\n\nA unique property, ideal for those who value absolute privacy and a sophisticated atmosphere in one of the most special settings on the Bahian coast. The project is signed by architect Cris Nogueira, who is also responsible for the décor, with landscaping by Ulisse Baggi.',
+  },
+  staff: {
+    pt: ['3 arrumadeiras, 1 cozinheira, 1 auxiliar de cozinha e 1 caseiro.'],
+    en: ['3 housekeepers, 1 cook, 1 kitchen assistant and 1 caretaker.'],
+  },
+  notes: {
+    pt: ['Locação mínima: 5 diárias.', 'Réveillon: deve ser acrescida taxa de serviço de 5% ao valor da locação.', 'Não são permitidos pets.'],
+    en: ['Minimum stay: 5 nights.', 'New Year\'s Eve: a 5% service fee must be added to the rental rate.', 'Pets are not allowed.'],
+  },
+  locationDetail: {
+    pt: 'Altos de Patimirim, na região de Itapororoca, em Trancoso, Bahia.',
+    en: 'Altos de Patimirim, in the Itapororoca region, in Trancoso, Bahia.',
+  },
+};
+
+const VILAS16: Property = {
+  id: 'vilas-altos-de-trancoso-casa-16', code: 'TBA-293', name: { pt: 'Casa 16', en: 'Casa 16' },
+  purpose: ['aluguel'], location: 'Altos de Trancoso', suites: 3, guests: 6, baths: 4, area: '233 m²',
+  price: { pt: 'R$ 7.500 / diária', en: 'R$ 7,500 / night' },
+  priceLow: { pt: 'R$ 6.000 / diária', en: 'R$ 6,000 / night' },
+  carnaval: { pt: 'R$ 75.000 / pacote', en: 'R$ 75,000 / package' },
+  reveillon: { pt: 'R$ 250.000 / pacote', en: 'R$ 250,000 / package' },
+  image: '/img/vilas16/01.webp',
+  gallery: ['/img/vilas16/01.webp','/img/vilas16/02.webp','/img/vilas16/03.webp','/img/vilas16/04.webp','/img/vilas16/05.webp','/img/vilas16/06.webp','/img/vilas16/07.webp','/img/vilas16/08.webp','/img/vilas16/09.webp','/img/vilas16/10.webp','/img/vilas16/11.webp','/img/vilas16/12.webp','/img/vilas16/13.webp','/img/vilas16/14.webp','/img/vilas16/15.webp','/img/vilas16/16.webp','/img/vilas16/17.webp','/img/vilas16/18.webp','/img/vilas16/19.webp','/img/vilas16/20.webp','/img/vilas16/21.webp','/img/vilas16/22.webp','/img/vilas16/23.webp','/img/vilas16/24.webp','/img/vilas16/25.webp','/img/vilas16/26.webp','/img/vilas16/27.webp','/img/vilas16/28.webp','/img/vilas16/29.webp','/img/vilas16/30.webp','/img/vilas16/31.webp','/img/vilas16/32.webp','/img/vilas16/33.webp','/img/vilas16/34.webp','/img/vilas16/35.webp','/img/vilas16/36.webp'], featured: false,
+  amenities: {
+    pt: ['Piscina privativa', 'Espaço gourmet', 'Churrasqueira', 'Apoio de praia', 'Pé na areia', 'Café da manhã', 'Sala de estar', 'Sala de jantar', 'Sala de TV', 'Cozinha equipada', 'Lavabo', 'Lavanderia', 'Ar-condicionado', 'TV', 'Netflix', 'Internet Wi-Fi', 'Espreguiçadeiras e ombrelone', 'Toalhas de praia', 'Toalhas de piscina', 'Cervejeira', 'Freezer', 'Secador de cabelo', 'Ambiente kids friendly', 'Serviços gerais', 'Gerador', 'Extintor', 'Poço artesiano', 'Estacionamento', 'Condomínio Vilas Altos de Trancoso', 'Roupa de cama, mesa e banho'],
+    en: ['Private pool', 'Gourmet area', 'Barbecue grill', 'Beach service', 'Beachfront', 'Breakfast', 'Living room', 'Dining room', 'TV room', 'Equipped kitchen', 'Powder room', 'Laundry', 'Air conditioning', 'TV', 'Netflix', 'Wi-Fi internet', 'Sun loungers and parasol', 'Beach towels', 'Pool towels', 'Beer fridge', 'Freezer', 'Hairdryer', 'Kid-friendly environment', 'General services', 'Generator', 'Fire extinguisher', 'Artesian well', 'Parking', 'Vilas Altos de Trancoso community', 'Bed, table and bath linens'],
+  },
+  description: {
+    pt: 'Com atmosfera acolhedora e sofisticada, a Casa 16 foi projetada para proporcionar conforto, praticidade e momentos especiais em família ou entre amigos. A propriedade possui três suítes no piso superior, sendo duas equipadas com sofá-cama, oferecendo versatilidade na acomodação dos hóspedes.\n\nNa área externa, o espaço gourmet completo, a churrasqueira e a piscina privativa formam um ambiente perfeito para refeições descontraídas e dias de descanso sob o clima de Trancoso.\n\nLocalizada no condomínio Vilas Altos de Trancoso, na Praia dos Coqueiros, a casa oferece fácil acesso ao melhor do destino. O apoio de praia do condomínio conta com atendimento do Beach Club Almar, que serve refeições, petiscos e drinks à beira-mar.\n\nO projeto é assinado pelo arquiteto Gui Mattos, com paisagismo da Cia do Verde e decoração de Gutemberg Siso.',
+    en: 'With a welcoming and sophisticated atmosphere, Casa 16 was designed to provide comfort, practicality and special moments with family or friends. The property has three suites on the upper floor, two of them equipped with a sofa bed, offering versatility in guest accommodation.\n\nOutside, the complete gourmet area, barbecue grill and private pool form the perfect setting for relaxed meals and days of rest under the Trancoso sky.\n\nLocated in the Vilas Altos de Trancoso community, on Coqueiros Beach, the house offers easy access to the best of the destination. The community\'s beach service is operated by the Almar Beach Club, which serves meals, snacks and drinks by the sea.\n\nThe project is signed by architect Gui Mattos, with landscaping by Cia do Verde and décor by Gutemberg Siso.',
+  },
+  staff: {
+    pt: ['1 arrumadeira.'],
+    en: ['1 housekeeper.'],
+  },
+  notes: {
+    pt: ['Locação mínima de 3 noites.', 'Não são permitidos animais de estimação.', 'Feriados: diária de R$ 7.500.', 'Valores e disponibilidade sujeitos a alteração sem aviso prévio.'],
+    en: ['Minimum stay of 3 nights.', 'Pets are not allowed.', 'Holidays: nightly rate of R$ 7,500.', 'Rates and availability subject to change without prior notice.'],
+  },
+  locationDetail: {
+    pt: 'Condomínio Vilas Altos de Trancoso, na Praia dos Coqueiros, em Trancoso, Bahia. A propriedade está inserida em uma região privilegiada, com acesso ao apoio de praia do condomínio e ao atendimento do Beach Club Almar.',
+    en: 'Vilas Altos de Trancoso community, on Coqueiros Beach, in Trancoso, Bahia. The property is set in a privileged region, with access to the community\'s beach service and the Almar Beach Club.',
+  },
+};
+
+PROPERTIES.unshift(AROEIRA, CASA11ALDEIA, CASADEI, CASALUA, CASASOL, CASILLA, COQUEIRAL5, CASAJV12, MUXARABI, NOA, PONTA03, SELVA, VILAS16, GRAODEMAR, VILAS37, VILAS27, VILAS61, VILAS62, VILLAQ, JV5, PADRE, FASANOJ2, COQ15, CASAFLO, CASACP, TEMPO03, OLAVA, BUENAVISTA, FAZENDA29, VILAS39, TVB12, GOLF28, COQ12, COQ11, VILLAW, COQ10, COQ27, IEMANJA, COQ09, NANA, VILAS34, JUE, TEMPO04, COQ04, HELENA, ALTAR, DUE, AZUL, FER, COLINA3, COLINA2, COLINA, ECO01, ECO03, ECO04, VISTA, GOLF95, VILA13, COQUEIRAL01, OKUN, GOLF62, TVB10, MANGABA, GOLF21, GOLF19, GOLF33, GOLF37, GOLF27, TRAMA, TIZZI, LILI, COQUEIRAL02, JV15, JV14, JV13, PEROBA, COQ06, COQUEIRAL7, COQ08, V7, MARTINI, SANTARITA, PATIMIRIM, DAJU, BUENO, BONITA, AREIA, COQUEIRAL13, SUBLIME, ESTRELA, VISTANATIVOS, TERRAL, ITAPO05, ITAPO01, ATENA, JACARANDA04, COQUEIRAL14, C20, CASAMARIA, ALMESCLA, CASAMAR, GEIGER, C21, MIA, COQUEIRAL22, MAION, DADINHO, IANDE, MAGIVI, OITI, C23, C24, NAOCA, CASA71, CAJU, SANMARCO, CASA14, CASA09, BOSSA, TUA, IMBIRUCU, CASA42, CASA61, VILAS02, CASA80, ITAPO07, CASA96, CASA90, VILAS75, LIMOEIRO, BIRIBA, VILAMAR, BETTONI, PINI, AUREA, SAOJORGE, CAZA, ITAPO06, ITAPO04, ALEGRIA, PONTA, PG11, PG111, PG104, MANDACARU, PONTARB, FALESIA, RAIZES, PONTABARRA, FASANO10, FASANO16, FASANO17, VILAS26, GOLF58, FLORESTA, VILAS41, VILAS67, BOUTIQUE13, ARACUA, JACARANDA03, TEIU, GOLF25, PG50, CASAEDO, BALEIA, PG55, GOLF72, PITANGA, AFRICA, TEMPO07, TEMPO08, TEMPO06, BOSQUE, PATIO, PG32, PG45, LICURI, DIVINA, TRESMENINAS, COQUEIRAL25, MORENA, MOA, BRAGA, CUMARU, JACARANDA05, TB14, MACONDO, RICK);
 
 // Todas as casas em ordem alfabética (nome em português).
 PROPERTIES.sort((a, b) => a.name.pt.localeCompare(b.name.pt, 'pt-BR', { numeric: true }));
