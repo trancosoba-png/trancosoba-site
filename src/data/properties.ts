@@ -1429,7 +1429,7 @@ const BOUTIQUE13: Property = {
 
 const ARACUA: Property = {
   id: 'casa-aracua', code: 'TBA-246', name: { pt: 'Casa Aracuã', en: 'Casa Aracuã' },
-  purpose: ['aluguel'], location: 'Trancoso', suites: 5, guests: 16, baths: 6, area: '711 m² · terreno 1.484 m²',
+  purpose: ['aluguel'], location: 'Centro', suites: 5, guests: 16, baths: 6, area: '711 m² · terreno 1.484 m²',
   price: { pt: 'R$ 6.500 / diária', en: 'R$ 6,500 / night' },
   priceLow: { pt: 'R$ 5.500 / diária', en: 'R$ 5,500 / night' },
   reveillon: { pt: 'R$ 120.000', en: 'R$ 120,000' },
