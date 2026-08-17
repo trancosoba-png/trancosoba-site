@@ -3344,6 +3344,22 @@ const TERRAL: Property = {
   features: ['condominio', 'piscina', 'vista-mar'],
 };
 
+const ITAPO11: Property = {
+  id: 'aldeia-itapororoca-11', code: 'TBA-389', name: { pt: 'Aldeia Itapororoca 11', en: 'Aldeia Itapororoca 11' },
+  purpose: ['aluguel'], location: 'Praia de Itapororoca', suites: 7, guests: 14, baths: 7, area: '—',
+  price: { pt: 'A partir de R$ 16.500 / diária', en: 'From R$ 16,500 / night' },
+  image: '/img/aldeia-11/01.webp',
+  gallery: ['/img/aldeia-11/01.webp'], featured: false,
+  amenities: {
+    pt: ['Na Praia de Itapororoca', '7 suítes', 'Amplo jardim com árvores nativas e gramados', 'Ambientes integrados à natureza', 'Privacidade e tranquilidade'],
+    en: ['On Itapororoca Beach', '7 suites', 'Large garden with native trees and lawns', 'Rooms integrated with nature', 'Privacy and tranquility'],
+  },
+  description: {
+    pt: 'Localizada na Aldeia Itapororoca, na Praia de Itapororoca, em Trancoso, a Aldeia Itapororoca 11 é uma casa ampla e acolhedora, cercada por um belo jardim de árvores nativas e gramados, em um dos endereços mais tranquilos e desejados da região.\n\nCom 7 suítes e capacidade para até 14 hóspedes, a propriedade é ideal para famílias e grupos que buscam conforto, privacidade e contato direto com a natureza, a poucos passos de uma das praias mais bonitas e preservadas de Trancoso.\n\nSeguindo o padrão das casas da Aldeia Itapororoca, a residência combina arquitetura integrada à paisagem, ambientes arejados e áreas de convivência generosas, com fácil acesso à Praia de Itapororoca.',
+    en: 'Located in Aldeia Itapororoca, on Itapororoca Beach, in Trancoso, Aldeia Itapororoca 11 is a spacious and welcoming house, surrounded by a beautiful garden of native trees and lawns, in one of the most peaceful and desirable addresses in the region.\n\nWith 7 suites and capacity for up to 14 guests, the property is ideal for families and groups seeking comfort, privacy and direct contact with nature, just a few steps from one of the most beautiful and preserved beaches in Trancoso.\n\nFollowing the standard of the Aldeia Itapororoca houses, the residence combines architecture integrated with the landscape, airy rooms and generous gathering areas, with easy access to Itapororoca Beach.',
+  },
+};
+
 const ITAPO05: Property = {
   id: 'aldeia-itapororoca-05', code: 'TBA-388', name: { pt: 'Aldeia Itapororoca 05', en: 'Aldeia Itapororoca 05' },
   purpose: ['aluguel'], location: 'Praia de Itapororoca', suites: 6, guests: 12, baths: 6, area: '—',
@@ -4406,7 +4422,7 @@ const GRAODEMAR: Property = {
   features: ['piscina', 'vista-mar'],
 };
 
-PROPERTIES.unshift(GRAODEMAR, VILAS37, VILAS27, VILAS61, VILAS62, VILLAQ, JV5, PADRE, FASANOJ2, COQ15, CASAFLO, CASACP, TEMPO03, OLAVA, BUENAVISTA, FAZENDA29, VILAS39, TVB12, GOLF28, COQ12, COQ11, VILLAW, COQ10, COQ27, IEMANJA, COQ09, NANA, VILAS34, JUE, TEMPO04, COQ04, HELENA, ALTAR, DUE, AZUL, FER, COLINA3, COLINA2, COLINA, ECO01, ECO03, ECO04, VISTA, GOLF95, VILA13, COQUEIRAL01, OKUN, GOLF62, TVB10, MANGABA, GOLF21, GOLF19, GOLF33, GOLF37, GOLF27, TRAMA, TIZZI, LILI, COQUEIRAL02, JV15, JV14, JV13, PEROBA, COQ06, COQUEIRAL7, COQ08, V7, MARTINI, SANTARITA, PATIMIRIM, DAJU, BUENO, BONITA, AREIA, COQUEIRAL13, SUBLIME, ESTRELA, VISTANATIVOS, TERRAL, ITAPO05, ITAPO01, ATENA, JACARANDA04, COQUEIRAL14, C20, CASAMARIA, ALMESCLA, CASAMAR, GEIGER, C21, MIA, COQUEIRAL22, MAION, DADINHO, IANDE, MAGIVI, OITI, C23, C24, NAOCA, CASA71, CAJU, SANMARCO, CASA14, CASA09, BOSSA, TUA, IMBIRUCU, CASA42, CASA61, VILAS02, CASA80, ITAPO07, CASA96, CASA90, VILAS75, LIMOEIRO, BIRIBA, VILAMAR, BETTONI, PINI, AUREA, SAOJORGE, CAZA, ITAPO06, ITAPO04, ALEGRIA, PONTA, PG11, PG111, PG104, MANDACARU, PONTARB, FALESIA, RAIZES, PONTABARRA, FASANO10, FASANO16, FASANO17, VILAS26, GOLF58, FLORESTA, VILAS41, VILAS67, BOUTIQUE13, ARACUA, JACARANDA03, TEIU, GOLF25, PG50, CASAEDO, BALEIA, PG55, GOLF72, PITANGA, AFRICA, TEMPO07, TEMPO08, TEMPO06, BOSQUE, PATIO, PG32, PG45, LICURI, DIVINA, TRESMENINAS, COQUEIRAL25, MORENA, MOA, BRAGA, CUMARU, JACARANDA05, TB14, MACONDO, RICK);
+PROPERTIES.unshift(GRAODEMAR, VILAS37, VILAS27, VILAS61, VILAS62, VILLAQ, JV5, PADRE, FASANOJ2, COQ15, CASAFLO, CASACP, TEMPO03, OLAVA, BUENAVISTA, FAZENDA29, VILAS39, TVB12, GOLF28, COQ12, COQ11, VILLAW, COQ10, COQ27, IEMANJA, COQ09, NANA, VILAS34, JUE, TEMPO04, COQ04, HELENA, ALTAR, DUE, AZUL, FER, COLINA3, COLINA2, COLINA, ECO01, ECO03, ECO04, VISTA, GOLF95, VILA13, COQUEIRAL01, OKUN, GOLF62, TVB10, MANGABA, GOLF21, GOLF19, GOLF33, GOLF37, GOLF27, TRAMA, TIZZI, LILI, COQUEIRAL02, JV15, JV14, JV13, PEROBA, COQ06, COQUEIRAL7, COQ08, V7, MARTINI, SANTARITA, PATIMIRIM, DAJU, BUENO, BONITA, AREIA, COQUEIRAL13, SUBLIME, ESTRELA, VISTANATIVOS, TERRAL, ITAPO05, ITAPO11, ITAPO01, ATENA, JACARANDA04, COQUEIRAL14, C20, CASAMARIA, ALMESCLA, CASAMAR, GEIGER, C21, MIA, COQUEIRAL22, MAION, DADINHO, IANDE, MAGIVI, OITI, C23, C24, NAOCA, CASA71, CAJU, SANMARCO, CASA14, CASA09, BOSSA, TUA, IMBIRUCU, CASA42, CASA61, VILAS02, CASA80, ITAPO07, CASA96, CASA90, VILAS75, LIMOEIRO, BIRIBA, VILAMAR, BETTONI, PINI, AUREA, SAOJORGE, CAZA, ITAPO06, ITAPO04, ALEGRIA, PONTA, PG11, PG111, PG104, MANDACARU, PONTARB, FALESIA, RAIZES, PONTABARRA, FASANO10, FASANO16, FASANO17, VILAS26, GOLF58, FLORESTA, VILAS41, VILAS67, BOUTIQUE13, ARACUA, JACARANDA03, TEIU, GOLF25, PG50, CASAEDO, BALEIA, PG55, GOLF72, PITANGA, AFRICA, TEMPO07, TEMPO08, TEMPO06, BOSQUE, PATIO, PG32, PG45, LICURI, DIVINA, TRESMENINAS, COQUEIRAL25, MORENA, MOA, BRAGA, CUMARU, JACARANDA05, TB14, MACONDO, RICK);
 
 // Todas as casas em ordem alfabética (nome em português).
 PROPERTIES.sort((a, b) => a.name.pt.localeCompare(b.name.pt, 'pt-BR', { numeric: true }));
