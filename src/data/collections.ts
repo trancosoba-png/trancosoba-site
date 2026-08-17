@@ -30,7 +30,7 @@ export const COLLECTIONS: Collection[] = [
       pt: 'Casas pé na areia em Trancoso: saia da varanda direto para a praia. Nossa seleção inclui propriedades em Itapororoca, Rio da Barra, Praia do Espelho e outras praias do sul da Bahia, todas com concierge TrancosoBA.',
       en: 'Beachfront houses in Trancoso: step from your veranda straight onto the sand. Our selection includes properties in Itapororoca, Rio da Barra, Praia do Espelho and other beaches of southern Bahia, all with TrancosoBA concierge.',
     },
-    cover: '/img/sublime/04.webp',
+    cover: '/img/colecoes/pe-na-areia.webp',
     match: (p) => Boolean(p.features?.includes('pe-na-areia')),
   },
   {
@@ -42,7 +42,7 @@ export const COLLECTIONS: Collection[] = [
       pt: 'Casas com vista para o mar em Trancoso: varandas, piscinas e salas de estar de frente para o oceano, em condomínios como Terravista, Altos de Trancoso e Outeiro das Brisas.',
       en: 'Sea view houses in Trancoso: verandas, pools and living rooms facing the ocean, in communities such as Terravista, Altos de Trancoso and Outeiro das Brisas.',
     },
-    cover: '/img/helena/03.webp',
+    cover: '/img/colecoes/vista-mar.webp',
     match: (p) => Boolean(p.features?.includes('vista-mar')),
   },
   {
@@ -54,7 +54,7 @@ export const COLLECTIONS: Collection[] = [
       pt: 'Casas perto do Quadrado, o coração histórico de Trancoso: a poucos passos dos restaurantes, das lojas e da igreja de São João Batista, com a tranquilidade de ruas arborizadas.',
       en: 'Houses near the Quadrado, the historic heart of Trancoso: steps from restaurants, shops and the São João Batista church, on quiet tree-lined streets.',
     },
-    cover: '/img/tempo07/01.webp',
+    cover: '/img/colecoes/quadrado.webp',
     match: (p) => loc(p).includes('quadrado') || Boolean(p.features?.includes('quadrado')),
   },
   {
@@ -66,7 +66,7 @@ export const COLLECTIONS: Collection[] = [
       pt: 'Casas no condomínio Terravista, em Trancoso: campo de golfe premiado, aeroporto privativo, teatro, beach club e apoio de praia. Seleção de casas no Terravista Golf e no Terravista Vilas para temporada e venda.',
       en: 'Houses in the Terravista community, Trancoso: award-winning golf course, private airport, theatre, beach club and beach service. A selection of houses in Terravista Golf and Terravista Vilas for rent and sale.',
     },
-    cover: '/img/golf28/03.webp',
+    cover: '/img/colecoes/terravista-golf.webp',
     match: (p) => loc(p).startsWith('terravista'),
   },
   {
@@ -78,7 +78,7 @@ export const COLLECTIONS: Collection[] = [
       pt: 'Casas no condomínio Fasano em Trancoso: o padrão de hospitalidade Fasano em um dos condomínios mais exclusivos do Brasil, com praia praticamente privativa e serviços de alto padrão.',
       en: 'Houses in the Fasano community in Trancoso: Fasano hospitality standards in one of Brazil\'s most exclusive communities, with a nearly private beach and high-end services.',
     },
-    cover: '/img/fasanoJ2/01.webp',
+    cover: '/img/colecoes/fasano.webp',
     match: (p) => loc(p).includes('fasano'),
   },
   {
@@ -90,7 +90,7 @@ export const COLLECTIONS: Collection[] = [
       pt: 'Casas para grandes grupos em Trancoso: propriedades a partir de 12 hóspedes, ideais para famílias grandes, celebrações e retiros, com staff completo e áreas de convivência amplas.',
       en: 'Houses for large groups in Trancoso: properties from 12 guests, ideal for big families, celebrations and retreats, with full staff and generous living areas.',
     },
-    cover: '/img/sanmarco/01.webp',
+    cover: '/img/colecoes/grandes-grupos.webp',
     match: (p) => p.guests >= 12,
   },
   {
@@ -102,7 +102,7 @@ export const COLLECTIONS: Collection[] = [
       pt: 'Casas em condomínios fechados em Trancoso: privacidade e segurança 24 horas no Terravista, Fasano, Altos de Trancoso, Itapororoca, Outeiro das Brisas e outros endereços exclusivos.',
       en: 'Houses in gated communities in Trancoso: privacy and 24-hour security in Terravista, Fasano, Altos de Trancoso, Itapororoca, Outeiro das Brisas and other exclusive addresses.',
     },
-    cover: '/img/coqueiral23/01.webp',
+    cover: '/img/colecoes/condominios.webp',
     match: (p) => Boolean(p.features?.includes('condominio')),
   },
 ];
