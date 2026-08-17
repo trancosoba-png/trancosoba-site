@@ -584,7 +584,7 @@ const CASA14: Property = {
 };
 
 const CASA09: Property = {
-  id: 'casa-09-itapororoca', code: 'TBA-205', name: { pt: 'Casa 9 — Aldeia Itapororoca', en: 'Casa 9 — Aldeia Itapororoca' },
+  id: 'casa-09-itapororoca', code: 'TBA-205', name: { pt: 'Casa 9', en: 'Casa 9' },
   purpose: ['aluguel'], location: 'Aldeia Itapororoca', suites: 7, guests: 14, baths: 8, area: '550 m²',
   price: { pt: 'R$ 27.500 / diária', en: 'R$ 27,500 / night' },
   priceLow: { pt: 'R$ 19.500 / diária', en: 'R$ 19,500 / night' },
@@ -739,7 +739,7 @@ const CASA80: Property = {
 };
 
 const ITAPO07: Property = {
-  id: 'aldeia-itapororoca-casa-07', code: 'TBA-213', name: { pt: 'Casa 7 — Aldeia Itapororoca', en: 'Casa 7 — Aldeia Itapororoca' },
+  id: 'aldeia-itapororoca-casa-07', code: 'TBA-213', name: { pt: 'Casa 7', en: 'Casa 7' },
   purpose: ['aluguel'], location: 'Aldeia Itapororoca', suites: 8, guests: 17, baths: 8, area: 'Praia de Itapororoca',
   price: { pt: 'Sob consulta', en: 'Upon request' },
   priceLow: { pt: 'Sob consulta', en: 'Upon request' },
@@ -979,7 +979,7 @@ const CAZA: Property = {
 };
 
 const ITAPO06: Property = {
-  id: 'aldeia-itapororoca-casa-06', code: 'TBA-225', name: { pt: 'Casa 6 — Aldeia Itapororoca', en: 'Casa 6 — Aldeia Itapororoca' },
+  id: 'aldeia-itapororoca-casa-06', code: 'TBA-225', name: { pt: 'Casa 6', en: 'Casa 6' },
   purpose: ['aluguel'], location: 'Aldeia Itapororoca', suites: 4, guests: 8, baths: 5, area: 'Pé na areia',
   price: { pt: 'R$ 9.500 / diária', en: 'R$ 9,500 / night' },
   priceLow: { pt: 'R$ 8.000 / diária', en: 'R$ 8,000 / night' },
@@ -999,7 +999,7 @@ const ITAPO06: Property = {
 };
 
 const ITAPO04: Property = {
-  id: 'aldeia-itapororoca-casa-04', code: 'TBA-226', name: { pt: 'Casa 4 — Aldeia Itapororoca', en: 'Casa 4 — Aldeia Itapororoca' },
+  id: 'aldeia-itapororoca-casa-04', code: 'TBA-226', name: { pt: 'Casa 4', en: 'Casa 4' },
   purpose: ['aluguel'], location: 'Aldeia Itapororoca', suites: 6, guests: 14, baths: 7, area: '700 m² · terreno 2.000 m²',
   price: { pt: 'R$ 17.500 / diária', en: 'R$ 17,500 / night' },
   priceLow: { pt: 'R$ 14.500 / diária', en: 'R$ 14,500 / night' },
@@ -1059,7 +1059,7 @@ const PONTA: Property = {
 };
 
 const PG11: Property = {
-  id: 'casa-11-pedro-grande', code: 'TBA-229', name: { pt: 'Casa 11 — Pedro Grande', en: 'Casa 11 — Pedro Grande' },
+  id: 'casa-11-pedro-grande', code: 'TBA-229', name: { pt: 'Casa 11', en: 'Casa 11' },
   purpose: ['aluguel'], location: 'Condomínio Pedro Grande', suites: 6, guests: 16, baths: 7, area: '1.047 m²',
   price: { pt: 'R$ 12.500 / diária', en: 'R$ 12,500 / night' },
   priceLow: { pt: 'R$ 12.500 / diária', en: 'R$ 12,500 / night' },
@@ -1078,7 +1078,7 @@ const PG11: Property = {
 };
 
 const PG111: Property = {
-  id: 'casa-11-1-pedro-grande', code: 'TBA-230', name: { pt: 'Casa 11.1 — Pedro Grande', en: 'Casa 11.1 — Pedro Grande' },
+  id: 'casa-11-1-pedro-grande', code: 'TBA-230', name: { pt: 'Casa 11.1', en: 'Casa 11.1' },
   purpose: ['aluguel'], location: 'Condomínio Pedro Grande', suites: 4, guests: 8, baths: 4, area: '807 m²',
   price: { pt: 'R$ 8.000 / diária', en: 'R$ 8,000 / night' },
   priceLow: { pt: 'R$ 8.000 / diária', en: 'R$ 8,000 / night' },
@@ -1096,7 +1096,7 @@ const PG111: Property = {
 };
 
 const PG104: Property = {
-  id: 'casa-104-pedro-grande', code: 'TBA-231', name: { pt: 'Casa 104 — Pedro Grande', en: 'Casa 104 — Pedro Grande' },
+  id: 'casa-104-pedro-grande', code: 'TBA-231', name: { pt: 'Casa 104', en: 'Casa 104' },
   purpose: ['aluguel'], location: 'Condomínio Pedro Grande', suites: 4, guests: 8, baths: 4, area: 'Vista para o mar',
   price: { pt: 'R$ 6.500 / diária', en: 'R$ 6,500 / night' },
   priceLow: { pt: 'R$ 5.500 / diária', en: 'R$ 5,500 / night' },
@@ -1136,7 +1136,7 @@ const MANDACARU: Property = {
 };
 
 const PONTARB: Property = {
-  id: 'casa-da-ponta-rio-da-barra', code: 'TBA-233', name: { pt: 'Casa da Ponta — Rio da Barra', en: 'Casa da Ponta — Rio da Barra' },
+  id: 'casa-da-ponta-rio-da-barra', code: 'TBA-233', name: { pt: 'Casa da Ponta', en: 'Casa da Ponta' },
   purpose: ['aluguel'], location: 'Rio da Barra', suites: 5, guests: 10, baths: 5, area: '1.200 m² · terreno 37.000 m²',
   price: { pt: 'R$ 20.000 / diária', en: 'R$ 20,000 / night' },
   priceLow: { pt: 'R$ 17.000 / diária', en: 'R$ 17,000 / night' },
@@ -1337,7 +1337,7 @@ const GOLF58: Property = {
 };
 
 const FLORESTA: Property = {
-  id: 'casa-floresta-itapororoca', code: 'TBA-242', name: { pt: 'Casa Floresta — Itapororoca', en: 'Casa Floresta — Itapororoca' },
+  id: 'casa-floresta-itapororoca', code: 'TBA-242', name: { pt: 'Casa Floresta', en: 'Casa Floresta' },
   purpose: ['aluguel'], location: 'Itapororoca', suites: 4, guests: 8, baths: 5, area: '500 m² · pé na areia',
   price: { pt: 'R$ 12.000 / diária', en: 'R$ 12,000 / night' },
   priceLow: { pt: 'R$ 10.000 / diária', en: 'R$ 10,000 / night' },
@@ -1451,7 +1451,7 @@ const ARACUA: Property = {
 };
 
 const JACARANDA03: Property = {
-  id: 'casa-03-jacaranda', code: 'TBA-247', name: { pt: 'Casa 03 — Condomínio Jacarandá', en: 'Casa 03 — Jacarandá Condominium' },
+  id: 'casa-03-jacaranda', code: 'TBA-247', name: { pt: 'Casa 03', en: 'Casa 03' },
   purpose: ['aluguel'], location: 'Condomínio Jacarandá', suites: 5, guests: 15, baths: 6, area: '—',
   price: { pt: 'R$ 3.400 / diária', en: 'R$ 3,400 / night' },
   priceLow: { pt: 'R$ 2.800 / diária', en: 'R$ 2,800 / night' },
@@ -1473,7 +1473,7 @@ const JACARANDA03: Property = {
 };
 
 const TEIU: Property = {
-  id: 'casa-teiu', code: 'TBA-248', name: { pt: 'Casa Teiú — Altos de Trancoso', en: 'Casa Teiú — Altos de Trancoso' },
+  id: 'casa-teiu', code: 'TBA-248', name: { pt: 'Casa Teiú', en: 'Casa Teiú' },
   purpose: ['aluguel'], location: 'Altos de Trancoso', suites: 5, guests: 10, baths: 6, area: '250 m² · terreno 1.237 m²',
   price: { pt: 'R$ 4.500 / diária', en: 'R$ 4,500 / night' },
   priceLow: { pt: 'R$ 3.500 / diária', en: 'R$ 3,500 / night' },
@@ -1519,7 +1519,7 @@ const GOLF25: Property = {
 };
 
 const PG50: Property = {
-  id: 'casa-50-pedro-grande', code: 'TBA-250', name: { pt: 'Casa 50 — Condomínio Pedro Grande', en: 'Casa 50 — Pedro Grande Condominium' },
+  id: 'casa-50-pedro-grande', code: 'TBA-250', name: { pt: 'Casa 50', en: 'Casa 50' },
   purpose: ['aluguel'], location: 'Condomínio Pedro Grande', suites: 5, guests: 14, baths: 7, area: '520 m² · terreno 1.716 m²',
   price: { pt: 'R$ 4.800 / diária', en: 'R$ 4,800 / night' },
   priceLow: { pt: 'R$ 3.800 / diária', en: 'R$ 3,800 / night' },
@@ -1542,7 +1542,7 @@ const PG50: Property = {
 };
 
 const CASAEDO: Property = {
-  id: 'casa-do-edo', code: 'TBA-251', name: { pt: 'Casa do Edo — Itapororoca', en: 'Casa do Edo — Itapororoca' },
+  id: 'casa-do-edo', code: 'TBA-251', name: { pt: 'Casa do Edo', en: 'Casa do Edo' },
   purpose: ['aluguel'], location: 'Praia de Itapororoca', suites: 7, guests: 14, baths: 6, area: '800 m² · terreno 12.400 m²',
   price: { pt: 'R$ 13.500 / diária', en: 'R$ 13,500 / night' },
   priceLow: { pt: 'R$ 12.000 / diária', en: 'R$ 12,000 / night' },
@@ -1569,7 +1569,7 @@ const CASAEDO: Property = {
 };
 
 const BALEIA: Property = {
-  id: 'casa-baleia', code: 'TBA-252', name: { pt: 'Casa Baleia — Pedro Grande', en: 'Casa Baleia — Pedro Grande' },
+  id: 'casa-baleia', code: 'TBA-252', name: { pt: 'Casa Baleia', en: 'Casa Baleia' },
   purpose: ['aluguel'], location: 'Condomínio Pedro Grande', suites: 7, guests: 14, baths: 7, area: '—',
   price: { pt: 'R$ 22.000 / diária', en: 'R$ 22,000 / night' },
   carnaval: { pt: 'Sob consulta', en: 'Upon request' },
@@ -1594,7 +1594,7 @@ const BALEIA: Property = {
 };
 
 const PG55: Property = {
-  id: 'casa-55-pedro-grande', code: 'TBA-253', name: { pt: 'Casa 55 — Condomínio Pedro Grande', en: 'Casa 55 — Pedro Grande Condominium' },
+  id: 'casa-55-pedro-grande', code: 'TBA-253', name: { pt: 'Casa 55', en: 'Casa 55' },
   purpose: ['aluguel'], location: 'Condomínio Pedro Grande', suites: 6, guests: 12, baths: 7, area: '850 m²',
   price: { pt: 'R$ 13.000 / diária', en: 'R$ 13,000 / night' },
   priceLow: { pt: 'R$ 10.000 / diária', en: 'R$ 10,000 / night' },
@@ -2051,7 +2051,7 @@ const BRAGA: Property = {
 };
 
 const CUMARU: Property = {
-  id: 'casa-cumaru', code: 'TBA-271', name: { pt: 'Colina — Casa 04', en: 'Colina — Casa 04' },
+  id: 'casa-cumaru', code: 'TBA-271', name: { pt: 'Casa 04', en: 'Casa 04' },
   purpose: ['aluguel'], location: 'Colina', suites: 6, guests: 12, baths: 6, area: '—',
   price: { pt: 'R$ 7.000 / diária', en: 'R$ 7,000 / night' },
   priceLow: { pt: 'R$ 5.500 / diária', en: 'R$ 5,500 / night' },
@@ -2075,7 +2075,7 @@ const CUMARU: Property = {
 };
 
 const JACARANDA05: Property = {
-  id: 'casa-05-jacaranda', code: 'TBA-272', name: { pt: 'Casa 05 — Condomínio Jacarandá', en: 'Casa 05 — Jacarandá Condominium' },
+  id: 'casa-05-jacaranda', code: 'TBA-272', name: { pt: 'Casa 05', en: 'Casa 05' },
   purpose: ['aluguel'], location: 'Condomínio Jacarandá', suites: 7, guests: 20, baths: 7, area: '—',
   price: { pt: 'R$ 4.500 / diária', en: 'R$ 4,500 / night' },
   priceLow: { pt: 'R$ 3.600 / diária', en: 'R$ 3,600 / night' },
@@ -2546,7 +2546,7 @@ const COQUEIRAL02: Property = {
 };
 
 const JACARANDA04: Property = {
-  id: 'casa-04-jacaranda', code: 'TBA-304', name: { pt: 'Casa 04 — Condomínio Jacarandá', en: 'Casa 04 — Jacarandá Condominium' },
+  id: 'casa-04-jacaranda', code: 'TBA-304', name: { pt: 'Casa 04', en: 'Casa 04' },
   purpose: ['aluguel'], location: 'Condomínio Jacarandá', suites: 7, guests: 21, baths: 7, area: '—',
   price: { pt: 'R$ 7.500 / diária', en: 'R$ 7,500 / night' },
   priceLow: { pt: 'R$ 5.880 / diária', en: 'R$ 5,880 / night' },
@@ -3345,7 +3345,7 @@ const TERRAL: Property = {
 };
 
 const ITAPO01: Property = {
-  id: 'casa-01-aldeia-itapororoca', code: 'TBA-308', name: { pt: 'Casa 1 — Aldeia Itapororoca', en: 'Casa 1 — Aldeia Itapororoca' },
+  id: 'casa-01-aldeia-itapororoca', code: 'TBA-308', name: { pt: 'Casa 1', en: 'Casa 1' },
   purpose: ['aluguel'], location: 'Aldeia Itapororoca', suites: 7, guests: 16, baths: 8, area: '2.200 m²',
   price: { pt: 'Sob consulta', en: 'Upon request' },
   image: '/img/aldeia-01/01.webp',
@@ -3567,7 +3567,7 @@ const TVB10: Property = {
 };
 
 const MANGABA: Property = {
-  id: 'casa-mangaba-altos-de-trancoso', code: 'TBA-337', name: { pt: 'Casa Mangaba — Altos de Trancoso', en: 'Casa Mangaba — Altos de Trancoso' },
+  id: 'casa-mangaba-altos-de-trancoso', code: 'TBA-337', name: { pt: 'Casa Mangaba', en: 'Casa Mangaba' },
   purpose: ['aluguel'], location: 'Altos de Trancoso', suites: 5, guests: 10, baths: 6, area: '490 m² · terreno 2.180 m²',
   price: { pt: 'R$ 9.600 / diária', en: 'R$ 9,600 / night' },
   priceLow: { pt: 'R$ 8.400 / diária', en: 'R$ 8,400 / night' },
@@ -3590,51 +3590,51 @@ const MANGABA: Property = {
 };
 
 const OKUN: Property = {
-  id: 'casa-okun-quadrado', code: 'TBA-338', name: { pt: 'Casa \u00d2kun', en: 'Casa \u00d2kun' },
-  purpose: ['aluguel'], location: 'Centro', suites: 2, guests: 4, baths: 2, area: '\u2014',
-  price: { pt: 'R$ 2.500 / di\u00e1ria', en: 'R$ 2,500 / night' },
-  priceLow: { pt: 'R$ 2.000 / di\u00e1ria', en: 'R$ 2,000 / night' },
+  id: 'casa-okun-centro', code: 'TBA-338', name: { pt: 'Casa Òkun', en: 'Casa Òkun' },
+  purpose: ['aluguel'], location: 'Centro', suites: 2, guests: 4, baths: 2, area: '—',
+  price: { pt: 'R$ 2.500 / diária', en: 'R$ 2,500 / night' },
+  priceLow: { pt: 'R$ 2.000 / diária', en: 'R$ 2,000 / night' },
   carnaval: { pt: 'Sob consulta', en: 'Upon request' },
   reveillon: { pt: 'R$ 100.000', en: 'R$ 100,000' },
   image: '/img/okun/01.webp',
   gallery: ['/img/okun/01.webp','/img/okun/02.webp','/img/okun/03.webp','/img/okun/04.webp','/img/okun/05.webp','/img/okun/06.webp','/img/okun/07.webp','/img/okun/08.webp','/img/okun/09.webp','/img/okun/10.webp','/img/okun/11.webp','/img/okun/12.webp','/img/okun/13.webp','/img/okun/14.webp','/img/okun/15.webp','/img/okun/16.webp','/img/okun/17.webp','/img/okun/18.webp','/img/okun/19.webp','/img/okun/20.webp','/img/okun/21.webp','/img/okun/22.webp','/img/okun/23.webp'], featured: false,
   amenities: {
-    pt: ['Piscina', 'Jardim tropical com pergolado', '\u00c1rea gourmet externa', 'Sala de TV', 'Cozinha equipada', 'Ar-condicionado', 'Internet Wi-Fi', 'Smart TV', 'Roupas de cama e banho', 'Estacionamento privativo', 'A 5 minutos a p\u00e9 do Quadrado'],
+    pt: ['Piscina', 'Jardim tropical com pergolado', 'Área gourmet externa', 'Sala de TV', 'Cozinha equipada', 'Ar-condicionado', 'Internet Wi-Fi', 'Smart TV', 'Roupas de cama e banho', 'Estacionamento privativo', 'A 5 minutos a pé do Quadrado'],
     en: ['Swimming pool', 'Tropical garden with pergola', 'Outdoor gourmet area', 'TV room', 'Equipped kitchen', 'Air conditioning', 'Wi-Fi internet', 'Smart TV', 'Bed and bath linens', 'Private parking', '5 minutes on foot from the Quadrado'],
   },
   staff: { pt: ['Camareira'], en: ['Housekeeper'] },
   features: ['quadrado', 'piscina'],
-  locationDetail: { pt: 'No centro de Trancoso, a aproximadamente 5 minutos de caminhada do Quadrado, com f\u00e1cil acesso aos restaurantes, bares e ao charme do vilarejo.', en: 'In the center of Trancoso, approximately 5 minutes on foot from the Quadrado, with easy access to the restaurants, bars and the charm of the village.' },
+  locationDetail: { pt: 'No centro de Trancoso, a aproximadamente 5 minutos de caminhada do Quadrado, com fácil acesso aos restaurantes, bares e ao charme do vilarejo.', en: 'In the center of Trancoso, approximately 5 minutes on foot from the Quadrado, with easy access to the restaurants, bars and the charm of the village.' },
   description: {
-    pt: 'Localizada no centro de Trancoso, a aproximadamente cinco minutos de caminhada do Quadrado, a Casa \u00d2kun \u00e9 ideal para quem deseja aproveitar os restaurantes, bares e todo o charme do vilarejo com praticidade.\n\nCom ambientes elegantes e acolhedores, a casa oferece conforto e privacidade para at\u00e9 quatro pessoas, em duas su\u00edtes com cama queen. A \u00e1rea social re\u00fane sala de TV e cozinha equipada, integradas aos espa\u00e7os externos.\n\nNo jardim tropical, a piscina e o pergolado criam um ref\u00fagio tranquilo para os dias de descanso, a poucos passos da vida animada do Quadrado. A casa conta ainda com estacionamento privativo.',
-    en: 'Located in the center of Trancoso, approximately five minutes on foot from the Quadrado, Casa \u00d2kun is ideal for those who want to enjoy the restaurants, bars and all the charm of the village with convenience.\n\nWith elegant and welcoming spaces, the house offers comfort and privacy for up to four people, in two suites with queen beds. The social area includes a TV room and an equipped kitchen, integrated with the outdoor spaces.\n\nIn the tropical garden, the pool and pergola create a peaceful retreat for days of rest, just a few steps from the lively Quadrado. The house also has private parking.',
+    pt: 'Localizada no centro de Trancoso, a aproximadamente cinco minutos de caminhada do Quadrado, a Casa Òkun é ideal para quem deseja aproveitar os restaurantes, bares e todo o charme do vilarejo com praticidade.\n\nCom ambientes elegantes e acolhedores, a casa oferece conforto e privacidade para até quatro pessoas, em duas suítes com cama queen. A área social reúne sala de TV e cozinha equipada, integradas aos espaços externos.\n\nNo jardim tropical, a piscina e o pergolado criam um refúgio tranquilo para os dias de descanso, a poucos passos da vida animada do Quadrado. A casa conta ainda com estacionamento privativo.',
+    en: 'Located in the center of Trancoso, approximately five minutes on foot from the Quadrado, Casa Òkun is ideal for those who want to enjoy the restaurants, bars and all the charm of the village with convenience.\n\nWith elegant and welcoming spaces, the house offers comfort and privacy for up to four people, in two suites with queen beds. The social area includes a TV room and an equipped kitchen, integrated with the outdoor spaces.\n\nIn the tropical garden, the pool and pergola create a peaceful retreat for days of rest, just a few steps from the lively Quadrado. The house also has private parking.',
   },
-  notes: { pt: ['Valores e disponibilidade sujeitos a confirma\u00e7\u00e3o.'], en: ['Prices and availability subject to confirmation.'] },
+  notes: { pt: ['Valores e disponibilidade sujeitos a confirmação.'], en: ['Prices and availability subject to confirmation.'] },
 };
 const GOLF62: Property = {
   id: 'terravista-golf-casa-62', code: 'TBA-339', name: { pt: 'Terravista 62', en: 'Terravista 62' },
-  purpose: ['aluguel'], location: 'Terravista Golf', suites: 6, guests: 12, baths: 6, area: '735 m\u00b2 \u00b7 terreno 2.668 m\u00b2',
-  price: { pt: 'R$ 14.000 / di\u00e1ria', en: 'R$ 14,000 / night' },
-  priceLow: { pt: 'R$ 12.000 / di\u00e1ria', en: 'R$ 12,000 / night' },
+  purpose: ['aluguel'], location: 'Terravista Golf', suites: 6, guests: 12, baths: 6, area: '735 m² · terreno 2.668 m²',
+  price: { pt: 'R$ 14.000 / diária', en: 'R$ 14,000 / night' },
+  priceLow: { pt: 'R$ 12.000 / diária', en: 'R$ 12,000 / night' },
   carnaval: { pt: 'R$ 120.000', en: 'R$ 120,000' },
   reveillon: { pt: 'R$ 450.000', en: 'R$ 450,000' },
   image: '/img/golf62/01.webp',
   gallery: ['/img/golf62/01.webp','/img/golf62/02.webp','/img/golf62/03.webp','/img/golf62/04.webp','/img/golf62/05.webp','/img/golf62/06.webp','/img/golf62/07.webp','/img/golf62/08.webp','/img/golf62/09.webp','/img/golf62/10.webp','/img/golf62/11.webp','/img/golf62/12.webp','/img/golf62/13.webp','/img/golf62/14.webp','/img/golf62/15.webp','/img/golf62/16.webp','/img/golf62/17.webp','/img/golf62/18.webp','/img/golf62/19.webp','/img/golf62/20.webp','/img/golf62/21.webp','/img/golf62/22.webp','/img/golf62/23.webp','/img/golf62/24.webp','/img/golf62/25.webp','/img/golf62/26.webp','/img/golf62/27.webp','/img/golf62/28.webp','/img/golf62/29.webp','/img/golf62/30.webp','/img/golf62/31.webp','/img/golf62/32.webp','/img/golf62/33.webp','/img/golf62/34.webp','/img/golf62/35.webp','/img/golf62/36.webp','/img/golf62/37.webp','/img/golf62/38.webp','/img/golf62/39.webp','/img/golf62/40.webp','/img/golf62/41.webp','/img/golf62/42.webp','/img/golf62/43.webp','/img/golf62/44.webp','/img/golf62/45.webp','/img/golf62/46.webp','/img/golf62/47.webp'], featured: false,
   amenities: {
-    pt: ['Piscina privativa', 'Espa\u00e7o gourmet e churrasqueira', 'Adega de vinhos', 'Sala de estar, sala de jantar e sala de TV', 'Cozinha equipada', 'Espregui\u00e7adeiras e ombrelone', 'Ar-condicionado e ventilador de teto', 'Cofres nos quartos', 'Mosquiteiros', 'Internet Wi-Fi', 'TV e Netflix', 'Sistema de som', 'Cervejeira, freezer e m\u00e1quina de gelo', 'Lavabo e lavanderia', 'Quarto de apoio', 'Gerador', 'Estacionamento', 'Apoio de praia', 'Roupas de cama, mesa e banho', 'Toalhas de piscina', 'Secador de cabelo', 'Kit beb\u00ea', 'Kids friendly'],
+    pt: ['Piscina privativa', 'Espaço gourmet e churrasqueira', 'Adega de vinhos', 'Sala de estar, sala de jantar e sala de TV', 'Cozinha equipada', 'Espreguiçadeiras e ombrelone', 'Ar-condicionado e ventilador de teto', 'Cofres nos quartos', 'Mosquiteiros', 'Internet Wi-Fi', 'TV e Netflix', 'Sistema de som', 'Cervejeira, freezer e máquina de gelo', 'Lavabo e lavanderia', 'Quarto de apoio', 'Gerador', 'Estacionamento', 'Apoio de praia', 'Roupas de cama, mesa e banho', 'Toalhas de piscina', 'Secador de cabelo', 'Kit bebê', 'Kids friendly'],
     en: ['Private pool', 'Gourmet area and barbecue', 'Wine cellar', 'Living room, dining room and TV room', 'Equipped kitchen', 'Sun loungers and parasol', 'Air conditioning and ceiling fans', 'In-room safes', 'Mosquito nets', 'Wi-Fi internet', 'TV and Netflix', 'Sound system', 'Beer cooler, freezer and ice maker', 'Guest bathroom and laundry', 'Staff quarters', 'Generator', 'Parking', 'Beach support', 'Bed, table and bath linens', 'Pool towels', 'Hair dryer', 'Baby kit', 'Kids friendly'],
   },
   staff: { pt: ['2 camareiras', '1 cozinheira', '1 auxiliar de cozinha', '1 copeiro'], en: ['2 housekeepers', '1 cook', '1 kitchen assistant', '1 waiter/bartender'] },
   features: ['condominio', 'piscina'],
-  locationDetail: { pt: 'Condom\u00ednio Terravista Golf, no alto da fal\u00e9sia do Rio da Barra, Trancoso \u2014 Bahia.', en: 'Terravista Golf Condominium, on top of the Rio da Barra cliff, Trancoso \u2014 Bahia.' },
+  locationDetail: { pt: 'Condomínio Terravista Golf, no alto da falésia do Rio da Barra, Trancoso — Bahia.', en: 'Terravista Golf Condominium, on top of the Rio da Barra cliff, Trancoso — Bahia.' },
   description: {
-    pt: 'Localizada no exclusivo Condom\u00ednio Terravista Golf, a Casa Golf 62 combina arquitetura contempor\u00e2nea, conforto e a atmosfera natural de Trancoso. Assinada por David Bastos, com paisagismo de Mauricio Prada e decora\u00e7\u00e3o de Maianah Cohin, a resid\u00eancia foi projetada para valorizar a luz, a amplitude dos espa\u00e7os e a integra\u00e7\u00e3o entre as \u00e1reas internas e externas.\n\nCom 735 m\u00b2 de \u00e1rea constru\u00edda em um terreno de 2.668 m\u00b2, a casa acomoda at\u00e9 12 h\u00f3spedes em 6 su\u00edtes amplas e bem distribu\u00eddas. A \u00e1rea social re\u00fane salas de estar, jantar e TV, cozinha equipada e espa\u00e7o gourmet, criando um ambiente elegante e acolhedor para momentos em fam\u00edlia ou entre amigos.\n\nNa \u00e1rea externa, a piscina de linhas contempor\u00e2neas, o paisagismo e os espa\u00e7os de conviv\u00eancia convidam ao descanso e ao lazer. A propriedade conta ainda com estrutura completa, apoio de praia e equipe de staff para uma experi\u00eancia confort\u00e1vel durante toda a estadia.',
-    en: 'Located in the exclusive Terravista Golf Condominium, Casa Golf 62 combines contemporary architecture, comfort and the natural atmosphere of Trancoso. Designed by David Bastos, with landscaping by Mauricio Prada and decoration by Maianah Cohin, the residence was planned to enhance light, the generosity of spaces and the integration between indoor and outdoor areas.\n\nWith 735 m\u00b2 of built area on a 2,668 m\u00b2 plot, the house accommodates up to 12 guests in 6 spacious and well-distributed suites. The social area brings together living, dining and TV rooms, an equipped kitchen and a gourmet space, creating an elegant and welcoming environment for moments with family or friends.\n\nOutside, the contemporary-lined pool, the landscaping and the gathering spaces invite rest and leisure. The property also offers a complete structure, beach support and a staff team for a comfortable experience throughout the stay.',
+    pt: 'Localizada no exclusivo Condomínio Terravista Golf, a Casa Golf 62 combina arquitetura contemporânea, conforto e a atmosfera natural de Trancoso. Assinada por David Bastos, com paisagismo de Mauricio Prada e decoração de Maianah Cohin, a residência foi projetada para valorizar a luz, a amplitude dos espaços e a integração entre as áreas internas e externas.\n\nCom 735 m² de área construída em um terreno de 2.668 m², a casa acomoda até 12 hóspedes em 6 suítes amplas e bem distribuídas. A área social reúne salas de estar, jantar e TV, cozinha equipada e espaço gourmet, criando um ambiente elegante e acolhedor para momentos em família ou entre amigos.\n\nNa área externa, a piscina de linhas contemporâneas, o paisagismo e os espaços de convivência convidam ao descanso e ao lazer. A propriedade conta ainda com estrutura completa, apoio de praia e equipe de staff para uma experiência confortável durante toda a estadia.',
+    en: 'Located in the exclusive Terravista Golf Condominium, Casa Golf 62 combines contemporary architecture, comfort and the natural atmosphere of Trancoso. Designed by David Bastos, with landscaping by Mauricio Prada and decoration by Maianah Cohin, the residence was planned to enhance light, the generosity of spaces and the integration between indoor and outdoor areas.\n\nWith 735 m² of built area on a 2,668 m² plot, the house accommodates up to 12 guests in 6 spacious and well-distributed suites. The social area brings together living, dining and TV rooms, an equipped kitchen and a gourmet space, creating an elegant and welcoming environment for moments with family or friends.\n\nOutside, the contemporary-lined pool, the landscaping and the gathering spaces invite rest and leisure. The property also offers a complete structure, beach support and a staff team for a comfortable experience throughout the stay.',
   },
-  notes: { pt: ['Loca\u00e7\u00e3o m\u00ednima de 3 di\u00e1rias.', 'Valores de Carnaval e R\u00e9veillon correspondem a pacotes; per\u00edodo, disponibilidade e condi\u00e7\u00f5es confirmados no momento da reserva.', 'O preparo de alimentos e bebidas, compras e demais consumos s\u00e3o cobrados \u00e0 parte.'], en: ['Minimum rental of 3 nights.', 'Carnival and New Year\u2019s Eve rates correspond to packages; period, availability and conditions confirmed at booking.', 'Food and beverage preparation, groceries and other consumption are charged separately.'] },
+  notes: { pt: ['Locação mínima de 3 diárias.', 'Valores de Carnaval e Réveillon correspondem a pacotes; período, disponibilidade e condições confirmados no momento da reserva.', 'O preparo de alimentos e bebidas, compras e demais consumos são cobrados à parte.'], en: ['Minimum rental of 3 nights.', 'Carnival and New Year’s Eve rates correspond to packages; period, availability and conditions confirmed at booking.', 'Food and beverage preparation, groceries and other consumption are charged separately.'] },
 };
 const DUE: Property = {
-  id: 'casa-due-altos-de-trancoso', code: 'TBA-340', name: { pt: 'Casa Due — Altos de Trancoso', en: 'Casa Due — Altos de Trancoso' },
+  id: 'casa-due-altos-de-trancoso', code: 'TBA-340', name: { pt: 'Casa Due', en: 'Casa Due' },
   purpose: ['aluguel', 'venda'], location: 'Altos de Trancoso', suites: 6, guests: 12, baths: 6, area: '—',
   price: { pt: 'R$ 9.000 / diária', en: 'R$ 9,000 / night' },
   carnaval: { pt: 'Sob consulta', en: 'Upon request' },
@@ -3657,7 +3657,7 @@ const DUE: Property = {
 };
 
 const AZUL: Property = {
-  id: 'casa-azul-centro', code: 'TBA-341', name: { pt: 'Casa Azul — Centro', en: 'Casa Azul — Centro' },
+  id: 'casa-azul-centro', code: 'TBA-341', name: { pt: 'Casa Azul', en: 'Casa Azul' },
   purpose: ['aluguel'], location: 'Centro', suites: 4, guests: 8, baths: 4, area: '—',
   price: { pt: 'R$ 2.500 / diária', en: 'R$ 2,500 / night' },
   carnaval: { pt: 'Sob consulta', en: 'Upon request' },
@@ -3679,7 +3679,7 @@ const AZUL: Property = {
 };
 
 const FER: Property = { // galeria 28 fotos (PDF)
-  id: 'casa-do-fer-altos-de-trancoso', code: 'TBA-342', name: { pt: 'Casa do Fer — Altos de Trancoso', en: 'Casa do Fer — Altos de Trancoso' },
+  id: 'casa-do-fer-altos-de-trancoso', code: 'TBA-342', name: { pt: 'Casa do Fer', en: 'Casa do Fer' },
   purpose: ['aluguel', 'venda'], location: 'Altos de Trancoso', suites: 7, guests: 14, baths: 7, area: '700 m² · terreno 1.180 m²',
   price: { pt: 'R$ 8.000 / diária', en: 'R$ 8,000 / night' },
   carnaval: { pt: 'R$ 75.000 (pacote de 5 noites)', en: 'R$ 75,000 (5-night package)' },
@@ -3702,7 +3702,7 @@ const FER: Property = { // galeria 28 fotos (PDF)
 };
 
 const ECO01: Property = {
-  id: 'condominio-eco-casa-01', code: 'TBA-350', name: { pt: 'Condomínio Eco — Casa 01', en: 'Condomínio Eco — Casa 01' },
+  id: 'condominio-eco-casa-01', code: 'TBA-350', name: { pt: 'Casa 01', en: 'Casa 01' },
   purpose: ['aluguel'], location: 'Condomínio Eco', suites: 7, guests: 14, baths: 9, area: '910 m² · terreno 2.000 m²',
   price: { pt: 'R$ 7.700 / diária', en: 'R$ 7,700 / night' },
   priceLow: { pt: 'R$ 6.800 / diária', en: 'R$ 6,800 / night' },
@@ -3725,7 +3725,7 @@ const ECO01: Property = {
 };
 
 const COLINA: Property = {
-  id: 'colina-casa-01', code: 'TBA-351', name: { pt: 'Colina — Casa 01', en: 'Colina — Casa 01' },
+  id: 'colina-casa-01', code: 'TBA-351', name: { pt: 'Casa 01', en: 'Casa 01' },
   purpose: ['aluguel'], location: 'Colina', suites: 5, guests: 12, baths: 5.5, area: '—',
   price: { pt: 'Sob consulta', en: 'Upon request' },
   priceLow: { pt: 'Sob consulta', en: 'Upon request' },
@@ -3741,13 +3741,13 @@ const COLINA: Property = {
   locationDetail: { pt: 'No bairro residencial da Colina, em Trancoso — Bahia. Região tranquila e de perfil familiar.', en: 'In the residential Colina neighborhood, in Trancoso — Bahia. A quiet, family-friendly area.' },
   description: {
     pt: 'Localizada em uma região residencial tranquila de Trancoso, a casa oferece uma atmosfera reservada, acolhedora e ideal para famílias e grupos que buscam conforto e privacidade durante a estadia.\n\nA arquitetura privilegia a integração dos ambientes, a entrada de luz natural e a conexão com as áreas externas. A piscina se integra à área social da casa, enquanto a ampla varanda cria um espaço agradável para momentos de descanso e convivência.\n\nCom capacidade para até doze hóspedes, a residência conta com cinco quartos, sete camas, cinco banheiros e um lavabo, ambientes amplos e uma proposta que combina conforto, simplicidade elegante e o estilo descontraído de Trancoso.',
-    en: 'Located in a quiet residential area of Trancoso, the house offers a private, welcoming atmosphere, ideal for families and groups seeking comfort and privacy during their stay.\n\nThe architecture favors integrated spaces, abundant natural light and a connection with the outdoor areas. The pool flows into the house\u2019s social area, while the large veranda creates a pleasant space for rest and togetherness.\n\nAccommodating up to twelve guests, the residence has five bedrooms, seven beds, five bathrooms and a powder room, with spacious rooms and a proposal that combines comfort, elegant simplicity and Trancoso\u2019s laid-back style.',
+    en: 'Located in a quiet residential area of Trancoso, the house offers a private, welcoming atmosphere, ideal for families and groups seeking comfort and privacy during their stay.\n\nThe architecture favors integrated spaces, abundant natural light and a connection with the outdoor areas. The pool flows into the house’s social area, while the large veranda creates a pleasant space for rest and togetherness.\n\nAccommodating up to twelve guests, the residence has five bedrooms, seven beds, five bathrooms and a powder room, with spacious rooms and a proposal that combines comfort, elegant simplicity and Trancoso’s laid-back style.',
   },
   notes: { pt: ['Tarifas sob consulta para todos os períodos (baixa e alta temporada, Carnaval e Réveillon).'], en: ['Rates upon request for all periods (low and high season, Carnival and New Year’s Eve).'] },
 };
 
 const COLINA2: Property = {
-  id: 'colina-casa-02', code: 'TBA-352', name: { pt: 'Colina — Casa 02', en: 'Colina — Casa 02' },
+  id: 'colina-casa-02', code: 'TBA-352', name: { pt: 'Casa 02', en: 'Casa 02' },
   purpose: ['aluguel'], location: 'Colina', suites: 4, guests: 10, baths: 5, area: '—',
   price: { pt: 'R$ 3.000 / diária', en: 'R$ 3,000 / night' },
   priceLow: { pt: 'R$ 2.500 / diária', en: 'R$ 2,500 / night' },
@@ -3764,13 +3764,13 @@ const COLINA2: Property = {
   locationDetail: { pt: 'Na Colina, em Trancoso — Bahia. Região residencial tranquila e familiar.', en: 'In Colina, Trancoso — Bahia. A quiet, family-friendly residential area.' },
   description: {
     pt: 'Localizada em uma área residencial tranquila de Trancoso, a Casa Bela é uma residência acolhedora, cercada pelo verde e pensada para proporcionar privacidade e conforto durante a estadia.\n\nA casa possui ambientes amplos e agradáveis, com espaços de convivência que se conectam à área externa. A varanda e o jardim envolvem a piscina privativa de 9 metros, criando um ambiente ideal para aproveitar os dias de Trancoso com tranquilidade.\n\nUm dos destaques é a área gourmet, equipada com churrasqueira, fogão a lenha e forno de pizza, proporcionando um espaço completo para reunir família e amigos.\n\nA Casa Bela acomoda até dez hóspedes e dispõe de quatro suítes, além de um quarto adicional com banheiro ao lado. Os ambientes são climatizados e a residência conta com estrutura completa para uma estadia confortável.\n\nDurante a hospedagem, a casa dispõe ainda de staff para auxiliar na rotina dos hóspedes, com cozinheira, camareira e piscineiro.',
-    en: 'Located in a quiet residential area of Trancoso, Casa Bela is a welcoming residence surrounded by greenery, designed to provide privacy and comfort throughout your stay.\n\nThe house offers spacious, pleasant environments, with living areas that connect to the outdoors. The veranda and garden surround the 9-meter private pool, creating an ideal setting to enjoy Trancoso\u2019s days in tranquility.\n\nOne of the highlights is the gourmet area, equipped with a barbecue, wood-fired stove and pizza oven, providing a complete space to gather family and friends.\n\nCasa Bela accommodates up to ten guests and features four suites, plus an additional bedroom with a bathroom next door. All rooms are air-conditioned and the residence offers a complete structure for a comfortable stay.\n\nDuring the stay, the house also provides staff to assist with the guests\u2019 routine, including a cook, a housekeeper and a pool attendant.',
+    en: 'Located in a quiet residential area of Trancoso, Casa Bela is a welcoming residence surrounded by greenery, designed to provide privacy and comfort throughout your stay.\n\nThe house offers spacious, pleasant environments, with living areas that connect to the outdoors. The veranda and garden surround the 9-meter private pool, creating an ideal setting to enjoy Trancoso’s days in tranquility.\n\nOne of the highlights is the gourmet area, equipped with a barbecue, wood-fired stove and pizza oven, providing a complete space to gather family and friends.\n\nCasa Bela accommodates up to ten guests and features four suites, plus an additional bedroom with a bathroom next door. All rooms are air-conditioned and the residence offers a complete structure for a comfortable stay.\n\nDuring the stay, the house also provides staff to assist with the guests’ routine, including a cook, a housekeeper and a pool attendant.',
   },
   notes: { pt: ['Réveillon: mínimo de 7 diárias.', 'Caução: R$ 5.000.'], en: ['New Year’s Eve: minimum 7 nights.', 'Security deposit: R$ 5,000.'] },
 };
 
 const COLINA3: Property = {
-  id: 'colina-casa-03', code: 'TBA-353', name: { pt: 'Colina — Casa 03', en: 'Colina — Casa 03' },
+  id: 'colina-casa-03', code: 'TBA-353', name: { pt: 'Casa 03', en: 'Casa 03' },
   purpose: ['aluguel'], location: 'Colina', suites: 3, guests: 7, baths: 3, area: '—',
   price: { pt: 'R$ 2.500 / diária', en: 'R$ 2,500 / night' },
   priceLow: { pt: 'R$ 1.500 / diária', en: 'R$ 1,500 / night' },
@@ -3786,7 +3786,7 @@ const COLINA3: Property = {
   locationDetail: { pt: 'Na Colina, em Trancoso — Bahia, a menos de 5 minutos do Quadrado.', en: 'In Colina, Trancoso — Bahia, less than 5 minutes from the Quadrado.' },
   description: {
     pt: 'Com uma atmosfera rústica e elegante, a Casa 03 combina o charme característico de Trancoso com ambientes acolhedores e uma forte integração com a natureza.\n\nA arquitetura valoriza o uso da madeira e de materiais naturais, criando espaços cheios de personalidade. Na área externa, a piscina privativa de pedra natural se integra ao jardim e aos ambientes de convivência, proporcionando um cenário agradável para descansar e aproveitar os dias em Trancoso.\n\nA casa acomoda até sete hóspedes em três suítes independentes, oferecendo conforto e privacidade. A cozinha aberta e totalmente equipada complementa a área social e reforça a proposta descontraída da residência.\n\nLocalizada em uma região residencial tranquila da Colina e a poucos minutos do Quadrado, é uma excelente opção para quem deseja estar próximo ao centro histórico de Trancoso sem abrir mão de sossego e privacidade.',
-    en: 'With a rustic and elegant atmosphere, Casa 03 combines Trancoso\u2019s characteristic charm with welcoming environments and a strong connection with nature.\n\nThe architecture values the use of wood and natural materials, creating spaces full of personality. Outside, the natural stone private pool flows into the garden and living areas, providing a pleasant setting to relax and enjoy the days in Trancoso.\n\nThe house accommodates up to seven guests in three independent suites, offering comfort and privacy. The open, fully equipped kitchen complements the social area and reinforces the residence\u2019s laid-back proposal.\n\nLocated in a quiet residential area of Colina, just minutes from the Quadrado, it is an excellent option for those who want to be close to Trancoso\u2019s historic center without giving up peace and privacy.',
+    en: 'With a rustic and elegant atmosphere, Casa 03 combines Trancoso’s characteristic charm with welcoming environments and a strong connection with nature.\n\nThe architecture values the use of wood and natural materials, creating spaces full of personality. Outside, the natural stone private pool flows into the garden and living areas, providing a pleasant setting to relax and enjoy the days in Trancoso.\n\nThe house accommodates up to seven guests in three independent suites, offering comfort and privacy. The open, fully equipped kitchen complements the social area and reinforces the residence’s laid-back proposal.\n\nLocated in a quiet residential area of Colina, just minutes from the Quadrado, it is an excellent option for those who want to be close to Trancoso’s historic center without giving up peace and privacy.',
   },
   notes: { pt: ['Carnaval sob consulta.'], en: ['Carnival upon request.'] },
 };
@@ -3818,7 +3818,7 @@ const COQ08: Property = {
 };
 
 const HELENA: Property = {
-  id: 'casa-helena-rio-da-barra', code: 'TBA-355', name: { pt: 'Casa Helena — Rio da Barra', en: 'Casa Helena — Rio da Barra' },
+  id: 'casa-helena-rio-da-barra', code: 'TBA-355', name: { pt: 'Casa Helena', en: 'Casa Helena' },
   purpose: ['aluguel'], location: 'Rio da Barra', suites: 4, guests: 10, baths: 4, area: '—',
   price: { pt: 'R$ 6.000 / diária', en: 'R$ 6,000 / night' },
   priceLow: { pt: 'R$ 5.000 / diária', en: 'R$ 5,000 / night' },
@@ -3840,7 +3840,7 @@ const HELENA: Property = {
 };
 
 const ECO03: Property = {
-  id: 'condominio-eco-casa-03', code: 'TBA-343', name: { pt: 'Condomínio Eco — Casa 03', en: 'Condomínio Eco — Casa 03' },
+  id: 'condominio-eco-casa-03', code: 'TBA-343', name: { pt: 'Casa 03', en: 'Casa 03' },
   purpose: ['aluguel'], location: 'Condomínio Eco', suites: 4, guests: 8, baths: 5, area: '364 m² · terreno 1.000 m²',
   price: { pt: 'R$ 3.800 / diária', en: 'R$ 3,800 / night' },
   priceLow: { pt: 'R$ 3.300 / diária', en: 'R$ 3,300 / night' },
@@ -3862,7 +3862,7 @@ const ECO03: Property = {
 };
 
 const ECO04: Property = {
-  id: 'condominio-eco-casa-04', code: 'TBA-344', name: { pt: 'Condomínio Eco — Casa 04', en: 'Condomínio Eco — Casa 04' },
+  id: 'condominio-eco-casa-04', code: 'TBA-344', name: { pt: 'Casa 04', en: 'Casa 04' },
   purpose: ['aluguel'], location: 'Condomínio Eco', suites: 6, guests: 12, baths: 6, area: '—',
   price: { pt: 'R$ 8.000 / diária', en: 'R$ 8,000 / night' },
   priceLow: { pt: 'R$ 6.500 / diária', en: 'R$ 6,500 / night' },
@@ -3885,7 +3885,7 @@ const ECO04: Property = {
 };
 
 const VISTA: Property = {
-  id: 'casa-vista-caraiva', code: 'TBA-345', name: { pt: 'Casa Vista — Caraíva', en: 'Casa Vista — Caraíva' },
+  id: 'casa-vista-caraiva', code: 'TBA-345', name: { pt: 'Casa Vista', en: 'Casa Vista' },
   purpose: ['aluguel'], location: 'Caraíva', suites: 7, guests: 18, baths: 8, area: '1.000 m² · terreno 84.000 m²',
   price: { pt: 'R$ 12.000 / diária', en: 'R$ 12,000 / night' },
   priceLow: { pt: 'R$ 8.000 / diária', en: 'R$ 8,000 / night' },
@@ -3957,7 +3957,7 @@ const VILA13: Property = {
 
 const COQ06: Property = {
   id: 'coqueiral-casa-06', code: 'TBA-348', name: { pt: 'Casa Coqueiral 6', en: 'Casa Coqueiral 6' },
-  purpose: ['aluguel'], location: 'Cond. Coqueiral', suites: 7, guests: 20, baths: 7, area: '—',
+  purpose: ['aluguel'], location: 'Condomínio Coqueiral', suites: 7, guests: 20, baths: 7, area: '—',
   price: { pt: 'R$ 4.500 / diária', en: 'R$ 4,500 / night' },
   priceLow: { pt: 'R$ 3.400 / diária', en: 'R$ 3,400 / night' },
   carnaval: { pt: 'R$ 50.000 (pacote)', en: 'R$ 50,000 (package)' },

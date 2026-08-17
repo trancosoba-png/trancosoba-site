@@ -1,5 +1,5 @@
 const SELVA: Property = {
-  id: 'casa-selva-altos-de-patimirim', code: 'TBA-292', name: { pt: 'Casa Selva — Altos de Patimirim', en: 'Casa Selva — Altos de Patimirim' },
+  id: 'casa-selva-altos-de-patimirim', code: 'TBA-292', name: { pt: 'Casa Selva', en: 'Casa Selva' },
   purpose: ['aluguel', 'venda'], location: 'Altos de Patimirim', suites: 7, guests: 15, baths: 9, area: 'Terreno 20.000 m² · 1.100 m² construídos',
   salePrice: { pt: 'Sob consulta', en: 'Upon request' },
   price: { pt: 'R$ 16.000 / diária', en: 'R$ 16,000 / night' },

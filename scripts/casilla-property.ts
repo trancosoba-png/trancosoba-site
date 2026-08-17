@@ -1,5 +1,5 @@
 const CASILLA: Property = {
-  id: 'casilla-del-mare-altos-de-trancoso', code: 'TBA-286', name: { pt: 'Casilla del Mare — Altos de Trancoso', en: 'Casilla del Mare — Altos de Trancoso' },
+  id: 'casilla-del-mare-altos-de-trancoso', code: 'TBA-286', name: { pt: 'Casilla del Mare', en: 'Casilla del Mare' },
   purpose: ['aluguel'], location: 'Altos de Trancoso', suites: 6, guests: 12, baths: 8, area: '1.000 m² construídos',
   price: { pt: 'R$ 15.000 / diária', en: 'R$ 15,000 / night' },
   priceLow: { pt: 'R$ 15.000 / diária', en: 'R$ 15,000 / night' },

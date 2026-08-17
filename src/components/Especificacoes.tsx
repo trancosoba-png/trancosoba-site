@@ -190,7 +190,7 @@ const SUITES_BY_ID: Record<string, Record<'pt' | 'en', HouseSuites>> = {
       ] },
     ], footer: 'The house accommodates up to 12 guests. 6 bathrooms.' },
   },
-  'casa-okun-quadrado': {
+  'casa-okun-centro': {
     pt: { groups: [{ title: 'Su\u00edtes', suites: [
       ['Su\u00edte 01', '1 cama queen \u00b7 Ar-condicionado'],
       ['Su\u00edte 02', '1 cama queen \u00b7 Ar-condicionado'],

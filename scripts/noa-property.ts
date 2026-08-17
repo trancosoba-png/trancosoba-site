@@ -1,5 +1,5 @@
 const NOA: Property = {
-  id: 'casa-noa-altos-de-trancoso', code: 'TBA-290', name: { pt: 'Casa Noa — Altos de Trancoso', en: 'Casa Noa — Altos de Trancoso' },
+  id: 'casa-noa-altos-de-trancoso', code: 'TBA-290', name: { pt: 'Casa Noa', en: 'Casa Noa' },
   purpose: ['aluguel'], location: 'Altos de Trancoso', suites: 3, guests: 6, baths: 4, area: 'Terreno 1.420 m² · 290 m² construídos',
   price: { pt: 'R$ 3.400 / diária', en: 'R$ 3,400 / night' },
   priceLow: { pt: 'R$ 2.800 / diária', en: 'R$ 2,800 / night' },

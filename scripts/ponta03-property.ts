@@ -1,5 +1,5 @@
 const PONTA03: Property = {
-  id: 'casa-da-ponta-03', code: 'TBA-291', name: { pt: 'Casa da Ponta 03 — Rio da Barra', en: 'Casa da Ponta 03 — Rio da Barra' },
+  id: 'casa-da-ponta-03', code: 'TBA-291', name: { pt: 'Casa da Ponta 03', en: 'Casa da Ponta 03' },
   purpose: ['aluguel'], location: 'Rio da Barra', suites: 6, guests: 12, baths: 6, area: '—',
   price: { pt: 'R$ 18.000 / diária', en: 'R$ 18,000 / night' },
   priceLow: { pt: 'R$ 16.000 / diária', en: 'R$ 16,000 / night' },

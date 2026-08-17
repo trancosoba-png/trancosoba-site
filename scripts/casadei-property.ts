@@ -1,5 +1,5 @@
 const CASADEI: Property = {
-  id: 'casa-casadei-altos-de-trancoso', code: 'TBA-288', name: { pt: 'Casa Casadei — Altos de Trancoso', en: 'Casa Casadei — Altos de Trancoso' },
+  id: 'casa-casadei-altos-de-trancoso', code: 'TBA-288', name: { pt: 'Casa Casadei', en: 'Casa Casadei' },
   purpose: ['aluguel'], location: 'Altos de Trancoso', suites: 5, guests: 13, baths: 5, area: '—',
   price: { pt: 'R$ 6.500 / diária', en: 'R$ 6,500 / night' },
   priceLow: { pt: 'R$ 4.500 / diária', en: 'R$ 4,500 / night' },

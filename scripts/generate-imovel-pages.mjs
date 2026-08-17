@@ -55,7 +55,7 @@ if (count === 0) process.exit(1);
 // O conteúdo dentro de #root é substituído pela SPA no carregamento.
 // ---------------------------------------------------------------------------
 
-function unesc(s) { return s.replace(/\\n/g, '\n').replace(/\\'/g, "'").replace(/\\\\/g, '\\'); }
+function unesc(s) { return s.replace(/\\u([0-9a-fA-F]{4})/g, (_, h) => String.fromCharCode(parseInt(h, 16))).replace(/\\n/g, '\n').replace(/\\'/g, "'").replace(/\\\\/g, '\\'); }
 function metaDesc(s) { return esc(unesc(s).replace(/\s+/g, ' ').trim().slice(0, 300)); }
 function parseArray(re, block) {
   const m = block.match(re);

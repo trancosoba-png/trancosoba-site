@@ -1,5 +1,5 @@
 const CASALUA: Property = {
-  id: 'casa-lua', code: 'TBA-282', name: { pt: 'Casa Lua — Itapororoca', en: 'Casa Lua — Itapororoca' },
+  id: 'casa-lua', code: 'TBA-282', name: { pt: 'Casa Lua', en: 'Casa Lua' },
   purpose: ['aluguel', 'venda'], location: 'Praia de Itapororoca', suites: 5, guests: 12, baths: 5, area: '1.300 m² · terreno 23.400 m²',
   price: { pt: 'R$ 22.000 / diária', en: 'R$ 22,000 / night' },
   priceLow: { pt: 'R$ 20.000 / diária', en: 'R$ 20,000 / night' },

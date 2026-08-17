@@ -1,5 +1,5 @@
 const MUXARABI: Property = {
-  id: 'casa-muxarabi-altos-de-trancoso', code: 'TBA-287', name: { pt: 'Casa Muxarabi — Altos de Trancoso', en: 'Casa Muxarabi — Altos de Trancoso' },
+  id: 'casa-muxarabi-altos-de-trancoso', code: 'TBA-287', name: { pt: 'Casa Muxarabi', en: 'Casa Muxarabi' },
   purpose: ['aluguel', 'venda'], location: 'Altos de Trancoso', suites: 6, guests: 13, baths: 6, area: 'Terreno 1.560 m² · 420 m² construídos',
   price: { pt: 'R$ 9.000 / diária', en: 'R$ 9,000 / night' },
   priceLow: { pt: 'R$ 8.000 / diária', en: 'R$ 8,000 / night' },

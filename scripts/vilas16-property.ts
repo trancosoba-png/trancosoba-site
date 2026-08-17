@@ -1,5 +1,5 @@
 const VILAS16: Property = {
-  id: 'vilas-altos-de-trancoso-casa-16', code: 'TBA-293', name: { pt: 'Vilas Altos de Trancoso — Casa 16', en: 'Vilas Altos de Trancoso — Casa 16' },
+  id: 'vilas-altos-de-trancoso-casa-16', code: 'TBA-293', name: { pt: 'Casa 16', en: 'Casa 16' },
   purpose: ['aluguel'], location: 'Altos de Trancoso', suites: 3, guests: 6, baths: 4, area: '233 m²',
   price: { pt: 'R$ 7.500 / diária', en: 'R$ 7,500 / night' },
   priceLow: { pt: 'R$ 6.000 / diária', en: 'R$ 6,000 / night' },

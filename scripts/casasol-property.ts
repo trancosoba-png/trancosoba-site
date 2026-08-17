@@ -1,5 +1,5 @@
 const CASASOL: Property = {
-  id: 'casa-sol', code: 'TBA-283', name: { pt: 'Casa Sol — Itapororoca', en: 'Casa Sol — Itapororoca' },
+  id: 'casa-sol', code: 'TBA-283', name: { pt: 'Casa Sol', en: 'Casa Sol' },
   purpose: ['aluguel'], location: 'Praia de Itapororoca', suites: 9, guests: 20, baths: 13, area: 'Terreno 23.400 m²',
   price: { pt: 'R$ 37.375 / diária', en: 'R$ 37,375 / night' },
   priceLow: { pt: 'R$ 33.100 / diária', en: 'R$ 33,100 / night' },

@@ -1,5 +1,5 @@
 const CASA11ALDEIA: Property = {
-  id: 'aldeia-itapororoca-casa-11', code: 'TBA-284', name: { pt: 'Casa 11 — Aldeia Itapororoca', en: 'Casa 11 — Aldeia Itapororoca' },
+  id: 'aldeia-itapororoca-casa-11', code: 'TBA-284', name: { pt: 'Casa 11', en: 'Casa 11' },
   purpose: ['aluguel'], location: 'Praia de Itapororoca', suites: 7, guests: 14, baths: 7, area: '',
   price: { pt: 'R$ 22.000 / diária', en: 'R$ 22,000 / night' },
   priceLow: { pt: 'R$ 16.500 / diária', en: 'R$ 16,500 / night' },

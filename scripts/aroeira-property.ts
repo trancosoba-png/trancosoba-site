@@ -1,5 +1,5 @@
 const AROEIRA: Property = {
-  id: 'casa-aroeira-itapororoca', code: 'TBA-285', name: { pt: 'Casa Aroeira — Itapororoca', en: 'Casa Aroeira — Itapororoca' },
+  id: 'casa-aroeira-itapororoca', code: 'TBA-285', name: { pt: 'Casa Aroeira', en: 'Casa Aroeira' },
   purpose: ['aluguel'], location: 'Praia de Itapororoca', suites: 6, guests: 12, baths: 6, area: 'Terreno 3.670 m² · 700 m² construídos',
   price: { pt: 'R$ 20.000 / diária', en: 'R$ 20,000 / night' },
   priceLow: { pt: 'R$ 17.000 / diária', en: 'R$ 17,000 / night' },
