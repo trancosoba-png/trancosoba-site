@@ -70,18 +70,6 @@ export const COLLECTIONS: Collection[] = [
     match: (p) => loc(p).startsWith('terravista'),
   },
   {
-    id: 'fasano',
-    seoName: { pt: 'no Fasano', en: 'in Fasano' },
-    title: { pt: 'Fasano', en: 'Fasano' },
-    sub: { pt: 'Casas no condomínio Fasano', en: 'Houses in the Fasano community' },
-    seo: {
-      pt: 'Casas no condomínio Fasano em Trancoso: o padrão de hospitalidade Fasano em um dos condomínios mais exclusivos do Brasil, com praia praticamente privativa e serviços de alto padrão.',
-      en: 'Houses in the Fasano community in Trancoso: Fasano hospitality standards in one of Brazil\'s most exclusive communities, with a nearly private beach and high-end services.',
-    },
-    cover: '/img/colecoes/fasano.webp',
-    match: (p) => loc(p).includes('fasano'),
-  },
-  {
     id: 'grandes-grupos',
     seoName: { pt: 'para Grandes Grupos', en: 'for Large Groups' },
     title: { pt: 'Grandes Grupos', en: 'Large Groups' },
