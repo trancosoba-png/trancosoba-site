@@ -334,7 +334,7 @@ const faqBody = `<main style="font-family:Georgia,serif;max-width:960px;margin:0
     <p><a href="/">TrancosoBA — Início</a></p>
     <h1>Perguntas Frequentes — Aluguel de casas em Trancoso</h1>
     ${FAQS.map(([q, a]) => `<h2>${esc(q)}</h2>\n    <p>${esc(a)}</p>`).join('\n    ')}
-    <p>Dúvidas: WhatsApp +55 73 99971-8799 · contato@trancosoba.com.br</p>
+    <p>Dúvidas: WhatsApp <a href="https://wa.me/5573999718799" target="_blank" rel="noopener noreferrer">+55 73 99971-8799</a> · <a href="mailto:contato@trancosoba.com.br">contato@trancosoba.com.br</a></p>
   </main>`;
 mkdirSync(join(root, 'dist/faq'), { recursive: true });
 writeFileSync(join(root, 'dist/faq', 'index.html'), pageShell({
