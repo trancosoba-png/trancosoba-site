@@ -103,9 +103,14 @@ const ORG_LD = JSON.stringify({
   address: { '@type': 'PostalAddress', addressLocality: 'Trancoso', addressRegion: 'BA', addressCountry: 'BR' },
   sameAs: ['https://instagram.com/trancosoba'],
 });
-const HERO_PRELOAD = '<link rel="preload" as="image" href="/img/hero-fallback-800.webp" imagesrcset="/img/hero-fallback-800.webp 800w, /img/hero-fallback-1600.webp 1600w" imagesizes="100vw" type="image/webp" />';
+// Preload da imagem hero correta de cada página (antes: sempre hero-fallback,
+// que roubava banda do LCP real nas rotas internas). srcSet idêntico ao PageHero.
+const heroPreload = (hero) => {
+  const stem = hero.replace(/\.(jpe?g|webp)$/i, '');
+  return `<link rel="preload" as="image" href="${stem}-800.webp" imagesrcset="${stem}-800.webp 800w, ${stem}-1600.webp 1600w" imagesizes="100vw" type="image/webp" />`;
+};
 
-function pageShell({ title, desc, url, img, extraHead = '', body = '' }) {
+function pageShell({ title, desc, url, img, extraHead = '', body = '', hero = '' }) {
   return `<!doctype html>
 <html lang="pt-BR">
   <head>
@@ -119,7 +124,7 @@ function pageShell({ title, desc, url, img, extraHead = '', body = '' }) {
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
     <link rel="shortcut icon" href="/favicon.ico" />
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-    ${HERO_PRELOAD}
+    ${hero ? heroPreload(hero) : ''}
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="TrancosoBA" />
     <meta property="og:title" content="${esc(title)}" />
@@ -192,7 +197,7 @@ for (const p of props) {
   </main>`;
   const extraHead = `<script type="application/ld+json">${JSON.stringify(jsonLd)}</script>\n    <script type="application/ld+json">${JSON.stringify(breadcrumbLd)}</script>`;
   mkdirSync(join(root, 'dist/imovel', p.id), { recursive: true });
-  writeFileSync(join(root, 'dist/imovel', p.id, 'index.html'), pageShell({ title, desc, url, img, extraHead, body }));
+  writeFileSync(join(root, 'dist/imovel', p.id, 'index.html'), pageShell({ title, desc, url, img, extraHead, body, hero: p.image }));
   pre++;
 }
 
@@ -208,11 +213,22 @@ const statics = [
   { path: 'anuncie', title: 'Anuncie sua casa | TrancosoBA', desc: 'Proprietário em Trancoso? Anuncie sua casa com a TrancosoBA: curadoria, fotos profissionais, concierge e gestão completa da locação.', body: '<main style="font-family:Georgia,serif;max-width:960px;margin:0 auto;padding:24px;"><h1>Anuncie sua casa</h1><p>Coloque sua casa no portfólio TrancosoBA: curadoria, fotos, tarifário e gestão completa.</p></main>' },
   { path: 'privacidade', title: 'Política de Privacidade | TrancosoBA', desc: 'Política de privacidade da TrancosoBA: como tratamos seus dados.', body: '<main style="font-family:Georgia,serif;max-width:960px;margin:0 auto;padding:24px;"><h1>Política de Privacidade</h1></main>' },
 ];
+const HERO_BY_PATH = {
+  '': '/img/hero-fallback.webp',
+  casas: '/img/vilas75/01.webp',
+  trancoso: '/img/lugares/trancoso-hero-v2.webp',
+  servicos: '/img/servicos/10-suporte.webp',
+  nos: '/img/ponta/01.webp',
+  contato: '/img/hero.webp',
+  favoritos: '/img/vilas75/01.webp',
+  anuncie: '/img/hero.webp',
+  privacidade: '/img/vilas75/01.webp',
+};
 for (const s of statics) {
   const url = `${SITE}/${s.path}`;
   const dir = s.path ? join(root, 'dist', s.path) : join(root, 'dist');
   if (s.path) mkdirSync(join(root, 'dist', s.path), { recursive: true });
-  writeFileSync(join(dir, 'index.html'), pageShell({ title: s.title, desc: s.desc, url, img: DEFAULT_IMG, body: s.body }));
+  writeFileSync(join(dir, 'index.html'), pageShell({ title: s.title, desc: s.desc, url, img: DEFAULT_IMG, body: s.body, hero: HERO_BY_PATH[s.path] || '' }));
 }
 
 // ---------------------------------------------------------------------------
@@ -303,7 +319,7 @@ function seasonalPage({ path, h1, intro, field, pacote }) {
     <p>Reservas: WhatsApp <a href="https://wa.me/5573999718799" target="_blank" rel="noopener noreferrer">+55 73 99971-8799</a> · <a href="mailto:contato@trancosoba.com.br">contato@trancosoba.com.br</a></p>
   </main>`;
   mkdirSync(join(root, 'dist', path), { recursive: true });
-  writeFileSync(join(root, 'dist', path, 'index.html'), pageShell({ title: `${h1} | TrancosoBA`, desc: intro, url, img: DEFAULT_IMG, extraHead: `<script type="application/ld+json">${JSON.stringify(itemListLd)}</script>`, body }));
+  writeFileSync(join(root, 'dist', path, 'index.html'), pageShell({ title: `${h1} | TrancosoBA`, desc: intro, url, img: DEFAULT_IMG, extraHead: `<script type="application/ld+json">${JSON.stringify(itemListLd)}</script>`, body, hero: field === 'carnaval' ? '/img/helena/03.webp' : '/img/vilas75/01.webp' }));
 }
 seasonalPage({ path: 'reveillon-trancoso', h1: 'Réveillon em Trancoso', field: 'reveillon', pacote: 'Réveillon (pacote 10 diárias)',
   intro: 'Casas de alto padrão para o Réveillon em Trancoso: pacotes de 10 diárias com valores fechados publicados em cada imóvel, staff e concierge TrancosoBA.' });
