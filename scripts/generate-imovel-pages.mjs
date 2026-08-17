@@ -107,7 +107,7 @@ const ORG_LD = JSON.stringify({
 // que roubava banda do LCP real nas rotas internas). srcSet idêntico ao PageHero.
 const heroPreload = (hero) => {
   const stem = hero.replace(/\.(jpe?g|webp)$/i, '');
-  return `<link rel="preload" as="image" href="${stem}-800.webp" imagesrcset="${stem}-800.webp 800w, ${stem}-1600.webp 1600w" imagesizes="100vw" type="image/webp" />`;
+  return `<link rel="preload" as="image" href="${stem}-800.webp" imagesrcset="${stem}-thumb.webp 400w, ${stem}-800.webp 800w, ${stem}-1600.webp 1600w" imagesizes="100vw" type="image/webp" />`;
 };
 
 function pageShell({ title, desc, url, img, extraHead = '', body = '', hero = '' }) {
