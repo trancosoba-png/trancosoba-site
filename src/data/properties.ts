@@ -1954,7 +1954,7 @@ const TRESMENINAS: Property = {
 };
 
 const PEROBA: Property = {
-  id: 'casa-peroba', code: 'TBA-267', name: { pt: 'Casa Coqueiral 3', en: 'Casa Coqueiral 3' },
+  id: 'casa-peroba', code: 'TBA-267', name: { pt: 'Casa Peroba', en: 'Casa Peroba' },
   purpose: ['aluguel'], location: 'Condomínio Coqueiral', suites: 5, guests: 14, baths: 6, area: 'Sob consulta',
   price: { pt: 'R$ 3.200 / diária', en: 'R$ 3,200 / night' },
   priceLow: { pt: 'R$ 2.500 / diária', en: 'R$ 2,500 / night' },
@@ -2051,7 +2051,7 @@ const BRAGA: Property = {
 };
 
 const CUMARU: Property = {
-  id: 'casa-cumaru', code: 'TBA-271', name: { pt: 'Casa 04', en: 'Casa 04' },
+  id: 'casa-cumaru', code: 'TBA-271', name: { pt: 'Casa Cumaru', en: 'Casa Cumaru' },
   purpose: ['aluguel'], location: 'Colina', suites: 6, guests: 12, baths: 6, area: '—',
   price: { pt: 'R$ 7.000 / diária', en: 'R$ 7,000 / night' },
   priceLow: { pt: 'R$ 5.500 / diária', en: 'R$ 5,500 / night' },

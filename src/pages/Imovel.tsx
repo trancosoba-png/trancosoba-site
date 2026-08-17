@@ -201,7 +201,7 @@ export default function Imovel() {
         <div className="lg:col-span-2">
           <Reveal>
             <p className="eyebrow text-gold">{p.location} · {p.code}</p>
-            <h1 className="font-serif-e text-4xl md:text-6xl text-green-e mt-3">{txt(p.name, lang)}</h1>
+            <h1 className="font-serif-e text-4xl md:text-6xl text-green-e mt-3">{txt(p.name, lang)} — {p.location}</h1>
             <div className="relative inline-block mt-4"><HeartButton id={p.id} className="!static !bg-ivory-deep !text-green-e hover:!bg-gold hover:!text-ivory border border-green-e/20" /></div>
             <div className="flex flex-wrap gap-8 mt-8 pb-8 border-b border-black/10">
               {stats.map((s, i) => (

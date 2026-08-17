@@ -148,13 +148,13 @@ let pre = 0;
 for (const p of props) {
   const url = `${SITE}/imovel/${p.id}`;
   const img = `${SITE}${p.image}`;
-  const title = `${p.namePt} — ${p.location}, Trancoso | TrancosoBA`;
+  const title = `${p.namePt} — ${p.location} | TrancosoBA`;
   const desc = `${p.namePt} (${p.code}): ${p.suites} suítes, até ${p.guests} hóspedes, em ${p.location}, Trancoso. ${p.pricePt}. ${p.descPt.split('\n')[0]}`;
   const priceNum = p.pricePt.replace(/\./g, '').match(/R\$\s*(\d+)/)?.[1];
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'VacationRental',
-    name: p.namePt,
+    name: `${p.namePt} — ${p.location}`,
     identifier: p.code,
     description: p.descPt.split('\n')[0],
     url,
@@ -180,7 +180,7 @@ for (const p of props) {
   const paras = p.descPt.split('\n\n').map((t) => `<p>${esc(t)}</p>`).join('\n      ');
   const body = `<main style="font-family:Georgia,serif;max-width:960px;margin:0 auto;padding:24px;">
     <p><a href="/casas">TrancosoBA — Nossas Casas</a></p>
-    <h1>${esc(p.namePt)}</h1>
+    <h1>${esc(p.namePt)} — ${esc(p.location)}</h1>
     <p><strong>${esc(p.location)}</strong> · ${p.code} · ${p.suites} suítes · até ${p.guests} hóspedes · ${p.baths} banheiros</p>
     <p><strong>Alta temporada: ${esc(p.pricePt)}</strong>${p.priceLowPt ? ` · Baixa temporada: ${esc(p.priceLowPt)}` : ''}</p>
     <p>Réveillon (pacote 10 diárias): ${esc(p.reveillon || 'Sob consulta')} · Carnaval (pacote 5 dias): ${esc(p.carnaval || 'Sob consulta')}</p>

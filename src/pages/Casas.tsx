@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import { Link, useParams, useSearchParams } from 'react-router';
 import { Search, SlidersHorizontal, X } from 'lucide-react';
 import { useLang, txt } from '../i18n';
@@ -55,6 +55,24 @@ export default function Casas() {
   const portfolio = results.filter(p => !p.featured);
 
   const renderCard = (p: (typeof results)[number]) => <PropertyCard key={p.id} p={p} showView />;
+
+  // Grade progressiva (performance mobile): renderiza 24 cards e carrega +24 ao rolar,
+  // em vez de montar os ~187 de uma vez.
+  const PAGE = 24;
+  const [visible, setVisible] = useState(PAGE);
+  const sentinelRef = useRef<HTMLDivElement | null>(null);
+  const fullList = isFiltering ? results : portfolio;
+  const listKey = [colId, purpose, location, suites, guests, priceMin, priceMax, feats.join(','), query].join('|');
+  useEffect(() => { setVisible(PAGE); }, [listKey]);
+  useEffect(() => {
+    const el = sentinelRef.current;
+    if (!el) return;
+    const obs = new IntersectionObserver((entries) => {
+      if (entries[0]?.isIntersecting) setVisible((v) => v + PAGE);
+    }, { rootMargin: '800px' });
+    obs.observe(el);
+    return () => obs.disconnect();
+  }, []);
 
   const sel = "w-full bg-transparent border border-green-e/25 px-3 py-2.5 text-sm outline-none focus:border-gold";
 
@@ -194,8 +212,9 @@ export default function Casas() {
             </>
           )}
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-14">
-            {(isFiltering ? results : portfolio).map(renderCard)}
+            {fullList.slice(0, visible).map(renderCard)}
           </div>
+          {visible < fullList.length && <div ref={sentinelRef} className="h-1" aria-hidden="true" />}
           {lang !== 'pt' && <p className="mt-10 text-center text-xs text-ink/45 italic">{t.home.fxNote}</p>}
         </div>
       </section>

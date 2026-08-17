@@ -76,7 +76,7 @@ function TitleManager() {
     if (!title && pathname.startsWith('/imovel/')) {
       const p = PROPERTIES.find(x => x.id === pathname.split('/imovel/')[1]);
       if (p) {
-        title = `${p.name.pt} — TrancosoBA`;
+        title = `${p.name.pt} — ${p.location} | TrancosoBA`;
         desc = `${p.name.pt}: ${p.suites} suítes, até ${p.guests} hóspedes, em ${p.location}, Trancoso. ${p.description.pt.split('\n')[0].slice(0, 140)}`;
         image = `${SITE_URL}${p.image}`;
       }
