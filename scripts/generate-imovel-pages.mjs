@@ -188,7 +188,7 @@ for (const p of props) {
     ${paras}
     <h2>Facilidades</h2>
     <ul>${amen}</ul>
-    <p>Reservas e disponibilidade: <a href="/imovel/${p.id}">TrancosoBA</a> — WhatsApp +55 73 99971-8799 · contato@trancosoba.com.br</p>
+    <p>Reservas e disponibilidade: <a href="/imovel/${p.id}">TrancosoBA</a> — WhatsApp <a href="https://wa.me/5573999718799?text=${encodeURIComponent(`Olá! Tenho interesse em ${p.namePt} (${p.code}). Gostaria de saber a disponibilidade.`)}" target="_blank" rel="noopener noreferrer">+55 73 99971-8799</a> · <a href="mailto:contato@trancosoba.com.br">contato@trancosoba.com.br</a></p>
   </main>`;
   const extraHead = `<script type="application/ld+json">${JSON.stringify(jsonLd)}</script>\n    <script type="application/ld+json">${JSON.stringify(breadcrumbLd)}</script>`;
   mkdirSync(join(root, 'dist/imovel', p.id), { recursive: true });
