@@ -111,11 +111,11 @@ export default function Imovel() {
           <img src={p.gallery[active]} alt={`${txt(p.name, lang)} — ${t.imovel.gallery}`} fetchPriority="high" decoding="async" className="w-full aspect-[16/9] object-cover" draggable={false} />
           <span className="photo-shield" aria-hidden="true" />
           <button type="button" onClick={(e) => { e.stopPropagation(); prev(); }} aria-label="Foto anterior"
-            className="absolute left-3 md:left-5 top-1/2 -translate-y-1/2 z-10 flex items-center justify-center w-11 h-11 md:w-12 md:h-12 rounded-full bg-green-deep/55 text-ivory backdrop-blur-sm transition-all hover:bg-gold hover:text-green-deep opacity-90 md:opacity-0 md:group-hover/gal:opacity-100">
+            className="absolute left-3 md:left-5 top-1/2 -translate-y-1/2 z-20 flex items-center justify-center w-11 h-11 md:w-12 md:h-12 rounded-full bg-green-deep/55 text-ivory backdrop-blur-sm transition-all hover:bg-gold hover:text-green-deep opacity-90 md:opacity-0 md:group-hover/gal:opacity-100">
             <ChevronLeft size={26} />
           </button>
           <button type="button" onClick={(e) => { e.stopPropagation(); next(); }} aria-label="Próxima foto"
-            className="absolute right-3 md:right-5 top-1/2 -translate-y-1/2 z-10 flex items-center justify-center w-11 h-11 md:w-12 md:h-12 rounded-full bg-green-deep/55 text-ivory backdrop-blur-sm transition-all hover:bg-gold hover:text-green-deep opacity-90 md:opacity-0 md:group-hover/gal:opacity-100">
+            className="absolute right-3 md:right-5 top-1/2 -translate-y-1/2 z-20 flex items-center justify-center w-11 h-11 md:w-12 md:h-12 rounded-full bg-green-deep/55 text-ivory backdrop-blur-sm transition-all hover:bg-gold hover:text-green-deep opacity-90 md:opacity-0 md:group-hover/gal:opacity-100">
             <ChevronRight size={26} />
           </button>
           <span className="absolute bottom-3 right-3 bg-green-deep/70 text-ivory text-xs tracking-widest px-3 py-1.5 pointer-events-none">
@@ -164,7 +164,7 @@ export default function Imovel() {
           {/* Área da imagem — a foto ocupa o máximo da tela respeitando sua proporção original */}
           <div className="relative flex-1 min-h-0 flex items-center justify-center px-1 md:px-4 pt-11 pb-1">
             <button onClick={(e) => { e.stopPropagation(); prev(); }} aria-label="Foto anterior"
-              className="absolute left-2 md:left-4 top-1/2 -translate-y-1/2 z-10 flex items-center justify-center w-11 h-11 md:w-14 md:h-14 rounded-full border border-ivory/25 bg-green-deep/60 text-ivory backdrop-blur-sm transition-all hover:bg-gold hover:text-green-deep hover:border-gold hover:scale-105">
+              className="absolute left-2 md:left-4 top-1/2 -translate-y-1/2 z-20 flex items-center justify-center w-11 h-11 md:w-14 md:h-14 rounded-full border border-ivory/25 bg-green-deep/60 text-ivory backdrop-blur-sm transition-all hover:bg-gold hover:text-green-deep hover:border-gold hover:scale-105">
               <ChevronLeft size={30} />
             </button>
             <div className="w-full h-full flex items-center justify-center select-none"
@@ -176,7 +176,7 @@ export default function Imovel() {
               </span>
             </div>
             <button onClick={(e) => { e.stopPropagation(); next(); }} aria-label="Próxima foto"
-              className="absolute right-2 md:right-4 top-1/2 -translate-y-1/2 z-10 flex items-center justify-center w-11 h-11 md:w-14 md:h-14 rounded-full border border-ivory/25 bg-green-deep/60 text-ivory backdrop-blur-sm transition-all hover:bg-gold hover:text-green-deep hover:border-gold hover:scale-105">
+              className="absolute right-2 md:right-4 top-1/2 -translate-y-1/2 z-20 flex items-center justify-center w-11 h-11 md:w-14 md:h-14 rounded-full border border-ivory/25 bg-green-deep/60 text-ivory backdrop-blur-sm transition-all hover:bg-gold hover:text-green-deep hover:border-gold hover:scale-105">
               <ChevronRight size={30} />
             </button>
           </div>
