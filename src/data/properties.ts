@@ -4815,7 +4815,38 @@ const VILAS16: Property = {
   },
 };
 
-PROPERTIES.unshift(AROEIRA, CASA11ALDEIA, CASADEI, CASALUA, CASASOL, CASILLA, COQUEIRAL5, CASAJV12, MUXARABI, NOA, PONTA03, SELVA, VILAS16, GRAODEMAR, VILAS37, VILAS27, VILAS61, VILAS62, VILLAQ, JV5, PADRE, FASANOJ2, COQ15, CASAFLO, CASACP, TEMPO03, OLAVA, BUENAVISTA, FAZENDA29, VILAS39, TVB12, GOLF28, COQ12, COQ11, VILLAW, COQ10, COQ27, IEMANJA, COQ09, NANA, VILAS34, JUE, TEMPO04, COQ04, HELENA, ALTAR, DUE, AZUL, FER, COLINA3, COLINA2, COLINA, ECO01, ECO03, ECO04, VISTA, GOLF95, VILA13, COQUEIRAL01, OKUN, GOLF62, TVB10, MANGABA, GOLF21, GOLF19, GOLF33, GOLF37, GOLF27, TRAMA, TIZZI, LILI, COQUEIRAL02, JV15, JV14, JV13, PEROBA, COQ06, COQUEIRAL7, COQ08, V7, MARTINI, SANTARITA, PATIMIRIM, DAJU, BUENO, BONITA, AREIA, COQUEIRAL13, SUBLIME, ESTRELA, VISTANATIVOS, TERRAL, ITAPO05, ITAPO01, ATENA, JACARANDA04, COQUEIRAL14, C20, CASAMARIA, ALMESCLA, CASAMAR, GEIGER, C21, MIA, COQUEIRAL22, MAION, DADINHO, IANDE, MAGIVI, OITI, C23, C24, NAOCA, CASA71, CAJU, SANMARCO, CASA14, CASA09, BOSSA, TUA, IMBIRUCU, CASA42, CASA61, VILAS02, CASA80, ITAPO07, CASA96, CASA90, VILAS75, LIMOEIRO, BIRIBA, VILAMAR, BETTONI, PINI, AUREA, SAOJORGE, CAZA, ITAPO06, ITAPO04, ALEGRIA, PONTA, PG11, PG111, PG104, MANDACARU, PONTARB, FALESIA, RAIZES, PONTABARRA, FASANO10, FASANO16, FASANO17, VILAS26, GOLF58, FLORESTA, VILAS41, VILAS67, BOUTIQUE13, ARACUA, JACARANDA03, TEIU, GOLF25, PG50, CASAEDO, BALEIA, PG55, GOLF72, PITANGA, AFRICA, TEMPO07, TEMPO08, TEMPO06, BOSQUE, PATIO, PG32, PG45, LICURI, DIVINA, TRESMENINAS, COQUEIRAL25, MORENA, MOA, BRAGA, CUMARU, JACARANDA05, TB14, MACONDO, RICK);
+const CASABRUNELLA: Property = {
+  id: 'casa-brunella', code: 'TBA-389', name: { pt: 'Casa Brunella', en: 'Casa Brunella' },
+  purpose: ['aluguel'], location: 'Colina', suites: 3, guests: 6, baths: 4, area: '300 m²',
+  price: { pt: 'R$ 2.800 / diária', en: 'R$ 2,800 / night' },
+  priceLow: { pt: 'R$ 1.800 / diária', en: 'R$ 1,800 / night' },
+  carnaval: { pt: 'Sob consulta', en: 'On request' },
+  reveillon: { pt: 'R$ 70.000 / pacote', en: 'R$ 70,000 / package' },
+  image: '/img/brunella/01.webp',
+  gallery: ['/img/brunella/01.webp','/img/brunella/02.webp','/img/brunella/03.webp','/img/brunella/04.webp','/img/brunella/05.webp','/img/brunella/06.webp','/img/brunella/07.webp','/img/brunella/08.webp','/img/brunella/09.webp','/img/brunella/10.webp','/img/brunella/11.webp','/img/brunella/12.webp','/img/brunella/13.webp','/img/brunella/14.webp','/img/brunella/15.webp','/img/brunella/16.webp','/img/brunella/17.webp','/img/brunella/18.webp','/img/brunella/19.webp','/img/brunella/20.webp','/img/brunella/21.webp','/img/brunella/22.webp','/img/brunella/23.webp','/img/brunella/24.webp','/img/brunella/25.webp','/img/brunella/26.webp','/img/brunella/27.webp','/img/brunella/28.webp','/img/brunella/29.webp','/img/brunella/30.webp','/img/brunella/31.webp','/img/brunella/32.webp','/img/brunella/33.webp','/img/brunella/34.webp','/img/brunella/35.webp'], featured: false,
+  amenities: {
+    pt: ['Piscina privativa', 'Jardim amplo', 'Espaço de convivência', 'Área para churrasco', 'Sala de estar', 'Sala de jantar', 'Cozinha equipada', 'Lavabo', 'Ar-condicionado nas suítes'],
+    en: ['Private pool', 'Spacious garden', 'Lounge area', 'Barbecue area', 'Living room', 'Dining room', 'Equipped kitchen', 'Powder room', 'Air conditioning in the suites'],
+  },
+  description: {
+    pt: 'Charmosa casa em Trancoso, cercada por muito verde e localizada a poucos minutos do Quadrado. São 3 suítes com ar-condicionado, acomodando confortavelmente até 6 hóspedes. A propriedade possui aproximadamente 300 m² de área construída, em um amplo terreno de 2.000 m², proporcionando bastante privacidade e contato com a natureza.\n\nA área externa conta com um belo jardim, piscina, espaço de convivência e área para churrasco. Internamente, a casa dispõe de sala de estar, sala de jantar, cozinha equipada e lavabo.\n\nLocalizada no bairro Colina, a aproximadamente 300 metros do Quadrado e 800 metros da praia.',
+    en: 'A charming house in Trancoso, surrounded by lush greenery and located just a few minutes from the Quadrado. It offers 3 air-conditioned suites, comfortably accommodating up to 6 guests. The property has approximately 300 m² of built area on a generous 2,000 m² lot, providing plenty of privacy and contact with nature.\n\nThe outdoor area features a beautiful garden, a pool, a lounge space and a barbecue area. Inside, the house offers a living room, a dining room, an equipped kitchen and a powder room.\n\nLocated in the Colina neighborhood, approximately 300 meters from the Quadrado and 800 meters from the beach.',
+  },
+  staff: {
+    pt: ['Camareira por meio período.', 'Piscineiro.'],
+    en: ['Housekeeper (part-time).', 'Pool attendant.'],
+  },
+  notes: {
+    pt: ['Valores e disponibilidade sujeitos a alteração sem aviso prévio.'],
+    en: ['Rates and availability subject to change without prior notice.'],
+  },
+  locationDetail: {
+    pt: 'Bairro Colina, em Trancoso, Bahia — a aproximadamente 300 metros do Quadrado e 800 metros da praia.',
+    en: 'Colina neighborhood, in Trancoso, Bahia — approximately 300 meters from the Quadrado and 800 meters from the beach.',
+  },
+};
+
+PROPERTIES.unshift(CASABRUNELLA, AROEIRA, CASA11ALDEIA, CASADEI, CASALUA, CASASOL, CASILLA, COQUEIRAL5, CASAJV12, MUXARABI, NOA, PONTA03, SELVA, VILAS16, GRAODEMAR, VILAS37, VILAS27, VILAS61, VILAS62, VILLAQ, JV5, PADRE, FASANOJ2, COQ15, CASAFLO, CASACP, TEMPO03, OLAVA, BUENAVISTA, FAZENDA29, VILAS39, TVB12, GOLF28, COQ12, COQ11, VILLAW, COQ10, COQ27, IEMANJA, COQ09, NANA, VILAS34, JUE, TEMPO04, COQ04, HELENA, ALTAR, DUE, AZUL, FER, COLINA3, COLINA2, COLINA, ECO01, ECO03, ECO04, VISTA, GOLF95, VILA13, COQUEIRAL01, OKUN, GOLF62, TVB10, MANGABA, GOLF21, GOLF19, GOLF33, GOLF37, GOLF27, TRAMA, TIZZI, LILI, COQUEIRAL02, JV15, JV14, JV13, PEROBA, COQ06, COQUEIRAL7, COQ08, V7, MARTINI, SANTARITA, PATIMIRIM, DAJU, BUENO, BONITA, AREIA, COQUEIRAL13, SUBLIME, ESTRELA, VISTANATIVOS, TERRAL, ITAPO05, ITAPO01, ATENA, JACARANDA04, COQUEIRAL14, C20, CASAMARIA, ALMESCLA, CASAMAR, GEIGER, C21, MIA, COQUEIRAL22, MAION, DADINHO, IANDE, MAGIVI, OITI, C23, C24, NAOCA, CASA71, CAJU, SANMARCO, CASA14, CASA09, BOSSA, TUA, IMBIRUCU, CASA42, CASA61, VILAS02, CASA80, ITAPO07, CASA96, CASA90, VILAS75, LIMOEIRO, BIRIBA, VILAMAR, BETTONI, PINI, AUREA, SAOJORGE, CAZA, ITAPO06, ITAPO04, ALEGRIA, PONTA, PG11, PG111, PG104, MANDACARU, PONTARB, FALESIA, RAIZES, PONTABARRA, FASANO10, FASANO16, FASANO17, VILAS26, GOLF58, FLORESTA, VILAS41, VILAS67, BOUTIQUE13, ARACUA, JACARANDA03, TEIU, GOLF25, PG50, CASAEDO, BALEIA, PG55, GOLF72, PITANGA, AFRICA, TEMPO07, TEMPO08, TEMPO06, BOSQUE, PATIO, PG32, PG45, LICURI, DIVINA, TRESMENINAS, COQUEIRAL25, MORENA, MOA, BRAGA, CUMARU, JACARANDA05, TB14, MACONDO, RICK);
 
 // Todas as casas em ordem alfabética (nome em português).
 PROPERTIES.sort((a, b) => a.name.pt.localeCompare(b.name.pt, 'pt-BR', { numeric: true }));
