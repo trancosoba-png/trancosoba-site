@@ -1,7 +1,7 @@
 // Gera páginas estáticas /imovel/{id}/index.html com meta tags Open Graph
 // próprias de cada casa (para preview de link no WhatsApp/redes sociais).
 // O visitante humano é redirecionado imediatamente para a rota da SPA.
-import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
+import { readFileSync, writeFileSync, mkdirSync, existsSync, statSync } from 'node:fs';
 import { join } from 'node:path';
 
 const SITE = process.env.SITE_URL || 'https://www.trancosoba.com';
@@ -90,6 +90,39 @@ for (const b of blocks) {
   props.push({ id, code, namePt, location, suites, guests, baths, image, pricePt, priceLowPt, carnaval, reveillon, descPt, gallery, amenities, features });
 }
 
+// ---------------------------------------------------------------------------
+// IMAGENS OG: gera dist/og/{id}.jpg (1200x630, JPG <300KB) no build, a partir
+// da foto de capa de cada casa. Cadeia de fallback: capa -> hero.jpg ->
+// imagem OG commitada em public/og/. Se nada existir, og:image aponta direto
+// para a capa original da casa (nunca fica sem imagem de prévia).
+// ---------------------------------------------------------------------------
+let sharp = null;
+try { sharp = (await import('sharp')).default; } catch { console.warn('generate-og: sharp indisponível — usando imagens OG commitadas em public/og/'); }
+const ogUrl = {};
+mkdirSync(join(root, 'dist/og'), { recursive: true });
+for (const p of props) {
+  const out = join(root, 'dist/og', `${p.id}.jpg`);
+  let ok = existsSync(out);
+  if (sharp) {
+    const cover = join(root, 'public', p.image);
+    const hero = join(root, 'public/img/hero.jpg');
+    const input = existsSync(cover) ? cover : (existsSync(hero) ? hero : null);
+    if (input) {
+      try {
+        let q = 85;
+        for (;;) {
+          await sharp(input).resize(1200, 630, { fit: 'cover', position: 'attention' }).jpeg({ quality: q, mozjpeg: true }).toFile(out);
+          if (statSync(out).size < 300000 || q <= 55) break;
+          q -= 10;
+        }
+        ok = true;
+        if (input === hero) console.warn(`generate-og: ${p.id} sem capa em public${p.image} — usada hero.jpg como fallback`);
+      } catch (e) { console.warn(`generate-og: falha ao gerar ${p.id}: ${e.message}`); }
+    }
+  }
+  ogUrl[p.id] = ok ? `${SITE}/og/${p.id}.jpg` : `${SITE}${p.image}`;
+}
+
 const template = readFileSync(join(root, 'dist/index.html'), 'utf8');
 const assetRe = /<script type="module" crossorigin src="[^"]+"><\/script>|<link rel="stylesheet"[^>]+>/g;
 const assets = (template.match(assetRe) || []).join('\n    ');
@@ -156,7 +189,7 @@ const DEFAULT_IMG = `${SITE}/img/hero.jpg`;
 let pre = 0;
 for (const p of props) {
   const url = `${SITE}/imovel/${p.id}`;
-  const img = `${SITE}/og/${p.id}.jpg`;
+  const img = ogUrl[p.id];
   const title = `${p.namePt} — ${p.location} | TrancosoBA`;
   const ogDesc = `${p.location}, Trancoso · ${p.suites} suítes · até ${p.guests} hóspedes`;
   const desc = `${p.namePt} (${p.code}): ${p.suites} suítes, até ${p.guests} hóspedes, em ${p.location}, Trancoso. ${p.pricePt}. ${p.descPt.split('\n')[0]}`;
