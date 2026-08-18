@@ -120,7 +120,7 @@ for (const p of props) {
       } catch (e) { console.warn(`generate-og: falha ao gerar ${p.id}: ${e.message}`); }
     }
   }
-  ogUrl[p.id] = ok ? `${SITE}/og/${p.id}.jpg` : `${SITE}${p.image}`;
+  ogUrl[p.id] = ok ? `${SITE}/og/${p.id}.jpg` : `${SITE}/img/hero.jpg`;
 }
 
 const template = readFileSync(join(root, 'dist/index.html'), 'utf8');
