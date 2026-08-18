@@ -4864,6 +4864,10 @@ const COQUEIRAL03: Property = {
     pt: 'Charmosa e cercada pelo verde, a Casa Coqueiral 03 é uma excelente opção para quem busca tranquilidade, conforto e privacidade em Trancoso.\n\nA propriedade possui 3 suítes com ar-condicionado e acomoda confortavelmente até 6 hóspedes. Os ambientes são acolhedores e integrados, com sala de estar, sala de jantar, cozinha equipada e espaços voltados para o jardim.\n\nNa área externa, a casa conta com piscina privativa, amplo jardim, varanda e área de convivência, perfeita para aproveitar os dias de Trancoso com tranquilidade.\n\nLocalizada no Condomínio Coqueiral, a aproximadamente 1,5 km do Quadrado Histórico de Trancoso.',
     en: 'Charming and surrounded by greenery, Casa Coqueiral 03 is an excellent option for those seeking tranquility, comfort and privacy in Trancoso.\n\nThe property has 3 air-conditioned suites and comfortably accommodates up to 6 guests. The spaces are welcoming and integrated, with a living room, dining room, equipped kitchen and areas facing the garden.\n\nOutside, the house offers a private pool, a spacious garden, a veranda and a lounge area — perfect for enjoying Trancoso days in peace.\n\nLocated in the Coqueiral community, approximately 1.5 km from Trancoso\'s historic Quadrado.',
   },
+  staff: {
+    pt: ['Camareira.', 'Piscineiro.'],
+    en: ['Housekeeper.', 'Pool attendant.'],
+  },
   notes: {
     pt: ['Valor de venda: sob consulta.', 'Valores e disponibilidade sujeitos a alteração sem aviso prévio.'],
     en: ['Sale price: on request.', 'Rates and availability subject to change without prior notice.'],
