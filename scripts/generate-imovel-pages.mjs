@@ -18,7 +18,7 @@ for (m of src.matchAll(re)) {
   const title = `${name} — TrancosoBA`;
   const desc = `${name}: ${suites} suítes, até ${guests} hóspedes, em ${location}, Trancoso. Curadoria TrancosoBA.`;
   const url = `${SITE}/p/${id}`;
-  const img = `${SITE}${image}`;
+  const img = `${SITE}/og/${id}.jpg`;
   const html = `<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -32,6 +32,9 @@ for (m of src.matchAll(re)) {
 <meta property="og:description" content="${esc(desc)}" />
 <meta property="og:url" content="${url}" />
 <meta property="og:image" content="${img}" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="${esc(title)}" />
 <meta name="twitter:description" content="${esc(desc)}" />
@@ -110,7 +113,7 @@ const heroPreload = (hero) => {
   return `<link rel="preload" as="image" href="${stem}-800.webp" imagesrcset="${stem}-thumb.webp 400w, ${stem}-800.webp 800w, ${stem}-1600.webp 1600w" imagesizes="100vw" type="image/webp" />`;
 };
 
-function pageShell({ title, desc, url, img, extraHead = '', body = '', hero = '' }) {
+function pageShell({ title, desc, ogDesc = '', url, img, imgW = 0, imgH = 0, extraHead = '', body = '', hero = '' }) {
   return `<!doctype html>
 <html lang="pt-BR">
   <head>
@@ -128,12 +131,13 @@ function pageShell({ title, desc, url, img, extraHead = '', body = '', hero = ''
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="TrancosoBA" />
     <meta property="og:title" content="${esc(title)}" />
-    <meta property="og:description" content="${metaDesc(desc)}" />
+    <meta property="og:description" content="${ogDesc ? esc(ogDesc) : metaDesc(desc)}" />
     <meta property="og:url" content="${url}" />
     <meta property="og:image" content="${img}" />
+    ${imgW ? `<meta property="og:image:type" content="image/jpeg" />\n    <meta property="og:image:width" content="${imgW}" />\n    <meta property="og:image:height" content="${imgH}" />` : ''}
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="${esc(title)}" />
-    <meta name="twitter:description" content="${metaDesc(desc)}" />
+    <meta name="twitter:description" content="${ogDesc ? esc(ogDesc) : metaDesc(desc)}" />
     <meta name="twitter:image" content="${img}" />
     <script type="application/ld+json">${ORG_LD}</script>
     ${extraHead}
@@ -152,8 +156,9 @@ const DEFAULT_IMG = `${SITE}/img/hero.jpg`;
 let pre = 0;
 for (const p of props) {
   const url = `${SITE}/imovel/${p.id}`;
-  const img = `${SITE}${p.image}`;
+  const img = `${SITE}/og/${p.id}.jpg`;
   const title = `${p.namePt} — ${p.location} | TrancosoBA`;
+  const ogDesc = `${p.location}, Trancoso · ${p.suites} suítes · até ${p.guests} hóspedes`;
   const desc = `${p.namePt} (${p.code}): ${p.suites} suítes, até ${p.guests} hóspedes, em ${p.location}, Trancoso. ${p.pricePt}. ${p.descPt.split('\n')[0]}`;
   const priceNum = p.pricePt.replace(/\./g, '').match(/R\$\s*(\d+)/)?.[1];
   const jsonLd = {
@@ -197,7 +202,7 @@ for (const p of props) {
   </main>`;
   const extraHead = `<script type="application/ld+json">${JSON.stringify(jsonLd)}</script>\n    <script type="application/ld+json">${JSON.stringify(breadcrumbLd)}</script>`;
   mkdirSync(join(root, 'dist/imovel', p.id), { recursive: true });
-  writeFileSync(join(root, 'dist/imovel', p.id, 'index.html'), pageShell({ title, desc, url, img, extraHead, body, hero: p.image }));
+  writeFileSync(join(root, 'dist/imovel', p.id, 'index.html'), pageShell({ title, desc, ogDesc, url, img, imgW: 1200, imgH: 630, extraHead, body, hero: p.image }));
   pre++;
 }
 
