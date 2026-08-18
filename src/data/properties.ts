@@ -2058,7 +2058,7 @@ const CUMARU: Property = {
   carnaval: { pt: 'R$ 40.000', en: 'R$ 40,000' },
   reveillon: { pt: 'R$ 220.000', en: 'R$ 220,000' },
   image: '/img/cumaru/01.webp',
-  gallery: ['/img/cumaru/01.webp'], featured: false,
+  gallery: ['/img/cumaru/01.webp','/img/cumaru/02.webp','/img/cumaru/03.webp','/img/cumaru/04.webp','/img/cumaru/05.webp','/img/cumaru/06.webp','/img/cumaru/07.webp','/img/cumaru/08.webp','/img/cumaru/09.webp','/img/cumaru/10.webp','/img/cumaru/11.webp','/img/cumaru/12.webp','/img/cumaru/13.webp','/img/cumaru/14.webp','/img/cumaru/15.webp','/img/cumaru/16.webp','/img/cumaru/17.webp','/img/cumaru/18.webp','/img/cumaru/19.webp','/img/cumaru/20.webp','/img/cumaru/21.webp','/img/cumaru/22.webp','/img/cumaru/23.webp','/img/cumaru/24.webp','/img/cumaru/25.webp','/img/cumaru/26.webp','/img/cumaru/27.webp','/img/cumaru/28.webp','/img/cumaru/29.webp','/img/cumaru/30.webp','/img/cumaru/31.webp','/img/cumaru/32.webp','/img/cumaru/33.webp'], featured: false,
   amenities: {
     pt: ['Piscina privativa', 'Jardim amplo', 'Varanda com vista para a piscina', 'Área gourmet integrada', 'Cozinha equipada', 'Ar-condicionado e mosquiteiro nas suítes', 'Wi-Fi', 'Roupas de cama, mesa e banho'],
     en: ['Private pool', 'Spacious garden', 'Veranda overlooking the pool', 'Integrated gourmet area', 'Equipped kitchen', 'Air conditioning and mosquito nets in the suites', 'Wi-Fi', 'Bed, table and bath linen'],
