@@ -1,4 +1,4 @@
-import { PROPERTIES, type Property } from './properties';
+import { PROPERTIES_META, type PropertyMeta } from './meta';
 
 /**
  * Coleções curadas exibidas na Home e no topo de Nossas Casas.
@@ -15,10 +15,10 @@ export interface Collection {
   seo: { pt: string; en: string };
   /** Capa editorial fixa da coleção (foto real do portfólio que representa a categoria). */
   cover: string;
-  match: (p: Property) => boolean;
+  match: (p: PropertyMeta) => boolean;
 }
 
-const loc = (p: Property) => p.location.toLowerCase();
+const loc = (p: PropertyMeta) => p.location.toLowerCase();
 
 export const COLLECTIONS: Collection[] = [
   {
@@ -98,7 +98,7 @@ export const COLLECTIONS: Collection[] = [
 export const collectionById = (id: string | null | undefined) =>
   COLLECTIONS.find((c) => c.id === id) ?? null;
 
-export const collectionProperties = (c: Collection) => PROPERTIES.filter(c.match);
+export const collectionProperties = (c: Collection) => PROPERTIES_META.filter(c.match);
 
 /** Capa da coleção: foto editorial definida na coleção (c.cover). */
 export const collectionCover = (c: Collection) => c.cover;

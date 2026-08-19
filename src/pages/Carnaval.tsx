@@ -1,6 +1,7 @@
 import { MessageCircle } from 'lucide-react';
 import { useLang } from '../i18n';
-import { PROPERTIES, WHATSAPP } from '../data/properties';
+import { PROPERTIES } from '../data/properties';
+import { WHATSAPP } from '../data/contact';
 import { PageHero, Reveal } from '../components/Layout';
 import PropertyCard from '../components/PropertyCard';
 import { trackWhatsApp } from '../data/analytics';

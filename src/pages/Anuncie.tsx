@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useLang } from '../i18n';
-import { WHATSAPP } from '../data/properties';
+import { WHATSAPP } from '../data/contact';
 import { trackWhatsApp } from '../data/analytics';
 import { PageHero, Reveal } from '../components/Layout';
 

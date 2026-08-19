@@ -3,7 +3,7 @@ import { Link } from 'react-router';
 import { ChevronDown, MessageCircle } from 'lucide-react';
 import { useLang } from '../i18n';
 import { PageHero, Reveal } from '../components/Layout';
-import { WHATSAPP } from '../data/properties';
+import { WHATSAPP } from '../data/contact';
 import { trackWhatsApp } from '../data/analytics';
 
 interface QA { q: { pt: string; en: string }; a: { pt: string; en: string } }

@@ -2,7 +2,7 @@ import { useEffect, useRef, useState, type ReactNode } from 'react';
 import { Link, NavLink, useLocation } from 'react-router';
 import { Menu, X, Search, MessageCircle, Mail, MapPin, Instagram, Heart } from 'lucide-react';
 import { useLang } from '../i18n';
-import { WHATSAPP, WHATSAPP_DISPLAY } from '../data/properties';
+import { WHATSAPP, WHATSAPP_DISPLAY } from '../data/contact';
 import { trackWhatsApp } from '../data/analytics';
 
 export function Reveal({ children, className = '' }: { children: ReactNode; className?: string }) {

@@ -2,7 +2,8 @@ import { useMemo, useState } from 'react';
 import { Link, useNavigate } from 'react-router';
 import { ArrowRight, MessageCircle, ChevronDown } from 'lucide-react';
 import { useLang, txt } from '../i18n';
-import { PROPERTIES, WHATSAPP } from '../data/properties';
+import { PROPERTIES_META } from '../data/meta';
+import { WHATSAPP } from '../data/contact';
 import { COLLECTIONS, collectionCover, collectionProperties } from '../data/collections';
 import { FILTER_LOCATIONS } from '../data/locations';
 import { trackWhatsApp } from '../data/analytics';
@@ -78,7 +79,7 @@ function HeroSearch() {
 
 export default function Home() {
   const { t, lang } = useLang();
-  const featured = useMemo(() => PROPERTIES.filter(p => p.featured).slice(0, 5), []);
+  const featured = useMemo(() => PROPERTIES_META.filter(p => p.featured).slice(0, 5), []);
 
   return (
     <>

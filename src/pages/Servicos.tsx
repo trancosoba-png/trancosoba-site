@@ -1,7 +1,7 @@
 import { MessageCircle } from 'lucide-react';
 import { useLang } from '../i18n';
 import { PageHero, Reveal } from '../components/Layout';
-import { WHATSAPP } from '../data/properties';
+import { WHATSAPP } from '../data/contact';
 import { trackWhatsApp } from '../data/analytics';
 
 export default function Servicos() {

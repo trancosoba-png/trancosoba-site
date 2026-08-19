@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Link } from 'react-router';
 import { MessageCircle, Phone, Mail, Instagram, MapPin, CheckCircle2 } from 'lucide-react';
 import { useLang } from '../i18n';
-import { WHATSAPP } from '../data/properties';
+import { WHATSAPP } from '../data/contact';
 import { trackWhatsApp, trackContact } from '../data/analytics';
 import { PageHero, Reveal } from '../components/Layout';
 

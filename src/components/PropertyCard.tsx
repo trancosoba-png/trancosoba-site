@@ -2,13 +2,15 @@ import { memo } from 'react';
 import { Link } from 'react-router';
 import { useLang, txt } from '../i18n';
 import type { Property } from '../data/properties';
+
+type CardProperty = Pick<Property, 'id' | 'name' | 'location' | 'suites' | 'guests' | 'image' | 'price' | 'priceLow'>;
 import { cardPrice } from '../data/price';
 import { imgSources } from '../data/imgset';
 import { Reveal } from './Layout';
 import HeartButton from './HeartButton';
 
 interface Props {
-  p: Property;
+  p: CardProperty;
   /** 'featured' = card da home (padding py-5, h3); 'grid' = listagens (pt-5, h2) */
   variant?: 'grid' | 'featured';
   /** primeiro destaque da home: proporção mais larga */

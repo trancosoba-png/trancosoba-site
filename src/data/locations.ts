@@ -1,4 +1,6 @@
-import { LOCATIONS } from './properties';
+import { PROPERTIES_META } from './meta';
+
+const LOCATIONS = [...new Set(PROPERTIES_META.map((p) => p.location))];
 
 // Opções de exibição do filtro de localização (barra de pesquisa e página /casas).
 // As variações cadastradas nos imóveis são unificadas nestes rótulos de exibição.

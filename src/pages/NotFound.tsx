@@ -1,7 +1,7 @@
 import { Link } from 'react-router';
 import { MessageCircle } from 'lucide-react';
 import { useLang } from '../i18n';
-import { WHATSAPP } from '../data/properties';
+import { WHATSAPP } from '../data/contact';
 
 export default function NotFound() {
   const { lang } = useLang();

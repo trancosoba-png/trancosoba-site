@@ -2,7 +2,8 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import { Link, useParams, useSearchParams, useNavigationType } from 'react-router';
 import { Search, SlidersHorizontal, X } from 'lucide-react';
 import { useLang, txt } from '../i18n';
-import { PROPERTIES, dailyPrice, type Feature } from '../data/properties';
+import { PROPERTIES_META, dailyPriceMeta } from '../data/meta';
+import type { Feature } from '../data/properties';
 import { COLLECTIONS, collectionById } from '../data/collections';
 import { FILTER_LOCATIONS, canonicalLocation } from '../data/locations';
 import { PageHero } from '../components/Layout';
@@ -29,13 +30,13 @@ export default function Casas() {
 
   const toggleFeat = (f: Feature) => setFeats((fs) => (fs.includes(f) ? fs.filter((x) => x !== f) : [...fs, f]));
 
-  const results = useMemo(() => PROPERTIES.filter(p => {
+  const results = useMemo(() => PROPERTIES_META.filter(p => {
     if (activeCollection && !activeCollection.match(p)) return false;
     if (purpose && !p.purpose.includes(purpose) && !(purpose === 'venda' && p.salePrice)) return false;
     if (location && canonicalLocation(p.location) !== location) return false;
     if (suites && p.suites < Number(suites)) return false;
     if (guests && p.guests < Number(guests)) return false;
-    const dp = dailyPrice(p);
+    const dp = dailyPriceMeta(p);
     if (priceMin && (dp === null || dp < Number(priceMin))) return false;
     if (priceMax && (dp === null || dp > Number(priceMax))) return false;
     if (feats.length && !feats.every((f) => p.features?.includes(f))) return false;

@@ -1,6 +1,7 @@
 import { Link } from 'react-router';
 import { useLang, txt } from '../i18n';
-import { PROPERTIES, WHATSAPP } from '../data/properties';
+import { PROPERTIES_META } from '../data/meta';
+import { WHATSAPP } from '../data/contact';
 import { useFavorites } from '../data/favorites';
 import { trackWhatsApp } from '../data/analytics';
 import { PageHero, Reveal } from '../components/Layout';
@@ -11,7 +12,7 @@ const SITE = 'https://www.trancosoba.com';
 export default function Favoritos() {
   const { t, lang } = useLang();
   const { favs } = useFavorites();
-  const houses = PROPERTIES.filter((p) => favs.includes(p.id));
+  const houses = PROPERTIES_META.filter((p) => favs.includes(p.id));
 
   const waText = [t.fav.waMsg, ...houses.map((p) => `• ${txt(p.name, lang)} (${p.location}) — ${SITE}/imovel/${p.id}`)].join('\n');
   const waLink = `https://wa.me/${WHATSAPP}?text=${encodeURIComponent(waText)}`;

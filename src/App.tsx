@@ -1,15 +1,15 @@
 import { lazy, Suspense, useEffect } from 'react';
 import { Routes, Route, useLocation, useNavigationType } from 'react-router';
 import { LangProvider } from './i18n';
-import { PROPERTIES } from './data/properties';
+import { PROPERTIES_META } from './data/meta';
 import { collectionById } from './data/collections';
 import { Header, Footer, WhatsAppFloat } from './components/Layout';
-import Home from './pages/Home';
 import { FavoritesProvider } from './data/favorites';
 import { initAnalytics } from './data/analytics';
 import CookieNotice from './components/CookieNotice';
 
 // Code splitting: páginas secundárias carregam sob demanda
+const Home = lazy(() => import('./pages/Home'));
 const Casas = lazy(() => import('./pages/Casas'));
 const Imovel = lazy(() => import('./pages/Imovel'));
 const Trancoso = lazy(() => import('./pages/Trancoso'));
@@ -74,10 +74,10 @@ function TitleManager() {
     let desc = descs[pathname] ?? defaultDesc;
     let image = `${SITE_URL}/img/hero.jpg`;
     if (!title && pathname.startsWith('/imovel/')) {
-      const p = PROPERTIES.find(x => x.id === pathname.split('/imovel/')[1]);
+      const p = PROPERTIES_META.find(x => x.id === pathname.split('/imovel/')[1]);
       if (p) {
         title = `${p.name.pt} — ${p.location} | TrancosoBA`;
-        desc = `${p.name.pt}: ${p.suites} suítes, até ${p.guests} hóspedes, em ${p.location}, Trancoso. ${p.description.pt.split('\n')[0].slice(0, 140)}`;
+        desc = `${p.name.pt}: ${p.suites} suítes, até ${p.guests} hóspedes, em ${p.location}, Trancoso. ${p.desc1pt}`;
         image = `${SITE_URL}${p.image}`;
       }
     }
