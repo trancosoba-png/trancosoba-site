@@ -208,6 +208,12 @@ body {
 }
 .reveal.visible { opacity: 1; transform: translateY(0); }
 
+/* SSG: enquanto html.ssg existir (HTML pré-renderizado ainda não hidratado),
+   os blocos .reveal ficam visíveis — o visitante vê a página completa desde o
+   primeiro paint, sem esperar o JS. A classe é removida após a hidratação e
+   as animações de entrada voltam ao normal nas navegações seguintes. */
+html.ssg .reveal { opacity: 1; transform: none; transition: none; }
+
 @media (prefers-reduced-motion: reduce) {
   .reveal { opacity: 1; transform: none; transition: none; }
   html { scroll-behavior: auto; }

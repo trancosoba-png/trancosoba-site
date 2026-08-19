@@ -185,7 +185,7 @@ function pageShell({ title, desc, ogDesc = '', url, img, imgW = 0, imgH = 0, ext
     ${assets}
   </head>
   <body>
-    <div id="root"><div class="ssr-static">${body}</div><div class="boot-splash" aria-hidden="true">Trancoso<b>BA</b></div></div>
+    <div id="root"><!--SSR-START--><div class="ssr-static">${body}</div><div class="boot-splash" aria-hidden="true">Trancoso<b>BA</b></div><!--SSR-END--></div>
   </body>
 </html>
 `;

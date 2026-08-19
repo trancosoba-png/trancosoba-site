@@ -18,9 +18,28 @@ export default function Imovel() {
   // Ficha carregada sob demanda: /data/imovel/<id>.json (~5 KB por casa,
   // gerado no build) em vez do catálogo completo de 190 imóveis.
   // undefined = carregando; null = não encontrado.
-  const [p, setP] = useState<Property | null | undefined>(undefined);
-  const [active, setActive] = useState(0);
+  // SSG: no pré-render (e na página pré-renderizada, via <script> no head) a
+  // ficha chega por globalThis.__IMOVEL_DATA__ — o HTML já sai completo e a
+  // hidratação não precisa refazer o fetch.
+  const injected = () => {
+    const d = (globalThis as Record<string, unknown>).__IMOVEL_DATA__ as Property | undefined;
+    return d && d.id === id ? d : undefined;
+  };
+  const [p, setP] = useState<Property | null | undefined>(injected);
+  const [active, setActive] = useState(() => {
+    const d = injected();
+    if (!d) return 0;
+    const i = d.gallery.indexOf(d.image);
+    return i >= 0 ? i : 0;
+  });
   useEffect(() => {
+    const d = injected();
+    if (d) {
+      setP(d);
+      const i = d.gallery.indexOf(d.image);
+      setActive(i >= 0 ? i : 0);
+      return;
+    }
     let alive = true;
     setP(undefined);
     setActive(0);
@@ -102,8 +121,10 @@ export default function Imovel() {
       : lang === 'es' ? `¡Hola! Vi la casa ${p.code} (${p.name.pt}) en el sitio de TrancosoBA y me gustaría saber la disponibilidad.`
       : `Hello! I saw the house ${p.code} (${p.name.pt}) on the TrancosoBA website and would like to check availability.`
   );
-  const shareUrl = `${window.location.origin}/p/${p.id}`;
   const doShare = async () => {
+    // window.location só existe no navegador — calculado aqui dentro (e não no
+    // escopo do render) para o pré-render SSG no build não quebrar.
+    const shareUrl = `${window.location.origin}/p/${p.id}`;
     const data = { title: `${p.name.pt} — TrancosoBA`, text: `${p.name.pt}: ${p.suites} suítes, até ${p.guests} hóspedes, em ${p.location}, Trancoso.`, url: shareUrl };
     if (navigator.share) {
       try { await navigator.share(data); } catch { /* cancelado */ }

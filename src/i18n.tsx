@@ -439,13 +439,17 @@ const Ctx = createContext<LangCtx>({ lang: 'pt', setLang: () => {}, t: dict.pt, 
 const LANG_KEY = 'trancosoba-lang';
 
 export function LangProvider({ children }: { children: ReactNode }) {
-  const [lang, setLangState] = useState<Lang>(() => {
+  // SSG: o estado inicial é SEMPRE 'pt' para o primeiro render do cliente
+  // bater com o HTML pré-renderizado no build. O idioma salvo é aplicado
+  // logo em seguida, num effect (visitante com 'en' salvo vê o conteúdo
+  // mudar para inglês após o carregamento).
+  const [lang, setLangState] = useState<Lang>('pt');
+  useEffect(() => {
     try {
       const saved = localStorage.getItem(LANG_KEY);
-      if (saved === 'pt' || saved === 'en' || saved === 'es') return saved;
+      if (saved === 'en' || saved === 'es') setLangState(saved);
     } catch { /* ignora */ }
-    return 'pt';
-  });
+  }, []);
   const [rate, setRate] = useState<number>(FX_FALLBACK_BRL_PER_USD);
   useEffect(() => { getBrlPerUsd().then(setRate); }, []);
   const setLang = useCallback((l: Lang) => {

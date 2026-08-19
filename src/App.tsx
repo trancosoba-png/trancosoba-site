@@ -1,4 +1,4 @@
-import { lazy, Suspense, useEffect } from 'react';
+import { lazy, Suspense, useEffect, type ComponentType } from 'react';
 import { Routes, Route, useLocation, useNavigationType } from 'react-router';
 import { LangProvider } from './i18n';
 import { PROPERTIES_META } from './data/meta';
@@ -23,6 +23,20 @@ const Faq = lazy(() => import('./pages/Faq'));
 const Reveillon = lazy(() => import('./pages/Reveillon'));
 const Carnaval = lazy(() => import('./pages/Carnaval'));
 const NotFound = lazy(() => import('./pages/NotFound'));
+
+// Conjunto de páginas usado por <App/>. No navegador são os lazy() acima
+// (code splitting por rota); no pré-render SSG (entry-server.tsx) o build
+// injeta componentes síncronos, porque renderToString não resolve Suspense.
+// Durante a hidratação o React 19 preserva o HTML do servidor dentro do
+// <Suspense> até o chunk da rota chegar — sem flash nem mismatch.
+export interface Pages {
+  Home: ComponentType; Casas: ComponentType; Imovel: ComponentType;
+  Trancoso: ComponentType; Servicos: ComponentType; Nos: ComponentType;
+  Contato: ComponentType; Privacidade: ComponentType; Favoritos: ComponentType;
+  Anuncie: ComponentType; Faq: ComponentType; Reveillon: ComponentType;
+  Carnaval: ComponentType; NotFound: ComponentType;
+}
+const lazyPages: Pages = { Home, Casas, Imovel, Trancoso, Servicos, Nos, Contato, Privacidade, Favoritos, Anuncie, Faq, Reveillon, Carnaval, NotFound };
 
 const SITE_URL = 'https://www.trancosoba.com';
 
@@ -152,7 +166,8 @@ function ScrollRestorer() {
   return null;
 }
 
-export default function App() {
+export default function App({ pages = lazyPages }: { pages?: Pages }) {
+  const P = pages;
   useEffect(() => { initAnalytics(); }, []);
   // Proteção global de fotos: bloqueia o menu de contexto (botão direito no desktop,
   // toque longo no Android) sobre qualquer imagem ou vídeo do site — inclusive onde o
@@ -178,21 +193,21 @@ export default function App() {
       <main id="conteudo">
         <Suspense fallback={<div className="min-h-screen" aria-hidden="true" />}>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/casas" element={<Casas />} />
-          <Route path="/casas/:colecao" element={<Casas />} />
-          <Route path="/imovel/:id" element={<Imovel />} />
-          <Route path="/trancoso" element={<Trancoso />} />
-          <Route path="/servicos" element={<Servicos />} />
-          <Route path="/nos" element={<Nos />} />
-          <Route path="/contato" element={<Contato />} />
-          <Route path="/privacidade" element={<Privacidade />} />
-          <Route path="/favoritos" element={<Favoritos />} />
-          <Route path="/anuncie" element={<Anuncie />} />
-          <Route path="/faq" element={<Faq />} />
-          <Route path="/reveillon-trancoso" element={<Reveillon />} />
-          <Route path="/carnaval-trancoso" element={<Carnaval />} />
-          <Route path="*" element={<NotFound />} />
+          <Route path="/" element={<P.Home />} />
+          <Route path="/casas" element={<P.Casas />} />
+          <Route path="/casas/:colecao" element={<P.Casas />} />
+          <Route path="/imovel/:id" element={<P.Imovel />} />
+          <Route path="/trancoso" element={<P.Trancoso />} />
+          <Route path="/servicos" element={<P.Servicos />} />
+          <Route path="/nos" element={<P.Nos />} />
+          <Route path="/contato" element={<P.Contato />} />
+          <Route path="/privacidade" element={<P.Privacidade />} />
+          <Route path="/favoritos" element={<P.Favoritos />} />
+          <Route path="/anuncie" element={<P.Anuncie />} />
+          <Route path="/faq" element={<P.Faq />} />
+          <Route path="/reveillon-trancoso" element={<P.Reveillon />} />
+          <Route path="/carnaval-trancoso" element={<P.Carnaval />} />
+          <Route path="*" element={<P.NotFound />} />
         </Routes>
         </Suspense>
       </main>
