@@ -154,6 +154,16 @@ function ScrollRestorer() {
 
 export default function App() {
   useEffect(() => { initAnalytics(); }, []);
+  // Proteção global de fotos: bloqueia o menu de contexto (botão direito no desktop,
+  // toque longo no Android) sobre qualquer imagem do site. No iOS o bloqueio
+  // equivalente é o -webkit-touch-callout: none já presente no CSS global de img.
+  useEffect(() => {
+    const block = (e: MouseEvent) => {
+      if ((e.target as HTMLElement | null)?.closest?.('img')) e.preventDefault();
+    };
+    document.addEventListener('contextmenu', block);
+    return () => document.removeEventListener('contextmenu', block);
+  }, []);
   return (
     <LangProvider>
       <FavoritesProvider>
