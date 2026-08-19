@@ -39,3 +39,13 @@ const slim = PROPERTIES.map((p) => ({
 const out = join(root, 'src/data/properties-meta.json');
 writeFileSync(out, JSON.stringify(slim));
 console.log(`properties-meta.json: ${slim.length} imóveis (${Math.round(JSON.stringify(slim).length / 1024)} KB)`);
+
+// JSON completo por imóvel — a página de imóvel busca só o da casa aberta,
+// em vez de baixar o catálogo inteiro (~870 KB) para montar uma ficha.
+import { mkdirSync } from 'node:fs';
+const dir = join(root, 'public/data/imovel');
+mkdirSync(dir, { recursive: true });
+for (const p of PROPERTIES) {
+  writeFileSync(join(dir, `${p.id}.json`), JSON.stringify(p));
+}
+console.log(`data/imovel: ${PROPERTIES.length} JSONs individuais gerados`);

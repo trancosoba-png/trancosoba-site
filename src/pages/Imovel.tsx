@@ -2,7 +2,7 @@ import { useState, useEffect, useRef, useCallback } from 'react';
 import { Link, useParams, Navigate, useNavigate } from 'react-router';
 import { ArrowLeft, MessageCircle, BedDouble, Users, Bath, Maximize, X, ChevronLeft, ChevronRight, Share2, Check } from 'lucide-react';
 import { useLang, txt } from '../i18n';
-import { PROPERTIES } from '../data/properties';
+import type { Property } from '../data/properties';
 import { WHATSAPP } from '../data/contact';
 import { usd } from '../data/price';
 import { trackWhatsApp } from '../data/analytics';
@@ -15,12 +15,28 @@ export default function Imovel() {
   const { t, lang, rate } = useLang();
   const navigate = useNavigate();
   const [copied, setCopied] = useState(false);
-  const p = PROPERTIES.find(x => x.id === id);
-  const [active, setActive] = useState(() => {
-    if (!p) return 0;
-    const i = p.gallery.indexOf(p.image);
-    return i >= 0 ? i : 0;
-  });
+  // Ficha carregada sob demanda: /data/imovel/<id>.json (~5 KB por casa,
+  // gerado no build) em vez do catálogo completo de 190 imóveis.
+  // undefined = carregando; null = não encontrado.
+  const [p, setP] = useState<Property | null | undefined>(undefined);
+  const [active, setActive] = useState(0);
+  useEffect(() => {
+    let alive = true;
+    setP(undefined);
+    setActive(0);
+    fetch(`/data/imovel/${id}.json`)
+      .then((r) => (r.ok ? r.json() : null))
+      .then((d: Property | null) => {
+        if (!alive) return;
+        setP(d);
+        if (d) {
+          const i = d.gallery.indexOf(d.image);
+          setActive(i >= 0 ? i : 0);
+        }
+      })
+      .catch(() => { if (alive) setP(null); });
+    return () => { alive = false; };
+  }, [id]);
   const [open, setOpen] = useState(false);
   const touch = useRef<{ x: number; y: number } | null>(null);
 
@@ -77,6 +93,8 @@ export default function Imovel() {
   };
   const openLightbox = () => { if (!swiped.current) setOpen(true); };
 
+  // Carregando a ficha: mesmo fallback visual do Suspense (tela neutra, sem layout novo)
+  if (p === undefined) return <div className="min-h-screen pt-16 md:pt-20" aria-hidden="true" />;
   if (!p) return <Navigate to="/casas" replace />;
 
   const waMsg = encodeURIComponent(
