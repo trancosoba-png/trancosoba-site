@@ -122,8 +122,8 @@ export function Footer() {
           <a href="mailto:contato@trancosoba.com.br" className="flex items-center gap-2.5 hover:text-gold transition-colors">
             <Mail size={17} className="text-gold shrink-0" /> contato@trancosoba.com.br
           </a>
-          <a href="https://maps.google.com/?q=Quadrado,Trancoso,Bahia" target="_blank" rel="noreferrer" className="flex items-center gap-2.5 hover:text-gold transition-colors">
-            <MapPin size={17} className="text-gold shrink-0" /> Quadrado, Trancoso — Bahia
+          <a href="https://maps.google.com/?q=Trancoso,Porto+Seguro,Bahia" target="_blank" rel="noreferrer" className="flex items-center gap-2.5 hover:text-gold transition-colors">
+            <MapPin size={17} className="text-gold shrink-0" /> Trancoso, Porto Seguro — Bahia
           </a>
         </div>
 

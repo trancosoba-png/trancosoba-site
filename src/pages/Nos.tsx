@@ -56,9 +56,10 @@ export default function Nos() {
 
           {/* Assinatura + credenciais */}
           <div className="mt-16 md:mt-20 border-t border-[#b08d57]/30 pt-10 text-center">
-            <p className="font-serif-e text-2xl md:text-3xl text-green-e">Luciano</p>
+            <p className="font-serif-e text-2xl md:text-3xl text-green-e">Luciano Araújo</p>
             <p className="mt-2 text-sm uppercase tracking-[0.18em] text-ink/55">Fundador — TrancosoBA</p>
-            <p className="mt-6 text-[13px] text-ink/50 tracking-wide">CRECI BA 37.447 · CNPJ 68.351.727/0001-57 · Quadrado, Trancoso — Bahia</p>
+            <p className="mt-6 text-[13px] text-ink/50 tracking-wide">CRECI BA 37.447</p>
+            <p className="mt-1 text-[13px] text-ink/50 tracking-wide">Trancoso, Porto Seguro — Bahia</p>
           </div>
         </Reveal>
       </section>
