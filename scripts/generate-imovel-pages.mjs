@@ -173,11 +173,19 @@ function pageShell({ title, desc, ogDesc = '', url, img, imgW = 0, imgH = 0, ext
     <meta name="twitter:description" content="${ogDesc ? esc(ogDesc) : metaDesc(desc)}" />
     <meta name="twitter:image" content="${img}" />
     <script type="application/ld+json">${ORG_LD}</script>
+    <style>
+      html, body { margin: 0; background: #f7f2e9; }
+      /* Corpo estático de SEO: fica no HTML para crawlers, mas não é exibido —
+         elimina o flash de texto cru enquanto o bundle JS carrega (FOUC). */
+      #root > .ssr-static { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); visibility: hidden; }
+      .boot-splash { min-height: 100vh; display: flex; align-items: center; justify-content: center; font-family: Georgia, 'Times New Roman', serif; font-size: 2rem; letter-spacing: 0.02em; color: #182b23; }
+      .boot-splash b { color: #b08d57; font-weight: normal; }
+    </style>
     ${extraHead}
     ${assets}
   </head>
   <body>
-    <div id="root">${body}</div>
+    <div id="root"><div class="ssr-static">${body}</div><div class="boot-splash" aria-hidden="true">Trancoso<b>BA</b></div></div>
   </body>
 </html>
 `;
