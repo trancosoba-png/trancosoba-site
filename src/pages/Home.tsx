@@ -88,7 +88,7 @@ export default function Home() {
           className="absolute inset-0 w-full h-full object-cover">
           <source src="/img/hero.mp4" type="video/mp4" />
         </video>
-        <div className="absolute inset-0 bg-gradient-to-b from-green-deep/40 via-transparent to-green-deep/60" />
+        <div className="absolute inset-0 pointer-events-none bg-gradient-to-b from-green-deep/40 via-transparent to-green-deep/60" />
         <div className="relative flex-1" aria-hidden="true" />
         <div className="relative px-5 pb-8 md:pb-14 w-full max-w-6xl mx-auto">
           <HeroSearch />
@@ -129,7 +129,7 @@ export default function Home() {
                   <img src={collectionCover(c)} alt={txt(c.title, lang)} loading="lazy" decoding="async" draggable={false}
                     onError={(e) => { (e.currentTarget as HTMLImageElement).style.display = 'none'; }}
                     className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
-                  <div className="absolute inset-0 bg-gradient-to-t from-green-deep/85 via-green-deep/25 to-transparent" />
+                  <div className="absolute inset-0 pointer-events-none bg-gradient-to-t from-green-deep/85 via-green-deep/25 to-transparent" />
                   <div className="absolute inset-x-0 bottom-0 p-6 md:p-7">
                     <h3 className="font-serif-e text-2xl md:text-[28px] text-ivory leading-tight">{txt(c.title, lang)}</h3>
                     <p className="text-ivory/80 text-sm mt-1.5 font-light">{txt(c.sub, lang)}</p>

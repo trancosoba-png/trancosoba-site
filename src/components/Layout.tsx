@@ -180,8 +180,8 @@ export function PageHero({ title, sub, image }: { title: string; sub: string; im
   return (
     <section className="relative h-[52vh] min-h-[380px] flex items-end">
       <img draggable={false} src={image} srcSet={`${image.replace(/\.(jpe?g|webp)$/i, '')}-thumb.webp 400w, ${image.replace(/\.(jpe?g|webp)$/i, '')}-800.webp 800w, ${image.replace(/\.(jpe?g|webp)$/i, '')}-1600.webp 1600w`} sizes="100vw" fetchPriority="high" alt="" className="absolute inset-0 w-full h-full object-cover" />
-      <div className="absolute inset-0 bg-gradient-to-t from-green-deep/90 via-green-deep/45 to-green-deep/25" />
-      <div className="absolute inset-0 bg-gradient-to-r from-green-deep/60 via-transparent to-transparent" />
+      <div className="absolute inset-0 pointer-events-none bg-gradient-to-t from-green-deep/90 via-green-deep/45 to-green-deep/25" />
+      <div className="absolute inset-0 pointer-events-none bg-gradient-to-r from-green-deep/60 via-transparent to-transparent" />
       <div className="relative max-w-7xl mx-auto px-5 md:px-8 pb-14 w-full">
         <h1 className="font-serif-e text-5xl md:text-7xl text-ivory">{title}</h1>
         <p className="mt-3 text-ivory font-serif-e italic text-xl md:text-2xl" style={{ textShadow: '0 2px 6px rgba(0,0,0,0.5)' }}>{sub}</p>
