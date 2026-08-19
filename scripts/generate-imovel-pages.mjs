@@ -173,6 +173,16 @@ function pageShell({ title, desc, ogDesc = '', url, img, imgW = 0, imgH = 0, ext
     <meta name="twitter:description" content="${ogDesc ? esc(ogDesc) : metaDesc(desc)}" />
     <meta name="twitter:image" content="${img}" />
     <script type="application/ld+json">${ORG_LD}</script>
+    <script>
+      // Proteção de fotos desde o primeiro paint: com o SSG as imagens ficam
+      // visíveis antes do JS principal hidratar, então este bloqueio inline
+      // (botão direito / toque longo Android) não pode esperar o bundle.
+      // Depois da hidratação, o listener do App.tsx assume o mesmo papel.
+      document.addEventListener('contextmenu', function (e) {
+        var t = e.target;
+        if (t && t.closest && t.closest('img, video, .photo-shield')) e.preventDefault();
+      }, true);
+    </script>
     <style>
       html, body { margin: 0; background: #f7f2e9; }
       /* Corpo estático de SEO: fica no HTML para crawlers, mas não é exibido —
