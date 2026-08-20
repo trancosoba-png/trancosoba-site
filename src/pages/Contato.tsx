@@ -30,7 +30,7 @@ export default function Contato() {
     { icon: Phone, label: t.contato.phone, value: '+55 73 99971-8799', href: 'tel:+5573999718799' },
     { icon: Mail, label: t.contato.email, value: 'contato@trancosoba.com', href: 'mailto:contato@trancosoba.com' },
     { icon: Instagram, label: t.contato.instagram, value: '@trancosoba', href: 'https://instagram.com/trancosoba' },
-    { icon: MapPin, label: 'Trancoso', value: t.contato.address, href: 'https://maps.google.com/?q=Quadrado,Trancoso,Bahia' },
+    { icon: MapPin, label: 'Trancoso', value: t.contato.address, href: 'https://maps.google.com/?q=Trancoso,Porto+Seguro,Bahia' },
   ];
 
   const input = "w-full bg-transparent border border-green-e/25 px-4 py-3.5 text-base outline-none focus:border-gold transition-colors";
