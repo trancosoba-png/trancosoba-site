@@ -59,7 +59,7 @@ export default function Nos() {
             <p className="font-serif-e text-2xl md:text-3xl text-green-e">Luciano Araújo</p>
             <p className="mt-2 text-sm uppercase tracking-[0.18em] text-ink/55">Fundador — TrancosoBA</p>
             <p className="mt-6 text-[13px] text-ink/50 tracking-wide">CRECI BA 37.447</p>
-            <p className="mt-1 text-[13px] text-ink/50 tracking-wide">Trancoso, Porto Seguro — Bahia</p>
+            <p className="mt-1 text-[13px] text-ink/50 tracking-wide">Quadrado, Trancoso, Porto Seguro — Bahia</p>
           </div>
         </Reveal>
       </section>

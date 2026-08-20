@@ -124,7 +124,7 @@ const dict = {
       teamTitle: 'Equipe',
       teamNote: 'Fotos, nomes e funções serão publicados com autorização da equipe.',
       legalTitle: 'Dados oficiais',
-      legal: ['CNPJ 68.351.727/0001-57', 'CRECI BA 37.447', 'Endereço: Trancoso, Porto Seguro — BA', 'Atendimento discreto e personalizado'],
+      legal: ['CNPJ 68.351.727/0001-57', 'CRECI BA 37.447', 'Endereço: Quadrado, Trancoso, Porto Seguro — BA', 'Atendimento discreto e personalizado'],
       proofNote: 'Depoimentos e parceiros serão publicados somente com autorização documentada.',
     },
     contato: {
@@ -134,7 +134,7 @@ const dict = {
       name: 'Nome', interest: 'Interesse', interestRent: 'Aluguel', interestSale: 'Compra',
       dates: 'Datas desejadas', guests: 'Hóspedes', message: 'Mensagem', send: 'Enviar',
       sent: 'Mensagem enviada. Retornaremos em breve — obrigado.',
-      address: 'Trancoso, Porto Seguro — Bahia, Brasil',
+      address: 'Quadrado, Trancoso, Porto Seguro — Bahia, Brasil',
       privacy: 'Seus dados são tratados com confidencialidade, conforme nossa política de privacidade.',
     },
     footer: {
@@ -264,7 +264,7 @@ const dict = {
       teamTitle: 'Team',
       teamNote: 'Photos, names and roles will be published with the team\'s authorization.',
       legalTitle: 'Official information',
-      legal: ['CNPJ 68.351.727/0001-57', 'CRECI BA 37.447', 'Address: Trancoso, Porto Seguro — BA, Brazil', 'Discreet and personalized service'],
+      legal: ['CNPJ 68.351.727/0001-57', 'CRECI BA 37.447', 'Address: Quadrado, Trancoso, Porto Seguro — BA, Brazil', 'Discreet and personalized service'],
       proofNote: 'Testimonials and partners will be published only with documented authorization.',
     },
     contato: {
@@ -274,7 +274,7 @@ const dict = {
       name: 'Name', interest: 'Interest', interestRent: 'Rent', interestSale: 'Buy',
       dates: 'Preferred dates', guests: 'Guests', message: 'Message', send: 'Send',
       sent: 'Message sent. We will reply shortly — thank you.',
-      address: 'Trancoso, Porto Seguro — Bahia, Brazil',
+      address: 'Quadrado, Trancoso, Porto Seguro — Bahia, Brazil',
       privacy: 'Your data is handled confidentially, according to our privacy policy.',
     },
     footer: {
@@ -404,7 +404,7 @@ const dict = {
       teamTitle: 'Equipo',
       teamNote: 'Fotos, nombres y funciones se publicarán con autorización del equipo.',
       legalTitle: 'Datos oficiales',
-      legal: ['CNPJ 68.351.727/0001-57', 'CRECI BA 37.447', 'Dirección: Trancoso, Porto Seguro — BA, Brasil', 'Atención discreta y personalizada'],
+      legal: ['CNPJ 68.351.727/0001-57', 'CRECI BA 37.447', 'Dirección: Quadrado, Trancoso, Porto Seguro — BA, Brasil', 'Atención discreta y personalizada'],
       proofNote: 'Testimonios y socios se publicarán solo con autorización documentada.',
     },
     contato: {
@@ -414,7 +414,7 @@ const dict = {
       name: 'Nombre', interest: 'Interés', interestRent: 'Alquiler', interestSale: 'Compra',
       dates: 'Fechas deseadas', guests: 'Huéspedes', message: 'Mensaje', send: 'Enviar',
       sent: 'Mensaje enviado. Responderemos pronto — gracias.',
-      address: 'Trancoso, Porto Seguro — Bahía, Brasil',
+      address: 'Quadrado, Trancoso, Porto Seguro — Bahía, Brasil',
       privacy: 'Sus datos se tratan con confidencialidad, según nuestra política de privacidad.',
     },
     footer: {
