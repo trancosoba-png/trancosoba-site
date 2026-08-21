@@ -1,10 +1,10 @@
 import { useState } from 'react';
 import { Link } from 'react-router';
-import { MessageCircle, Phone, Mail, Instagram, MapPin, CheckCircle2 } from 'lucide-react';
+import { Phone, Mail, Instagram, MapPin, CheckCircle2 } from 'lucide-react';
 import { useLang } from '../i18n';
 import { WHATSAPP } from '../data/contact';
 import { trackWhatsApp, trackContact } from '../data/analytics';
-import { PageHero, Reveal } from '../components/Layout';
+import { PageHero, Reveal, WhatsAppIcon } from '../components/Layout';
 
 export default function Contato() {
   const { t } = useLang();
@@ -26,7 +26,7 @@ export default function Contato() {
   };
 
   const channels = [
-    { icon: MessageCircle, label: t.contato.whatsapp, value: '+55 73 99971-8799', href: `https://wa.me/${WHATSAPP}` },
+    { icon: WhatsAppIcon, label: t.contato.whatsapp, value: '+55 73 99971-8799', href: `https://wa.me/${WHATSAPP}` },
     { icon: Phone, label: t.contato.phone, value: '+55 73 99971-8799', href: 'tel:+5573999718799' },
     { icon: Mail, label: t.contato.email, value: 'contato@trancosoba.com', href: 'mailto:contato@trancosoba.com' },
     { icon: Instagram, label: t.contato.instagram, value: '@trancosoba', href: 'https://instagram.com/trancosoba' },
