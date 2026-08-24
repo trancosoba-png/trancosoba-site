@@ -4,7 +4,7 @@ slug: trancoso-com-criancas
 description: "Trancoso pode funcionar muito bem para uma viagem com crianças, desde que a hospedagem e os deslocamentos acompanhem o ritmo da família."
 category: "Planejamento"
 image: ""
-publishedAt: 2026-08-25
+publishedAt: 2026-08-24
 updatedAt: ""
 featured: false
 seoTitle: "Trancoso com crianças: onde ficar, praias e dicas para famílias"

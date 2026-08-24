@@ -4,7 +4,7 @@ slug: terravista-golf-trancoso
 description: "Ficar no Terravista Golf é escolher um ritmo diferente daquele encontrado perto do Quadrado."
 category: "Condomínios e regiões"
 image: ""
-publishedAt: 2026-08-25
+publishedAt: 2026-08-24
 updatedAt: ""
 featured: false
 seoTitle: "Terravista Golf em Trancoso: como é ficar e escolher uma casa"
