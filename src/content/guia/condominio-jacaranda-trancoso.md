@@ -4,7 +4,7 @@ slug: condominio-jacaranda-trancoso
 description: "O Condomínio Jacarandá é uma opção de alto padrão para famílias grandes e grupos de amigos que procuram casas amplas em Trancoso."
 category: "Condomínios e regiões"
 image: ""
-publishedAt: 2026-08-25
+publishedAt: 2026-08-24
 updatedAt: ""
 featured: false
 seoTitle: "Condomínio Jacarandá em Trancoso: casas para grupos"

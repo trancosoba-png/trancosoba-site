@@ -4,7 +4,7 @@ slug: melhores-pousadas-no-quadrado-de-trancoso
 description: "Escolher uma pousada no Quadrado de Trancoso — ou nas ruas próximas — muda a dinâmica da viagem."
 category: "Hotéis e pousadas"
 image: ""
-publishedAt: 2026-08-25
+publishedAt: 2026-08-24
 updatedAt: ""
 featured: false
 seoTitle: "Melhores pousadas no Quadrado de Trancoso e arredores"

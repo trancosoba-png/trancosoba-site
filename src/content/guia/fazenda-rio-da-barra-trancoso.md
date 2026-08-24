@@ -4,7 +4,7 @@ slug: fazenda-rio-da-barra-trancoso
 description: "A Fazenda Rio da Barra reúne propriedades de diferentes estilos em uma área residencial reservada e cercada pela natureza."
 category: "Condomínios e regiões"
 image: ""
-publishedAt: 2026-08-25
+publishedAt: 2026-08-24
 updatedAt: ""
 featured: false
 seoTitle: "Fazenda Rio da Barra em Trancoso: guia da região"

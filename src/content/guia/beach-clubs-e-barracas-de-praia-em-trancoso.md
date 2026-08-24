@@ -4,7 +4,7 @@ slug: beach-clubs-e-barracas-de-praia-em-trancoso
 description: "Trancoso oferece diferentes maneiras de passar o dia diante do mar."
 category: "Praias"
 image: ""
-publishedAt: 2026-08-25
+publishedAt: 2026-08-24
 updatedAt: ""
 featured: false
 seoTitle: "Beach clubs em Trancoso: barracas e restaurantes de praia"

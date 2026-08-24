@@ -4,7 +4,7 @@ slug: pedro-grande-trancoso
 description: "O Condomínio Pedro Grande é procurado por quem prefere uma estadia mais reservada, com casas espaçosas e a praia ocupando um lugar central na viagem."
 category: "Condomínios e regiões"
 image: ""
-publishedAt: 2026-08-25
+publishedAt: 2026-08-24
 updatedAt: ""
 featured: false
 seoTitle: "Condomínio Pedro Grande em Trancoso: como é ficar e para quem faz sentido"

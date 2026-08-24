@@ -4,7 +4,7 @@ slug: reveillon-em-trancoso-guia-completo
 description: "O Réveillon em Trancoso é uma viagem de vários dias, não apenas a noite de 31 de dezembro."
 category: "Réveillon"
 image: ""
-publishedAt: 2026-08-25
+publishedAt: 2026-08-24
 updatedAt: ""
 featured: false
 seoTitle: "Réveillon em Trancoso: festas, Taípe, casas e guia da virada"

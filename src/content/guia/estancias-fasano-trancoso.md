@@ -4,7 +4,7 @@ slug: estancias-fasano-trancoso
 description: "As Estâncias Fasano em Trancoso despertam o interesse de quem procura uma casa de altíssimo padrão com acesso às estruturas do complexo Fasano."
 category: "Condomínios e regiões"
 image: ""
-publishedAt: 2026-08-25
+publishedAt: 2026-08-24
 updatedAt: ""
 featured: false
 seoTitle: "Estâncias Fasano em Trancoso: como é a experiência"

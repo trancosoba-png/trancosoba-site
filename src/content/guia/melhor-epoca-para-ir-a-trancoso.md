@@ -4,7 +4,7 @@ slug: melhor-epoca-para-ir-a-trancoso
 description: "Não existe um único melhor mês para conhecer Trancoso. A escolha depende do tipo de viagem: férias em família, praias mais tranquilas, festas, dias a dois ou…"
 category: "Planejamento"
 image: ""
-publishedAt: 2026-08-25
+publishedAt: 2026-08-24
 updatedAt: ""
 featured: false
 seoTitle: "Melhor época para ir a Trancoso: guia mês a mês"

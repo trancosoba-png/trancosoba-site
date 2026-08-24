@@ -4,7 +4,7 @@ slug: altos-de-trancoso
 description: "O Condomínio Altos de Trancoso costuma entrar no radar de quem procura uma casa perto do Quadrado, mas prefere não ficar no trecho mais movimentado da vila."
 category: "Condomínios e regiões"
 image: ""
-publishedAt: 2026-08-25
+publishedAt: 2026-08-24
 updatedAt: ""
 featured: false
 seoTitle: "Altos de Trancoso: hospedagem perto do Quadrado"

@@ -4,7 +4,7 @@ slug: arraial-dajuda-bahia
 description: "Arraial d’Ajuda é um destino com identidade própria no sul da Bahia."
 category: "Destinos próximos"
 image: ""
-publishedAt: 2026-08-25
+publishedAt: 2026-08-24
 updatedAt: ""
 featured: false
 seoTitle: "Onde ficar em Arraial d’Ajuda: casas do centro às praias"

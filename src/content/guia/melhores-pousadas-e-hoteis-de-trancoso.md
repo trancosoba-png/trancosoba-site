@@ -4,7 +4,7 @@ slug: melhores-pousadas-e-hoteis-de-trancoso
 description: "Escolher entre as melhores pousadas em Trancoso não deveria começar por um ranking."
 category: "Hotéis e pousadas"
 image: ""
-publishedAt: 2026-08-25
+publishedAt: 2026-08-24
 updatedAt: ""
 featured: false
 seoTitle: "Melhores pousadas em Trancoso: hotéis por praia e região"

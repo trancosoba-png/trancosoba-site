@@ -4,7 +4,7 @@ slug: condominio-coqueiral-trancoso
 description: "O Condomínio Coqueiral aparece nas buscas de quem procura casas de temporada com mais espaço em Trancoso."
 category: "Condomínios e regiões"
 image: ""
-publishedAt: 2026-08-25
+publishedAt: 2026-08-24
 updatedAt: ""
 featured: false
 seoTitle: "Condomínio Coqueiral em Trancoso: casas e localização"

@@ -4,7 +4,7 @@ slug: ponta-da-barra-trancoso
 description: "A Ponta da Barra costuma entrar no radar de quem busca uma estadia mais reservada em Trancoso, com a casa e a praia ocupando um papel central na viagem."
 category: "Praias"
 image: ""
-publishedAt: 2026-08-25
+publishedAt: 2026-08-24
 updatedAt: ""
 featured: false
 seoTitle: "Ponta da Barra em Trancoso: para quem faz sentido ficar nessa região"

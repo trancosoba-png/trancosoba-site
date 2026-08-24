@@ -4,7 +4,7 @@ slug: condominio-icatu-trancoso
 description: "O Condomínio Icatú aparece entre as alternativas de hospedagem para quem procura uma casa em Trancoso e não precisa ficar ao lado do Quadrado ou diretamente na…"
 category: "Condomínios e regiões"
 image: ""
-publishedAt: 2026-08-25
+publishedAt: 2026-08-24
 updatedAt: ""
 featured: false
 seoTitle: "Condomínio Icatú em Trancoso: casas, localização e acesso"

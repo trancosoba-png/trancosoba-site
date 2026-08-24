@@ -4,7 +4,7 @@ slug: rua-dos-macacos-trancoso
 description: "A Rua dos Macacos apresenta um lado mais residencial de Trancoso, com vegetação, casas independentes, villages e condomínios."
 category: "Experiências"
 image: ""
-publishedAt: 2026-08-25
+publishedAt: 2026-08-24
 updatedAt: ""
 featured: false
 seoTitle: "Rua dos Macacos em Trancoso: onde ficar e para quem é"

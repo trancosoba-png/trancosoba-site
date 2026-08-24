@@ -4,7 +4,7 @@ slug: melhores-restaurantes-do-quadrado-de-trancoso
 description: "O Quadrado reúne algumas das experiências gastronômicas mais conhecidas de Trancoso."
 category: "Gastronomia"
 image: ""
-publishedAt: 2026-08-25
+publishedAt: 2026-08-24
 updatedAt: ""
 featured: false
 seoTitle: "Melhores restaurantes do Quadrado de Trancoso: onde comer"
