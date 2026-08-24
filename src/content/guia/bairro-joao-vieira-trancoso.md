@@ -7,8 +7,8 @@ image: ""
 publishedAt: 2026-08-25
 updatedAt: ""
 featured: false
-seoTitle: ""
-seoDescription: ""
+seoTitle: "João Vieira em Trancoso: casas e acesso ao Quadrado"
+seoDescription: "Conheça João Vieira em Trancoso, os tipos de casas, o acesso ao Quadrado e os critérios para escolher uma hospedagem na região."
 ---
 
 # João Vieira em Trancoso: casas e acesso ao Quadrado
@@ -171,14 +171,6 @@ Não. Comodidades e serviços variam conforme a propriedade e o contrato. Confir
 João Vieira pode ser considerado por quem procura uma casa em Trancoso com localização prática em relação ao Quadrado e prefere uma hospedagem independente. A diversidade de imóveis amplia as possibilidades, mas torna a análise individual da propriedade indispensável.
 
 Localização exata, condições do trajeto, configuração das suítes, privacidade, estacionamento e serviços são os critérios que mais ajudam a entender se uma casa corresponde ao perfil da viagem. Em vez de decidir apenas pelo nome da região, compare a experiência concreta oferecida por cada imóvel.
-
-## Metadados editoriais
-
-**Título SEO:** João Vieira em Trancoso: casas e acesso ao Quadrado
-
-**Meta description:** Conheça João Vieira em Trancoso, os tipos de casas, o acesso ao Quadrado e os critérios para escolher uma hospedagem na região.
-
-**Slug:** `/onde-ficar-em-trancoso/joao-vieira`
 
 ## Conteúdos relacionados
 

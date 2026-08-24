@@ -7,8 +7,8 @@ image: ""
 publishedAt: 2026-08-25
 updatedAt: ""
 featured: false
-seoTitle: ""
-seoDescription: ""
+seoTitle: "Ponta da Barra em Trancoso: para quem faz sentido ficar nessa região"
+seoDescription: "Entenda como é se hospedar na Ponta da Barra, em Trancoso: perfil da região, praia, privacidade, tipos de casas e diferenças em relação ao Quadrado."
 ---
 
 # Ponta da Barra em Trancoso: como é ficar na região
@@ -166,12 +166,6 @@ Não se trata de uma hierarquia. A Ponta da Barra tende a atender quem prioriza 
 A Ponta da Barra pode ser uma escolha coerente para quem procura viver Trancoso em um ritmo mais reservado, com menos dependência do movimento do Quadrado. Seus principais atrativos estão na relação com a Praia do Rio da Barra, na privacidade, no alto padrão e na existência de propriedades pé na areia ou com vista para o mar.
 
 A decisão, porém, deve ser feita a partir da propriedade concreta. Acesso, posição em relação ao mar, privacidade, serviços e transporte variam e têm impacto direto na experiência. Mais do que escolher apenas uma região, vale entender exatamente onde fica a casa e como será a rotina durante a viagem.
-
-## Metadados editoriais
-
-**Título SEO:** Ponta da Barra em Trancoso: para quem faz sentido ficar nessa região  
-**Meta description:** Entenda como é se hospedar na Ponta da Barra, em Trancoso: perfil da região, praia, privacidade, tipos de casas e diferenças em relação ao Quadrado.  
-**Slug:** /onde-ficar-em-trancoso/ponta-da-barra
 
 ## Conteúdos relacionados
 

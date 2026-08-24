@@ -7,8 +7,8 @@ image: ""
 publishedAt: 2026-08-25
 updatedAt: ""
 featured: false
-seoTitle: ""
-seoDescription: ""
+seoTitle: "Quantos dias ficar em Trancoso? Roteiros de 2 a 7 dias"
+seoDescription: "Descubra quantos dias ficar em Trancoso e veja roteiros de 2, 3, 4, 5 e 7 dias, com praias, Quadrado, descanso, Espelho e Caraíva."
 ---
 
 # Quantos dias ficar em Trancoso? Roteiros de 2, 3, 4, 5 e 7 dias
@@ -300,14 +300,6 @@ Cinco dias são suficientes para uma viagem tranquila, com praias, Quadrado e te
 ### Quantos dias reservar para Trancoso, Praia do Espelho e Caraíva?
 
 Não há uma divisão única. Para incluir os três destinos, considere uma viagem mais longa e evite mudanças diárias de hospedagem. Também é necessário decidir se Espelho e Caraíva serão passeios ou etapas com pernoite.
-
-## Metadados editoriais
-
-**Título SEO:** Quantos dias ficar em Trancoso? Roteiros de 2 a 7 dias
-
-**Meta description:** Descubra quantos dias ficar em Trancoso e veja roteiros de 2, 3, 4, 5 e 7 dias, com praias, Quadrado, descanso, Espelho e Caraíva.
-
-**Slug:** `quantos-dias-ficar-em-trancoso`
 
 ## Conteúdos relacionados
 

@@ -7,8 +7,8 @@ image: ""
 publishedAt: 2026-08-25
 updatedAt: ""
 featured: false
-seoTitle: ""
-seoDescription: ""
+seoTitle: "Condomínio Icatú em Trancoso: casas, localização e acesso"
+seoDescription: "Saiba como é ficar no Condomínio Icatú em Trancoso, o que avaliar nas casas, como organizar os deslocamentos e quando a região pode fazer sentido."
 ---
 
 # Condomínio Icatú em Trancoso: casas, localização e perfil da hospedagem
@@ -169,14 +169,6 @@ Pode atender famílias, inclusive em casas maiores, desde que a propriedade esco
 O Condomínio Icatú merece entrar na pesquisa de quem procura uma casa mais acessível em Trancoso e aceita organizar os deslocamentos de carro ou com transporte contratado. Seu interesse está menos na proximidade do Quadrado e da praia e mais na possibilidade de encontrar propriedades de diferentes tamanhos, desde casas de duas suítes até opções para famílias e grupos maiores.
 
 A decisão deve considerar o custo total da estadia, não apenas a diária. Endereço exato, acesso, estrutura da casa e rotina do grupo são os elementos que determinam se a hospedagem funciona bem para aquela viagem.
-
-## Metadados editoriais
-
-**Título SEO:** Condomínio Icatú em Trancoso: casas, localização e acesso
-
-**Meta description:** Saiba como é ficar no Condomínio Icatú em Trancoso, o que avaliar nas casas, como organizar os deslocamentos e quando a região pode fazer sentido.
-
-**Slug:** `condominio-icatu-trancoso`
 
 ## Conteúdos relacionados
 

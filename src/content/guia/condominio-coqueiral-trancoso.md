@@ -7,8 +7,8 @@ image: ""
 publishedAt: 2026-08-25
 updatedAt: ""
 featured: false
-seoTitle: ""
-seoDescription: ""
+seoTitle: "Condomínio Coqueiral em Trancoso: casas e localização"
+seoDescription: "Conheça o perfil do Condomínio Coqueiral em Trancoso, as casas para famílias e grupos, a localização e o que verificar antes da reserva."
 ---
 
 # Condomínio Coqueiral em Trancoso: perfil, casas e localização
@@ -196,14 +196,6 @@ O Coqueiral geralmente apresenta bom custo-benefício em relação a áreas mais
 O Condomínio Coqueiral pode atender bem a famílias e grupos que procuram espaço, várias acomodações e uma estadia mais concentrada na própria casa. Em contrapartida, a localização exige planejamento de transporte e reduz a praticidade para quem deseja circular a pé.
 
 A escolha deve ser feita pela propriedade, não apenas pelo nome do condomínio. Capacidade autorizada, distribuição das suítes, serviços, acessibilidade, conservação e acesso são os critérios que realmente determinam se a casa combina com a viagem.
-
-## Metadados editoriais
-
-**Título SEO:** Condomínio Coqueiral em Trancoso: casas e localização
-
-**Meta description:** Conheça o perfil do Condomínio Coqueiral em Trancoso, as casas para famílias e grupos, a localização e o que verificar antes da reserva.
-
-**Slug:** `condominio-coqueiral-trancoso`
 
 ## Conteúdos relacionados
 

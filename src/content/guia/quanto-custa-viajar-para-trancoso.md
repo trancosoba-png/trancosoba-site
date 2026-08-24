@@ -7,8 +7,8 @@ image: ""
 publishedAt: 2026-08-25
 updatedAt: ""
 featured: false
-seoTitle: ""
-seoDescription: ""
+seoTitle: "Quanto custa viajar para Trancoso? Guia de gastos"
+seoDescription: "Saiba como calcular quanto custa viajar para Trancoso, considerando hospedagem, alimentação, praia, transporte, passeios e duração da estadia."
 ---
 
 # Quanto custa viajar para Trancoso? Como calcular hospedagem, alimentação e transporte
@@ -343,14 +343,6 @@ Evite períodos de maior procura quando houver flexibilidade, divida a hospedage
 Quanto custa viajar para Trancoso não pode ser respondido com um único valor sem considerar datas, hospedagem, grupo e estilo de viagem. A estimativa mais útil é aquela construída com cotações para o período exato e com todas as categorias registradas.
 
 Comece pela hospedagem e pela localização. Depois, calcule chegada, transporte diário, alimentação, praia e experiências. Ao dividir corretamente os custos e prever uma margem para extras, o orçamento deixa de ser uma suposição e passa a refletir a viagem que o grupo realmente pretende fazer.
-
-## Metadados editoriais
-
-**Título SEO:** Quanto custa viajar para Trancoso? Guia de gastos
-
-**Meta description:** Saiba como calcular quanto custa viajar para Trancoso, considerando hospedagem, alimentação, praia, transporte, passeios e duração da estadia.
-
-**Slug:** `quanto-custa-viajar-para-trancoso`
 
 ## Conteúdos relacionados
 

@@ -7,8 +7,8 @@ image: ""
 publishedAt: 2026-08-25
 updatedAt: ""
 featured: false
-seoTitle: ""
-seoDescription: ""
+seoTitle: "Estâncias Fasano em Trancoso: como é a experiência"
+seoDescription: "Entenda a proposta das Estâncias Fasano em Trancoso, o acesso ao complexo Fasano e o que verificar sobre casas, serviços, praia e transporte."
 ---
 
 # Estâncias Fasano em Trancoso: como é a experiência residencial
@@ -150,14 +150,6 @@ A vista para o mar não deve ser presumida. Essa característica precisa ser ver
 ### É necessário carro para ficar nas Estâncias Fasano?
 
 Não é necessário usar carro para o deslocamento até a área da praia, que fica a cerca de 600 metros e pode ser alcançada a pé. Carro ou motorista podem ser usados por conforto. Para outros deslocamentos durante a viagem, a necessidade de transporte depende do roteiro planejado.
-
-## Metadados editoriais
-
-**Título SEO:** Estâncias Fasano em Trancoso: como é a experiência
-
-**Meta description:** Entenda a proposta das Estâncias Fasano em Trancoso, o acesso ao complexo Fasano e o que verificar sobre casas, serviços, praia e transporte.
-
-**Slug:** estancias-fasano-trancoso
 
 ## Conteúdos relacionados
 

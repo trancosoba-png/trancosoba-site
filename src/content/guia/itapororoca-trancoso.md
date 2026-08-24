@@ -7,8 +7,8 @@ image: ""
 publishedAt: 2026-08-25
 updatedAt: ""
 featured: false
-seoTitle: ""
-seoDescription: ""
+seoTitle: "Itapororoca em Trancoso: praia, casas pé na areia e Altos"
+seoDescription: "Entenda onde ficar em Itapororoca, Trancoso, e compare casas na praia, opções pé na areia e propriedades nos Altos de Itapororoca."
 ---
 
 # Itapororoca em Trancoso: praia, natureza e duas formas de se hospedar
@@ -132,14 +132,6 @@ Em Itapororoca, escolher apenas pelo nome da região não basta. A decisão mais
 Quem deseja uma rotina com acesso imediato ao mar deve procurar casas comprovadamente pé na areia. Quem valoriza posição elevada e vista pode considerar os Altos, que possuem acesso à praia, verificando as características do percurso e do imóvel escolhido.
 
 Nos dois casos, localização exata, logística, privacidade e estrutura precisam ser avaliadas casa a casa.
-
-## Metadados editoriais
-
-**Título SEO:** Itapororoca em Trancoso: praia, casas pé na areia e Altos
-
-**Meta description:** Entenda onde ficar em Itapororoca, Trancoso, e compare casas na praia, opções pé na areia e propriedades nos Altos de Itapororoca.
-
-**Slug:** `itapororoca-trancoso-onde-ficar`
 
 ## Conteúdos relacionados
 

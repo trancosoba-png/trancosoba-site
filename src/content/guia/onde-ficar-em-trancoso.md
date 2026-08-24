@@ -7,8 +7,8 @@ image: ""
 publishedAt: 2026-08-25
 updatedAt: ""
 featured: false
-seoTitle: ""
-seoDescription: ""
+seoTitle: "Onde ficar em Trancoso: regiões para cada perfil de viagem"
+seoDescription: "Entenda onde ficar em Trancoso e compare Quadrado, Itapororoca, Terravista e outras regiões de acordo com localização, privacidade e perfil de viagem."
 ---
 
 # Onde ficar em Trancoso: entenda as regiões antes de escolher
@@ -197,12 +197,6 @@ Não existe uma única resposta para onde ficar em Trancoso. O Quadrado atende q
 A decisão fica mais simples quando se define primeiro a rotina desejada. Se restaurantes e passeios a pé são prioridade, a proximidade do centro ganha peso. Se a intenção é passar mais tempo na casa, reunir a família ou descansar perto da natureza, estrutura e acesso tornam-se mais importantes.
 
 Em todos os casos, confirme a localização exata e as condições da propriedade. Em Trancoso, poucos quilômetros — e até as características de um caminho — podem mudar bastante a experiência da hospedagem.
-
-## Metadados editoriais
-
-**Título SEO:** Onde ficar em Trancoso: regiões para cada perfil de viagem  
-**Meta description:** Entenda onde ficar em Trancoso e compare Quadrado, Itapororoca, Terravista e outras regiões de acordo com localização, privacidade e perfil de viagem.  
-**Slug:** `/onde-ficar-em-trancoso`
 
 ## Conteúdos relacionados
 

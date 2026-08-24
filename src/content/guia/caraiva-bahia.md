@@ -7,8 +7,8 @@ image: ""
 publishedAt: 2026-08-25
 updatedAt: ""
 featured: false
-seoTitle: ""
-seoDescription: ""
+seoTitle: "Onde ficar em Caraíva: casas perto da praia e do rio"
+seoDescription: "Entenda onde ficar em Caraíva e compare casas próximas da praia ou do Rio Caraíva, considerando acesso, ruas de areia e perfil da viagem."
 ---
 
 # Onde ficar em Caraíva: casas perto da praia e do rio
@@ -184,14 +184,6 @@ Sim, desde que a casa e a localização sejam compatíveis com a família. Trave
 ### O que observar ao reservar uma casa?
 
 Considere o percurso desde a travessia, a distância prática até praia e rio, a distribuição dos quartos, a privacidade, os serviços incluídos e as regras da propriedade. Para pessoas com mobilidade reduzida, solicite uma descrição detalhada dos acessos.
-
-## Metadados editoriais
-
-**Título SEO:** Onde ficar em Caraíva: casas perto da praia e do rio
-
-**Meta description:** Entenda onde ficar em Caraíva e compare casas próximas da praia ou do Rio Caraíva, considerando acesso, ruas de areia e perfil da viagem.
-
-**Slug:** `onde-ficar-em-caraiva`
 
 ## Conteúdos relacionados
 

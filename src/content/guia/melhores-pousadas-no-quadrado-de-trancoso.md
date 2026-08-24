@@ -7,8 +7,8 @@ image: ""
 publishedAt: 2026-08-25
 updatedAt: ""
 featured: false
-seoTitle: ""
-seoDescription: ""
+seoTitle: "Melhores pousadas no Quadrado de Trancoso e arredores"
+seoDescription: "Veja uma curadoria de pousadas e hotéis no Quadrado de Trancoso, além de opções próximas para aproveitar o centro a pé."
 ---
 
 # Melhores pousadas e hotéis no Quadrado de Trancoso e arredores
@@ -329,14 +329,6 @@ As pousadas no Quadrado de Trancoso atendem especialmente a quem deseja viver o 
 As hospedagens dos arredores imediatos ampliam as possibilidades sem necessariamente abrir mão dessa praticidade. Em alguns casos, poucos trechos de caminhada se traduzem em jardins maiores, mais recolhimento ou formatos diferentes de acomodação.
 
 Antes de decidir, confira a localização real, a categoria do quarto e os serviços em operação. Em Trancoso, a escolha entre praça, ruas próximas e praia interfere diretamente na rotina — e costuma ser tão importante quanto o estilo do hotel.
-
-## Metadados editoriais
-
-**Título SEO:** Melhores pousadas no Quadrado de Trancoso e arredores
-
-**Meta description:** Veja uma curadoria de pousadas e hotéis no Quadrado de Trancoso, além de opções próximas para aproveitar o centro a pé.
-
-**Slug:** `pousadas-no-quadrado-de-trancoso`
 
 ## Conteúdos relacionados
 

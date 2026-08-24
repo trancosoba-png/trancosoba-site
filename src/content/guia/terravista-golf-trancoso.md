@@ -7,8 +7,8 @@ image: ""
 publishedAt: 2026-08-25
 updatedAt: ""
 featured: false
-seoTitle: ""
-seoDescription: ""
+seoTitle: "Terravista Golf em Trancoso: como é ficar e escolher uma casa"
+seoDescription: "Entenda como é ficar no Terravista Golf, em Trancoso, o que avaliar nas casas e as diferenças em relação ao Terravista Vilas e ao Quadrado."
 ---
 
 # Terravista Golf em Trancoso: casas, campo e natureza
@@ -164,14 +164,6 @@ No Terravista Golf, a viagem tende a ser mais residencial e dependente de desloc
 O Terravista Golf oferece uma maneira mais reservada de ficar em Trancoso, com casas residenciais de alto padrão e uma paisagem marcada pelo campo, pela vegetação, pelas falésias e pelo relevo costeiro. Em troca, exige mais planejamento para ir ao Quadrado, às praias e a outros pontos da região.
 
 A escolha deve começar pela rotina desejada e terminar na análise detalhada da propriedade. Em uma região onde as casas variam bastante, localização, quartos, áreas externas, equipe e regras de acesso são tão importantes quanto o endereço.
-
-## Metadados editoriais
-
-**Título SEO:** Terravista Golf em Trancoso: como é ficar e escolher uma casa
-
-**Meta description:** Entenda como é ficar no Terravista Golf, em Trancoso, o que avaliar nas casas e as diferenças em relação ao Terravista Vilas e ao Quadrado.
-
-**Slug:** `terravista-golf-trancoso`
 
 ## Conteúdos relacionados
 

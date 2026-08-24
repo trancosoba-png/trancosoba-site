@@ -7,8 +7,8 @@ image: ""
 publishedAt: 2026-08-25
 updatedAt: ""
 featured: false
-seoTitle: ""
-seoDescription: ""
+seoTitle: "Fazenda Rio da Barra em Trancoso: guia da região"
+seoDescription: "Veja como é ficar na Fazenda Rio da Barra, em Trancoso, com informações sobre casas amplas, praia, staff, deslocamentos e perfil de viagem."
 ---
 
 # Fazenda Rio da Barra: casas amplas, praia e natureza em Trancoso
@@ -175,14 +175,6 @@ A necessidade de carro depende da programação e do transporte oferecido ou con
 ### O que mais pesa na escolha da casa?
 
 Além do número de quartos, considere a localização interna, o percurso até a praia, a composição do staff, a capacidade das áreas sociais, a acessibilidade e os custos extras. Em casas grandes, esses detalhes têm impacto direto na experiência.
-
-## Metadados editoriais
-
-**Título SEO:** Fazenda Rio da Barra em Trancoso: guia da região
-
-**Meta description:** Veja como é ficar na Fazenda Rio da Barra, em Trancoso, com informações sobre casas amplas, praia, staff, deslocamentos e perfil de viagem.
-
-**Slug:** `fazenda-rio-da-barra-trancoso`
 
 ## Conteúdos relacionados
 

@@ -7,8 +7,8 @@ image: ""
 publishedAt: 2026-08-25
 updatedAt: ""
 featured: false
-seoTitle: ""
-seoDescription: ""
+seoTitle: "Trancoso com crianças: onde ficar, praias e dicas para famílias"
+seoDescription: "Planeje Trancoso com crianças: veja onde ficar, como escolher casa ou pousada, praias, carro ou transfer, roteiros e dicas para famílias."
 ---
 
 # Trancoso com crianças: onde ficar, praias e dicas para famílias
@@ -396,14 +396,6 @@ Sim. A hospedagem deve ter uma logística compatível com a rotina do bebê. Con
 Trancoso pode oferecer uma viagem familiar tranquila, mas a experiência depende de escolhas práticas. A região da hospedagem, a disposição dos quartos, o acesso à praia e o transporte têm impacto direto na rotina.
 
 Famílias que aceitam fazer menos atividades por dia costumam aproveitar melhor o destino. Em vez de organizar a viagem em torno de uma lista extensa de passeios, vale escolher uma boa base, alternar praia e descanso e deixar espaço para mudanças de plano.
-
-## Metadados editoriais
-
-**Título SEO:** Trancoso com crianças: onde ficar, praias e dicas para famílias
-
-**Meta description:** Planeje Trancoso com crianças: veja onde ficar, como escolher casa ou pousada, praias, carro ou transfer, roteiros e dicas para famílias.
-
-**Slug:** `trancoso-com-criancas`
 
 ## Conteúdos relacionados
 

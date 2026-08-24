@@ -7,8 +7,8 @@ image: ""
 publishedAt: 2026-08-25
 updatedAt: ""
 featured: false
-seoTitle: ""
-seoDescription: ""
+seoTitle: "Beach clubs em Trancoso: barracas e restaurantes de praia"
+seoDescription: "Conheça beach clubs, barracas tradicionais, restaurantes pé na areia e estruturas de hotéis em Tartarugas, Rio da Barra, Nativos, Coqueiros, Rio Verde e Itapororoca."
 ---
 
 # Beach clubs e barracas de praia em Trancoso: das Tartarugas a Itapororoca
@@ -426,14 +426,6 @@ Os beach clubs em Trancoso fazem parte de um conjunto mais amplo que inclui barr
 Coqueiros concentra variedade e informalidade. Nativos combina gastronomia, design e hospedagens pé na areia. Rio Verde reúne estruturas maiores. Rio da Barra privilegia a paisagem e a tranquilidade, enquanto Tartarugas e Itapororoca exigem atenção especial ao acesso.
 
 Antes de escolher, confirme funcionamento, reserva, forma de cobrança e política para visitantes. Com isso resolvido, vale diminuir o ritmo e aproveitar uma praia por vez.
-
-## Metadados editoriais
-
-**Título SEO:** Beach clubs em Trancoso: barracas e restaurantes de praia
-
-**Meta description:** Conheça beach clubs, barracas tradicionais, restaurantes pé na areia e estruturas de hotéis em Tartarugas, Rio da Barra, Nativos, Coqueiros, Rio Verde e Itapororoca.
-
-**Slug:** `/beach-clubs-barracas-praia-trancoso/`
 
 ## Conteúdos relacionados
 

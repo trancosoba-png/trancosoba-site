@@ -7,8 +7,8 @@ image: ""
 publishedAt: 2026-08-25
 updatedAt: ""
 featured: false
-seoTitle: ""
-seoDescription: ""
+seoTitle: "Melhor época para ir a Trancoso: guia mês a mês"
+seoDescription: "Descubra a melhor época para ir a Trancoso conforme clima, chuvas, movimento, custos, férias, Réveillon, Carnaval e temporada de baleias."
 ---
 
 # Melhor época para ir a Trancoso: guia mês a mês
@@ -260,14 +260,6 @@ As baleias-jubarte aparecem na costa da Bahia durante o inverno e a primavera. H
 ### É melhor ir em janeiro ou setembro?
 
 Janeiro combina com férias, movimento e vida social. Setembro tende a favorecer quem prefere uma rotina mais tranquila e maior variedade de hospedagens. A escolha depende do perfil da viagem e da disponibilidade para viajar fora das férias escolares.
-
-## Metadados editoriais
-
-**Título SEO:** Melhor época para ir a Trancoso: guia mês a mês
-
-**Meta description:** Descubra a melhor época para ir a Trancoso conforme clima, chuvas, movimento, custos, férias, Réveillon, Carnaval e temporada de baleias.
-
-**Slug:** `melhor-epoca-para-ir-a-trancoso`
 
 ## Conteúdos relacionados
 

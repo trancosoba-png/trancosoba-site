@@ -7,8 +7,8 @@ image: ""
 publishedAt: 2026-08-25
 updatedAt: ""
 featured: false
-seoTitle: ""
-seoDescription: ""
+seoTitle: "Onde ficar em Arraial d’Ajuda: casas do centro às praias"
+seoDescription: "Descubra onde ficar em Arraial d’Ajuda e compare casas próximas ao centro, às praias, com vista para o mar ou acesso direto à areia."
 ---
 
 # Onde ficar em Arraial d’Ajuda: do centro às praias
@@ -213,14 +213,6 @@ Pode fazer sentido para quem deseja proximidade de restaurantes, lojas, bares e 
 Escolher onde ficar em Arraial d’Ajuda é, antes de tudo, escolher como será a rotina da viagem. O centro aproxima o visitante de restaurantes, lojas e movimento noturno. As regiões de praia favorecem o contato com o mar e podem concentrar mais tempo dentro da própria casa.
 
 A recomendação editorial é começar pelo endereço e pelos acessos. Depois, entram número de suítes, piscina, vista e demais características do imóvel. Essa ordem evita que uma casa atraente nas fotografias resulte em uma logística pouco adequada para o grupo.
-
-## Metadados editoriais
-
-**Título SEO:** Onde ficar em Arraial d’Ajuda: casas do centro às praias
-
-**Meta description:** Descubra onde ficar em Arraial d’Ajuda e compare casas próximas ao centro, às praias, com vista para o mar ou acesso direto à areia.
-
-**Slug:** `onde-ficar-arraial-d-ajuda`
 
 ## Conteúdos relacionados
 

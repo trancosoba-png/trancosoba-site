@@ -7,8 +7,8 @@ image: ""
 publishedAt: 2026-08-25
 updatedAt: ""
 featured: false
-seoTitle: ""
-seoDescription: ""
+seoTitle: "Melhores restaurantes do Quadrado de Trancoso: onde comer"
+seoDescription: "Descubra os restaurantes do Quadrado de Trancoso para comida baiana, frutos do mar, massas, carnes, sushi, cafés e diferentes ocasiões."
 ---
 
 # Melhores restaurantes do Quadrado de Trancoso: onde comer, o que pedir e qual combina com cada ocasião
@@ -414,14 +414,6 @@ Os restaurantes do Quadrado de Trancoso refletem diferentes camadas da vila: a t
 Escolher bem depende menos de procurar um vencedor absoluto e mais de combinar cozinha, horário, orçamento e ocasião. Também é importante confirmar cardápios, reservas e funcionamento, porque Trancoso muda de ritmo ao longo do ano.
 
 Com esse cuidado, o Quadrado permite organizar desde um almoço casual até um jantar de celebração sem perder o contato com o cenário histórico que tornou a região tão reconhecida.
-
-## Metadados editoriais
-
-**Título SEO:** Melhores restaurantes do Quadrado de Trancoso: onde comer
-
-**Meta description:** Descubra os restaurantes do Quadrado de Trancoso para comida baiana, frutos do mar, massas, carnes, sushi, cafés e diferentes ocasiões.
-
-**Slug:** `/restaurantes-no-quadrado-de-trancoso/`
 
 ## Conteúdos relacionados
 

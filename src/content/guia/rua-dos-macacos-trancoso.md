@@ -7,8 +7,8 @@ image: ""
 publishedAt: 2026-08-25
 updatedAt: ""
 featured: false
-seoTitle: ""
-seoDescription: ""
+seoTitle: "Rua dos Macacos em Trancoso: onde ficar e para quem é"
+seoDescription: "Veja como é ficar na Rua dos Macacos, região residencial de Trancoso com casas, condomínios e maior necessidade de planejar os deslocamentos."
 ---
 
 # Rua dos Macacos: como é ficar nessa região de Trancoso
@@ -141,14 +141,6 @@ Pode funcionar, sobretudo quando a propriedade oferece quartos e áreas de convi
 ### A Rua dos Macacos é isolada?
 
 É mais preciso descrevê-la como uma região residencial, arborizada e mais afastada do miolo do Quadrado. O grau de isolamento depende do ponto exato da hospedagem, do acesso e das alternativas de transporte disponíveis.
-
-## Metadados editoriais
-
-**Título SEO:** Rua dos Macacos em Trancoso: onde ficar e para quem é
-
-**Meta description:** Veja como é ficar na Rua dos Macacos, região residencial de Trancoso com casas, condomínios e maior necessidade de planejar os deslocamentos.
-
-**Slug:** `rua-dos-macacos-trancoso`
 
 ## Conteúdos relacionados
 

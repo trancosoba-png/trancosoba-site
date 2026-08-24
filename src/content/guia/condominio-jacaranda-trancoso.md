@@ -7,8 +7,8 @@ image: ""
 publishedAt: 2026-08-25
 updatedAt: ""
 featured: false
-seoTitle: ""
-seoDescription: ""
+seoTitle: "Condomínio Jacarandá em Trancoso: casas para grupos"
+seoDescription: "Conheça o Condomínio Jacarandá em Trancoso, com casas de cinco, seis e sete suítes para famílias e grupos maiores."
 ---
 
 # Condomínio Jacarandá em Trancoso: casas para famílias e grupos
@@ -193,14 +193,6 @@ O condomínio pode apresentar bom custo-benefício para grupos grandes. A avalia
 O Condomínio Jacarandá pode entrar na seleção de quem procura casas de alto padrão com cinco, seis ou sete suítes para reunir família ou amigos em Trancoso. Seu perfil combina propriedades amplas, ambiente residencial e localização mais afastada do Quadrado.
 
 A decisão deve se apoiar nos dados de cada imóvel. Capacidade, distribuição das camas, serviços, acessibilidade e preço final fazem mais diferença do que o nome do condomínio isoladamente. Com essas informações verificadas, fica mais fácil entender se a casa atende à dinâmica do grupo e à programação da viagem.
-
-## Metadados editoriais
-
-**Título SEO:** Condomínio Jacarandá em Trancoso: casas para grupos
-
-**Meta description:** Conheça o Condomínio Jacarandá em Trancoso, com casas de cinco, seis e sete suítes para famílias e grupos maiores.
-
-**Slug:** `condominio-jacaranda-trancoso`
 
 ## Conteúdos relacionados
 

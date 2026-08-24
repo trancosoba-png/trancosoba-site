@@ -7,8 +7,8 @@ image: ""
 publishedAt: 2026-08-25
 updatedAt: ""
 featured: false
-seoTitle: ""
-seoDescription: ""
+seoTitle: "O que fazer em Trancoso: experiências e passeios"
+seoDescription: "Descubra o que fazer em Trancoso, do Quadrado às praias, com passeios para Espelho e Caraíva e roteiros de 3, 5 e 7 dias."
 ---
 
 # O que fazer em Trancoso: experiências, passeios e roteiros
@@ -436,14 +436,6 @@ Para aprofundar o planejamento, consulte também:
 - **Outeiro das Brisas**
 - **Caraíva**
 - **Arraial d’Ajuda**
-
-## Metadados editoriais
-
-**Título SEO:** O que fazer em Trancoso: experiências e passeios
-
-**Meta description:** Descubra o que fazer em Trancoso, do Quadrado às praias, com passeios para Espelho e Caraíva e roteiros de 3, 5 e 7 dias.
-
-**Slug:** `o-que-fazer-em-trancoso`
 
 ## Conteúdos relacionados
 

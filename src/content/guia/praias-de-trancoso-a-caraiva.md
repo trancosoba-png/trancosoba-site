@@ -7,8 +7,8 @@ image: ""
 publishedAt: 2026-08-25
 updatedAt: ""
 featured: false
-seoTitle: ""
-seoDescription: ""
+seoTitle: "Praias de Trancoso a Caraíva: guia do litoral"
+seoDescription: "Conheça as praias de Trancoso até Caraíva, com informações sobre Nativos, Coqueiros, Rio Verde, Itapororoca, Espelho, Satú, acessos e marés."
 ---
 
 # Praias de Trancoso a Caraíva: guia do litoral, das Tartarugas à vila de Caraíva
@@ -416,14 +416,6 @@ Não. Caraíva é uma vila separada de Trancoso, com identidade e dinâmica pró
 O litoral de Trancoso a Caraíva não funciona como uma sequência de praias equivalentes. Nativos e Coqueiros facilitam a combinação com o centro; Rio Verde e Itapororoca oferecem uma rotina mais residencial; Itaquena, Ipatimirim e Rio dos Frades exigem planejamento ambiental e logístico; Espelho pode ser conhecido em passeio ou com hospedagem; Satú se relaciona mais diretamente a Caraíva.
 
 A escolha fica mais simples quando se parte de três perguntas: onde está a hospedagem, quanta estrutura é necessária e como estarão a maré e o mar naquele dia. Em vez de acumular deslocamentos, vale organizar o roteiro por regiões e reservar tempo para perceber as diferenças de cada trecho.
-
-## Metadados editoriais
-
-**Título SEO:** Praias de Trancoso a Caraíva: guia do litoral
-
-**Meta description:** Conheça as praias de Trancoso até Caraíva, com informações sobre Nativos, Coqueiros, Rio Verde, Itapororoca, Espelho, Satú, acessos e marés.
-
-**Slug:** /praias-de-trancoso-a-caraiva/
 
 ## Conteúdos relacionados
 

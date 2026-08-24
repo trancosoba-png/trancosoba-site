@@ -7,8 +7,8 @@ image: ""
 publishedAt: 2026-08-25
 updatedAt: ""
 featured: false
-seoTitle: ""
-seoDescription: ""
+seoTitle: "Altos de Trancoso: hospedagem perto do Quadrado"
+seoDescription: "Entenda o perfil do Condomínio Altos de Trancoso, sua localização perto do Quadrado e o que verificar sobre casas, praias e deslocamentos."
 ---
 
 # Altos de Trancoso: localização e perfil de hospedagem perto do Quadrado
@@ -103,12 +103,6 @@ Sim. O Condomínio Altos de Trancoso fica a cerca de 600 metros do Quadrado, com
 ### Todas as casas têm três ou mais suítes e vista para o mar?
 
 No portfólio atual da TrancosoBA, há casas de 3 a 10 suítes no Condomínio Altos de Trancoso. A vista para o mar, quando anunciada, deve ser confirmada individualmente, pois não é um atributo que possa ser presumido para todas as propriedades.
-
-## Metadados editoriais
-
-**Título SEO:** Altos de Trancoso: hospedagem perto do Quadrado  
-**Meta description:** Entenda o perfil do Condomínio Altos de Trancoso, sua localização perto do Quadrado e o que verificar sobre casas, praias e deslocamentos.  
-**Slug:** altos-de-trancoso
 
 ## Conteúdos relacionados
 

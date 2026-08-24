@@ -7,8 +7,8 @@ image: ""
 publishedAt: 2026-08-25
 updatedAt: ""
 featured: false
-seoTitle: ""
-seoDescription: ""
+seoTitle: "Condomínio Pedro Grande em Trancoso: como é ficar e para quem faz sentido"
+seoDescription: "Conheça o perfil do Condomínio Pedro Grande em Trancoso, sua relação com a Praia do Rio da Barra, as casas e os principais pontos para planejar a estadia."
 ---
 
 # Condomínio Pedro Grande em Trancoso: praia, casas e perfil da estadia
@@ -133,12 +133,6 @@ Sim. Existem propriedades com vista para o mar no Pedro Grande, mas essa caracte
 ### É necessário ter carro?
 
 O acesso ao condomínio é feito normalmente por via terrestre, e o carro costuma ser a opção mais prática para os deslocamentos, principalmente para quem pretende frequentar o Quadrado. Táxis, transfers e motoristas privativos também podem ser considerados conforme a rotina da viagem.
-
-## Metadados editoriais
-
-**Título SEO:** Condomínio Pedro Grande em Trancoso: como é ficar e para quem faz sentido  
-**Meta description:** Conheça o perfil do Condomínio Pedro Grande em Trancoso, sua relação com a Praia do Rio da Barra, as casas e os principais pontos para planejar a estadia.  
-**Slug:** /condominio-pedro-grande-trancoso
 
 ## Conteúdos relacionados
 

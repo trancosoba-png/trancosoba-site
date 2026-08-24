@@ -7,8 +7,8 @@ image: ""
 publishedAt: 2026-08-25
 updatedAt: ""
 featured: false
-seoTitle: ""
-seoDescription: ""
+seoTitle: "Réveillon em Trancoso: festas, Taípe, casas e guia da virada"
+seoDescription: "Guia do Réveillon em Trancoso com informações sobre Festa do Taípe, programação, onde ficar, casas, restaurantes, praias, transporte e orçamento."
 ---
 
 # Réveillon em Trancoso: festas, Taípe, hospedagem e guia da virada
@@ -512,14 +512,6 @@ Planejar o Réveillon em Trancoso significa olhar para a viagem como um conjunto
 A escolha mais coerente nem sempre é a hospedagem mais próxima do centro ou a agenda com mais eventos. Para alguns grupos, o foco estará na praia e na convivência em casa. Para outros, a localização e a logística noturna terão mais peso.
 
 Quanto mais cedo essas prioridades forem alinhadas, menor o risco de transformar distâncias, reservas e decisões de última hora em problemas durante a viagem.
-
-## Metadados editoriais
-
-**Título SEO:** Réveillon em Trancoso: festas, Taípe, casas e guia da virada
-
-**Meta description:** Guia do Réveillon em Trancoso com informações sobre Festa do Taípe, programação, onde ficar, casas, restaurantes, praias, transporte e orçamento.
-
-**Slug:** `/reveillon-em-trancoso/`
 
 ## Conteúdos relacionados
 

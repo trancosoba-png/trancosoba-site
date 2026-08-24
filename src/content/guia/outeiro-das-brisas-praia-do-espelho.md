@@ -7,8 +7,8 @@ image: ""
 publishedAt: 2026-08-25
 updatedAt: ""
 featured: false
-seoTitle: ""
-seoDescription: ""
+seoTitle: "Outeiro das Brisas: casas na região da Praia do Espelho"
+seoDescription: "Entenda como é ficar no Outeiro das Brisas, na região da Praia do Espelho, e veja o que avaliar ao escolher uma casa e planejar o transporte."
 ---
 
 # Outeiro das Brisas: casas, falésias e natureza na Praia do Espelho
@@ -217,14 +217,6 @@ Não. O condomínio fica mais afastado do Quadrado do que as hospedagens localiz
 ### Vale ficar no Outeiro para conhecer Trancoso?
 
 Pode fazer sentido para quem pretende combinar algumas visitas a Trancoso com uma estadia concentrada na Praia do Espelho. Para frequentar o Quadrado diariamente, uma hospedagem no centro ou em áreas próximas tende a oferecer uma logística mais simples.
-
-## Metadados editoriais
-
-**Título SEO:** Outeiro das Brisas: casas na região da Praia do Espelho
-
-**Meta description:** Entenda como é ficar no Outeiro das Brisas, na região da Praia do Espelho, e veja o que avaliar ao escolher uma casa e planejar o transporte.
-
-**Slug:** `outeiro-das-brisas-praia-do-espelho`
 
 ## Conteúdos relacionados
 

@@ -7,8 +7,8 @@ image: ""
 publishedAt: 2026-08-25
 updatedAt: ""
 featured: false
-seoTitle: ""
-seoDescription: ""
+seoTitle: "Terravista Vilas em Trancoso: como é se hospedar"
+seoDescription: "Conheça o Terravista Vilas em Trancoso: perfil das casas, campo de golfe, acesso às praias, transporte e diferenças em relação ao Quadrado."
 ---
 
 # Terravista Vilas em Trancoso: como é se hospedar na região
@@ -207,14 +207,6 @@ O Terravista Vilas oferece uma proposta de hospedagem voltada à vida na casa, �
 A decisão deve partir do modo como o grupo pretende viver Trancoso. Quem deseja permanecer mais tempo na casa e organizar as saídas pode encontrar uma dinâmica compatível com a região. Quem prioriza restaurantes, lojas e circulação a pé deve comparar essa experiência com as hospedagens próximas ao Quadrado.
 
 Antes da reserva, é importante confirmar os detalhes da casa escolhida, os acessos disponíveis às praias, as condições de uso do campo de golfe, as opções de transporte e os serviços incluídos na hospedagem.
-
-## Metadados editoriais
-
-**Título SEO:** Terravista Vilas em Trancoso: como é se hospedar
-
-**Meta description:** Conheça o Terravista Vilas em Trancoso: perfil das casas, campo de golfe, acesso às praias, transporte e diferenças em relação ao Quadrado.
-
-**Slug:** `/onde-ficar-em-trancoso/terravista-vilas/`
 
 ## Conteúdos relacionados
 

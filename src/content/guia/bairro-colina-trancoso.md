@@ -7,8 +7,8 @@ image: ""
 publishedAt: 2026-08-25
 updatedAt: ""
 featured: false
-seoTitle: ""
-seoDescription: ""
+seoTitle: "Bairro Colina em Trancoso: onde ficar perto do Quadrado"
+seoDescription: "Conheça a Colina em Trancoso, região residencial com casas independentes e diferentes opções de hospedagem perto do Quadrado."
 ---
 
 # Bairro Colina: tranquilidade e casas perto do Quadrado
@@ -188,14 +188,6 @@ Pode atender famílias e grupos, especialmente em propriedades com mais quartos 
 A Colina pode atender quem deseja ficar em uma área residencial e arborizada, em uma casa independente e com o Quadrado relativamente próximo. Seu principal ponto de atenção é também o que define a experiência: não há um padrão único de localização, acesso, privacidade ou serviços.
 
 Mais do que escolher a região pelo nome, vale entender como a propriedade se encaixa na rotina da viagem. Um endereço adequado ao grupo, com trajeto bem explicado e estrutura compatível com a estadia, faz mais diferença do que uma descrição ampla sobre o bairro.
-
-## Metadados editoriais
-
-**Título SEO:** Bairro Colina em Trancoso: onde ficar perto do Quadrado
-
-**Meta description:** Conheça a Colina em Trancoso, região residencial com casas independentes e diferentes opções de hospedagem perto do Quadrado.
-
-**Slug:** `bairro-colina-trancoso`
 
 ## Conteúdos relacionados
 
