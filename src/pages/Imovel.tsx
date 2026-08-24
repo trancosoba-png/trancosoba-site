@@ -166,7 +166,7 @@ export default function Imovel() {
           {p.gallery.map((g, i) => (
             <button key={i} onClick={() => setActive(i)} aria-label={`${t.imovel.gallery} ${i + 1}`}
               className={`overflow-hidden border-2 transition-colors relative ${i === active ? 'border-gold' : 'border-transparent opacity-70 hover:opacity-100'}`}>
-              <img src={g.replace(/\.webp$/, '-thumb.webp')} alt="" loading="lazy" decoding="async" draggable={false} onError={(e) => { (e.currentTarget as HTMLImageElement).src = g; }} className="w-full aspect-[3/2] object-cover" />
+              <img src={g.replace(/\.webp$/, '-thumb.webp')} alt="" loading="lazy" decoding="async" draggable={false} onError={(e) => { const el = e.currentTarget as HTMLImageElement; if (!el.dataset.fb) { el.dataset.fb = '1'; el.src = g; } }} className="w-full aspect-[3/2] object-cover" />
               <span className="photo-shield" aria-hidden="true" />
             </button>
           ))}
@@ -228,7 +228,7 @@ export default function Imovel() {
               <button key={i} onClick={() => setActive(i)} aria-label={`${t.imovel.gallery} ${i + 1}`} aria-current={i === active}
                 className={`shrink-0 overflow-hidden border-2 transition-all ${i === active ? 'border-gold opacity-100 scale-[1.03]' : 'border-ivory/15 opacity-50 hover:opacity-90'}`}>
                 <img src={g.replace(/\.webp$/, '-thumb.webp')} alt="" loading="lazy" decoding="async" draggable={false}
-                  onError={(e) => { (e.currentTarget as HTMLImageElement).src = g; }}
+                  onError={(e) => { const el = e.currentTarget as HTMLImageElement; if (!el.dataset.fb) { el.dataset.fb = '1'; el.src = g; } }}
                   className="w-16 h-11 md:w-24 md:h-16 object-cover" />
               </button>
             ))}

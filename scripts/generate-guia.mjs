@@ -17,6 +17,7 @@
 // com os metadados no topo (ver exemplo-teste.md) — nenhum código muda.
 import { readFileSync, writeFileSync, mkdirSync, readdirSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
+import { renderArticleHtml } from './guia-md.mjs';
 
 const SITE = process.env.SITE_URL || 'https://www.trancosoba.com';
 const root = new URL('..', import.meta.url).pathname;
@@ -91,15 +92,17 @@ function loadArticles() {
 // ---------------------------------------------------------------------------
 function genContent(articles) {
   const lit = (s) => JSON.stringify(s);
+  // O Markdown é compilado para HTML aqui, no prebuild (ver scripts/guia-md.mjs):
+  // o navegador recebe o HTML pronto e não precisa do react-markdown em runtime.
   const body = `// ARQUIVO GERADO por scripts/generate-guia.mjs (npm run prebuild).
 // Não edite à mão — os artigos vivem em src/content/guia/*.md.
 export interface GuiaArticleData {
   title: string; slug: string; description: string; category: string;
   image: string; publishedAt: string; updatedAt: string; featured: boolean;
-  seoTitle: string; seoDescription: string; markdown: string;
+  seoTitle: string; seoDescription: string; html: string;
 }
 export const GUIA_ARTICLES: GuiaArticleData[] = [
-${articles.map((a) => `  { title: ${lit(a.title)}, slug: ${lit(a.slug)}, description: ${lit(a.description)}, category: ${lit(a.category)}, image: ${lit(a.image)}, publishedAt: ${lit(a.publishedAt)}, updatedAt: ${lit(a.updatedAt)}, featured: ${a.featured}, seoTitle: ${lit(a.seoTitle)}, seoDescription: ${lit(a.seoDescription)}, markdown: ${lit(a.markdown)} },`).join('\n')}
+${articles.map((a) => `  { title: ${lit(a.title)}, slug: ${lit(a.slug)}, description: ${lit(a.description)}, category: ${lit(a.category)}, image: ${lit(a.image)}, publishedAt: ${lit(a.publishedAt)}, updatedAt: ${lit(a.updatedAt)}, featured: ${a.featured}, seoTitle: ${lit(a.seoTitle)}, seoDescription: ${lit(a.seoDescription)}, html: ${lit(renderArticleHtml(a.markdown))} },`).join('\n')}
 ];
 `;
   writeFileSync(join(root, 'src/data/guia.generated.ts'), body);

@@ -1,47 +1,29 @@
-import { Link, Navigate, useParams } from 'react-router';
-import ReactMarkdown from 'react-markdown';
-import remarkGfm from 'remark-gfm';
+import { Link, Navigate, useNavigate, useParams } from 'react-router';
 import { useLang } from '../i18n';
 import { Reveal } from '../components/Layout';
 import { guiaBySlug, guiaRelated, guiaDate } from '../data/guia';
 
-// Estilos do corpo do artigo: mesma tipografia e paleta do site, sem criar
-// identidade nova. H1 único vem do próprio Markdown (os artigos já passam por
-// auditoria de estrutura antes de entrar em src/content/guia/).
-const md = {
-  h1: (p: object) => <h1 className="font-serif-e text-4xl md:text-5xl text-green-e leading-tight" {...p} />,
-  h2: (p: object) => <h2 className="mt-12 mb-4 font-serif-e text-3xl text-green-e" {...p} />,
-  h3: (p: object) => <h3 className="mt-8 mb-3 font-serif-e text-2xl text-green-e" {...p} />,
-  p: (p: object) => <p className="mb-5 text-ink/80 leading-relaxed" {...p} />,
-  ul: (p: object) => <ul className="mb-5 list-disc pl-6 space-y-2 text-ink/80" {...p} />,
-  ol: (p: object) => <ol className="mb-5 list-decimal pl-6 space-y-2 text-ink/80" {...p} />,
-  li: (p: object) => <li className="leading-relaxed" {...p} />,
-  strong: (p: object) => <strong className="font-medium text-ink" {...p} />,
-  blockquote: (p: object) => (
-    <blockquote className="my-8 border-l-2 border-gold pl-5 font-serif-e italic text-xl md:text-2xl text-green-e/90 leading-relaxed" {...p} />
-  ),
-  hr: () => <hr className="my-10 border-green-e/15" />,
-  img: ({ src, alt }: { src?: string; alt?: string }) => (
-    <img src={src} alt={alt ?? ''} loading="lazy" decoding="async" draggable={false} className="w-full my-8" />
-  ),
-  a: ({ href = '', children }: { href?: string; children?: React.ReactNode }) => {
-    const cls = 'text-green-e underline decoration-gold/60 underline-offset-2 hover:text-gold transition-colors';
-    if (href.startsWith('/')) return <Link to={href} className={cls}>{children}</Link>;
-    return <a href={href} target="_blank" rel="noreferrer" className={cls}>{children}</a>;
-  },
-  table: (p: object) => (
-    <div className="my-8 overflow-x-auto">
-      <table className="w-full text-sm text-ink/80" {...p} />
-    </div>
-  ),
-  th: (p: object) => <th className="border-b border-green-e/25 py-2.5 pr-4 text-left text-[12px] tracking-[0.12em] uppercase text-green-e/70 font-medium" {...p} />,
-  td: (p: object) => <td className="border-b border-green-e/10 py-2.5 pr-4 align-top" {...p} />,
-};
-
+// O corpo do artigo chega como HTML pronto em article.html — compilado no
+// prebuild por scripts/guia-md.mjs com a mesma tipografia/paleta do site
+// (antes o react-markdown rodava no navegador e custava ~1–1,6 s de thread
+// principal por artigo). H1 único vem do próprio Markdown.
 export default function GuiaArtigo() {
   const { slug = '' } = useParams();
+  const navigate = useNavigate();
   const { t } = useLang();
   const article = guiaBySlug(slug);
+
+  // Links internos do HTML compilado são <a href="/..."> comuns; aqui eles
+  // voltam a navegar como SPA (sem full reload). Externos já abrem em nova aba.
+  const onBodyClick = (e: React.MouseEvent<HTMLDivElement>) => {
+    const a = (e.target as HTMLElement).closest('a');
+    if (!a) return;
+    const href = a.getAttribute('href') || '';
+    if (href.startsWith('/')) {
+      e.preventDefault();
+      navigate(href);
+    }
+  };
   if (!article) return <Navigate to="/guia" replace />;
   const related = guiaRelated(article);
 
@@ -78,9 +60,9 @@ export default function GuiaArtigo() {
           </Reveal>
         )}
 
-        <ReactMarkdown remarkPlugins={[remarkGfm]} components={md}>
-          {article.markdown}
-        </ReactMarkdown>
+        {/* HTML compilado no prebuild (scripts/guia-md.mjs) — conteúdo nosso,
+            dos .md versionados em src/content/guia/; não é entrada de usuário. */}
+        <div onClick={onBodyClick} dangerouslySetInnerHTML={{ __html: article.html }} />
       </div>
 
       {related.length > 0 && (
