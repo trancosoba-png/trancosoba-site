@@ -10,7 +10,7 @@ export function txt<T>(field: { pt: T; en: T }, lang: Lang): T {
 
 const dict = {
   pt: {
-    nav: { home: 'Início', houses: 'Nossas Casas', trancoso: 'Trancoso', services: 'Serviços', about: 'Nós', contact: 'Contato' },
+    nav: { home: 'Início', houses: 'Nossas Casas', trancoso: 'Trancoso', guia: 'Guia', services: 'Serviços', about: 'Nós', contact: 'Contato' },
     hero: {
       type: 'Tipo de imóvel', location: 'Localização', search: 'Pesquisar',
       rent: 'Aluguel', sale: 'Venda', selectRegion: 'Selecione a região', all: 'Todas as regiões',
@@ -137,6 +137,15 @@ const dict = {
       address: 'Quadrado, Trancoso, Porto Seguro — Bahia, Brasil',
       privacy: 'Seus dados são tratados com confidencialidade, conforme nossa política de privacidade.',
     },
+    guia: {
+      title: 'Guia TrancosoBA', sub: 'Trancoso por quem nasceu aqui.',
+      intro: 'Um guia editorial escrito por quem vive Trancoso todos os dias: onde ficar, as praias certas para cada maré, a gastronomia do Quadrado, hotéis e pousadas, planejamento de viagem, experiências, casamentos, Réveillon e os condomínios e regiões da vila.',
+      featuredEyebrow: 'Destaques', featuredTitle: 'Comece por aqui',
+      all: 'Todos os artigos', readMore: 'Ler artigo',
+      relatedTitle: 'Leia também', breadcrumbHome: 'Início', breadcrumbGuia: 'Guia',
+      publishedLabel: 'Publicado em', updatedLabel: 'Atualizado em',
+      empty: 'Novos artigos em breve.',
+    },
     footer: {
       tagline: 'Casas extraordinárias. Experiências inesquecíveis.',
       rights: 'TrancosoBA — Imobiliária boutique em Trancoso, Bahia.',
@@ -150,7 +159,7 @@ const dict = {
     },
   },
   en: {
-    nav: { home: 'Home', houses: 'Our Houses', trancoso: 'Trancoso', services: 'Services', about: 'About', contact: 'Contact' },
+    nav: { home: 'Home', houses: 'Our Houses', trancoso: 'Trancoso', guia: 'Guide', services: 'Services', about: 'About', contact: 'Contact' },
     hero: {
       type: 'Property type', location: 'Location', search: 'Search',
       rent: 'Rent', sale: 'Buy', selectRegion: 'Select the region', all: 'All regions',
@@ -277,6 +286,15 @@ const dict = {
       address: 'Quadrado, Trancoso, Porto Seguro — Bahia, Brazil',
       privacy: 'Your data is handled confidentially, according to our privacy policy.',
     },
+    guia: {
+      title: 'TrancosoBA Guide', sub: 'Trancoso by those born here.',
+      intro: 'An editorial guide written by people who live Trancoso every day: where to stay, the right beaches for every tide, the Quadrado dining scene, hotels and inns, trip planning, experiences, weddings, New Year\'s Eve and the village\'s gated communities and regions.',
+      featuredEyebrow: 'Featured', featuredTitle: 'Start here',
+      all: 'All articles', readMore: 'Read article',
+      relatedTitle: 'Read next', breadcrumbHome: 'Home', breadcrumbGuia: 'Guide',
+      publishedLabel: 'Published on', updatedLabel: 'Updated on',
+      empty: 'New articles coming soon.',
+    },
     footer: {
       tagline: 'Extraordinary houses. Unforgettable experiences.',
       rights: 'TrancosoBA — Boutique real estate in Trancoso, Bahia.',
@@ -290,7 +308,7 @@ const dict = {
     },
   },
   es: {
-    nav: { home: 'Inicio', houses: 'Nuestras Casas', trancoso: 'Trancoso', services: 'Servicios', about: 'Nosotros', contact: 'Contacto' },
+    nav: { home: 'Inicio', houses: 'Nuestras Casas', trancoso: 'Trancoso', guia: 'Guía', services: 'Servicios', about: 'Nosotros', contact: 'Contacto' },
     hero: {
       type: 'Tipo de propiedad', location: 'Ubicación', search: 'Buscar',
       rent: 'Alquiler', sale: 'Venta', selectRegion: 'Seleccione la región', all: 'Todas las regiones',
@@ -416,6 +434,15 @@ const dict = {
       sent: 'Mensaje enviado. Responderemos pronto — gracias.',
       address: 'Quadrado, Trancoso, Porto Seguro — Bahía, Brasil',
       privacy: 'Sus datos se tratan con confidencialidad, según nuestra política de privacidad.',
+    },
+    guia: {
+      title: 'Guía TrancosoBA', sub: 'Trancoso por quienes nacieron aquí.',
+      intro: 'Una guía editorial escrita por quienes viven Trancoso todos los días: dónde alojarse, las playas ideales para cada marea, la gastronomía del Quadrado, hoteles y posadas, planificación del viaje, experiencias, bodas, Año Nuevo y los condominios y regiones del pueblo.',
+      featuredEyebrow: 'Destacados', featuredTitle: 'Empiece por aquí',
+      all: 'Todos los artículos', readMore: 'Leer artículo',
+      relatedTitle: 'Lea también', breadcrumbHome: 'Inicio', breadcrumbGuia: 'Guía',
+      publishedLabel: 'Publicado el', updatedLabel: 'Actualizado el',
+      empty: 'Nuevos artículos muy pronto.',
     },
     footer: {
       tagline: 'Casas extraordinarias. Experiencias inolvidables.',

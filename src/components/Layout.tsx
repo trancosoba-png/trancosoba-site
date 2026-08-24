@@ -51,6 +51,7 @@ export function Header() {
     { to: '/', label: t.nav.home },
     { to: '/casas', label: t.nav.houses },
     { to: '/trancoso', label: t.nav.trancoso },
+    { to: '/guia', label: t.nav.guia },
     { to: '/servicos', label: t.nav.services },
     { to: '/nos', label: t.nav.about },
     { to: '/contato', label: t.nav.contact },
@@ -155,6 +156,9 @@ export function Footer() {
           <p className="text-[13px] text-ivory/60 tracking-wide">{t.footer.legal}</p>
           <div className="mt-5 flex flex-col sm:flex-row items-center justify-center gap-x-8 gap-y-2.5 text-[13px] text-ivory/55">
             <p>© {new Date().getFullYear()} TrancosoBA</p>
+            <Link to="/guia" className="underline decoration-ivory/30 underline-offset-2 hover:text-gold transition-colors">
+              {t.nav.guia}
+            </Link>
             <Link to="/faq" className="underline decoration-ivory/30 underline-offset-2 hover:text-gold transition-colors">
               {t.footer.faq}
             </Link>

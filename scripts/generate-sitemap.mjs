@@ -9,13 +9,24 @@ if (dup.length) throw new Error(`IDs duplicados: ${dup.join(', ')}`);
 
 const BASE = 'https://www.trancosoba.com';
 const TODAY = new Date().toISOString().slice(0, 10);
-const staticPages = ['', 'casas', 'trancoso', 'servicos', 'nos', 'contato', 'favoritos', 'anuncie', 'privacidade', 'faq', 'reveillon-trancoso', 'carnaval-trancoso'];
+const staticPages = ['', 'casas', 'trancoso', 'guia', 'servicos', 'nos', 'contato', 'favoritos', 'anuncie', 'privacidade', 'faq', 'reveillon-trancoso', 'carnaval-trancoso'];
+
+// Artigos do Guia TrancosoBA (src/content/guia/*.md)
+import { readdirSync, existsSync } from 'node:fs';
+const guiaDir = new URL('../src/content/guia/', import.meta.url);
+const guiaSlugs = existsSync(guiaDir)
+  ? readdirSync(guiaDir).filter((f) => f.endsWith('.md')).map((f) => {
+      const raw = readFileSync(new URL(f, guiaDir), 'utf8');
+      return raw.match(/^slug:\s*['"]?([a-z0-9-]+)['"]?\s*$/m)?.[1];
+    }).filter(Boolean)
+  : [];
 const collections = ['pe-na-areia', 'vista-mar', 'quadrado', 'terravista-golf', 'fasano', 'grandes-grupos', 'condominios'];
 
 const urls = [
   ...staticPages.map((p) => `  <url><loc>${BASE}/${p}</loc><lastmod>${TODAY}</lastmod></url>`),
   ...collections.map((c) => `  <url><loc>${BASE}/casas/${c}</loc><lastmod>${TODAY}</lastmod></url>`),
   ...ids.map((id) => `  <url><loc>${BASE}/imovel/${id}</loc><lastmod>${TODAY}</lastmod></url>`),
+  ...guiaSlugs.map((s) => `  <url><loc>${BASE}/guia/${s}</loc><lastmod>${TODAY}</lastmod></url>`),
 ];
 
 const xml = `<?xml version="1.0" encoding="UTF-8"?>

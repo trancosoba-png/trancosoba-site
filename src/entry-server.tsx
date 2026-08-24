@@ -19,10 +19,12 @@ import Faq from './pages/Faq';
 import Reveillon from './pages/Reveillon';
 import Carnaval from './pages/Carnaval';
 import NotFound from './pages/NotFound';
+import Guia from './pages/Guia';
+import GuiaArtigo from './pages/GuiaArtigo';
 
 const pages: Pages = {
   Home, Casas, Imovel, Trancoso, Servicos, Nos, Contato, Privacidade,
-  Favoritos, Anuncie, Faq, Reveillon, Carnaval, NotFound,
+  Favoritos, Anuncie, Faq, Reveillon, Carnaval, NotFound, Guia, GuiaArtigo,
 };
 
 // A página de imóvel carrega a ficha via fetch no navegador; no SSG a ficha

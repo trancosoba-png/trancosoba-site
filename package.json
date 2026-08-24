@@ -8,8 +8,8 @@
   },
   "scripts": {
     "dev": "vite",
-    "prebuild": "node scripts/generate-sitemap.mjs && node scripts/generate-properties-meta.mjs",
-    "build": "npm run check && tsc -b && vite build && node scripts/copy-public.mjs && node scripts/generate-imovel-pages.mjs && node scripts/prerender-ssg.mjs",
+    "prebuild": "node scripts/generate-guia.mjs content && node scripts/generate-sitemap.mjs && node scripts/generate-properties-meta.mjs",
+    "build": "npm run check && tsc -b && vite build && node scripts/copy-public.mjs && node scripts/generate-imovel-pages.mjs && node scripts/generate-guia.mjs pages && node scripts/prerender-ssg.mjs",
     "check": "node scripts/check.mjs",
     "lint": "eslint .",
     "preview": "vite preview"
@@ -18,7 +18,9 @@
     "lucide-react": "^0.562.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
-    "react-router": "^7.6.1"
+    "react-router": "^7.6.1",
+    "react-markdown": "^10.1.0",
+    "remark-gfm": "^4.0.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",

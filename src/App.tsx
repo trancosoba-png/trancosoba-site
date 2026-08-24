@@ -3,6 +3,7 @@ import { Routes, Route, useLocation, useNavigationType } from 'react-router';
 import { LangProvider } from './i18n';
 import { PROPERTIES_META } from './data/meta';
 import { collectionById } from './data/collections';
+import { guiaBySlug } from './data/guia';
 import { Header, Footer, WhatsAppFloat } from './components/Layout';
 import { FavoritesProvider } from './data/favorites';
 import { initAnalytics } from './data/analytics';
@@ -23,6 +24,8 @@ const Faq = lazy(() => import('./pages/Faq'));
 const Reveillon = lazy(() => import('./pages/Reveillon'));
 const Carnaval = lazy(() => import('./pages/Carnaval'));
 const NotFound = lazy(() => import('./pages/NotFound'));
+const Guia = lazy(() => import('./pages/Guia'));
+const GuiaArtigo = lazy(() => import('./pages/GuiaArtigo'));
 
 // Conjunto de páginas usado por <App/>. No navegador são os lazy() acima
 // (code splitting por rota); no pré-render SSG (entry-server.tsx) o build
@@ -35,8 +38,9 @@ export interface Pages {
   Contato: ComponentType; Privacidade: ComponentType; Favoritos: ComponentType;
   Anuncie: ComponentType; Faq: ComponentType; Reveillon: ComponentType;
   Carnaval: ComponentType; NotFound: ComponentType;
+  Guia: ComponentType; GuiaArtigo: ComponentType;
 }
-const lazyPages: Pages = { Home, Casas, Imovel, Trancoso, Servicos, Nos, Contato, Privacidade, Favoritos, Anuncie, Faq, Reveillon, Carnaval, NotFound };
+const lazyPages: Pages = { Home, Casas, Imovel, Trancoso, Servicos, Nos, Contato, Privacidade, Favoritos, Anuncie, Faq, Reveillon, Carnaval, NotFound, Guia, GuiaArtigo };
 
 const SITE_URL = 'https://www.trancosoba.com';
 
@@ -77,8 +81,10 @@ function TitleManager() {
       '/faq': 'Perguntas Frequentes — TrancosoBA',
       '/reveillon-trancoso': 'Réveillon em Trancoso — Pacotes 10 diárias | TrancosoBA',
       '/carnaval-trancoso': 'Carnaval em Trancoso — Pacotes 5 dias | TrancosoBA',
+      '/guia': 'Guia TrancosoBA — dicas de quem nasceu em Trancoso',
     };
     const descs: Record<string, string> = {
+      '/guia': 'Guia TrancosoBA: onde ficar, praias, gastronomia, hotéis e pousadas, planejamento, experiências, casamentos, Réveillon e condomínios de Trancoso.',
       '/faq': 'Perguntas frequentes sobre aluguel de casas em Trancoso: taxa de serviço, Réveillon, Carnaval, staff, concierge e reservas.',
       '/reveillon-trancoso': 'Casas de alto padrão para o Réveillon em Trancoso: pacotes de 10 diárias com valores publicados, staff e concierge TrancosoBA.',
       '/carnaval-trancoso': 'Casas de alto padrão para o Carnaval em Trancoso: pacotes de 5 dias com valores publicados, staff e concierge TrancosoBA.',
@@ -93,6 +99,14 @@ function TitleManager() {
         title = `${p.name.pt} — ${p.location} | TrancosoBA`;
         desc = `${p.name.pt}: ${p.suites} suítes, até ${p.guests} hóspedes, em ${p.location}, Trancoso. ${p.desc1pt}`;
         image = `${SITE_URL}${p.image}`;
+      }
+    }
+    if (!title && pathname.startsWith('/guia/')) {
+      const a = guiaBySlug(pathname.split('/guia/')[1]);
+      if (a) {
+        title = a.seoTitle || `${a.title} | Guia TrancosoBA`;
+        desc = a.seoDescription || a.description;
+        if (a.image) image = `${SITE_URL}${a.image}`;
       }
     }
     if (!title && pathname.startsWith('/casas/')) {
@@ -207,6 +221,8 @@ export default function App({ pages = lazyPages }: { pages?: Pages }) {
           <Route path="/faq" element={<P.Faq />} />
           <Route path="/reveillon-trancoso" element={<P.Reveillon />} />
           <Route path="/carnaval-trancoso" element={<P.Carnaval />} />
+          <Route path="/guia" element={<P.Guia />} />
+          <Route path="/guia/:slug" element={<P.GuiaArtigo />} />
           <Route path="*" element={<P.NotFound />} />
         </Routes>
         </Suspense>
