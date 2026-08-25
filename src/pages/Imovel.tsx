@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
-import { Link, useParams, Navigate, useNavigate } from 'react-router';
+import { useParams, Navigate, useNavigate } from 'react-router';
 import { ArrowLeft, MessageCircle, BedDouble, Users, Bath, Maximize, X, ChevronLeft, ChevronRight, Share2, Check } from 'lucide-react';
 import { useLang, txt } from '../i18n';
 import type { Property } from '../data/properties';
@@ -323,9 +323,6 @@ export default function Imovel() {
               className="mt-3 w-full flex items-center justify-center gap-2 py-4 text-sm uppercase transition-colors border border-ivory/40 text-ivory hover:bg-ivory/10" style={{ letterSpacing: '1px' }}>
               {copied ? <Check size={16} /> : <Share2 size={16} />} {copied ? t.imovel.copied : t.imovel.share}
             </button>
-            <Link to="/contato" className="mt-3 flex items-center justify-center py-4 text-sm uppercase transition-colors border border-[#b08d57] text-white hover:bg-[#b08d57]/15" style={{ letterSpacing: '1px' }}>
-              {t.home.ctaForm}
-            </Link>
           </div>
         </Reveal>
       </section>
