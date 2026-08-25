@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router';
 import { useLang } from '../i18n';
+import { grantConsent } from '../data/analytics';
 
 const KEY = 'tba-cookie-ok';
 
@@ -17,7 +18,7 @@ export default function CookieNotice() {
   if (!show) return null;
 
   const accept = () => {
-    try { localStorage.setItem(KEY, '1'); } catch { /* ignora */ }
+    grantConsent(); // grava tba-cookie-ok e inicia GA4/Pixel (quando configurados)
     setShow(false);
   };
 

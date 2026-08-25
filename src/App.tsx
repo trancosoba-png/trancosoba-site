@@ -6,7 +6,7 @@ import { collectionById } from './data/collections';
 import { guiaBySlug } from './data/guia';
 import { Header, Footer, WhatsAppFloat } from './components/Layout';
 import { FavoritesProvider } from './data/favorites';
-import { initAnalytics } from './data/analytics';
+import { initAnalytics, hasConsent } from './data/analytics';
 import CookieNotice from './components/CookieNotice';
 
 // Code splitting: páginas secundárias carregam sob demanda
@@ -182,7 +182,7 @@ function ScrollRestorer() {
 
 export default function App({ pages = lazyPages }: { pages?: Pages }) {
   const P = pages;
-  useEffect(() => { initAnalytics(); }, []);
+  useEffect(() => { if (hasConsent()) initAnalytics(); }, []);
   // Proteção global de fotos: bloqueia o menu de contexto (botão direito no desktop,
   // toque longo no Android) sobre qualquer imagem ou vídeo do site — inclusive onde o
   // .photo-shield cobre a foto e o alvo do clique é o span, não o <img>.

@@ -14,7 +14,22 @@ declare global {
   }
 }
 
+const CONSENT_KEY = 'tba-cookie-ok';
+let initialized = false;
+
+export function hasConsent(): boolean {
+  try { return !!localStorage.getItem(CONSENT_KEY); } catch { return false; }
+}
+
+/** Chamado ao aceitar o aviso de cookies: grava o consentimento e inicia a medição. */
+export function grantConsent() {
+  try { localStorage.setItem(CONSENT_KEY, '1'); } catch { /* sem storage */ }
+  initAnalytics();
+}
+
 export function initAnalytics() {
+  if (initialized) return;
+  initialized = true;
   if (GA_OK) {
     const s = document.createElement('script');
     s.async = true;
