@@ -1,7 +1,10 @@
 import { Link, Navigate, useNavigate, useParams } from 'react-router';
 import { useLang } from '../i18n';
 import { Reveal } from '../components/Layout';
+import PropertyCard from '../components/PropertyCard';
 import { guiaBySlug, guiaRelated, guiaDate } from '../data/guia';
+import { PROPERTIES_META } from '../data/meta';
+import { canonicalLocation } from '../data/locations';
 
 // O corpo do artigo chega como HTML pronto em article.html — compilado no
 // prebuild por scripts/guia-md.mjs com a mesma tipografia/paleta do site
@@ -26,6 +29,15 @@ export default function GuiaArtigo() {
   };
   if (!article) return <Navigate to="/guia" replace />;
   const related = guiaRelated(article);
+
+  // Casas da região/condomínio do artigo, puxadas do catálogo pela mesma
+  // normalização de localização usada no filtro de /casas (canonicalLocation).
+  // Artigo sem `location` ou sem casas correspondentes → bloco não aparece.
+  const houses = article.location
+    ? PROPERTIES_META.filter((p) => canonicalLocation(p.location) === article.location)
+        .sort((a, b) => Number(b.featured) - Number(a.featured))
+        .slice(0, 6)
+    : [];
 
   return (
     <article className="pt-24 md:pt-32 pb-16 md:pb-24">
@@ -64,6 +76,30 @@ export default function GuiaArtigo() {
             dos .md versionados em src/content/guia/; não é entrada de usuário. */}
         <div onClick={onBodyClick} dangerouslySetInnerHTML={{ __html: article.html }} />
       </div>
+
+      {houses.length > 0 && (
+        <div className="max-w-7xl mx-auto px-5 md:px-8 mt-16 md:mt-20">
+          <Reveal>
+            <p className="eyebrow text-green-e/50">{t.guia.housesEyebrow}</p>
+            <h2 className="mt-2 font-serif-e text-3xl text-green-e">
+              {t.guia.housesTitle} · {article.location}
+            </h2>
+          </Reveal>
+          <div className="mt-8 grid sm:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-10">
+            {houses.map((p) => (
+              <Reveal key={p.id}>
+                <PropertyCard p={p} variant="grid" showView />
+              </Reveal>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {article.htmlRelated && (
+        <div className="max-w-3xl mx-auto px-5 md:px-8">
+          <div onClick={onBodyClick} dangerouslySetInnerHTML={{ __html: article.htmlRelated }} />
+        </div>
+      )}
 
       {related.length > 0 && (
         <div className="max-w-7xl mx-auto px-5 md:px-8 mt-20 md:mt-28">

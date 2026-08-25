@@ -79,6 +79,10 @@ function loadArticles() {
       featured: meta.featured === true,
       seoTitle: meta.seoTitle ? String(meta.seoTitle) : '',
       seoDescription: meta.seoDescription ? String(meta.seoDescription) : '',
+      // location: rótulo canônico de região/condomínio (ver src/data/locations.ts).
+      // Quando presente, a página do artigo mostra ao final um bloco de casas
+      // do catálogo filtradas por essa região — sem seleção manual por artigo.
+      location: meta.location ? String(meta.location) : '',
       markdown,
     });
   }
@@ -99,10 +103,19 @@ function genContent(articles) {
 export interface GuiaArticleData {
   title: string; slug: string; description: string; category: string;
   image: string; publishedAt: string; updatedAt: string; featured: boolean;
-  seoTitle: string; seoDescription: string; html: string;
+  seoTitle: string; seoDescription: string; location: string;
+  html: string; htmlRelated: string;
 }
 export const GUIA_ARTICLES: GuiaArticleData[] = [
-${articles.map((a) => `  { title: ${lit(a.title)}, slug: ${lit(a.slug)}, description: ${lit(a.description)}, category: ${lit(a.category)}, image: ${lit(a.image)}, publishedAt: ${lit(a.publishedAt)}, updatedAt: ${lit(a.updatedAt)}, featured: ${a.featured}, seoTitle: ${lit(a.seoTitle)}, seoDescription: ${lit(a.seoDescription)}, html: ${lit(renderArticleHtml(a.markdown))} },`).join('\n')}
+${articles.map((a) => {
+    // O bloco "Conteúdos relacionados" é separado do corpo: a página renderiza
+    // o bloco de casas da região ENTRE o texto e os relacionados.
+    const REL = '## Conteúdos relacionados';
+    const idx = a.markdown.indexOf(REL);
+    const bodyMd = idx >= 0 ? a.markdown.slice(0, idx).trim() : a.markdown;
+    const relMd = idx >= 0 ? a.markdown.slice(idx).trim() : '';
+    return `  { title: ${lit(a.title)}, slug: ${lit(a.slug)}, description: ${lit(a.description)}, category: ${lit(a.category)}, image: ${lit(a.image)}, publishedAt: ${lit(a.publishedAt)}, updatedAt: ${lit(a.updatedAt)}, featured: ${a.featured}, seoTitle: ${lit(a.seoTitle)}, seoDescription: ${lit(a.seoDescription)}, location: ${lit(a.location)}, html: ${lit(renderArticleHtml(bodyMd))}, htmlRelated: ${lit(relMd ? renderArticleHtml(relMd) : '')} },`;
+  }).join('\n')}
 ];
 `;
   writeFileSync(join(root, 'src/data/guia.generated.ts'), body);

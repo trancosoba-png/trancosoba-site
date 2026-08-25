@@ -15,11 +15,15 @@ function ArticleCard({ a, heading = 'h3' }: { a: GuiaArticle; heading?: 'h2' | '
             <img src={a.image} alt={a.title} loading="lazy" decoding="async" draggable={false}
               onError={(e) => { (e.currentTarget as HTMLImageElement).style.display = 'none'; }}
               className="w-full object-cover aspect-[3/2]" />
+            {/* Etiqueta de categoria sobre a foto de capa */}
+            <span className="absolute top-3 left-3 z-10 bg-green-e/90 text-ivory text-[11px] tracking-[0.14em] uppercase px-3 py-1.5">
+              {a.category}
+            </span>
             <span className="photo-shield" aria-hidden="true" />
           </div>
         )}
         <div className="py-5">
-          <p className="eyebrow text-green-e/50">{a.category}</p>
+          {!a.image && <p className="eyebrow text-green-e/50">{a.category}</p>}
           <H className="mt-2 font-serif-e text-2xl text-green-e group-hover:text-gold transition-colors">{a.title}</H>
           <p className="mt-2.5 text-sm text-ink/60 leading-relaxed">{a.description}</p>
           <p className="mt-3.5 text-xs tracking-[0.16em] uppercase text-gold">
