@@ -3,7 +3,7 @@ title: "Outeiro das Brisas: casas, falésias e natureza na Praia do Espelho"
 slug: outeiro-das-brisas-praia-do-espelho
 description: "O Outeiro das Brisas fica na região da Praia do Espelho, no alto das falésias, e reúne casas de diferentes tamanhos em uma área voltada para praia, natureza e…"
 category: "Destinos próximos"
-image: ""
+image: "/img/guia/outeiro-das-brisas-praia-do-espelho.webp"
 publishedAt: 2026-08-24
 updatedAt: ""
 featured: false

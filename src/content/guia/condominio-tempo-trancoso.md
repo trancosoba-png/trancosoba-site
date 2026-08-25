@@ -3,7 +3,7 @@ title: "Condomínio Tempo em Trancoso: entre o Quadrado e a natureza"
 slug: condominio-tempo-trancoso
 description: "O Condomínio Tempo fica na entrada do Quadrado de Trancoso e reúne apenas nove casas em uma área cercada por vegetação."
 category: "Condomínios e regiões"
-image: ""
+image: "/img/guia/condominio-tempo-trancoso.webp"
 publishedAt: 2026-08-24
 updatedAt: ""
 featured: false

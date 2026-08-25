@@ -3,7 +3,7 @@ title: "Onde ficar em Trancoso: entenda as regiões antes de escolher"
 slug: onde-ficar-em-trancoso
 description: "Escolher onde ficar em Trancoso é também decidir o ritmo da viagem. No Quadrado e nos arredores, restaurantes, lojas e serviços ficam mais presentes na rotina."
 category: "Onde ficar"
-image: ""
+image: "/img/guia/onde-ficar-em-trancoso.webp"
 publishedAt: 2026-08-24
 updatedAt: ""
 featured: false

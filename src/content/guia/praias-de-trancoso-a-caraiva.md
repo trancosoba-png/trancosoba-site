@@ -3,7 +3,7 @@ title: "Praias de Trancoso a Caraíva: guia do litoral, das Tartarugas à vila d
 slug: praias-de-trancoso-a-caraiva
 description: "O litoral entre Trancoso e Caraíva reúne praias próximas ao centro, áreas ligadas a condomínios e hospedagens, trechos quase sem estrutura, falésias, rios…"
 category: "Praias"
-image: ""
+image: "/img/guia/praias-de-trancoso-a-caraiva.webp"
 publishedAt: 2026-08-24
 updatedAt: ""
 featured: false

@@ -3,7 +3,8 @@ title: "Terravista Vilas em Trancoso: como é se hospedar na região"
 slug: terravista-vilas-trancoso
 description: "O Terravista Vilas faz parte do complexo Terravista, possui acesso controlado e tem perfil residencial, com casas de diferentes tamanhos, configurações e…"
 category: "Condomínios e regiões"
-image: ""
+image: "/img/guia/terravista-vilas-trancoso.webp"
+location: "Terravista Vilas"
 publishedAt: 2026-08-24
 updatedAt: ""
 featured: false

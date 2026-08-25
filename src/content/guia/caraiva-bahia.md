@@ -3,7 +3,7 @@ title: "Onde ficar em Caraíva: casas perto da praia e do rio"
 slug: caraiva-bahia
 description: "Caraíva fica no litoral sul da Bahia, no município de Porto Seguro."
 category: "Destinos próximos"
-image: ""
+image: "/img/guia/caraiva-bahia.webp"
 publishedAt: 2026-08-24
 updatedAt: ""
 featured: false

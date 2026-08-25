@@ -3,7 +3,7 @@ title: "Quantos dias ficar em Trancoso? Roteiros de 2, 3, 4, 5 e 7 dias"
 slug: quantos-dias-ficar-em-trancoso
 description: "Três ou quatro dias costumam ser suficientes para uma primeira viagem a Trancoso."
 category: "Planejamento"
-image: ""
+image: "/img/guia/quantos-dias-ficar-em-trancoso.webp"
 publishedAt: 2026-08-24
 updatedAt: ""
 featured: false

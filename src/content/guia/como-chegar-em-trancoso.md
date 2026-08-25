@@ -3,7 +3,7 @@ title: "Como chegar em Trancoso: avião, carro, balsa e transfer"
 slug: como-chegar-em-trancoso
 description: "Chegar a Trancoso exige algum planejamento porque a logística muda conforme o ponto de partida, o horário e o endereço da hospedagem."
 category: "Planejamento"
-image: ""
+image: "/img/guia/como-chegar-em-trancoso.webp"
 publishedAt: 2026-08-24
 updatedAt: ""
 featured: false

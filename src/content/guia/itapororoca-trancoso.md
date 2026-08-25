@@ -3,7 +3,8 @@ title: "Itapororoca em Trancoso: praia, natureza e duas formas de se hospedar"
 slug: itapororoca-trancoso
 description: "Itapororoca é uma região de Trancoso marcada pela proximidade com o mar, pela vegetação e pela presença de propriedades residenciais com terrenos amplos."
 category: "Praias"
-image: ""
+image: "/img/guia/itapororoca-trancoso.webp"
+location: "Praia de Itapororoca"
 publishedAt: 2026-08-24
 updatedAt: ""
 featured: false

@@ -3,7 +3,7 @@ title: "Quanto custa viajar para Trancoso? Como calcular hospedagem, alimentaç�
 slug: quanto-custa-viajar-para-trancoso
 description: "Trancoso pode exigir um orçamento alto, principalmente no Réveillon, em feriados concorridos ou quando a viagem inclui hospedagens premium, restaurantes…"
 category: "Planejamento"
-image: ""
+image: "/img/guia/quanto-custa-viajar-para-trancoso.webp"
 publishedAt: 2026-08-24
 updatedAt: ""
 featured: false

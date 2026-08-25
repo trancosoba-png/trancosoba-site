@@ -3,7 +3,7 @@ title: "Casamento em Trancoso: guia completo para organizar um destination weddi
 slug: casamento-em-trancoso-guia-completo
 description: "Organizar um casamento em Trancoso envolve muito mais do que escolher flores, música e menu."
 category: "Casamentos"
-image: ""
+image: "/img/guia/casamento-em-trancoso-guia-completo.webp"
 publishedAt: 2026-08-24
 updatedAt: ""
 featured: false

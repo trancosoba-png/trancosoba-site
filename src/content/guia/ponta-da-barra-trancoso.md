@@ -3,7 +3,7 @@ title: "Ponta da Barra em Trancoso: como é ficar na região"
 slug: ponta-da-barra-trancoso
 description: "A Ponta da Barra costuma entrar no radar de quem busca uma estadia mais reservada em Trancoso, com a casa e a praia ocupando um papel central na viagem."
 category: "Praias"
-image: ""
+image: "/img/guia/ponta-da-barra-trancoso.webp"
 publishedAt: 2026-08-24
 updatedAt: ""
 featured: false

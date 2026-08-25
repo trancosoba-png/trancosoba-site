@@ -3,7 +3,7 @@ title: "O que fazer em Trancoso: experiências, passeios e roteiros"
 slug: o-que-fazer-em-trancoso-experiencias-e-passeios
 description: "Trancoso costuma ser associado às praias — e com razão. Mas a viagem também pode reunir caminhadas pelo Quadrado, gastronomia, natureza, esportes, passeios…"
 category: "Experiências"
-image: ""
+image: "/img/guia/o-que-fazer-em-trancoso-experiencias-e-passeios.webp"
 publishedAt: 2026-08-24
 updatedAt: ""
 featured: false

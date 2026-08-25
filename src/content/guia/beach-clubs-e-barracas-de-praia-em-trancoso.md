@@ -3,7 +3,7 @@ title: "Beach clubs e barracas de praia em Trancoso: das Tartarugas a Itapororoc
 slug: beach-clubs-e-barracas-de-praia-em-trancoso
 description: "Trancoso oferece diferentes maneiras de passar o dia diante do mar."
 category: "Praias"
-image: ""
+image: "/img/guia/beach-clubs-e-barracas-de-praia-em-trancoso.webp"
 publishedAt: 2026-08-24
 updatedAt: ""
 featured: false
