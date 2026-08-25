@@ -1,7 +1,7 @@
 // Medição — GA4 + Meta Pixel.
 // ⚠️ Substituir os IDs abaixo pelos IDs reais do cliente antes de publicar.
 export const GA4_ID = 'G-FJSQZD61J8';
-export const META_PIXEL_ID = '000000000000000'; // TODO: ID do pixel da Meta
+export const META_PIXEL_ID = '912292478419002';
 
 const GA_OK = !GA4_ID.startsWith('G-XXXX');
 const META_OK = !META_PIXEL_ID.startsWith('0000');
