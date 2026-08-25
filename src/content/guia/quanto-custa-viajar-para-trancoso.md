@@ -66,6 +66,8 @@ Para chegar a um valor mais próximo da realidade, use a ocupação efetiva da v
 
 Não deixe para calcular alimentação e transporte apenas depois de escolher a hospedagem. Uma propriedade com diária menor pode gerar mais deslocamentos; outra, com valor superior, pode permitir parte da rotina a pé.
 
+![Casa de temporada com piscina em Trancoso](/img/guia/editorial-piscina.webp)
+
 ## Hospedagem: normalmente a maior despesa
 
 Trancoso oferece pousadas, hotéis, casas menores, propriedades para famílias, imóveis com cinco ou mais suítes e casas de alto padrão, algumas com acesso à praia, vista para o mar ou serviços próprios.

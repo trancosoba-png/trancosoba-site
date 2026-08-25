@@ -4,7 +4,6 @@ slug: bairro-colina-trancoso
 description: "A Colina é uma região residencial de Trancoso, localizada ao lado do Condomínio Altos de Trancoso."
 category: "Condomínios e regiões"
 image: "/img/guia/bairro-colina-trancoso.webp"
-location: "Bairro da Colina"
 publishedAt: 2026-08-24
 updatedAt: ""
 featured: false

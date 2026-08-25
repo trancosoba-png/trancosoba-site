@@ -6,7 +6,7 @@ category: "Experiências"
 image: "/img/guia/o-que-fazer-em-trancoso-experiencias-e-passeios.webp"
 publishedAt: 2026-08-24
 updatedAt: ""
-featured: false
+featured: "secondary"
 seoTitle: "O que fazer em Trancoso: experiências e passeios"
 seoDescription: "Descubra o que fazer em Trancoso, do Quadrado às praias, com passeios para Espelho e Caraíva e roteiros de 3, 5 e 7 dias."
 ---
@@ -65,6 +65,8 @@ No fim do dia, a vila muda de ritmo. Lojas, bares e restaurantes começam a rece
 
 Para aprofundar essa parte do roteiro, consulte também o guia de **Restaurantes do Quadrado**.
 
+![Igreja de São João Batista no Quadrado, em Trancoso](/img/guia/editorial-quadrado.webp)
+
 ## Praias de Trancoso
 
 As praias de Trancoso e dos arredores têm características distintas. Algumas ficam mais próximas do centro e concentram mais estrutura; outras exigem transporte ou planejamento de acesso.
@@ -111,6 +113,8 @@ Não atravesse rios com correnteza ou profundidade desconhecida. Para caminhadas
 O amanhecer é uma forma simples de aproveitar Trancoso com menos movimento. Pode ser combinado com uma caminhada curta, uma passagem pelo mirante ou um café da manhã mais cedo.
 
 O céu aberto não é garantido, mas as primeiras horas do dia ainda podem proporcionar uma experiência tranquila. Antes de clarear totalmente, evite áreas desconhecidas ou isoladas e tenha atenção ao terreno.
+
+![Falésias do litoral sul da Bahia, próximo a Trancoso](/img/guia/editorial-falesia.webp)
 
 ## Passeios para conhecer a região
 

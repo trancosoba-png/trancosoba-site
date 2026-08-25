@@ -4,7 +4,6 @@ slug: bairro-joao-vieira-trancoso
 description: "João Vieira é um bairro residencial de Trancoso procurado por viajantes que querem ficar próximos ao Quadrado e preferem a autonomia de uma casa independente."
 category: "Condomínios e regiões"
 image: "/img/guia/bairro-joao-vieira-trancoso.webp"
-location: "Bairro João Vieira"
 publishedAt: 2026-08-24
 updatedAt: ""
 featured: false

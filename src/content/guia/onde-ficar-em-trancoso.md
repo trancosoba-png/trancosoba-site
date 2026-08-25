@@ -6,7 +6,7 @@ category: "Onde ficar"
 image: "/img/guia/onde-ficar-em-trancoso.webp"
 publishedAt: 2026-08-24
 updatedAt: ""
-featured: false
+featured: "main"
 seoTitle: "Onde ficar em Trancoso: regiões para cada perfil de viagem"
 seoDescription: "Entenda onde ficar em Trancoso e compare Quadrado, Itapororoca, Terravista e outras regiões de acordo com localização, privacidade e perfil de viagem."
 ---
@@ -36,6 +36,8 @@ O Condomínio Altos de Trancoso fica próximo do Quadrado e da praia, sendo proc
 A distância aproximada até o Quadrado é de cerca de 600 metros. O acesso é fácil e pode ser feito a pé ou de carro, usado também por conforto, especialmente à noite. A praia fica a aproximadamente 650 metros, e o condomínio está entre as praias dos Coqueiros e dos Nativos, com acesso fácil às duas.
 
 As casas conhecidas pela TrancosoBA variam de 3 a 10 suítes e possuem piscina privativa. A disponibilidade depende do período consultado.
+
+![Quadrado de Trancoso ao entardecer](/img/guia/editorial-quadrado.webp)
 
 ## Para priorizar praia, natureza e privacidade
 
@@ -108,6 +110,8 @@ João Vieira e Colina aparecem entre as regiões com esse tipo de oferta. Em Jo�
 Na Colina, predominam casas independentes em uma região residencial, arborizada e tranquila. Existem propriedades de três e quatro suítes, além de casas maiores e de alto padrão. A região fica ao lado do Condomínio Altos de Trancoso e, como referência geral, está a aproximadamente 600 metros do Quadrado, embora a distância varie conforme o endereço.
 
 Nessas casas, a análise deve ser mais detalhada. Acesso, manutenção, vizinhança, privacidade e segurança variam de imóvel para imóvel e não podem ser deduzidos apenas pela região. Também convém verificar se a casa conta com suporte durante a estadia e quais serviços estão incluídos.
+
+![Área de piscina de casa de temporada em Trancoso](/img/guia/editorial-piscina.webp)
 
 ## Qual região combina com o seu perfil?
 

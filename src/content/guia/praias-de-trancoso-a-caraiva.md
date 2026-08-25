@@ -6,7 +6,7 @@ category: "Praias"
 image: "/img/guia/praias-de-trancoso-a-caraiva.webp"
 publishedAt: 2026-08-24
 updatedAt: ""
-featured: false
+featured: "secondary"
 seoTitle: "Praias de Trancoso a Caraíva: guia do litoral"
 seoDescription: "Conheça as praias de Trancoso até Caraíva, com informações sobre Nativos, Coqueiros, Rio Verde, Itapororoca, Espelho, Satú, acessos e marés."
 ---
@@ -98,6 +98,8 @@ As duas praias ficam relativamente próximas do centro e contam com serviços em
 Nativos tem relação direta com o Rio Trancoso e pode ser conveniente para quem está hospedado nesse setor. Coqueiros é conhecida pelos coqueirais, pelo movimento e pela concentração de barracas e restaurantes em certos pontos.
 
 Em ambas, vale escolher o trecho de acordo com o acesso, a estrutura desejada e as condições do mar. Para quem quer combinar praia e Quadrado, as duas são referências práticas.
+
+![Praia de areia clara com coqueiros em Trancoso](/img/guia/editorial-praia.webp)
 
 ## Praias ao sul do centro de Trancoso
 

@@ -65,6 +65,8 @@ Um casamento com convidados concentrados no Quadrado, por exemplo, terá uma log
 
 A ordem das decisões também faz diferença. Em geral, é mais seguro analisar local, hospedagem, transporte e plano B antes de avançar com escolhas estéticas.
 
+![Falésias e mar no litoral de Trancoso](/img/guia/editorial-falesia.webp)
+
 ## Onde casar em Trancoso?
 
 Não existe uma resposta única. A escolha depende da atmosfera desejada, do número de convidados, da hospedagem, do horário, da estrutura necessária e das regras de cada local.

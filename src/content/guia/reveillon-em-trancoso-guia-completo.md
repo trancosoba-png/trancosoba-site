@@ -131,6 +131,8 @@ Alguns hotéis e pousadas podem oferecer ceia, jantar, música ou programação 
 
 Confirme se a programação existe, se está incluída na diária, se há cobrança adicional, quais são os horários e se crianças podem participar.
 
+![Quadrado de Trancoso, centro das celebrações de fim de ano](/img/guia/editorial-quadrado.webp)
+
 ## Onde ficar no Réveillon em Trancoso
 
 No Réveillon, não basta escolher a casa ou pousada mais bonita. É preciso entender como o grupo pretende usar o destino.

@@ -6,7 +6,7 @@ category: "Planejamento"
 image: "/img/guia/trancoso-com-criancas.webp"
 publishedAt: 2026-08-24
 updatedAt: ""
-featured: false
+featured: "secondary"
 seoTitle: "Trancoso com crianças: onde ficar, praias e dicas para famílias"
 seoDescription: "Planeje Trancoso com crianças: veja onde ficar, como escolher casa ou pousada, praias, carro ou transfer, roteiros e dicas para famílias."
 ---
@@ -103,6 +103,8 @@ A pousada concentra serviços e reduz a responsabilidade do grupo com a operaç�
 - escadas e desníveis;
 - áreas comuns;
 - localização em relação ao Quadrado e às praias.
+
+![Piscina e área externa de casa para famílias em Trancoso](/img/guia/editorial-piscina.webp)
 
 ## Como avaliar uma casa para famílias
 
