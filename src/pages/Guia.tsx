@@ -2,7 +2,14 @@ import { useState } from 'react';
 import { Link } from 'react-router';
 import { useLang } from '../i18n';
 import { PageHero, Reveal } from '../components/Layout';
-import { guiaArticles, guiaFeatured, guiaUsedCategories, guiaDate, type GuiaArticle } from '../data/guia';
+import { guiaArticles, guiaFeaturedMain, guiaFeaturedSecondary, guiaUsedCategories, guiaDate, type GuiaArticle } from '../data/guia';
+
+function coverSrcset(src: string) {
+  // Capas do guia são geradas em 800px + variante 400px (ver pipeline de capas).
+  return src.startsWith('/img/guia/')
+    ? { srcSet: `${src.replace('.webp', '-400.webp')} 400w, ${src} 800w`, sizes: '(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw' }
+    : {};
+}
 
 function ArticleCard({ a, heading = 'h3' }: { a: GuiaArticle; heading?: 'h2' | 'h3' }) {
   const { t } = useLang();
@@ -12,7 +19,8 @@ function ArticleCard({ a, heading = 'h3' }: { a: GuiaArticle; heading?: 'h2' | '
       <Link to={`/guia/${a.slug}`} className="group block h-full bg-ivory">
         {a.image && (
           <div className="overflow-hidden relative img-zoom" onContextMenu={(e) => e.preventDefault()}>
-            <img src={a.image} alt={a.title} loading="lazy" decoding="async" draggable={false}
+            <img src={a.image} {...coverSrcset(a.image)} alt={a.title} loading="lazy" decoding="async" draggable={false}
+              width={800} height={533}
               onError={(e) => { (e.currentTarget as HTMLImageElement).style.display = 'none'; }}
               className="w-full object-cover aspect-[3/2]" />
             {/* Etiqueta de categoria sobre a foto de capa */}
@@ -35,12 +43,49 @@ function ArticleCard({ a, heading = 'h3' }: { a: GuiaArticle; heading?: 'h2' | '
   );
 }
 
+// Card do destaque principal: imagem grande à esquerda, texto à direita.
+// A escolha do artigo vem dos metadados (featured: "main"), não do componente.
+function MainCard({ a }: { a: GuiaArticle }) {
+  const { t } = useLang();
+  return (
+    <Reveal>
+      <Link to={`/guia/${a.slug}`} className="group grid md:grid-cols-2 gap-x-10 gap-y-6 items-center bg-ivory">
+        {a.image && (
+          <div className="overflow-hidden relative img-zoom" onContextMenu={(e) => e.preventDefault()}>
+            <img src={a.image} {...coverSrcset(a.image)} alt={a.title} loading="lazy" decoding="async" draggable={false}
+              width={800} height={533}
+              onError={(e) => { (e.currentTarget as HTMLImageElement).style.display = 'none'; }}
+              className="w-full object-cover aspect-[3/2]" />
+            <span className="absolute top-3 left-3 z-10 bg-green-e/90 text-ivory text-[11px] tracking-[0.14em] uppercase px-3 py-1.5">
+              {a.category}
+            </span>
+            <span className="photo-shield" aria-hidden="true" />
+          </div>
+        )}
+        <div className="py-2">
+          {!a.image && <p className="eyebrow text-green-e/50">{a.category}</p>}
+          <h2 className="mt-2 font-serif-e text-3xl md:text-4xl text-green-e group-hover:text-gold transition-colors leading-tight">{a.title}</h2>
+          <p className="mt-4 text-base text-ink/60 leading-relaxed">{a.description}</p>
+          <p className="mt-5 text-xs tracking-[0.16em] uppercase text-gold">
+            {guiaDate(a.publishedAt)} · {t.guia.readMore}
+          </p>
+        </div>
+      </Link>
+    </Reveal>
+  );
+}
+
 export default function Guia() {
   const { t } = useLang();
   const [cat, setCat] = useState<string>('');
-  const featured = guiaFeatured();
+  const main = guiaFeaturedMain();
+  const secondary = guiaFeaturedSecondary();
   const categories = guiaUsedCategories();
-  const list = cat ? guiaArticles.filter((a) => a.category === cat) : guiaArticles;
+  // Destaques (main + secondary) saem da grade normal quando não há filtro
+  // ativo — com filtro, a categoria manda e todos os artigos dela aparecem.
+  const featuredSlugs = new Set([main?.slug, ...secondary.map((a) => a.slug)]);
+  const list = (cat ? guiaArticles.filter((a) => a.category === cat) : guiaArticles)
+    .filter((a) => cat || !featuredSlugs.has(a.slug));
 
   const chip = (active: boolean) =>
     `text-[12px] tracking-[0.12em] uppercase border px-4 py-2 transition-colors ${active
@@ -57,15 +102,22 @@ export default function Guia() {
             <p className="max-w-3xl text-lg text-ink/70 leading-relaxed">{t.guia.intro}</p>
           </Reveal>
 
-          {featured.length > 0 && (
+          {(main || secondary.length > 0) && (
             <div className="mt-16">
               <Reveal>
                 <p className="eyebrow text-green-e/50">{t.guia.featuredEyebrow}</p>
                 <h2 className="mt-2 font-serif-e text-3xl md:text-4xl text-green-e">{t.guia.featuredTitle}</h2>
               </Reveal>
-              <div className="mt-8 grid md:grid-cols-3 gap-x-8 gap-y-10">
-                {featured.map((a) => <ArticleCard key={a.slug} a={a} />)}
-              </div>
+              {main && (
+                <div className="mt-10">
+                  <MainCard a={main} />
+                </div>
+              )}
+              {secondary.length > 0 && (
+                <div className="mt-12 grid md:grid-cols-3 gap-x-8 gap-y-10">
+                  {secondary.map((a) => <ArticleCard key={a.slug} a={a} />)}
+                </div>
+              )}
             </div>
           )}
 

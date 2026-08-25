@@ -79,15 +79,22 @@ function loadArticles() {
       featured: meta.featured === true,
       seoTitle: meta.seoTitle ? String(meta.seoTitle) : '',
       seoDescription: meta.seoDescription ? String(meta.seoDescription) : '',
-      // location: rótulo canônico de região/condomínio (ver src/data/locations.ts).
-      // Quando presente, a página do artigo mostra ao final um bloco de casas
-      // do catálogo filtradas por essa região — sem seleção manual por artigo.
-      location: meta.location ? String(meta.location) : '',
+      // featured: hierarquia editorial da home do /guia, definida nos metadados.
+      //   featured: "main"      → destaque principal (imagem grande);
+      //   featured: "secondary" → cards menores logo abaixo (máx. 3, ordem em
+      //                           GUIA_SECONDARY_ORDER de src/data/guia.ts);
+      //   ausente/false         → grade normal.
+      // (featured: true legado é tratado como "secondary".)
+      featured: meta.featured === 'main' || meta.featured === 'secondary'
+        ? meta.featured
+        : meta.featured === true ? 'secondary' : false,
       markdown,
     });
   }
   // Mais recentes primeiro
   articles.sort((a, b) => (a.publishedAt < b.publishedAt ? 1 : -1));
+  const mains = articles.filter((a) => a.featured === 'main');
+  if (mains.length > 1) throw new Error(`generate-guia: mais de um featured: "main" (${mains.map((a) => a.slug).join(', ')})`);
   return articles;
 }
 
@@ -102,8 +109,9 @@ function genContent(articles) {
 // Não edite à mão — os artigos vivem em src/content/guia/*.md.
 export interface GuiaArticleData {
   title: string; slug: string; description: string; category: string;
-  image: string; publishedAt: string; updatedAt: string; featured: boolean;
-  seoTitle: string; seoDescription: string; location: string;
+  image: string; publishedAt: string; updatedAt: string;
+  featured: 'main' | 'secondary' | false;
+  seoTitle: string; seoDescription: string;
   html: string; htmlRelated: string;
 }
 export const GUIA_ARTICLES: GuiaArticleData[] = [
@@ -114,7 +122,7 @@ ${articles.map((a) => {
     const idx = a.markdown.indexOf(REL);
     const bodyMd = idx >= 0 ? a.markdown.slice(0, idx).trim() : a.markdown;
     const relMd = idx >= 0 ? a.markdown.slice(idx).trim() : '';
-    return `  { title: ${lit(a.title)}, slug: ${lit(a.slug)}, description: ${lit(a.description)}, category: ${lit(a.category)}, image: ${lit(a.image)}, publishedAt: ${lit(a.publishedAt)}, updatedAt: ${lit(a.updatedAt)}, featured: ${a.featured}, seoTitle: ${lit(a.seoTitle)}, seoDescription: ${lit(a.seoDescription)}, location: ${lit(a.location)}, html: ${lit(renderArticleHtml(bodyMd))}, htmlRelated: ${lit(relMd ? renderArticleHtml(relMd) : '')} },`;
+    return `  { title: ${lit(a.title)}, slug: ${lit(a.slug)}, description: ${lit(a.description)}, category: ${lit(a.category)}, image: ${lit(a.image)}, publishedAt: ${lit(a.publishedAt)}, updatedAt: ${lit(a.updatedAt)}, featured: ${lit(a.featured)}, seoTitle: ${lit(a.seoTitle)}, seoDescription: ${lit(a.seoDescription)}, html: ${lit(renderArticleHtml(bodyMd))}, htmlRelated: ${lit(relMd ? renderArticleHtml(relMd) : '')} },`;
   }).join('\n')}
 ];
 `;
@@ -240,7 +248,10 @@ function genPages(articles) {
   for (const a of articles) {
     const title = a.seoTitle || `${a.title} | Guia TrancosoBA`;
     const desc = a.seoDescription || a.description;
-    const extraHead = `<script type="application/ld+json">${articleLd(a)}</script>\n    <script type="application/ld+json">${breadcrumbLd(a)}</script>`;
+    // Preload da imagem principal do artigo (ela é o LCP da página aberta) —
+    // par do loading="eager"/fetchPriority="high" em GuiaArtigo.tsx.
+    const preload = a.image ? `    <link rel="preload" as="image" href="${a.image}" />\n` : '';
+    const extraHead = `${preload}<script type="application/ld+json">${articleLd(a)}</script>\n    <script type="application/ld+json">${breadcrumbLd(a)}</script>`;
     mkdirSync(join(root, 'dist/guia', a.slug), { recursive: true });
     writeFileSync(join(root, 'dist/guia', a.slug, 'index.html'), pageShell({
       title, desc, url: `${SITE}/guia/${a.slug}`,

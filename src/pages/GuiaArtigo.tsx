@@ -3,8 +3,7 @@ import { useLang } from '../i18n';
 import { Reveal } from '../components/Layout';
 import PropertyCard from '../components/PropertyCard';
 import { guiaBySlug, guiaRelated, guiaDate } from '../data/guia';
-import { PROPERTIES_META } from '../data/meta';
-import { canonicalLocation } from '../data/locations';
+import { guiaHouses } from '../data/guia-casas';
 
 // O corpo do artigo chega como HTML pronto em article.html — compilado no
 // prebuild por scripts/guia-md.mjs com a mesma tipografia/paleta do site
@@ -13,7 +12,7 @@ import { canonicalLocation } from '../data/locations';
 export default function GuiaArtigo() {
   const { slug = '' } = useParams();
   const navigate = useNavigate();
-  const { t } = useLang();
+  const { t, lang } = useLang();
   const article = guiaBySlug(slug);
 
   // Links internos do HTML compilado são <a href="/..."> comuns; aqui eles
@@ -30,14 +29,10 @@ export default function GuiaArtigo() {
   if (!article) return <Navigate to="/guia" replace />;
   const related = guiaRelated(article);
 
-  // Casas da região/condomínio do artigo, puxadas do catálogo pela mesma
-  // normalização de localização usada no filtro de /casas (canonicalLocation).
-  // Artigo sem `location` ou sem casas correspondentes → bloco não aparece.
-  const houses = article.location
-    ? PROPERTIES_META.filter((p) => canonicalLocation(p.location) === article.location)
-        .sort((a, b) => Number(b.featured) - Number(a.featured))
-        .slice(0, 6)
-    : [];
+  // Casas associadas ao artigo pelo mapeamento editorial centralizado de
+  // src/data/guia-casas.ts (região ou coleção do catálogo). Sem associação
+  // ou sem casas correspondentes → o bloco não aparece.
+  const housesBlock = guiaHouses(article.slug, lang);
 
   return (
     <article className="pt-24 md:pt-32 pb-16 md:pb-24">
@@ -66,7 +61,16 @@ export default function GuiaArtigo() {
         {article.image && (
           <Reveal>
             <div className="relative overflow-hidden mb-10" onContextMenu={(e) => e.preventDefault()}>
-              <img src={article.image} alt={article.title} loading="lazy" decoding="async" draggable={false} className="w-full object-cover" />
+              {/* Imagem principal do artigo: acima da dobra, por isso eager +
+                  fetchPriority high (par do <link rel="preload"> emitido no
+                  shell da página por scripts/generate-guia.mjs). */}
+              <img src={article.image}
+                {...(article.image.startsWith('/img/guia/') ? {
+                  srcSet: `${article.image.replace('.webp', '-400.webp')} 400w, ${article.image} 800w`,
+                  sizes: '(min-width: 768px) 768px, 100vw',
+                } : {})}
+                alt={article.title} loading="eager" fetchPriority="high" decoding="async" draggable={false}
+                width={800} height={533} className="w-full object-cover" />
               <span className="photo-shield" aria-hidden="true" />
             </div>
           </Reveal>
@@ -77,16 +81,14 @@ export default function GuiaArtigo() {
         <div onClick={onBodyClick} dangerouslySetInnerHTML={{ __html: article.html }} />
       </div>
 
-      {houses.length > 0 && (
+      {housesBlock && (
         <div className="max-w-7xl mx-auto px-5 md:px-8 mt-16 md:mt-20">
           <Reveal>
             <p className="eyebrow text-green-e/50">{t.guia.housesEyebrow}</p>
-            <h2 className="mt-2 font-serif-e text-3xl text-green-e">
-              {t.guia.housesTitle} · {article.location}
-            </h2>
+            <h2 className="mt-2 font-serif-e text-3xl text-green-e">{housesBlock.title}</h2>
           </Reveal>
           <div className="mt-8 grid sm:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-10">
-            {houses.map((p) => (
+            {housesBlock.houses.map((p) => (
               <Reveal key={p.id}>
                 <PropertyCard p={p} variant="grid" showView />
               </Reveal>

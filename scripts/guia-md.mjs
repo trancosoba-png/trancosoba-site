@@ -40,9 +40,16 @@ const md = {
     className: 'my-8 border-l-2 border-gold pl-5 font-serif-e italic text-xl md:text-2xl text-green-e/90 leading-relaxed',
   }),
   hr: () => e('hr', { className: 'my-10 border-green-e/15' }),
-  img: ({ src, alt }) => e('img', {
-    src, alt: alt ?? '', loading: 'lazy', decoding: 'async', draggable: false, className: 'w-full my-8',
-  }),
+  // Imagens internas do artigo: quantidade e posição são definidas no próprio
+  // markdown (![alt](caminho) entre as seções) — 0, 1, 2 ou 3, sem regra fixa
+  // no componente. Sempre lazy (estão abaixo da dobra) e com a mesma
+  // proteção de fotos do restante do site.
+  img: ({ src, alt }) => e('div', { className: 'relative overflow-hidden my-8' },
+    e('img', {
+      src, alt: alt ?? '', loading: 'lazy', decoding: 'async', draggable: false,
+      className: 'w-full object-cover',
+    }),
+    e('span', { className: 'photo-shield', 'aria-hidden': true })),
   a: ({ href = '', children }) => {
     if (href.startsWith('/')) return e('a', { href, className: LINK_CLS }, children);
     return e('a', { href, target: '_blank', rel: 'noreferrer', className: LINK_CLS }, children);

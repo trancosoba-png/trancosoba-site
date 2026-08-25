@@ -17,11 +17,29 @@ export function guiaBySlug(slug: string): GuiaArticle | undefined {
   return GUIA_ARTICLES.find((a) => a.slug === slug);
 }
 
-/** Destaques (featured: true); se nenhum marcado, os 3 mais recentes. */
-export function guiaFeatured(): GuiaArticle[] {
-  const f = GUIA_ARTICLES.filter((a) => a.featured);
-  return (f.length ? f : GUIA_ARTICLES).slice(0, 3);
+/** Destaque principal da home do /guia (featured: "main" no frontmatter). */
+export function guiaFeaturedMain(): GuiaArticle | undefined {
+  return GUIA_ARTICLES.find((a) => a.featured === 'main');
 }
+
+/** Destaques secundários (featured: "secondary"), na ordem editorial definida abaixo. */
+export function guiaFeaturedSecondary(): GuiaArticle[] {
+  // A ordem dos secundários é editorial e estável: segue a ordem dos slugs em
+  // GUIA_SECONDARY_ORDER; slugs fora da lista entram depois, por data.
+  const secs = GUIA_ARTICLES.filter((a) => a.featured === 'secondary');
+  const idx = (s: string) => {
+    const i = GUIA_SECONDARY_ORDER.indexOf(s);
+    return i === -1 ? GUIA_SECONDARY_ORDER.length : i;
+  };
+  return [...secs].sort((a, b) => idx(a.slug) - idx(b.slug)).slice(0, 3);
+}
+
+/** Ordem editorial dos destaques secundários na home do /guia. */
+export const GUIA_SECONDARY_ORDER = [
+  'o-que-fazer-em-trancoso-experiencias-e-passeios',
+  'praias-de-trancoso-a-caraiva',
+  'trancoso-com-criancas',
+];
 
 /** Artigos relacionados: mesma categoria primeiro, depois os mais recentes. */
 export function guiaRelated(article: GuiaArticle, count = 3): GuiaArticle[] {
