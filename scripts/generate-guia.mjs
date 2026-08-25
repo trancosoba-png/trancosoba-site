@@ -17,7 +17,36 @@
 // com os metadados no topo (ver exemplo-teste.md) — nenhum código muda.
 import { readFileSync, writeFileSync, mkdirSync, readdirSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
-import { renderArticleHtml } from './guia-md.mjs';
+import { renderArticleHtml, setImageSizes } from './guia-md.mjs';
+
+// Lê largura/altura de um .webp (VP8X/VP8/VP8L) sem dependência externa —
+// usado para emitir width/height nos <img> do corpo do artigo (anti-CLS).
+function webpSize(path) {
+  const b = readFileSync(path);
+  if (b.length < 30 || b.toString('ascii', 0, 4) !== 'RIFF' || b.toString('ascii', 8, 12) !== 'WEBP') return null;
+  const fourcc = b.toString('ascii', 12, 16);
+  if (fourcc === 'VP8X') return { w: 1 + b.readUIntLE(24, 3), h: 1 + b.readUIntLE(27, 3) };
+  if (fourcc === 'VP8 ') return { w: b.readUInt16LE(26) & 0x3fff, h: b.readUInt16LE(28) & 0x3fff };
+  if (fourcc === 'VP8L') {
+    const bits = b.readUInt32LE(21);
+    return { w: (bits & 0x3fff) + 1, h: ((bits >> 14) & 0x3fff) + 1 };
+  }
+  return null;
+}
+
+// Mapa src → {w,h} das imagens editoriais do guia (public/img/guia/*.webp).
+function guiaImageSizes() {
+  const dir = join(root, 'public/img/guia');
+  const map = {};
+  if (existsSync(dir)) {
+    for (const f of readdirSync(dir)) {
+      if (!f.endsWith('.webp')) continue;
+      const s = webpSize(join(dir, f));
+      if (s) map[`/img/guia/${f}`] = s;
+    }
+  }
+  return map;
+}
 
 const SITE = process.env.SITE_URL || 'https://www.trancosoba.com';
 const root = new URL('..', import.meta.url).pathname;
@@ -264,6 +293,7 @@ function genPages(articles) {
 
 const mode = process.argv[2];
 const articles = loadArticles();
+setImageSizes(guiaImageSizes());
 if (mode === 'content') genContent(articles);
 else if (mode === 'pages') genPages(articles);
 else { console.error('uso: node scripts/generate-guia.mjs [content|pages]'); process.exit(1); }

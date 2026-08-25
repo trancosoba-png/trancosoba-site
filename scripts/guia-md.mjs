@@ -23,6 +23,12 @@ const e = React.createElement;
 const clean = (p) => { const { node, ...rest } = p || {}; return rest; };
 const LINK_CLS = 'text-green-e underline decoration-gold/60 underline-offset-2 hover:text-gold transition-colors';
 
+// Dimensões conhecidas das imagens (src → {w,h}), passadas por generate-guia.mjs.
+// Emitir width/height no <img> reserva o espaço antes do carregamento e evita
+// CLS (layout shift) nas imagens internas dos artigos.
+let IMG_SIZES = {};
+export function setImageSizes(map) { IMG_SIZES = map || {}; }
+
 // Mesma tipografia/paleta que src/pages/GuiaArtigo.tsx usava em runtime.
 // Links internos viram <a href="/..."> comum; a navegação SPA é restaurada no
 // cliente por um interceptador de clique em GuiaArtigo.tsx (sem full reload).
@@ -47,6 +53,7 @@ const md = {
   img: ({ src, alt }) => e('div', { className: 'relative overflow-hidden my-8' },
     e('img', {
       src, alt: alt ?? '', loading: 'lazy', decoding: 'async', draggable: false,
+      ...(IMG_SIZES[src] ? { width: IMG_SIZES[src].w, height: IMG_SIZES[src].h } : {}),
       className: 'w-full object-cover',
     }),
     e('span', { className: 'photo-shield', 'aria-hidden': true })),
