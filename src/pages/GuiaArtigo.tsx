@@ -136,10 +136,11 @@ export default function GuiaArtigo() {
           <div onClick={onBodyClick} dangerouslySetInnerHTML={{ __html: bodyHtml }} />
         )}
 
-        {ctaFinal && <GuiaCta cta={ctaFinal} variant="whats" />}
-        {ctaGeneric && <GuiaCta cta={ctaGeneric} />}
       </div>
 
+      {/* Bloco de casas ANTES do CTA final: quem termina o artigo vê primeiro
+          os imóveis da região (próximo passo natural) e o CTA fecha a página
+          como ação final — sem interromper a leitura no meio do corpo. */}
       {housesBlock && (
         <div className="max-w-7xl mx-auto px-5 md:px-8 mt-16 md:mt-20">
           <Reveal>
@@ -153,8 +154,21 @@ export default function GuiaArtigo() {
               </Reveal>
             ))}
           </div>
+          {housesBlock.total > housesBlock.houses.length && (
+            <div className="mt-10 text-center">
+              <Link to={housesBlock.viewAllHref}
+                className="inline-block border border-green-e/30 px-7 py-3 text-[12px] tracking-[0.18em] uppercase text-green-e hover:bg-green-e hover:text-ivory transition-colors">
+                {t.guia.housesViewAll}
+              </Link>
+            </div>
+          )}
         </div>
       )}
+
+      <div className="max-w-3xl mx-auto px-5 md:px-8">
+        {ctaFinal && <GuiaCta cta={ctaFinal} variant="whats" />}
+        {ctaGeneric && <GuiaCta cta={ctaGeneric} />}
+      </div>
 
       {article.htmlRelated && (
         <div className="max-w-3xl mx-auto px-5 md:px-8">

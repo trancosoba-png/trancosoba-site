@@ -50,13 +50,25 @@ const md = {
   // markdown (![alt](caminho) entre as seções) — 0, 1, 2 ou 3, sem regra fixa
   // no componente. Sempre lazy (estão abaixo da dobra) e com a mesma
   // proteção de fotos do restante do site.
-  img: ({ src, alt }) => e('div', { className: 'relative overflow-hidden my-8' },
-    e('img', {
-      src, alt: alt ?? '', loading: 'lazy', decoding: 'async', draggable: false,
-      ...(IMG_SIZES[src] ? { width: IMG_SIZES[src].w, height: IMG_SIZES[src].h } : {}),
-      className: 'w-full object-cover',
-    }),
-    e('span', { className: 'photo-shield', 'aria-hidden': true })),
+  img: ({ src, alt }) => {
+    // srcSet responsivo quando existem variantes -400/-1200 ao lado da base
+    // (padrão das imagens editoriais do guia). Só entra no HTML se a variante
+    // realmente existir no mapa de tamanhos (ou seja, está em public/).
+    const hasV = (s) => Object.prototype.hasOwnProperty.call(IMG_SIZES, s);
+    const v400 = src.replace(/\.webp$/, '-400.webp');
+    const v1200 = src.replace(/\.webp$/, '-1200.webp');
+    const srcSet = hasV(v400) && hasV(v1200)
+      ? `${v400} 400w, ${src} 800w, ${v1200} 1200w`
+      : undefined;
+    return e('div', { className: 'relative overflow-hidden my-8' },
+      e('img', {
+        src, alt: alt ?? '', loading: 'lazy', decoding: 'async', draggable: false,
+        ...(srcSet ? { srcSet, sizes: '(min-width: 768px) 672px, 100vw' } : {}),
+        ...(IMG_SIZES[src] ? { width: IMG_SIZES[src].w, height: IMG_SIZES[src].h } : {}),
+        className: 'w-full object-cover',
+      }),
+      e('span', { className: 'photo-shield', 'aria-hidden': true }));
+  },
   a: ({ href = '', children }) => {
     if (href.startsWith('/')) return e('a', { href, className: LINK_CLS }, children);
     return e('a', { href, target: '_blank', rel: 'noreferrer', className: LINK_CLS }, children);

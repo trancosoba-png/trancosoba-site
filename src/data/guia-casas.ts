@@ -69,6 +69,13 @@ export const GUIA_HOUSES_RULES: Record<string, GuiaHousesRule> = {
     kind: 'collection', key: 'pe-na-areia',
     title: { pt: 'Casas pé na areia', en: 'Beachfront houses', es: 'Casas frente al mar' },
   },
+  // O artigo cobre várias praias/regiões: em vez de casas de uma única
+  // localidade (desconectadas de parte do conteúdo), usa a coleção
+  // pé na areia — o recorte que percorre o mesmo litoral do artigo.
+  'praias-de-trancoso-a-caraiva': {
+    kind: 'collection', key: 'pe-na-areia',
+    title: { pt: 'Casas pé na areia nesse litoral', en: 'Beachfront houses along this coast', es: 'Casas frente al mar en este litoral' },
+  },
 };
 
 /** Quantidade máxima de imóveis exibidos no bloco (3 mantém a grade cheia). */
@@ -82,20 +89,23 @@ export function guiaHouses(
   slug: string,
   lang: 'pt' | 'en' | 'es',
   max = GUIA_HOUSES_MAX,
-): { title: string; houses: PropertyMeta[] } | null {
+): { title: string; houses: PropertyMeta[]; total: number; viewAllHref: string } | null {
   const rule = GUIA_HOUSES_RULES[slug];
   if (!rule) return null;
   let list: PropertyMeta[];
+  let viewAllHref: string;
   if (rule.kind === 'location') {
     list = PROPERTIES_META.filter((p) => canonicalLocation(p.location) === rule.key);
+    viewAllHref = `/casas?local=${encodeURIComponent(rule.key)}`;
   } else {
     const c = collectionById(rule.key);
     if (!c) return null;
     list = collectionProperties(c);
+    viewAllHref = `/casas/${c.id}`;
   }
   const houses = [...list]
     .sort((a, b) => Number(b.featured) - Number(a.featured))
     .slice(0, max);
   if (!houses.length) return null;
-  return { title: rule.title[lang] ?? rule.title.pt, houses };
+  return { title: rule.title[lang] ?? rule.title.pt, houses, total: list.length, viewAllHref };
 }
