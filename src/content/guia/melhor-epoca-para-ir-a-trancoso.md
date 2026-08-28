@@ -246,10 +246,6 @@ Depende do objetivo. Janeiro favorece quem quer movimento; maio e junho costumam
 
 As chuvas variam entre os meses, mas podem ocorrer durante todo o ano. Sem identificar a estação meteorológica utilizada, não é adequado publicar médias mensais exatas. Para planejar uma viagem específica, consulte a previsão atualizada nos dias anteriores ao embarque.
 
-### Existe um período completamente seco em Trancoso?
-
-Não. Pode chover em qualquer mês, e as condições mudam de um ano para outro. Médias históricas ajudam a compreender o clima, mas não garantem tempo firme em datas específicas.
-
 ### Quando Trancoso fica mais cheio?
 
 O período entre o Natal e o Réveillon está entre os mais movimentados. Janeiro, Carnaval, férias de julho e feriados prolongados também podem elevar o fluxo.

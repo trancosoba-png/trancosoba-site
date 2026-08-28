@@ -388,10 +388,6 @@ Nem sempre. A dependência pode ser menor para quem está perto do Quadrado, mas
 
 Casas oferecem espaço, cozinha e horários flexíveis, sendo especialmente úteis para grupos grandes. Pousadas concentram serviços e podem ser mais práticas em viagens curtas ou para famílias menores.
 
-### Quantos dias ficar em Trancoso com crianças?
-
-Quatro a sete dias permitem combinar praias, Quadrado e descanso sem concentrar demais a programação. A duração deve considerar a idade das crianças e a quantidade de passeios desejada.
-
 ### Dá para viajar para Trancoso com bebê?
 
 Sim. A hospedagem deve ter uma logística compatível com a rotina do bebê. Confirme berço, cozinha, lavanderia, sombra, escadas, piscina, transporte e equipamentos infantis antes da viagem.

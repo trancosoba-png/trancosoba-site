@@ -172,18 +172,6 @@ Na área principal, a rotina é organizada majoritariamente a pé. Um veículo p
 
 Depende da rotina desejada. Perto da praia pode ser mais conveniente para quem prioriza o mar. Perto do rio pode favorecer a relação com a paisagem fluvial e, conforme a localização, o acesso a áreas da vila. O percurso real entre a casa, o rio e a praia deve orientar a escolha.
 
-### Toda casa próxima da praia é pé na areia?
-
-Não. “Próxima da praia” pode indicar apenas uma caminhada curta. Vista para o mar, acesso direto e posição à beira-mar precisam ser confirmados para cada propriedade.
-
-### Toda casa próxima do rio tem vista ou acesso direto?
-
-Não. A proximidade com o Rio Caraíva não garante vista, deck ou acesso privativo à margem. É necessário verificar quais ambientes têm relação visual com o rio e como funciona o acesso.
-
-### Caraíva pode funcionar para famílias?
-
-Sim, desde que a casa e a localização sejam compatíveis com a família. Travessia, bagagem, caminhos na areia, configuração dos quartos, escadas e deslocamentos diários devem ser considerados antes da reserva.
-
 ### O que observar ao reservar uma casa?
 
 Considere o percurso desde a travessia, a distância prática até praia e rio, a distribuição dos quartos, a privacidade, os serviços incluídos e as regras da propriedade. Para pessoas com mobilidade reduzida, solicite uma descrição detalhada dos acessos.

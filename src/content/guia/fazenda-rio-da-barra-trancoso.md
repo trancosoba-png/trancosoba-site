@@ -169,10 +169,6 @@ Sim. Todas as casas e seus hóspedes possuem acesso à Praia do Rio da Barra. O 
 
 Na região predominam casas maiores, adequadas a famílias e grupos. A capacidade real depende da distribuição dos quartos, das camas e dos espaços de convivência de cada imóvel.
 
-### Todas as casas têm vista para o mar, staff e carrinho de golfe?
-
-Não. Algumas propriedades têm vista para o mar, e muitas casas utilizam carrinhos de golfe nos deslocamentos internos, mas essas características não são universais. A presença e a composição do staff também variam conforme o imóvel.
-
 ### É necessário carro para ficar na Fazenda Rio da Barra?
 
 A necessidade de carro depende da programação e do transporte oferecido ou contratado pelo grupo. Quem pretende frequentar o Quadrado e outras áreas de Trancoso deve planejar previamente os deslocamentos. Também é possível organizar táxi, transfer ou motorista privativo sob consulta.

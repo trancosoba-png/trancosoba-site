@@ -380,26 +380,6 @@ Silvana & Cia e O Cacau são os principais endereços a consultar. Os tipos de m
 
 Favoritto, Silvana & Cia, O Cacau, El Gordo, Flô e Gino são opções com abordagens diferentes, da tradição baiana à cozinha mediterrânea e contemporânea.
 
-### Onde comer carne?
-
-Bonitto e Chimichurri são as casas mais diretamente associadas a carnes e parrilla. Cortes, pontos e acompanhamentos devem ser consultados no menu vigente.
-
-### Onde comer pizza ou massa?
-
-Gino e Maritaca são referências de cozinha italiana. O Allegria também trabalha influências italianas e pizzas, conforme a operação disponível na data.
-
-### Há sushi no Quadrado?
-
-O Sushi do Quadrado é uma opção japonesa. O Allegria também aparece associado a preparos japoneses, mas essa operação precisa ser confirmada antes da visita.
-
-### Quais restaurantes funcionam no almoço?
-
-O Rabanete está historicamente associado ao almoço. Cafés e operações mais leves também podem abrir durante o dia. Horários e dias de funcionamento variam ao longo do ano.
-
-### Onde tomar café ou fazer uma refeição rápida?
-
-Santo Café e Tapioca da Elma são alternativas para café, lanche ou refeição rápida. A Bacio di Latte pode funcionar como gelateria e café na região do Quadrado, conforme a operação vigente.
-
 ### Precisa reservar restaurante no Quadrado?
 
 Depende da época. Em alta temporada, feriados, janeiro, Carnaval e Réveillon, reservar é recomendável para as casas mais procuradas. Grupos e ocasiões especiais também exigem mais planejamento.

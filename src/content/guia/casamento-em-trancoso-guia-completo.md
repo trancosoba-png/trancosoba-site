@@ -641,10 +641,6 @@ Pode ser possível em espaços autorizados ou propriedades privadas junto ao mar
 
 A autorização e as exigências aplicáveis devem ser verificadas durante o planejamento, conforme o local escolhido. Em propriedades privadas junto ao mar, o evento também depende da autorização da propriedade.
 
-### Como casar na Igreja do Quadrado?
-
-É necessário consultar diretamente a Igreja de São João Batista sobre agenda, regras, documentação e exigências religiosas. Esses detalhes podem mudar e não devem ser tratados como informações permanentes.
-
 ### Uma casa de temporada pode receber casamento?
 
 Somente quando a propriedade autoriza previamente. A permissão para hospedagem não significa autorização para festas, cerimônias, fornecedores externos ou visitantes adicionais. Também pode haver taxa de evento e regras específicas conforme o imóvel, o condomínio, a capacidade contratada e o número de convidados.
@@ -652,22 +648,6 @@ Somente quando a propriedade autoriza previamente. A permissão para hospedagem 
 ### Qual é a melhor época para casar em Trancoso?
 
 Depende de chuva, vento, temperatura, maré, feriados, disponibilidade e formato do evento. Não existe um mês ideal para todos os casais, e qualquer celebração ao ar livre precisa de plano B.
-
-### É necessário contratar transporte para os convidados?
-
-Depende da localização das hospedagens e dos eventos. Quando os convidados estão distribuídos em regiões diferentes, vans e transfers podem facilitar a ida e o retorno, especialmente à noite.
-
-### O casamento precisa ter welcome party e brunch?
-
-Não. Esses encontros são opcionais. O casal pode organizar apenas os momentos compatíveis com seu orçamento e com o perfil dos convidados.
-
-### O casal precisa pagar a hospedagem de todos?
-
-Não existe uma regra universal. É importante comunicar claramente o que será oferecido e apresentar orientações de hospedagem com antecedência.
-
-### É possível realizar cerimônia e festa em locais diferentes?
-
-Sim, desde que o deslocamento seja planejado. É necessário calcular tempo de trajeto, embarque, transporte noturno, acessibilidade e comunicação com os convidados.
 
 ## Conclusão
 

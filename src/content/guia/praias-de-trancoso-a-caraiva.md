@@ -388,10 +388,6 @@ Aplicativos de mapas podem estimar distância, mas não conseguem avaliar corren
 
 Nativos e Coqueiros são as referências mais próximas da região central. O acesso mais prático depende da localização da hospedagem e do meio de transporte.
 
-### Qual é a diferença entre Nativos e Coqueiros?
-
-Nativos tem relação direta com o Rio Trancoso e reúne hotéis, pousadas e estruturas em alguns setores. Coqueiros é conhecida pelos coqueirais, pelo movimento e por barracas ou restaurantes em determinados pontos. Ambas permitem combinar praia e centro.
-
 ### Quais praias podem formar piscinas naturais?
 
 Itapororoca, Itaquena, Espelho e Satú podem apresentar áreas rasas ou piscinas temporárias na maré baixa. A formação depende também de ondas, vento, recifes e areia.
@@ -400,10 +396,6 @@ Itapororoca, Itaquena, Espelho e Satú podem apresentar áreas rasas ou piscinas
 
 O acesso mais comum é por via terrestre, de carro, transfer ou passeio. As condições da estrada variam, especialmente após chuvas, e devem ser confirmadas perto da viagem.
 
-### Vale dormir na Praia do Espelho?
-
-Pode fazer sentido para quem deseja acompanhar diferentes marés, conhecer a região com calma e reduzir o impacto do deslocamento. O bate-volta atende quem prefere manter Trancoso como base e tem transporte organizado.
-
 ### Dá para ir caminhando de Trancoso a Caraíva?
 
 Não se deve tratar o litoral como uma rota contínua. Rios, falésias, pedras, áreas protegidas e maré alta podem bloquear o caminho. Um percurso longo exige apoio e planejamento especializado.
@@ -411,10 +403,6 @@ Não se deve tratar o litoral como uma rota contínua. Rios, falésias, pedras, 
 ### Quais praias são mais práticas para famílias?
 
 Nativos e Coqueiros costumam ser consideradas pela localização e pela presença de estrutura em alguns trechos. Rio Verde também pode ser conveniente para quem está hospedado perto. Em qualquer praia, o estado do mar deve ser avaliado no dia.
-
-### Caraíva faz parte de Trancoso?
-
-Não. Caraíva é uma vila separada de Trancoso, com identidade e dinâmica próprias. Ela aparece neste guia porque integra o mesmo eixo costeiro e costuma ser combinada com Trancoso em uma única viagem.
 
 ## Conclusão
 

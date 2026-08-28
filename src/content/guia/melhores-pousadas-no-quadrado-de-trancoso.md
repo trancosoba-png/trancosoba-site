@@ -309,18 +309,6 @@ A localização tende a ter mais valor para quem pretende jantar fora, aproveita
 
 Não. O Quadrado é o núcleo histórico e gastronômico de Trancoso. As praias ficam em outra área e normalmente exigem algum deslocamento.
 
-### O Quadrado é barulhento à noite?
-
-A região fica mais movimentada em determinados horários e épocas, mas isso não significa que todos os quartos sejam barulhentos. A experiência depende da posição da acomodação, do isolamento, da programação local e da época da viagem.
-
-### Todos os quartos têm a mesma vista?
-
-Não. Vista, posição, tamanho e privacidade podem mudar entre categorias da mesma hospedagem. Confirme a acomodação exata antes de reservar.
-
-### A Hospedaria do Quadrado fica dentro da praça?
-
-Sim. A Hospedaria do Quadrado está localizada no próprio Quadrado.
-
 ### É melhor reservar pousada ou casa de temporada?
 
 Pousadas e hotéis costumam funcionar bem para casais, famílias menores e quem valoriza serviço. Casas atendem grupos maiores e viajantes que procuram privacidade, cozinha e espaços sociais. A comparação deve incluir localização, transporte e custo total.

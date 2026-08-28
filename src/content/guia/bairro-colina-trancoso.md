@@ -180,10 +180,6 @@ Na Colina, predominam casas independentes, em geral fora de condomínios fechado
 
 Depende da localização da casa e da programação. Mesmo quando o Quadrado é acessível a pé, um veículo ou transporte contratado pode ser útil para praias, compras e passeios em outras regiões.
 
-### Todas as casas oferecem equipe de apoio?
-
-Não. Arrumação, cozinha, manutenção e outros serviços variam conforme a propriedade. É importante confirmar o que está incluído na diária, os horários da equipe e eventuais cobranças adicionais.
-
 ### A Colina é indicada para famílias e grupos?
 
 Pode atender famílias e grupos, especialmente em propriedades com mais quartos e áreas de convivência. A escolha deve considerar a distribuição das suítes, a segurança da casa, a estrutura de lazer e as condições dos deslocamentos.

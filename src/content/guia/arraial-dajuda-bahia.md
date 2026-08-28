@@ -199,10 +199,6 @@ A necessidade varia conforme o endereço da hospedagem e a programação. Em alg
 
 Verifique se existe acesso direto à praia e se há rua, condomínio ou outro trecho entre a propriedade e o mar. Fotografias, mapa e descrição do caminho ajudam a esclarecer como é o acesso efetivo.
 
-### O que avaliar em uma casa para grupos?
-
-Além do número de suítes, confira os tipos de cama, a ocupação máxima, as áreas de convivência, a cozinha, o estacionamento, os serviços disponíveis e as regras sobre visitantes ou eventos.
-
 ### Vale a pena ficar perto da Rua do Mucugê?
 
 Pode fazer sentido para quem deseja proximidade de restaurantes, lojas, bares e vida noturna. A facilidade para caminhar depende do endereço exato, do relevo, da iluminação e das condições do trajeto.

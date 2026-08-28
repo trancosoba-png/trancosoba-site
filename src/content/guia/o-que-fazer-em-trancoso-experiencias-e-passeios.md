@@ -380,29 +380,9 @@ Em dias de chuva, cafés, restaurantes, lojas abertas no Quadrado e refeições 
 
 Praia do Espelho e Caraíva estão entre as extensões mais procuradas. Arraial d’Ajuda também pode ser combinado com Trancoso em um bate-volta ou em uma viagem mais longa.
 
-### Tem UTV em Trancoso?
-
-Passeios de UTV podem ser organizados sob contratação. Veículos, rotas, regras, horários e disponibilidade variam conforme a operação e as condições do período.
-
-### Tem passeio de lancha em Trancoso?
-
-Pode haver oferta regional de passeios de lancha, sujeita ao ponto de embarque, às condições do mar, à temporada e à disponibilidade. Os detalhes devem ser confirmados antes da contratação.
-
-### Existe transporte de helicóptero em Trancoso?
-
-O helicóptero pode ser usado como alternativa de transporte privado, sujeito a operação, disponibilidade, condições meteorológicas e autorizações.
-
 ### Dá para fazer bate-volta para Caraíva?
 
 Sim, desde que a logística de transporte e travessia de canoa seja planejada. Como o deslocamento ocupa parte do dia, quem deseja conhecer a vila com mais calma pode considerar uma hospedagem.
-
-### É possível caminhar entre as praias?
-
-Sim. Em condições normais, há trechos considerados possíveis e tranquilos, como as caminhadas de Nativos para Coqueiros, Rio da Barra, Tartarugas, Rio Verde e Itapororoca. As condições naturais e climáticas do dia ainda devem ser observadas.
-
-### Beach club é obrigatório?
-
-Não. Beach clubs são apenas uma das formas de aproveitar a praia. Barracas tradicionais, restaurantes pé na areia, apoios de praia e estruturas mais simples também podem fazer parte do roteiro.
 
 ### Quantos passeios fazer em uma semana?
 

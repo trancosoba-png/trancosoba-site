@@ -388,31 +388,9 @@ O beach club costuma reunir restaurante, bar, lounges e uma estrutura voltada à
 
 Depende do lugar e da época. A reserva é especialmente importante no Réveillon, nas férias, em feriados e para lounges ou restaurantes com poucos lugares. Em estruturas de hospedagem, confirme também se visitantes externos são recebidos.
 
-### Day use e consumação mínima são a mesma coisa?
-
-Não necessariamente. Day use pode ser uma tarifa pelo uso da estrutura. Consumação mínima costuma estabelecer um valor destinado a alimentos e bebidas. Cada operação define o próprio formato.
-
 ### Existe consumação mínima em todas as barracas?
 
 Não. Algumas trabalham como restaurantes convencionais, enquanto outras podem adotar cobrança, reserva ou consumo mínimo. A regra precisa ser consultada em cada estabelecimento.
-
-### O Awê cobra consumação mínima?
-
-As condições de consumo e reserva podem mudar conforme a época, a disponibilidade e o espaço escolhido. Consulte diretamente o Awê antes da visita e não considere informações antigas como regra oficial.
-
-### Estruturas de hotéis recebem visitantes externos?
-
-Nem sempre. O serviço pode ser exclusivo ou prioritário para hóspedes. Estrela d’Água, Villas de Trancoso, Tangará, Villas de Aragon, Fasano, Tutabel e outras propriedades podem adotar políticas específicas.
-
-No caso da Estrela d’Água e do Fasano Trancoso, a política para visitantes precisa ser confirmada diretamente para a data da visita.
-
-### Quais praias têm mais variedade?
-
-Coqueiros reúne grande diversidade entre barracas tradicionais, restaurantes pé na areia e estruturas contemporâneas. Nativos combina pousadas, bares de hotel, restaurantes e beach clubs. Rio Verde concentra operações maiores e estruturas vinculadas a hospedagens.
-
-### Fly Club e Casa Clube têm festa todos os dias?
-
-Não se deve presumir programação diária. Ambos podem receber música, DJs ou eventos em datas determinadas, mas a agenda precisa ser consultada antes da visita.
 
 ### Beach clubs funcionam o ano inteiro?
 

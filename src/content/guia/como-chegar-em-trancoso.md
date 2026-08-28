@@ -238,17 +238,9 @@ Como referência, o percurso pode levar aproximadamente de 1h30 a 2h em muitos c
 
 O transfer simplifica a chegada e evita a necessidade de dirigir. O carro oferece mais autonomia durante a estadia. A localização da hospedagem e a quantidade de passeios são os principais critérios para decidir.
 
-### Quem fica perto do Quadrado precisa de carro?
-
-Nem sempre. Boa parte da rotina pode ser feita a pé, mas praias e regiões mais distantes podem exigir carro ou transporte contratado.
-
 ### Como chegar a um condomínio afastado?
 
 Envie ao motorista o nome do condomínio, o endereço completo e a entrada indicada pela hospedagem. Confirme também regras de portaria, identificação do veículo e horário de chegada.
-
-### Posso alugar um carro no aeroporto e seguir para Trancoso?
-
-Sim, desde que a retirada esteja confirmada com a locadora. Verifique documentação, capacidade do porta-malas, regras da reserva, estacionamento na hospedagem e rota prevista.
 
 ## Como escolher a chegada mais adequada
 

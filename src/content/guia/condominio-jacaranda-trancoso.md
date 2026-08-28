@@ -187,10 +187,6 @@ A distância aproximada até a praia é de cerca de 2 km. O Jacarandá não é u
 
 O acesso ao condomínio é normalmente feito de carro, por um trajeto simples e tranquilo. Táxi, transfer ou motorista privativo também podem facilitar os deslocamentos, especialmente para grupos e famílias.
 
-### O Jacarandá tem bom custo-benefício?
-
-O condomínio pode apresentar bom custo-benefício para grupos grandes. A avaliação final deve considerar a casa, o período, a capacidade, as taxas, os serviços incluídos e os custos de transporte.
-
 ## Conclusão
 
 O Condomínio Jacarandá pode entrar na seleção de quem procura casas de alto padrão com cinco, seis ou sete suítes para reunir família ou amigos em Trancoso. Seu perfil combina propriedades amplas, ambiente residencial e localização mais afastada do Quadrado.
