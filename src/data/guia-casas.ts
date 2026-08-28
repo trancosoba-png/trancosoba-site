@@ -151,8 +151,9 @@ function diversify(list: PropertyMeta[], max: number): PropertyMeta[] {
   const picked: PropertyMeta[] = [];
   for (const p of sorted) {
     if (picked.length >= max) break;
-    if (seen.has(p.location)) continue;
-    seen.add(p.location);
+    const loc = canonicalLocation(p.location);
+    if (seen.has(loc)) continue;
+    seen.add(loc);
     picked.push(p);
   }
   for (const p of sorted) {
