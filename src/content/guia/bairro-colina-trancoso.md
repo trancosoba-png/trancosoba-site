@@ -10,10 +10,9 @@ featured: false
 seoTitle: "Bairro Colina em Trancoso: onde ficar perto do Quadrado"
 seoDescription: "Conheça a Colina em Trancoso, região residencial com casas independentes e diferentes opções de hospedagem perto do Quadrado."
 ---
-
 # Bairro Colina: tranquilidade e casas perto do Quadrado
 
-A Colina é uma região residencial de Trancoso, localizada ao lado do Condomínio Altos de Trancoso. Como referência geral, fica a aproximadamente 600 metros do Quadrado, embora a distância varie conforme a localização exata da propriedade. Reúne casas de diferentes tamanhos, presença de verde e uma atmosfera menos ligada ao movimento imediato do centro.
+Como referência geral, fica a aproximadamente 600 metros do Quadrado, embora a distância varie conforme a localização exata da propriedade. Reúne casas de diferentes tamanhos, presença de verde e uma atmosfera menos ligada ao movimento imediato do centro.
 
 A experiência, porém, depende bastante do endereço. Condições do trajeto, privacidade, acesso de carro e serviços incluídos mudam de uma propriedade para outra. Por isso, escolher onde ficar na Colina exige atenção tanto à região quanto às características da casa.
 

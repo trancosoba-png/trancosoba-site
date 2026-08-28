@@ -10,10 +10,9 @@ featured: false
 seoTitle: "Rua dos Macacos em Trancoso: onde ficar e para quem é"
 seoDescription: "Veja como é ficar na Rua dos Macacos, região residencial de Trancoso com casas, condomínios e maior necessidade de planejar os deslocamentos."
 ---
-
 # Rua dos Macacos: como é ficar nessa região de Trancoso
 
-A Rua dos Macacos apresenta um lado mais residencial de Trancoso, com vegetação, casas independentes, villages e condomínios. Em comparação com regiões como João Vieira e Colina, a hospedagem por ali costuma estar menos ligada à rotina a pé no Quadrado e mais ao espaço e à estrutura da propriedade escolhida.
+Em comparação com regiões como João Vieira e Colina, a hospedagem por ali costuma estar menos ligada à rotina a pé no Quadrado e mais ao espaço e à estrutura da propriedade escolhida.
 
 Como os endereços podem aparecer de formas diferentes nos anúncios e sistemas de localização, vale conferir o endereço completo e o ponto exato da hospedagem antes da reserva.
 

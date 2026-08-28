@@ -10,10 +10,9 @@ featured: false
 seoTitle: "Terravista Golf em Trancoso: como é ficar e escolher uma casa"
 seoDescription: "Entenda como é ficar no Terravista Golf, em Trancoso, o que avaliar nas casas e as diferenças em relação ao Terravista Vilas e ao Quadrado."
 ---
-
 # Terravista Golf em Trancoso: casas, campo e natureza
 
-Ficar no Terravista Golf é escolher um ritmo diferente daquele encontrado perto do Quadrado. A hospedagem acontece em uma área residencial, integrada ao campo de golfe e à paisagem do Complexo Terravista, com presença de Mata Atlântica, falésias e áreas abertas.
+A hospedagem acontece em uma área residencial, integrada ao campo de golfe e à paisagem do Complexo Terravista, com presença de Mata Atlântica, falésias e áreas abertas.
 
 A região costuma atrair quem procura casas amplas, mais privacidade e uma rotina distante do movimento do centro histórico. O golfe é parte importante dessa identidade, mas não é preciso praticar o esporte para considerar uma hospedagem no local.
 

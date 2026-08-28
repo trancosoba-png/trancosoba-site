@@ -10,10 +10,9 @@ featured: false
 seoTitle: "Condomínio Tempo em Trancoso: como é ficar na entrada do Quadrado"
 seoDescription: "Saiba como é se hospedar no Condomínio Tempo, em Trancoso: localização na entrada do Quadrado, casas de 2 ou 4 suítes, acesso à praia e perfil ideal."
 ---
-
 # Condomínio Tempo em Trancoso: entre o Quadrado e a natureza
 
-O Condomínio Tempo fica na entrada do Quadrado de Trancoso e reúne apenas nove casas em uma área cercada por vegetação. A proposta combina proximidade com restaurantes, lojas e serviços do centro histórico com um ambiente compacto, fora da movimentação direta da praça.
+A proposta combina proximidade com restaurantes, lojas e serviços do centro histórico com um ambiente compacto, fora da movimentação direta da praça.
 
 Há casas de duas suítes e casas de quatro suítes, atendendo de casais e famílias pequenas a grupos que preferem dividir uma propriedade. O endereço favorece a rotina a pé no Quadrado, mas a necessidade de carro pode mudar conforme as praias e os passeios incluídos no roteiro.
 

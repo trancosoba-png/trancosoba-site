@@ -10,10 +10,9 @@ featured: false
 seoTitle: "Onde ficar em Caraíva: casas perto da praia e do rio"
 seoDescription: "Entenda onde ficar em Caraíva e compare casas próximas da praia ou do Rio Caraíva, considerando acesso, ruas de areia e perfil da viagem."
 ---
-
 # Onde ficar em Caraíva: casas perto da praia e do rio
 
-Caraíva fica no litoral sul da Bahia, no município de Porto Seguro. Embora apareça com frequência nos mesmos roteiros de Trancoso, é um destino com identidade e dinâmica próprias — não um bairro ou condomínio de Trancoso.
+Embora apareça com frequência nos mesmos roteiros de Trancoso, é um destino com identidade e dinâmica próprias — não um bairro ou condomínio de Trancoso.
 
 Na área principal da vila, ruas de areia, deslocamentos a pé e a relação entre o Rio Caraíva e o mar influenciam diretamente a hospedagem. Uma casa próxima da praia favorece uma rotina voltada ao banho de mar; perto do rio, a experiência tende a se conectar mais com a chegada das canoas e a circulação pela vila.
 

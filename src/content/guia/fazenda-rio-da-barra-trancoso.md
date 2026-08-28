@@ -10,10 +10,9 @@ featured: false
 seoTitle: "Fazenda Rio da Barra em Trancoso: guia da região"
 seoDescription: "Veja como é ficar na Fazenda Rio da Barra, em Trancoso, com informações sobre casas amplas, praia, staff, deslocamentos e perfil de viagem."
 ---
-
 # Fazenda Rio da Barra: casas amplas, praia e natureza em Trancoso
 
-A Fazenda Rio da Barra reúne propriedades de diferentes estilos em uma área residencial reservada e cercada pela natureza. É uma escolha voltada principalmente a quem pretende viver a casa como parte central da viagem, em vez de organizar toda a estadia em torno do Quadrado.
+É uma escolha voltada principalmente a quem pretende viver a casa como parte central da viagem, em vez de organizar toda a estadia em torno do Quadrado.
 
 Há residências com grandes áreas sociais, arquitetura integrada à paisagem, vista para o mar e estruturas de lazer variadas. Essa diversidade exige atenção: capacidade, serviços, localização interna e comodidades precisam ser analisados em cada imóvel.
 

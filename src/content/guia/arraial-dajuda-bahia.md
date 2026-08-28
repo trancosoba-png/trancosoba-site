@@ -10,10 +10,9 @@ featured: false
 seoTitle: "Onde ficar em Arraial d’Ajuda: casas do centro às praias"
 seoDescription: "Descubra onde ficar em Arraial d’Ajuda e compare casas próximas ao centro, às praias, com vista para o mar ou acesso direto à areia."
 ---
-
 # Onde ficar em Arraial d’Ajuda: do centro às praias
 
-Arraial d’Ajuda é um destino com identidade própria no sul da Bahia. Parte do município de Porto Seguro, reúne centro histórico, restaurantes, lojas, vida noturna e um litoral formado por praias com características e acessos diferentes.
+Parte do município de Porto Seguro, reúne centro histórico, restaurantes, lojas, vida noturna e um litoral formado por praias com características e acessos diferentes.
 
 Essa variedade também aparece nas hospedagens. É possível procurar casas próximas à Rua do Mucugê, imóveis perto da praia, propriedades com acesso direto ou muito próximo ao mar e residências situadas em áreas mais reservadas ou elevadas.
 

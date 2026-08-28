@@ -10,10 +10,7 @@ featured: false
 seoTitle: "Como chegar em Trancoso: avião, carro, balsa e transfer"
 seoDescription: "Saiba como chegar em Trancoso pelo Aeroporto de Porto Seguro, de carro, balsa ou transfer. Veja opções saindo de Arraial, Caraíva e Praia do Espelho."
 ---
-
 # Como chegar em Trancoso: avião, carro, balsa e transfer
-
-Chegar a Trancoso exige algum planejamento porque a logística muda conforme o ponto de partida, o horário e o endereço da hospedagem.
 
 Para quem viaja em voos comerciais, o Aeroporto de Porto Seguro é uma das principais portas de entrada. De lá, o percurso continua por terra, de transfer, carro alugado, táxi ou outro transporte contratado. A rota pode passar pela balsa entre Porto Seguro e Arraial d’Ajuda ou seguir inteiramente por estrada.
 

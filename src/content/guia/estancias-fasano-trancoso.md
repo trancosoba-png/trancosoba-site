@@ -10,10 +10,9 @@ featured: false
 seoTitle: "Estâncias Fasano em Trancoso: como é a experiência"
 seoDescription: "Entenda a proposta das Estâncias Fasano em Trancoso, o acesso ao complexo Fasano e o que verificar sobre casas, serviços, praia e transporte."
 ---
-
 # Estâncias Fasano em Trancoso: como é a experiência residencial
 
-As Estâncias Fasano em Trancoso despertam o interesse de quem procura uma casa de altíssimo padrão com acesso às estruturas do complexo Fasano. A proposta combina a autonomia de uma residência com uma experiência integrada ao complexo.
+A proposta combina a autonomia de uma residência com uma experiência integrada ao complexo.
 
 As Estâncias Fasano devem ser tratadas como uma área residencial própria, ligada ao Fasano, e não como parte de Itapororoca. Configuração da casa, capacidade, equipe e serviços incluídos podem variar conforme a propriedade e a modalidade da reserva.
 

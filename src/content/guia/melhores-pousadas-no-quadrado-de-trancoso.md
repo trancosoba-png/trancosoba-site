@@ -10,10 +10,9 @@ featured: false
 seoTitle: "Melhores pousadas no Quadrado de Trancoso e arredores"
 seoDescription: "Veja uma curadoria de pousadas e hotéis no Quadrado de Trancoso, além de opções próximas para aproveitar o centro a pé."
 ---
-
 # Melhores pousadas e hotéis no Quadrado de Trancoso e arredores
 
-Escolher uma pousada no Quadrado de Trancoso — ou nas ruas próximas — muda a dinâmica da viagem. Ficar no centro facilita os jantares, as caminhadas entre lojas e ateliês e o retorno à hospedagem depois de aproveitar a noite, muitas vezes sem depender de carro.
+Ficar no centro facilita os jantares, as caminhadas entre lojas e ateliês e o retorno à hospedagem depois de aproveitar a noite, muitas vezes sem depender de carro.
 
 Há, porém, uma diferença importante entre estar efetivamente no Quadrado e ficar na região central. As duas localizações podem ser convenientes, mas proporcionam experiências distintas. Dentro da praça, o hóspede participa mais diretamente da rotina do núcleo histórico. Nos arredores, pode encontrar jardins maiores, mais variedade de hospedagens e uma atmosfera um pouco mais recolhida.
 

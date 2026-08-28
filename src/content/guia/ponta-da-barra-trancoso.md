@@ -10,10 +10,9 @@ featured: false
 seoTitle: "Ponta da Barra em Trancoso: para quem faz sentido ficar nessa região"
 seoDescription: "Entenda como é se hospedar na Ponta da Barra, em Trancoso: perfil da região, praia, privacidade, tipos de casas e diferenças em relação ao Quadrado."
 ---
-
 # Ponta da Barra em Trancoso: como é ficar na região
 
-A Ponta da Barra costuma entrar no radar de quem busca uma estadia mais reservada em Trancoso, com a casa e a praia ocupando um papel central na viagem. Ligada à Praia do Rio da Barra, é uma região de alto padrão junto ao mar, com opções pé na areia e forte presença de propriedades com vista para o mar.
+Ligada à Praia do Rio da Barra, é uma região de alto padrão junto ao mar, com opções pé na areia e forte presença de propriedades com vista para o mar.
 
 A proposta é diferente da encontrada no Quadrado e em seus arredores, onde restaurantes, lojas e vida social ficam mais presentes na rotina.
 

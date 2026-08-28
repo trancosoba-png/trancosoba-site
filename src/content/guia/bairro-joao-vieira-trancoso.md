@@ -10,10 +10,9 @@ featured: false
 seoTitle: "João Vieira em Trancoso: casas e acesso ao Quadrado"
 seoDescription: "Conheça João Vieira em Trancoso, os tipos de casas, o acesso ao Quadrado e os critérios para escolher uma hospedagem na região."
 ---
-
 # João Vieira em Trancoso: casas e acesso ao Quadrado
 
-João Vieira é um bairro residencial de Trancoso procurado por viajantes que querem ficar próximos ao Quadrado e preferem a autonomia de uma casa independente. Predominam imóveis fora de condomínios fechados, com diferentes tamanhos e estilos. Há casas a partir de 2 suítes, opções de 3 suítes, propriedades maiores e imóveis de alto padrão.
+Predominam imóveis fora de condomínios fechados, com diferentes tamanhos e estilos. Há casas a partir de 2 suítes, opções de 3 suítes, propriedades maiores e imóveis de alto padrão.
 
 A localização pode favorecer uma rotina com menos deslocamentos de carro, mas isso não vale para todos os endereços. Em alguns trechos, é viável caminhar até o Quadrado, dependendo da localização exata da casa. A distância, as condições do caminho e a conveniência do percurso precisam ser avaliadas em cada propriedade.
 

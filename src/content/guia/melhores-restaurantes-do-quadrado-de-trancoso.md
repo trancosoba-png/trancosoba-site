@@ -10,10 +10,9 @@ featured: false
 seoTitle: "Melhores restaurantes do Quadrado de Trancoso: onde comer"
 seoDescription: "Descubra os restaurantes do Quadrado de Trancoso para comida baiana, frutos do mar, massas, carnes, sushi, cafés e diferentes ocasiões."
 ---
-
 # Melhores restaurantes do Quadrado de Trancoso: onde comer, o que pedir e qual combina com cada ocasião
 
-O Quadrado reúne algumas das experiências gastronômicas mais conhecidas de Trancoso. Entre casinhas históricas, jardins escondidos, mesas ao ar livre e fachadas iluminadas à noite, há restaurantes de culinária baiana, peixes e frutos do mar, cozinha italiana, parrilla, sushi, propostas contemporâneas, cafés e refeições mais casuais.
+Entre casinhas históricas, jardins escondidos, mesas ao ar livre e fachadas iluminadas à noite, há restaurantes de culinária baiana, peixes e frutos do mar, cozinha italiana, parrilla, sushi, propostas contemporâneas, cafés e refeições mais casuais.
 
 Não existe, porém, um único restaurante que sirva para todos os momentos. Uma moqueca tradicional pede uma escolha; um jantar a dois, outra; uma noite de pizza com a família, outra. Também faz diferença procurar almoço, café, drinks ou uma refeição rápida antes de caminhar pela vila.
 
