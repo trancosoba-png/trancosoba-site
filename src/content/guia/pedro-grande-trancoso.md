@@ -20,6 +20,8 @@ A principal escolha aqui é entre sossego e conveniência. O Pedro Grande pode c
 
 A estadia no Pedro Grande tem perfil predominantemente residencial. Em vez de usar a hospedagem apenas como base para sair durante todo o dia, muitos viajantes procuram a região para passar mais tempo na própria casa e na praia.
 
+![Casa no Condomínio Pedro Grande](/img/guia/int-pg-casa.webp)
+
 Entre as características associadas ao local estão:
 
 - ambiente reservado;
@@ -33,6 +35,8 @@ Esse último ponto merece atenção. O Pedro Grande fica mais afastado do Quadra
 ## Casas, praia e estrutura
 
 ### Perfil das propriedades
+
+![Casa próxima à praia no Pedro Grande](/img/guia/int-pg-praia.webp)
 
 No Pedro Grande, predominam casas maiores e de alto padrão, procuradas principalmente por famílias e grupos. Capacidade, número de suítes, áreas de convivência e serviços variam de uma propriedade para outra, assim como a disponibilidade conforme o período da viagem.
 

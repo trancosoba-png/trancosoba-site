@@ -37,6 +37,8 @@ Isso não significa que todas as residências tenham a mesma configuração ou o
 
 ### Rotina de casa
 
+![Casa nas Estâncias Fasano](/img/guia/int-fasano-casa.webp)
+
 As Estâncias Fasano tendem a fazer mais sentido para quem valoriza o uso da casa durante a viagem, e não apenas como lugar para dormir. Áreas de convivência e uma rotina residencial podem facilitar estadias mais longas, viagens familiares e grupos que preferem permanecer juntos.
 
 Essa dinâmica é diferente da hospedagem em quartos ou suítes separados. Ao mesmo tempo, não se deve padronizar tamanho, estilo, privacidade ou estrutura: essas características dependem da residência escolhida.
@@ -50,6 +52,8 @@ Características como vista para o mar também precisam ser conferidas na descri
 ## Serviços ligados ao Fasano
 
 O acesso ao complexo Fasano é uma extensão relevante da hospedagem nas Estâncias. Todas as casas oferecem aos hóspedes acesso ao complexo, incluindo academia, sauna, piscina, acesso à praia e demais estruturas aplicáveis.
+
+![Área de convivência de casa nas Estâncias Fasano](/img/guia/int-fasano-servico.webp)
 
 Já a composição dos serviços dentro de cada residência pode variar. Algumas casas podem contar com equipe própria, chef ou cozinheiro e profissionais de apoio. Serviços adicionais também podem ser organizados ou contratados à parte, conforme a propriedade e a disponibilidade.
 

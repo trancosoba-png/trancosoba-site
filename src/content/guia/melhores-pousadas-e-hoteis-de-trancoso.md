@@ -69,6 +69,8 @@ A localização atende principalmente a casais e famílias que desejam passar bo
 
 A Praia dos Nativos combina mar, vegetação, trechos de rio e acesso relativamente conveniente à área central. A facilidade de chegar ao Quadrado, porém, varia conforme o endereço e a forma de deslocamento.
 
+![Hospedagem na Praia dos Nativos](/img/guia/int-pousadas-nativos.webp)
+
 Há diferenças importantes entre as hospedagens da região. Algumas ficam diretamente na areia; outras estão nas vias de acesso entre a praia e o centro. Ter “Nativos” no nome não significa, por si só, ser pé na areia.
 
 ### Estrela d’Água
@@ -194,6 +196,8 @@ A hospedagem anteriormente citada apenas como “Maya” corresponde ao **Amaia 
 ## Pousadas e hotéis no Quadrado
 
 Ficar no Quadrado ou nos arredores muda completamente a rotina da viagem. O principal diferencial é poder aproveitar a pé restaurantes, lojas, ateliês, bares, o casario histórico e o movimento do fim da tarde e da noite.
+
+![O Quadrado de Trancoso](/img/guia/editorial-quadrado.webp)
 
 Para quem gosta de jantar fora e não quer organizar transporte a cada saída, a região central tende a ser mais conveniente. Em contrapartida, será necessário se deslocar até as praias.
 

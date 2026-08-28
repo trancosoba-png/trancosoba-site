@@ -28,6 +28,8 @@ Em resumo, a região tende a fazer mais sentido para quem:
 
 Hospedar-se na Ponta da Barra significa escolher um ritmo menos centrado no vilarejo. Em vez de sair várias vezes ao dia para circular entre lojas, restaurantes e bares, o hóspede tende a passar mais tempo na casa, na praia e no entorno da propriedade.
 
+![Praia da Ponta da Barra](/img/guia/int-ponta-praia.webp)
+
 Essa dinâmica pode agradar famílias, grupos de amigos e casais que procuram uma experiência mais recolhida. A região tem como características marcantes a exclusividade, o contato com o mar, a privacidade e o alto padrão.
 
 Ainda assim, cada imóvel deve ser analisado individualmente. Localização, acesso à praia, estrutura e grau de privacidade podem variar entre as propriedades. Embora a vista para o mar seja muito comum na Ponta da Barra, ela não deve ser presumida em todas as casas.
@@ -54,6 +56,8 @@ Também convém verificar:
 ## Casas e perfil das propriedades
 
 A Ponta da Barra é uma região de alto padrão, marcada por privacidade, exclusividade e forte relação com o mar. Há propriedades pé na areia, e a vista para o mar é uma característica muito comum, embora não esteja presente obrigatoriamente em todas as casas.
+
+![Casa na região da Ponta da Barra](/img/guia/int-ponta-casa.webp)
 
 Não há uma configuração única que represente toda a região. Cada propriedade deve ser analisada de acordo com sua estrutura, localização, áreas de lazer, serviços e relação com a praia.
 

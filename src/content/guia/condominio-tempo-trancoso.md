@@ -20,6 +20,8 @@ Há casas de duas suítes e casas de quatro suítes, atendendo de casais e famí
 
 A principal característica do Condomínio Tempo é a relação entre localização central e ambiente interno mais recolhido. Do lado de fora está o movimento da entrada do Quadrado; dentro, a vegetação e o número reduzido de casas ajudam a criar uma atmosfera mais tranquila, embora as propriedades fiquem próximas umas das outras.
 
+![Casa no Condomínio Tempo](/img/guia/int-tempo-casa.webp)
+
 Não se trata de uma hospedagem isolada nem de uma propriedade com grandes terrenos afastados da vila. O condomínio atende melhor quem deseja participar da rotina do centro de Trancoso e voltar para uma casa com mais espaço e independência do que uma acomodação hoteleira tradicional.
 
 Essa dinâmica pode ser especialmente conveniente à noite, quando restaurantes, bares e lojas do Quadrado concentram boa parte do movimento. Poder fazer esse percurso a pé simplifica a saída para jantar e reduz a necessidade de organizar transporte para atividades na região central.
@@ -42,6 +44,8 @@ O Condomínio Tempo fica a aproximadamente 500 metros da praia. É possível faz
 ## Casas de duas ou quatro suítes
 
 O Condomínio Tempo reúne casas de duas suítes e casas de quatro suítes. Como as propriedades não têm necessariamente a mesma configuração, é importante analisar a unidade específica antes da reserva, em vez de considerar apenas as características gerais do condomínio.
+
+![Suíte de casa no Condomínio Tempo](/img/guia/int-tempo-suite.webp)
 
 As casas menores podem atender casais que procuram mais espaço ou famílias pequenas. As unidades de quatro suítes acomodam famílias maiores, duas famílias viajando juntas ou grupos reduzidos de amigos.
 

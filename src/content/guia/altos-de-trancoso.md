@@ -22,6 +22,8 @@ A principal diferença em relação a uma pousada no centro está no tipo de hos
 
 Esse formato pode ser interessante para quem deseja alternar os passeios por Trancoso com períodos aproveitando a própria casa. Também favorece viagens nas quais o grupo prefere compartilhar áreas comuns, mas manter quartos ou suítes separados.
 
+![Jardim amplo e piscina de uma casa nos Altos de Trancoso](/img/guia/int-altos-jardim.webp)
+
 Jardins amplos, presença marcante de natureza, tranquilidade e privacidade são características gerais do condomínio. Os terrenos são maiores e as casas ficam mais afastadas umas das outras, embora a implantação de cada imóvel e a configuração das áreas externas interfiram na experiência.
 
 ## Localização e deslocamentos
@@ -43,6 +45,8 @@ O condomínio fica entre a Praia dos Coqueiros e a Praia dos Nativos, com acesso
 
 As hospedagens associadas ao Condomínio Altos de Trancoso são procuradas principalmente por quem deseja alugar uma casa inteira. No portfólio atual da TrancosoBA, há casas de 3 a 10 suítes, todas de alto padrão. A disponibilidade varia conforme o período e deve ser confirmada para as datas da viagem.
 
+![Área social com estrutura de madeira em casa dos Altos de Trancoso](/img/guia/int-altos-interior.webp)
+
 Mais importante do que considerar apenas um padrão geral é comparar as propriedades individualmente. Número de suítes, configuração dos quartos, áreas de convivência, serviços incluídos e regras de ocupação podem mudar bastante de uma casa para outra.
 
 As casas possuem piscina privativa e os projetos podem combinar arquitetura contemporânea com elementos da arquitetura baiana.
@@ -52,6 +56,8 @@ Algumas propriedades também podem anunciar vista para o mar. Esse atributo não
 ## Para quem essa localização pode funcionar
 
 ### Famílias e grupos
+
+![Sala de estar integrada ao jardim em casa dos Altos de Trancoso](/img/guia/int-altos-convivio.webp)
 
 Casas com vários quartos e áreas compartilhadas podem facilitar viagens em família ou entre amigos. O formato permite reunir o grupo sem eliminar completamente a privacidade, desde que a distribuição das suítes seja adequada.
 

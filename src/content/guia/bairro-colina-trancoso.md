@@ -20,6 +20,8 @@ A experiência, porém, depende bastante do endereço. Condições do trajeto, p
 
 Ficar na Colina pode permitir uma rotina próxima ao centro de Trancoso, mas em um ambiente de perfil residencial. Para muitos viajantes, o interesse está justamente nessa combinação: aproveitar restaurantes, lojas e a vida noturna do Quadrado sem necessariamente se hospedar em seu entorno mais movimentado.
 
+![Jardim de casa no Bairro da Colina, em Trancoso](/img/guia/int-colina-jardim.webp)
+
 Na oferta de hospedagem associada à região, predominam casas independentes, em geral fora de condomínios fechados. As propriedades ficam espalhadas por diferentes ruas e não seguem um padrão único de estrutura. Há imóveis cercados por jardins, propriedades com áreas de convivência maiores e configurações voltadas a famílias ou grupos.
 
 Essa variedade também impede generalizações sobre silêncio e privacidade. A sensação de tranquilidade pode mudar conforme a rua, a vizinhança, a posição da casa e a época do ano. Em períodos de maior movimento em Trancoso, essas diferenças tendem a ficar mais perceptíveis.
@@ -45,6 +47,8 @@ Mesmo quando o Quadrado pode ser alcançado a pé, o carro ou o transporte contr
 ## Como são as casas na Colina
 
 A oferta não segue um único padrão. Há propriedades com diferentes capacidades, estilos arquitetônicos, áreas externas e níveis de serviço. Casas com o mesmo número de quartos podem oferecer experiências bastante distintas, dependendo da distribuição interna e da estrutura disponível.
+
+![Sala de estar de casa na Colina](/img/guia/int-colina-interior.webp)
 
 Existem casas de três e quatro suítes, além de propriedades maiores e imóveis de alto padrão. A variedade permite atender diferentes perfis de famílias e grupos, de acordo com a disponibilidade de cada período.
 
@@ -155,6 +159,8 @@ Para grupos, também é recomendável verificar se todos os quartos oferecem pad
 | **Acesso às praias** | Depende da praia escolhida e deve entrar no planejamento de transporte |
 | **Necessidade de carro** | Varia conforme a casa, o perfil do grupo e os passeios |
 | **Custo-benefício** | Deve considerar diária, capacidade, localização, serviços e deslocamentos |
+
+![Piscina de casa na Colina](/img/guia/int-colina-piscina.webp)
 
 ## Perguntas frequentes sobre a Colina
 

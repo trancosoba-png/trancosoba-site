@@ -38,6 +38,8 @@ Essas características não devem ser entendidas como um padrão idêntico em to
 
 No Condomínio Jacarandá, há casas de cinco, seis e sete suítes. A disponibilidade de cada opção varia conforme a propriedade e o período consultado.
 
+![Casa no Condomínio Jacarandá](/img/guia/int-jac-casa.webp)
+
 Antes de comparar preços, verifique:
 
 - quantas suítes estão disponíveis para os hóspedes;
@@ -52,6 +54,8 @@ Para viagens multigeracionais, a posição dos quartos merece atenção adiciona
 ## O Jacarandá funciona para grupos grandes?
 
 As casas de cinco, seis e sete suítes fazem do Jacarandá uma opção para grupos maiores. A vantagem não está apenas no número de dormitórios: áreas de convivência adequadas ajudam a manter o grupo reunido sem comprometer a privacidade nos momentos de descanso.
+
+![Área de convivência de casa no Jacarandá](/img/guia/int-jac-grupo.webp)
 
 Ainda assim, uma casa com muitas suítes não é automaticamente adequada para qualquer grupo. A capacidade depende das regras da propriedade, do tipo de cama disponível e de eventuais limites estabelecidos para hóspedes e visitantes.
 

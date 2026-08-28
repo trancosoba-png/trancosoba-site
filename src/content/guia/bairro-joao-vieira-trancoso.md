@@ -22,6 +22,8 @@ Por isso, escolher uma casa no João Vieira envolve mais do que olhar o nome da 
 
 João Vieira combina uma atmosfera residencial com acesso relativamente próximo ao centro turístico de Trancoso. Em vez de uma hospedagem padronizada, o viajante encontra principalmente casas independentes, em geral fora de condomínios fechados, com propostas próprias de arquitetura, áreas de convivência, privacidade e serviço.
 
+![Casa no Bairro João Vieira, em Trancoso](/img/guia/int-jv-casa.webp)
+
 Essa variedade permite escolher o imóvel de acordo com o tamanho e a dinâmica do grupo. Também exige mais atenção durante a reserva: duas casas na mesma região podem proporcionar experiências bastante diferentes.
 
 Em uma propriedade, o destaque pode estar na área externa e na piscina. Em outra, na proximidade do Quadrado ou na presença de equipe de apoio. Segurança, estacionamento, manutenção, privacidade e serviços não seguem necessariamente um padrão comum.
@@ -46,6 +48,8 @@ Antes de reservar, procure esclarecer:
 ## Como escolher uma casa na região
 
 ### Tamanho e configuração
+
+![Living integrado de casa no João Vieira](/img/guia/int-jv-living.webp)
 
 João Vieira oferece casas de diferentes tamanhos, incluindo opções a partir de 2 suítes, casas de 3 suítes e propriedades maiores. Também existem imóveis de alto padrão. A disponibilidade comercial varia conforme o período e a propriedade.
 
@@ -99,6 +103,8 @@ A região tende a entrar na comparação de quem:
 ## Custo-benefício
 
 João Vieira pode representar uma alternativa com bom custo-benefício em relação a áreas mais caras de Trancoso. Ainda assim, o resultado depende da combinação entre período da viagem, localização, tamanho da casa, serviços e número de hóspedes. Não é correto presumir que uma casa independente será sempre mais barata do que um hotel, uma pousada ou uma propriedade em condomínio.
+
+![Piscina de casa no João Vieira ao entardecer](/img/guia/int-jv-piscina.webp)
 
 Para uma comparação justa, considere o valor total da hospedagem e não apenas a diária. Custos com transporte, alimentação, equipe, limpeza e serviços adicionais podem alterar bastante o orçamento.
 

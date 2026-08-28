@@ -104,6 +104,8 @@ Em ambas, vale escolher o trecho de acordo com o acesso, a estrutura desejada e 
 
 ### Praia do Rio Verde
 
+![Faixa de areia e coqueiros na Praia de Itapororoca, ao sul de Trancoso](/img/guia/int-praias-itapororoca.webp)
+
 Ao sul de Coqueiros, Rio Verde pode ter um ambiente mais tranquilo, sobretudo fora dos pontos e períodos de maior movimento.
 
 Há restaurantes e estruturas de apoio em alguns trechos, além de acessos ligados a vias, hospedagens e propriedades diferentes. A experiência depende bastante do local exato de chegada.
@@ -232,6 +234,8 @@ Por outro lado, hospedar-se no Espelho exige atenção à localização da pousa
 ## De Satú a Caraíva
 
 ### Praia do Satú
+
+![Encontro do rio Caraíva com o mar, visto de cima](/img/guia/int-praias-caraiva.webp)
 
 Satú fica no eixo entre Espelho e Caraíva e está especialmente ligada aos passeios que partem de Caraíva. A paisagem reúne falésias, coqueiros, recifes e áreas preservadas.
 

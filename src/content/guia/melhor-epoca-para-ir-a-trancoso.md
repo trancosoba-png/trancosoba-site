@@ -45,6 +45,8 @@ Por isso, escolher o mês sem considerar a localização pode levar a uma conclu
 
 O clima de Trancoso pode ser descrito de forma geral como quente ao longo do ano, com variação de chuvas entre os meses. Mesmo em períodos mais amenos, não há um inverno rigoroso, embora vento, nebulosidade e chuva possam mudar a sensação térmica.
 
+![Praia com falésias em Trancoso em dia de sol](/img/guia/int-epoca-praia.webp)
+
 Também não existe uma estação completamente seca. Pode chover em qualquer mês, e as condições variam de um ano para outro. A chuva tropical pode ocorrer de forma intercalada: uma pancada pela manhã ou à noite não significa necessariamente um dia inteiro sem praia.
 
 Para análises climáticas, a referência oficial recomendada são as Normais Climatológicas do INMET, preferencialmente do período 1991–2020. Médias mensais exatas de chuva ou temperatura devem ser acompanhadas da identificação da estação meteorológica utilizada. Como essas médias históricas não funcionam como previsão para uma viagem específica, o mais seguro é considerar que Trancoso permanece quente ao longo do ano e está sujeito a períodos de chuva em diferentes meses.
@@ -134,6 +136,8 @@ Famílias e grupos costumam buscar hospedagens com várias suítes, áreas de co
 ## Réveillon, Carnaval e temporada das baleias
 
 ### Réveillon
+
+![Fogos de Réveillon sobre a igreja do Quadrado, em Trancoso](/img/guia/int-epoca-reveillon.webp)
 
 O Réveillon é um dos períodos mais procurados do calendário de Trancoso. A demanda envolve famílias, grupos de amigos e viajantes interessados tanto nas festas quanto na vida social do destino.
 

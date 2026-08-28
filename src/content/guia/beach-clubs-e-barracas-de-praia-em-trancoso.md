@@ -89,6 +89,8 @@ Não presuma entrada livre ou disponibilidade imediata. Condições de acesso, r
 
 Rio da Barra tem atmosfera mais resguardada, marcada pelo encontro entre rio, mar e vegetação. O trecho se relaciona geograficamente com áreas como Pedro Grande, Fazenda Rio da Barra e hospedagens instaladas nessa parte da costa.
 
+![Varanda com vista para o mar na Praia do Rio da Barra](/img/guia/int-bc-riodabarra.webp)
+
 É uma escolha voltada mais à natureza e à tranquilidade do que a uma programação de música ou festas.
 
 ### Rio da Barra Beach Club
@@ -100,6 +102,8 @@ Seus atrativos estão na paisagem, no encontro do rio com o mar e no ritmo mais 
 ## Praia dos Nativos
 
 A Praia dos Nativos reúne pousadas tradicionais pé na areia, bares de hotel, beach clubs, restaurantes gastronômicos e barracas mais informais. Essa variedade permite combinar praia e almoço sem limitar a escolha ao formato clássico de beach club.
+
+![Praia dos Nativos, em Trancoso](/img/guia/int-bc-nativos.webp)
 
 ### Estrela d’Água
 

@@ -28,6 +28,8 @@ Essa dinâmica não deve ser confundida com isolamento completo nem com hospedag
 
 Não há um único padrão de imóvel no Terravista Vilas. As casas podem variar em tamanho, arquitetura, número de suítes, integração entre áreas internas e externas, vista e estrutura de apoio.
 
+![Casa no Terravista Vilas](/img/guia/int-vilas-casa.webp)
+
 Existem casas aproximadamente na faixa de duas a cinco suítes. A configuração e a disponibilidade variam conforme a propriedade e o período consultado.
 
 Mais do que considerar apenas o número de quartos, vale entender como a casa funciona para o grupo. Em viagens com vários casais, por exemplo, a equivalência entre as suítes pode ser relevante. Para famílias com crianças, pesam a distribuição dos ambientes, as características da piscina, quando houver, e a facilidade dos deslocamentos.
@@ -48,6 +50,8 @@ Antes da reserva, convém verificar:
 ## Campo de golfe e paisagem
 
 O Terravista Vilas mantém uma relação próxima com o campo de golfe, associado à identidade e à paisagem do complexo. Mesmo para quem não pretende jogar, ele influencia a percepção de espaço e o desenho da região.
+
+![Paisagem do campo de golfe no Terravista Vilas](/img/guia/int-vilas-golfe.webp)
 
 Existem casas no Terravista Vilas com relação visual direta com o campo de golfe, mas essa característica varia conforme a propriedade.
 
@@ -88,6 +92,8 @@ As saídas para o Quadrado, restaurantes e outros pontos de Trancoso também pre
 ## Serviços e rotina na propriedade
 
 Uma estadia no Terravista Vilas pode ser organizada em torno da própria casa. Refeições, períodos de descanso e encontros do grupo tendem a ocupar boa parte do dia, sobretudo quando a propriedade oferece áreas externas adequadas.
+
+![Interior de casa no Terravista Vilas](/img/guia/int-vilas-interior.webp)
 
 Cada imóvel, porém, possui uma operação própria. A composição do staff, os horários de trabalho e os serviços incluídos na diária podem mudar. Algumas casas podem oferecer arrumação ou apoio de cozinha; em outras, esses serviços podem ser limitados ou cobrados separadamente.
 

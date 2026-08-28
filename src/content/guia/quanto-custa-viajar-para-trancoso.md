@@ -71,6 +71,8 @@ Não deixe para calcular alimentação e transporte apenas depois de escolher a 
 
 Trancoso oferece pousadas, hotéis, casas menores, propriedades para famílias, imóveis com cinco ou mais suítes e casas de alto padrão, algumas com acesso à praia, vista para o mar ou serviços próprios.
 
+![Casa de temporada em Trancoso](/img/guia/int-custo-hospedagem.webp)
+
 O valor anunciado não deve ser analisado isoladamente. Antes de reservar, confira:
 
 - valor total para as datas exatas;

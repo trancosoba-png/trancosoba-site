@@ -22,6 +22,8 @@ Entender essa diferença evita expectativas equivocadas e ajuda a escolher uma c
 
 As propriedades localizadas na faixa da Praia de Itapororoca oferecem uma rotina mais diretamente ligada ao mar. Dependendo do imóvel, a configuração pode incluir jardins, piscina, casa principal, bangalôs ou anexos para acomodar famílias e grupos.
 
+![Casa pé na areia na Praia de Itapororoca](/img/guia/int-itapo-praia.webp)
+
 O acesso à praia varia. Algumas casas são realmente pé na areia; outras ficam próximas, mas exigem algum percurso. Por isso, o nome da região não é suficiente para definir a localização exata.
 
 ### Como é ficar em uma casa pé na areia
@@ -40,6 +42,8 @@ A expressão “pé na areia”, no entanto, deve ser verificada em cada anúnci
 ## Altos de Itapororoca
 
 Nos Altos de Itapororoca, a experiência muda. As casas ficam em uma área mais elevada, possuem acesso à praia e algumas propriedades têm vista para o mar. Aqui, a escolha costuma estar menos ligada à ideia de sair diretamente na areia e mais à posição do imóvel, à vegetação do entorno e à perspectiva da paisagem.
+
+![Casa nos Altos de Itapororoca, entre a mata](/img/guia/int-itapo-altos.webp)
 
 Entre as características que podem aparecer estão:
 
