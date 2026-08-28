@@ -22,6 +22,8 @@ Neste guia, Fazenda Rio da Barra é o nome usado para identificar a área onde e
 
 A experiência tende a ser mais residencial do que a de uma pousada próxima ao Quadrado. O ritmo da viagem costuma passar pela própria casa, pelas refeições compartilhadas, pelo contato com a natureza e pela praia.
 
+![Casa na Fazenda Rio da Barra](/img/guia/int-fazenda-casa.webp)
+
 Esse perfil favorece famílias e grupos que desejam aproveitar as áreas sociais e passar uma parte relevante do dia na propriedade. Em casas maiores, a estrutura de serviço também pode ter peso importante na rotina, sobretudo quando estão previstas refeições no local.
 
 O padrão das residências, porém, não é uniforme. Tamanho, arquitetura, vista, lazer, composição da equipe e distância interna até a área de acesso à praia mudam conforme o imóvel. Fotografias ajudam, mas não substituem uma descrição clara de como a casa funciona.
@@ -29,6 +31,8 @@ O padrão das residências, porém, não é uniforme. Tamanho, arquitetura, vist
 ## Casas, estrutura e serviços
 
 Na Fazenda Rio da Barra predominam propriedades de maior porte, muitas delas preparadas para receber famílias e grupos. Isso não significa que todas tenham a mesma capacidade, quantidade de suítes ou configuração de camas.
+
+![Interior de casa na Fazenda Rio da Barra](/img/guia/int-fazenda-interior.webp)
 
 Algumas casas privilegiam a integração entre ambientes internos e externos; outras apresentam áreas sociais mais compartimentadas ou estruturas de lazer específicas. Também existem diferenças relevantes na relação com a paisagem e na posição dentro da área residencial.
 
@@ -56,6 +60,8 @@ Se esse for um critério importante, peça imagens recentes e confirme de quais 
 ## Praia e deslocamentos
 
 Todas as casas e seus hóspedes possuem acesso à Praia do Rio da Barra. A distância e o percurso a partir de cada residência, porém, podem variar conforme a localização da propriedade.
+
+![Praia na região de Rio da Barra](/img/guia/int-fazenda-praia.webp)
 
 Para famílias com crianças, pessoas idosas ou hóspedes com mobilidade reduzida, vale solicitar uma descrição objetiva do trajeto, incluindo distância, inclinação, tipo de piso e eventuais trechos que exijam caminhada.
 

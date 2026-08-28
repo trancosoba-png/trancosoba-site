@@ -312,6 +312,8 @@ Os restaurantes não recebem símbolos fixos de preço neste guia porque cardáp
 
 Nem sempre é necessário reservar, mas o planejamento reduz o risco de não encontrar mesa no restaurante desejado.
 
+![O Quadrado de Trancoso ao entardecer](/img/guia/int-restaurantes-quadrado.webp)
+
 A reserva merece atenção especial em:
 
 - Réveillon;

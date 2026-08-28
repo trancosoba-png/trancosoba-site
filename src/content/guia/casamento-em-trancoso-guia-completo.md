@@ -70,6 +70,8 @@ A ordem das decisões também faz diferença. Em geral, é mais seguro analisar 
 
 Não existe uma resposta única. A escolha depende da atmosfera desejada, do número de convidados, da hospedagem, do horário, da estrutura necessária e das regras de cada local.
 
+![Casa em Trancoso, cenário de casamentos](/img/guia/int-casamento-local.webp)
+
 ### Quadrado
 
 O Quadrado costuma interessar a casais que buscam uma celebração conectada à história e à identidade do vilarejo.
@@ -329,6 +331,8 @@ A contratação, o escopo, os fornecedores envolvidos, a disponibilidade e as co
 ## Hospedagem dos noivos e convidados
 
 A hospedagem afeta transporte, orçamento, comunicação e experiência dos convidados. Em Trancoso, ela não deve ser tratada como uma decisão separada do local do casamento.
+
+![Casa ampla para hospedar convidados em Trancoso](/img/guia/int-casamento-hospedagem.webp)
 
 Há três estratégias principais.
 

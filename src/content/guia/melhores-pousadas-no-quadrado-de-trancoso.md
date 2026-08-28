@@ -39,6 +39,8 @@ Essa escolha faz menos diferença para quem pretende passar quase todo o dia na 
 
 As propriedades desta seção estão diretamente associadas à experiência de se hospedar no núcleo histórico. Ainda assim, vale conferir a posição da entrada e a categoria exata da acomodação antes da reserva. Vista, privacidade e exposição ao movimento podem variar até dentro do mesmo hotel.
 
+![Varanda de hospedagem no Quadrado de Trancoso](/img/guia/int-pousadaq-varanda.webp)
+
 ### UXUA Casa Hotel & Spa
 
 O **UXUA Casa Hotel & Spa** é uma das hospedagens de alto padrão mais conhecidas do Quadrado. Sua proposta é organizada em casas, algumas instaladas em construções históricas restauradas e outras integradas ao conjunto arquitetônico e paisagístico do hotel.
@@ -106,6 +108,8 @@ A Capim Santo pode atender tanto casais quanto famílias, de acordo com a config
 ## Hospedagens na região imediata do Quadrado
 
 Nem todas as pousadas centrais estão literalmente dentro da praça. Algumas ficam em ruas próximas e ainda permitem fazer boa parte da programação a pé. Essa diferença deve ser observada no mapa, principalmente quando o nome comercial sugere uma localização que não corresponde necessariamente à entrada da propriedade.
+
+![Piscina iluminada de hospedagem perto do Quadrado](/img/guia/int-pousadaq-noite.webp)
 
 ### Hotel Boutique Vila São João
 

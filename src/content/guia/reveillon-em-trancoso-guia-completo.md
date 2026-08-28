@@ -136,6 +136,8 @@ Confirme se a programação existe, se está incluída na diária, se há cobran
 
 No Réveillon, não basta escolher a casa ou pousada mais bonita. É preciso entender como o grupo pretende usar o destino.
 
+![Casa em condomínio em Trancoso](/img/guia/int-reveillon-casa.webp)
+
 Antes de reservar, considere:
 
 - proximidade do Quadrado;
@@ -220,6 +222,8 @@ As classificações e distâncias são referências gerais e aproximadas. Endere
 ## Casas de temporada para grupos
 
 Casas de temporada são muito procuradas por grupos que desejam conviver, dividir serviços e manter uma base comum. Propriedades com quatro, cinco, seis, sete ou mais suítes podem receber grupos diferentes, mas a capacidade não deve ser calculada apenas pelo número de quartos.
+
+![Casa para grupos em Trancoso](/img/guia/int-reveillon-grupo.webp)
 
 Confirme:
 

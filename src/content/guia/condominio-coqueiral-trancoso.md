@@ -22,6 +22,8 @@ O Coqueiral é um condomínio residencial com segurança 24 horas e controle de 
 
 O Coqueiral reúne boas casas, propriedades espaçosas e opções de alto padrão. Algumas podem apresentar padrão semelhante ao encontrado no Altos de Trancoso e em Pedro Grande, mas as características variam de uma propriedade para outra.
 
+![Casa no Condomínio Coqueiral](/img/guia/int-coq-casa.webp)
+
 Em geral, o perfil faz mais sentido para quem pretende aproveitar a própria casa durante uma parte importante da viagem. Piscina, áreas de convivência, distribuição das suítes e estrutura para refeições ganham peso quando o grupo passa mais tempo reunido na propriedade.
 
 O Coqueiral tende a entrar no planejamento de:
@@ -38,6 +40,8 @@ A adequação depende, no entanto, da casa escolhida. Privacidade, acessibilidad
 ## Casas e capacidade de hospedagem
 
 Há algumas casas de três suítes, mas a oferta é mais forte em propriedades de quatro, cinco, seis, sete suítes ou mais. A disponibilidade varia conforme as datas e o período consultado.
+
+![Interior de casa no Condomínio Coqueiral](/img/guia/int-coq-interior.webp)
 
 O número de suítes também não define sozinho quantas pessoas podem ficar na casa. A ocupação autorizada depende da configuração das camas, das regras do imóvel e da estrutura oferecida.
 
@@ -124,6 +128,8 @@ Nos dois condomínios, a decisão deve ser feita imóvel a imóvel. Capacidade, 
 ## Para quem o Coqueiral pode funcionar bem
 
 O perfil do Coqueiral tende a combinar com viagens em que a casa tem papel central. Isso inclui grupos que desejam compartilhar refeições, descansar juntos e manter alguma privacidade entre as suítes.
+
+![Área externa de casa no Coqueiral](/img/guia/int-coq-area.webp)
 
 Pode fazer sentido para:
 

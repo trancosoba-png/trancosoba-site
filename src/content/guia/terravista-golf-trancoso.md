@@ -20,6 +20,8 @@ A região costuma atrair quem procura casas amplas, mais privacidade e uma rotin
 
 No Terravista Golf, a casa tende a ocupar um papel central na viagem. Piscina, varanda, jardim e áreas de convivência podem fazer com que hóspedes passem boa parte do dia na própria propriedade, especialmente em viagens com família ou amigos.
 
+![Casa no Terravista Golf](/img/guia/int-golf-casa.webp)
+
 Essa experiência depende bastante do imóvel escolhido. As casas têm tamanhos, plantas, posições e estruturas diferentes. Algumas estão voltadas para o campo; outras se relacionam mais com jardins, vegetação ou paisagem marítima. Nem todas oferecem piscina, vista para o mar ou os mesmos serviços.
 
 O ambiente residencial, a privacidade e a segurança também costumam pesar na escolha. Ainda assim, regras para hóspedes, visitantes, prestadores de serviço e uso das estruturas do complexo precisam ser verificadas diretamente com a hospedagem.
@@ -29,6 +31,8 @@ Ao contrário de quem fica perto do Quadrado, o hóspede do Terravista Golf não
 ## Casas no Terravista Golf: o que comparar
 
 As hospedagens são principalmente casas residenciais de alto padrão, com diferentes capacidades e estilos arquitetônicos. Mais do que procurar apenas pelo nome “Terravista”, vale analisar como cada imóvel funciona na prática.
+
+![Interior de casa no Terravista Golf](/img/guia/int-golf-interior.webp)
 
 Antes da reserva, confira:
 
@@ -50,6 +54,8 @@ Também é importante entender o que significa “staff” em cada anúncio. Alg
 ## O campo de golfe e a paisagem
 
 O campo influencia diretamente a aparência e a atmosfera da região. Os gramados, a vegetação e os espaços abertos criam um cenário bastante diferente do centro de Trancoso, marcado por maior circulação de pessoas e estabelecimentos comerciais.
+
+![Casa com vista para o campo de golfe do Terravista](/img/guia/int-golf-campo.webp)
 
 Mesmo para não golfistas, o percurso contribui para a sensação de amplitude e para a relação das casas com a paisagem. Algumas propriedades aproveitam melhor a vista para o campo; em outras, a vegetação ou a implantação do imóvel limita essa perspectiva.
 

@@ -49,6 +49,8 @@ Dentro da área principal, a estadia deve ser planejada considerando deslocament
 
 Praia e rio fazem parte da paisagem de Caraíva, mas criam rotinas diferentes. Nenhuma localização é melhor de forma absoluta: a escolha depende de como o viajante pretende distribuir os dias.
 
+![Rio e mar em Caraíva](/img/guia/int-caraiva-rio.webp)
+
 | Localização | Pode favorecer | Pontos de atenção |
 |---|---|---|
 | **Perto da praia** | Banhos de mar frequentes e facilidade para voltar à casa ao longo do dia | “Perto” não significa necessariamente vista, acesso direto ou posição pé na areia |
@@ -74,6 +76,8 @@ Também é importante observar o percurso até a praia e o nível de movimento n
 ## Como escolher uma casa em Caraíva
 
 A oferta de casas de temporada inclui desde imóveis compactos até propriedades preparadas para famílias e grupos. Mais importante do que contar suítes é entender como os espaços funcionam.
+
+![Casa em Caraíva](/img/guia/int-caraiva-casa.webp)
 
 Duas casas com o mesmo número de quartos podem ter diferenças relevantes na distribuição das camas, quantidade de banheiros, tamanho das áreas comuns, cozinha, jardim, privacidade e serviços.
 

@@ -38,6 +38,8 @@ Em Trancoso, duas hospedagens anunciadas como próximas podem oferecer rotinas b
 
 Há dois perfis principais de hospedagem para famílias: perto do Quadrado ou em regiões mais reservadas. Nenhum é superior em todos os casos.
 
+![Living amplo de casa em Trancoso](/img/guia/int-criancas-casa.webp)
+
 Uma estadia curta, com jantares frequentes fora, pode favorecer a área central. Já famílias maiores ou interessadas em piscina, jardim e refeições na propriedade podem aproveitar melhor uma casa afastada do movimento.
 
 ### Perto do Quadrado
@@ -161,6 +163,8 @@ Antes da reserva, pergunte:
 ## Praias de Trancoso com crianças
 
 Nativos, Coqueiros, Rio Verde, Itapororoca e Rio da Barra podem fazer parte de uma viagem em família. A escolha deve considerar a localização da hospedagem, o acesso, a estrutura disponível no trecho e as condições do mar no dia.
+
+![Vista aérea da praia na região de Rio da Barra](/img/guia/int-criancas-praia.webp)
 
 Nenhuma praia deve ser tratada como sempre calma. Maré, vento e ondulação mudam. Os responsáveis precisam observar o trecho escolhido e seguir as orientações locais.
 

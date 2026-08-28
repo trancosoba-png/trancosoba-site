@@ -24,6 +24,8 @@ Uma estadia de dois dias também pode valer a pena, desde que o roteiro seja enx
 
 Para a maioria dos viajantes, a escolha pode ser resumida assim:
 
+![O Quadrado de Trancoso](/img/guia/editorial-quadrado.webp)
+
 | Duração | Para quem funciona | Ritmo | O que priorizar |
 |---|---|---|---|
 | **2 dias** | Fim de semana ou extensão de outra viagem | Enxuto | Quadrado e uma praia |
@@ -174,6 +176,8 @@ Por isso, deixar ao menos um período livre é mais útil do que preencher todos
 ## Como escolher as praias sem correr
 
 Entre as praias e regiões litorâneas mais conhecidas de Trancoso estão:
+
+![Praia em Trancoso](/img/guia/editorial-praia.webp)
 
 - Praia dos Nativos;
 - Praia dos Coqueiros;
