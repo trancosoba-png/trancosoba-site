@@ -242,3 +242,23 @@ img {
   outline: 2px solid #b08d57;
   outline-offset: 2px;
 }
+
+/* Bloco editorial de FAQ nos artigos do Guia (container gerado no build) */
+.faq-block {
+  margin-top: 3rem;
+  padding: 1.75rem 1.5rem 0.5rem;
+  background: rgba(34, 57, 47, 0.035);
+  border: 1px solid rgba(34, 57, 47, 0.12);
+}
+@media (min-width: 768px) {
+  .faq-block { padding: 2.25rem 2.25rem 0.75rem; }
+}
+.faq-block > h2 { margin-top: 0 !important; }
+.faq-block h3 {
+  margin-top: 1.6rem;
+  padding-left: 1rem;
+  border-left: 2px solid #b08d57;
+  font-size: 1.3rem;
+  line-height: 1.35;
+}
+.faq-block h3:first-of-type { margin-top: 1.4rem; }

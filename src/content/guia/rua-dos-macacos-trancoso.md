@@ -129,10 +129,6 @@ O carro costuma ser importante, especialmente para quem pretende frequentar o Qu
 
 Consulte o endereço completo e o ponto exato da propriedade antes da reserva. Isso permite avaliar a distância até o Quadrado e as praias, além de planejar a necessidade de carro ou de outros serviços de transporte.
 
-### Que tipos de hospedagem existem na região?
-
-A área reúne casas independentes, villas e unidades em condomínios. Entre os empreendimentos associados à região estão o La Dolce Vita Trancoso e o Trancoso Eco Residence. A estrutura varia, por isso itens como piscina, estacionamento, serviços e equipamentos devem ser conferidos em cada propriedade.
-
 ### A região funciona bem para famílias?
 
 Pode funcionar, sobretudo quando a propriedade oferece quartos e áreas de convivência adequados ao grupo. Também é necessário avaliar a segurança das áreas externas, a disponibilidade de comodidades para crianças e a logística de transporte.

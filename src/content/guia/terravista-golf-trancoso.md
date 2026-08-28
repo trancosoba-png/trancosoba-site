@@ -156,10 +156,6 @@ As condições dependem da propriedade e das regras vigentes. Autorizações, id
 
 O carro é recomendável para ter mais autonomia, sobretudo nos deslocamentos até o Quadrado e outras áreas de Trancoso. Táxi, transfer e motorista privativo sob consulta também podem ser considerados.
 
-### As casas possuem equipe?
-
-Algumas propriedades incluem equipe ou oferecem serviços adicionais. Composição do staff, horários, refeições e custos devem ser confirmados antes da reserva.
-
 ### Qual é a principal diferença entre Terravista Golf e o Quadrado?
 
 No Terravista Golf, a viagem tende a ser mais residencial e dependente de deslocamentos. Perto do Quadrado, é mais fácil circular a pé entre restaurantes, bares e lojas, com maior contato com o movimento do centro histórico.

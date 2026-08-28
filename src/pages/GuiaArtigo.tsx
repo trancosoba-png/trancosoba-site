@@ -4,7 +4,7 @@ import { useLang } from '../i18n';
 import { Reveal } from '../components/Layout';
 import PropertyCard from '../components/PropertyCard';
 import GuiaCta from '../components/GuiaCta';
-import { guiaBySlug, guiaRelated, guiaDate } from '../data/guia';
+import { guiaBySlug, guiaRelated } from '../data/guia';
 import { guiaHouses } from '../data/guia-casas';
 import { guiaCtaRegion, guiaCtaRegionFinal, guiaCtaGeneric } from '../data/guia-cta';
 
@@ -96,12 +96,6 @@ export default function GuiaArtigo() {
         <div className="max-w-3xl mx-auto px-5 md:px-8">
           <Reveal className="mt-8">
             <p className="eyebrow text-green-e/50">{article.category}</p>
-            <p className="mt-2 text-[13px] text-ink/50 tracking-wide">
-              {t.guia.publishedLabel} {guiaDate(article.publishedAt)}
-              {article.updatedAt && article.updatedAt !== article.publishedAt && (
-                <> · {t.guia.updatedLabel} {guiaDate(article.updatedAt)}</>
-              )}
-            </p>
             <p className="mt-5 mb-10 text-lg md:text-xl text-ink/65 leading-relaxed font-serif-e italic">
               {article.description}
             </p>

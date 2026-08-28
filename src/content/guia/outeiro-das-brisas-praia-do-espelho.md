@@ -207,10 +207,6 @@ Sim. O Outeiro das Brisas possui beach club. Horários, serviços, regras de ace
 
 É importante contar com transporte planejado. A solução pode envolver carro ou serviço contratado, dependendo das idas a Trancoso, dos passeios e da organização da estadia.
 
-### O Outeiro fica perto do Quadrado?
-
-Não. O condomínio fica mais afastado do Quadrado do que as hospedagens localizadas no centro de Trancoso. O percurso varia conforme a rota, as condições da estrada e o ponto de partida.
-
 ### Vale ficar no Outeiro para conhecer Trancoso?
 
 Pode fazer sentido para quem pretende combinar algumas visitas a Trancoso com uma estadia concentrada na Praia do Espelho. Para frequentar o Quadrado diariamente, uma hospedagem no centro ou em áreas próximas tende a oferecer uma logística mais simples.

@@ -468,43 +468,15 @@ A TrancosoBA não deve ser considerada um canal de venda de ingressos sem confir
 
 A programação muda todos os anos. Festa do Taípe, We Love Trancoso, Saravá e Maracutaia estão entre as referências informadas localmente, mas nomes, datas, locais, produtores e line-ups devem ser confirmados no calendário oficial de cada edição.
 
-### O que é a Festa do Taípe?
-
-A Festa do Taípe é uma tradição recorrente do Réveillon de Trancoso. Sua data, localização, formato, ingressos e programação precisam ser verificados para a edição vigente.
-
 ### Onde ficar no Réveillon?
 
 Quadrado e arredores favorecem a rotina de restaurantes e centro. Itapororoca está ligada a praia, casas amplas e hospedagens de alto padrão. Pedro Grande, Rio da Barra, Terravista, Coqueiral e Jacarandá podem atender grupos com outras prioridades de espaço, privacidade e logística.
 
 A escolha depende do endereço exato, do orçamento e dos locais confirmados dos eventos.
 
-### Quanto custa uma casa?
-
-Não existe um preço médio único. Região, número de suítes, acesso à praia, padrão, pacote, equipe e demanda influenciam o valor.
-
 ### Quantas noites são exigidas?
 
 Muitas casas trabalham com pacotes de dez noites. Em vários casos, o hóspede permanece sete noites, mas paga o valor correspondente ao pacote de dez. Algumas propriedades podem oferecer condições específicas para sete noites, por isso a regra deve ser confirmada em cada reserva.
-
-### Precisa de carro ou motorista?
-
-Depende da hospedagem e da programação. Parte da rotina pode ser feita a pé perto do Quadrado, mas praias e eventos afastados normalmente exigem transporte. Para festas e consumo de álcool, motorista ou transfer deve ser planejado com antecedência.
-
-### Restaurantes e apoios de praia têm programação especial?
-
-Alguns estabelecimentos podem adotar menus, reservas, eventos ou horários diferentes. Cardápios, preços, horários, consumação, disponibilidade e programação devem ser confirmados diretamente para a data da viagem.
-
-### Casas incluem chef e funcionários?
-
-Algumas casas incluem equipe própria, que pode envolver cozinheiro, chef ou outros profissionais de apoio. Em outras, esses serviços são contratados à parte. A composição, as funções, os horários e os custos variam conforme a propriedade.
-
-### É possível passar a virada em casa?
-
-Sim. É uma alternativa prática para famílias e grupos, desde que sejam respeitadas as regras da propriedade e do condomínio sobre convidados, fornecedores, som e eventos. Uma festa com convidados externos depende de autorização prévia.
-
-### O Réveillon funciona para crianças?
-
-Pode funcionar, desde que hospedagem, alimentação, segurança, horários e transporte sejam planejados. Berços, cadeiras de alimentação e outros itens infantis devem ser confirmados na propriedade. A participação em festas depende das regras oficiais de cada evento.
 
 ### Quando a programação é divulgada?
 
@@ -522,6 +494,6 @@ Quanto mais cedo essas prioridades forem alinhadas, menor o risco de transformar
 
 - [Onde ficar em Trancoso: entenda as regiões antes de escolher](/guia/onde-ficar-em-trancoso)
 - [Melhor época para ir a Trancoso: guia mês a mês](/guia/melhor-epoca-para-ir-a-trancoso)
-- [Quanto custa viajar para Trancoso? Como calcular hospedagem, alimentação e transporte](/guia/quanto-custa-viajar-para-trancoso)
+- [Praias de Trancoso a Caraíva: guia do litoral, das Tartarugas à vila de Caraíva](/guia/praias-de-trancoso-a-caraiva)
 - [Melhores restaurantes do Quadrado de Trancoso: onde comer, o que pedir e qual combina com cada ocasião](/guia/melhores-restaurantes-do-quadrado-de-trancoso)
 - [Como chegar em Trancoso: avião, carro, balsa e transfer](/guia/como-chegar-em-trancoso)

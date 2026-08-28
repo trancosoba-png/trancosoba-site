@@ -403,33 +403,13 @@ Entre as propriedades classificadas neste guia como pé na areia estão Rio da B
 
 Estrela d’Água e Villas de Trancoso ficam junto à areia. Tangará, AWÊ Villa Boutique e Villa dos Nativos Boutique Hotel aparecem associados à região, mas não devem ser classificados automaticamente como pé na areia.
 
-### Onde ficar na Praia do Rio Verde?
-
-Travel Inn Rio Verde, Amaia Trancoso Hotel e Villas de Gaia Hotel Boutique são referências associadas à região. O Travel Inn Rio Verde é pé na areia. O Amaia Trancoso Hotel é o antigo Baía Bonita. No caso do Villas de Gaia, o nome atual e a condição exata de acesso à praia ainda precisam ser confirmados.
-
 ### Tutabel ou Fasano?
 
 A Tutabel se aproxima do formato de pousada, com menor escala e atmosfera mais reservada. O Fasano oferece uma estrutura mais ampla de hotel. A escolha depende do nível de serviço e do ambiente desejado.
 
-### Qual hotel fica no próprio Quadrado?
-
-O UXUA Casa Hotel & Spa fica no Quadrado e ocupa casas históricas restauradas. Sua estrutura de praia está em outro endereço, portanto o hotel não é pé na areia. A Pousada Capim Santo também fica no próprio Quadrado.
-
 ### É melhor ficar na praia ou no Quadrado?
 
 A praia favorece quem quer incorporar o mar à rotina. O Quadrado é mais conveniente para restaurantes, lojas e vida noturna a pé. A escolha depende de qual dessas experiências será a prioridade da viagem.
-
-### Onde ficar em Trancoso sem carro?
-
-O Quadrado e a região central tendem a ser mais práticos para restaurantes e lojas a pé, embora as praias exijam deslocamento. Em hotéis pé na areia, é possível reduzir o uso de transporte durante o dia, mas será necessário planejá-lo para visitar o centro.
-
-### Qual região é mais reservada?
-
-Rio da Barra e Itapororoca estão entre as regiões mais associadas a privacidade e permanência na própria hospedagem. Quem pretende sair à noite com frequência deve considerar a distância até o Quadrado.
-
-### Há hotéis pé na areia em Coqueiros?
-
-Coqueiros tem forte presença de barracas e restaurantes, mas não a mesma concentração de hotéis conhecidos na areia encontrada em Nativos e Rio Verde. Ficar perto do Quadrado e frequentar Coqueiros durante o dia pode oferecer uma rotina equilibrada.
 
 ### Como encontrar bom custo-benefício em Trancoso?
 

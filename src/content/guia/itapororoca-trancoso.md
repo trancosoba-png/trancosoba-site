@@ -116,10 +116,6 @@ Sim. Há propriedades com acesso direto à Praia de Itapororoca. Isso não vale 
 
 A região pode funcionar bem para famílias, sobretudo em casas com áreas externas e estrutura para grupos. Para quem viaja com crianças, é importante verificar o acesso à praia, a configuração dos quartos, a presença de escadas e a logística de deslocamento.
 
-### Todas as casas dos Altos têm vista para o mar?
-
-Não. A vista aparece em algumas propriedades, mas não deve ser presumida apenas porque a casa está nos Altos de Itapororoca.
-
 ### As casas dos Altos de Itapororoca têm acesso à praia?
 
 Sim. O acesso à praia é uma característica dos Altos de Itapororoca. O percurso e a distância até a areia, porém, podem variar conforme a localização da propriedade.

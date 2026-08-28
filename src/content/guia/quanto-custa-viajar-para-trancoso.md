@@ -321,10 +321,6 @@ A economia obtida em uma categoria pode ser usada em outra. Um grupo pode escolh
 
 O total deve somar hospedagem, chegada e saída, transporte local, alimentação, praia, passeios, serviços e uma margem de segurança. Datas e número de hóspedes são os fatores que mais alteram o cálculo.
 
-### Trancoso é muito caro?
-
-Pode ser, sobretudo no Réveillon e em viagens de alto padrão. Fora dos períodos mais concorridos, com hospedagem adequada ao grupo e escolhas seletivas, é possível ter maior controle do orçamento.
-
 ### Casa grande compensa para grupos?
 
 Pode compensar quando a propriedade é ocupada por um número adequado de pessoas. Compare o custo por hóspede, a configuração das suítes, as taxas e os serviços adicionais.

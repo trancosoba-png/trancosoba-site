@@ -49,7 +49,7 @@ Dois dias funcionam como uma introdução ao destino. Não é tempo suficiente p
 
 **Dia 1 — Chegada e Quadrado**
 
-Depois da acomodação, caminhe pelo Quadrado e pelo entorno da Igreja de São João Batista e do mirante. As casas coloridas, os restaurantes, as lojas e a movimentação no fim da tarde ajudam a entender o ritmo do centro histórico.
+Depois da acomodação, caminhe pelo Quadrado e pelo entorno da Igreja de São João Batista e do mirante. As casas coloridas, [os restaurantes do Quadrado](/guia/melhores-restaurantes-do-quadrado-de-trancoso), as lojas e a movimentação no fim da tarde ajudam a entender o ritmo do centro histórico.
 
 Dependendo do horário de chegada, o almoço ou o jantar pode ser o principal programa do dia. Não há necessidade de preencher as primeiras horas com várias atividades.
 

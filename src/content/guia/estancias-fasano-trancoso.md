@@ -146,10 +146,6 @@ Sim. Todas as casas das Estâncias Fasano têm acesso ao complexo. Os hóspedes 
 
 Não devem ser presumidos como iguais. Algumas propriedades podem incluir equipe própria, chef ou cozinheiro e outros profissionais de apoio. A composição varia conforme a casa, e serviços extras podem ser contratados separadamente.
 
-### Todas as propriedades têm vista para o mar?
-
-A vista para o mar não deve ser presumida. Essa característica precisa ser verificada na descrição da unidade escolhida.
-
 ### É necessário carro para ficar nas Estâncias Fasano?
 
 Não é necessário usar carro para o deslocamento até a área da praia, que fica a cerca de 600 metros e pode ser alcançada a pé. Carro ou motorista podem ser usados por conforto. Para outros deslocamentos durante a viagem, a necessidade de transporte depende do roteiro planejado.

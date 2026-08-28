@@ -232,7 +232,7 @@ Fora das datas mais disputadas, pode haver mais flexibilidade. Ainda assim, a di
 
 Em Trancoso, o calendário conta apenas parte da história. A mesma semana pode proporcionar experiências diferentes para quem fica perto do Quadrado, em uma região de praia ou em uma área mais reservada.
 
-Antes de escolher o mês, defina o que deve estar mais presente na viagem: vida social, descanso, praia, festas, facilidade de deslocamento, orçamento ou passeios. Depois, procure uma localização coerente com essas prioridades.
+Antes de escolher o mês, defina o que deve estar mais presente na viagem: vida social, descanso, praia, festas, facilidade de deslocamento, orçamento ou [passeios e experiências](/guia/o-que-fazer-em-trancoso-experiencias-e-passeios). Depois, procure uma localização coerente com essas prioridades.
 
 Para quem quer movimento, verão, Réveillon e Carnaval são as referências mais claras. Para quem prefere um ritmo menos concorrido, os períodos fora das férias e dos grandes feriados oferecem mais possibilidades. A decisão final deve combinar data, região e perfil da hospedagem — não apenas a previsão do tempo.
 
@@ -245,10 +245,6 @@ Depende do objetivo. Janeiro favorece quem quer movimento; maio e junho costumam
 ### Quando chove mais em Trancoso?
 
 As chuvas variam entre os meses, mas podem ocorrer durante todo o ano. Sem identificar a estação meteorológica utilizada, não é adequado publicar médias mensais exatas. Para planejar uma viagem específica, consulte a previsão atualizada nos dias anteriores ao embarque.
-
-### Existe um período completamente seco em Trancoso?
-
-Não. Pode chover em qualquer mês, e as condições mudam de um ano para outro. Médias históricas ajudam a compreender o clima, mas não garantem tempo firme em datas específicas.
 
 ### Quando Trancoso fica mais cheio?
 

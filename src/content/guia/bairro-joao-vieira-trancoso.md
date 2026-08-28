@@ -167,10 +167,6 @@ Predominam em João Vieira as casas independentes, em geral fora de condomínios
 
 Depende do endereço e da programação. Parte da rotina no Quadrado pode ser feita a pé em algumas casas, enquanto praias, passeios e propriedades mais afastadas podem exigir carro ou transfer.
 
-### Todas as casas oferecem piscina, estacionamento e staff?
-
-Não. Comodidades e serviços variam conforme a propriedade e o contrato. Confirme também os horários da equipe e quais serviços estão incluídos na diária.
-
 ## Conclusão
 
 João Vieira pode ser considerado por quem procura uma casa em Trancoso com localização prática em relação ao Quadrado e prefere uma hospedagem independente. A diversidade de imóveis amplia as possibilidades, mas torna a análise individual da propriedade indispensável.
