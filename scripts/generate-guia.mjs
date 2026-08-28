@@ -238,7 +238,7 @@ function staticBodyFromMarkdown(md, a) {
   return `<main style="font-family:Georgia,serif;max-width:960px;margin:0 auto;padding:24px;">
     <p><a href="/guia">Guia TrancosoBA</a> · ${esc(a.category)}</p>
     ${out.join('\n    ')}
-    <p><em>Publicado em ${a.publishedAt} — TrancosoBA, Quadrado, Trancoso, Porto Seguro — Bahia.</em></p>
+    <p><em>TrancosoBA, Quadrado, Trancoso, Porto Seguro — Bahia.</em></p>
   </main>`;
 }
 
@@ -262,6 +262,33 @@ function genPages(articles) {
     publisher: { '@type': 'Organization', name: 'TrancosoBA', url: SITE, logo: { '@type': 'ImageObject', url: `${SITE}/favicon.svg` } },
     mainEntityOfPage: `${SITE}/guia/${a.slug}`,
   });
+  // FAQPage: espelha EXATAMENTE as perguntas/respostas visíveis da seção
+  // "Perguntas frequentes" do artigo (sem conteúdo extra só para robô).
+  const faqLd = (a) => {
+    const md = a.markdown || '';
+    const m = /^## Perguntas frequentes[^\n]*$/m.exec(md);
+    if (!m) return null;
+    let sec = md.slice(m.index + m[0].length);
+    const nx = sec.search(/^## /m);
+    if (nx >= 0) sec = sec.slice(0, nx);
+    const cleanMd = (t) => t
+      .replace(/!\[[^\]]*\]\([^)]*\)/g, '')
+      .replace(/\[([^\]]+)\]\([^)]*\)/g, '$1')
+      .replace(/\*\*/g, '')
+      .replace(/^[-*]\s+/gm, '')
+      .replace(/\|/g, ' ')
+      .trim();
+    const entities = sec.split(/^### /m).slice(1).map((part) => {
+      const nl = part.indexOf('\n');
+      const name = part.slice(0, nl).trim();
+      const text = part.slice(nl + 1).split(/\n\s*\n/).map(cleanMd).filter(Boolean).join('\n\n');
+      return name && text
+        ? { '@type': 'Question', name, acceptedAnswer: { '@type': 'Answer', text } }
+        : null;
+    }).filter(Boolean);
+    if (!entities.length) return null;
+    return JSON.stringify({ '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: entities });
+  };
 
   // Índice /guia
   const indexDesc = 'Guia TrancosoBA: onde ficar, praias, gastronomia, hotéis e pousadas, planejamento, experiências, casamentos, Réveillon e condomínios de Trancoso — por quem nasceu aqui.';
@@ -286,7 +313,8 @@ function genPages(articles) {
         ? `    <link rel="preload" as="image" href="${a.image}" imagesrcset="${a.image.replace('.webp', '-400.webp')} 400w, ${a.image} 800w, ${a.image.replace('.webp', '-1200.webp')} 1200w" imagesizes="100vw" />\n`
         : `    <link rel="preload" as="image" href="${a.image}" />\n`)
       : '';
-    const extraHead = `${preload}<script type="application/ld+json">${articleLd(a)}</script>\n    <script type="application/ld+json">${breadcrumbLd(a)}</script>`;
+    const faq = faqLd(a);
+    const extraHead = `${preload}<script type="application/ld+json">${articleLd(a)}</script>\n    <script type="application/ld+json">${breadcrumbLd(a)}</script>${faq ? `\n    <script type="application/ld+json">${faq}</script>` : ''}`;
     mkdirSync(join(root, 'dist/guia', a.slug), { recursive: true });
     writeFileSync(join(root, 'dist/guia', a.slug, 'index.html'), pageShell({
       title, desc, url: `${SITE}/guia/${a.slug}`,

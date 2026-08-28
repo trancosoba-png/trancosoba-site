@@ -84,7 +84,20 @@ const md = {
 
 /** Markdown → HTML estático (string), com os componentes/estilos do site. */
 export function renderArticleHtml(markdown) {
-  return renderToStaticMarkup(
+  const html = renderToStaticMarkup(
     e(ReactMarkdown, { remarkPlugins: [remarkGfm], components: md }, markdown)
   );
+  return wrapFaqSection(html);
+}
+
+// Envolve a seção "Perguntas frequentes" (do h2 até o próximo h2) em um
+// container próprio — o visual editorial do bloco de FAQ fica em index.css
+// (.faq-block), sem alterar marcação nem conteúdo das perguntas.
+function wrapFaqSection(html) {
+  const m = /<h2[^>]*>\s*Perguntas frequentes/i.exec(html);
+  if (!m) return html;
+  const start = m.index;
+  const nxt = html.indexOf('<h2', start + 1);
+  const end = nxt >= 0 ? nxt : html.length;
+  return html.slice(0, start) + '<section class="faq-block">' + html.slice(start, end) + '</section>' + html.slice(end);
 }

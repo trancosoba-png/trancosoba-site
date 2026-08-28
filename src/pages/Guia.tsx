@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Link } from 'react-router';
 import { useLang } from '../i18n';
 import { PageHero, Reveal } from '../components/Layout';
-import { guiaArticles, guiaFeaturedMain, guiaFeaturedSecondary, guiaUsedCategories, guiaDate, type GuiaArticle } from '../data/guia';
+import { guiaArticles, guiaFeaturedMain, guiaFeaturedSecondary, guiaUsedCategories, type GuiaArticle } from '../data/guia';
 
 function coverSrcset(src: string) {
   // Capas do guia são geradas em 800px + variante 400px (ver pipeline de capas).
@@ -35,7 +35,7 @@ function ArticleCard({ a, heading = 'h3' }: { a: GuiaArticle; heading?: 'h2' | '
           <H className="mt-2 font-serif-e text-2xl text-green-e group-hover:text-gold transition-colors">{a.title}</H>
           <p className="mt-2.5 text-sm text-ink/60 leading-relaxed">{a.description}</p>
           <p className="mt-3.5 text-xs tracking-[0.16em] uppercase text-gold">
-            {guiaDate(a.publishedAt)} · {t.guia.readMore}
+            {t.guia.readMore}
           </p>
         </div>
       </Link>
@@ -67,7 +67,7 @@ function MainCard({ a }: { a: GuiaArticle }) {
           <h2 className="mt-2 font-serif-e text-3xl md:text-4xl text-green-e group-hover:text-gold transition-colors leading-tight">{a.title}</h2>
           <p className="mt-4 text-base text-ink/60 leading-relaxed">{a.description}</p>
           <p className="mt-5 text-xs tracking-[0.16em] uppercase text-gold">
-            {guiaDate(a.publishedAt)} · {t.guia.readMore}
+            {t.guia.readMore}
           </p>
         </div>
       </Link>

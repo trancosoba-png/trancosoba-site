@@ -232,7 +232,7 @@ Fora das datas mais disputadas, pode haver mais flexibilidade. Ainda assim, a di
 
 Em Trancoso, o calendário conta apenas parte da história. A mesma semana pode proporcionar experiências diferentes para quem fica perto do Quadrado, em uma região de praia ou em uma área mais reservada.
 
-Antes de escolher o mês, defina o que deve estar mais presente na viagem: vida social, descanso, praia, festas, facilidade de deslocamento, orçamento ou passeios. Depois, procure uma localização coerente com essas prioridades.
+Antes de escolher o mês, defina o que deve estar mais presente na viagem: vida social, descanso, praia, festas, facilidade de deslocamento, orçamento ou [passeios e experiências](/guia/o-que-fazer-em-trancoso-experiencias-e-passeios). Depois, procure uma localização coerente com essas prioridades.
 
 Para quem quer movimento, verão, Réveillon e Carnaval são as referências mais claras. Para quem prefere um ritmo menos concorrido, os períodos fora das férias e dos grandes feriados oferecem mais possibilidades. A decisão final deve combinar data, região e perfil da hospedagem — não apenas a previsão do tempo.
 
