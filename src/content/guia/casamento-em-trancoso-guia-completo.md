@@ -10,10 +10,9 @@ featured: false
 seoTitle: "Casamento em Trancoso: guia completo para organizar um destination wedding"
 seoDescription: "Veja como organizar um casamento em Trancoso: locais, praia, Quadrado, cerimonial, hospedagem, transporte, fornecedores e plano B."
 ---
-
 # Casamento em Trancoso: guia completo para organizar um destination wedding
 
-Organizar um **casamento em Trancoso** envolve muito mais do que escolher flores, música e menu. Em um destination wedding, hospedagem, deslocamentos, clima, montagem, autorizações e experiência dos convidados fazem parte do mesmo planejamento.
+Em um destination wedding, hospedagem, deslocamentos, clima, montagem, autorizações e experiência dos convidados fazem parte do mesmo planejamento.
 
 Trancoso reúne praias, falésias, áreas verdes, hotéis, pousadas, casas amplas, restaurantes e o cenário histórico do Quadrado. Essa diversidade permite criar desde uma cerimônia íntima até uma programação de vários dias, desde que o projeto respeite as regras de cada espaço, propriedade ou área pública.
 

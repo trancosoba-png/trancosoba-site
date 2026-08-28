@@ -10,10 +10,9 @@ featured: false
 seoTitle: "Quantos dias ficar em Trancoso? Roteiros de 2 a 7 dias"
 seoDescription: "Descubra quantos dias ficar em Trancoso e veja roteiros de 2, 3, 4, 5 e 7 dias, com praias, Quadrado, descanso, Espelho e Caraíva."
 ---
-
 # Quantos dias ficar em Trancoso? Roteiros de 2, 3, 4, 5 e 7 dias
 
-**Três ou quatro dias costumam ser suficientes para uma primeira viagem a Trancoso.** Esse período permite conhecer o Quadrado, aproveitar uma ou duas regiões de praia, experimentar a gastronomia local e ainda deixar algum tempo livre.
+Esse período permite conhecer o Quadrado, aproveitar uma ou duas regiões de praia, experimentar a gastronomia local e ainda deixar algum tempo livre.
 
 Com cinco dias, o roteiro ganha mais tranquilidade. Uma semana funciona bem para quem deseja alternar praias, descanso e passeios pela região sem transformar a viagem em uma sequência de deslocamentos.
 
