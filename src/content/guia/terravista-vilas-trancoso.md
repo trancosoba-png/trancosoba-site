@@ -10,10 +10,9 @@ featured: false
 seoTitle: "Terravista Vilas em Trancoso: como é se hospedar"
 seoDescription: "Conheça o Terravista Vilas em Trancoso: perfil das casas, campo de golfe, acesso às praias, transporte e diferenças em relação ao Quadrado."
 ---
-
 # Terravista Vilas em Trancoso: como é se hospedar na região
 
-O Terravista Vilas faz parte do complexo Terravista, possui acesso controlado e tem perfil residencial, com casas de diferentes tamanhos, configurações e serviços. A experiência é distinta daquela encontrada no Quadrado: a rotina tende a se concentrar mais na propriedade e no complexo, com maior necessidade de planejar os deslocamentos.
+A experiência é distinta daquela encontrada no Quadrado: a rotina tende a se concentrar mais na propriedade e no complexo, com maior necessidade de planejar os deslocamentos.
 
 Para escolher bem, não basta decidir pela região. É importante avaliar a localização da casa, a distribuição das suítes, as áreas de convivência, os serviços disponíveis e a logística para chegar à praia, ao campo de golfe e ao centro de Trancoso.
 

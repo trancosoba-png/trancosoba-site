@@ -10,10 +10,9 @@ featured: false
 seoTitle: "Condomínio Icatú em Trancoso: casas, localização e acesso"
 seoDescription: "Saiba como é ficar no Condomínio Icatú em Trancoso, o que avaliar nas casas, como organizar os deslocamentos e quando a região pode fazer sentido."
 ---
-
 # Condomínio Icatú em Trancoso: casas, localização e perfil da hospedagem
 
-O Condomínio Icatú aparece entre as alternativas de hospedagem para quem procura uma casa em Trancoso e não precisa ficar ao lado do Quadrado ou diretamente na praia. A região pode interessar principalmente a famílias, casais e pequenos grupos dispostos a organizar os deslocamentos durante a viagem.
+A região pode interessar principalmente a famílias, casais e pequenos grupos dispostos a organizar os deslocamentos durante a viagem.
 
 O Icatú é um condomínio de perfil compacto e residencial, com opções de hospedagem mais simples e acessíveis em comparação com regiões de alto padrão como Altos de Trancoso, Pedro Grande e Terravista.
 

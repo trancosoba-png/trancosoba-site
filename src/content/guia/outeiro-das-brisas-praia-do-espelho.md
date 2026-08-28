@@ -10,10 +10,7 @@ featured: false
 seoTitle: "Outeiro das Brisas: casas na região da Praia do Espelho"
 seoDescription: "Entenda como é ficar no Outeiro das Brisas, na região da Praia do Espelho, e veja o que avaliar ao escolher uma casa e planejar o transporte."
 ---
-
 # Outeiro das Brisas: casas, falésias e natureza na Praia do Espelho
-
-O Outeiro das Brisas fica na região da Praia do Espelho, no alto das falésias, e reúne casas de diferentes tamanhos em uma área voltada para praia, natureza e lazer.
 
 Hospedar-se ali é uma experiência distinta de ficar perto do Quadrado. A rotina tende a se concentrar na Praia do Espelho, na casa escolhida e nas estruturas do condomínio. Para visitar o centro de Trancoso, é necessário planejar o transporte.
 

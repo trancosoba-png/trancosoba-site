@@ -10,10 +10,7 @@ featured: "secondary"
 seoTitle: "O que fazer em Trancoso: experiências e passeios"
 seoDescription: "Descubra o que fazer em Trancoso, do Quadrado às praias, com passeios para Espelho e Caraíva e roteiros de 3, 5 e 7 dias."
 ---
-
 # O que fazer em Trancoso: experiências, passeios e roteiros
-
-Trancoso costuma ser associado às praias — e com razão. Mas a viagem também pode reunir caminhadas pelo Quadrado, gastronomia, natureza, esportes, passeios terrestres e aquáticos e visitas a outros destinos do sul da Bahia.
 
 O roteiro não precisa ser preenchido do começo ao fim. Acompanhar o amanhecer, almoçar sem pressa, passar parte da tarde na hospedagem e voltar ao Quadrado à noite fazem parte da experiência. Em uma estadia curta, escolher bem costuma funcionar melhor do que tentar conhecer tudo.
 

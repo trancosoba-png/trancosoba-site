@@ -89,12 +89,6 @@ export default function GuiaArtigo() {
           <div className="relative z-10 mx-auto flex h-full w-full max-w-3xl flex-col justify-end px-5 pb-10 md:px-8 md:pb-14">
             <p className="eyebrow text-ivory/80">{article.category}</p>
             <h1 className="mt-3 font-serif-e text-3xl md:text-5xl text-ivory leading-tight">{article.title}</h1>
-            <p className="mt-4 text-[13px] tracking-wide text-ivory/70">
-              {t.guia.publishedLabel} {guiaDate(article.publishedAt)}
-              {article.updatedAt && article.updatedAt !== article.publishedAt && (
-                <> · {t.guia.updatedLabel} {guiaDate(article.updatedAt)}</>
-              )}
-            </p>
           </div>
           <span className="photo-shield" aria-hidden="true" />
         </header>
