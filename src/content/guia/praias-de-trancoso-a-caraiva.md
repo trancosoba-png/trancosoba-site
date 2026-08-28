@@ -10,10 +10,9 @@ featured: "secondary"
 seoTitle: "Praias de Trancoso a Caraíva: guia do litoral"
 seoDescription: "Conheça as praias de Trancoso até Caraíva, com informações sobre Nativos, Coqueiros, Rio Verde, Itapororoca, Espelho, Satú, acessos e marés."
 ---
-
 # Praias de Trancoso a Caraíva: guia do litoral, das Tartarugas à vila de Caraíva
 
-O litoral entre Trancoso e Caraíva reúne praias próximas ao centro, áreas ligadas a condomínios e hospedagens, trechos quase sem estrutura, falésias, rios, coqueirais e recifes que aparecem com mais clareza na maré baixa. Este guia segue a costa desde a Praia das Tartarugas, ao norte do núcleo principal de Trancoso, até a vila de Caraíva.
+Este guia segue a costa desde a Praia das Tartarugas, ao norte do núcleo principal de Trancoso, até a vila de Caraíva.
 
 Nem todas as praias citadas pertencem ao núcleo de Trancoso. Espelho, Satú e Caraíva, por exemplo, integram o roteiro costeiro ao sul e costumam ser combinadas com uma viagem à região.
 

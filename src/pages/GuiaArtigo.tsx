@@ -1,14 +1,36 @@
 import { Link, Navigate, useNavigate, useParams } from 'react-router';
+import { useMemo } from 'react';
 import { useLang } from '../i18n';
 import { Reveal } from '../components/Layout';
 import PropertyCard from '../components/PropertyCard';
+import GuiaCta from '../components/GuiaCta';
 import { guiaBySlug, guiaRelated, guiaDate } from '../data/guia';
 import { guiaHouses } from '../data/guia-casas';
+import { guiaCtaRegion, guiaCtaRegionFinal, guiaCtaGeneric } from '../data/guia-cta';
 
 // O corpo do artigo chega como HTML pronto em article.html — compilado no
 // prebuild por scripts/guia-md.mjs com a mesma tipografia/paleta do site
 // (antes o react-markdown rodava no navegador e custava ~1–1,6 s de thread
-// principal por artigo). H1 único vem do próprio Markdown.
+// principal por artigo).
+// H1 único: com o hero imersivo, o título sai do corpo e vira o <h1> sobre a
+// foto — o <h1> inicial do HTML compilado é removido abaixo para não duplicar.
+
+// Remove o <h1> inicial do HTML compilado (ele é exibido no hero, sobre a
+// imagem). Só roda quando há hero; artigo sem imagem mantém o H1 no corpo.
+const stripLeadingH1 = (html: string) => html.replace(/^<h1[^>]*>[\s\S]*?<\/h1>/, '');
+
+// Divide o corpo para o CTA do meio: depois do primeiro parágrafo que segue o
+// SEGUNDO h2 do artigo (~1/3 da leitura). Artigos curtos (< 2 h2) não têm
+// CTA intermediário — só o final.
+function splitForMidCta(html: string): [string, string] | null {
+  const marks = [...html.matchAll(/<\/h2>/g)];
+  if (marks.length < 2) return null;
+  const afterH2 = marks[1].index + '</h2>'.length;
+  const p = html.indexOf('</p>', afterH2);
+  const cut = p >= 0 ? p + '</p>'.length : afterH2;
+  return [html.slice(0, cut), html.slice(cut)];
+}
+
 export default function GuiaArtigo() {
   const { slug = '' } = useParams();
   const navigate = useNavigate();
@@ -26,6 +48,11 @@ export default function GuiaArtigo() {
       navigate(href);
     }
   };
+  const [bodyHtml, midSplit] = useMemo(() => {
+    if (!article) return ['', null] as const;
+    const clean = article.image ? stripLeadingH1(article.html) : article.html;
+    return [clean, splitForMidCta(clean)] as const;
+  }, [article]);
   if (!article) return <Navigate to="/guia" replace />;
   const related = guiaRelated(article);
 
@@ -34,10 +61,56 @@ export default function GuiaArtigo() {
   // ou sem casas correspondentes → o bloco não aparece.
   const housesBlock = guiaHouses(article.slug, lang);
 
+  // CTAs contextuais (src/data/guia-cta.ts): meio do texto só para artigos
+  // com região associada e corpo longo; final em todos (região → foco em
+  // WhatsApp, pois o botão de casas já aparece no meio e no bloco de casas;
+  // demais artigos → CTA genérico com os dois caminhos).
+  const ctaMid = midSplit ? guiaCtaRegion(article.slug, t.guia) : null;
+  const ctaFinal = guiaCtaRegionFinal(article.slug, t.guia);
+  const ctaGeneric = !ctaFinal ? guiaCtaGeneric(t.guia) : null;
+
+  const srcSet = article.image.startsWith('/img/guia/')
+    ? `${article.image.replace('.webp', '-400.webp')} 400w, ${article.image} 800w, ${article.image.replace('.webp', '-1200.webp')} 1200w`
+    : undefined;
+
   return (
-    <article className="pt-24 md:pt-32 pb-16 md:pb-24">
+    <article className={article.image ? 'pb-16 md:pb-24' : 'pt-24 md:pt-32 pb-16 md:pb-24'}>
+      {article.image ? (
+        /* Hero imersivo: foto em destaque com categoria + H1 + data sobre a
+           imagem (overlay verde-escuro sutil, da paleta do site, para
+           legibilidade sem esconder a foto). Acima da dobra: eager +
+           fetchPriority high (par do <link rel="preload"> do shell). */
+        <header className="relative h-[62vh] min-h-[420px] max-h-[680px] overflow-hidden" onContextMenu={(e) => e.preventDefault()}>
+          <img src={article.image}
+            {...(srcSet ? { srcSet, sizes: '100vw' } : {})}
+            alt={article.title} loading="eager" fetchPriority="high" decoding="async" draggable={false}
+            width={1200} height={800} className="absolute inset-0 h-full w-full object-cover" />
+          <div className="absolute inset-0 bg-gradient-to-t from-green-e/85 via-green-e/30 to-green-e/10" aria-hidden="true" />
+          <div className="relative z-10 mx-auto flex h-full w-full max-w-3xl flex-col justify-end px-5 pb-10 md:px-8 md:pb-14">
+            <p className="eyebrow text-ivory/80">{article.category}</p>
+            <h1 className="mt-3 font-serif-e text-3xl md:text-5xl text-ivory leading-tight">{article.title}</h1>
+          </div>
+          <span className="photo-shield" aria-hidden="true" />
+        </header>
+      ) : (
+        <div className="max-w-3xl mx-auto px-5 md:px-8">
+          <Reveal className="mt-8">
+            <p className="eyebrow text-green-e/50">{article.category}</p>
+            <p className="mt-2 text-[13px] text-ink/50 tracking-wide">
+              {t.guia.publishedLabel} {guiaDate(article.publishedAt)}
+              {article.updatedAt && article.updatedAt !== article.publishedAt && (
+                <> · {t.guia.updatedLabel} {guiaDate(article.updatedAt)}</>
+              )}
+            </p>
+            <p className="mt-5 mb-10 text-lg md:text-xl text-ink/65 leading-relaxed font-serif-e italic">
+              {article.description}
+            </p>
+          </Reveal>
+        </div>
+      )}
+
       <div className="max-w-3xl mx-auto px-5 md:px-8">
-        <nav aria-label="breadcrumb" className="text-[13px] text-ink/50 tracking-wide">
+        <nav aria-label="breadcrumb" className={`${article.image ? 'mt-8' : ''} text-[13px] text-ink/50 tracking-wide`}>
           <Link to="/" className="hover:text-gold transition-colors">{t.guia.breadcrumbHome}</Link>
           <span className="mx-2 text-ink/30">›</span>
           <Link to="/guia" className="hover:text-gold transition-colors">{t.guia.breadcrumbGuia}</Link>
@@ -45,40 +118,26 @@ export default function GuiaArtigo() {
           <span className="text-ink/70">{article.title}</span>
         </nav>
 
-        <Reveal className="mt-8">
-          <p className="eyebrow text-green-e/50">{article.category}</p>
-          <p className="mt-2 text-[13px] text-ink/50 tracking-wide">
-            {t.guia.publishedLabel} {guiaDate(article.publishedAt)}
-            {article.updatedAt && article.updatedAt !== article.publishedAt && (
-              <> · {t.guia.updatedLabel} {guiaDate(article.updatedAt)}</>
-            )}
-          </p>
-          <p className="mt-5 mb-10 text-lg md:text-xl text-ink/65 leading-relaxed font-serif-e italic">
+        {article.image && (
+          <p className="mt-6 mb-8 text-lg md:text-xl text-ink/65 leading-relaxed font-serif-e italic">
             {article.description}
           </p>
-        </Reveal>
-
-        {article.image && (
-          <Reveal>
-            <div className="relative overflow-hidden mb-10" onContextMenu={(e) => e.preventDefault()}>
-              {/* Imagem principal do artigo: acima da dobra, por isso eager +
-                  fetchPriority high (par do <link rel="preload"> emitido no
-                  shell da página por scripts/generate-guia.mjs). */}
-              <img src={article.image}
-                {...(article.image.startsWith('/img/guia/') ? {
-                  srcSet: `${article.image.replace('.webp', '-400.webp')} 400w, ${article.image} 800w`,
-                  sizes: '(min-width: 768px) 768px, 100vw',
-                } : {})}
-                alt={article.title} loading="eager" fetchPriority="high" decoding="async" draggable={false}
-                width={800} height={533} className="w-full object-cover" />
-              <span className="photo-shield" aria-hidden="true" />
-            </div>
-          </Reveal>
         )}
 
         {/* HTML compilado no prebuild (scripts/guia-md.mjs) — conteúdo nosso,
             dos .md versionados em src/content/guia/; não é entrada de usuário. */}
-        <div onClick={onBodyClick} dangerouslySetInnerHTML={{ __html: article.html }} />
+        {midSplit && ctaMid ? (
+          <>
+            <div onClick={onBodyClick} dangerouslySetInnerHTML={{ __html: midSplit[0] }} />
+            <GuiaCta cta={ctaMid} />
+            <div onClick={onBodyClick} dangerouslySetInnerHTML={{ __html: midSplit[1] }} />
+          </>
+        ) : (
+          <div onClick={onBodyClick} dangerouslySetInnerHTML={{ __html: bodyHtml }} />
+        )}
+
+        {ctaFinal && <GuiaCta cta={ctaFinal} variant="whats" />}
+        {ctaGeneric && <GuiaCta cta={ctaGeneric} />}
       </div>
 
       {housesBlock && (

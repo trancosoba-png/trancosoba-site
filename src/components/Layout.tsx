@@ -36,7 +36,7 @@ export function Header() {
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const loc = useLocation();
-  const onDarkHero = loc.pathname === '/' && !scrolled;
+  const onDarkHero = (loc.pathname === '/' || loc.pathname.startsWith('/guia/')) && !scrolled;
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 40);
