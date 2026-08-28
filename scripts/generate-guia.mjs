@@ -278,8 +278,14 @@ function genPages(articles) {
     const title = a.seoTitle || `${a.title} | Guia TrancosoBA`;
     const desc = a.seoDescription || a.description;
     // Preload da imagem principal do artigo (ela é o LCP da página aberta) —
-    // par do loading="eager"/fetchPriority="high" em GuiaArtigo.tsx.
-    const preload = a.image ? `    <link rel="preload" as="image" href="${a.image}" />\n` : '';
+    // par do loading="eager"/fetchPriority="high" em GuiaArtigo.tsx. O hero
+    // imersivo usa srcSet 400/800/1200 — o preload carrega imagesrcset para o
+    // navegador escolher a variante certa já na primeira requisição.
+    const preload = a.image
+      ? (a.image.startsWith('/img/guia/')
+        ? `    <link rel="preload" as="image" href="${a.image}" imagesrcset="${a.image.replace('.webp', '-400.webp')} 400w, ${a.image} 800w, ${a.image.replace('.webp', '-1200.webp')} 1200w" imagesizes="100vw" />\n`
+        : `    <link rel="preload" as="image" href="${a.image}" />\n`)
+      : '';
     const extraHead = `${preload}<script type="application/ld+json">${articleLd(a)}</script>\n    <script type="application/ld+json">${breadcrumbLd(a)}</script>`;
     mkdirSync(join(root, 'dist/guia', a.slug), { recursive: true });
     writeFileSync(join(root, 'dist/guia', a.slug, 'index.html'), pageShell({
