@@ -146,7 +146,7 @@ const heroPreload = (hero) => {
   return `<link rel="preload" as="image" href="${stem}-800.webp" imagesrcset="${stem}-thumb.webp 400w, ${stem}-800.webp 800w, ${stem}-1600.webp 1600w" imagesizes="100vw" type="image/webp" />`;
 };
 
-function pageShell({ title, desc, ogDesc = '', url, img, imgW = 0, imgH = 0, extraHead = '', body = '', hero = '' }) {
+function pageShell({ title, desc, ogTitle = '', ogDesc = '', url, img, imgW = 0, imgH = 0, imgType = 'image/jpeg', imgAlt = '', extraHead = '', body = '', hero = '' }) {
   return `<!doctype html>
 <html lang="pt-BR">
   <head>
@@ -163,15 +163,17 @@ function pageShell({ title, desc, ogDesc = '', url, img, imgW = 0, imgH = 0, ext
     ${hero ? heroPreload(hero) : ''}
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="TrancosoBA" />
-    <meta property="og:title" content="${esc(title)}" />
+    <meta property="og:title" content="${esc(ogTitle || title)}" />
     <meta property="og:description" content="${ogDesc ? esc(ogDesc) : metaDesc(desc)}" />
     <meta property="og:url" content="${url}" />
     <meta property="og:image" content="${img}" />
-    ${imgW ? `<meta property="og:image:type" content="image/jpeg" />\n    <meta property="og:image:width" content="${imgW}" />\n    <meta property="og:image:height" content="${imgH}" />` : ''}
+    ${imgW ? `<meta property="og:image:type" content="${imgType}" />\n    <meta property="og:image:width" content="${imgW}" />\n    <meta property="og:image:height" content="${imgH}" />` : ''}
+    ${imgAlt ? `<meta property="og:image:alt" content="${esc(imgAlt)}" />` : ''}
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="${esc(title)}" />
+    <meta name="twitter:title" content="${esc(ogTitle || title)}" />
     <meta name="twitter:description" content="${ogDesc ? esc(ogDesc) : metaDesc(desc)}" />
     <meta name="twitter:image" content="${img}" />
+    ${imgAlt ? `<meta name="twitter:image:alt" content="${esc(imgAlt)}" />` : ''}
     <script type="application/ld+json">${ORG_LD}</script>
     <script>
       // Proteção de fotos desde o primeiro paint: com o SSG as imagens ficam
@@ -280,11 +282,28 @@ const HERO_BY_PATH = {
   anuncie: '/img/hero.webp',
   privacidade: '/img/vilas75/01.webp',
 };
+// Compartilhamento da homepage: imagem institucional da marca (símbolo da
+// igrejinha, sem foto de fundo), com URL nova para furar o cache de preview
+// do WhatsApp/redes. Metas og:/twitter: pedidas em etapa própria — o <title>
+// e a meta description de SEO da home não mudam.
+const HOME_OG_IMG = `${SITE}/og-home-2026.png`;
+const HOME_OG_TITLE = 'TrancosoBA | Casas de alto padrão em Trancoso';
+const HOME_OG_DESC = 'Aluguel e venda de casas em Trancoso, Bahia.';
+const HOME_OG_ALT = 'TrancosoBA — símbolo da igrejinha do Quadrado de Trancoso';
 for (const s of statics) {
   const url = `${SITE}/${s.path}`;
   const dir = s.path ? join(root, 'dist', s.path) : join(root, 'dist');
   if (s.path) mkdirSync(join(root, 'dist', s.path), { recursive: true });
-  writeFileSync(join(dir, 'index.html'), pageShell({ title: s.title, desc: s.desc, url, img: DEFAULT_IMG, body: s.body, hero: HERO_BY_PATH[s.path] || '' }));
+  const isHome = s.path === '';
+  writeFileSync(join(dir, 'index.html'), pageShell({
+    title: s.title,
+    desc: s.desc,
+    url,
+    img: isHome ? HOME_OG_IMG : DEFAULT_IMG,
+    ...(isHome ? { ogTitle: HOME_OG_TITLE, ogDesc: HOME_OG_DESC, imgW: 1200, imgH: 1200, imgType: 'image/png', imgAlt: HOME_OG_ALT } : {}),
+    body: s.body,
+    hero: HERO_BY_PATH[s.path] || '',
+  }));
 }
 
 // ---------------------------------------------------------------------------
