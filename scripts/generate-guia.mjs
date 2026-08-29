@@ -108,6 +108,9 @@ function loadArticles() {
       featured: meta.featured === true,
       seoTitle: meta.seoTitle ? String(meta.seoTitle) : '',
       seoDescription: meta.seoDescription ? String(meta.seoDescription) : '',
+      // Nota editorial sazonal (opcional): só existe quando há informação
+      // nova e confirmada — nunca um carimbo automático de "atualizado".
+      nota: meta.nota ? String(meta.nota) : '',
       // featured: hierarquia editorial da home do /guia, definida nos metadados.
       //   featured: "main"      → destaque principal (imagem grande);
       //   featured: "secondary" → cards menores logo abaixo (máx. 3, ordem em
@@ -138,7 +141,7 @@ function genContent(articles) {
 // Não edite à mão — os artigos vivem em src/content/guia/*.md.
 export interface GuiaArticleData {
   title: string; slug: string; description: string; category: string;
-  image: string; publishedAt: string; updatedAt: string;
+  image: string; publishedAt: string; updatedAt: string; nota: string;
   featured: 'main' | 'secondary' | false;
   seoTitle: string; seoDescription: string;
   html: string; htmlRelated: string;
@@ -151,7 +154,7 @@ ${articles.map((a) => {
     const idx = a.markdown.indexOf(REL);
     const bodyMd = idx >= 0 ? a.markdown.slice(0, idx).trim() : a.markdown;
     const relMd = idx >= 0 ? a.markdown.slice(idx).trim() : '';
-    return `  { title: ${lit(a.title)}, slug: ${lit(a.slug)}, description: ${lit(a.description)}, category: ${lit(a.category)}, image: ${lit(a.image)}, publishedAt: ${lit(a.publishedAt)}, updatedAt: ${lit(a.updatedAt)}, featured: ${lit(a.featured)}, seoTitle: ${lit(a.seoTitle)}, seoDescription: ${lit(a.seoDescription)}, html: ${lit(renderArticleHtml(bodyMd))}, htmlRelated: ${lit(relMd ? renderArticleHtml(relMd) : '')} },`;
+    return `  { title: ${lit(a.title)}, slug: ${lit(a.slug)}, description: ${lit(a.description)}, category: ${lit(a.category)}, image: ${lit(a.image)}, publishedAt: ${lit(a.publishedAt)}, updatedAt: ${lit(a.updatedAt)}, featured: ${lit(a.featured)}, seoTitle: ${lit(a.seoTitle)}, seoDescription: ${lit(a.seoDescription)}, nota: ${lit(a.nota)}, html: ${lit(renderArticleHtml(bodyMd))}, htmlRelated: ${lit(relMd ? renderArticleHtml(relMd) : '')} },`;
   }).join('\n')}
 ];
 `;
@@ -235,10 +238,11 @@ function staticBodyFromMarkdown(md, a) {
     }
   }
   if (inList) out.push('</ul>');
+  const notaHtml = a.nota ? `\n    <p><em>${esc(a.nota)}</em></p>` : '';
   return `<main style="font-family:Georgia,serif;max-width:960px;margin:0 auto;padding:24px;">
-    <p><a href="/guia">Guia TrancosoBA</a> · ${esc(a.category)}</p>
+    <p><a href="/guia">Guia TrancosoBA</a> · ${esc(a.category)}</p>${notaHtml}
     ${out.join('\n    ')}
-    <p><em>TrancosoBA, Quadrado, Trancoso, Porto Seguro — Bahia.</em></p>
+    <p><em>Guia TrancosoBA — conteúdo produzido e revisado pela equipe TrancosoBA, de Trancoso. <a href="/nos">Conheça quem faz o guia</a>.</em></p>
   </main>`;
 }
 
@@ -258,7 +262,7 @@ function genPages(articles) {
     image: a.image ? `${SITE}${a.image}` : DEFAULT_IMG,
     datePublished: a.publishedAt, dateModified: a.updatedAt || a.publishedAt,
     inLanguage: 'pt-BR',
-    author: { '@type': 'Organization', name: 'TrancosoBA', url: SITE },
+    author: { '@type': 'Organization', name: 'TrancosoBA', url: `${SITE}/nos` },
     publisher: { '@type': 'Organization', name: 'TrancosoBA', url: SITE, logo: { '@type': 'ImageObject', url: `${SITE}/favicon.svg` } },
     mainEntityOfPage: `${SITE}/guia/${a.slug}`,
   });

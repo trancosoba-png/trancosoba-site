@@ -118,6 +118,14 @@ export default function GuiaArtigo() {
           </p>
         )}
 
+        {/* Nota editorial sazonal (frontmatter `nota:`): só renderiza quando
+            existe informação nova e confirmada — nunca um carimbo automático. */}
+        {article.nota && (
+          <p className="mb-8 border-l-2 border-gold pl-4 text-sm text-ink/60 italic leading-relaxed">
+            {article.nota}
+          </p>
+        )}
+
         {/* HTML compilado no prebuild (scripts/guia-md.mjs) — conteúdo nosso,
             dos .md versionados em src/content/guia/; não é entrada de usuário. */}
         {midSplit && ctaMid ? (
@@ -197,6 +205,20 @@ export default function GuiaArtigo() {
           </div>
         </div>
       )}
+
+      {/* Assinatura editorial: reforço discreto de autoria local, no fim da
+          página — sem caixa de autor, sem foto, sem marketing. */}
+      <div className="max-w-3xl mx-auto px-5 md:px-8 mt-16 md:mt-20">
+        <Reveal>
+          <div className="border-t border-green-e/10 pt-8 text-center">
+            <p className="font-serif-e text-lg text-green-e">{t.guia.signatureTitle}</p>
+            <p className="mt-2 text-sm text-ink/60 leading-relaxed">{t.guia.signatureText}</p>
+            <Link to="/nos" className="mt-3 inline-block text-xs tracking-[0.16em] uppercase text-gold hover:text-green-e transition-colors">
+              {t.guia.signatureLink}
+            </Link>
+          </div>
+        </Reveal>
+      </div>
     </article>
   );
 }
