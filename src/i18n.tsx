@@ -80,6 +80,9 @@ const dict = {
       mapLot: 'Mapa do condomínio Terravista Golf — Lote',
       gallery: 'Galeria', price: 'Investimento',
       navPhotos: 'Fotos', navAbout: 'Sobre a casa', navSpecs: 'Especificações', navRates: 'Tarifário',
+      whyTitle: 'Por que esta casa',
+      bookingTitle: 'Como funciona a reserva',
+      bookingSteps: 'Você consulta → confirmamos disponibilidade e condições → contrato e confirmação da reserva → concierge cuida da sua chegada.',
     },
     trancosoPage: {
       title: 'Trancoso', sub: 'A página que vende o lugar.',
@@ -239,6 +242,9 @@ const dict = {
       mapLot: 'Terravista Golf condominium map — Lot',
       gallery: 'Gallery', price: 'Investment',
       navPhotos: 'Photos', navAbout: 'About the house', navSpecs: 'Specifications', navRates: 'Rates',
+      whyTitle: 'Why this house',
+      bookingTitle: 'How booking works',
+      bookingSteps: 'You enquire → we confirm availability and terms → contract and booking confirmation → concierge takes care of your arrival.',
     },
     trancosoPage: {
       title: 'Trancoso', sub: 'The page that sells the place.',
@@ -398,6 +404,9 @@ const dict = {
       mapLot: 'Mapa del condominio Terravista Golf — Lote',
       gallery: 'Galería', price: 'Inversión',
       navPhotos: 'Fotos', navAbout: 'Sobre la casa', navSpecs: 'Especificaciones', navRates: 'Tarifas',
+      whyTitle: 'Por qué esta casa',
+      bookingTitle: 'Cómo funciona la reserva',
+      bookingSteps: 'Usted consulta → confirmamos disponibilidad y condiciones → contrato y confirmación de la reserva → concierge se ocupa de su llegada.',
     },
     trancosoPage: {
       title: 'Trancoso', sub: 'La página que vende el lugar.',

@@ -1,8 +1,9 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
 import { useParams, Navigate, useNavigate } from 'react-router';
-import { ArrowLeft, MessageCircle, BedDouble, Users, Bath, Maximize, X, ChevronLeft, ChevronRight, Share2, Check } from 'lucide-react';
+import { ArrowLeft, MessageCircle, BedDouble, Users, Bath, Maximize, X, ChevronLeft, ChevronRight, Share2, Check, MapPin } from 'lucide-react';
 import { useLang, txt } from '../i18n';
 import type { Property } from '../data/properties';
+import { IMOVEL_HIGHLIGHTS } from '../data/imovel-highlights';
 import { WHATSAPP } from '../data/contact';
 import { usd } from '../data/price';
 import { trackWhatsApp } from '../data/analytics';
@@ -251,6 +252,27 @@ export default function Imovel() {
                 </div>
               ))}
             </div>
+            {/* Piloto "Por que esta casa": só renderiza nos imóveis aprovados em
+                IMOVEL_HIGHLIGHTS, com características confirmadas no cadastro. */}
+            {IMOVEL_HIGHLIGHTS[p.id] && (
+              <div className="mt-8">
+                <p className="eyebrow text-gold">{t.imovel.whyTitle}</p>
+                <ul className="mt-4 flex flex-wrap gap-x-8 gap-y-2.5">
+                  {IMOVEL_HIGHLIGHTS[p.id][lang].map((h, i) => (
+                    <li key={i} className="flex items-start gap-2.5 text-sm text-ink/80 tracking-wide">
+                      <span className="w-1.5 h-1.5 bg-gold rounded-full shrink-0 mt-1.5" />
+                      {h}
+                    </li>
+                  ))}
+                </ul>
+                {p.locationDetail && (
+                  <p className="mt-4 flex items-start gap-2.5 text-sm text-ink/60 leading-relaxed">
+                    <MapPin size={15} className="text-gold shrink-0 mt-0.5" />
+                    {txt(p.locationDetail, lang)}
+                  </p>
+                )}
+              </div>
+            )}
             <div className="mt-8 text-[#404040] font-medium leading-relaxed text-lg font-serif-e space-y-5">
               {txt(p.description, lang).split('\n\n').filter(par => !SUITE_PAR.test(par)).map((par, i) => <p key={i}>{par}</p>)}
             </div>
@@ -323,6 +345,13 @@ export default function Imovel() {
               className="mt-3 w-full flex items-center justify-center gap-2 py-4 text-sm uppercase transition-colors border border-ivory/40 text-ivory hover:bg-ivory/10" style={{ letterSpacing: '1px' }}>
               {copied ? <Check size={16} /> : <Share2 size={16} />} {copied ? t.imovel.copied : t.imovel.share}
             </button>
+            {/* Piloto "Como funciona a reserva": apenas nos imóveis aprovados. */}
+            {IMOVEL_HIGHLIGHTS[p.id] && (
+              <p className="mt-5 pt-4 border-t border-[#b08d57]/40 text-[12px] leading-relaxed text-ivory/60">
+                <span className="text-[#b08d57] uppercase tracking-[1px]">{t.imovel.bookingTitle}:</span><br />
+                {t.imovel.bookingSteps}
+              </p>
+            )}
           </div>
         </Reveal>
       </section>
