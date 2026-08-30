@@ -100,10 +100,12 @@ export default function Home() {
       <section className="bg-[#F6F2EA] pt-16 md:pt-20 pb-8 md:pb-10">
         <div className="max-w-7xl mx-auto px-5 md:px-8">
           <Reveal className="max-w-3xl mx-auto text-center">
-            <h2 className="font-serif-e font-light italic text-[46px] md:text-[76px] leading-[1.08] tracking-[0.005em] text-[#4a3b2c]">
+            {/* H1 da página: é o título principal visível da home (a hero é vídeo,
+                sem texto). Troca apenas de tag — classes idênticas, visual intacto. */}
+            <h1 className="font-serif-e font-light italic text-[46px] md:text-[76px] leading-[1.08] tracking-[0.005em] text-[#4a3b2c]">
               <span className="block">{t.home.introTitleA}</span>
               <span className="block not-italic font-normal text-[26px] md:text-[40px] tracking-[0.08em] text-[#8a6f4d] mt-3 md:mt-4">{t.home.introTitleB}</span>
-            </h2>
+            </h1>
             <span className="block w-12 h-px bg-gold mt-8 mx-auto" />
             <p className="mt-6 font-sans font-light text-lg md:text-xl text-ink/65 leading-[1.75] tracking-[0.01em] max-w-2xl mx-auto">{t.home.introText}</p>
             <Link to="/nos" className="inline-flex items-center gap-2 mt-8 text-green-e tracking-[0.18em] uppercase text-sm border-b border-gold pb-1 hover:text-gold transition-colors">
