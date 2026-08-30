@@ -1140,6 +1140,12 @@ export const IMOVEL_HIGHLIGHTS: Record<string, ImovelHighlights> = {
     en: ['Beach service', 'Generator', '3 suites · up to 6 guests'],
     es: ['Servicio de playa', 'Generador', '3 suites · hasta 6 huéspedes'],
   },
+  // Fonte: PDF Casa 201 — pé na areia + apoio de praia (condomínio Vilas Altos) + suites=3 guests=10
+  'vilas-altos-de-trancoso-casa-201': {
+    pt: ['Pé na areia', 'Apoio de praia', '3 suítes · até 10 hóspedes'],
+    en: ['Beachfront', 'Beach service', '3 suites · up to 10 guests'],
+    es: ['Frente a la playa', 'Servicio de playa', '3 suites · hasta 10 huéspedes'],
+  },
   // Fonte: suites=3 guests=6 | piscina (features/amenities)
   'casa-brunella': {
     pt: ['3 suítes · até 6 hóspedes', 'Piscina'],
