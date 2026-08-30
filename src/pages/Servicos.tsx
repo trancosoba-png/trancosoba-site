@@ -2,7 +2,7 @@ import { MessageCircle } from 'lucide-react';
 import { useLang } from '../i18n';
 import { PageHero, Reveal } from '../components/Layout';
 import { WHATSAPP } from '../data/contact';
-import { trackWhatsApp } from '../data/analytics';
+import { trackWhatsAppClick } from '../data/analytics';
 
 export default function Servicos() {
   const { t } = useLang();
@@ -44,7 +44,7 @@ export default function Servicos() {
                 <h2 className="font-serif-e text-3xl md:text-4xl text-green-e leading-tight">{cards[9].t}</h2>
                 <p className="mt-4 text-sm md:text-base text-ink/70 leading-relaxed">{cards[9].d}</p>
                 <a href={`https://wa.me/${WHATSAPP}?text=${encodeURIComponent(t.servicos.wa)}`}
-                  target="_blank" rel="noreferrer" onClick={() => trackWhatsApp('servicos')}
+                  target="_blank" rel="noreferrer" onClick={() => trackWhatsAppClick('conteudo')}
                   className="mt-8 inline-flex items-center gap-2 bg-green-e text-ivory px-9 py-4 text-sm tracking-[0.2em] uppercase hover:bg-gold transition-colors self-start">
                   <MessageCircle size={16} /> {t.servicos.waBtn}
                 </a>

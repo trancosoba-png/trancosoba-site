@@ -4,7 +4,7 @@ import { PROPERTIES } from '../data/properties';
 import { WHATSAPP } from '../data/contact';
 import { PageHero, Reveal } from '../components/Layout';
 import PropertyCard from '../components/PropertyCard';
-import { trackWhatsApp } from '../data/analytics';
+import { trackWhatsAppClick } from '../data/analytics';
 
 export default function Carnaval() {
   const { lang } = useLang();
@@ -39,7 +39,7 @@ export default function Carnaval() {
           </div>
           <div className="mt-16 text-center">
             <a href={`https://wa.me/${WHATSAPP}?text=${encodeURIComponent(pt ? 'Olá! Quero disponibilidade e valores de Carnaval em Trancoso.' : 'Hello! I would like Carnival availability and rates in Trancoso.')}`}
-              target="_blank" rel="noreferrer" onClick={() => trackWhatsApp('carnaval')}
+              target="_blank" rel="noreferrer" onClick={() => trackWhatsAppClick('conteudo')}
               className="inline-flex items-center gap-2 bg-green-e text-ivory px-9 py-4 text-sm tracking-[0.2em] uppercase hover:bg-gold transition-colors">
               <MessageCircle size={16} /> {pt ? 'Consultar Carnaval' : 'Ask about Carnival'}
             </a>

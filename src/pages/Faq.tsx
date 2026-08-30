@@ -4,7 +4,7 @@ import { ChevronDown, MessageCircle } from 'lucide-react';
 import { useLang } from '../i18n';
 import { PageHero, Reveal } from '../components/Layout';
 import { WHATSAPP } from '../data/contact';
-import { trackWhatsApp } from '../data/analytics';
+import { trackWhatsAppClick } from '../data/analytics';
 
 interface QA { q: { pt: string; en: string }; a: { pt: string; en: string } }
 
@@ -121,7 +121,7 @@ export default function Faq() {
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <a href={`https://wa.me/${WHATSAPP}?text=${encodeURIComponent(pt ? 'Olá! Tenho uma dúvida sobre as casas em Trancoso.' : 'Hello! I have a question about the houses in Trancoso.')}`}
-                target="_blank" rel="noreferrer" onClick={() => trackWhatsApp('faq')}
+                target="_blank" rel="noreferrer" onClick={() => trackWhatsAppClick('conteudo')}
                 className="inline-flex items-center gap-2 bg-green-e text-ivory px-9 py-4 text-sm tracking-[0.2em] uppercase hover:bg-gold transition-colors">
                 <MessageCircle size={16} /> WhatsApp
               </a>

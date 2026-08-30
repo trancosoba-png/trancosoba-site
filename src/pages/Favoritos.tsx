@@ -3,7 +3,7 @@ import { useLang, txt } from '../i18n';
 import { PROPERTIES_META } from '../data/meta';
 import { WHATSAPP } from '../data/contact';
 import { useFavorites } from '../data/favorites';
-import { trackWhatsApp } from '../data/analytics';
+import { trackWhatsAppClick } from '../data/analytics';
 import { PageHero, Reveal } from '../components/Layout';
 import PropertyCard from '../components/PropertyCard';
 
@@ -35,7 +35,7 @@ export default function Favoritos() {
                 {houses.map((p) => <PropertyCard key={p.id} p={p} />)}
               </div>
               <Reveal className="text-center">
-                <a href={waLink} target="_blank" rel="noreferrer" onClick={() => trackWhatsApp('favoritos')}
+                <a href={waLink} target="_blank" rel="noreferrer" onClick={() => trackWhatsAppClick('conteudo')}
                   className="inline-block bg-green-e text-ivory text-xs tracking-[0.18em] uppercase px-10 py-4 hover:bg-green-deep transition-colors">
                   {t.fav.send} ({houses.length})
                 </a>
