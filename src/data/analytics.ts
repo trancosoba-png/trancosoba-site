@@ -9,7 +9,7 @@
 import { PROPERTIES_META } from './meta';
 
 export const GA4_ID = 'G-FJSQZD61J8';
-export const META_PIXEL_ID = '912292478419002';
+export const META_PIXEL_ID = '1060128920279108';
 
 const GA_OK = !GA4_ID.startsWith('G-XXXX');
 const META_OK = !META_PIXEL_ID.startsWith('0000');
