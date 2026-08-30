@@ -109,6 +109,16 @@ export function initAnalytics() {
     const s = document.createElement('script');
     s.async = true;
     s.src = 'https://connect.facebook.net/en_US/fbevents.js';
+    // Diagnóstico de carregamento: se um bloqueador (adblock, proteção de
+    // rastreamento, DNS) impedir o fbevents.js, o erro aparece no console —
+    // é a única falha do Pixel que não gera erro silencioso identificável.
+    s.onload = () => console.info('[analytics] fbevents.js carregado (Meta Pixel)');
+    s.onerror = () =>
+      console.warn(
+        '[analytics] FALHA ao carregar fbevents.js — o navegador/rede bloqueou ' +
+          'connect.facebook.net (bloqueador de anúncios, proteção de rastreamento ' +
+          'ou filtro de DNS). O Meta Pixel não vai funcionar neste navegador.'
+      );
     document.head.appendChild(s);
     window.fbq!('init', META_PIXEL_ID);
     // PageView NÃO é disparado aqui: o trackPageView abaixo mede a página atual
