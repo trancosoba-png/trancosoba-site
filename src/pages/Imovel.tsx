@@ -6,7 +6,7 @@ import type { Property } from '../data/properties';
 import { IMOVEL_HIGHLIGHTS } from '../data/imovel-highlights';
 import { WHATSAPP } from '../data/contact';
 import { usd } from '../data/price';
-import { trackWhatsApp } from '../data/analytics';
+import { trackWhatsAppClick } from '../data/analytics';
 import { Reveal } from '../components/Layout';
 import HeartButton from '../components/HeartButton';
 import Especificacoes, { SUITE_PAR } from '../components/Especificacoes';
@@ -337,7 +337,7 @@ export default function Imovel() {
                       : 'Nightly rates, subject to availability confirmation and length of stay. They do not include the 10% service fee.')}
               </p>
             </div>
-            <a href={`https://wa.me/${WHATSAPP}?text=${waMsg}`} target="_blank" rel="noreferrer" onClick={() => trackWhatsApp('imovel', p.id)}
+            <a href={`https://wa.me/${WHATSAPP}?text=${waMsg}`} target="_blank" rel="noreferrer" onClick={() => trackWhatsAppClick('tarifario')}
               className="mt-6 flex items-center justify-center gap-2 py-4 text-sm uppercase transition-colors hover:opacity-90" style={{ backgroundColor: '#f7f2e9', color: '#182b23', letterSpacing: '1px' }}>
               <MessageCircle size={16} /> {t.imovel.ask}
             </a>

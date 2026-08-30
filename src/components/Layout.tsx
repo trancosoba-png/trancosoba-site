@@ -3,7 +3,7 @@ import { Link, NavLink, useLocation } from 'react-router';
 import { Menu, X, Search, MessageCircle, Mail, MapPin, Instagram, Heart, Phone } from 'lucide-react';
 import { useLang } from '../i18n';
 import { WHATSAPP, WHATSAPP_DISPLAY } from '../data/contact';
-import { trackWhatsApp } from '../data/analytics';
+import { trackWhatsAppClick } from '../data/analytics';
 
 export function Reveal({ children, className = '' }: { children: ReactNode; className?: string }) {
   const ref = useRef<HTMLDivElement>(null);
@@ -73,7 +73,7 @@ export function Header() {
           <Link to="/casas" aria-label="Buscar" className={`${onDarkHero ? 'text-ivory' : 'text-green-e'} hover:text-gold transition-colors`}>
             <Search size={18} />
           </Link>
-          <a href={`https://wa.me/${WHATSAPP}`} target="_blank" rel="noreferrer" aria-label="WhatsApp" onClick={() => trackWhatsApp('header')}
+          <a href={`https://wa.me/${WHATSAPP}`} target="_blank" rel="noreferrer" aria-label="WhatsApp" onClick={() => trackWhatsAppClick('header')}
             className={`${onDarkHero ? 'text-ivory' : 'text-green-e'} hover:text-gold transition-colors`}>
             <MessageCircle size={18} />
           </a>
@@ -132,7 +132,7 @@ export function Footer() {
             <a href="https://maps.app.goo.gl/aGrSSnaWqyeiUP6x8" target="_blank" rel="noreferrer" className="flex items-center gap-2.5 whitespace-nowrap hover:text-gold transition-colors">
               <MapPin size={17} className="text-gold shrink-0" /> Quadrado, Trancoso, Porto Seguro — Bahia
             </a>
-            <a href={`https://wa.me/${WHATSAPP}`} target="_blank" rel="noreferrer" className="flex items-center gap-2.5 whitespace-nowrap hover:text-gold transition-colors" onClick={() => trackWhatsApp('footer')}>
+            <a href={`https://wa.me/${WHATSAPP}`} target="_blank" rel="noreferrer" className="flex items-center gap-2.5 whitespace-nowrap hover:text-gold transition-colors" onClick={() => trackWhatsAppClick('footer')}>
               <span className="text-gold shrink-0 flex"><WhatsAppIcon size={17} /></span> {WHATSAPP_DISPLAY}
             </a>
             <a href={`tel:+${WHATSAPP}`} className="flex items-center gap-2.5 whitespace-nowrap hover:text-gold transition-colors">
@@ -185,7 +185,7 @@ export function WhatsAppFloat() {
         className="bg-ivory border border-green-e/25 text-green-e p-3.5 rounded-full shadow-lg hover:bg-green-e hover:text-ivory transition-colors">
         <Mail size={20} />
       </a>
-      <a href={`https://wa.me/${WHATSAPP}`} target="_blank" rel="noreferrer" aria-label="Falar no WhatsApp" onClick={() => trackWhatsApp('footer')}
+      <a href={`https://wa.me/${WHATSAPP}`} target="_blank" rel="noreferrer" aria-label="Falar no WhatsApp" onClick={() => trackWhatsAppClick('float')}
         className="bg-green-e text-ivory p-3.5 rounded-full shadow-lg hover:bg-gold transition-colors">
         <MessageCircle size={22} />
       </a>

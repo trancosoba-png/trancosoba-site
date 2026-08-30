@@ -6,7 +6,7 @@ import { PROPERTIES_META } from '../data/meta';
 import { WHATSAPP } from '../data/contact';
 import { COLLECTIONS, collectionCover, collectionProperties } from '../data/collections';
 import { FILTER_LOCATIONS } from '../data/locations';
-import { trackWhatsApp } from '../data/analytics';
+import { trackWhatsAppClick } from '../data/analytics';
 import { Reveal } from '../components/Layout';
 import PropertyCard from '../components/PropertyCard';
 
@@ -199,7 +199,7 @@ export default function Home() {
           <p className="eyebrow text-gold">{t.home.ctaEyebrow}</p>
           <h2 className="font-serif-e text-4xl md:text-5xl text-green-e mt-4 leading-tight">{t.home.ctaTitle}</h2>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mt-10">
-            <a href={`https://wa.me/${WHATSAPP}`} target="_blank" rel="noreferrer" onClick={() => trackWhatsApp('home')}
+            <a href={`https://wa.me/${WHATSAPP}`} target="_blank" rel="noreferrer" onClick={() => trackWhatsAppClick('conteudo')}
               className="inline-flex items-center justify-center gap-2 bg-green-e text-ivory px-9 py-4 text-sm tracking-[0.2em] uppercase hover:bg-gold transition-colors">
               <MessageCircle size={16} /> {t.home.ctaWhatsapp}
             </a>

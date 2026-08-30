@@ -3,7 +3,7 @@ import { Link } from 'react-router';
 import { Phone, Mail, Instagram, MapPin, CheckCircle2 } from 'lucide-react';
 import { useLang } from '../i18n';
 import { WHATSAPP } from '../data/contact';
-import { trackWhatsApp, trackContact } from '../data/analytics';
+import { trackWhatsAppClick, trackContact } from '../data/analytics';
 import { PageHero, Reveal, WhatsAppIcon } from '../components/Layout';
 
 export default function Contato() {
@@ -21,7 +21,7 @@ export default function Contato() {
       `Mensagem: ${form.message}`,
     ].filter(Boolean);
     window.open(`https://wa.me/${WHATSAPP}?text=${encodeURIComponent(lines.join('\n'))}`, '_blank');
-    trackContact();
+    trackContact({ form: 'contato', page_type: 'contato' });
     setSent(true);
   };
 
@@ -43,7 +43,7 @@ export default function Contato() {
           <Reveal>
             <div className="space-y-6">
               {channels.map(c => (
-                <a key={c.label} href={c.href} target={c.href.startsWith('http') ? '_blank' : undefined} rel="noreferrer" onClick={() => { if (c.href.includes('wa.me')) trackWhatsApp('contato'); }}
+                <a key={c.label} href={c.href} target={c.href.startsWith('http') ? '_blank' : undefined} rel="noreferrer" onClick={() => { if (c.href.includes('wa.me')) trackWhatsAppClick('conteudo'); }}
                   className="flex items-center gap-5 group">
                   <span className="bg-ivory-deep p-3.5 text-green-e group-hover:bg-green-e group-hover:text-ivory transition-colors">
                     <c.icon size={20} />

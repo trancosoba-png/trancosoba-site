@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Teste Meta Pixel — Trancoso BA</title>
+<!-- Meta Pixel Code — snippet 100% oficial, sem React, sem consentimento -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1060128920279108');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1060128920279108&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+<style>
+  body { font-family: system-ui, sans-serif; max-width: 640px; margin: 40px auto; padding: 0 20px; color: #222; }
+  h1 { font-size: 22px; }
+  .card { border: 1px solid #ddd; border-radius: 10px; padding: 16px; margin: 14px 0; }
+  .ok { color: #0a7a2f; font-weight: 600; }
+  .bad { color: #b00020; font-weight: 600; }
+  button { background: #0f6b3a; color: #fff; border: 0; border-radius: 8px; padding: 12px 18px; font-size: 15px; cursor: pointer; margin: 4px 8px 4px 0; }
+  code { background: #f4f4f4; padding: 2px 6px; border-radius: 4px; }
+  #log { font-family: ui-monospace, monospace; font-size: 13px; white-space: pre-wrap; }
+</style>
+</head>
+<body>
+<h1>Teste isolado do Meta Pixel</h1>
+<p>Página estática, sem React e sem banner de consentimento. O snippet acima é a cópia exata do código oficial da Meta com o Pixel ID <code>1060128920279108</code>. O <strong>PageView já foi disparado</strong> ao abrir esta página.</p>
+
+<div class="card">
+  <h2 style="font-size:16px">Diagnóstico ao vivo</h2>
+  <div id="diag">Verificando…</div>
+</div>
+
+<div class="card">
+  <h2 style="font-size:16px">Disparar eventos de teste</h2>
+  <button onclick="fireWA()">ClickWhatsApp (com parâmetros)</button>
+  <button onclick="fireContact()">Contact</button>
+  <div id="log"></div>
+</div>
+
+<div class="card">
+  <h2 style="font-size:16px">Como ler o resultado</h2>
+  <ul>
+    <li><strong>Meta Pixel Helper</strong> deve detectar o Pixel <code>1060128920279108</code> nesta página.</li>
+    <li><strong>Events Manager → Test Events</strong> deve mostrar <code>PageView</code> e, após os botões, <code>ClickWhatsApp</code> e <code>Contact</code>.</li>
+    <li>Se nem aqui o Pixel for detectado, o bloqueio está <strong>no navegador/rede</strong> (extensão de bloqueio de anúncios, proteção contra rastreamento, antivírus com filtro web, ou DNS), e não no código do site.</li>
+  </ul>
+</div>
+
+<script>
+function log(msg){ document.getElementById('log').textContent += msg + "\n"; }
+function fireWA(){
+  fbq('trackCustom', 'ClickWhatsApp', { cta:'tarifario', page_type:'imovel', house_id:'villa-martini', house_code:'VLM', lang:'pt' });
+  log('→ fbq trackCustom ClickWhatsApp disparado (cta=tarifario, page_type=imovel, house_id=villa-martini, house_code=VLM, lang=pt)');
+}
+function fireContact(){
+  fbq('track', 'Contact', { form:'contato', page_type:'contato', lang:'pt' });
+  log('→ fbq track Contact disparado (form=contato, page_type=contato, lang=pt)');
+}
+(function(){
+  var d = document.getElementById('diag');
+  var lines = [];
+  lines.push(typeof window.fbq === 'function'
+    ? '<span class="ok">✓</span> window.fbq existe (stub criado)'
+    : '<span class="bad">✗</span> window.fbq NÃO existe');
+  lines.push('Comandos na fila do stub: ' + (window.fbq && window.fbq.queue ? window.fbq.queue.length : '—'));
+  setTimeout(function(){
+    var adopted = !!(window.fbq && window.fbq.callMethod);
+    lines.push(adopted
+      ? '<span class="ok">✓</span> fbevents.js carregou e adotou o stub — Pixel ATIVO neste navegador'
+      : '<span class="bad">✗</span> fbevents.js NÃO carregou em 4s — connect.facebook.net está bloqueado neste navegador/rede (adblock, proteção de rastreamento ou DNS)');
+    d.innerHTML = lines.join('<br>');
+  }, 4000);
+  d.innerHTML = lines.join('<br>');
+})();
+</script>
+</body>
+</html>

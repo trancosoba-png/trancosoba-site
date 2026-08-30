@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useLang } from '../i18n';
 import { WHATSAPP } from '../data/contact';
-import { trackWhatsApp } from '../data/analytics';
+import { trackWhatsAppClick } from '../data/analytics';
 import { PageHero, Reveal } from '../components/Layout';
 
 export default function Anuncie() {
@@ -30,7 +30,7 @@ export default function Anuncie() {
         <div className="max-w-3xl mx-auto px-5 md:px-8">
           <Reveal>
             <p className="text-lg text-ink/70 leading-relaxed">{t.anuncie.text}</p>
-            <form className="mt-10 space-y-5" onSubmit={(e) => { e.preventDefault(); if (ready) { trackWhatsApp('anuncie'); window.open(waLink, '_blank'); } }}>
+            <form className="mt-10 space-y-5" onSubmit={(e) => { e.preventDefault(); if (ready) { trackWhatsAppClick('formulario'); window.open(waLink, '_blank'); } }}>
               <label className="flex flex-col gap-1.5">
                 <span className="eyebrow text-green-e/60">{t.anuncie.name}</span>
                 <input value={name} onChange={(e) => setName(e.target.value)} className={input} required maxLength={100} autoComplete="name" />

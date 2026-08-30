@@ -1,4 +1,4 @@
-import { lazy, Suspense, useEffect, type ComponentType } from 'react';
+import { lazy, Suspense, useEffect, useRef, type ComponentType } from 'react';
 import { Routes, Route, useLocation, useNavigationType } from 'react-router';
 import { LangProvider } from './i18n';
 import { PROPERTIES_META } from './data/meta';
@@ -6,7 +6,7 @@ import { collectionById } from './data/collections';
 import { guiaBySlug } from './data/guia';
 import { Header, Footer, WhatsAppFloat } from './components/Layout';
 import { FavoritesProvider } from './data/favorites';
-import { initAnalytics, hasConsent } from './data/analytics';
+import { initAnalytics, hasConsent, trackPageView } from './data/analytics';
 import CookieNotice from './components/CookieNotice';
 
 // Code splitting: páginas secundárias carregam sob demanda
@@ -137,6 +137,19 @@ function TitleManager() {
   return null;
 }
 
+// Dispara page_view a cada mudança de rota do SPA. Na montagem, vira no-op
+// (o init roda depois, no efeito do App) e a entrada é medida pelo próprio
+// initAnalytics — exatamente 1 page_view por navegação, sem duplicidade.
+function PageTracker() {
+  const { pathname } = useLocation();
+  const first = useRef(true);
+  useEffect(() => {
+    if (first.current) { first.current = false; return; }
+    trackPageView(pathname);
+  }, [pathname]);
+  return null;
+}
+
 function ScrollTop() {
   const { pathname } = useLocation();
   const action = useNavigationType();
@@ -200,6 +213,7 @@ export default function App({ pages = lazyPages }: { pages?: Pages }) {
       <ScrollTop />
       <ScrollRestorer />
       <TitleManager />
+      <PageTracker />
       <a href="#conteudo" className="sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-[100] focus:bg-green-deep focus:text-ivory focus:px-4 focus:py-2 focus:text-sm">
         Ir para o conteúdo
       </a>
