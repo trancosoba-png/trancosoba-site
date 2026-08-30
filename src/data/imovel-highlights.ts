@@ -1152,6 +1152,12 @@ export const IMOVEL_HIGHLIGHTS: Record<string, ImovelHighlights> = {
     en: ['Beachfront', 'Beach service', '3 suites · up to 10 guests'],
     es: ['Frente a la playa', 'Servicio de playa', '3 suites · hasta 10 huéspedes'],
   },
+  // Fonte: PDF Casa 101 — pé na areia + apoio de praia + adega (condomínio Vilas Altos) + suites=3 guests=6
+  'vilas-altos-de-trancoso-casa-101': {
+    pt: ['Pé na areia', 'Apoio de praia', 'Adega de vinhos'],
+    en: ['Beachfront', 'Beach service', 'Wine cellar'],
+    es: ['Frente a la playa', 'Servicio de playa', 'Cava de vinos'],
+  },
   // Fonte: suites=3 guests=6 | piscina (features/amenities)
   'casa-brunella': {
     pt: ['3 suítes · até 6 hóspedes', 'Piscina'],

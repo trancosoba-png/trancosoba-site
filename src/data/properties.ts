@@ -4886,6 +4886,41 @@ const VILAS118: Property = {
   },
 };
 
+const GALLERY_VILAS101 = ['/img/vilas101/01.webp','/img/vilas101/02.webp','/img/vilas101/03.webp','/img/vilas101/04.webp','/img/vilas101/05.webp','/img/vilas101/06.webp','/img/vilas101/07.webp','/img/vilas101/08.webp','/img/vilas101/09.webp','/img/vilas101/10.webp','/img/vilas101/11.webp','/img/vilas101/12.webp','/img/vilas101/13.webp','/img/vilas101/14.webp','/img/vilas101/15.webp','/img/vilas101/16.webp','/img/vilas101/17.webp','/img/vilas101/18.webp','/img/vilas101/19.webp','/img/vilas101/20.webp','/img/vilas101/21.webp','/img/vilas101/22.webp','/img/vilas101/23.webp','/img/vilas101/24.webp','/img/vilas101/25.webp','/img/vilas101/26.webp','/img/vilas101/27.webp','/img/vilas101/28.webp','/img/vilas101/29.webp','/img/vilas101/30.webp'];
+
+const VILAS101: Property = {
+  id: 'vilas-altos-de-trancoso-casa-101', code: 'TBA-393', name: { pt: 'Casa 101', en: 'Casa 101' },
+  purpose: ['aluguel'], location: 'Praia dos Nativos', suites: 3, guests: 6, baths: 3, area: '262 m²',
+  price: { pt: 'R$ 7.500 / diária', en: 'R$ 7,500 / night' },
+  priceLow: { pt: 'R$ 6.000 / diária', en: 'R$ 6,000 / night' },
+  carnaval: { pt: 'R$ 250.000 / pacote', en: 'R$ 250,000 / package' },
+  reveillon: { pt: 'R$ 250.000 / pacote', en: 'R$ 250,000 / package' },
+  image: '/img/vilas101/01.webp',
+  gallery: GALLERY_VILAS101,
+  featured: false,
+  amenities: {
+    pt: ['Pé na areia', 'Apoio de praia', 'Adega de vinhos', 'Piscina', 'Sala de estar', 'Sala de jantar', 'Sala de TV', 'Cozinha equipada', 'Máquina de lavar-louça', 'Lavabo', 'Lavanderia', 'Ar-condicionado', 'TV', 'Internet Wi-Fi', 'Cofres nos quartos', 'Espreguiçadeiras e ombrelone', 'Roupas de cama, mesa e banho', 'Ambiente kids friendly', 'Serviços gerais', 'Gerador', 'Poço artesiano', 'Estacionamento', 'Condomínio Vilas Altos de Trancoso', '3 suítes no piso superior: suítes 1 e 2 com cama queen size; suíte 3 com 2 camas viúva'],
+    en: ['Beachfront', 'Beach service', 'Wine cellar', 'Pool', 'Living room', 'Dining room', 'TV room', 'Equipped kitchen', 'Dishwasher', 'Powder room', 'Laundry', 'Air conditioning', 'TV', 'Wi-Fi internet', 'In-room safes', 'Sun loungers and parasol', 'Bed, table and bath linens', 'Kid-friendly environment', 'General services', 'Generator', 'Artesian well', 'Parking', 'Vilas Altos de Trancoso community', '3 suites on the upper floor: suites 1 and 2 with queen-size bed; suite 3 with 2 twin beds'],
+  },
+  description: {
+    pt: 'No condomínio Vilas Altos de Trancoso, na Praia dos Nativos, a Casa 101 fica a apenas 5 minutos a pé do Quadrado — a localização permite explorar todo o charme de Trancoso com praticidade, sem necessidade de carro.\n\nA casa possui três suítes no piso superior e acomoda até 6 pessoas. As suítes 1 e 2 contam com cama queen size; a suíte 3 tem duas camas viúva. A adega de vinhos completa os momentos de convivência na casa.\n\nPara os momentos à beira-mar, o condomínio oferece apoio de praia exclusivo, com a comodidade de realizar pedidos diretamente do restaurante Almar. A localização privilegiada também coloca os hóspedes a aproximadamente 200 metros de dois dos mais conhecidos beach clubs de Trancoso: AWE e Zé Barbudo.\n\nO projeto tem arquitetura de Gui Mattos, paisagismo da Cia do Verde e decoração de Gutemberg Siso — uma excelente opção para quem deseja relaxar, aproveitar a praia e viver o melhor de Trancoso com conforto e praticidade.',
+    en: 'In the Vilas Altos de Trancoso community, on Nativos Beach, Casa 101 is just a 5-minute walk from the Quadrado — the location allows you to explore all of Trancoso\'s charm with ease, without needing a car.\n\nThe house has three suites on the upper floor and accommodates up to 6 guests. Suites 1 and 2 feature a queen-size bed; suite 3 has two twin beds. The wine cellar completes the moments of togetherness at the house.\n\nFor moments by the sea, the community offers exclusive beach service, with the convenience of ordering directly from the Almar restaurant. The privileged location also places guests approximately 200 meters from two of Trancoso\'s best-known beach clubs: AWE and Zé Barbudo.\n\nThe project features architecture by Gui Mattos, landscaping by Cia do Verde and décor by Gutemberg Siso — an excellent option for those who wish to relax, enjoy the beach and experience the best of Trancoso in comfort and convenience.',
+  },
+  staff: {
+    pt: ['1 arrumadeira.'],
+    en: ['1 housekeeper.'],
+  },
+  notes: {
+    pt: ['Locação mínima de 5 diárias.', 'Não são permitidos animais de estimação.', 'Feriados: diária de R$ 7.500.', 'Staff no Carnaval e Réveillon: 1 arrumadeira, 1 cozinheira e 1 copeiro/barman.', 'Valores e disponibilidade sujeitos a confirmação no momento da consulta.'],
+    en: ['Minimum stay of 5 nights.', 'Pets are not allowed.', 'Holidays: nightly rate of R$ 7,500.', 'Staff during Carnival and New Year\'s: 1 housekeeper, 1 cook and 1 kitchen assistant/bartender.', 'Rates and availability subject to confirmation at the time of inquiry.'],
+  },
+  features: ['pe-na-areia', 'condominio', 'piscina'],
+  locationDetail: {
+    pt: 'Condomínio Vilas Altos de Trancoso, na Praia dos Nativos, em Trancoso, Bahia. A 5 minutos a pé do Quadrado, com apoio de praia exclusivo e a cerca de 200 metros dos beach clubs AWE e Zé Barbudo.',
+    en: 'Vilas Altos de Trancoso community, on Nativos Beach, in Trancoso, Bahia. A 5-minute walk from the Quadrado, with exclusive beach service and about 200 meters from the AWE and Zé Barbudo beach clubs.',
+  },
+};
+
 const CASABRUNELLA: Property = {
   id: 'casa-brunella', code: 'TBA-389', name: { pt: 'Casa Brunella', en: 'Casa Brunella' },
   purpose: ['aluguel'], location: 'Colina', suites: 3, guests: 6, baths: 4, area: '300 m²',
@@ -4949,7 +4984,7 @@ const COQUEIRAL03: Property = {
   },
 };
 
-PROPERTIES.unshift(VILAS118, VILAS201, COQUEIRAL03, CASABRUNELLA, AROEIRA, CASA11ALDEIA, CASADEI, CASALUA, CASASOL, CASILLA, COQUEIRAL5, CASAJV12, MUXARABI, NOA, PONTA03, SELVA, VILAS16, GRAODEMAR, VILAS37, VILAS27, VILAS61, VILAS62, VILLAQ, JV5, PADRE, FASANOJ2, COQ15, CASAFLO, CASACP, TEMPO03, OLAVA, BUENAVISTA, FAZENDA29, VILAS39, TVB12, GOLF28, COQ12, COQ11, VILLAW, COQ10, COQ27, IEMANJA, COQ09, NANA, VILAS34, JUE, TEMPO04, COQ04, HELENA, ALTAR, DUE, AZUL, FER, COLINA3, COLINA2, COLINA, ECO01, ECO03, ECO04, VISTA, GOLF95, VILA13, COQUEIRAL01, OKUN, GOLF62, TVB10, MANGABA, GOLF21, GOLF19, GOLF33, GOLF37, GOLF27, TRAMA, TIZZI, LILI, COQUEIRAL02, JV15, JV14, JV13, PEROBA, COQ06, COQUEIRAL7, COQ08, V7, MARTINI, SANTARITA, PATIMIRIM, DAJU, BUENO, BONITA, AREIA, COQUEIRAL13, SUBLIME, ESTRELA, VISTANATIVOS, TERRAL, ITAPO05, ITAPO01, ATENA, JACARANDA04, COQUEIRAL14, C20, CASAMARIA, ALMESCLA, CASAMAR, GEIGER, C21, MIA, COQUEIRAL22, MAION, DADINHO, IANDE, MAGIVI, OITI, C23, C24, NAOCA, CASA71, CAJU, SANMARCO, CASA14, CASA09, BOSSA, TUA, IMBIRUCU, CASA42, CASA61, VILAS02, CASA80, ITAPO07, CASA96, CASA90, VILAS75, LIMOEIRO, BIRIBA, VILAMAR, BETTONI, PINI, AUREA, SAOJORGE, CAZA, ITAPO06, ITAPO04, ALEGRIA, PONTA, PG11, PG111, PG104, MANDACARU, PONTARB, FALESIA, RAIZES, PONTABARRA, FASANO10, FASANO16, FASANO17, VILAS26, GOLF58, FLORESTA, VILAS41, VILAS67, BOUTIQUE13, ARACUA, JACARANDA03, TEIU, GOLF25, PG50, CASAEDO, BALEIA, PG55, GOLF72, PITANGA, AFRICA, TEMPO07, TEMPO08, TEMPO06, BOSQUE, PATIO, PG32, PG45, LICURI, DIVINA, TRESMENINAS, COQUEIRAL25, MORENA, MOA, BRAGA, CUMARU, JACARANDA05, TB14, MACONDO, RICK);
+PROPERTIES.unshift(VILAS101, VILAS118, VILAS201, COQUEIRAL03, CASABRUNELLA, AROEIRA, CASA11ALDEIA, CASADEI, CASALUA, CASASOL, CASILLA, COQUEIRAL5, CASAJV12, MUXARABI, NOA, PONTA03, SELVA, VILAS16, GRAODEMAR, VILAS37, VILAS27, VILAS61, VILAS62, VILLAQ, JV5, PADRE, FASANOJ2, COQ15, CASAFLO, CASACP, TEMPO03, OLAVA, BUENAVISTA, FAZENDA29, VILAS39, TVB12, GOLF28, COQ12, COQ11, VILLAW, COQ10, COQ27, IEMANJA, COQ09, NANA, VILAS34, JUE, TEMPO04, COQ04, HELENA, ALTAR, DUE, AZUL, FER, COLINA3, COLINA2, COLINA, ECO01, ECO03, ECO04, VISTA, GOLF95, VILA13, COQUEIRAL01, OKUN, GOLF62, TVB10, MANGABA, GOLF21, GOLF19, GOLF33, GOLF37, GOLF27, TRAMA, TIZZI, LILI, COQUEIRAL02, JV15, JV14, JV13, PEROBA, COQ06, COQUEIRAL7, COQ08, V7, MARTINI, SANTARITA, PATIMIRIM, DAJU, BUENO, BONITA, AREIA, COQUEIRAL13, SUBLIME, ESTRELA, VISTANATIVOS, TERRAL, ITAPO05, ITAPO01, ATENA, JACARANDA04, COQUEIRAL14, C20, CASAMARIA, ALMESCLA, CASAMAR, GEIGER, C21, MIA, COQUEIRAL22, MAION, DADINHO, IANDE, MAGIVI, OITI, C23, C24, NAOCA, CASA71, CAJU, SANMARCO, CASA14, CASA09, BOSSA, TUA, IMBIRUCU, CASA42, CASA61, VILAS02, CASA80, ITAPO07, CASA96, CASA90, VILAS75, LIMOEIRO, BIRIBA, VILAMAR, BETTONI, PINI, AUREA, SAOJORGE, CAZA, ITAPO06, ITAPO04, ALEGRIA, PONTA, PG11, PG111, PG104, MANDACARU, PONTARB, FALESIA, RAIZES, PONTABARRA, FASANO10, FASANO16, FASANO17, VILAS26, GOLF58, FLORESTA, VILAS41, VILAS67, BOUTIQUE13, ARACUA, JACARANDA03, TEIU, GOLF25, PG50, CASAEDO, BALEIA, PG55, GOLF72, PITANGA, AFRICA, TEMPO07, TEMPO08, TEMPO06, BOSQUE, PATIO, PG32, PG45, LICURI, DIVINA, TRESMENINAS, COQUEIRAL25, MORENA, MOA, BRAGA, CUMARU, JACARANDA05, TB14, MACONDO, RICK);
 
 // Todas as casas em ordem alfabética (nome em português).
 PROPERTIES.sort((a, b) => a.name.pt.localeCompare(b.name.pt, 'pt-BR', { numeric: true }));
