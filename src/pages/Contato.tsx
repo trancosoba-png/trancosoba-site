@@ -37,7 +37,7 @@ export default function Contato() {
 
   return (
     <>
-      <PageHero title={t.contato.title} sub={t.contato.sub} image="/img/hero.webp" />
+      <PageHero title={t.contato.title} sub={t.contato.sub} image="/img/hero-contato.webp" />
       <section className="py-20 md:py-28">
         <div className="max-w-7xl mx-auto px-5 md:px-8 grid lg:grid-cols-2 gap-14">
           <Reveal>
