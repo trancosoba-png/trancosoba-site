@@ -83,16 +83,32 @@ export default function Casas() {
       const raw = sessionStorage.getItem('casas:state');
       if (!raw) return;
       const st = JSON.parse(raw);
+      // Regra de prioridade: filtro explícito na URL (?local=, ?finalidade=, ?suites=,
+      // ?hospedes=) vence qualquer estado salvo na sessão — essencial para os links
+      // "Ver todas as casas nesta região" do Guia e para links compartilhados.
+      const urlPurpose = params.get('finalidade');
+      const urlLocal = params.get('local');
+      const urlSuites = params.get('suites');
+      const urlGuests = params.get('hospedes');
+      const effPurpose = urlPurpose !== null ? (urlPurpose as PurposeFilter) : (st.purpose ?? '');
+      const effLocation = urlLocal !== null ? canonicalLocation(urlLocal) : (st.location ?? '');
+      const effSuites = urlSuites !== null ? urlSuites : (st.suites ?? '');
+      const effGuests = urlGuests !== null ? urlGuests : (st.guests ?? '');
+      // A posição salva (visible) só é restaurada quando os filtros efetivos são os
+      // mesmos da sessão; com filtro novo explícito na URL, a lista recomeça do topo.
+      const sameFilters =
+        effPurpose === (st.purpose ?? '') && effLocation === (st.location ?? '') &&
+        effSuites === (st.suites ?? '') && effGuests === (st.guests ?? '');
       skipReset.current = true;
-      if (st.purpose) setPurpose(st.purpose);
-      if (st.location) setLocation(st.location);
-      if (st.suites) setSuites(st.suites);
-      if (st.guests) setGuests(st.guests);
+      if (effPurpose) setPurpose(effPurpose);
+      if (effLocation) setLocation(effLocation);
+      if (effSuites) setSuites(effSuites);
+      if (effGuests) setGuests(effGuests);
       if (st.priceMin) setPriceMin(st.priceMin);
       if (st.priceMax) setPriceMax(st.priceMax);
       if (Array.isArray(st.feats) && st.feats.length) setFeats(st.feats);
       if (st.query) setQuery(st.query);
-      if (st.visible) setVisible(st.visible);
+      if (st.visible && sameFilters) setVisible(st.visible);
     } catch { /* estado inválido: ignora */ }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
