@@ -1146,7 +1146,13 @@ export const IMOVEL_HIGHLIGHTS: Record<string, ImovelHighlights> = {
     en: ['Beach service', 'Wine cellar', '2 suites · up to 4 guests'],
     es: ['Servicio de playa', 'Cava de vinos', '2 suites · hasta 4 huéspedes'],
   },
-  // Fonte: PDF Casa 201 — pé na areia + apoio de praia (condomínio Vilas Altos) + suites=3 guests=10
+  // Fonte: PDF Casa 04 — pé na areia + apoio de praia (condomínio Vilas Altos) + suites=3 guests=7
+  'vilas-altos-de-trancoso-casa-04': {
+    pt: ['Pé na areia', 'Apoio de praia', '3 suítes · até 7 hóspedes'],
+    en: ['Beachfront', 'Beach service', '3 suites · up to 7 guests'],
+    es: ['Frente a la playa', 'Servicio de playa', '3 suites · hasta 7 huéspedes'],
+  },
+// Fonte: PDF Casa 201 — pé na areia + apoio de praia (condomínio Vilas Altos) + suites=3 guests=10
   'vilas-altos-de-trancoso-casa-201': {
     pt: ['Pé na areia', 'Apoio de praia', '3 suítes · até 10 hóspedes'],
     en: ['Beachfront', 'Beach service', '3 suites · up to 10 guests'],
