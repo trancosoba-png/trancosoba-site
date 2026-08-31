@@ -61,6 +61,16 @@
       "permanent": true
     },
     {
+      "source": "/imovel/estancia-fasano-j2",
+      "destination": "/imovel/estancia-fasano-j7",
+      "permanent": true
+    },
+    {
+      "source": "/p/estancia-fasano-j2",
+      "destination": "/p/estancia-fasano-j7",
+      "permanent": true
+    },
+    {
       "source": "/imovel/casa-braga",
       "destination": "/imovel/casa-coqueiral-26",
       "permanent": true
