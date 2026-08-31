@@ -60,6 +60,12 @@ export const IMOVEL_HIGHLIGHTS: Record<string, ImovelHighlights> = {
     en: ['Terravista Vilas Condominium', '3 suites · up to 7 guests', 'Pool'],
     es: ['Condominio Terravista Vilas', '3 suites · hasta 7 huéspedes', 'Piscina'],
   },
+  // Fonte: PDF Fazenda Rio da Barra 25 — condominio + apoio de praia | suites=5 guests=10 (correcao do cliente: 10, nao 14)
+  'fazenda-rio-da-barra-25': {
+    pt: ['Condomínio Rio da Barra', 'Apoio de praia', '5 suítes · até 10 hóspedes'],
+    en: ['Rio da Barra Condominium', 'Beach service', '5 suites · up to 10 guests'],
+    es: ['Condominio Rio da Barra', 'Servicio de playa', '5 suites · hasta 10 huéspedes'],
+  },
   // Fonte: features 'vista-mar' | features 'condominio' + location 'Rio da Barra' | amenity 'Apoio de praia'
   'fazenda-rio-da-barra-29': {
     pt: ['Vista para o mar', 'Condomínio Rio da Barra', 'Apoio de praia'],
