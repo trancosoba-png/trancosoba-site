@@ -64,6 +64,7 @@ export default function Casas() {
   const skipReset = useRef(false);
   const sentinelRef = useRef<HTMLDivElement | null>(null);
   const fullList = isFiltering ? results : portfolio;
+  const hasMore = visible < fullList.length;
   const listKey = [colId, purpose, location, suites, guests, priceMin, priceMax, feats.join(','), query].join('|');
   useEffect(() => {
     if (skipReset.current) { skipReset.current = false; return; }
@@ -104,7 +105,11 @@ export default function Casas() {
       }));
     } catch { /* storage cheio/bloqueado: ignora */ }
   }, [purpose, location, suites, guests, priceMin, priceMax, feats, query, visible]);
+  // O sentinela sai do DOM quando a lista termina (hasMore=false) e volta ao trocar
+  // de filtro. O observer precisa ser reanexado sempre que isso acontece — com deps
+  // vazias ele ficava preso ao nó antigo e o scroll infinito morria após filtrar.
   useEffect(() => {
+    if (!hasMore) return;
     const el = sentinelRef.current;
     if (!el) return;
     const obs = new IntersectionObserver((entries) => {
@@ -112,7 +117,7 @@ export default function Casas() {
     }, { rootMargin: '800px' });
     obs.observe(el);
     return () => obs.disconnect();
-  }, []);
+  }, [hasMore]);
 
   const sel = "w-full bg-transparent border border-green-e/25 px-3 py-2.5 text-sm outline-none focus:border-gold";
 
@@ -254,7 +259,7 @@ export default function Casas() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-14">
             {fullList.slice(0, visible).map(renderCard)}
           </div>
-          {visible < fullList.length && <div ref={sentinelRef} className="h-1" aria-hidden="true" />}
+          {hasMore && <div ref={sentinelRef} className="h-1" aria-hidden="true" />}
           {lang !== 'pt' && <p className="mt-10 text-center text-xs text-ink/45 italic">{t.home.fxNote}</p>}
         </div>
       </section>
