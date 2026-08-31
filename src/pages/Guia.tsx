@@ -94,7 +94,7 @@ export default function Guia() {
 
   return (
     <>
-      <PageHero title={t.guia.title} sub={t.guia.sub} image="/img/hero.webp" />
+      <PageHero title={t.guia.title} sub={t.guia.sub} image="/img/hero-guia.webp" />
 
       <section className="py-16 md:py-24">
         <div className="max-w-7xl mx-auto px-5 md:px-8">
