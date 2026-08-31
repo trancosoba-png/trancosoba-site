@@ -456,11 +456,11 @@ export const IMOVEL_HIGHLIGHTS: Record<string, ImovelHighlights> = {
     en: ['Beach service', 'Golf course', '5 suites · up to 10 guests'],
     es: ['Servicio de playa', 'Campo de golf', '5 suites · hasta 10 huéspedes'],
   },
-  // Fonte: suites=5 guests=14 | piscina (features/amenities)
+  // Fonte: PDF Casa 50 Pedro Grande (versao oficial) | suites=7 guests=14
   'casa-50-pedro-grande': {
-    pt: ['5 suítes · até 14 hóspedes', 'Piscina'],
-    en: ['5 suites · up to 14 guests', 'Pool'],
-    es: ['5 suites · hasta 14 huéspedes', 'Piscina'],
+    pt: ['Acesso privativo à praia', 'Hidromassagem aquecida', '7 suítes · até 14 hóspedes'],
+    en: ['Private beach access', 'Heated jacuzzi', '7 suites · up to 14 guests'],
+    es: ['Acceso privado a la playa', 'Jacuzzi climatizado', '7 suites · hasta 14 huéspedes'],
   },
   // Fonte: staff: 2 arrumadeiras; 1 cozinheira; 1 auxiliar de cozinha; 1 barman; 1 caseiro | amenity 'Apoio de praia' | amenity 'Gerador e poço artesiano'
   'casa-do-edo': {
