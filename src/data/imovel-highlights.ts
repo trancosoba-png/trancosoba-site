@@ -114,11 +114,11 @@ export const IMOVEL_HIGHLIGHTS: Record<string, ImovelHighlights> = {
     en: ['Next to the Quadrado', '4 suites · up to 8 guests'],
     es: ['Junto al Quadrado', '4 suites · hasta 8 huéspedes'],
   },
-  // Fonte: amenity 'Adega de vinhos' | amenity 'Gerador de energia' | suites=6 guests=12
+  // Fonte: PDF Vilas Fasano Casa J07 (mesma casa, versao oficial) | suites=5 guests=10
   'estancia-fasano-j2': {
-    pt: ['Adega', 'Gerador', '6 suítes · até 12 hóspedes'],
-    en: ['Wine cellar', 'Generator', '6 suites · up to 12 guests'],
-    es: ['Bodega', 'Generador', '6 suites · hasta 12 huéspedes'],
+    pt: ['Vilas Fasano', 'Vista para o mar', '5 suítes · até 10 hóspedes'],
+    en: ['Vilas Fasano', 'Ocean view', '5 suites · up to 10 guests'],
+    es: ['Vilas Fasano', 'Vista al mar', '5 suites · hasta 10 huéspedes'],
   },
   // Fonte: suites=5 guests=14 | piscina (features/amenities)
   'casa-coqueiral-15': {
