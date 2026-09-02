@@ -4,6 +4,7 @@ import { useLang } from '../i18n';
 import { Reveal } from '../components/Layout';
 import PropertyCard from '../components/PropertyCard';
 import GuiaCta from '../components/GuiaCta';
+import GuiaParceria from '../components/GuiaParceria';
 import { guiaBySlug, guiaRelated, guiaText } from '../data/guia';
 import { guiaHouses } from '../data/guia-casas';
 import { guiaCtaRegion, guiaCtaRegionFinal, guiaCtaGeneric } from '../data/guia-cta';
@@ -57,6 +58,21 @@ export default function GuiaArtigo() {
   if (!article) return <Navigate to="/guia" replace />;
   const g = guiaText(article, lang);
   const related = guiaRelated(article);
+
+  // Bloco editorial de parceria (Luara Lopes): o artigo de casamentos traz o
+  // marcador :::parceria-luara no markdown, que vira um <p> isolado (com as
+  // classes tipográficas do corpo) no HTML compilado. Aqui ele vira o
+  // componente React (foto + texto + WhatsApp), no idioma da interface. Com
+  // marcador presente, o CTA de meio não se aplica a esse artigo.
+  const PARTNER_TOKEN = ':::parceria-luara';
+  const partnerParts = (() => {
+    const ti = bodyHtml.indexOf(PARTNER_TOKEN);
+    if (ti < 0) return null;
+    const open = bodyHtml.lastIndexOf('<p', ti);
+    const close = bodyHtml.indexOf('</p>', ti);
+    if (open < 0 || close < 0) return null;
+    return [bodyHtml.slice(0, open), bodyHtml.slice(close + '</p>'.length)] as const;
+  })();
 
   // Casas associadas ao artigo pelo mapeamento editorial centralizado de
   // src/data/guia-casas.ts (região ou coleção do catálogo). Sem associação
@@ -130,7 +146,13 @@ export default function GuiaArtigo() {
 
         {/* HTML compilado no prebuild (scripts/guia-md.mjs) — conteúdo nosso,
             dos .md versionados em src/content/guia/; não é entrada de usuário. */}
-        {midSplit && ctaMid ? (
+        {partnerParts ? (
+          <>
+            <div onClick={onBodyClick} dangerouslySetInnerHTML={{ __html: partnerParts[0] }} />
+            <GuiaParceria />
+            <div onClick={onBodyClick} dangerouslySetInnerHTML={{ __html: partnerParts[1] }} />
+          </>
+        ) : midSplit && ctaMid ? (
           <>
             <div onClick={onBodyClick} dangerouslySetInnerHTML={{ __html: midSplit[0] }} />
             <GuiaCta cta={ctaMid} />
