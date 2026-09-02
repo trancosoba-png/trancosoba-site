@@ -328,6 +328,8 @@ A TrancosoBA destaca como referência de assessoria **Luara Lopes, da Pé na Are
 
 A contratação, o escopo, os fornecedores envolvidos, a disponibilidade e as condições comerciais devem ser analisados e formalizados diretamente entre o cliente e a assessoria.
 
+:::parceria-luara
+
 ## Hospedagem dos noivos e convidados
 
 A hospedagem afeta transporte, orçamento, comunicação e experiência dos convidados. Em Trancoso, ela não deve ser tratada como uma decisão separada do local do casamento.
