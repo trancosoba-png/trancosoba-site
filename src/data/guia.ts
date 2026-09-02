@@ -49,10 +49,34 @@ export function guiaRelated(article: GuiaArticle, count = 3): GuiaArticle[] {
   return [...sameCat, ...rest].slice(0, count);
 }
 
-/** Categorias que têm pelo menos um artigo (para os filtros da página /guia). */
-export function guiaUsedCategories(): string[] {
-  const used = new Set(GUIA_ARTICLES.map((a) => a.category));
-  return GUIA_CATEGORIES.filter((c) => used.has(c));
+/** Idiomas suportados pelo site (mesma união de src/i18n.tsx). */
+export type GuiaLang = 'pt' | 'en' | 'es';
+
+/**
+ * Campos editoriais do artigo no idioma pedido, com fallback para PT quando
+ * ainda não existe tradução (<slug>.en.md / <slug>.es.md em src/content/guia).
+ */
+export function guiaText(a: GuiaArticle, lang: GuiaLang) {
+  const tr = lang === 'pt' ? null : a[lang];
+  return {
+    title: tr?.title ?? a.title,
+    description: tr?.description ?? a.description,
+    category: tr?.category ?? a.category,
+    seoTitle: tr?.seoTitle ?? a.seoTitle,
+    seoDescription: tr?.seoDescription ?? a.seoDescription,
+    nota: tr?.nota ?? a.nota,
+    html: tr?.html ?? a.html,
+    htmlRelated: tr?.htmlRelated ?? a.htmlRelated,
+  };
+}
+
+/** Categorias que têm pelo menos um artigo (para os filtros da página /guia).
+ *  Retorna pares { pt, label }: o filtro sempre compara a categoria canônica
+ *  em PT (estável entre idiomas) e exibe o rótulo traduzido quando existe. */
+export function guiaUsedCategories(lang: GuiaLang = 'pt'): { pt: string; label: string }[] {
+  const byPt = new Map<string, string>();
+  for (const a of GUIA_ARTICLES) if (!byPt.has(a.category)) byPt.set(a.category, guiaText(a, lang).category);
+  return GUIA_CATEGORIES.filter((c) => byPt.has(c)).map((c) => ({ pt: c, label: byPt.get(c)! }));
 }
 
 /** dd/mm/aaaa a partir de ISO aaaa-mm-dd (determinístico: igual no SSG e no cliente). */

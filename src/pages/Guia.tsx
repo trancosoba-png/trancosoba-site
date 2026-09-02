@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Link } from 'react-router';
 import { useLang } from '../i18n';
 import { PageHero, Reveal } from '../components/Layout';
-import { guiaArticles, guiaFeaturedMain, guiaFeaturedSecondary, guiaUsedCategories, type GuiaArticle } from '../data/guia';
+import { guiaArticles, guiaFeaturedMain, guiaFeaturedSecondary, guiaUsedCategories, guiaText, type GuiaArticle } from '../data/guia';
 
 function coverSrcset(src: string) {
   // Capas do guia são geradas em 800px + variante 400px (ver pipeline de capas).
@@ -12,28 +12,29 @@ function coverSrcset(src: string) {
 }
 
 function ArticleCard({ a, heading = 'h3' }: { a: GuiaArticle; heading?: 'h2' | 'h3' }) {
-  const { t } = useLang();
+  const { t, lang } = useLang();
+  const g = guiaText(a, lang);
   const H = heading;
   return (
     <Reveal>
       <Link to={`/guia/${a.slug}`} className="group block h-full bg-ivory">
         {a.image && (
           <div className="overflow-hidden relative img-zoom" onContextMenu={(e) => e.preventDefault()}>
-            <img src={a.image} {...coverSrcset(a.image)} alt={a.title} loading="lazy" decoding="async" draggable={false}
+            <img src={a.image} {...coverSrcset(a.image)} alt={g.title} loading="lazy" decoding="async" draggable={false}
               width={800} height={533}
               onError={(e) => { (e.currentTarget as HTMLImageElement).style.display = 'none'; }}
               className="w-full object-cover aspect-[3/2]" />
             {/* Etiqueta de categoria sobre a foto de capa */}
             <span className="absolute top-3 left-3 z-10 bg-green-e/90 text-ivory text-[11px] tracking-[0.14em] uppercase px-3 py-1.5">
-              {a.category}
+              {g.category}
             </span>
             <span className="photo-shield" aria-hidden="true" />
           </div>
         )}
         <div className="py-5">
-          {!a.image && <p className="eyebrow text-green-e/50">{a.category}</p>}
-          <H className="mt-2 font-serif-e text-2xl text-green-e group-hover:text-gold transition-colors">{a.title}</H>
-          <p className="mt-2.5 text-sm text-ink/60 leading-relaxed">{a.description}</p>
+          {!a.image && <p className="eyebrow text-green-e/50">{g.category}</p>}
+          <H className="mt-2 font-serif-e text-2xl text-green-e group-hover:text-gold transition-colors">{g.title}</H>
+          <p className="mt-2.5 text-sm text-ink/60 leading-relaxed">{g.description}</p>
           <p className="mt-3.5 text-xs tracking-[0.16em] uppercase text-gold">
             {t.guia.readMore}
           </p>
@@ -46,26 +47,27 @@ function ArticleCard({ a, heading = 'h3' }: { a: GuiaArticle; heading?: 'h2' | '
 // Card do destaque principal: imagem grande à esquerda, texto à direita.
 // A escolha do artigo vem dos metadados (featured: "main"), não do componente.
 function MainCard({ a }: { a: GuiaArticle }) {
-  const { t } = useLang();
+  const { t, lang } = useLang();
+  const g = guiaText(a, lang);
   return (
     <Reveal>
       <Link to={`/guia/${a.slug}`} className="group grid md:grid-cols-2 gap-x-10 gap-y-6 items-center bg-ivory">
         {a.image && (
           <div className="overflow-hidden relative img-zoom" onContextMenu={(e) => e.preventDefault()}>
-            <img src={a.image} {...coverSrcset(a.image)} alt={a.title} loading="lazy" decoding="async" draggable={false}
+            <img src={a.image} {...coverSrcset(a.image)} alt={g.title} loading="lazy" decoding="async" draggable={false}
               width={800} height={533}
               onError={(e) => { (e.currentTarget as HTMLImageElement).style.display = 'none'; }}
               className="w-full object-cover aspect-[3/2]" />
             <span className="absolute top-3 left-3 z-10 bg-green-e/90 text-ivory text-[11px] tracking-[0.14em] uppercase px-3 py-1.5">
-              {a.category}
+              {g.category}
             </span>
             <span className="photo-shield" aria-hidden="true" />
           </div>
         )}
         <div className="py-2">
-          {!a.image && <p className="eyebrow text-green-e/50">{a.category}</p>}
-          <h2 className="mt-2 font-serif-e text-3xl md:text-4xl text-green-e group-hover:text-gold transition-colors leading-tight">{a.title}</h2>
-          <p className="mt-4 text-base text-ink/60 leading-relaxed">{a.description}</p>
+          {!a.image && <p className="eyebrow text-green-e/50">{g.category}</p>}
+          <h2 className="mt-2 font-serif-e text-3xl md:text-4xl text-green-e group-hover:text-gold transition-colors leading-tight">{g.title}</h2>
+          <p className="mt-4 text-base text-ink/60 leading-relaxed">{g.description}</p>
           <p className="mt-5 text-xs tracking-[0.16em] uppercase text-gold">
             {t.guia.readMore}
           </p>
@@ -76,11 +78,11 @@ function MainCard({ a }: { a: GuiaArticle }) {
 }
 
 export default function Guia() {
-  const { t } = useLang();
+  const { t, lang } = useLang();
   const [cat, setCat] = useState<string>('');
   const main = guiaFeaturedMain();
   const secondary = guiaFeaturedSecondary();
-  const categories = guiaUsedCategories();
+  const categories = guiaUsedCategories(lang);
   // Destaques (main + secondary) saem da grade normal quando não há filtro
   // ativo — com filtro, a categoria manda e todos os artigos dela aparecem.
   const featuredSlugs = new Set([main?.slug, ...secondary.map((a) => a.slug)]);
@@ -126,7 +128,7 @@ export default function Guia() {
               <div className="flex flex-wrap gap-2.5">
                 <button className={chip(cat === '')} onClick={() => setCat('')}>{t.guia.all}</button>
                 {categories.map((c) => (
-                  <button key={c} className={chip(cat === c)} onClick={() => setCat(c)}>{c}</button>
+                  <button key={c.pt} className={chip(cat === c.pt)} onClick={() => setCat(c.pt)}>{c.label}</button>
                 ))}
               </div>
             </Reveal>

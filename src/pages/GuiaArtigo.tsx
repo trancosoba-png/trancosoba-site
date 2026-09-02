@@ -4,7 +4,7 @@ import { useLang } from '../i18n';
 import { Reveal } from '../components/Layout';
 import PropertyCard from '../components/PropertyCard';
 import GuiaCta from '../components/GuiaCta';
-import { guiaBySlug, guiaRelated } from '../data/guia';
+import { guiaBySlug, guiaRelated, guiaText } from '../data/guia';
 import { guiaHouses } from '../data/guia-casas';
 import { guiaCtaRegion, guiaCtaRegionFinal, guiaCtaGeneric } from '../data/guia-cta';
 
@@ -50,10 +50,12 @@ export default function GuiaArtigo() {
   };
   const [bodyHtml, midSplit] = useMemo(() => {
     if (!article) return ['', null] as const;
-    const clean = article.image ? stripLeadingH1(article.html) : article.html;
+    const html = guiaText(article, lang).html;
+    const clean = article.image ? stripLeadingH1(html) : html;
     return [clean, splitForMidCta(clean)] as const;
-  }, [article]);
+  }, [article, lang]);
   if (!article) return <Navigate to="/guia" replace />;
+  const g = guiaText(article, lang);
   const related = guiaRelated(article);
 
   // Casas associadas ao artigo pelo mapeamento editorial centralizado de
@@ -83,21 +85,21 @@ export default function GuiaArtigo() {
         <header className="relative h-[62vh] min-h-[420px] max-h-[680px] overflow-hidden" onContextMenu={(e) => e.preventDefault()}>
           <img src={article.image}
             {...(srcSet ? { srcSet, sizes: '100vw' } : {})}
-            alt={article.title} loading="eager" fetchPriority="high" decoding="async" draggable={false}
+            alt={g.title} loading="eager" fetchPriority="high" decoding="async" draggable={false}
             width={1200} height={800} className="absolute inset-0 h-full w-full object-cover" />
           <div className="absolute inset-0 bg-gradient-to-t from-green-e/85 via-green-e/30 to-green-e/10" aria-hidden="true" />
           <div className="relative z-10 mx-auto flex h-full w-full max-w-3xl flex-col justify-end px-5 pb-10 md:px-8 md:pb-14">
-            <p className="eyebrow text-ivory/80">{article.category}</p>
-            <h1 className="mt-3 font-serif-e text-3xl md:text-5xl text-ivory leading-tight">{article.title}</h1>
+            <p className="eyebrow text-ivory/80">{g.category}</p>
+            <h1 className="mt-3 font-serif-e text-3xl md:text-5xl text-ivory leading-tight">{g.title}</h1>
           </div>
           <span className="photo-shield" aria-hidden="true" />
         </header>
       ) : (
         <div className="max-w-3xl mx-auto px-5 md:px-8">
           <Reveal className="mt-8">
-            <p className="eyebrow text-green-e/50">{article.category}</p>
+            <p className="eyebrow text-green-e/50">{g.category}</p>
             <p className="mt-5 mb-10 text-lg md:text-xl text-ink/65 leading-relaxed font-serif-e italic">
-              {article.description}
+              {g.description}
             </p>
           </Reveal>
         </div>
@@ -109,20 +111,20 @@ export default function GuiaArtigo() {
           <span className="mx-2 text-ink/30">›</span>
           <Link to="/guia" className="hover:text-gold transition-colors">{t.guia.breadcrumbGuia}</Link>
           <span className="mx-2 text-ink/30">›</span>
-          <span className="text-ink/70">{article.title}</span>
+          <span className="text-ink/70">{g.title}</span>
         </nav>
 
         {article.image && (
           <p className="mt-6 mb-8 text-lg md:text-xl text-ink/65 leading-relaxed font-serif-e italic">
-            {article.description}
+            {g.description}
           </p>
         )}
 
         {/* Nota editorial sazonal (frontmatter `nota:`): só renderiza quando
             existe informação nova e confirmada — nunca um carimbo automático. */}
-        {article.nota && (
+        {g.nota && (
           <p className="mb-8 border-l-2 border-gold pl-4 text-sm text-ink/60 italic leading-relaxed">
-            {article.nota}
+            {g.nota}
           </p>
         )}
 
@@ -172,9 +174,9 @@ export default function GuiaArtigo() {
         {ctaGeneric && <GuiaCta cta={ctaGeneric} />}
       </div>
 
-      {article.htmlRelated && (
+      {g.htmlRelated && (
         <div className="max-w-3xl mx-auto px-5 md:px-8">
-          <div onClick={onBodyClick} dangerouslySetInnerHTML={{ __html: article.htmlRelated }} />
+          <div onClick={onBodyClick} dangerouslySetInnerHTML={{ __html: g.htmlRelated }} />
         </div>
       )}
 
@@ -190,14 +192,14 @@ export default function GuiaArtigo() {
                 <Link to={`/guia/${a.slug}`} className="group block h-full">
                   {a.image && (
                     <div className="overflow-hidden relative img-zoom" onContextMenu={(e) => e.preventDefault()}>
-                      <img src={a.image} alt={a.title} loading="lazy" decoding="async" draggable={false} className="w-full object-cover aspect-[3/2]" />
+                      <img src={a.image} alt={guiaText(a, lang).title} loading="lazy" decoding="async" draggable={false} className="w-full object-cover aspect-[3/2]" />
                       <span className="photo-shield" aria-hidden="true" />
                     </div>
                   )}
                   <div className="py-5">
-                    <p className="eyebrow text-green-e/50">{a.category}</p>
-                    <h3 className="mt-2 font-serif-e text-2xl text-green-e group-hover:text-gold transition-colors">{a.title}</h3>
-                    <p className="mt-2.5 text-sm text-ink/60 leading-relaxed">{a.description}</p>
+                    <p className="eyebrow text-green-e/50">{guiaText(a, lang).category}</p>
+                    <h3 className="mt-2 font-serif-e text-2xl text-green-e group-hover:text-gold transition-colors">{guiaText(a, lang).title}</h3>
+                    <p className="mt-2.5 text-sm text-ink/60 leading-relaxed">{guiaText(a, lang).description}</p>
                   </div>
                 </Link>
               </Reveal>

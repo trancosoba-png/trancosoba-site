@@ -1,9 +1,9 @@
 import { lazy, Suspense, useEffect, useRef, type ComponentType } from 'react';
 import { Routes, Route, useLocation, useNavigationType } from 'react-router';
-import { LangProvider } from './i18n';
+import { LangProvider, useLang } from './i18n';
 import { PROPERTIES_META } from './data/meta';
 import { collectionById } from './data/collections';
-import { guiaBySlug } from './data/guia';
+import { guiaBySlug, guiaText } from './data/guia';
 import { Header, Footer, WhatsAppFloat } from './components/Layout';
 import { FavoritesProvider } from './data/favorites';
 import { initAnalytics, hasConsent, trackPageView } from './data/analytics';
@@ -67,6 +67,7 @@ function setCanonical(href: string) {
 function TitleManager() {
   const { pathname: rawPath } = useLocation();
   const pathname = rawPath.length > 1 ? rawPath.replace(/\/+$/, '') : rawPath;
+  const { lang } = useLang();
   useEffect(() => {
     const names: Record<string, string> = {
       '/': 'TrancosoBA — Casas extraordinárias em Trancoso',
@@ -104,8 +105,9 @@ function TitleManager() {
     if (!title && pathname.startsWith('/guia/')) {
       const a = guiaBySlug(pathname.split('/guia/')[1]);
       if (a) {
-        title = a.seoTitle || `${a.title} | Guia TrancosoBA`;
-        desc = a.seoDescription || a.description;
+        const g = guiaText(a, lang);
+        title = g.seoTitle || `${g.title} | Guia TrancosoBA`;
+        desc = g.seoDescription || g.description;
         if (a.image) image = `${SITE_URL}${a.image}`;
       }
     }
@@ -133,7 +135,7 @@ function TitleManager() {
     setMeta('name', 'twitter:description', desc);
     setMeta('name', 'twitter:image', image);
     setCanonical(url);
-  }, [pathname]);
+  }, [pathname, lang]);
   return null;
 }
 

@@ -87,9 +87,14 @@ function parseFrontmatter(raw, file) {
 function loadArticles() {
   if (!existsSync(CONTENT_DIR)) return [];
   const files = readdirSync(CONTENT_DIR).filter((f) => f.endsWith('.md')).sort();
+  // Traduções vivem ao lado do artigo-base: <slug>.en.md / <slug>.es.md.
+  // O frontmatter traduzido traz title/description/category/seo*/nota; o slug
+  // precisa ser idêntico ao do artigo-base (é o que amarra a tradução à URL).
+  const baseFiles = files.filter((f) => !/\.(en|es)\.md$/.test(f));
+  const i18nFiles = files.filter((f) => /\.(en|es)\.md$/.test(f));
   const articles = [];
   const slugs = new Set();
-  for (const f of files) {
+  for (const f of baseFiles) {
     const { meta, markdown } = parseFrontmatter(readFileSync(join(CONTENT_DIR, f), 'utf8'), f);
     const required = ['title', 'slug', 'description', 'category', 'publishedAt'];
     for (const k of required) if (!meta[k]) throw new Error(`${f}: metadado obrigatório ausente: ${k}`);
@@ -123,11 +128,42 @@ function loadArticles() {
       markdown,
     });
   }
+  for (const f of i18nFiles) {
+    const lang = f.match(/\.(en|es)\.md$/)[1];
+    const { meta, markdown } = parseFrontmatter(readFileSync(join(CONTENT_DIR, f), 'utf8'), f);
+    const base = articles.find((a) => a.slug === meta.slug);
+    if (!base) throw new Error(`${f}: tradução sem artigo-base (slug "${meta.slug}" não existe em .md PT)`);
+    for (const k of ['title', 'description', 'category']) if (!meta[k]) throw new Error(`${f}: metadado obrigatório ausente na tradução: ${k}`);
+    base[lang] = {
+      title: String(meta.title),
+      description: String(meta.description),
+      category: String(meta.category),
+      seoTitle: meta.seoTitle ? String(meta.seoTitle) : '',
+      seoDescription: meta.seoDescription ? String(meta.seoDescription) : '',
+      nota: meta.nota ? String(meta.nota) : '',
+      markdown,
+    };
+  }
   // Mais recentes primeiro
   articles.sort((a, b) => (a.publishedAt < b.publishedAt ? 1 : -1));
   const mains = articles.filter((a) => a.featured === 'main');
   if (mains.length > 1) throw new Error(`generate-guia: mais de um featured: "main" (${mains.map((a) => a.slug).join(', ')})`);
   return articles;
+}
+
+// Marcador do bloco de relacionados por idioma (o bloco é separado do corpo:
+// a página renderiza as casas da região ENTRE o texto e os relacionados).
+const REL_MARKERS = { pt: '## Conteúdos relacionados', en: '## Related content', es: '## Contenidos relacionados' };
+function splitRel(md, lang) {
+  const idx = md.indexOf(REL_MARKERS[lang]);
+  return idx >= 0
+    ? [md.slice(0, idx).trim(), md.slice(idx).trim()]
+    : [md, ''];
+}
+function i18nEntry(tr, lang, lit) {
+  if (!tr) return 'null';
+  const [bodyMd, relMd] = splitRel(tr.markdown, lang);
+  return `{ title: ${lit(tr.title)}, description: ${lit(tr.description)}, category: ${lit(tr.category)}, seoTitle: ${lit(tr.seoTitle)}, seoDescription: ${lit(tr.seoDescription)}, nota: ${lit(tr.nota)}, html: ${lit(renderArticleHtml(bodyMd))}, htmlRelated: ${lit(relMd ? renderArticleHtml(relMd) : '')} }`;
 }
 
 // ---------------------------------------------------------------------------
@@ -139,22 +175,23 @@ function genContent(articles) {
   // o navegador recebe o HTML pronto e não precisa do react-markdown em runtime.
   const body = `// ARQUIVO GERADO por scripts/generate-guia.mjs (npm run prebuild).
 // Não edite à mão — os artigos vivem em src/content/guia/*.md.
+export interface GuiaArticleI18n {
+  title: string; description: string; category: string;
+  seoTitle: string; seoDescription: string; nota: string;
+  html: string; htmlRelated: string;
+}
 export interface GuiaArticleData {
   title: string; slug: string; description: string; category: string;
   image: string; publishedAt: string; updatedAt: string; nota: string;
   featured: 'main' | 'secondary' | false;
   seoTitle: string; seoDescription: string;
   html: string; htmlRelated: string;
+  en: GuiaArticleI18n | null; es: GuiaArticleI18n | null;
 }
 export const GUIA_ARTICLES: GuiaArticleData[] = [
 ${articles.map((a) => {
-    // O bloco "Conteúdos relacionados" é separado do corpo: a página renderiza
-    // o bloco de casas da região ENTRE o texto e os relacionados.
-    const REL = '## Conteúdos relacionados';
-    const idx = a.markdown.indexOf(REL);
-    const bodyMd = idx >= 0 ? a.markdown.slice(0, idx).trim() : a.markdown;
-    const relMd = idx >= 0 ? a.markdown.slice(idx).trim() : '';
-    return `  { title: ${lit(a.title)}, slug: ${lit(a.slug)}, description: ${lit(a.description)}, category: ${lit(a.category)}, image: ${lit(a.image)}, publishedAt: ${lit(a.publishedAt)}, updatedAt: ${lit(a.updatedAt)}, featured: ${lit(a.featured)}, seoTitle: ${lit(a.seoTitle)}, seoDescription: ${lit(a.seoDescription)}, nota: ${lit(a.nota)}, html: ${lit(renderArticleHtml(bodyMd))}, htmlRelated: ${lit(relMd ? renderArticleHtml(relMd) : '')} },`;
+    const [bodyMd, relMd] = splitRel(a.markdown, 'pt');
+    return `  { title: ${lit(a.title)}, slug: ${lit(a.slug)}, description: ${lit(a.description)}, category: ${lit(a.category)}, image: ${lit(a.image)}, publishedAt: ${lit(a.publishedAt)}, updatedAt: ${lit(a.updatedAt)}, featured: ${lit(a.featured)}, seoTitle: ${lit(a.seoTitle)}, seoDescription: ${lit(a.seoDescription)}, nota: ${lit(a.nota)}, html: ${lit(renderArticleHtml(bodyMd))}, htmlRelated: ${lit(relMd ? renderArticleHtml(relMd) : '')}, en: ${i18nEntry(a.en, 'en', lit)}, es: ${i18nEntry(a.es, 'es', lit)} },`;
   }).join('\n')}
 ];
 `;
